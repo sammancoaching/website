@@ -5,6 +5,8 @@ parent: Working in Small Steps
 nav_order: 3
 ---
 
+# Using TDD to write a Leap Years function
+
 This is often the first exercise I do with new teams. You have to TDD a function that takes an integer argument and returns a boolean. It ends up being a rather small piece of code, just enough to show a few TDD cycles.
 
 The first time I demonstrate this kata I usually don't show triangulation, and only do the four test cases listed in the problem description. That means I go straight to using the modulo operator when implementing the first test case. That keeps the demo shorter, and means you don't need to explain triangulation as a concept.

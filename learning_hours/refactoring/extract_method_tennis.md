@@ -5,6 +5,8 @@ parent: Refactoring
 nav_order: 3
 ---
 
+# Extract Function Refactoring in Tennis1
+
 It's useful to have a vocabularly for talking about refactoring. It will help you to communicate when doing strong-style pairing or mob programming. In this learning hour we'll learn what refactorings are and the names of some of them. We'll also practice applying Extract Function in order to address a Long Function smell.
 
 ## Session Outline
