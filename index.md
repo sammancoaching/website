@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Technical Agile Coaching Materials
+nav_order: 1
 ---
 
 This site contains materials that supplement the book ["Technical Agile Coaching"](https://leanpub.com/techagilecoach) by Emily Bache. One part of this coaching is teaching software development techniques. Many of the pages on this site comprise lesson plans for those teaching sessions. 
