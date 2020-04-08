@@ -26,7 +26,7 @@ github_username:  emilybache
 
 # Build settings
 markdown: kramdown
-theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
 search_enabled: true
 footer_content: "This content is covered by a <a href=\"https://github.com/emilybache/emilybache.github.io/blob/master/LICENSE.md\">CC-BY-SA-4.0 license.</a>"
 plugins:
