@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Testable Design
-nav_order: 5
+nav_order: 4
+parent: Learning Hours
 has_children: true
 ---
 

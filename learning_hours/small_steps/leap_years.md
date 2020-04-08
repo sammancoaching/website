@@ -2,7 +2,8 @@
 layout: default
 title: Using TDD to write a Leap Years function
 parent: Working in Small Steps
-nav_order: 3
+grand_parent: Learning Hours
+nav_order: 1
 ---
 
 # Using TDD to write a Leap Years function

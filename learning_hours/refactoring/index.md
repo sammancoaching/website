@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Refactoring
-nav_order: 3
+nav_order: 2
+parent: Learning Hours
 has_children: true
 ---
 
