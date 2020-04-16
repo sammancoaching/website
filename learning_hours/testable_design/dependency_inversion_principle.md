@@ -2,6 +2,7 @@
 layout: default
 title: The Dependency Inversion Principle
 parent: Testable Design
+grand_parent: Learning Hours
 nav_order: 1
 ---
 
