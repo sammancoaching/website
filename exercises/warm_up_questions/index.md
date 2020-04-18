@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Warm-up Questions
-nav_order: 1
+nav_order: 2
 parent: Exercises
 has_children: true
 ---
