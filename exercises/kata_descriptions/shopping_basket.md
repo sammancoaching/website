@@ -23,3 +23,5 @@ If you buy in bulk, you get a discount:
 - If total value > $100, apply a 5% discount
 - If total value > $200, apply a 10% discount
 
+### Acknowledgements
+I got this kata from Jason Gorman but I have changed it slightly

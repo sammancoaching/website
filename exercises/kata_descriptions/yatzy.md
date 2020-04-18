@@ -118,4 +118,4 @@ For example, when placed on "full house":
 
 
 ### Acknowledgements
-This kata is described on cyber-dojo.org
+This kata is described on cyber-dojo.org but I have changed it slightly

@@ -24,3 +24,6 @@ When you have a single lift working, you may want to tackle these further featur
 - on each floor there is a monitor above each lift door. While the lift is moving it shows which floor it is on.
 - when the lift stops at a floor to answer a call, the monitor shows which direction it will go in.
 - when fulfilling a call, the relevant lift makes a 'DING' as it opens the doors.
+
+### Acknowledgements
+This kata is described on [Kata-Log](https://kata-log.rocks/lift-kata) but I have changed it slightly
