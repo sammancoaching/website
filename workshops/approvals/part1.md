@@ -54,6 +54,8 @@ We work through some exercises and gain experience with the ['Approvals'](https:
 
 ## Part 1
 
+The general idea.
+
 ### Connect - Warm up Questions
 
 Look at these [warm-up questions](../../exercises/warm_up_questions/approval_testing_warm_up_questions.html). Think for yourself then discuss with a pair.
@@ -82,6 +84,8 @@ Have them convert the first test for[Supermarket Receipt](https://github.com/emi
 * Take a break
 
 ## Part 2
+
+Work in small steps.
 
 ### Concept - Characteristics of Approval testing
 
@@ -125,6 +129,8 @@ In small groups, take turns to explain the characteristics of approval testing. 
 
 ## Part 3
 
+Handling tricky output.
+
 ### Connect - Situations where this won't work
 
 In small groups, look through these [Puzzles](https://github.com/emilybache/Approvals-Puzzles). Which ones could you test with approval testing? Which ones would be easier to test a different way?
@@ -160,6 +166,8 @@ Review your choices for the [Puzzles](https://github.com/emilybache/Approvals-Pu
 
 ## Part 4
 
+Sketching.
+
 ### Concept - Sketching
 
 - If actual program output is not yet available, the approved value may be a manual sketch of the expected output.
@@ -170,7 +178,7 @@ Add Tax calculations to the receipt. Sketch it first.
 
 ### Conclusions: walkabout posters & code review
 
-Get people to look through everything we've done today and discuss with someone what they've learnt.
+Get people to look through everything we've done today and discuss with someone what they've learnt. Write answers on the mind-map as sub-nodes.
 
 ### Retrospective: gather observations
 
