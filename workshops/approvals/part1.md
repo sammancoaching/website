@@ -66,7 +66,9 @@ Organize people into groups of 2-3 where they can agree on a programming languag
 
 ### Concept - Demo of Approval testing
 
-Show converting the first test for [Supermarket Receipt](https://github.com/emilybache/SupermarketReceipt-Refactoring-Kata) into an approval test.
+In the starting position for this exercise, [Supermarket-Receipt-Refactoring-Kata](https://github.com/emilybache/SupermarketReceipt-Refactoring-Kata), there is a test that contains quite a few assert statements to check the contents of the Receipt object. In this demo, add a call to 'verify' from an approval testing library that will replace all these assertions. Use the ReceiptPrinter class to print the receipt to a string that you can verify.
+
+Show that all the information that is checked in individual assert statements are present in the printed receipt. This means that the approval test will catch any errors the assertions would have caught. Note that you can re-use the same printer in many tests, so overall it is not going to be more code. Note that test failures are relatively easy to understand when you use a diff tool.
 
 After the demo - get people to "Think and write" their first impressons
 
@@ -75,7 +77,7 @@ After the demo - get people to "Think and write" their first impressons
 
 ### Concrete - Do some approval testing
 
-Have them convert the first test for[Supermarket Receipt](https://github.com/emilybache/SupermarketReceipt-Refactoring-Kata) into an approval test, then write more tests for other kinds of discount.
+Have people work in pairs to repeat what you demonstrated, then add further tests for different scenarios. Point out that there are many kinds of discount that should be checked.
 
 ### Conclusions - How about?
 

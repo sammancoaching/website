@@ -18,7 +18,7 @@ We work through some exercises adding tests to legacy code  using the ['Approval
 
 ## Session Outline
  
-* 5 min connect: read through each other's mind maps
+* 10 min connect: code coverage warm-up questions
 * 2 min connect: Approval Testing Characteristics Stand-Up 
 * 5 min concept: Legacy code and coverage
 * 10 min demo: Coverage in IDE and add tests
@@ -35,16 +35,17 @@ We work through some exercises adding tests to legacy code  using the ['Approval
 
 (short break)
 
-* 10 min connect: Situations where this won't work
-* 10 min concept: Limitations of coverage
+* 5 min connect: Situations where this won't work
+* 5 min concept: Limitations of coverage
 * 10 min concrete: Demo mutation testing
 * 20 min concrete: Do mutation testing
 * 5 min conclusions: Look again at the situations where this won't work
 
 (short break)
 
-* 5 min concept: Extract a function
-* 15 min concrete: Validate and Add Product - extract function
+* 5 min connect: Pure or not?
+* 15 min concept: Validate and Add Product - extract function demo
+* 30 min concrete: do Validate and Add Product
 * 10 min conclusions: walkabout posters & code review
 * 15 min retrospective: gather observations
 
@@ -52,14 +53,13 @@ We work through some exercises adding tests to legacy code  using the ['Approval
 
 Using coverage to add regression tests.
 
-### Connect: read through each other's mind maps
+### Connect: Code coverage warm-up questions
 
-Browse them and update your own mind map if you find something really good
+Look at these [warm-up questions](../../exercises/warm_up_questions/coverage_warm_up_questions.html). Think for yourself then discuss with a pair.
 
 ### Connect: Approval Testing Characteristics Stand-Up 
 
 Read out some statements. People stand up if they agree they are true. (Or give thumbs up)
-
 
 ### Concept: Legacy code and coverage
 
@@ -67,12 +67,15 @@ Slides - what is legacy code, how to test it.  Also: get them to configure their
 
 ### Demo: Coverage in IDE and add tests
 
-Show adding a first test to the [Product Export Refactoring Kata](https://github.com/emilybache/Product-Export-Refactoring-Kata)
+Explain the starting position for [Product Export Refactoring Kata](https://github.com/emilybache/Product-Export-Refactoring-Kata). You want to add tests for ``XMLExporter`` until you have 100% coverage. The starting code contains an empty test that doesn't do anything, but very helpfully, there is some test data available in ``SampleModelObjects``. Write a test case for the first function in ``XMLExporter``, I suggest using Approvals and VerifyXML in particular. Show the coverage. It should be much improved for that function, but not 100%. Leave that for them to fix.
+
+Many IDEs have coverage metrics built in and mark lines of code as covered or not covered in the editor. Before this session make sure you know what tools the team has available to them and take the chance to show them how to use them. For example colour-blind people may need to adjust the IDE settings. 
 
 ### Concrete: Add tests using coverage
 
-Get them to do the same first test and add more to get 100% coverage.
+Have people work in pairs to do the exercise. Help them to set up their IDEs as necessary.
 
+The last function they try to write tests for has a twist. The output varies with every run since it prints today's date. Some pairs will be able to work out a way to handle it, others will ask for help. You probably won't have time to help them fix that in this session, assure them you will tackle it in a later session. Ask them to focus on getting 100% coverage for the other functions for the time being.
 
 ### Conclusions: Describe an algorithm 
 
@@ -135,17 +138,25 @@ Would you feel confident to refactor this code now? Where could you still introd
 
 Review and conclusions
 
-### Concept: Extract a function
+### Connect: Pure or not?
+What are the rules for what functions count as 'pure'? Look at the examples in [Pure-Or-Not-Quizz](https://github.com/emilybache/Pure-Or-Not-Quizz) and mark which ones are pure and which ones aren't. If you get stuck, look at the [Wikipedia article](https://en.wikipedia.org/wiki/Pure_function) describing what a pure function is. 
 
-This is the hardest first step. Slide.
+### Concept: Validate and Add Product - extract function
 
-### Concrete: Validate and Add Product - extract function
+The starting position for [ValidateAndAddProduct-Refactoring-Kata](https://github.com/emilybache/ValidateAndAddProduct-Refactoring-Kata) has an ordinary Approval test to start you off. The coverage is not great, and you'd like to increase it. Combination Approvals would be a good approach since it's one big piece of conditional logic with few side effects.
 
-Show it on another codebase - [ValidateAndAddProduct](https://github.com/emilybache/ValidateAndAddProduct-Refactoring-Kata) 
+Demonstrate extracting a pure function to use with Combination Approvals. The function should take arguments which are all the things you need to vary in order to cover all the logic branches in the production code. The return type should be a string which contains all the important outputs and can be used to verify against.
+
+Note: the branch 'with_tests' includes an example of how to write this function. 
+
+### Concrete: Use Combination Approvals
+Have them complete the Validate and Add Product exercise in pairs. I recommend leaving your code up on the screen while they work on repeating what you just did. Then they should go on and increase the number of combinations until the coverage is 100%.
 
 ### Conclusions: walkabout posters & code review
 
-Get people to look through everything we've done today and discuss with someone what they've learnt. Write answers on the mind-map as sub-nodes.
+Get people to look through everything we've done today and discuss with someone what they've learnt. Write answers on the mind-map as sub-nodes. Review [warm-up questions](../../exercises/warm_up_questions/coverage_warm_up_questions.html)
+
+TODO: mindmap
 
 ### Retrospective: next steps
 
