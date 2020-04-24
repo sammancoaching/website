@@ -23,8 +23,7 @@ We will go through a worked example in small groups and practice doing BDD with 
 ## Session Outline
  
 * 5 min connect: Behaviour Driven Development - share experiences of it
-* 15 min concept: sort activity examples into BDD and not BDD
-* 10 min concept: present Double loop TDD  
+* 25 min concept: BDD tasks and activities game  
 * 10 min concept: explain the Kata and one example
 * 20 min concrete: create examples and formulate scenarios in pairs
 * 10 min conclusions: present scenarios in groups
@@ -56,15 +55,11 @@ Key aspects of BDD: double loop TDD. Do some 'Discovery' and 'Formulation'.
 
 ### Connect: Behaviour Driven Development - share experiences of it
 
-In pairs, tell the other person what you already know about BDD. Have you done it?
+In pairs, tell the other person what you already know about BDD. Have you done it? Sort people into small groups so that hopefully someone in each group knows something about BDD.
 
-### Concept: sort activity examples into BDD and not BDD
+### Concept: BDD tasks and activities game  
 
-Pile of cards describing activities. Which could be part of a BDD process? Sort into two piles. Bonus - arrange the BDD ones into a coherent process sequence.
-
-### Concept: present Double loop TDD  
-
-Explain this picture in [Seb Rose's blog](https://www.linkedin.com/pulse/bdd-tasks-activities-seb-rose/)
+This activity is described [here](../../exercises/games/bdd_tasks_activities.html)
 
 Explain the inner loop is the ordinary Red-Green-Refactor loop that we have in TDD. The outer loop is Failing scenario - Passing scenario - Refactor. The rhythm of the outer loop is slower. A scenario exercises a thicker chunk of code than a unit test. A scenario is understandable by everyone in the team, including business representatives.
 
