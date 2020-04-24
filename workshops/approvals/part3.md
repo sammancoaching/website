@@ -133,11 +133,22 @@ Domain Specific Languages
 
 ### Concept: Domain Specific Languages
 
-TODO: examples
+Ask them to search the internet for examples of Domain Specific Languages. They should find things like:
+
+* Regular Expressions
+* plantUML
+* SQL
+* Musical Notation
+* Gherkin
 
 ### Concrete: Sketching scenarios in a DSL
 
-TODO: example scenarios to sketch
+Give scenarios to groups and ask them to sketch one or two test cases for each scenario
+
+* 10-pin bowling scores
+* Tic-Tac-Toe
+* Conway's Game of Life
+* Minesweeper
 
 ### Conclusions: walkabout posters & code review
 
