@@ -111,16 +111,49 @@ Using mutation testing to further improve the tests we add this way. Talk about 
 
 ### Connect: Situations where this won't work
 
-* 10 min concept: Limitations of coverage
-* 10 min concrete: Demo mutation testing
-* 20 min concrete: Do mutation testing
-* 5 min conclusions: Look again at the situations where this won't work
+In pairs, discuss weaknesses with the tests we've written. Would you feel confident to refactor this code now? Where could you still introduce bugs the tests wouldn't find? 
+
+### Concept: Limitations of coverage
+
+Slides explaining covered != bug free and uncovered != buggy. Also introduce mutation testing.
+
+
+### Concrete: Demo mutation testing
+
+Do it by hand in [Gilded Rose](https://github.com/emilybache/GildedRose-Refactoring-Kata).
+
+
+### Concrete: Do mutation testing
+
+Everyone have a go
+
+### Conclusions: Look again at the situations where this won't work
+
+Would you feel confident to refactor this code now? Where could you still introduce bugs the tests wouldn't find? 
 
 ## Part 4
 
 Review and conclusions
 
-* 5 min concept: Extract a function
-* 15 min concrete: Validate and Add Product - extract function
-* 10 min conclusions: walkabout posters & code review
-* 15 min retrospective: gather observations
+### Concept: Extract a function
+
+This is the hardest first step. Slide.
+
+### Concrete: Validate and Add Product - extract function
+
+Show it on another codebase - [ValidateAndAddProduct](https://github.com/emilybache/ValidateAndAddProduct-Refactoring-Kata) 
+
+### Conclusions: walkabout posters & code review
+
+Get people to look through everything we've done today and discuss with someone what they've learnt. Write answers on the mind-map as sub-nodes.
+
+### Retrospective: next steps
+
+Everyone spends 3 minutes writing notes. What will I
+
+* start doing now
+* continue doing now
+* want to learn more about
+
+Go round and everyone say something. Yes, and. No questioning other people's conclusions.
+
