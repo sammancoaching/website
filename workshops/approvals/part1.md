@@ -102,7 +102,7 @@ Any remaining unanswered questions from the 'How about' board? Either handle the
 
 ### Concrete - update some existing tests
 
-Practice using the diff tool to inspect differences and approve those that aren't bugs. Use the java version of [Supermarket Receipt](https://github.com/emilybache/SupermarketReceipt-Refactoring-Kata) on the 'with_broken_tests' branch.
+Practice using the diff tool to inspect differences and approve those that aren't bugs. Use the java version of [Supermarket Receipt](https://github.com/emilybache/SupermarketReceipt-Refactoring-Kata) on the 'with_broken_tests' branch. Note down any bugs you find and any features you find. Approve output and fix bugs as you find them.
 
 ### Concept - Approval testing detects both bugs and features
 
@@ -114,16 +114,17 @@ Explain what 'over-specified' tests are and why they could be bad.
 
 ### Concrete - Update tests making one change at a time
 
-Use the java version of [Supermarket Receipt](https://github.com/emilybache/SupermarketReceipt-Refactoring-Kata) starting on the 'with_tests' branch. For each file in turn, look at a diff with the "with_broken_tests" branch.
+Use the java version of [Supermarket Receipt](https://github.com/emilybache/SupermarketReceipt-Refactoring-Kata) starting on the 'with_tests' branch. Cherry pick each of these hashes in turn. After each cherry pick, note down if you find a feature or a bug in this change. Approve tests and change code as necessary to approve the output or fix each bug.
 
-* Product
-* REceiptItem
-* ReceiptPrinter
-* ReceiptPrinterTest
-* ShoppingCart
-* ShoppingCartTest
+Note: this repo [ApprovalTools](git@github.com:emilybache/ApprovalTools.git) has some useful little scripts such as 'Approve all'.
 
-Introduce these changes into your branch one at a time, in the order listed above. Update the tests as needed after each change.
+* 9b036862feb7efbf34fae3d380918db01be08bf5
+* 632ccea3a108706028213bb27de5ea551120cb24
+* 674fe04535b65d9c729afa9528528924eba7ff8f
+* 1eb11ac5e7c224306fb76b0d197803867f61ff6f
+* 588c4546913ddbb532247efc5dced5f4b81544e8
+
+By the end, your code should look the same as the branch "with_broken_tests". Note observations on sticky notes.
 
 ### Conclusions - explain characteristics to someone else 
 
