@@ -116,13 +116,13 @@ Explain what 'over-specified' tests are and why they could be bad.
 
 Use the java version of [Supermarket Receipt](https://github.com/emilybache/SupermarketReceipt-Refactoring-Kata) starting on the 'with_tests' branch. Cherry pick each of these hashes in turn. After each cherry pick, note down if you find a feature or a bug in this change. Approve tests and change code as necessary to approve the output or fix each bug.
 
-Note: this repo [ApprovalTools](git@github.com:emilybache/ApprovalTools.git) has some useful little scripts such as 'Approve all'.
+Note: this repo [ApprovalTools](https://github.com/emilybache/ApprovalTools) has some useful little scripts such as [approve_all.py](https://raw.githubusercontent.com/emilybache/ApprovalTools/master/approve_all.py) You could usefully put it in your /usr/local/bin.
 
-* 9b036862feb7efbf34fae3d380918db01be08bf5
-* 632ccea3a108706028213bb27de5ea551120cb24
-* 674fe04535b65d9c729afa9528528924eba7ff8f
-* 1eb11ac5e7c224306fb76b0d197803867f61ff6f
-* 588c4546913ddbb532247efc5dced5f4b81544e8
+	git cherry-pick 9b036862feb7efbf34fae3d380918db01be08bf5
+	git cherry-pick 632ccea3a108706028213bb27de5ea551120cb24
+	git cherry-pick 674fe04535b65d9c729afa9528528924eba7ff8f
+	git cherry-pick 1eb11ac5e7c224306fb76b0d197803867f61ff6f
+	git cherry-pick 588c4546913ddbb532247efc5dced5f4b81544e8
 
 By the end, your code should look the same as the branch "with_broken_tests". Note observations on sticky notes.
 
