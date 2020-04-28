@@ -24,7 +24,7 @@ We work through some exercises and gain experience with the ['Approvals'](https:
  
 * 10 min connect: Approval Testing warm up questions 
 * 10 min connect: Short introductions and form groups
-* 15 min concept: Demo
+* 10 min concept: Demo
 * 30 min concrete: Do some approval testing
 * 5 min conclusions: How about?
 
@@ -34,16 +34,19 @@ We work through some exercises and gain experience with the ['Approvals'](https:
 * 10 min concept: Characteristics of Approval testing
 * 10 min concrete: Update some existing tests
 * 5 min concept: Approval testing detects both bugs and features
-* 15 min concrete: Update tests making one change at a time
-* 10 min conclusions: explain characteristics to someone else
+* 20 min concrete: Update tests making one change at a time
+* 10 min conclusions: explain characteristics to someone else or on sticky notes
 
 (short break)
 
-* 10 min connect: Situations where this won't work
-* 10 min concept: Pre-comparison processing
+* 10 min connect: introduce Approvals Puzzles
+* 5 min concept: Pre-comparison processing
 * 20 min concrete: Do some pre-comparison processing
 * 15 min concrete: Demo pre-comparison processing
-* 10 min conclusions: Look again at the situations where this won't work
+* 5 min conclusions: Strategies for varying output
+* 5 min concept: Text-Based testing
+* 10 min concrete: Demo Approvals Puzzles
+
 
 (short break)
 
@@ -128,7 +131,7 @@ By the end, your code should look the same as the branch "with_broken_tests". No
 
 ### Conclusions - explain characteristics to someone else 
 
-In small groups, take turns to explain the characteristics of approval testing. How does it change the way you work?
+In small groups, take turns to explain the characteristics of approval testing. How does it change the way you work? Alternative - write sticky notes
 
 ## Part 3
 
