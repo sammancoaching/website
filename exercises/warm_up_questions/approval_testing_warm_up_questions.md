@@ -14,7 +14,7 @@ Mark each statement below as true or false. After the session, come back to this
 |   |                                                                                                                           |True|False|
 |---|---------------------------------------------------------------------------------------------------------------------------|----|-----|
 |  1| As a rule of thumb, unit tests should contain only _one_ assertion in each test case. |    |     |
-|  2| Approval testing is defined by the ISTQB as 'Testing used to co-ordinate multiple test levels or test types' |    |     |
+|  2| Approval testing is defined by the ISTQB standards organization as 'Testing used to co-ordinate multiple test levels or test types' |    |     |
 |  3| "Expert Checks Output" is an antipattern for automated testing. Tests should check their own results and report pass or fail without any need for an expert. |    |     |
 |  4| You should have at least one unit test for each code branch in the unit under test. |    |     |
 |  5| If you test several code units together in the same test, this test will be more fragile and costly to maintain compared with several unit tests, each focussed on one unit |    |     |
