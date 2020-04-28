@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Solving Gilded Rose
-parent: Legacy
+parent: Legacy Code
 grand_parent: Learning Hours
 nav_order: 2
 ---

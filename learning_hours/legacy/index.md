@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Legacy code
+title: Legacy Code
 nav_order: 5
 parent: Learning Hours
 has_children: true
