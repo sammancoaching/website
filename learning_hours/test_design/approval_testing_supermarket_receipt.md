@@ -3,7 +3,7 @@ layout: default
 title: Approval Testing
 parent: Test Design
 grand_parent: Learning Hours
-nav_order: 2
+nav_order: 5
 ---
 
 # Approval Testing plain text strings with Verify
