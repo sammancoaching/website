@@ -186,6 +186,18 @@ Add Tax calculations to the receipt. Sketch it first.
 
 Get people to look through everything we've done today and discuss with someone what they've learnt. Write answers on the mind-map as sub-nodes.
 
+Nodes on the mindmap:
+
+* When should an Approval Test fail?
+* How do you create a new Approval Test?
+* Is an Approval Test a kind of unit test?
+* Where should you store Approved output?
+* Can I combine approvals and assertions in the same test case?
+* Can you use Approval testing with all kinds of program output?
+* Can you write Approval tests for a program that doesn't exist yet?
+* How should you update a program that has Approval tests?
+* How should you update Approved output?
+
 ### Retrospective: gather observations
 
 Ask people to note down what has happened today in these categories:

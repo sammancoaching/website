@@ -156,7 +156,14 @@ Have them complete the Validate and Add Product exercise in pairs. I recommend l
 
 Get people to look through everything we've done today and discuss with someone what they've learnt. Write answers on the mind-map as sub-nodes. Review [warm-up questions](../../exercises/warm_up_questions/coverage_warm_up_questions.html)
 
-TODO: mindmap
+Mind map questions:
+
+* What is Legacy code?
+* What do you need to do before you can add Approval tests to legacy code?
+* What is Code Coverage useful for?
+* What is Mutation Testing useful for?
+* What are Pure Functions useful for?
+* What is the difference between Combination Approvals and ordinary Approvals?
 
 ### Retrospective: next steps
 
