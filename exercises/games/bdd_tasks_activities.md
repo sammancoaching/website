@@ -14,7 +14,7 @@ The purpose of the exercise is to get people to understand the main elements of 
 
 Having said that, BDD doesn't usually involve creating detailed requirements documents. Not all the tasks and activities are wise to include!
 
-This material was inspired by [Seb Rose's article](https://www.linkedin.com/pulse/bdd-tasks-activities-seb-rose/)
+This material was inspired by [Seb Rose's article](http://bddbooks.com/articles/bdd-tasks-and-activities.html)
 
 ## Instructions
 

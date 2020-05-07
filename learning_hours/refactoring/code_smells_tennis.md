@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Replace Conditional With Polymorphism
+title: Code Smells
 parent: Refactoring
 grand_parent: Learning Hours
 nav_order: 4
