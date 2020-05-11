@@ -168,7 +168,12 @@ Give scenarios to groups and ask them to sketch one or two test cases for each s
 
 Get people to look through everything we've done today and discuss with someone what they've learnt. Write answers on the mind-map as sub-nodes. Mindmap statements
 
-* 
+* Why is readability important in test design?
+* What is a Domain Specific Language?
+* What is at the heart of Behaviour-Driven Development?
+* How is BDD different when using Approvals compared with Gherkin?
+* What should you keep in mind when formulating a scenario?
+* What are the main elements of a BDD process?
 
 ### Retrospective: gather observations
 
