@@ -170,7 +170,7 @@ Get people to look through everything we've done today and discuss with someone 
 
 * Why is readability important in test design?
 * What is a Domain Specific Language?
-* What is at the heart of Behaviour-Driven Development?
+* How do you determine if someone is a member of the BDD community?
 * How is BDD different when using Approvals compared with Gherkin?
 * What should you keep in mind when formulating a scenario?
 * What are the main elements of a BDD process?
