@@ -32,6 +32,28 @@ Review code in master branch for [TimerExpiryRefactoringKata](https://github.com
 
 Build a test for the IDT timer in both googletest and in catch2.
 
+	TEST_F(TimerExpiryTest, IDT_Timer) {
+	    set_duration_meas_active(timerConfig, true);
+	    set_duration_meas(timerConfig, 1);
+	    set_duration_meas_start(timerConfig, now_sec - 1);
+	    set_last_pkt_time(timerConfig, now_sec);
+	    set_idt_alarm_time(timerConfig, 3);
+
+	    how_long_until_next_timer_expiry(timerConfig, now_sec, &min_value_ms);
+	    EXPECT_EQ(3000, min_value_ms);
+	}
+
+	SECTION("idt timer")
+    {
+        set_duration_meas_active(timerConfig, true);
+        set_duration_meas(timerConfig, 1);
+        set_duration_meas_start(timerConfig, now_sec - 1);
+        set_last_pkt_time(timerConfig, now_sec);
+        set_idt_alarm_time(timerConfig, 3);
+        how_long_until_next_timer_expiry(timerConfig, now_sec, &min_value_ms);
+        REQUIRE(min_value_ms == 3000);
+    }
+
 # Concrete: create more tests for TimerExpiry
 
 Hand over to them to build more tests in catch2.
