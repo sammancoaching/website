@@ -12,7 +12,7 @@ This learning hour is for C++ and would need adapting if you are using a differe
 
 ## Session Outline
 
-* 5 min connect: What is a test fixture for
+* 1 min connect: What is a test fixture for
 * 5 min connect: Review test fixture written in GoogleTest 
 * 10 min demo: Sections for TimerExpiry
 * 20 min concrete: create more tests for TimerExpiry
@@ -21,7 +21,7 @@ This learning hour is for C++ and would need adapting if you are using a differe
 
 # Connect: What is a test fixture for 
 
-Write down some situations where you'd use a test fixture. What are they for? 
+I want 3 reasons to write a test fixture. Make sure they come up with 3 reaons before you proceed. 
 
 # Connect: review test fixture in GoogleTest
 

@@ -121,11 +121,12 @@ Use the java version of [Supermarket Receipt](https://github.com/emilybache/Supe
 
 Note: this repo [ApprovalTools](https://github.com/emilybache/ApprovalTools) has some useful little scripts such as [approve_all.py](https://raw.githubusercontent.com/emilybache/ApprovalTools/master/approve_all.py) You could usefully put it in your /usr/local/bin.
 
-	git cherry-pick 9b036862feb7efbf34fae3d380918db01be08bf5
-	git cherry-pick 632ccea3a108706028213bb27de5ea551120cb24
-	git cherry-pick 674fe04535b65d9c729afa9528528924eba7ff8f
-	git cherry-pick 1eb11ac5e7c224306fb76b0d197803867f61ff6f
-	git cherry-pick 588c4546913ddbb532247efc5dced5f4b81544e8
+	git cherry-pick 6e73705154fd945875fb836fba03da32a171bd74
+	git cherry-pick 46b17c8a7917086ce73b7ff2009f8353c1254ea5
+	git cherry-pick 2492b6040cd180e93e2173a4f9414f238ea96310
+	git cherry-pick 9e3147930ecd6205979c62ddfeb45c92ba0006b6
+	git cherry-pick 5a0f827fccac93c47f3b28d01d297e27452387a5
+	git cherry-pick 9c08c046db25194df6ffaece5d21e076b9a62899
 
 By the end, your code should look the same as the branch "with_broken_tests". Note observations on sticky notes.
 
