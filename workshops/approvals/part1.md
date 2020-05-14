@@ -39,13 +39,19 @@ We work through some exercises and gain experience with the ['Approvals'](https:
 
 (short break)
 
-* 10 min connect: introduce Approvals Puzzles
-* 5 min concept: Pre-comparison processing
-* 20 min concrete: Do some pre-comparison processing
-* 15 min concrete: Demo pre-comparison processing
+* 2 min connect: is testability an architectural concern?
+* 10 min concrete: analyse the problem
+* 10 min concrete: Demo pre-comparison processing
+* 20 min concrete: fix the problem your own way
+* 10 min concept: Pre-comparison processing
+* 5 min conclusions: Strategies for testability
+
+(short break)
+
+* 15 min connect: introduce Approvals Puzzles
+* 10 min concept: Text-Based testing
+* 15 min concrete: Demo Approvals Puzzles
 * 5 min conclusions: Strategies for varying output
-* 5 min concept: Text-Based testing
-* 10 min concrete: Demo Approvals Puzzles
 
 
 (short break)
