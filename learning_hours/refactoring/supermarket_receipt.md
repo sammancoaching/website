@@ -24,13 +24,13 @@ What are you hoping to achieve, when you sit down to refactor some code? What is
 
 ## Concept: Refactoring conditionals
 
-Examples of behaviour-preserving transformations for conditionals. 
+Examples of behaviour-preserving transformations for conditionals. I started a [repo](https://github.com/emilybache/Refactor-Conditionals) for some of these. 
 
 * De Morgan's law
-* Normalize Conditional
 * Split & join if statements
 * Two statements in one if statement -> two if statements (specialization of 'Split Loop')
 * redundant 'else' when followed by one more if
+* Normalize Conditional
 
 ## Demo: show the patterns and the shape of the refactoring
 
