@@ -46,16 +46,9 @@ Explain what 'over-specified' tests are and why they could be bad.
 
 ### Concrete - Update tests making one change at a time
 
-Use the java, python or C++ version of [Supermarket Receipt](https://github.com/emilybache/SupermarketReceipt-Refactoring-Kata) starting on the 'with_tests' branch. Cherry pick each of these hashes in turn. After each cherry pick, note down if you find a feature or a bug in this change. Approve tests and change code as necessary to approve the output or fix each bug.
+Use the java, python or C++ version of [Supermarket Receipt](https://github.com/emilybache/SupermarketReceipt-Refactoring-Kata) starting on the 'break_tests_incremental' branch. Follow the instructions in the README file to apply changes one by one. After each change, note down if you find a feature or a bug. Approve tests and change code as necessary to approve the output or fix each bug.
 
 Note: this repo [ApprovalTools](https://github.com/emilybache/ApprovalTools) has some useful little scripts such as [approve_all.py](https://raw.githubusercontent.com/emilybache/ApprovalTools/master/approve_all.py) You could usefully put it in your /usr/local/bin.
-
-	git cherry-pick 6e73705154fd945875fb836fba03da32a171bd74
-	git cherry-pick 46b17c8a7917086ce73b7ff2009f8353c1254ea5
-	git cherry-pick 2492b6040cd180e93e2173a4f9414f238ea96310
-	git cherry-pick 9e3147930ecd6205979c62ddfeb45c92ba0006b6
-	git cherry-pick 5a0f827fccac93c47f3b28d01d297e27452387a5
-	git cherry-pick 9c08c046db25194df6ffaece5d21e076b9a62899
 
 By the end, your code should look the same as the branch "with_broken_tests". Note observations on sticky notes.
 
