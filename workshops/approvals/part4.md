@@ -33,6 +33,19 @@ _short break_
 * 5 min Demo: show sample solution
 * 5 min Conclusions: Would this work in other situations?
 
+_short break_
+
+* Connect: Your experiences testing microservices
+* Concept: Empowered teams and test strategy
+* Concrete: End-to-end functional test example
+* Conclusions: What is simpler what is harder with approvals
+
+_short break_
+
+* Connect: Who to ask when a test fails?
+* Concept: Tracing for debugging
+* Concrete: Examine example traces to find buggy service
+* Conclusions: Distributed tracing in an approval test?
 
 
 ## Connect: What are the characteristics of a microservice architecture?
@@ -89,14 +102,50 @@ My best efforts are in the 'with_tests' branch
 If you had a different microservice in a different application, what have you learnt today that you could apply to it?
 
 
-## What I'd like to do for the rest of this workshop
+_short break_
 
-* explain my experience testing several microservices together at Pagero. I have some slides for this from a previous presentation
-* exercise - write some approval tests for several microservices all running together. Using texttest. Use jaeger tracing as part of the test baseline and for debugging. This part is much less prepared. I have found a demo application "Hot ROD" which is the demo for the book "Mastering Distributed Tracing" by Yuri Shkuro. I am evaluating whether I could use it. I am also looking at a more extensive application which is more fun and has more test-possibilities [Robot Shop](https://github.com/emilybache/robot-shop). That one uses instana for tracing instead of jaeger. I'd prefer to use jaeger though. Another idea is to write my own demo application which is optimized for demoing exactly the thing I want to show - that is, debugging a test case using distributed tracing.
+## Connect: Your experiences testing microservices
 
-## Notes
+Have you ever worked with a microservices architecture? Did you have any end-to-end tests?
 
-Get Jaeger and the example application from this page: https://github.com/jaegertracing/jaeger/releases/tag/v1.6.0/. Unzip it somewhere
+## Concept: Empowered teams and test strategy
 
-	tar xvfz jaeger-1.6.0-darwin-amd64.tar.gz
+slides about my experiences and Accelerate research
+
+## Concrete: End-to-end functional test example
+
+Using [BeeFriendly](https://github.com/emilybache/BeeFriendly). Examine the existing test and write another one. 
+
+## Conclusions: What is simpler what is harder with approvals
+
+Particularly looking at the use_case.py file. How does this compare with other selenium tests you've seen and worked with?
+
+_short break_
+
+## Connect: Who to ask when a test fails?
+
+Has this ever been a problem for you?
+
+## Concept: Tracing for debugging
+
+Slides about my own experiences
+
+## Concrete: Examine example traces to find buggy service
+
+Using [BeeFriendly](https://github.com/emilybache/BeeFriendly). Register for a newsletter and examine the trace with jaeger. Which service is buggy?
+
+## Conclusions: Distributed tracing in an approval test?
+
+What do you think about using distributed tracing as part of the approval test?
+
+## Session conclusions
+
+Mind map questions
+- What kinds of test would you normally include in a microservices test strategy?
+- what is an empowered team?
+- What is distributed tracing for?
+- Are there any risks specific to microservices applications that testing should address?
+- How does it change a selenium test case if you use approvals to verify the html?
+- What printers do you need in a microservices architecture?
+
 
