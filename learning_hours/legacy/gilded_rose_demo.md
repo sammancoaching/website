@@ -20,7 +20,7 @@ This is some really horrible legacy code, and it is so satisfying to refactor it
 In pairs, spend a couple of minutes identifying strategies you would use when presented with code you don't understand, that doesn't have tests, that you need to change.
 
 ### Demo Gilded Rose
-The code for [The Gilded Rose Refactoring Kata](https://github.com/emilybache/GildedRose-Refactoring-Kata) is available in many programming languages. Spend a few minutes explaining the scenario. Mention the new feature that's needed, and the guy that will get angry if you change his code. 
+The code for [The Gilded Rose Refactoring Kata](https://github.com/emilybache/GildedRose-Refactoring-Kata) is available in many programming languages. Spend a few minutes explaining the scenario, perhaps get people to read the [requirements](https://github.com/emilybache/GildedRose-Refactoring-Kata/blob/master/GildedRoseRequirements.txt). Mention the new feature that's needed, and the goblin who will get angry if you change his code. 
 
 Show the horrible code, and the lack of tests. Get the initial test to pass, and explain why it's not a very good test. 
 

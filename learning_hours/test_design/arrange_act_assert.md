@@ -22,7 +22,7 @@ No-one wants buggy test code that could hide bugs in the production code. So wha
 * 5 min reflect: code review
 
 ### Connect: Review sample code
-Pin up some code samples around the room. Some follow Arrange-Act-Assert structure, some don't. Have them review the code and vote with their feet which is most and least likely to contain bugs.
+Pin up some code samples around the room. For example [Mars Rover Kata Sample Tests](https://github.com/emilybache/MarsRover-Sample-Tests). Some follow Arrange-Act-Assert structure, some don't. Have them review the code and vote with their feet which is most and least likely to contain bugs.
 
 ### Concept: Arrange - Act - Assert
 Bring up the code sample with the best AAA structure and go through it. Explain how it makes the test code eaiser to read and less likely to have bugs in. Explain why that's important.
@@ -39,4 +39,4 @@ Review your test code and compare it with your production code. Are you clever e
 - Cyclomatic Complexity
 - Consistent Abstraction Levels
 
-Hopefully the test code is readable, low complexity, and uses a consistent abstraction level throughout each test case. Your production code should also be readable and have consistent levels of abstraction within a method. It will may have higher cyclomatic complexity though. Are there any other differences?
+Hopefully the test code is readable, low complexity, and uses a consistent abstraction level throughout each test case. Your production code should also be readable and have consistent levels of abstraction within a method. It may have higher cyclomatic complexity though. Are there any other differences?

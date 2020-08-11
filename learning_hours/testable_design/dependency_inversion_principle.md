@@ -19,7 +19,7 @@ This is one of the 5 SOLID principles outlined in Robert C. Martin's book "Agile
 * 15 min do: TirePressure in pairs 
 * 5 min concept: why is this hard to test?
 * 15 min do: TirePressure in pairs
-* 5 min conclusions: descript DIP in own words 
+* 5 min conclusions: describe DIP in own words 
 
 ### Connect
 Find a pair to work with today. Do you know any design principles? When you are designing your code what sorts of things do you keep in mind?

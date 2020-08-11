@@ -34,7 +34,7 @@ Note: the branch 'with_tests' includes an example of how to write this function.
 ### Do: Use Combination Approvals
 Have them complete the exercise in pairs. I recommend leaving your code up on the screen while they work on repeating what you just did. Then they should go on and increase the number of combinations until the coverage is 100%.
 
-### Reflect:
+### Reflect
 Hand round large sticky notes in different colours (red and green perhaps) and ask each pair to note:
 
 - Advantages of Combination Approvals on one colour

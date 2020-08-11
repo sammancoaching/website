@@ -25,7 +25,7 @@ Have people note down names of refactorings that they know already.
 ### Refactoring definition
 Put up Martin Fowler's definitions of Refactoring as a noun and verb on a projector screen or write them on a flipchart. Explain how you understand these definitions. You could point out the code shouldn't break while you refactor, and the reason to refactor is primarily economic not moral. You could mention that as you refactor you take a series of small steps and can commit and share your work after any completed step.
 
-### review code
+### Review code
 Have them review the code in "Tennis1" in [The Tennis Refactoring Kata](https://github.com/emilybache/Tennis-Refactoring-Kata), and think about what refactorings they might want to apply to this code. The idea is just to read the code at this point, not change it.
 
 When they've looked at the code, go through their suggestions. Tell them the 'official' name (from Fowler's book) if they don't know what the refactoring is called.

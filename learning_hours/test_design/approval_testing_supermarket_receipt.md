@@ -8,7 +8,7 @@ nav_order: 5
 
 # Approval Testing plain text strings with Verify
 
-One reason to use approval testing is to avoid writing a lot of repetitive assertion code. When you have legacy code often the units you can isolate are larger than the units you get with ordinary TDD. This means the unit tests could have a lot of assertions in them, to check every aspect of the unit under test. Instead of writing a lot of assertions, approval testing gives you another approach. You print the state of the object you want to check, and pass it to a verify function. In this case a Printer already exists as part of the production code, so you don't even need to write your own.
+One reason to use approval testing is to avoid writing a lot of repetitive assertion code. When you have legacy code often the units you can isolate are larger than the units you get with ordinary TDD. This means the unit tests could have a lot of assertions in them, to check every aspect of the unit under test. Instead of writing a lot of assertions, approval testing gives you another approach. You print the state of the object you want to check, and pass it to a verify function. In today's exercise, SupermarketReceipt, a Printer already exists as part of the production code so you don't need to write your own.
 
 This is an introduction to Approval testing and the aim is people will come away understanding the basic mechanism. They should understand that the test fails the first time because there is nothing approved to compare against. They should understand that one 'verify' can replace many assertions.
 

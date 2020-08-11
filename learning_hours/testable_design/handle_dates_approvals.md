@@ -48,6 +48,12 @@ There are several points you can fix the output to make it suitable to use for a
 * In the printer. Have it configurable so it doesn't print every field
 * Before you hand the complex object to the printer, remove or modify problematic fields.
 
+For documentation for using Scrubbers:
+
+* [Java](https://github.com/approvals/ApprovalTests.Java/blob/master/approvaltests/docs/Scrubbers.md)
+* [C++](https://approvaltestscpp.readthedocs.io/en/latest/generated_docs/explanations/Scrubbers.html)
+* Python doesn't support it yet
+
 ### Conclusions
 
 Which strategy do you prefer? Is it acceptable to change the production code to improve testability?

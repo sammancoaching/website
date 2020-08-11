@@ -36,7 +36,16 @@ You might want to select some code snippets from the actual codebase the group i
 ### Demo
 Show the plain vanilla TDD implementation of Leap Years first. Don't forget the first step, which is writing up the four test cases on the whiteboard. Implementing the whole Kata only takes a few minutes, and they will probably have seen it before in a previous session. Show it to them again so they remember better.
 
-Start over from scratch and demo another testing style. For ideas about what testing styles you could show, see my repo of [LeapYearTestExamples](https://github.com/emilybache/LeapYearTestExamples).
+Start over from scratch and demo another testing style. For example:
+
+- With Hamcrest matchers
+- RSpec style "in context ... it should ..."
+- Parameterized or Data-driven
+- Gherkin syntax, "Given-When-Then"
+- Approvals
+- Property-based testing
+
+For concrete ideas, see my repo of [LeapYearTestExamples](https://github.com/emilybache/LeapYearTestExamples).
 
 Since LeapYears is a relatively small problem to solve, probably any other approach than standard TDD looks like overkill. You might want to explain that people should focus on what the approach looks like rather than whether it is appropriate for this problem. You're using a problem they are familiar with so they can focus on something else.
 
