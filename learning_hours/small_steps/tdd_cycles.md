@@ -24,7 +24,7 @@ Ask participants: What are three things you already know about TDD? Tell them to
 
 ### Concept: TDD Cycle
 
-Bring up an example cyber-dojo screenshot with some traffic lights. Show a TDD cycle. Explain you would like them to be short and fairly regular.
+Bring up an example cyber-dojo screenshot with some [traffic lights](https://emilybache.github.io/assets/images/cyber_dojo_traffic_lights.png). Show a TDD cycle. Explain you would like them to be short and fairly regular.
 
 ### Concrete: Do some TDD cycles
 Pick an exercise, for example on cyber-dojo. Ask them to work on it.
