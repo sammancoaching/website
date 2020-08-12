@@ -32,6 +32,8 @@ Practice writing new test cases with an Arrange-Act-Assert structure.
 
 Choose a kata where there is some setup and it's hard to write the whole test on one line. For example Mars Rover needs some kind of Rover class which you 'Arrange' into an initial state, before you 'Act' and call a method on it, then 'Assert' the state of the rover is correct.
 
+If you've previously done a ['test list'](https://emilybache.github.io/learning_hours/small_steps/test_list.html) learning hour on this kata you could remind them of it and distribute the list you made that time.
+
 ### Reflect: Code Review
 Review your test code and compare it with your production code. Are you clever enough to debug your production code? What about your test code? Look at aspects such as:
 
