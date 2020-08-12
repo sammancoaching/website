@@ -14,5 +14,5 @@ _Start by reading the requirements carefully. When you've understood them, write
 
 ## Consequences
 
-This is not really a test-driven approach, is it? By writing the solution code first you lose the opportunity for the tests to influence your design. You may write more code than is needed to fulfill the requirements since you have no tests to guide you. In the end your tests may become tightly coupled to your implementation and difficult to maintain as the design evolves. I'd recommend a more test-oriented analysis of the requirements. Take a look at [Option B]() for more information.
+This is not really a test-driven approach, is it? By writing the solution code first you lose the opportunity for the tests to influence your design. You may write more code than is needed to fulfill the requirements since you have no tests to guide you. In the end your tests may become tightly coupled to your implementation and difficult to maintain as the design evolves. I'd recommend a more test-oriented analysis of the requirements. Take a look at [Option B](https://emilybache.github.io/exercises/consequences/tdd_overview_B.html) for more information.
 
