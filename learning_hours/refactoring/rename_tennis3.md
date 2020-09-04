@@ -20,7 +20,7 @@ In this session we talk about what refactoring is and why we do it. We work on i
 
 
 ### Discuss Misconceptions
-Create a handout with a number of statements about refactoring, which are controvertial, wrong, or only partially true. Ask people to discuss them in small groups and decide whether each statement is true or false. In the 'materials' section there is a sample page of questions you could use.
+Create a handout with a number of statements about refactoring, which are controvertial, wrong, or only partially true. Ask people to discuss them in small groups and decide whether each statement is true or false. [Here](https://emilybache.github.io/exercises/warm_up_questions/refactoring_warm_up_questions.html) is a sample page of questions you could use.
 
 ### Define Refactoring
 Put up Martin Fowler's definitions of Refactoring as a noun and verb on a projector screen or write them on a flipchart. Explain how you understand these definitions. You could point out the code shouldn't break while you refactor, and the reason to refactor is primarily economic not moral. You could mention that as you refactor you take a series of small steps and can commit and share your work after any completed step.
