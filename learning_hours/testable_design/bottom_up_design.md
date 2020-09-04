@@ -6,7 +6,7 @@ grand_parent: Learning Hours
 nav_order: 5
 ---
 
-# 9. One function at a time
+# One function at a time, bottom up
 
 This kata is a couple of steps up in difficulty from Leap Years. You are designing one main function with several helper functions. You test drive the implementation one helper function at a time. The group learns about this strategy for breaking down a problem into pieces suitable for TDD.
 
