@@ -13,7 +13,7 @@ When people start with TDD I often see them struggle to remember to write the te
 
 ## Session Outline
  
-* 10 min connect: How to create a class   
+* 10 min connect: How to create a class / TDD refresher  
 * 10 min concept: Golden Rule
 * 30 min do: shopping basket
 * 5 min reflect: tips to remember the golden rule
@@ -26,6 +26,24 @@ Find as many ways as you can. Search the help and the menus.
 Ask people to come forward and present their discoveries.
 
 Hopefully people will discover lots of useful options. If they don't spot it for themselves, point out that it also works to just start using the class in some other code then auto-complete it into existence. That's the way you can do it from a test.
+
+### Connect - alternative
+Instead of the above connect, do this learning hour a second time as a refresher, with a different connect.
+
+Put this question to the group, and ask them to come up with 5 answers.
+
+"What are 5 important things to remember when you're doing Test-Driven Development?"
+
+The kinds of answers you're looking for are:
+
+- take small steps, testing one thing at a time
+- run tests often
+- refactor test code as well as production code
+- only refactor when tests are passing
+- make a test list
+- write the test first
+
+The 'concept' part of this learning hour emphasizes the 'write the test first' guideline, but you can also write up and highlight the other guidelines they come up with.
 
 ### Concept: Golden Rule
 In TDD the _tests_ drive the design of the production code. You can express that as a golden rule:

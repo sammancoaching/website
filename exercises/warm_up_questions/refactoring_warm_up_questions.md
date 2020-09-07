@@ -25,7 +25,7 @@ Mark each statement below as true or false. After the session, come back to this
 | 10| If you encounter ugly code that you don’t need to change to get your task done, then you don’t need to refactor it.       |    |     |
 | 11| You should get permission from your manager before refactoring.                                                           |    |     |
 | 12| When we invest time in refactoring it saves us time overall.                                                              |    |     |
-| 13| It’s not possible to refactor the database if you use an ORM.                                                             |    |     |
+| 13| It’s not possible to refactor the database if you use an Object Relational Mapper (ORM).                                                             |    |     |
 | 14| A good time to refactor is before you add a new feature to make adding it easier.                                         |    |     |
 | 15| Refactoring can impact performance so you should profile your code after refactoring.                                     |    |     |
 | 16| The purpose of refactoring is to make you write code faster.                                                              |    |     |
