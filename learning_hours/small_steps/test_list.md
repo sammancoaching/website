@@ -31,4 +31,4 @@ After 15 minutes or so, have pairs report the scenarios they came up with. Write
 
 Repeat with a second problem if there is time.
 
-Shopping Basket is a good problem for this. There are perhaps half a dozen scenarios to think about and make into a list. MarsRover would also work, or Fractions or WordWrap.
+[Shopping Basket](https://emilybache.github.io/exercises/kata_descriptions/shopping_basket.html) is a good problem for this. There are perhaps half a dozen scenarios to think about and make into a list. [MarsRover](https://emilybache.github.io/exercises/kata_descriptions/mars_rover.html) would also work, or [Fractions](https://emilybache.github.io/exercises/kata_descriptions/fractions.html) or MontyHall.
