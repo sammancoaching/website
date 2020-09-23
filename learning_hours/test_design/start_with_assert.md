@@ -43,10 +43,10 @@ Discuss with your pair your observations about your TDD session and specifically
 
 To trigger more specific observations, you could write up this list of areas on a whiteboard or flipchart at the front:
 
-- Baby steps
+- Test Structure (Arrange-Act-Assert)
 - Test Readability
 - Duplication between test cases
-- Pairing/Communication
+- Navigation/Communication
 - IDE/Editor
 
 Read out some or all of the observations and stick them next to the relevant area. Create more areas as needed.
