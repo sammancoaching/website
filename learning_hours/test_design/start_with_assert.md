@@ -21,10 +21,11 @@ Tests usually have the structure Arrange - Act - Assert. If you write the test c
 In advance of the session, write sticky notes with some concepts they should already be familiar with, and stick them where everyone can see them on a whiteboard or flipchart. For example you could have these:
 
 - Red, Green, Refactor
-- Baby steps
+- TDD Golden Rule
 - Arrange, Act, Assert
 - Triangulation
-- Strong-Style
+- Overdesign
+- Test List
 - Ctrl-Shift-R (Or whatever keyboard shortcut brings up the 'Refactor This' menu in your IDE)
 
 Ask the group to gather around the stickies. Ask for a volunteer to step forward, pick up a note and explain what it is. Use coaching questions to help them to explain the important and relevant aspects of the thing, without you taking over the explanation. When the note is explained, move it to one side. Repeat until different people have explained each note.
