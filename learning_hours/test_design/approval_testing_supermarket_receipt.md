@@ -27,14 +27,17 @@ For a remote meeting: use a shared google doc to make your group lists.
 
 
 ### Demo Supermarket Receipt first approval test
-In this demo, add a call to 'verify' from an approval testing library that will replace all these assertions. Use the ReceiptPrinter class to print the receipt to a string that you can verify.
+In this demo, explain that this is legacy code and you'd like to write some tests for it so you can refactor it. Briefly show the nasty code in the 'handleOffers' method. The aim is to test all the different kinds of discount so we can be confident to refactor this code later on.
 
-Show that all the information that is checked in individual assert statements are present in the printed receipt. This means that the approval test will catch any errors the assertions would have caught. Note that you can re-use the same printer in many tests, so overall it is not going to be more code. Note that test failures are relatively easy to understand when you use a diff tool.
+Take the existing test and add a call to 'verify' from an approval testing library. Use the ReceiptPrinter class to print the receipt to a string that you can use as the argument.
+
+Show that all the information that is checked in individual assert statements are present in the printed receipt. This means that the approval test will catch any errors the assertions would have caught. Delete the assertions. 
+
+Note that you can re-use the same printer in many tests, so overall it is not going to be more code. Note that test failures are relatively easy to understand when you use a diff tool.
 
 ### Do Supermarket Receipt
-Have people work in pairs to repeat what you demonstrated, then add further tests for different scenarios. Point out that there are many kinds of discount that should be checked.
+Have people work in pairs to repeat what you demonstrated, then add further tests for different discounts. Point out the enumeration class 'SpecialOfferType' that contains all the different varieties of discount.
 
-### Reflect - Characteristics of Approval testing
-Think about what you just did. If you had to explain the main idea of Approval testing to someone else, what would you say? Write your explanation on a sticky note. Stick it on a flipchart on the way out.
+### Reflect - Differences with Approval testing
+Look at your new tests and compare them with the list of things you liked and didn't like at the start of the session. Which are still valid for your new tests? Make a new list of things you like and don't like by writing new stickies on a new list.
 
-You should scan the flipchart and share it with all attendees, and/or put it up in their team area.
