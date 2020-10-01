@@ -17,7 +17,7 @@ This is an introduction to Approval testing and the aim is people will come away
 * 10 min connect: test code review
 * 5 min demo: Convert several Asserts to one Verify
 * 30 min do: pair on Supermarket Receipt Refactoring Kata  
-* 5 min reflect: Characteristics of Approval testing
+* 10 min reflect: differences with Approval testing
 
 ### Connect
 
