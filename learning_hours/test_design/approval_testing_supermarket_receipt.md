@@ -14,18 +14,20 @@ This is an introduction to Approval testing and the aim is people will come away
 
 ## Session Outline
 
-* 10 min connect: warm-up questions  
+* 10 min connect: test code review
 * 5 min demo: Convert several Asserts to one Verify
 * 30 min do: pair on Supermarket Receipt Refactoring Kata  
 * 5 min reflect: Characteristics of Approval testing
 
 ### Connect
 
-Look at these [warm-up questions](../../exercises/warm_up_questions/approval_testing_warm_up_questions.html). Think for yourself then discuss with a pair.
+In the starting position for this exercise, [Supermarket-Receipt-Refactoring-Kata](https://github.com/emilybache/SupermarketReceipt-Refactoring-Kata), (on the main/default branch), there is a test that contains quite a few assert statements to check the contents of the Receipt object. Everyone should review this test case. Discuss in pairs for 5 minutes and note down anything you like about the test and anything you don't like about it. Use two different colours of sticky note. Share your notes with the group and put your common list of 'like' and 'dont like' on a flipchart.
+
+For a remote meeting: use a shared google doc to make your group lists.
 
 
 ### Demo Supermarket Receipt first approval test
-In the starting position for this exercise, [Supermarket-Receipt-Refactoring-Kata](https://github.com/emilybache/SupermarketReceipt-Refactoring-Kata), there is a test that contains quite a few assert statements to check the contents of the Receipt object. In this demo, add a call to 'verify' from an approval testing library that will replace all these assertions. Use the ReceiptPrinter class to print the receipt to a string that you can verify.
+In this demo, add a call to 'verify' from an approval testing library that will replace all these assertions. Use the ReceiptPrinter class to print the receipt to a string that you can verify.
 
 Show that all the information that is checked in individual assert statements are present in the printed receipt. This means that the approval test will catch any errors the assertions would have caught. Note that you can re-use the same printer in many tests, so overall it is not going to be more code. Note that test failures are relatively easy to understand when you use a diff tool.
 
