@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Using coverage to inform test creation
-parent: Legacy Code
+parent: Approval Testing Legacy Code
 grand_parent: Learning Hours
-nav_order: 6
+nav_order: 4
 ---
 
 # Using coverage to inform test creation

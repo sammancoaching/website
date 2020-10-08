@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Lift Kata with Approvals
-parent: Working in Small Steps
+parent: Behaviour Driven Development with Approval Testing
 grand_parent: Learning Hours
-nav_order: 5
+nav_order: 2
 ---
 
 # Lift Kata with Approvals

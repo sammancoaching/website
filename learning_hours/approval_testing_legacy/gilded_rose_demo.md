@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Solving Gilded Rose
-parent: Legacy Code
+parent: Approval Testing Legacy Code
 grand_parent: Learning Hours
-nav_order: 2
+nav_order: 6
 ---
 
 # Gilded Rose Demo

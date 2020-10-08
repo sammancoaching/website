@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Approvals Puzzles
-parent: Legacy Code
+parent: Approval Testing Legacy Code
 grand_parent: Learning Hours
 nav_order: 5
 ---

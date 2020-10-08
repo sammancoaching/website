@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Text-based Approval Tests for Yatzy
-parent: Test Design
+parent: Approval Testing Legacy Code
 grand_parent: Learning Hours
-nav_order: 7
+nav_order: 10
 ---
 
 # Text-based Approval Tests for Yatzy

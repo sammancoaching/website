@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Design for Approval Testing
-parent: Testable Design
+parent: Approval Testing Legacy Code
 grand_parent: Learning Hours
-nav_order: 4
+nav_order: 3
 ---
 
 # Design for Approval Testing

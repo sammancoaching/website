@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Using coverage when adding tests to existing code
-parent: Legacy Code
+parent: Approval Testing Legacy Code
 grand_parent: Learning Hours
-nav_order: 1
+nav_order: 5
 ---
 
 # Using coverage when adding tests to existing code
