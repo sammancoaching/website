@@ -3,7 +3,7 @@ layout: default
 title: Iterative or Incremental
 parent: Working in Small Steps
 grand_parent: Learning Hours
-nav_order: 10
+nav_order: 6
 ---
 
 # Iterative or Incremental?

@@ -3,7 +3,7 @@ layout: default
 title: Make a test list
 parent: Working in Small Steps
 grand_parent: Learning Hours
-nav_order: 5
+nav_order: 4
 ---
 
 # Make a test list

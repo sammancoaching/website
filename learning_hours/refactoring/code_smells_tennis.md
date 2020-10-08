@@ -3,7 +3,7 @@ layout: default
 title: Code Smells
 parent: Refactoring
 grand_parent: Learning Hours
-nav_order: 4
+nav_order: 3
 ---
 
 # Code Smells

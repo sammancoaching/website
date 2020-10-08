@@ -3,7 +3,7 @@ layout: default
 title: Double-Loop TDD
 parent: Working in Small Steps
 grand_parent: Learning Hours
-nav_order: 11
+nav_order: 8
 ---
 
 # Double-Loop TDD

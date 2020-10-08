@@ -3,7 +3,7 @@ layout: default
 title: Replace Conditional With Polymorphism
 parent: Refactoring
 grand_parent: Learning Hours
-nav_order: 3
+nav_order: 4
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Extract Function, Tennis
+title: Extract Function Tennis1
 parent: Refactoring
 grand_parent: Learning Hours
 nav_order: 1

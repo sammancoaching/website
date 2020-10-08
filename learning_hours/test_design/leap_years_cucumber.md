@@ -3,7 +3,7 @@ layout: default
 title: Gherkin intro
 parent: Test Design
 grand_parent: Learning Hours
-nav_order: 1
+nav_order: 5
 ---
 
 # Gherkin intro

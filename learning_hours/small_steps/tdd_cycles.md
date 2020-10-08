@@ -3,7 +3,7 @@ layout: default
 title: TDD cycles
 parent: Working in Small Steps
 grand_parent: Learning Hours
-nav_order: 9
+nav_order: 5
 ---
 
 # TDD Cycles

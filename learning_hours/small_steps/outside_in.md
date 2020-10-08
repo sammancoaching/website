@@ -3,7 +3,7 @@ layout: default
 title: Outside-in TDD
 parent: Working in Small Steps
 grand_parent: Learning Hours
-nav_order: 12
+nav_order: 9
 ---
 
 # Outside-in TDD

@@ -1,10 +1,14 @@
 ---
 layout: default
-title: Unit testing styles with Leap Years
+title: Parameterized Tests
 parent: Test Design
 grand_parent: Learning Hours
-nav_order: 11
+nav_order: 3
 ---
+
+# Parameterized Tests
+
+This is a form of Data-Driven testing. The "Act" step is the same for all the tests, but the Arrange and Assert parts are parameterized.
 
 ## Session Outline
  

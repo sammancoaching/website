@@ -3,7 +3,7 @@ layout: default
 title: Test Order with Yatzy
 parent: Working in Small Steps
 grand_parent: Learning Hours
-nav_order: 4
+nav_order: 7
 ---
 
 Test Order with Yatzy
