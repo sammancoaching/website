@@ -3,7 +3,7 @@ layout: default
 title: Test Fixture design
 parent: Test Design
 grand_parent: Learning Hours
-nav_order: 4
+nav_order: 5
 ---
 
 # Test Fixture Design
