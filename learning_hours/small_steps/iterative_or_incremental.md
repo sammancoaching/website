@@ -29,8 +29,8 @@ You are looking for answers like:
 
 ### Concept: Iterative and Incremental
 Look at these two images:
-![A](assets/images/JeffPatton1.jpg)
-![B](assets/images/JeffPatton2.jpg)
+![A](/assets/images/JeffPatton1.jpg)
+![B](/assets/images/JeffPatton2.jpg)
 
 These images are by [Jeff Patton](https://www.jpattonassociates.com/) and from [this article](https://www.stickyminds.com/article/neglected-practice-iteration) - but don’t have people read it just now, ask them to read it after the session.
 
