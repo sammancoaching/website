@@ -20,7 +20,7 @@ nav_order: 4
 Examine the [code snippets](https://github.com/emilybache/Pure-Or-Not-Quizz). Note down which are pure functions.
 
 ### Concrete: Trig math
-Use the cyber-dojo starting point.
+Use the [cyber-dojo starting point](https://github.com/emilybache/custom-start-points/tree/master/start-points/TrigMath).
 
 ### Reflect
 Fist to five vote: 5 fingers = very, zero = not at all
