@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Combination Approvals needs a Pure Function
-parent: Legacy Code
+parent: Approval Testing Legacy Code
 grand_parent: Learning Hours
-nav_order: 3
+nav_order: 7
 ---
 
 # Combination Approvals needs a Pure Function
