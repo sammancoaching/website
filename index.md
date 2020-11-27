@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Technical Agile Coaching Materials
+title: Samman Technical Coaching Materials
 nav_order: 1
 ---
 
-This site contains materials that supplement the book ["Technical Agile Coaching"](https://leanpub.com/techagilecoach) by Emily Bache. One part of this coaching is teaching software development techniques. Many of the pages on this site comprise lesson plans for those teaching sessions. 
+This site contains materials that supplement the book ["Technical Agile Coaching with the Samman method"](https://leanpub.com/techagilecoach) by Emily Bache. One part of this coaching is teaching software development techniques. Many of the pages on this site comprise lesson plans for those teaching sessions. 
 
 You are free to copy these materials and lesson plans and use them in your own work, so long as you give credit where it's due. This entire site is released under a [Creative Commons Share Alike license](https://creativecommons.org/licenses/by-sa/4.0/). 
 
