@@ -1,0 +1,10 @@
+- name: Home
+  link: /
+- name: Learning Hours
+  link: /learning_hours/index.html
+- name: Workshops
+  link: /workshops/index.html
+- name: Exercises
+  link: /exercises/index.html
+- name: About
+  link: /about.html

@@ -1,0 +1,16 @@
+---
+layout: default
+title: Learning Hours
+---
+<h1>Learning Hours</h1>
+<p>
+These comprise teaching plans for one hour sessions.
+</p>
+<ul>
+  {% for learning_hour in site.learning_hours %}
+    <li>
+      <h2><a href="{{ learning_hour.url }}">{{ learning_hour.title }}</a></h2>
+      <h3>{{ learning_hour.parent }}</h3>
+    </li>
+  {% endfor %}
+</ul>

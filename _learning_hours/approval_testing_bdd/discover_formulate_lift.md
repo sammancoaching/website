@@ -1,9 +1,6 @@
 ---
-layout: default
 title: Discover and Formulate Scenarios for the Lift Kata
-parent: Test Design
-grand_parent: Learning Hours
-nav_order: 6
+parent: Approval Testing
 ---
 # Discover and Formulate Scenarios for the Lift Kata
 

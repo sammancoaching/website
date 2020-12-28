@@ -1,0 +1,16 @@
+---
+layout: default
+title: Workshops
+---
+<h1>Workshops</h1>
+<p>
+These comprise teaching plans for sessions of longer than one hour.
+</p>
+<ul>
+  {% for workshop in site.workshops %}
+    <li>
+      <h2><a href="{{ workshops.url }}">{{ workshop.title }}</a></h2>
+      <h3>{{ workshop.parent }}</h3>
+    </li>
+  {% endfor %}
+</ul>

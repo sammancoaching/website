@@ -13,24 +13,46 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Technical Agile Coaching Materials
+title: Samman Coaching Materials
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Materials and lesson plans that are engaging, interesting, and 
   useful for teaching agile software development skills. 
-  Best used in combination with the book "Technical Agile Coaching" by Emily Bache.
+  Best used in combination with the book "Technical Agile Coaching with the Samman Method" by Emily Bache.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://www.sammancoaching.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: emilybache
 github_username:  emilybache
 
 # Build settings
 markdown: kramdown
-remote_theme: pmarsceill/just-the-docs
 search_enabled: true
-footer_content: "This content is covered by a <a href=\"https://github.com/emilybache/emilybache.github.io/blob/master/LICENSE.md\">CC-BY-SA-4.0 license.</a>"
+footer_content: "This content is covered by a <a href=\"http://www.sammancoaching.org/LICENSE.html\">CC-BY-SA-4.0 license.</a>"
 plugins:
   - jekyll-feed
+collections:
+  learning_hours:
+    output: true
+  workshops:
+    output: true
+  exercises:
+    output: true
+defaults:
+  - scope:
+      path: "learning_hours"
+      type: "learning_hour"
+    values:
+      layout: "learning_hour"
+  - scope:
+      path: "exercises"
+      type: "exercise"
+    values:
+      layout: "exercise"
+  - scope:
+      path: "workshops"
+      type: "workshop"
+    values:
+      layout: "workshop"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

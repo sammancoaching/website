@@ -1,0 +1,16 @@
+---
+layout: default
+title: Exercises
+---
+<h1>Exercises</h1>
+<p>
+These materials are for single exercises that could be used in a learning hour or workshop.
+</p>
+<ul>
+  {% for exercise in site.exercises %}
+    <li>
+      <h2><a href="{{ exercise.url }}">{{ exercise.title }}</a></h2>
+      <h3>{{ exercise.parent }}</h3>
+    </li>
+  {% endfor %}
+</ul>
