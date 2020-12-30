@@ -23,6 +23,12 @@ a:active {
 a:hover {
     color: $salmon-pink;
 }
+img[src*="#book_cover"] {
+	border: 5px solid $dark-blue;
+	width: 250px;
+	position: relative;
+	left: 250px;
+}
 
 body {
     width: 750px;
