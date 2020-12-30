@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: homepage
 title: About
-nav_order: 1000
 ---
 
 # About This Site

@@ -18,7 +18,7 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Materials and lesson plans that are engaging, interesting, and 
   useful for teaching agile software development skills. 
-  Best used in combination with the book "Technical Agile Coaching with the Samman Method" by Emily Bache.
+  To be used in combination with the book "Technical Agile Coaching with the Samman Method" by Emily Bache.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.sammancoaching.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: emilybache
@@ -32,11 +32,9 @@ plugins:
 collections:
   kata_descriptions:
     output: true
-    #permalink: /:collection/:kata_name
   learning_hours:
     output: true
     sort_by: difficulty
-    #permalink: /:collection/:theme/:title
   workshops:
     output: true
 defaults:
@@ -71,3 +69,7 @@ defaults:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag

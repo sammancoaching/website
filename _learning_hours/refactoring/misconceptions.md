@@ -19,7 +19,7 @@ In this session we talk about what refactoring is and why we do it. We work on i
 
 
 ### Discuss Misconceptions
-Create a handout with a number of statements about refactoring, which are controvertial, wrong, or only partially true. Ask people to discuss them in small groups and decide whether each statement is true or false. [Here](https://emilybache.github.io/exercises/warm_up_questions/refactoring_warm_up_questions.html) is a sample page of questions you could use.
+Create a handout with a number of statements about refactoring, which are controvertial, wrong, or only partially true. Ask people to discuss them in small groups and decide whether each statement is true or false. [Here](/exercises/warm_up_questions/refactoring_warm_up_questions.html) is a sample page of questions you could use.
 
 ### Purpose of refactoring
 Remind people that the purpose of refactoring is to make code easier to understand and cheaper to modify. 

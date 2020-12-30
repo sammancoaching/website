@@ -31,7 +31,7 @@ Write these characteristics up on a whiteboard.
 ### Concrete: Write test lists
 Ask them to work in pairs to come up with a test list. 
 
-- Give them a requirements document to work from, like [MarsRover](https://emilybache.github.io/exercises/kata_descriptions/mars_rover.html).
+- Give them a requirements document to work from, like [MarsRover](/kata_descriptions/mars_rover.html).
 - After they have had time to read it, ask if there are any questions about the requirements. Take the role of business expert and answer their questions.
 - Ask them to write a list of 4-6 test case ideas, give them 5-10 minutes
 - Ask them to show their list to another pair and discuss if it has the characteristics identified earlier.
@@ -40,4 +40,4 @@ Ask them to work in pairs to come up with a test list.
 ### Conclusions: make a common list
 Synthesize all the suggestions into a single list. Perhaps use dot voting to choose the top 3 suggestions out of all the lists. With that as a starting point, ask people to take turns to suggest one improvement or addition to the list.
 
-Repeat with a second problem if there is time, for example [Fractions](https://emilybache.github.io/exercises/kata_descriptions/fractions.html) or [MontyHall](https://emilybache.github.io/exercises/kata_descriptions/monty_hall.html).
+Repeat with a second problem if there is time, for example [Fractions](/kata_descriptions/fractions.html) or [MontyHall](/kata_descriptions/monty_hall.html).

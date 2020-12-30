@@ -1,17 +1,7 @@
-<!doctype html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>{{ page.title }}</title>
-	<link rel="stylesheet" href="/assets/css/styles.css">
-</head>
-<body>
+---
+layout: default
+---
 	<img src="{{ site.baseurl }}/assets/images/samman_banner_thin.png" class="banner">
-	<section>
-	{{ content }}
-    </section>
 	{% include navigation.html %}
-	{% include footer.html %}
-</body>
-
-</html>
+    {{ content }}
+    
