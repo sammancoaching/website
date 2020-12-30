@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: learning_hour
 title: Using TDD to write a Leap Years function
 parent: Working in Small Steps
 grand_parent: Learning Hours

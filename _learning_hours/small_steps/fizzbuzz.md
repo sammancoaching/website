@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: learning_hour
 title: Selecting and ordering test cases with FizzBuzz
 parent: Working in Small Steps
 grand_parent: Learning Hours

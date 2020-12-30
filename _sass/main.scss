@@ -1,3 +1,34 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+
 .current {
 	color: gray;
 } 
+.banner {
+	width: 750px;
+} 
+body {
+	font: 100% $font-stack;
+	color: $primary-color;
+	li {
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li { display: inline-block; }
+
+  a {
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}
+footer {
+	padding: 6px 12px;
+}

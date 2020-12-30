@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: learning_hour
 title: Leap Years with Approvals
 parent: Behaviour Driven Development with Approval Testing
 grand_parent: Learning Hours

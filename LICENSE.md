@@ -6,6 +6,6 @@ This material is licensed with [CC-BY-SA-4.0](https://creativecommons.org/licens
 
 The attribution to use is:
 
-	Emily Bache sammancoaching.org
+	SammanCoaching.org
 
-plus a link to the original source of these materials.
+plus a link to the original.

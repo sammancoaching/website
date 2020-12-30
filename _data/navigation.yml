@@ -1,10 +1,10 @@
 - name: Home
   link: /
+- name: Kata Descriptions
+  link: /kata_descriptions/index.html
 - name: Learning Hours
   link: /learning_hours/index.html
 - name: Workshops
   link: /workshops/index.html
-- name: Exercises
-  link: /exercises/index.html
 - name: About
   link: /about.html

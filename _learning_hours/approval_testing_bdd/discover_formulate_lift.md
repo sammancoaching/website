@@ -1,4 +1,6 @@
 ---
+layout: learning_hour
+theme: approval_testing
 title: Discover and Formulate Scenarios for the Lift Kata
 parent: Approval Testing
 ---

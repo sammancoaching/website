@@ -29,3 +29,6 @@ When you add two fractions, the result should be expressed in the most reduced f
 not
 
 6/10
+
+### Acknowledgements
+I got this kata from J.B. Rainsberger but I have changed it slightly.

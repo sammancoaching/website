@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: learning_hour
 title: Iterative or Incremental
 parent: Working in Small Steps
 grand_parent: Learning Hours

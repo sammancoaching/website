@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: learning_hour
 title: Simplify Conditional in SupermarketReceipt
 parent: Refactoring
 grand_parent: Learning Hours

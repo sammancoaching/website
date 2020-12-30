@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: learning_hour
 title: Navigating with Intent, Typing Syntax
 parent: Ensemble Working
 grand_parent: Learning Hours

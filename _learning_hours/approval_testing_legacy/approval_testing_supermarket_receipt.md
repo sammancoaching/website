@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: learning_hour
 title: Approval Testing Intro
 parent: Approval Testing Legacy Code
 grand_parent: Learning Hours

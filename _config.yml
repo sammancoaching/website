@@ -27,27 +27,28 @@ github_username:  emilybache
 # Build settings
 markdown: kramdown
 search_enabled: true
-footer_content: "This content is covered by a <a href=\"http://www.sammancoaching.org/LICENSE.html\">CC-BY-SA-4.0 license.</a>"
 plugins:
   - jekyll-feed
 collections:
+  kata_descriptions:
+    output: true
+    permalink: /:collection/:title
   learning_hours:
     output: true
+    #permalink: /:collection/:category/:name
   workshops:
     output: true
-  exercises:
-    output: true
 defaults:
+  - scope:
+      path: "kata_descriptions"
+      type: "kata_description"
+    values:
+      layout: "kata_description"
   - scope:
       path: "learning_hours"
       type: "learning_hour"
     values:
       layout: "learning_hour"
-  - scope:
-      path: "exercises"
-      type: "exercise"
-    values:
-      layout: "exercise"
   - scope:
       path: "workshops"
       type: "workshop"

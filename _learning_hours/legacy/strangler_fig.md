@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: learning_hour
 title: Strangler Fig Pattern
 parent: Legacy Code
 grand_parent: Learning Hours

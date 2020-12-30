@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: learning_hour
 title: Misconceptions about Refactoring
 parent: Refactoring
 grand_parent: Learning Hours

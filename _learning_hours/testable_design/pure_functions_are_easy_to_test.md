@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: learning_hour
 title: Testing Pure Functions
 parent: Testable Design
 grand_parent: Learning Hours

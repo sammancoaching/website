@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: learning_hour
 title: Strategy - Peel
 parent: Testable Design
 grand_parent: Learning Hours

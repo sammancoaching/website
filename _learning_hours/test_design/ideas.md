@@ -1,3 +1,8 @@
+---
+layout: learning_hour
+---
+# Ideas for styles
+
 - With Hamcrest matchers
 - RSpec style "in context ... it should ..."
 

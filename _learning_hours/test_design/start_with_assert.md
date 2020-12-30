@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: learning_hour
 title: Start with the Assertion
 parent: Test Design
 grand_parent: Learning Hours

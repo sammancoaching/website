@@ -26,4 +26,4 @@ When you have a single lift working, you may want to tackle these further featur
 - when fulfilling a call, the relevant lift makes a 'DING' as it opens the doors.
 
 ### Acknowledgements
-This kata is described on [Kata-Log](https://kata-log.rocks/lift-kata) but I have changed it slightly
+This kata is described on [Kata-Log](https://kata-log.rocks/lift-kata) but I have changed it slightly.

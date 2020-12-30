@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: learning_hour
 title: Golden Rule of TDD
 parent: Working in Small Steps
 grand_parent: Learning Hours

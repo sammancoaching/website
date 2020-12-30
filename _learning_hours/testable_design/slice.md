@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: learning_hour
 title: Strategy - Slice
 parent: Testable Design
 grand_parent: Learning Hours

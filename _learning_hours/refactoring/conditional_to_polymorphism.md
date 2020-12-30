@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: learning_hour
 title: Replace Conditional With Polymorphism
 parent: Refactoring
 grand_parent: Learning Hours

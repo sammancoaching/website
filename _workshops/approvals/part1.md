@@ -63,7 +63,7 @@ _short break_
 
 ## Part 1
 
-Use this learning hour ["Approval Testing plain text strings with Verify"](../../learning_hours/test_design/approval_testing_supermarket_receipt). As well as answering warm up questions, introduce yourselves and form groups of 2-4 where you agree on a programming language. Mix up people from different companies.
+Use this learning hour ["Approval Testing plain text strings with Verify"](../../learning_hours/approval_testing_legacy/approval_testing_supermarket_receipt.html). As well as answering warm up questions, introduce yourselves and form groups of 2-4 where you agree on a programming language. Mix up people from different companies.
 
 ### Conclusions - How about?
 

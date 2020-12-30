@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: learning_hour
 title: Make a test list
 parent: Working in Small Steps
 grand_parent: Learning Hours
@@ -18,7 +18,7 @@ In agile, Big Design Up Front (BDUF) is something to be avoided, but that doesn'
 * 10 min reflect: Correlate test list with TDD cycles
 
 ### Connect
-Ask people to review [these options](https://emilybache.github.io/exercises/warm_up_questions/tdd_overview_what_would_you_do.html). Ask them to choose an option and read the consequences.
+Ask people to review [these options](/exercises/warm_up_questions/tdd_overview_what_would_you_do.html). Ask them to choose an option and read the consequences.
 
 ### Concept: Test List
 Before writing your first test, you should do a little analysis and identify scenarios that you'll want to make into test cases. Remind people of the test lists you used for previous katas you did in other sessions. When you have reviewed two or three test lists, ask them what the characteristics are for a good test list. You're looking for things like:

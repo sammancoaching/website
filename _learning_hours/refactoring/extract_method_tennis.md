@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: learning_hour
 title: Extract Function Tennis1
 parent: Refactoring
 grand_parent: Learning Hours

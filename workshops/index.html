@@ -9,8 +9,7 @@ These comprise teaching plans for sessions of longer than one hour.
 <ul>
   {% for workshop in site.workshops %}
     <li>
-      <h2><a href="{{ workshops.url }}">{{ workshop.title }}</a></h2>
-      <h3>{{ workshop.parent }}</h3>
+      <h2><a href="{{ workshop.url }}">{{ workshop.title }}</a></h2>
     </li>
   {% endfor %}
 </ul>

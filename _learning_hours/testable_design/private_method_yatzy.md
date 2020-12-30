@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: learning_hour
 title: Testing Private Methods with Yatzy
 parent: Testable Design
 grand_parent: Learning Hours

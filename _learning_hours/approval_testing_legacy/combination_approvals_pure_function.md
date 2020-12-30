@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: learning_hour
 title: Combination Approvals needs a Pure Function
 parent: Approval Testing Legacy Code
 grand_parent: Learning Hours

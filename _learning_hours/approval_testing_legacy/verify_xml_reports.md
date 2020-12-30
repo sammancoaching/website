@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: learning_hour
 title: Using coverage when adding tests to existing code
 parent: Approval Testing Legacy Code
 grand_parent: Learning Hours

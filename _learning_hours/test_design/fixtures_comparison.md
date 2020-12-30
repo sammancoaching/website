@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: learning_hour
 title: Test Fixture design
 parent: Test Design
 grand_parent: Learning Hours

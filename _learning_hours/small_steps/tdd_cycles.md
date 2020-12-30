@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: learning_hour
 title: TDD cycles
 parent: Working in Small Steps
 grand_parent: Learning Hours
@@ -24,12 +24,12 @@ Ask participants: What are three things you already know about TDD? Tell them to
 
 ### Concept: TDD Cycle
 
-Bring up an example cyber-dojo screenshot with some [traffic lights](https://emilybache.github.io/assets/images/cyber_dojo_traffic_lights.png). Show a TDD cycle. Explain you would like them to be short and fairly regular.
+Bring up an example cyber-dojo screenshot with some [traffic lights](/assets/images/cyber_dojo_traffic_lights.png). Show a TDD cycle. Explain you would like them to be short and fairly regular.
 
 ### Concrete: Do some TDD cycles
 Pick an exercise, for example on cyber-dojo. Ask them to work on it.
 
-If you've previously done a ['test list'](https://emilybache.github.io/learning_hours/small_steps/test_list.html) learning hour on this kata you could remind them of it and distribute the list you made that time. Otherwise, remind them to make their own test list.
+If you've previously done a ['test list'](test_list.html) learning hour on this kata you could remind them of it and distribute the list you made that time. Otherwise, remind them to make their own test list.
 
 ### Reflect: TDD cycles and test list
 Review the code and TDD cycles. A tool like cyber-dojo makes test cycles visible, but you can also use the local history in your IDE, or git history. 

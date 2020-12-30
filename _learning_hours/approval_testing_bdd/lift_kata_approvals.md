@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: learning_hour
 title: Lift Kata with Approvals
 parent: Behaviour Driven Development with Approval Testing
 grand_parent: Learning Hours
