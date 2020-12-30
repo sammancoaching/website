@@ -2,6 +2,7 @@
 theme: test_design
 title: Test Fixture Introduction
 kata: recently_used_list
+difficulty: 2
 ---
 
 # Test Fixture Introduction

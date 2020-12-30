@@ -2,6 +2,7 @@
 theme: refactoring
 title: Extract Function Tennis1
 kata: tennis
+difficulty: 1
 ---
 
 # Extract Function Refactoring in Tennis1

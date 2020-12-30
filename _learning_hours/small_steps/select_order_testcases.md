@@ -2,6 +2,7 @@
 theme: small_steps
 title: Selecting and ordering test cases
 kata: fizzbuzz
+difficulty: 1
 ---
 
 Selecting and ordering test cases 

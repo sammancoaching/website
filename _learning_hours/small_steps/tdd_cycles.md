@@ -2,6 +2,7 @@
 theme: small_steps
 title: TDD cycles
 kata: calc_stats
+difficulty: 1
 ---
 
 # TDD Cycles

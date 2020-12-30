@@ -15,7 +15,7 @@ Many of these exercises are also described elsewhere on the internet, in that ca
 <ul>
   {% for kata in site.kata_descriptions %}
     <li>
-      <h2 class="kata_description_link"><a href="{{ kata.url }}">{{ kata.title }}</a></h2>
+      <a href="{{ kata.url }}">{{ kata.title }}</a>
     </li>
   {% endfor %}
 </ul>

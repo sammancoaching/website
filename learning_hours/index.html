@@ -17,8 +17,7 @@ I hope these materials will be a starting point, not a finished product you can 
         {% assign by_theme = site.learning_hours | where: 'theme', theme.name %}
 		{% for learning_hour in by_theme %}
 		    <li>
-		      <h2><a href="{{ learning_hour.url }}">{{ learning_hour.title }}</a></h2>
-		    
+		      <a href="{{ learning_hour.url }}">{{ learning_hour.title }}</a>
 		    </li>
 		  {% endfor %}
         </ul>

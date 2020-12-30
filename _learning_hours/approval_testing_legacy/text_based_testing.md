@@ -2,6 +2,7 @@
 theme: approval_testing_legacy
 title: Text-Based Testing
 kata: approvals_puzzles
+difficulty: 3
 ---
 
 # Text-based testing

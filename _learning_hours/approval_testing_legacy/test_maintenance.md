@@ -2,6 +2,7 @@
 theme: approval_testing_legacy
 title: Test maintenance
 kata: supermarket_receipt
+difficulty: 2
 ---
 
 # Test maintenance

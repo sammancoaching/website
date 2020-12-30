@@ -2,6 +2,7 @@
 theme: testable_design
 title: Testing Private Methods
 kata: yatzy
+difficulty: 2
 ---
 
 Testing Private Methods with Yatzy

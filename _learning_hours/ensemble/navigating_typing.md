@@ -2,6 +2,7 @@
 theme: ensemble
 title: Navigating with Intent, Typing Syntax
 kata: calc_stats
+difficulty: 1
 ---
 
 # Navigating with Intent, Typing Syntax

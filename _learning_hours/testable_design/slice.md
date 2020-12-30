@@ -2,6 +2,7 @@
 theme: testable_design
 title: Strategy - Slice
 kata: tire_pressure
+difficulty: 3
 ---
 
 # Strategy - Slice

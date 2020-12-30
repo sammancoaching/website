@@ -2,6 +2,7 @@
 theme: small_steps
 title: Iterative or Incremental
 kata: mars_rover
+difficulty: 2
 ---
 
 # Iterative or Incremental?

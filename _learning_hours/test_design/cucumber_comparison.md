@@ -2,6 +2,7 @@
 theme: test_design
 title: Gherkin intro
 kata: leap_years
+difficulty: 4
 ---
 
 # Gherkin intro

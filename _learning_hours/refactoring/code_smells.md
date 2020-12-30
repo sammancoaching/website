@@ -2,6 +2,7 @@
 theme: refactoring
 title: Code Smells
 kata: tennis
+difficulty: 1
 ---
 
 # Code Smells

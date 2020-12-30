@@ -2,6 +2,7 @@
 theme: testable_design
 title: Bottom-up design
 kata: yatzy
+difficulty: 2
 ---
 
 # One function at a time, bottom up

@@ -2,6 +2,7 @@
 theme: legacy
 title: Strangler Fig Pattern
 kata: todo
+difficulty: 1
 ---
 
 # Strangler Fig Pattern

@@ -2,6 +2,7 @@
 theme: testable_design
 title: Overdesign
 kata: fizzbuzz
+difficulty: 1
 ---
 
 FizzBuzz - how does TDD affect your design?

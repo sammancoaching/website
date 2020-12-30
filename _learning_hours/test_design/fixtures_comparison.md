@@ -2,6 +2,7 @@
 theme: test_design
 title: Test Fixture design
 kata: timer_expiry
+difficulty: 3
 ---
 
 # Test Fixture Design

@@ -2,6 +2,7 @@
 theme: small_steps
 title: Outside-in TDD
 kata: todo
+difficulty:5
 ---
 
 # Outside-in TDD

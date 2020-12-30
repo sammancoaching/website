@@ -1,19 +1,37 @@
 $font-stack: Helvetica, sans-serif;
 $primary-color: #333;
+$dark-blue: rgb(29, 62, 97);
+$mid-blue: rgb(65, 103, 136);
+$light-blue: rgb(170, 197, 220);
+$salmon-pink: rgb(227, 136, 117); 
 
 .current {
-	color: gray;
+	color: $light-blue;
 } 
 .banner {
 	width: 750px;
 } 
+a:link {
+    color: $dark-blue;
+}
+a:visited {
+    color: $mid-blue;
+}
+a:active {
+    color: $light-blue;
+}
+a:hover {
+    color: $salmon-pink;
+}
+
 body {
+    width: 750px;
 	font: 100% $font-stack;
 	color: $primary-color;
 	li {
-    padding: 6px 12px;
-    text-decoration: none;
-  }
+        padding: 0px 12px;
+        text-decoration: none;
+    }
 }
 nav {
   ul {

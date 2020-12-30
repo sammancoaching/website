@@ -2,6 +2,7 @@
 theme: refactoring
 title: Roll Up Loop
 kata: timer_expiry
+difficulty: 3
 ---
 
 # Roll Up Loop

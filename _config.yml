@@ -35,6 +35,7 @@ collections:
     #permalink: /:collection/:kata_name
   learning_hours:
     output: true
+    sort_by: difficulty
     #permalink: /:collection/:theme/:title
   workshops:
     output: true

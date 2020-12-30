@@ -2,6 +2,7 @@
 theme: test_design
 title: Parameterized Tests
 kata: mars_rover
+difficulty: 2
 ---
 
 # Parameterized Tests

@@ -2,6 +2,7 @@
 theme: test_design
 title: Custom Assertions
 kata: todo
+difficulty: 3
 ---
 
 # Custom Assertions

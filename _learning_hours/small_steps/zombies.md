@@ -2,6 +2,7 @@
 theme: small_steps
 title: Slicing a task using ZOMBIES
 kata: calc_stats
+difficulty: 3
 ---
 
 # Slicing a task using ZOMBIES

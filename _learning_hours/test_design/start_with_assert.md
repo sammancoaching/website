@@ -2,6 +2,7 @@
 theme: test_design
 title: Start with the Assertion
 kata: mars_rover
+difficulty: 2
 ---
 
 # Start with the Assertion

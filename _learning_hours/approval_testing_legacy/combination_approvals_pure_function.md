@@ -2,6 +2,7 @@
 theme: approval_testing_legacy
 title: Combination Approvals needs a Pure Function
 kata: validate_add_product
+difficulty: 3
 ---
 
 # Combination Approvals needs a Pure Function

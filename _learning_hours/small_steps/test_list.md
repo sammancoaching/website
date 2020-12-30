@@ -2,6 +2,7 @@
 theme: small_steps
 title: Make a test list
 kata: mars_rover
+difficulty: 2
 ---
 
 # Make a test list

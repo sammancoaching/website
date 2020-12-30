@@ -2,6 +2,7 @@
 theme: approval_testing_legacy
 title: Design for Approval Testing
 kata: supermarket_receipt
+difficulty: 2
 ---
 
 # Design for Approval Testing

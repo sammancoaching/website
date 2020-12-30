@@ -2,6 +2,7 @@
 theme: small_steps
 title: Test Order
 kata: yatzy
+difficulty: 1
 ---
 
 Test Order with Yatzy
