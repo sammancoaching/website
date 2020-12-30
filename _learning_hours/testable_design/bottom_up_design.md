@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
-title: Bottom-up design with Yatzy
-parent: Testable Design
-grand_parent: Learning Hours
-nav_order: 5
+theme: testable_design
+title: Bottom-up design
+kata: yatzy
 ---
 
 # One function at a time, bottom up

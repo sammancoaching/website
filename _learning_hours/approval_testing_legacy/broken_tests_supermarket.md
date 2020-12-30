@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: approval_testing_legacy
 title: Test maintenance
-parent: Approval Testing Legacy Code
-grand_parent: Learning Hours
-nav_order: 2
+kata: supermarket_receipt
 ---
 
 # Test maintenance

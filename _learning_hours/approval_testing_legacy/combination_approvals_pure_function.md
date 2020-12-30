@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: approval_testing_legacy
 title: Combination Approvals needs a Pure Function
-parent: Approval Testing Legacy Code
-grand_parent: Learning Hours
-nav_order: 7
+kata: validate_add_product
 ---
 
 # Combination Approvals needs a Pure Function

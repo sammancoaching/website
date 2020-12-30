@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: testable_design
 title: Strategy - Slice
-parent: Testable Design
-grand_parent: Learning Hours
-nav_order: 5
+kata: tire_pressure
 ---
 
 # Strategy - Slice

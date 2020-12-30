@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: test_design
 title: Gherkin intro
-parent: Test Design
-grand_parent: Learning Hours
-nav_order: 5
+kata: leap_years
 ---
 
 # Gherkin intro

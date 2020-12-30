@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: testable_design
 title: Testing Pure Functions
-parent: Testable Design
-grand_parent: Learning Hours
-nav_order: 4
+kata: trig_math
 ---
 
 # Writing tests for pure functions

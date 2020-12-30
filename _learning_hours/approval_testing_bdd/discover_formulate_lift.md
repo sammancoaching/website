@@ -1,8 +1,7 @@
 ---
-layout: learning_hour
-theme: approval_testing
-title: Discover and Formulate Scenarios for the Lift Kata
-parent: Approval Testing
+theme: approval_testing_bdd
+kata: lift
+title: Discover and Formulate Scenarios
 ---
 # Discover and Formulate Scenarios for the Lift Kata
 

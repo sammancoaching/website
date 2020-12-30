@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: approval_testing_legacy
 title: Text-based Approval Tests for Yatzy
-parent: Approval Testing Legacy Code
-grand_parent: Learning Hours
-nav_order: 10
+kata: yatzy
 ---
 
 # Text-based Approval Tests for Yatzy

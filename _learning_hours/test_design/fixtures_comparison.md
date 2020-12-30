@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: test_design
 title: Test Fixture design
-parent: Test Design
-grand_parent: Learning Hours
-nav_order: 5
+kata: timer_expiry
 ---
 
 # Test Fixture Design

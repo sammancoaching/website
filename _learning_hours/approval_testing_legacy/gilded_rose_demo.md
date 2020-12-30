@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: approval_testing_legacy
 title: Solving Gilded Rose
-parent: Approval Testing Legacy Code
-grand_parent: Learning Hours
-nav_order: 6
+kata: gilded_rose
 ---
 
 # Gilded Rose Demo

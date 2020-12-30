@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: approval_testing_legacy
 title: Design for Approval Testing
-parent: Approval Testing Legacy Code
-grand_parent: Learning Hours
-nav_order: 3
+kata: supermarket_receipt
 ---
 
 # Design for Approval Testing

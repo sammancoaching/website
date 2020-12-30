@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: test_design
 title: Custom Assertions
-parent: Test Design
-grand_parent: Learning Hours
-nav_order: 9
+kata: todo
 ---
 
 # Custom Assertions

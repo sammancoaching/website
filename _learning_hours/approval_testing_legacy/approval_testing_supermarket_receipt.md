@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: approval_testing_legacy
 title: Approval Testing Intro
-parent: Approval Testing Legacy Code
-grand_parent: Learning Hours
-nav_order: 1
+kata: supermarket_receipt
 ---
 
 # Approval Testing Intro

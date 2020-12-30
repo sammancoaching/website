@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: small_steps
 title: TDD cycles
-parent: Working in Small Steps
-grand_parent: Learning Hours
-nav_order: 5
+kata: calc_stats
 ---
 
 # TDD Cycles

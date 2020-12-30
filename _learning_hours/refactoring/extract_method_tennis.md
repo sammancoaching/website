@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: refactoring
 title: Extract Function Tennis1
-parent: Refactoring
-grand_parent: Learning Hours
-nav_order: 1
+kata: tennis
 ---
 
 # Extract Function Refactoring in Tennis1

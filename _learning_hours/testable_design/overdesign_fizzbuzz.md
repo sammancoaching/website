@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: testable_design
 title: Overdesign
-parent: Testable Design
-grand_parent: Learning Hours
-nav_order: 2
+kata: fizzbuzz
 ---
 
 FizzBuzz - how does TDD affect your design?

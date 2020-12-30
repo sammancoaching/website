@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: small_steps
 title: Using TDD to write a Leap Years function
-parent: Working in Small Steps
-grand_parent: Learning Hours
-nav_order: 1
+kata: leap_years
 ---
 
 # Using TDD to write a Leap Years function

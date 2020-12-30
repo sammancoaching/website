@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: refactoring
 title: Replace Conditional With Polymorphism
-parent: Refactoring
-grand_parent: Learning Hours
-nav_order: 4
+kata: parrot
 ---
 
 

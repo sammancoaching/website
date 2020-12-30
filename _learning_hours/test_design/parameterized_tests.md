@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: test_design
 title: Parameterized Tests
-parent: Test Design
-grand_parent: Learning Hours
-nav_order: 3
+kata: mars_rover
 ---
 
 # Parameterized Tests

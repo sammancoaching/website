@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: testable_design
 title: Strategy - Peel
-parent: Testable Design
-grand_parent: Learning Hours
-nav_order: 4
+kata: tire_pressure
 ---
 
 # Peel - a strategy for difficult to test code

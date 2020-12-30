@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: approval_testing_legacy
 title: Using coverage when adding tests to existing code
-parent: Approval Testing Legacy Code
-grand_parent: Learning Hours
-nav_order: 5
+kata: product_export
 ---
 
 # Using coverage when adding tests to existing code

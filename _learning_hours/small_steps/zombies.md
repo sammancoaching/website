@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: small_steps
 title: Slicing a task using ZOMBIES
-parent: Working in Small Steps
-grand_parent: Learning Hours
-nav_order: 11
+kata: calc_stats
 ---
 
 # Slicing a task using ZOMBIES

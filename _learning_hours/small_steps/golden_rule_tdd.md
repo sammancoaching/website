@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: small_steps
 title: Golden Rule of TDD
-parent: Working in Small Steps
-grand_parent: Learning Hours
-nav_order: 3
+kata: shopping_basket
 ---
 
 

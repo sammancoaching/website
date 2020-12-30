@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: test_design
 title: Test Fixture Introduction
-parent: Test Design
-grand_parent: Learning Hours
-nav_order: 4
+kata: recently_used_list
 ---
 
 # Test Fixture Introduction

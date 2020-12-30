@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: test_design
 title: Arrange - Act - Assert
-parent: Test Design
-grand_parent: Learning Hours
-nav_order: 1
+kata: mars_rover
 ---
 
 # Arrange - Act - Assert

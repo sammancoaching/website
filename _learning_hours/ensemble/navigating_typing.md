@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: typing
 title: Navigating with Intent, Typing Syntax
-parent: Ensemble Working
-grand_parent: Learning Hours
-nav_order: 1
+kata: calc_stats
 ---
 
 # Navigating with Intent, Typing Syntax

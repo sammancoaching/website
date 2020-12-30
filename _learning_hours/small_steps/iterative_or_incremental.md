@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: small_steps
 title: Iterative or Incremental
-parent: Working in Small Steps
-grand_parent: Learning Hours
-nav_order: 6
+kata: mars_rover
 ---
 
 # Iterative or Incremental?

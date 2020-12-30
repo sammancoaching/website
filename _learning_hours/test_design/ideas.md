@@ -1,6 +1,3 @@
----
-layout: learning_hour
----
 # Ideas for styles
 
 - With Hamcrest matchers

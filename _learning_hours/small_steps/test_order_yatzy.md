@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
-title: Test Order with Yatzy
-parent: Working in Small Steps
-grand_parent: Learning Hours
-nav_order: 7
+theme: small_steps
+title: Test Order
+kata: yatzy
 ---
 
 Test Order with Yatzy

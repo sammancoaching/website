@@ -1,13 +1,11 @@
 ---
-layout: learning_hour
-title: Selecting and ordering test cases with FizzBuzz
-parent: Working in Small Steps
-grand_parent: Learning Hours
-nav_order: 2
+theme: small_steps
+title: Selecting and ordering test cases
+kata: fizzbuzz
 ---
 
-Selecting and ordering test cases with FizzBuzz
------------------------------------------------
+Selecting and ordering test cases 
+----------------------------------
 
 FizzBuzz is one step up in difficulty from Leap Years. Again, you are designing a function, this time one that takes an integer and returns a String. You can use this Kata to talk about how to plan and select test cases, and the purpose of adding additional cases in order to do triangulation. 
 

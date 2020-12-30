@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: legacy
 title: Strangler Fig Pattern
-parent: Legacy Code
-grand_parent: Learning Hours
-nav_order: 5
+kata: todo
 ---
 
 # Strangler Fig Pattern

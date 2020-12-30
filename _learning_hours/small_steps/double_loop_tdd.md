@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: small_steps
 title: Double-Loop TDD
-parent: Working in Small Steps
-grand_parent: Learning Hours
-nav_order: 8
+kata: monty_hall
 ---
 
 # Double-Loop TDD

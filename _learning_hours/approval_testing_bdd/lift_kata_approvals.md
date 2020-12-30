@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
-title: Lift Kata with Approvals
-parent: Behaviour Driven Development with Approval Testing
-grand_parent: Learning Hours
-nav_order: 2
+theme: approval_testing_bdd
+title: Test Driving Development with Approvals
+kata: lift
 ---
 
 # Lift Kata with Approvals

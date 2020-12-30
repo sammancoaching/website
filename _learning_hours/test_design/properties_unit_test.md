@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: test_design
 title: Characteristics of Unit tests
-parent: Test Design
-grand_parent: Learning Hours
-nav_order: 9
+kata: recently_used_list
 ---
 
 # Characteristics of Unit tests

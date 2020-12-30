@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
-title: Roll Up Loop in TimerExpiry
-parent: Refactoring
-grand_parent: Learning Hours
-nav_order: 5
+theme: refactoring
+title: Roll Up Loop
+kata: timer_expiry
 ---
 
 # Roll Up Loop

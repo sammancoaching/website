@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: small_steps
 title: Outside-in TDD
-parent: Working in Small Steps
-grand_parent: Learning Hours
-nav_order: 9
+kata: todo
 ---
 
 # Outside-in TDD

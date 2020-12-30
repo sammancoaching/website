@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: refactoring
 title: Code Smells
-parent: Refactoring
-grand_parent: Learning Hours
-nav_order: 3
+kata: tennis
 ---
 
 # Code Smells

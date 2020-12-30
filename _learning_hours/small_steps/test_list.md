@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: small_steps
 title: Make a test list
-parent: Working in Small Steps
-grand_parent: Learning Hours
-nav_order: 4
+kata: mars_rover
 ---
 
 # Make a test list

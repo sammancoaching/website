@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: testable_design
 title: The Dependency Inversion Principle
-parent: Testable Design
-grand_parent: Learning Hours
-nav_order: 1
+kata: tire_pressure
 ---
 
 

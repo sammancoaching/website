@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: refactoring
 title: Misconceptions about Refactoring
-parent: Refactoring
-grand_parent: Learning Hours
-nav_order: 2
+kata: tennis
 ---
 
 

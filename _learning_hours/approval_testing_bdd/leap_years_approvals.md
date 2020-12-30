@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: approval_testing_bdd
+kata: leap_years
 title: Leap Years with Approvals
-parent: Behaviour Driven Development with Approval Testing
-grand_parent: Learning Hours
-nav_order: 1
 ---
 
 # Leap Years with Approvals

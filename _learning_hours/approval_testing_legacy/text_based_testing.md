@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: approval_testing_legacy
 title: Text-Based Testing
-parent: Test Design
-grand_parent: Learning Hours
-nav_order: 8
+kata: approvals_puzzles
 ---
 
 # Text-based testing

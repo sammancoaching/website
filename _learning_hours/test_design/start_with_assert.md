@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
+theme: test_design
 title: Start with the Assertion
-parent: Test Design
-grand_parent: Learning Hours
-nav_order: 2
+kata: mars_rover
 ---
 
 # Start with the Assertion

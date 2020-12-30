@@ -1,9 +1,7 @@
 ---
-layout: learning_hour
-title: Simplify Conditional in SupermarketReceipt
-parent: Refactoring
-grand_parent: Learning Hours
-nav_order: 6
+theme: refactoring
+title: Simplify Conditional
+kata: supermarket_receipt
 ---
 
 # Simplify Conditional in SupermarketReceipt
