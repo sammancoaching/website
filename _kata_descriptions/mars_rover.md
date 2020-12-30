@@ -1,9 +1,6 @@
 ---
-layout: default
 title: Mars Rover
-parent: Kata Descriptions
-grand_parent: Exercises
-nav_order: 7
+kata_name: mars_rover
 ---
 
 # Mars Rover

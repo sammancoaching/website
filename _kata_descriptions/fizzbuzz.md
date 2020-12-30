@@ -1,9 +1,6 @@
 ---
-layout: default
 title: FizzBuzz
-parent: Kata Descriptions
-grand_parent: Exercises
-nav_order: 2
+kata_name: fizzbuzz
 ---
 
 # FizzBuzz

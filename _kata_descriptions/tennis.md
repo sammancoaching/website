@@ -1,9 +1,6 @@
 ---
-layout: default
 title: Tennis
-parent: Kata Descriptions
-grand_parent: Exercises
-nav_order: 5
+kata_name: tennis
 ---
 
 # Tennis

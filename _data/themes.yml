@@ -1,0 +1,16 @@
+- name: small_steps
+  title: Small Steps
+- name: test_design
+  title: Test Design
+- name: testable_design
+  title: Testable Agile Design
+- name: refactoring
+  title: Refactoring
+- name: ensemble
+  title: Working in an Ensemble
+- name: legacy
+  title: Legacy Code
+- name: approval_testing_legacy
+  title: Approval Testing Legacy Code
+- name: approval_testing_bdd"
+  title: Approval Testing in New Development

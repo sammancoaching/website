@@ -4,13 +4,25 @@ title: Learning Hours
 ---
 <h1>Learning Hours</h1>
 <p>
-These comprise teaching plans for one hour sessions.
+These comprise teaching plans for one hour sessions. In the book there are ten sample learning hours with four different themes. Here there are additional themes and learning hours. 
 </p>
+<p>
+I hope these materials will be a starting point, not a finished product you can deliver as-is. I think you'll get better results if you customize these materials for your own situation and your own strengths as a teacher. You are a unique, competent human person with many skills and experiences to draw on. People will learn more if you bring your personal enthusiasm and ideas into your teaching. Try out these materials, work on them, add to them - and make them your own.
+</p>
+
 <ul>
-  {% for learning_hour in site.learning_hours %}
-    <li>
-      <h2><a href="{{ learning_hour.url }}">{{ learning_hour.title }}</a></h2>
-      <h3>{{ learning_hour.parent }}</h3>
-    </li>
-  {% endfor %}
+	{% for theme in site.data.themes %}
+	    <h2> {{ theme.title }} </h2>
+        <ul>
+        {% assign by_theme = site.learning_hours | where: 'theme', theme.name %}
+		{% for learning_hour in by_theme %}
+		    <li>
+		      <h2><a href="{{ learning_hour.url }}">{{ learning_hour.title }}</a></h2>
+		    
+		    </li>
+		  {% endfor %}
+        </ul>
+     
+	{% endfor %}
 </ul>
+  

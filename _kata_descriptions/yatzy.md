@@ -1,9 +1,6 @@
 ---
-layout: default
 title: Yatzy
-parent: Kata Descriptions
-grand_parent: Exercises
-nav_order: 6
+kata_name: yatzy
 ---
 
 # Yatzy

@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>{{ page.title }}</title>
@@ -11,10 +11,7 @@
 	<section>
 	{{ content }}
     </section>
-	<hr>
-	<footer>
-		This content is covered by a <a href="{{ site.baseurl }}/LICENSE.html">CC-BY-SA-4.0</a> license.
-	</footer>
+	{% include footer.html %}
 </body>
 
 </html>

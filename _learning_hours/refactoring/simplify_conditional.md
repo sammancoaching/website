@@ -4,7 +4,7 @@ title: Simplify Conditional
 kata: supermarket_receipt
 ---
 
-# Simplify Conditional in SupermarketReceipt
+# Simplify Conditional
 
 Lean on the good tests. Improve the code in ShoppingCart.
 

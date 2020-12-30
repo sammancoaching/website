@@ -1,9 +1,6 @@
 ---
-layout: default
 title: Fractions
-parent: Kata Descriptions
-grand_parent: Exercises
-nav_order: 9
+kata_name: fractions
 ---
 
 Fractions

@@ -1,9 +1,6 @@
 ---
-layout: default
 title: Lift
-parent: Kata Descriptions
-grand_parent: Exercises
-nav_order: 3
+kata_name: lift
 ---
 
 # Lift

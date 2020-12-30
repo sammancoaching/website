@@ -1,9 +1,6 @@
 ---
-layout: default
 title: Shopping Basket
-parent: Kata Descriptions
-grand_parent: Exercises
-nav_order: 4
+kata_name: shopping_basket
 ---
 
 Shopping Basket Discount

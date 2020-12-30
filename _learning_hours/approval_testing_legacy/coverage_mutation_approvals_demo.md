@@ -1,6 +1,6 @@
 ---
 theme: approval_testing_legacy
-title: Solving Gilded Rose
+title: Demo of Approvals with Coverage and Mutation testing
 kata: gilded_rose
 ---
 

@@ -1,9 +1,6 @@
 ---
-layout: default
 title: Leap Years
-parent: Kata Descriptions
-grand_parent: Exercises
-nav_order: 1
+kata_name: leap_years
 ---
 
 # Leap Years

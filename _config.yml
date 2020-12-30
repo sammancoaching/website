@@ -32,28 +32,32 @@ plugins:
 collections:
   kata_descriptions:
     output: true
-    permalink: /:collection/:title
+    #permalink: /:collection/:kata_name
   learning_hours:
     output: true
-    #permalink: /:collection/:category/:name
+    #permalink: /:collection/:theme/:title
   workshops:
     output: true
 defaults:
   - scope:
-      path: "kata_descriptions"
-      type: "kata_description"
+      path: ""
+      type: "kata_descriptions"
     values:
       layout: "kata_description"
   - scope:
-      path: "learning_hours"
-      type: "learning_hour"
+      path: ""
+      type: "learning_hours"
     values:
       layout: "learning_hour"
   - scope:
-      path: "workshops"
+      path: ""
       type: "workshop"
     values:
       layout: "workshop"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

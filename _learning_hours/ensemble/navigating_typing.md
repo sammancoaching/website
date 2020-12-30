@@ -1,5 +1,5 @@
 ---
-theme: typing
+theme: ensemble
 title: Navigating with Intent, Typing Syntax
 kata: calc_stats
 ---

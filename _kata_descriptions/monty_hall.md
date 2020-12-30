@@ -1,9 +1,6 @@
 ---
-layout: default
 title: Monty Hall
-parent: Kata Descriptions
-grand_parent: Exercises
-nav_order: 10
+kata_name: monty_hall
 ---
 
 
