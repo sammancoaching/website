@@ -13,4 +13,4 @@ If you are interested in becoming a Samman Coach, or would like to find a Samman
 
 You are free to copy these materials and use them in your own work, so long as you give credit where it's due. This entire site is released under a [Creative Commons Share Alike license](https://creativecommons.org/licenses/by-sa/4.0/), and the credit to use is "SammanCoaching.org". 
 
-Use the links below to access the various kinds of content on this site.
+Use the links above to access the various kinds of content on this site.
