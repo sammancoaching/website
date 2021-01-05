@@ -1,0 +1,20 @@
+---
+layout: homepage
+---
+
+{{ content }}
+<ul>
+	{% assign themes = site.data.themes | where:"name",page.theme %}
+	{% for theme in themes %}
+	    <h2> {{ theme.title }} </h2>
+        <ul>
+        {% assign by_theme = site.learning_hours | where: 'theme', theme.name %}
+		{% for learning_hour in by_theme %}
+		    <li>
+		      <a href="{{ learning_hour.url }}">{{ learning_hour.title }}</a>
+		    </li>
+		  {% endfor %}
+        </ul>
+     
+	{% endfor %}
+</ul>

@@ -7,7 +7,7 @@ difficulty: 1
 
 # Arrange - Act - Assert
 
-Famous quote from Brian Kernighan: "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.". It's an exhortion to keep your code as simple as possible so you have a chance of being able to debug it.
+Famous quote from Brian Kernighan: "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.". It's an exhortation to keep your code as simple as possible so you have a chance of being able to debug it.
 
 Similarly you could say about test code - All code you write may contain bugs, and unit tests help you to find those bugs. If you write the test code as clever and complex as the production code, your test code will need tests too!
 
@@ -24,7 +24,7 @@ No-one wants buggy test code that could hide bugs in the production code. So wha
 Pin up some code samples around the room. For example [Mars Rover Kata Sample Tests](https://github.com/emilybache/MarsRover-Sample-Tests). Some follow Arrange-Act-Assert structure, some don't. Have them review the code and vote with their feet which is most and least likely to contain bugs.
 
 ### Concept: Arrange - Act - Assert
-Bring up the code sample with the best AAA structure and go through it. Explain how it makes the test code eaiser to read and less likely to have bugs in. Explain why that's important.
+Bring up the code sample with the best AAA structure and go through it. Explain how it makes the test code easier to read and less likely to have bugs in. Explain why that's important.
 
 ### Do: Mars Rover, Shopping Basket or Tennis
 Practice writing new test cases with an Arrange-Act-Assert structure.

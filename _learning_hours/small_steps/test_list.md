@@ -1,7 +1,7 @@
 ---
 theme: small_steps
 title: Make a test list
-kata: mars_rover
+kata: fractions
 difficulty: 2
 ---
 

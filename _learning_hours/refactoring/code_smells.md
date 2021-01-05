@@ -7,7 +7,7 @@ difficulty: 1
 
 # Code Smells
 
-It's useful to have a vocabularly for talking about refactoring. It will help you to communicate when doing strong-style pairing or mob programming. Code smells is perhaps a less-known concept than refactoring and knowing these names will also help you to communicate about code. In this learning hour we'll talk about what a code smell is and learn the names of a few of them. 
+It's useful to have a vocabulary for talking about refactoring. It will help you to communicate when doing strong-style pairing or mob programming. Code smells is perhaps a less-known concept than refactoring and knowing these names will also help you to communicate about code. In this learning hour we'll talk about what a code smell is and learn the names of a few of them. 
 
 ## Session Outline
  
@@ -36,7 +36,7 @@ Have them review all 3 of the Tennis implementations in [The Tennis Refactoring 
 When they've looked at the code, write up on a whiteboard the names of smells that they have found. Tell them the 'official' name (from Fowler's book) if they don't know it.
 
 ### Address a code smells
-Pick one of the smells and look up the corresponding refactoring. Depending on the skill of the group, either demo the refactoring or ask them to do it. Repat with more smells and refactorings.
+Pick one of the smells and look up the corresponding refactoring. Depending on the skill of the group, either demo the refactoring or ask them to do it. Repeat with more smells and refactorings.
 
 ### Define 'Code smell'
 How would you define 'code smell'? Write a definition on a sticky note and take it with you to put next to your screen.

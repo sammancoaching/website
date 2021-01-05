@@ -1,0 +1,10 @@
+---
+layout: homepage
+---
+
+{{ content }}
+<ul>
+	{% for theme in site.data.themes %}
+	    <h2> <a href="{{ theme.name }}.html">{{ theme.title }} </a> </h2>
+	{% endfor %}
+</ul>

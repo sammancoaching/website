@@ -2,3 +2,13 @@
 layout: default
 ---
 {{ content }}
+
+{% assign learning_hours = site.learning_hours | where:"kata",page.kata_name %}
+<h2>Referenced in these Learning Hours:</h2>
+<ul>
+	{% for learning_hour in learning_hours %}
+	    <li>
+	      <a href="{{ learning_hour.url }}">{{ learning_hour.title }}</a>
+	    </li>  
+	{% endfor %}
+</ul>

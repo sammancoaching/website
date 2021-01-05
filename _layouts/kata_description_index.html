@@ -1,0 +1,12 @@
+---
+layout: homepage
+---
+
+{{ content }}
+<ul>
+  {% for kata in site.kata_descriptions %}
+    <li>
+      <a href="{{ kata.url }}">{{ kata.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
