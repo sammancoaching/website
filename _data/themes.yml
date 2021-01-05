@@ -14,3 +14,5 @@
   title: Approval Testing Legacy Code
 - name: approval_testing_bdd
   title: Approval Testing in New Development
+- name: surgery
+  title: Getting C code under test in a Surgery
