@@ -28,6 +28,6 @@ This site contains materials that supplement the book ["Technical Agile Coaching
 
 [![Technical Agile Coaching with the Samman Method](/assets/images/title_page.png#book_cover)](https://leanpub.com/techagilecoach)
 
-You are free to copy these materials and use them in your own work, so long as you give credit where it's due. This entire site is released under a [Creative Commons Share Alike license](https://creativecommons.org/licenses/by-sa/4.0/), and the credit to use is "SammanCoaching.org". 
+You are free to copy these materials and use them in your own work, so long as you give credit where it's due. This entire site is released under a [Creative Commons Share Alike license](LICENSE.html). 
 
 Use the links at the top of the page to access the various kinds of content on this site.
