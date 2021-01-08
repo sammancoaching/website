@@ -6,13 +6,15 @@
   title: Testable Agile Design
 - name: refactoring
   title: Refactoring
-- name: ensemble
-  title: Working in an Ensemble
 - name: legacy
   title: Legacy Code
 - name: approval_testing_legacy
   title: Approval Testing Legacy Code
 - name: approval_testing_bdd
   title: Approval Testing in New Development
+- name: documentation
+  title: Documentation
+- name: ensemble
+  title: Working in an Ensemble
 - name: surgery
   title: Getting C code under test in a Surgery

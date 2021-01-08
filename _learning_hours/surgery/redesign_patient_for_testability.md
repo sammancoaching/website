@@ -29,7 +29,7 @@ In C, which of these allow you to substitute a different behaviour at:
 - 🐝 runtime 
 - 🐙 compile time 
 - 🍄 link time  
-- ☕ none of the above
+- ☕ does not allow you to substitute behaviour
 
 - #define 
 - typedef
