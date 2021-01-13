@@ -13,7 +13,7 @@ The POST_TO_PDF service is provided by a partner company. They scan paper invoic
 
 INSTAVOICED converts each pdf invoice into the required standard xml format and forwards it to BIGCO’s internal accounts system. (BIGCO has a secure ftp server where xml files can be written). INSTAVOICED will also take a copy of each pdf invoice and store it in a long-term archive. BIGCO can search for and download old pdf invoices from INSTAVOICED for any given supplier in a given date range. 
 
-INSTAVOICED has an onboarding process for new suppliers, facilitated by a skilled technician. For each small supplier, the technician creates an OCR mapping from the fields in the original pdf invoice to REALTEK’s standard xml fields. This OCR mapping will be used to transform all the invoices from that supplier into xml. 
+INSTAVOICED has an onboarding process for BIGCO's suppliers, facilitated by skilled technicians. For each small supplier, a technician creates an OCR mapping from the fields in the original pdf invoice to BIGCO's standard xml fields. This OCR mapping will be used to transform all the invoices from that supplier into xml. 
 
-New suppliers are added and old ones removed at a rate of about 20 per year. The volume of invoices to be handled is about 100 each month, and each xml file is around 500KB. The additional data for each supplier is up to 200KB. Old invoices must be stored for at least 10 years. REALTEK rarely fetches more than 10 old invoices at a time and INSTAVOICED has up to 5 working days to provide them.
+New suppliers are added and old ones removed at a rate of about 20 per year. The volume of invoices to be handled is about 100 each month, and each xml file is around 500KB. The additional data for each supplier is up to 200KB. Old invoices must be stored for at least 10 years. BIGCO rarely fetches more than 10 old invoices at a time and INSTAVOICED has up to 5 working days to provide them.
 
