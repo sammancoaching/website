@@ -1,6 +1,6 @@
 ---
 theme: documentation
-title: Simon Brown's 4C model
+title: Simon Brown's 4C model - Context diagram
 kata: instavoiced
 difficulty: 1
 ---

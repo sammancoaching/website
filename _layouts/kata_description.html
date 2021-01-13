@@ -3,7 +3,7 @@ layout: default
 ---
 {{ content }}
 
-{% assign learning_hours = site.learning_hours | where:"kata",page.kata_name %}
+{% assign learning_hours = site.learning_hours | where:"kata",page.kata_name | sort: 'difficulty' %}
 <h2>Referenced in these Learning Hours:</h2>
 <ul>
 	{% for learning_hour in learning_hours %}

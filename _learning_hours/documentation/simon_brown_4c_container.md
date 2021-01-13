@@ -1,6 +1,6 @@
 ---
 theme: documentation
-title: Simon Brown's 4C model
+title: Simon Brown's 4C model - Container diagram
 kata: instavoiced
 difficulty: 2
 ---
@@ -45,24 +45,23 @@ The list below comprises descriptions of elements of the 4C model. Some statemen
 Go through the example diagrams on [The C4 model](https://c4model.com/) website. Explain in particular the differences between Context and Container diagrams. Provide a context diagram for the Instavoiced exercise. Either one you designed yourself or one created in the previous session.
 
 Go through some advice on notation:
-- Put titles on diagrams. What type of diagram is it and what is the scope. eg “System context for Instavoiced".
-- Most important things in the middle.
+- Put titles on diagrams. What type of diagram is it? What is the scope? eg “System Context for Instavoiced".
 - Be consistent across diagrams.
-- Try not to use acronyms unless you’re sure your audience understands them.
-- Use plain boxes, add text to describe what sort they are.
-- Every element has a name, type, description. Don’t use post-it note style short titles since a long-term document needs more detail
-- Lines should have an arrow in only one direction, with a label explaining purpose. Thing A uses thing B. Summarize the intent of the relationship. Avoid just saying ‘Uses’. Don’t make the message medium into it’s own container.
-- Use more words so relationships along lines can be read as sentences.
+- Every element has a name, type and description.
+- Lines should have an arrow in only one direction, with a label explaining the purpose: summarize the intent of the relationship. Avoid saying ‘Thing A Uses Thing B’, rather say _how_ A uses B.
 - Have a legend or key.
-- Watch out for colour blindness.
 - Make sure diagram still makes sense if you take away all colour, shape and size. Those things are to make it aesthetically pleasing and easier to read, not convey necessary information.
-
+- Prefer to use full sentences not short titles. A long-term document needs some detail.
+- Try not to use acronyms unless you’re sure your audience understands them.
 
 ### Concrete: draw a container diagram
 Take the example context diagram or the one your pair produced last time. Create a Container diagram that 'zooms in' on the Instavoiced system. If you have time, pick one of the containers and create a component diagram for it.
 
 ### Conclusions
 Join with another pair to compare the diagrams you have come up with. Did you make the same decisions about what details to include? Go through the advice on notation - did you follow it? If you have time, update your diagram.
+
+### Homework
+Go and read more about the C4 model [The C4 model](https://c4model.com/). Create Context and Container diagrams for the software you work on.
 
 
 
