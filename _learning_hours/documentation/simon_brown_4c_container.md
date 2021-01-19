@@ -46,7 +46,7 @@ Go through the example diagrams on [The C4 model](https://c4model.com/) website.
 
 Go through some advice on notation:
 - Put titles on diagrams. What type of diagram is it? What is the scope? eg “System Context for Instavoiced".
-- Be consistent across diagrams.
+- Put the most important things in the middle.
 - Every element has a name, type and description.
 - Lines should have an arrow in only one direction, with a label explaining the purpose: summarize the intent of the relationship. Avoid saying ‘Thing A Uses Thing B’, rather say _how_ A uses B.
 - Have a legend or key.

@@ -2,7 +2,7 @@
 theme: documentation
 title: User Documentation from unit tests
 kata: recently_used_list
-difficulty: 3
+difficulty: 4
 ---
 
 # User Documentation and unit tests
