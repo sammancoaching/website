@@ -1,8 +1,6 @@
 ---
 layout: default
 title: BDD Tasks and Activities
-parent: Games and Activities
-grand_parent: Exercises
 nav_order: 2
 ---
 
@@ -64,7 +62,7 @@ Note: you do not need to include all the tasks and activities in your BDD proces
 
 **What:** Write code so that the software gains the capability described in the User Story.  
 **Who:** Developers.  
-**Outcome:** Working software. Scenarios that can be successfully executed against the software.  
+**Outcome:** Working software. Scenarios can be successfully executed against the software.  
 
 
 ## Automate Scenarios
@@ -84,7 +82,7 @@ Note: you do not need to include all the tasks and activities in your BDD proces
 ## Review Automated (Running) Scenarios
 
 **What:** Find out whether the running scenarios are correct and can be understood by relevant stakeholders.  
-**Who:** Business Analyst or Product Owner. 
+**Who:** Business Analyst or Product Owner.  
 **Outcome:** Confidence the development team have built what the business needs and that the running scenarios can be used as documentation.  
 
 
@@ -100,7 +98,6 @@ Note: you do not need to include all the tasks and activities in your BDD proces
 **What:** UML diagram describing the details of the architecture of the software.  
 **Who:** Architects from outside the development team.  
 **Outcome:** Developers have detailed instructions about how to implement User Stories.   
-
 
 ## Detailed Requirements Specification
 

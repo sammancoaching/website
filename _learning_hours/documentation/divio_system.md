@@ -29,7 +29,7 @@ Be ready to share your urls with the group.
 
 ### Concept: Divio documentation system
 
-Explain the four categories in the [Divio documentation system](https://documentation.divio.com/)
+Explain the four categories in the [Divio documentation system](https://documentation.divio.com/) using resources from that site.
 
 ### Concrete: classify and evaluate examples
 Working in pairs, look through these urls and classify them into one of the four documentation categories.
@@ -41,7 +41,7 @@ Working in pairs, look through these urls and classify them into one of the four
 
 (Note, all those links are from projects [listed as using the Divio system](https://documentation.divio.com/adoption/))
 
-When you have done that, go back to your own lists of documentation you have looked at recently. Pick one. How would you classify it? Does it fit neatly into one of the categories or is it a mix of more than one?
+When you have done that, go back to your own lists of documentation you have looked at recently. Pick one. How would you classify it? Does it fit neatly into one of the categories or is it a mix of more than one? When you were looking for this documentation, were you studying or working? Were you looking for practical steps or theoretical knowlege? Does that match the document's classification according to the Divio system?
 
 ### Concrete: write a document
 Pick a tool or library that you know well. Alternatively imagine some part of the the [Instavoiced software](/kata_descriptions/instavoiced.html) Write a short text about it in one of the four documentation categories. When the time is up, share it with the group and have them guess which category it belongs to.
