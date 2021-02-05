@@ -8,9 +8,17 @@ difficulty: 1
 Selecting and ordering test cases 
 ----------------------------------
 
-FizzBuzz is one step up in difficulty from Leap Years. Again, you are designing a function, this time one that takes an integer and returns a String. You can use this Kata to talk about how to plan and select test cases, and the purpose of adding additional cases in order to do triangulation. 
+[FizzBuzz](/kata_descriptions/fizzbuzz.html) is one step up in difficulty from Leap Years. Again, you are designing a function, this time one that takes an integer and returns a String. You can use this Kata to talk about how to plan and select test cases, and the purpose of adding additional cases in order to do triangulation. 
 
-The first time you do this kata, I suggest focussing on the core business logic for converting one number at a time, and leave out the part where you print the full 100 lines to the console. That part is a little harder to test-drive.
+The first time you do this kata, I suggest focusing on the core business logic for converting one number at a time, and leave out the part where you print the full 100 lines to the console. That part is a little harder to test-drive.
+
+
+### Learning goals
+The theme is repeated from the first session: "Small steps". 
+
+* Explain why you make a 'test case list'
+* Use a 'test case list' during TDD
+* Describe TDD
 
 ## Session Outline
 
@@ -26,17 +34,18 @@ Introduce yourself to a person near you and discuss. (Use the internet to resear
 
 Is it easier to unit test:
 
-	- a static method
-	- pure function
-	- method that modifies object state
-	- method that modifies its parameters
+- a static function
+- a pure function
+- a method that modifies object state
+- a method that modifies its parameters
+- a function that returns void
 
 Note: you can modify this list to fit the programming language they know.
 
 The reason for asking about what is easy to test is to get them prepared for designing a pure function or  static method for calculating FizzBuzz. These kinds of functions are easier to test since all the outcomes are visible in the return value, the input value is not modified and there are no side effects.
 
 ### Demonstrate
-Starting at a whiteboard, explain the purpose of the kata. Read the description to the group, or put it on a screen they can see. Ask the group to suggest test cases we will need for this kata. Write up whatever they say. 
+Starting at a whiteboard, explain the purpose of the [FizzBuzz](/kata_descriptions/fizzbuzz.html) kata. Read the description to the group, or put it on a screen they can see. Ask the group to suggest test cases we will need for this kata. Write up whatever they say. 
 
 What they come up with might include this - an impure function that prints a multi-line string: 
 
@@ -82,6 +91,5 @@ If they ask you for more details, explain:
 Ask them to refactor first to make adding the new rules straightforward.
 
 ### Reflect
-- In pairs, discuss how TDD felt, what was difficult and what was easier.
-- Tell the other person the most useful thing you learnt so far.
+How did TDD feel? What was difficult and what was easier? Tell us the most useful thing you learnt so far.
 
