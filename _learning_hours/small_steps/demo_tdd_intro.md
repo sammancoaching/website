@@ -11,6 +11,11 @@ This is often the first exercise I do with new teams. You have to TDD a function
 
 The first time I demonstrate this kata I usually don't show triangulation, and only do the four test cases listed in the problem description. That means I go straight to using the modulo operator when implementing the first test case. That keeps the demo shorter, and means you don't need to explain triangulation as a concept.
 
+## Learning Goals
+* Describe the Red-Green-Refactor cycle
+* Explain why you write the tests first and not all at once
+* Design a pure function that takes an integer and returns a boolean, using TDD
+
 ## Session Outline
 
 * 10 min connect: divide into pairs, 3 benefits of TDD  
@@ -34,9 +39,7 @@ In your pairs:
 After a few minutes of discussion, ask a few pairs to report some of the benefits they thought of to the whole group.
 
 ### Demonstrate
-The version of the Leap Year kata that I usually use is one of the exercises described on [cyber-dojo](https://cyber-dojo.org/).
-
-Starting at a whiteboard, explain the purpose of the kata. Read the description to the group, and/or display it on a slide. Write up all 4 examples given in the kata description on a whiteboard. Note that these will turn into tests.
+Starting at a whiteboard, explain the purpose of the [LeapYear](/kata_descriptions/leap_year.html) kata. Read the description to the group, and/or display it on a slide. Write up all 4 examples given in the kata description on a whiteboard. Note that these will turn into tests.
 
 Demonstrate how to TDD this function, taking one example/test at a time. I often do the demo using cyber-dojo as a development environment, since it makes the TDD cycles visible.
 
