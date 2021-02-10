@@ -8,7 +8,7 @@ nav_order: 6
 
 # What would you do?
 
-Read through these descriptions and choose the one that best matches how you would behave. Follow the link to see the possible consequences.
+You are a brave adventurer/coder embarking on a new quest. You are about to write some code. What do you do first? Read through these descriptions and choose the one that best matches how you would behave. Follow the link to see the possible consequences.
 
 ## Option A
 
