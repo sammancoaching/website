@@ -10,7 +10,7 @@ Samman Technical Coaching is a method for people who want to make a difference a
 - Learning Hour
 - Ensemble Working
 
-In the learning hour the coach uses exercises and active learning techniques to teach the theory and practice of skills like Test-Driven Development and Refactoring. In the Ensemble sessions the whole team collaborates together with the coach in applying agile development techniques in their usual production codebase.
+In the learning hour the coach uses exercises and active learning techniques to teach the theory and practice of skills like Test-Driven Development and Refactoring. In the Ensemble sessions the whole team collaborates together with the coach in applying agile development techniques in their usual production codebase. Note - some people may know ensemble working by its other name: 'mob programming'.
 
 The expected outcome is that the teams work more effectively and consistently with agile techniques even after the coach has moved on. Good technical practices mean the organization can build new features with a shorter lead time and higher quality. 
 
