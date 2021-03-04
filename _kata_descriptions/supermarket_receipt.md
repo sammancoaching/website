@@ -25,4 +25,4 @@ See also [Supermarket Receipt Refactoring Kata](https://github.com/emilybache/Su
 
 ## Acknowledgements
 
-This exercise is loosely based on [PragDave's Kata01](http://codekata.com/kata/kata01-supermarket-pricing/)
+This exercise is loosely based on PragDave's [Kata01](http://codekata.com/kata/kata01-supermarket-pricing/)
