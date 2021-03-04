@@ -35,5 +35,15 @@ Sample output:
 	Buzz
 	... etc up to 100
 
-### Acknowledgements
+## Follow-up requirements
+
+When you have the above program working, extend it with the following rules:
+
+- Multiples of 7 are “Whizz”
+- Multiples of 11 are “Bang”
+
+That means for example that multiples of 3 & 7 are “FizzWhizz”, multiples of 5 & 11 are “BuzzBang” etc. Extend your printout so it continues beyond 100 and stops the first time you get "FizzBuzzWhizzBang".
+
+
+### Acknowledgments
 This kata is described on cyber-dojo.org

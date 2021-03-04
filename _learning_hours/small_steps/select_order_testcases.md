@@ -75,20 +75,7 @@ I often use cyber-dojo for the demo, to make the TDD cycles more visible.
 What is triangulation? Describe it in your own words in your notebook, or make a sketch.
 
 ### Do
-Have the group work in pairs or a mob to do the Kata again, starting from no code, just the examples written on the whiteboard. Every 4 minutes, remind them to swap the driver. They should do it the same way you demonstrated, test by test in small steps. If some people are really on the ball and complete the FizzBuzz exercise before the time runs out, give them some additional rules (write them on the whiteboard). 
-
-- Multiples of 7 are "Whizz"
-- Multiples of 11 are "Bang"
-
-If they ask you for more details, explain:
-
-- Multiples of 3 & 7 are "FizzWhizz"
-- Multiples of 5 & 11 are "BuzzBang"
-- Multiples of 3 & 11 are "FizzBang"
-- ... etc ...
-- Multiples of all of 3,5,7,11 are "FizzBuzzWhizzBang"
-
-Ask them to refactor first to make adding the new rules straightforward.
+Have the group work in pairs or a mob to do the Kata again, starting from no code, just the examples written on the whiteboard. Every 4 minutes, remind them to swap the driver. They should do it the same way you demonstrated, test by test in small steps.
 
 ### Reflect
 How did TDD feel? What was difficult and what was easier? Tell us the most useful thing you learnt so far.
