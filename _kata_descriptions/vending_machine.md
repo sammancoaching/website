@@ -13,7 +13,7 @@ Features are detailed below.
 Accept Coins
 ------------
 
-The vending machine will accept valid coins (nickels, dimes, and quarters) and reject invalid ones (pennies). Coins:
+The vending machine will accept valid coins (nickels, dimes, and quarters) and reject invalid ones (pennies). Coin values:
 
 * Penny - 1 cent
 * Nickel - 5 cents 

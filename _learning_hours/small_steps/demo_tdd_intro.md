@@ -39,7 +39,7 @@ In your pairs:
 After a few minutes of discussion, ask a few pairs to report some of the benefits they thought of to the whole group.
 
 ### Demonstrate
-Starting at a whiteboard, explain the purpose of the [LeapYear](/kata_descriptions/leap_year.html) kata. Read the description to the group, and/or display it on a slide. Write up all 4 examples given in the kata description on a whiteboard. Note that these will turn into tests.
+Starting at a whiteboard, explain the purpose of the [LeapYear](/kata_descriptions/leap_years.html) kata. Read the description to the group, and/or display it on a slide. Write up all 4 examples given in the kata description on a whiteboard. Note that these will turn into tests.
 
 Demonstrate how to TDD this function, taking one example/test at a time. I often do the demo using cyber-dojo as a development environment, since it makes the TDD cycles visible.
 
