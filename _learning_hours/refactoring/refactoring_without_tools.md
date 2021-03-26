@@ -33,22 +33,24 @@ Explain this idea. As a group, come up with the steps for "Extract Method" or si
 
 Imagine you are looking at a page of code from a long method and you've identified a block within it that you want to do "Extract Method" on.
 
-1. Copy the block of code into the clipboard
+1. Copy the block of code into the clipboard.
 1. Declare a new empty, void method with no arguments. Call it 'foo' or something. 
-1. Paste the code into it from the clipboard
-1. Work out what the method should be called
+1. Paste the code into it from the clipboard.
+1. Work out what the method should be called and rename it.
 1. Work out what the return type should be and fix up the method body to return it.
-1. Work out what the arguments should be and fix up the method body to use them 
-1. Compile and test
-1. Replace the original block with a call to the function
-1. Compile and test
+1. Work out what the arguments should be and fix up the method body to use them.
+1. Compile and test.
+1. Replace the original block with a call to the method.
+1. Compile and test.
 
-Your list will probably vary in details from this one, that is fine! The only rule is to be a few undo steps away from working code. If you like, compare with the steps Martin Fowler has in his book.
+Your list will probably vary in details from this one, that is fine! The only rule is to be a few undo steps away from working code. If you like, compare whatever you come up with against the steps Martin Fowler has in his book.
 
-If you want to, now demo using the steps to perform the refactoring on some sample code.
+If you think the group needs it, you can demo using the steps to perform the refactoring on the exercise code. Then reset the code so they can do it again for themselves.
 
 ### Exercise
 Work on a refactoring exercise that needs that refactoring, for example Tennis. Have people use the steps you came up with earlier.
+
+Choose an exercise that already has good, fast tests.
 
 ### Conclusions
 Ask people to think about whether what they did was safe. How did it feel to have fast, reliable tests? Would you work differently if you didn't have that?
