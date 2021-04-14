@@ -1,7 +1,7 @@
 ---
 theme: small_steps
 title: Iterative or Incremental
-kata: mars_rover
+kata: closest_to_zero
 difficulty: 2
 ---
 
@@ -42,7 +42,7 @@ Show the article and the pictures, or just the pictures on a slide of your own. 
 Hopefully they will identify which picture is which and notice that with incremental development you need a much better idea of what you want. When you've worked on a kata in the previous session, like Mars Rover, you have probably been working iteratively, adding a new method then gradually adding all the needed functionality to it. Once a method is done, you hopefully don't need to revisit it. You could say that it is an increment - a piece of the software that is completed and ready to deliver but not very useful on its own. 
 
 ### Do: Mars Rover or similar
-If you are half way through a kata from a previous session you could continue with it. Otherwise perhaps start a new one that you have a test list for so that you get going coding quickly.
+If you are half way through a kata from a previous session you could continue with it. Otherwise perhaps start a new one, for example [ClosestToZero](kata_descriptions/closest_to_zero.html).
 
 ### Reflect: iterative and incremental experiences
 - When did we work incrementally and when did we work iteratively?
