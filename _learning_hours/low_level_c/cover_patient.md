@@ -1,8 +1,8 @@
 ---
-theme: surgery
+theme: low_level_c
 title: Cover the patient with tests
 kata: grep_with_marketing
-difficulty: 2
+difficulty: 5
 ---
 
 # Cover the patient with tests

@@ -1,8 +1,8 @@
 ---
-theme: surgery
+theme: low_level_c
 title: Return the patient
 kata: grep_with_marketing
-difficulty: 4
+difficulty: 7
 ---
 
 # Return the patient

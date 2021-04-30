@@ -18,5 +18,5 @@
   title: Behaviour Driven Development
 - name: ensemble
   title: Working in an Ensemble
-- name: surgery
-  title: Getting C code under test in a Surgery
+- name: low_level_c
+  title: Working with C

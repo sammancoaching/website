@@ -1,8 +1,8 @@
 ---
-theme: surgery
+theme: low_level_c
 title: Move the patient into the surgery
 kata: grep_with_marketing
-difficulty: 1
+difficulty: 4
 ---
 
 # Move the Patient into the Surgery

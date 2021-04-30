@@ -1,8 +1,8 @@
 ---
-theme: surgery
+theme: low_level_c
 title: Refactor for testability
 kata: grep_with_marketing
-difficulty: 3
+difficulty: 6
 ---
 
 # Refactor the patient for testability

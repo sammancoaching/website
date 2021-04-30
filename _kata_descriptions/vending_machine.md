@@ -50,12 +50,13 @@ Sold Out
 When the item selected by the customer is out of stock, the machine displays SOLD OUT for 5 seconds.  After that,
 it will display the amount of money remaining in the machine or INSERT COIN if there is no money in the machine.
 
+
 Exact Change Only
 -----------------
 
 When the machine is not able to give change for any of the items that it sells, it will display EXACT CHANGE ONLY 
 instead of INSERT COIN.
 
-# Acknowledgements
+# Acknowledgments
 
 This Kata is by Guy Royse and his version is available [here](https://github.com/guyroyse/vending-machine-kata)
