@@ -9,6 +9,11 @@ difficulty: 2
 
 TDD is perhaps a little easier when someone else has started making the test list for you.
 
+## Learning Objectives
+
+* describe how a test list supports working iteratively and incrementally
+* use a test list during TDD
+
 ## Session Outline
  
 * 5 min connect: what is a test list for
