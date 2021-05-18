@@ -16,19 +16,32 @@ TDD is perhaps a little easier when someone else has started making the test lis
 
 ## Session Outline
  
-* 5 min connect: what is a test list for
+* 5 min connect: waterfall phases
 * 5 min concept: iterative and incremental
 * 35 min concrete: do some TDD
 * 10 min reflect: did we work in small steps
 
 
-### Connect: what is a test list for
+### Connect: Waterfall phases
 
-Tell me 5 things that are important to remember about a test list.
+Mark the activities on this list that are phases in a Waterfall method:
+
+* Singleton
+* Coding
+* Sprint planning
+* Design
+* Clean Code
+* Analysis
+* Testing
+* Iteration
+* Requirements
+* Operations
+
+When people have made their marks, ask them to check their answers agains [the waterfall model](https://en.wikipedia.org/wiki/Waterfall_model#Model).
 
 ### Concept: Iterative and incremental
 
-The whole problem is too large to tackle all at once. The test list helps us to get started on a small piece. Add to the list as you discover more things that need to be done.
+The whole problem is too large to tackle all at once. In Waterfall, you split the work into phases. The purpose of the Analysis phase is to understand the requirements and work out how to decompose the problem. In TDD we still need to do that, but instead of doing it all at once in a phase by itself, we do a little analysis, a little design, a little coding, a little testing, then iterate. The test list is part of the analysis work. It helps us to identify some pieces that are testable, that we can design and build. It helps us to get started. Every time we complete a TDD cycle we revisit our test list and update it. By doing the design and coding and testing we discover more about the problem and can revisit our analysis.
 
 ### Concrete: Carry on with TDD
 
