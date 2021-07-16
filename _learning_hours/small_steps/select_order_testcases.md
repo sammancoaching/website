@@ -8,43 +8,37 @@ difficulty: 1
 Selecting and ordering test cases 
 ----------------------------------
 
-[FizzBuzz](/kata_descriptions/fizzbuzz.html) is one step up in difficulty from Leap Years. Again, you are designing a function, this time one that takes an integer and returns a String. You can use this Kata to talk about how to plan and select test cases, and the purpose of adding additional cases in order to do triangulation. 
-
-The first time you do this kata, I suggest focusing on the core business logic for converting one number at a time, and leave out the part where you print the full 100 lines to the console. That part is a little harder to test-drive.
-
+[FizzBuzz](/kata_descriptions/fizzbuzz.html) is one step up in difficulty from Leap Years. The problem description asks you to design a console application. You need to do a small amount of analysis to realize the heart of it is a pure function similar to the one for Leap Years. This one takes an integer and returns a String. You can use this Kata to talk about how to plan and select test cases, and why you spend a few minutes analyzing the problem to look for a pure function to test drive. Note - this is part of the general strategy for ['inside-out' TDD](https://8thlight.com/blog/georgina-mcfadyen/2016/06/27/inside-out-tdd-vs-outside-in.html). 
 
 ### Learning goals
-The theme is repeated from the first session: "Small steps". 
+The theme is the same as the first session: "Small steps". 
 
-* Explain why you make a 'test case list'
+* Explain why we look for a pure function to test-drive in TDD
 * Use a 'test case list' during TDD
-* Describe TDD
+* Use TDD to build a pure function and associated tests
 
 ## Session Outline
 
-* 2 min connect: pairs discuss what is easiest to test  
-* 10 min explain & elaborate test cases for fizzbuzz 
-* 10 min demo fizzbuzz with triangulation 
-* 2 min reflect: summarize triangulation in own words  
-* 30 min fizzbuzz in pairs  
+* 5 min connect: pairs discuss what is easiest to test  
+* 10 min explain & elaborate test cases for FizzBuzz 
+* 5 min demo FizzBuzz  
+* 25 min FizzBuzz in pairs  
 * 5 min reflect: pairs discuss what they learnt today
 
 ### Connect
 Introduce yourself to a person near you and discuss. (Use the internet to research if you are unsure what those things are.)
 
-Is it easier to unit test:
+Which is easiest to write automated tests for:
 
-- a static function
+- a whole system with a database
 - a pure function
-- a method that modifies object state
-- a method that modifies its parameters
-- a function that returns void
+- a user interface
+- a void function
+- a method in a Controller class (as in Model-View-Controller)
 
-Note: you can modify this list to fit the programming language they know.
+The reason for asking about what is easy to test is to get them prepared for designing a pure function or static method for calculating FizzBuzz. These kinds of functions are easier to test since all the outcomes are visible in the return value, the input value is not modified and there are no side effects.
 
-The reason for asking about what is easy to test is to get them prepared for designing a pure function or  static method for calculating FizzBuzz. These kinds of functions are easier to test since all the outcomes are visible in the return value, the input value is not modified and there are no side effects.
-
-### Demonstrate
+### Explain and elaborate test cases
 Starting at a whiteboard, explain the purpose of the [FizzBuzz](/kata_descriptions/fizzbuzz.html) kata. Read the description to the group, or put it on a screen they can see. Ask the group to suggest test cases we will need for this kata. Write up whatever they say. 
 
 What they come up with might include this - an impure function that prints a multi-line string: 
@@ -52,7 +46,7 @@ What they come up with might include this - an impure function that prints a mul
 	() -> print("1\n2\nFizz\n4\nBuzz\n...")
 
 
-Explain that they could usefully write a pure function that takes an integer and returns a string. This function could be called by the other one, and will be easier to test, while still giving us good coverage of the business rules.
+Explain that they could usefully write a pure function that takes an integer and returns a string. This function could be called by the other one, and will be easier to test, while still giving us good coverage of the business rules. 
 
 You might then end up with test cases on the whiteboard looking something like this:
 
@@ -65,18 +59,14 @@ You might then end up with test cases on the whiteboard looking something like t
 
 When you have half a dozen or so of those kinds of cases, ask them to prioritize/sort them. Which is the easiest to implement? Which order should we take them in? Hopefully they will notice you should take a number that is not divisible by 3 or 5 to begin with. Write numbers next to the examples (in a different colour pen) which order to implement them as test cases.
 
-Demonstrate how to TDD the first few test cases. Add extra cases for triangulation purposes - eg if they only wrote up '1 - > "1"' you may end up doing '2 -> "2"' as well. Explain the extra examples are useful to force you to generalize the code. Add the new test cases to the whiteboard.
-
-When it comes to the test for the impure function that prints to the console, I suggest you point out this is harder to test with a unit test and we will leave automating that test for another day. For today it's enough to check the pure function.
-
-I often use cyber-dojo for the demo, to make the TDD cycles more visible.
-
-### Reflect
-What is triangulation? Describe it in your own words in your notebook, or make a sketch.
+### Demonstrate TDD
+If you think they need this, demonstrate how to TDD the first few test cases. If they handled LeapYears well in a previous session, you could skip this. If I do a demo, I often use cyber-dojo to make the TDD cycles more visible.
 
 ### Do
-Have the group work in pairs or a mob to do the Kata again, starting from no code, just the examples written on the whiteboard. Every 4 minutes, remind them to swap the driver. They should do it the same way you demonstrated, test by test in small steps.
+Have the group work in pairs or a mob to do the Kata, starting from no code, just the examples written on the whiteboard. Every 4 minutes, remind them to swap the driver.
+
+When it comes to the test for the impure function that prints to the console, I suggest you point out this is harder to test with a unit test and we will leave automating that test for another day. For today it's enough to automate the test for the pure function, and do a manual test of printing to the console.
 
 ### Reflect
-How did TDD feel? What was difficult and what was easier? Tell us the most useful thing you learnt so far.
+How did TDD feel? What was difficult and what was easier compared with tests you've written before? Tell us the most useful thing you learnt so far.
 
