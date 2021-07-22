@@ -6,6 +6,8 @@
   title: Testable Agile Design
 - name: refactoring
   title: Refactoring
+- name: code_reading
+  title: Code Reading
 - name: legacy
   title: Legacy Code
 - name: approval_testing_legacy
