@@ -20,36 +20,36 @@ Note: if your language has a built-in 'eval' or another kind of runtime evaluati
 
 Let’s start with the basics! If you give your String Calculator a single integer, just return that integer.
 
-“1” -> 1
-“456” -> 456
-“-2” -> -2
+- “1” -> 1
+- “456” -> 456
+- “-2” -> -2
 
 ## Step 1 - Addition
 
 If you get two integers separated by a + sign, add them together.
 
-“1+1” -> 2
-“57+100” -> 157
-“1000+0” -> 1000
+- “1+1” -> 2
+- “57+100” -> 157
+- “1000+0” -> 1000
 
 ## Step 2 - Subtraction
 
 Also handle minus signs.
 
-"-2" -> -2
-“4-2” -> 2
-"40-2" -> 38
-“-2+2” -> 0
-“-4-10” -> -14
+- "-2" -> -2
+- “4-2” -> 2
+- "40-2" -> 38
+- “-2+2” -> 0
+- “-4-10” -> -14
 
 ## Step 3 - Whitespace
 
 Whitespace should be ignored
 
-"   1" -> 1
-"1   " -> 1
-"1 + 2" -> 3
-"  45 - 60 " -> -15
+- "   1" -> 1
+- "1   " -> 1
+- "1 + 2" -> 3
+- "  45 - 60 " -> -15
 
 ## Further steps
 
