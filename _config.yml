@@ -34,6 +34,9 @@ collections:
   learning_hours:
     output: true
     sort_by: difficulty
+  activities:
+    output: true
+    sort_by: minutes
   workshops:
     output: true
 defaults:
@@ -47,6 +50,11 @@ defaults:
       type: "learning_hours"
     values:
       layout: "learning_hour"
+  - scope:
+      path: ""
+      type: "activities"
+    values:
+      layout: "activity"
   - scope:
       path: ""
       type: "workshop"

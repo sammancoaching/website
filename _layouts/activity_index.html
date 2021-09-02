@@ -1,0 +1,10 @@
+---
+layout: homepage
+---
+
+{{ content }}
+<ul>
+	{% for element in site.data.four_c_elements %}
+	   <li> <a href="{{ element.name }}.html">{{ element.title }} </a> </li>
+	{% endfor %}
+</ul>

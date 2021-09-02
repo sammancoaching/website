@@ -1,0 +1,20 @@
+---
+layout: homepage
+---
+
+{{ content }}
+<ul>
+	{% assign elements = site.data.four_c_elements | where:"name",page.four_c_element %}
+	{% for four_c_element in elements %}
+	    <h2> {{ four_c_element.title }} </h2>
+        <ul>
+        {% assign by_element = site.activities | where: 'four_c_element', four_c_element.name %}
+		{% for activity in by_element %}
+		    <li>
+		      <a href="{{ activity.url }}">{{ activity.title }}</a>
+		    </li>
+		  {% endfor %}
+        </ul>
+     
+	{% endfor %}
+</ul>
