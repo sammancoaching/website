@@ -1,10 +1,10 @@
 ---
 four_c_element: connect
-title: Learning Goal Dot Voting
+title: Learning Goal Voting
 minutes: 2
 ---
 
-# Learning Goal Dot Voting
+# Learning Goal Voting
 
 - Time: 2-5 minutes
 
