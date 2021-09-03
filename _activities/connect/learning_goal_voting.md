@@ -1,7 +1,7 @@
 ---
 four_c_element: connect
 title: Learning Goal Voting
-minutes: 2
+minutes: 3
 ---
 
 # Learning Goal Voting
