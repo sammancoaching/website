@@ -1,6 +1,6 @@
 ---
 four_c_element: connect
-title: Three Facts and and Question
+title: Three Facts and a Question
 minutes: 5
 ---
 
