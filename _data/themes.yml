@@ -12,6 +12,8 @@
   title: Legacy Code
 - name: approval_testing_legacy
   title: Approval Testing Legacy Code
+- name: approval_testing_texttest
+  title: Approval Testing with TextTest
 - name: approval_testing_bdd
   title: Approval Testing in New Development
 - name: documentation
