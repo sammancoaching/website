@@ -7,16 +7,13 @@ kata_name: rpg_combat
 
 This Kata that has you building simple combat rules as for a role-playing game (RPG). The domain doesn't include a map or any other character skills apart from their ability to damage and heal one another.
 
-The problem is broken down into a sequence of iterations to help you to focus on doing one 
-thing at a time. There are also a couple of retrospectives where you are invited to reflect 
-on what you've learnt so far.
+The problem is broken down into several user stories to help you to focus on doing one thing at a time. Complete one user story before starting on the next one. Be sure to work on the problem in small steps and pay close attention to the design of both the code and the automated tests in every step.
 
-## Iteration One
+## Damage and Health
 
 1. All Characters, when created, have:
     - Health, starting at 1000
-    - Level, starting at 1
-    - May be Alive or Dead, starting Alive (Alive may be a true/false)
+    - May be Alive or Dead, starting Alive
 
 1. Characters can Deal Damage to Characters.
     - Damage is subtracted from Health
@@ -25,17 +22,17 @@ on what you've learnt so far.
 1. A Character can Heal themselves.
     - Dead characters cannot heal
 
-## Iteration Two
+## Levels
 
-1. A Character cannot Deal Damage to itself.
-
-1. A Character cannot have a health above 1000.
+1. All characters have a Level, starting at 1
+   - A Character cannot have a health above 1000 until they reach level 5, when the maximum increases to 1500
+   - A Character cannot Deal Damage to itself, even after they reach level 5
 
 1. When dealing damage:
     - If the target is 5 or more Levels above the attacker, Damage is reduced by 50%
     - If the target is 5 or more Levels below the attacker, Damage is increased by 50%
 
-## Iteration Three
+## Factions
 
 1. Characters may belong to one or more Factions.
     - Newly created Characters belong to no Faction.
@@ -43,32 +40,10 @@ on what you've learnt so far.
 1. A Character may Join or Leave one or more Factions.
 
 1. Players belonging to the same Faction are considered Allies.
+    - Allies cannot Deal Damage to one another.
+    - Allies can Heal one another and non-allies cannot.
 
-1. Allies cannot Deal Damage to one another.
-
-1. Allies can Heal one another and non-allies cannot.
-
-## Retrospective
-
-- Are you keeping up with the requirements? Has any iteration been a big challenge?
-- Do you feel good about your design? Is it scalable and easily adapted to new requirements?
-- Is everything tested? Are you confident in your code?
-- How readable are the test cases? Can you understand what each one is testing?
-
-
-## Iteration Four
-
-1. Level 1 Characters that survive 1000 damage points (counted over several battles) gain a level
-   - a character cannot gain a level while receiving damage, it happens directly afterwards (if the player is still alive)
-   - Level 2 Characters need to survive 2000 damage points to gain a level, Level 3 Characters need to survive 3000, and so on.
-   - Every time a Character levels up, the count of survived damage points resets to zero
-
-1. Level 1 Characters that have ever been part of 3 distinct factions gain a level
-   - Level 2 Characters need to join an additional 3 distinct factions to gain a level, Level 3 Characters need to join an additional 3, and so on.
-
-2. The maximum Level for Characters is 10
-
-## Iteration Five
+## Magical objects
 
 1. As well as Characters there are also Magical Objects
    - Magical Objects have Health
@@ -87,13 +62,18 @@ on what you've learnt so far.
     - Every time the weapon is used, the Health is reduced by 1
     - Magical Weapons cannot give Health to a Character
 
+## Changing level
 
-## Retrospective
+1. Level 1 Characters that survive 1000 damage points gain a level, (this may be counted over several battles)
+   - a character cannot gain a level while receiving damage, it happens directly afterwards (if the player is still alive)
+   - Level 2 Characters need to survive an additional 2000 damage points to gain a level, Level 3 Characters need to survive an additional 3000, and so on.
+   
+1. Level 1 Characters that have ever been part of 3 distinct factions gain a level
+   - Level 2 Characters need to join an additional 3 distinct factions to gain a level, Level 3 Characters need to join an additional 3, and so on.
 
-- What problems did you encounter?
-- What have you learned? Any new technique or pattern?
-- Share your design with others, and get feedback on different approaches.
-- How has test maintenance been going? Have you spent a lot of time updating approved files?
+1. The maximum Level for Characters is 10
+   - Characters cannot lose a level they have gained
+
 
 ## Acknowledgements
 
