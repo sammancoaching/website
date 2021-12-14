@@ -18,6 +18,7 @@ The problem is broken down into several user stories to help you to focus on doi
 1. Characters can Deal Damage to Characters.
     - Damage is subtracted from Health
     - When damage received exceeds current Health, Health becomes 0 and the character dies
+    - A Character cannot Deal Damage to itself
 
 1. A Character can Heal themselves.
     - Dead characters cannot heal
@@ -25,8 +26,7 @@ The problem is broken down into several user stories to help you to focus on doi
 ## Levels
 
 1. All characters have a Level, starting at 1
-   - A Character cannot have a health above 1000 until they reach level 5, when the maximum increases to 1500
-   - A Character cannot Deal Damage to itself, even after they reach level 5
+   - A Character cannot have a health above 1000 until they reach level 6, when the maximum increases to 1500
 
 1. When dealing damage:
     - If the target is 5 or more Levels above the attacker, Damage is reduced by 50%
