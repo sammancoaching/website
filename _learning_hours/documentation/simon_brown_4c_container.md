@@ -4,6 +4,7 @@ title: Simon Brown's 4C model - Container diagram
 kata: instavoiced
 difficulty: 2
 author: emilybache
+affiliation: ProAgile
 ---
 
 # Simon Brown's 4C model - Container diagrams

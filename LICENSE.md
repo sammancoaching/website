@@ -4,8 +4,4 @@
 
 This material is licensed with [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
-The attribution to use is:
-
-	Emily Bache - SammanCoaching.org
-
-plus a link to the original.
+When you use the material, you must include this licensing information and the details of the attribution for that page. For example most learning hours should be attributed with the author, their affiliation, and a link to [sammancoaching.org](/).

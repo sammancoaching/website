@@ -4,6 +4,7 @@ title: TDD a lamp microcontroller
 kata: lift_button
 difficulty: 3
 author: objarni
+affiliation: ProAgile
 ---
 
 # TDD a lamp microcontroller

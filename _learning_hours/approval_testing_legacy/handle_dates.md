@@ -4,6 +4,7 @@ title: Design for Approval Testing
 kata: supermarket_receipt
 difficulty: 2
 author: emilybache
+affiliation: ProAgile
 ---
 
 # Design for Approval Testing

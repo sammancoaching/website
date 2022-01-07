@@ -4,6 +4,7 @@ title: Change Signature
 kata: yatzy
 difficulty: 2
 author: emilybache
+affiliation: ProAgile
 ---
 
 # Change Signature

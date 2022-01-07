@@ -4,6 +4,7 @@ title: Approval Testing Combinations
 kata: yatzy
 difficulty: 2
 author: emilybache
+affiliation: Praqma
 ---
 
 # Approval Testing with Combinations

@@ -4,6 +4,7 @@ title: Navigating with Intent, Typing Syntax
 kata: calc_stats
 difficulty: 1
 author: emilybache
+affiliation: ProAgile
 ---
 
 # Navigating with Intent, Typing Syntax

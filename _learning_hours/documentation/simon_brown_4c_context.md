@@ -4,6 +4,7 @@ title: Simon Brown's 4C model - Context diagram
 kata: instavoiced
 difficulty: 1
 author: emilybache
+affiliation: ProAgile
 ---
 
 # Simon Brown's 4C model - Intro

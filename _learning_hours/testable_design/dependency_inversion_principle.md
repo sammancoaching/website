@@ -4,6 +4,7 @@ title: The Dependency Inversion Principle
 kata: tire_pressure
 difficulty: 1
 author: emilybache
+affiliation: ProAgile
 ---
 
 

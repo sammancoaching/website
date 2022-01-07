@@ -4,6 +4,7 @@ title: Return the patient
 kata: grep_with_marketing
 difficulty: 7
 author: emilybache
+affiliation: ProAgile
 ---
 
 # Return the patient

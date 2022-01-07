@@ -4,6 +4,7 @@ title: Text-Based Testing
 kata: approvals_puzzles
 difficulty: 3
 author: emilybache
+affiliation: ProAgile
 ---
 
 # Text-based testing

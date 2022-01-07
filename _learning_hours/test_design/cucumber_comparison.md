@@ -4,6 +4,7 @@ title: Gherkin intro
 kata: leap_years
 difficulty: 4
 author: emilybache
+affiliation: ProAgile
 ---
 
 # Gherkin intro

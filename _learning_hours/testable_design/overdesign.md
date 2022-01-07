@@ -4,6 +4,7 @@ title: Overdesign
 kata: fizzbuzz
 difficulty: 1
 author: emilybache
+affiliation: ProAgile
 ---
 
 FizzBuzz - how does TDD affect your design?

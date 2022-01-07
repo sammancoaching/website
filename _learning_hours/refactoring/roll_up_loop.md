@@ -4,6 +4,7 @@ title: Roll Up Loop
 kata: timer_expiry
 difficulty: 3
 author: emilybache
+affiliation: ProAgile
 ---
 
 # Roll Up Loop

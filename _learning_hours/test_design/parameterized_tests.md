@@ -4,6 +4,7 @@ title: Parameterized Tests
 kata: mars_rover
 difficulty: 2
 author: emilybache
+affiliation: ProAgile
 ---
 
 # Parameterized Tests

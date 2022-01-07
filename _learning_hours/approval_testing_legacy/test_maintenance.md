@@ -4,6 +4,7 @@ title: Test maintenance
 kata: supermarket_receipt
 difficulty: 2
 author: emilybache
+affiliation: ProAgile
 ---
 
 # Test maintenance

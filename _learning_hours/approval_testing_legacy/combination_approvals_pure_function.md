@@ -4,6 +4,7 @@ title: Combination Approvals needs a Pure Function
 kata: validate_add_product
 difficulty: 3
 author: emilybache
+affiliation: Praqma
 ---
 
 # Combination Approvals needs a Pure Function

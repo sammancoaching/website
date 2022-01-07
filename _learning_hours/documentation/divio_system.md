@@ -4,6 +4,7 @@ title: Divio Documentation System
 kata: instavoiced
 difficulty: 3
 author: emilybache
+affiliation: ProAgile
 ---
 
 # The Divio Documentation System

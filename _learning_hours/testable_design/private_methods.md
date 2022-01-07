@@ -4,6 +4,7 @@ title: Testing Private Methods
 kata: yatzy
 difficulty: 2
 author: emilybache
+affiliation: ProAgile
 ---
 
 Testing Private Methods with Yatzy

@@ -4,6 +4,7 @@ title: Take Smaller Steps
 kata: rpg_combat
 difficulty: 3
 author: emilybache
+affiliation: ProAgile
 ---
 
 # Take Smaller Steps

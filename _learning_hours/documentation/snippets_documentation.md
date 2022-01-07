@@ -4,6 +4,7 @@ title: User Documentation and code snippets
 kata: recently_used_list
 difficulty: 3
 author: emilybache
+affiliation: ProAgile
 ---
 
 # User Documentation and code snippets

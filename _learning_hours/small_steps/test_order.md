@@ -4,6 +4,7 @@ title: Test Order
 kata: yatzy
 difficulty: 1
 author: emilybache
+affiliation: ProAgile
 ---
 
 Test Order with Yatzy

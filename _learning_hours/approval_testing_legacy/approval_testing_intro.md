@@ -4,6 +4,7 @@ title: Approval Testing Intro
 kata: supermarket_receipt
 difficulty: 1
 author: emilybache
+affiliation: Praqma
 ---
 
 # Approval Testing Intro

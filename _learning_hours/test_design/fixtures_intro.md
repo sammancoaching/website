@@ -4,6 +4,7 @@ title: Test Fixture Introduction
 kata: recently_used_list
 difficulty: 2
 author: emilybache
+affiliation: ProAgile
 ---
 
 # Test Fixture Introduction

@@ -4,6 +4,7 @@ title: Idiomatic Code
 kata: theatrical_players
 difficulty: 2
 author: emilybache
+affiliation: ProAgile
 ---
 
 # Idiomatic Code

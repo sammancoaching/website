@@ -4,6 +4,7 @@ title: Using coverage when adding tests to existing code
 kata: product_export
 difficulty: 1
 author: emilybache
+affiliation: Praqma
 ---
 
 # Using coverage when adding tests to existing code

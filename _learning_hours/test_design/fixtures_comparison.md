@@ -4,6 +4,7 @@ title: Test Fixture design
 kata: timer_expiry
 difficulty: 3
 author: emilybache
+affiliation: ProAgile
 ---
 
 # Test Fixture Design

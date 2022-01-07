@@ -4,6 +4,7 @@ kata: rpg_combat
 title: Data Driven testing with Approvals
 difficulty: 1
 author: emilybache
+affiliation: ProAgile
 ---
 
 # Data-Driven Testing with Approvals

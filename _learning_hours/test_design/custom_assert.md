@@ -4,6 +4,7 @@ title: Custom Assertions
 kata: todo
 difficulty: 3
 author: emilybache
+affiliation: ProAgile
 ---
 
 # Custom Assertions

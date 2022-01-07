@@ -4,6 +4,7 @@ kata: leap_years
 title: Leap Years with Approvals
 difficulty: 1
 author: emilybache
+affiliation: ProAgile
 ---
 
 # Leap Years with Approvals

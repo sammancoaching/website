@@ -4,6 +4,7 @@ title: TDD a state machine
 kata: lift_button
 difficulty: 2
 author: objarni
+affiliation: ProAgile
 ---
 
 # TDD a state machine

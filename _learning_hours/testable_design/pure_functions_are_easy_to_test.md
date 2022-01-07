@@ -4,6 +4,7 @@ title: Testing Pure Functions
 kata: trig_math
 difficulty: 1
 author: emilybache
+affiliation: ProAgile
 ---
 
 # Writing tests for pure functions

@@ -4,6 +4,7 @@ title: Three parts of a test
 kata: calc_stats
 difficulty: 1
 author: emilybache
+affiliation: ProAgile
 ---
 
 # Three parts of a test

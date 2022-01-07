@@ -4,6 +4,7 @@ title: Slicing a task using ZOMBIES
 kata: calc_stats
 difficulty: 3
 author: emilybache
+affiliation: ProAgile
 ---
 
 # Slicing a task using ZOMBIES

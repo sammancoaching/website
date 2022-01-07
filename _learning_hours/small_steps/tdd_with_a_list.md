@@ -4,6 +4,7 @@ title: TDD with a list
 kata: vending_machine
 difficulty: 2
 author: emilybache
+affiliation: ProAgile
 ---
 
 # TDD with a list

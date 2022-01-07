@@ -4,6 +4,7 @@ title: Test Driving Development with Approvals
 kata: lift
 difficulty: 3
 author: emilybache
+affiliation: ProAgile
 ---
 
 # Lift Kata with Approvals

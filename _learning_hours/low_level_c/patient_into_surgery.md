@@ -4,6 +4,7 @@ title: Move the patient into the surgery
 kata: grep_with_marketing
 difficulty: 4
 author: emilybache
+affiliation: ProAgile
 ---
 
 # Move the Patient into the Surgery

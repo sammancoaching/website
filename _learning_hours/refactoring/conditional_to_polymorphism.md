@@ -4,6 +4,7 @@ title: Replace Conditional With Polymorphism
 kata: parrot
 difficulty: 1
 author: emilybache
+affiliation: Praqma
 ---
 
 
