@@ -15,8 +15,8 @@ In his book "Unit Testing Principles, Practices and Patterns", Vladimir Khorikov
 
 * 15 min connect: web hunt test design principles
 * 10 min concept: Four pillars
-* 25 min concrete: Review sample tests
-* 5 min conclusions: discuss which pillar your tests have most trouble with
+* 20 min concrete: Review sample tests
+* 10 min conclusions: discuss which pillar your tests have most trouble with
 
 ### Connect - web hunt test design principles
 What test design principles do you know already? Can you find any good articles like "four principles of test design" or similar?
@@ -39,4 +39,4 @@ Have them review the example test cases for [MessageRenderer](https://github.com
 When you have reviewed all the existing tests, write a new test that you think scores best on all four pillars. 
 
 ### Conclusions - how about your test code?
-In your team, which of these test design pillars do you have the most trouble with? Discuss in pairs.
+In your team, which of these test design pillars do you have the most trouble with? Discuss in pairs. Look for examples in your sourcecode that are particularly bad.
