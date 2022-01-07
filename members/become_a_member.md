@@ -1,14 +1,14 @@
 ---
 layout: members
-title: Join the Samman Coaching Society
+title: Join the Samman Techincal Coaching Society
 ---
 
-# Join the Samman Coaching Society
+# Join the Samman Technical Coaching Society
 
 Would you like to join the ranks of Samman Technical Coaches who create and maintain this website? Would you like to be able to call yourself a member of the Samman Technical Coaching Society?
 
 Benefits of joining:
-- Your name listed on this page, with a link to your professional website
+- Your own member page where you can list your affilitations and link to your professional website.
 - Attend conferences and member-only events
 - Be part of an online community of technical coaches
 
