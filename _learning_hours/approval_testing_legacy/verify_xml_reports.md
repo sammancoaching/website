@@ -3,6 +3,7 @@ theme: approval_testing_legacy
 title: Using coverage when adding tests to existing code
 kata: product_export
 difficulty: 1
+author: emilybache
 ---
 
 # Using coverage when adding tests to existing code

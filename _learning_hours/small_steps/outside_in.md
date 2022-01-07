@@ -3,6 +3,7 @@ theme: small_steps
 title: Outside-in TDD
 kata: todo
 difficulty: 5
+author: emilybache
 ---
 
 # Outside-in TDD

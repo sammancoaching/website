@@ -3,6 +3,7 @@ theme: approval_testing_legacy
 title: Approval Testing Intro
 kata: supermarket_receipt
 difficulty: 1
+author: emilybache
 ---
 
 # Approval Testing Intro

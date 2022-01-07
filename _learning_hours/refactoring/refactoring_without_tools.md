@@ -3,6 +3,7 @@ theme: refactoring
 title: Refactoring Without Tools
 kata: tennis
 difficulty: 1
+author: emilybache
 ---
 
 # Refactoring without tools

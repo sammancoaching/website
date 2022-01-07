@@ -3,6 +3,7 @@ theme: low_level_c
 title: TDD a lamp microcontroller
 kata: lift_button
 difficulty: 3
+author: objarni
 ---
 
 # TDD a lamp microcontroller

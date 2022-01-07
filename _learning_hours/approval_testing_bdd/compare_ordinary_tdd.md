@@ -3,6 +3,7 @@ theme: approval_testing_bdd
 kata: leap_years
 title: Leap Years with Approvals
 difficulty: 1
+author: emilybache
 ---
 
 # Leap Years with Approvals

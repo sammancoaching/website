@@ -3,6 +3,7 @@ theme: testable_design
 title: Strategy - Peel
 kata: tire_pressure
 difficulty: 3
+author: emilybache
 ---
 
 # Peel - a strategy for difficult to test code

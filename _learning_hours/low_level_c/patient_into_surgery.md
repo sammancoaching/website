@@ -3,6 +3,7 @@ theme: low_level_c
 title: Move the patient into the surgery
 kata: grep_with_marketing
 difficulty: 4
+author: emilybache
 ---
 
 # Move the Patient into the Surgery

@@ -3,6 +3,7 @@ theme: small_steps
 title: Iterative or Incremental
 kata: closest_to_zero
 difficulty: 2
+author: emilybache
 ---
 
 # Iterative or Incremental?

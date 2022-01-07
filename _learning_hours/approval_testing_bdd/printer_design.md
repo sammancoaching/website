@@ -3,6 +3,7 @@ theme: approval_testing_bdd
 title: Designing a Printer
 kata: vending_machine
 difficulty: 2
+author: emilybache
 ---
 
 # Printer design

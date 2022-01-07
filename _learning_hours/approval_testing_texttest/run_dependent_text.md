@@ -3,6 +3,7 @@ theme: approval_testing_texttest
 title: Filtering output that varies
 kata: quizz
 difficulty: 3
+author: emilybache
 ---
 
 # Filtering output that varies

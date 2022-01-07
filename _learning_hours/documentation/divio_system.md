@@ -3,6 +3,7 @@ theme: documentation
 title: Divio Documentation System
 kata: instavoiced
 difficulty: 3
+author: emilybache
 ---
 
 # The Divio Documentation System

@@ -3,6 +3,7 @@ theme: low_level_c
 title: Return the patient
 kata: grep_with_marketing
 difficulty: 7
+author: emilybache
 ---
 
 # Return the patient

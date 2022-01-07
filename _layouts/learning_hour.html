@@ -2,3 +2,8 @@
 layout: default
 ---
 {{ content }}
+<hr>
+<footer>
+    {% assign person = site.data.members[page.author] %}
+    This content is covered by a <a href="/LICENSE.html">CC-BY-SA-4.0</a> license. Author: <a href="/members/member_pages/{{ page.author }}">{{ person.title }}</a> - <a href="/">sammancoaching.org</a>
+</footer>

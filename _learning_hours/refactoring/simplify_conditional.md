@@ -3,6 +3,7 @@ theme: refactoring
 title: Simplify Conditional
 kata: supermarket_receipt
 difficulty: 3
+author: emilybache
 ---
 
 # Simplify Conditional

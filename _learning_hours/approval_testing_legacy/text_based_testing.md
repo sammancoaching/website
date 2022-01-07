@@ -3,6 +3,7 @@ theme: approval_testing_legacy
 title: Text-Based Testing
 kata: approvals_puzzles
 difficulty: 3
+author: emilybache
 ---
 
 # Text-based testing

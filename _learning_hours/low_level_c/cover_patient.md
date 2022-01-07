@@ -3,6 +3,7 @@ theme: low_level_c
 title: Cover the patient with tests
 kata: grep_with_marketing
 difficulty: 5
+author: emilybache
 ---
 
 # Cover the patient with tests

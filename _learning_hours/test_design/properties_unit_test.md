@@ -3,6 +3,7 @@ theme: test_design
 title: Characteristics of Unit tests
 kata: recently_used_list
 difficulty: 2
+author: emilybache
 ---
 
 # Characteristics of Unit tests

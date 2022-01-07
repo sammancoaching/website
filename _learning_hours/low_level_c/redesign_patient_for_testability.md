@@ -3,6 +3,7 @@ theme: low_level_c
 title: Refactor for testability
 kata: grep_with_marketing
 difficulty: 6
+author: emilybache
 ---
 
 # Refactor the patient for testability

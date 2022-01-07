@@ -3,6 +3,7 @@ theme: low_level_c
 title: TDD a state machine
 kata: lift_button
 difficulty: 2
+author: objarni
 ---
 
 # TDD a state machine

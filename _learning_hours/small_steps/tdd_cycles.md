@@ -3,6 +3,7 @@ theme: small_steps
 title: TDD cycles
 kata: closest_to_zero
 difficulty: 1
+author: emilybache
 ---
 
 # TDD Cycles

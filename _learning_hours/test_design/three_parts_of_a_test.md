@@ -3,6 +3,7 @@ theme: test_design
 title: Three parts of a test
 kata: calc_stats
 difficulty: 1
+author: emilybache
 ---
 
 # Three parts of a test

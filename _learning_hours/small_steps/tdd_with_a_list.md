@@ -3,6 +3,7 @@ theme: small_steps
 title: TDD with a list
 kata: vending_machine
 difficulty: 2
+author: emilybache
 ---
 
 # TDD with a list

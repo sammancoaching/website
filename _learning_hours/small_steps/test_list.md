@@ -3,6 +3,7 @@ theme: small_steps
 title: Make a test list
 kata: fractions
 difficulty: 2
+author: emilybache
 ---
 
 # Make a test list

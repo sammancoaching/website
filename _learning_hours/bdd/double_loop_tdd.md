@@ -3,6 +3,7 @@ theme: small_steps
 title: Double-Loop TDD
 kata: monty_hall
 difficulty: 2
+author: emilybache
 ---
 
 # Double-Loop TDD

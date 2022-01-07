@@ -3,6 +3,7 @@ theme: documentation
 title: User Documentation and code snippets
 kata: recently_used_list
 difficulty: 3
+author: emilybache
 ---
 
 # User Documentation and code snippets

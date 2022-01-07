@@ -3,6 +3,7 @@ theme: bdd
 title: BDD Process
 kata: lift
 difficulty: 1
+author: emilybache
 ---
 
 # Example mapping

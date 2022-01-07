@@ -3,6 +3,7 @@ theme: small_steps
 title: Golden Rule of TDD
 kata: shopping_basket
 difficulty: 1
+author: emilybache
 ---
 
 # Golden Rule of TDD

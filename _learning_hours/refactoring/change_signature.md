@@ -3,6 +3,7 @@ theme: refactoring
 title: Change Signature
 kata: yatzy
 difficulty: 2
+author: emilybache
 ---
 
 # Change Signature

@@ -3,6 +3,7 @@ theme: approval_testing_texttest
 title: TDD with TextTest
 kata: parse_args
 difficulty: 3
+author: emilybache
 ---
 
 # TDD with TextTest

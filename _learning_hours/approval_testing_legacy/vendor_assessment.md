@@ -3,6 +3,7 @@ theme: approval_testing_legacy
 title: Text-based Approval Tests for Yatzy
 kata: yatzy
 difficulty: 3
+author: emilybache
 ---
 
 # Text-based Approval Tests for Yatzy

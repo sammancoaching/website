@@ -3,6 +3,7 @@ theme: approval_testing_bdd
 title: Test Driving Development with Approvals
 kata: lift
 difficulty: 3
+author: emilybache
 ---
 
 # Lift Kata with Approvals

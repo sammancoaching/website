@@ -3,6 +3,7 @@ theme: code_reading
 title: Code Reading Tennis4
 kata: tennis
 difficulty: 1
+author: emilybache
 ---
 
 # Code Reading Tennis4

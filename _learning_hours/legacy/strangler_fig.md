@@ -3,6 +3,7 @@ theme: legacy
 title: Strangler Fig Pattern
 kata: todo
 difficulty: 1
+author: emilybache
 ---
 
 # Strangler Fig Pattern

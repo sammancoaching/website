@@ -3,6 +3,7 @@ theme: small_steps
 title: Using TDD to write a Leap Years function
 kata: leap_years
 difficulty: 1
+author: emilybache
 ---
 
 # Using TDD to write a Leap Years function
