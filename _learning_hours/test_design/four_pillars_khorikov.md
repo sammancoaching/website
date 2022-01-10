@@ -38,7 +38,7 @@ Explain them.
 Have them review the example test cases for [MessageRenderer](https://github.com/emilybache/MessageRenderer-Test-Design-Kata). For each one, which pillar(s) are in trouble?
 
 ### Concrete - write tests for WordWrap
-One of the pillars is "Resistance to refactoring". That means the design of the code could change without the test needing to change. In this exercise there are several designs for the same functionality. Write some test cases that work for any of the implementations. Aim to cover all the interesting functionality and edge cases.
+One of the pillars is "Resistance to refactoring". That means the design of the code could change without the test needing to change. Take a look at [WordWrap-TestDesign-Kata](https://github.com/emilybache/WordWrap-TestDesign-Kata). In this exercise there are several designs for the same functionality. Write some test cases that work for any of the implementations. Aim to cover all the interesting functionality and edge cases.
 
 Evaluate your tests against all the four pillars. In particular, "Resistance to refactoring". What is it about this code that makes it easy to score well on that pillar?
 
