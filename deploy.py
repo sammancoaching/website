@@ -22,8 +22,11 @@ def placeFiles(ftp, path):
     for name in os.listdir(path):
         localpath = os.path.join(path, name)
         if os.path.isfile(localpath):
-            print("STOR", name, localpath)
-            ftp.storbinary('STOR ' + name, open(localpath,'rb'))
+            try:
+                print("STOR", name, localpath)
+                ftp.storbinary('STOR ' + name, open(localpath,'rb'))
+            except TimeoutError as e:
+                print("timeout when storing file ", name)
         elif os.path.isdir(localpath):
             
             try:
