@@ -6,7 +6,7 @@
   link: /learning_hours/index.html
 - name: Activities
   link: /activities/index.html
-- name: Members
-  link: /members/index.html
-- name: About
-  link: /about.html
+#- name: Members
+#  link: /members/index.html
+#- name: About
+#  link: /about.html
