@@ -57,7 +57,8 @@ For example:
 ### Pair: 
 The player scores the sum of the two highest matching dice.
 For example, when placed on "pair":
-  
+
+-   1,2,3,4,5 scores 0
 -   3,3,3,4,4 scores 8 (4+4)
 -   1,1,6,2,6 scores 12 (6+6)
 -   3,3,3,4,1 scores 6 (3+3)
@@ -71,6 +72,7 @@ For example, when placed on "two pairs":
 -   1,1,2,3,3 scores 8 (1+1+3+3)
 -   1,1,2,3,4 scores 0
 -   1,1,2,2,2 scores 6 (1+1+2+2)
+-   3,3,3,3,1 scores 0
 
 ### Three of a kind: 
 If there are three dice with the same number, the player
