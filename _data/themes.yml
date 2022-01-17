@@ -20,6 +20,8 @@
   title: Documentation
 - name: bdd
   title: Behaviour Driven Development
+- name: devops
+  title: DevOps
 - name: ensemble
   title: Working in an Ensemble
 - name: low_level_c

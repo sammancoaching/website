@@ -16,12 +16,10 @@ The expected outcome is that the teams work more effectively and consistently wi
 
 ## Finding out more
 
-You can find full details of the Samman method in the book ["Technical Agile Coaching with the Samman method"](https://leanpub.com/techagilecoach) by Emily Bache. If you would like to find a Samman Coach to employ, please get in touch with [ProAgile](http://proagile.eu). If you would like to find out more about the community of coaches and what it is like to use the Samman method, please follow [@CoachingSamman](https://twitter.com/coachingsamman) on twitter, or sign up for the [Early adopter mailing list](https://proagile.typeform.com/to/XyUGF46D).
+You can find full details of the Samman method in the book ["Technical Agile Coaching with the Samman method"](https://leanpub.com/techagilecoach) by Emily Bache. If you would like to find a Samman Coach to employ, please get in touch with [ProAgile](http://proagile.eu). If you would like to find out more about the community of coaches and what it is like to use the Samman method, please follow [@CoachingSamman](https://twitter.com/coachingsamman) on twitter.
 
 ## About this site
 
-
-
-You are free to copy these materials and use them in your own work, so long as you give credit where it's due. Many of these materials are released under a [Creative Commons Share Alike license](LICENSE.html). 
+This website is designed to help people who do technical coaching. You are free to copy these materials and use them in your own work, so long as you give credit where it's due. Many of these materials are released under a [Creative Commons Share Alike license](LICENSE.html). 
 
 Use the links at the top of the page to access the various kinds of content on this site.
