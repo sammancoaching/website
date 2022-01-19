@@ -15,8 +15,8 @@ From the book "The Phoenix Project" by Gene Kim et al.
 
 * 5 min connect: What is and is not DevOps
 * 10 min concept: 3 ways
-* 20 min concrete: Classify practices that contribute to the 3 ways
-* 20 min conclusions: Which of these practices are you doing or aspire to do?
+* 30 min concrete: Classify practices that contribute to the 3 ways
+* 10 min conclusions: Which of these practices would you like to learn more about?
 
 ### Connect: What is and is not DevOps?
 DevOps is a broadly used term that is often interpreted in different ways. Divide a board into three parts, with the three titles below. Ask people to write notes describing their understanding of DevOps in each:
@@ -59,13 +59,11 @@ The DevOps practices on the cards could be things like:
 - Blameless post-mortems
 - Blue-green deployment
 
-There are lots of lists of DevOps practices on the internet. Pick some you like and you think are relevant. You should provide the participants with some way to look up a description of each practice in case they don't know what it is, and be prepared to clarify as you go round the groups and help them in their discussions.  
+There are lots of lists of DevOps practices on the internet. Pick some you like and you think are relevant. You should provide the participants with some way to look up a description of each practice in case they don't know what it is, and be prepared to clarify as you go round the groups and help them in their discussions. 
 
-There is no 'correct' answer to show them at the end, the important part is the discussions and to get them to better understand what the 3 ways are.
+After about 15-20 minutes, ask them to take a look at what all the other groups have written, or at a sample solution you prepared. Discuss any differences: how and why people have reasoned differently about the 3 ways.
 
-### Conclusions: Which of these practices are you doing or aspire to do?
-Given all these DevOps practices, which ones are we doing in this organization? Back in the same groups, stick a red/amber/green sticker on each card according to how much/how well you are doing this DevOps practice. 
+Note: there is no 'correct' answer, the important part is the discussions and to get them to better understand what the 3 ways are.
 
-Can you see any patterns? Are you further on with some of the 3 ways than others?
-
-Talk about where your organization needs to invest in order to follow the 3 ways. Each group should come up with proposals for concrete steps to begin or existing practices to improve. Take these as action proposals to your next retrospective or planning meeting.
+### Conclusions: Which of these practices would you like to learn more about?
+Talk about where your organization needs to learn new ways of working in order to follow the 3 ways. Each group should come up with proposals for concrete steps to begin or existing practices to improve. If there are particular practices they want to learn more about, consider scheduling additional learning hours. Suggest they discuss any changes or new practices at the next retrospective.
