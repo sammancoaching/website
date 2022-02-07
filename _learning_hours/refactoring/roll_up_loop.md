@@ -26,11 +26,12 @@ Ask the group to name some refactorings that they have used, and the correspondi
 
 ## Concept: Roll Up loop
 
-Explain what this is. Demonstrate a really simple case.
+Explain what this is. Demonstrate a really simple case, like one of the examples in [RollUpLoop](https://github.com/emilybache/RollUpLoop).
 
 ## Demo: show them the code duplication & go through strategy
+There are two exercises I use for this - [TimerExpiry](https://github.com/emilybache/TimerExpiry-Refactoring-Kata) and [ClarifyException](https://github.com/emilybache/Clarify-Exception-Refactoring-Kata). Both work equally well.
 
-In the exercise [TimerExpiryRefactoringKata](https://github.com/emilybache/TimerExpiry-Refactoring-Kata) show them the duplication in each if statement. Explain the goal - a list of function pointers you loop over. Each function returns the time until the timer goes off. Explain you then just find the smallest value in one place rather than 6 places.
+Show them the duplication in each if statement. Explain the goal - for TimerExpiry this a list of function pointers you loop over. Each function returns the time until the timer goes off. Then just find the smallest value in one place rather than 6 places. For ClarifyException you can have a small class rather than a function pointer - with two methods "matches" and "build".
 
 ## Concrete: refactor away the duplication
 

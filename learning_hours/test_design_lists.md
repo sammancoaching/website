@@ -6,7 +6,7 @@ title: Test Design lists
 # Test Design lists
 These lists are suggestions for which learning hours follow on from one another in a good order to do them in. The list varies slightly according to programming language
 
-## Java
+## Java, C#
 
 1. [Arrange - Act - Assert](/learning_hours/test_design/arrange_act_assert.html)
 2. [Start with the Assertion](/learning_hours/test_design/start_with_assert.html)
