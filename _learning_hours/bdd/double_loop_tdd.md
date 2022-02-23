@@ -1,5 +1,5 @@
 ---
-theme: small_steps
+theme: bdd
 title: Double-Loop TDD
 kata: monty_hall
 difficulty: 2
@@ -43,7 +43,7 @@ Explain the idea - that the unit test cycle in TDD goes round on the scale of mi
 The outer loop test is written from the user or customer's perspective. It should use words they would understand. It could be written using a tool like [Cucumber](https://cucumber.io/), [Fitnesse](http://docs.fitnesse.org/FrontPage) or [Approvals](https://approvaltests.com/), or it could be written in an ordinary unit testing framework.
 
 ### Do: Monty Hall or similar
-Sketch a guiding test for a kata. For example [Monty Hall](/exercises/kata_descriptions/monty_hall.html) or [Lift](/exercises/kata_descriptions/lift.html) or [Theater](https://github.com/emilybache/Theater-Kata) or [Train Reservation](https://github.com/emilybache/KataTrainReservation).
+Sketch a guiding test for a kata. For example [Monty Hall](/kata_descriptions/monty_hall.html) or [Lift](/kata_descriptions/lift.html) or [Theater](https://github.com/emilybache/Theater-Kata) or [Train Reservation](https://github.com/emilybache/KataTrainReservation).
 
 Divide into pairs and have people sketch on a piece of paper. After about 5-10 minutes have them present to the rest of the group. Give them some feedback. Let them spend another 5 minutes or so to refine their sketches. Share them again and identify desirable traits. Ideally get the group to agree on one that would be usable in a future session as a Guiding Test.
 

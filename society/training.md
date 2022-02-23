@@ -11,4 +11,4 @@ Training for technical coaches is provided via partner organizations.
 - [Learning Hour Design]() with ProAgile 
 
 
-If you are interested in offering accredited training in Samman Coaching and adding your training to this list, please get in touch.
+If you are interested in offering training in Samman Coaching and adding your training to this list, please [contact us](/about.html).

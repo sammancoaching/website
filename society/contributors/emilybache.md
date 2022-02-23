@@ -10,4 +10,4 @@ Emily is the author of ["Technical Agile Coaching with the Samman method"](https
 
 [![Technical Agile Coaching with the Samman Method](/assets/images/title_page.png#book_cover)](https://leanpub.com/techagilecoach)
 
-She is a Technical Coach with [ProAgile](http://proagile.eu)
+She is a Technical Coach with [ProAgile](http://proagile.eu) and a member of the Samman Technical Coaching Society.

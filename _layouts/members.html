@@ -4,9 +4,9 @@ layout: society
 
     {{ content }}
 <ul>
-	{% for key_member in site.data.members %}
+	{% for key_member in site.data.contributors %}
 	{% assign key = key_member[0] %}
 	{% assign member = key_member[1] %}
-	   <li> <a href="/members/member_pages/{{ key }}">{{ member.title }}</a> - <a href="{{ member.url }}">{{ member.affiliation }}</a> </li>
+	   <li> <a href="/society/contributors/{{ key }}">{{ member.title }}</a> - <a href="{{ member.url }}">{{ member.affiliation }}</a> </li>
 	{% endfor %}
 </ul>
