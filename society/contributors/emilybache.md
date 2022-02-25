@@ -1,5 +1,5 @@
 ---
-layout: member
+layout: homepage
 title: Emily Bache
 author: emilybache
 ---

@@ -14,7 +14,6 @@ The first time I demonstrate this kata I usually don't show triangulation, and o
 
 ## Learning Goals
 * Describe the Red-Green-Refactor cycle
-* Explain why you write the tests first and not all at once
 * Design a pure function that takes an integer and returns a boolean, using TDD
 
 ## Session Outline
@@ -25,33 +24,33 @@ The first time I demonstrate this kata I usually don't show triangulation, and o
 * 10 min reflect: summary of main idea 
 
 ### Connect
-Have everyone stand up and stand at one side of the room. Ask them to walk a few steps towards the other side of the room in proportion to their answers to these questions. More confidence means they should walk further:
-
-- confidence pair programming
-- confidence with unit testing
-- confidence with Test-Driven Development
-
-Have people form pairs with someone standing in a different part of the room so you get pairs with varying experience. Hopefully these will be good pairs to work in later on in the session.
-
-In your pairs:
+In pairs:
 
 - Think of 3 benefits of Test-Driven Development.
 
-After a few minutes of discussion, ask a few pairs to report some of the benefits they thought of to the whole group.
+After a few minutes of discussion, ask a few pairs to report some of the benefits they thought of to the whole group. Write up what they say on a whiteboard or shared document.
+
+Note - if you don't think the group knows enough about TDD to be able to come up with any benefits of it, ask about the benefits of unit testing in general.
 
 ### Demonstrate
-Starting at a whiteboard, explain the purpose of the [LeapYear](/kata_descriptions/leap_years.html) kata. Read the description to the group, and/or display it on a slide. Write up all 4 examples given in the kata description on a whiteboard. Note that these will turn into tests.
+Starting at a whiteboard, explain the [LeapYear](/kata_descriptions/leap_years.html) kata. Read the description to the group, and/or display it on a slide. Write up all 4 examples given in the kata description on a whiteboard. Note that these will turn into tests.
 
 Demonstrate how to TDD this function, taking one example/test at a time. I often do the demo using cyber-dojo as a development environment, since it makes the TDD cycles visible.
 
-
 ### Do
-Have the group work in pairs or a mob to do the Kata again, starting from no code, just the examples written on the whiteboard. Every 4 minutes, remind them to swap the driver. They should do it the same way you demonstrated, test by test in small steps.
+If you're using cyber-dojo for the exercise, spend a few minutes explaining how to use it. Make sure they know how to switch typist if they are working remotely. (Outgoing typist runs the tests, incoming typist refreshes the page).
 
-Go around the pairs helping them. Remind them to write the tests before the implmentation, working incrementally and iteratively.
+Have the group work in pairs or a mob to do the Kata again, starting from no code, just the examples written on the whiteboard. Every 4 minutes, remind them to swap the typist. (Or give them an online ensemble timer). They should do it the same way you demonstrated, test by test in small steps.
+
+Go around the pairs helping them. Remind them to write the tests before the implementation, working incrementally and iteratively.
+
+If any of the pairs are really quick and don't need as long as 20 minutes, they could additionally do TDD on another exercise - for example [Closest to zero](/kata_descriptions/closest_to_zero.html). Encourage them to make a test list before they begin coding.
 
 ### Reflect
 - Think about what we did today. If you had to explain the main idea of TDD to someone else, what would you say?
-- Write your explanation in a sentence or two on a post-it
+- Write your explanation in a sentence or two on a post-it or shared document
 
+#### Visual reminder
 Put up a flipchart with the question "What is the main idea of TDD?" and make it look attractive with a lightbulb doodle or something. Ask people to stick their post-it notes on it. Read some notes out to the group. Hang the poster somewhere prominent afterwards, perhaps in the team area or coffee room.
+
+If you're working remotely, then set this homework: ask people to give their explaination of TDD to another colleague who wasn't in the session and note down their reaction.

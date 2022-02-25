@@ -9,7 +9,7 @@ The Samman Technical Coaching Society is a not-for-profit organization based in 
 
 You do not have to join the society in order to use this website or attend society events. We do not offer certification or accreditation as a Samman coach. Membership of the society does not imply competence or any kind of guarantee to organizations purchasing coaching services.
 
-You don't need to be a member of the society to contribute learning hours or other materials to this site. If you have something you'd like to contribute then please [contact us](/about.html). You could also get to know us by attending a course. Training is offered via partner organizations, and you can find out what courses are available on our [Training](training.html) page. Organizations can also [sponsor](sponsorship.html) the society.
+You don't need to be a member of the society to contribute learning hours or other materials to this site. If you have something you'd like to contribute then please [contact us](/contact.html). You could also get to know us by attending a course. Training is offered via partner organizations, and you can find out what courses are available on our [Training](training.html) page. Organizations can also [sponsor](sponsorship.html) the society.
 
 We are not actively seeking new members, but it is possible to get an invitation to join. The primary benefit of joining is to get a say in how the practice of Samman coaching develops in the future. You can influence the kinds of materials, training and activities that we invest in.
 
