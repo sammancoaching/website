@@ -1,9 +1,9 @@
 ---
 layout: homepage
-title: Test Design lists
+title: Test Design series
 ---
 
-# Test Design lists
+# Test Design series
 These lists are suggestions for which learning hours follow on from one another in a good order to do them in. The list varies slightly according to programming language
 
 ## Java, C#
