@@ -1,9 +1,9 @@
 ---
 layout: about
-title: About
+title: Contact
 ---
 
-# About This Site
+# Contact
 
 This site is owned by [The Samman Technical Coaching Society](/society/index.html).
 

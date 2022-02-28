@@ -9,4 +9,5 @@ Our sponsors give financial and other support to enable the society to realize o
 
 - [ProAgile](https://proagile.eu/) 
 
+We accept sponsorship from companies which align with our society's [mission](about_society.html).
 If you are interested in becoming a sponsor, please get in touch via our [contact page](/contact.html).
