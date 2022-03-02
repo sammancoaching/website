@@ -12,3 +12,19 @@ To create the static site for deployment:
     bundle exec jekyll build
 
 copy the contents of \_site to the server
+
+
+## Using Docker
+
+Instead of using jekyll locally you can get a prebuilt docker image with Ruby, Jekyll etc. installed:
+
+    dockerinit
+
+Test locally run the server with:
+
+    dockerrun
+
+Then browse to:
+
+    http://localhost:4000
+
