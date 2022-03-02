@@ -28,3 +28,6 @@ Then browse to:
 
     http://localhost:4000
 
+## Deploying to the live site
+
+We are setting up CI for this with a github action
