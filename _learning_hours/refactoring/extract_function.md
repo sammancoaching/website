@@ -10,6 +10,11 @@ author: emilybache
 
 It's useful to have a vocabularly for talking about refactoring. It will help you to communicate when doing strong-style pairing or mob programming. In this learning hour we'll learn what refactorings are and the names of some of them. We'll also practice applying Extract Function in order to address a Long Function smell.
 
+## Learning Goals
+
+* Remember the name of the refactoring "Extract Function" aka "Extract Method"
+* Identify a situation when you can successfully apply "Extract Function" or "Extract Method"
+
 ## Session Outline
  
 * 5 min connect: collect names of refactorings   
@@ -20,7 +25,7 @@ It's useful to have a vocabularly for talking about refactoring. It will help yo
 * 5 min reflect: own definition of refactoring
 
 ### Names of Refactorings
-Have people note down names of refactorings that they know already.
+Have people note down names of refactorings that they know already. For example, suggest they already know "Rename variable"
 
 ### Refactoring definition
 Put up [Martin Fowler's definitions](https://martinfowler.com/bliki/DefinitionOfRefactoring.html) of Refactoring as a noun and verb on a projector screen or write them on a flipchart. Explain how you understand these definitions. You could point out the code shouldn't break while you refactor, and the reason to refactor is primarily economic not moral. You could mention that as you refactor you take a series of small steps and can commit and share your work after any completed step.
