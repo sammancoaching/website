@@ -29,7 +29,7 @@ Ask people to share the links to the resources they found and spend a few more m
 
 ## Concrete: Convert duplication to fixture
 
-In RecentlyUsedList, there are several tests which share common code. Refactor them to use a test fixture.
+In [RecentlyUsedList](https://github.com/emilybache/custom-start-points/tree/master/start-points/RecentlyUsedList2/C), there are several tests which share common code. Refactor them to use a test fixture.
 
 ## Conclusions
 Note down in your own words what you learnt about a custom assert and a test fixture.

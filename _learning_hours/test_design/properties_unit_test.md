@@ -9,11 +9,13 @@ affiliation: ProAgile
 
 # Characteristics of Unit tests
 
+Using a list from Roy Osherove's book "The Art of Unit Testing".
+
 ## Session Outline
 
 * 10 min connect: Questioning whether you have unit tests 
 * 10 min concept: Characteristics of good unit tests
-* 30 min concrete: write some tests for CalcStats
+* 30 min concrete: write some unit tests for RecentlyUsedList
 * 5 min conclusions: Note something you want to remember about unit test design
 
 ## Connect: Questioning whether you have unit tests
@@ -48,7 +50,7 @@ According to Roy Osherove in his book "The Art of Unit Testing", a unit test sho
 
 ## Concrete: Convert a main function into a test
 
-Look at the "RecentlyUsedList" implementation. There is a main function you can use to test it. In what ways does this not fulfil the characteristics of a good unit test?
+Look at the ["RecentlyUsedList" implementation](https://github.com/emilybache/custom-start-points/tree/master/start-points/RecentlyUsedList1/C). There is a main function you can use to test it. In what ways does this not fulfil the characteristics of a good unit test?
 
 Re-write it as a unit test. When you've done that, add more tests to improve the coverage.
 
