@@ -30,10 +30,15 @@ The starting position for [ValidateAndAddProduct-Refactoring-Kata](https://githu
 
 Demonstrate extracting a pure function to use with Combination Approvals. The function should take arguments which are all the things you need to vary in order to cover all the logic branches in the production code. The return type should be a string which contains all the important outputs and can be used to verify against.
 
-Note: the branch 'with_tests' includes an example of how to write this function.
+Note: the branch 'ready_for_combinations' includes an example of how to write this function.
 
 ### Do: Use Combination Approvals
-Have them complete the exercise in pairs. I recommend leaving your code up on the screen while they work on repeating what you just did. Then they should go on and increase the number of combinations until the coverage is 100%.
+Have them complete the exercise in pairs. I recommend leaving your code up on the screen while they work on repeating what you just did. You could also point them at the documentation:
+
+* [Java](https://github.com/approvals/ApprovalTests.Java/blob/master/approvaltests/docs/how_to/TestCombinations.md)
+* [C++](https://approvaltestscpp.readthedocs.io/en/latest/generated_docs/TestingCombinations.html)
+
+They should go on and increase the number of combinations until the coverage is 100%.
 
 ### Reflect
 Hand round large sticky notes in different colours (red and green perhaps) and ask each pair to note:
