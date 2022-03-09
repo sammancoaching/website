@@ -29,6 +29,8 @@ Web hunt - In your daily work, what documentation do you look at for the softwar
 
 Be ready to share your urls with the group.
 
+Note - this is a [Web Hunt](/activities/connect/webhunt.html).
+
 ### Concept: Divio documentation system
 
 Explain the four categories in the [Divio documentation system](https://documentation.divio.com/) using resources from that site.
