@@ -41,4 +41,4 @@ Ask them to work in pairs to come up with a test list.
 ### Conclusions: make a common list
 Synthesize all the suggestions into a single list. Perhaps use dot voting to choose the top 3 suggestions out of all the lists. With that as a starting point, ask people to take turns to suggest one improvement or addition to the list.
 
-Repeat with a second problem if there is time, for example [Fractions](/kata_descriptions/fractions.html) or [MontyHall](/kata_descriptions/monty_hall.html).
+Repeat with a second problem if there is time, for example [Fractions](/kata_descriptions/fractions.html) or [MontyHall](/kata_descriptions/monty_hall.html) or [BankAccount](/kata_descriptions/bank_account.html).
