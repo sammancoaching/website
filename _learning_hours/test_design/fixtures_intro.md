@@ -23,13 +23,11 @@ Reduce duplication by using a test fixture. Let's look at the basic syntax.
 - Is duplication in test code an exception? Is it a problem?
 
 ## Concept: Test Fixture
-Explain what it is, ask them to google for 2 minutes to find the documentation for the language and framework you're using. Ask them to find a good worked example.
-
-Ask people to share the links to the resources they found and spend a few more minutes looking through each other's links together.
+Explain what it is, show them the documentation for the language and framework you're using.
 
 ## Concrete: Convert duplication to fixture
 
-In [RecentlyUsedList](https://github.com/emilybache/custom-start-points/tree/master/start-points/RecentlyUsedList2/C), there are several tests which share common code. Refactor them to use a test fixture.
+In [RecentlyUsedList](https://github.com/emilybache/custom-start-points/tree/master/start-points/RecentlyUsedList2/C), or [RecentlyUsedList](https://github.com/emilybache/RecentlyUsedList-Test-Design-Kata) there are several tests which share common code. Explain the problem and give them some pointers about how to refactor the tests to use a test fixture.
 
 ## Conclusions
 Note down in your own words what you learnt about a custom assert and a test fixture.

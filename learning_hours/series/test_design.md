@@ -23,10 +23,11 @@ These lists are suggestions for which learning hours follow on from one another 
 5. [Approval Testing Combinations](/learning_hours/approval_testing_legacy/combinations_by_hand.html)
 6. [Text-based Approval Testing](/learning_hours/approval_testing_legacy/text_based_testing.html)
 
-## C++, Doctest
+## C++
 
 1. [Unit test FIRST properties](/learning_hours/test_design/unit_test_FIRST_properties.html)
 2. [Benefits of Arrange - Act - Assert](/learning_hours/test_design/benefits_of_arrange_act_assert.html)
-3. [Test Fixtures in Doctest](/learning_hours/test_design/doctest_fixtures.html)
-4. [Parameterized Tests in Doctest](/learning_hours/test_design/doctest_parameterized.html)
-5. [Test Doubles](/learning_hours/test_design/test_doubles.html)
+3. [Test Fixture Introduction](/learning_hours/test_design/fixtures_intro.html)
+4. [Test Doubles](/learning_hours/test_design/test_doubles.html)
+5. [Stubbing Dependencies](/learning_hours/test_design/stubbing_dependencies.html)
+6. [Parameterized Tests in Doctest](/learning_hours/test_design/doctest_parameterized.html)
