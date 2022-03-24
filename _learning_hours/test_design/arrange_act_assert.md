@@ -22,7 +22,7 @@ No-one wants buggy test code that could hide bugs in the production code. So wha
 * 5 min reflect: code review
 
 ### Connect: Review sample code
-Pin up some code samples around the room. For example [Mars Rover Kata Sample Tests](https://github.com/emilybache/MarsRover-Sample-Tests). Some follow Arrange-Act-Assert structure, some don't. Have them review the code and vote with their feet which is most and least likely to contain bugs.
+Pin up some code samples around the room. For example [Mars Rover Kata Sample Tests](https://github.com/emilybache/MarsRover-Sample-Tests) or [ShoppingBasket Test Design Kata](https://github.com/emilybache/ShoppingBasket-Test-Design-Kata). Some follow Arrange-Act-Assert structure, some don't. Have them review the code and vote with their feet which is most and least likely to contain bugs.
 
 ### Concept: Arrange - Act - Assert
 Bring up the code sample with the best AAA structure and go through it. Explain how it makes the test code easier to read and less likely to have bugs in. Explain why that's important.
