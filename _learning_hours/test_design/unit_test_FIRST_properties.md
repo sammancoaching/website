@@ -9,7 +9,7 @@ affiliation: ProAgile
 
 # Unit Test FIRST properties
 
-Introducing Tim Ottinger & Brett Schuchert's FIRST properties from "Agile in a Flash".
+Introducing Tim Ottinger & Brett Schuchert's [FIRST](http://agileinaflash.blogspot.com/2009/02/first.html) properties from "Agile in a Flash".
 
 ## Learning Goals
 
