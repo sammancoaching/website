@@ -16,7 +16,7 @@ On the topic of Test Doubles - give me [three facts](/activities/connect/three_f
 ### Concept - Mocks
 Instead of launching straight into the theory, first get them to review the [SingleSignOn](https://github.com/emilybache/Single-Sign-On-Kata) code and existing test. The test is slow and unreliable. How could you redesign it to make it faster and more reliable?
 
-Hopefully they will realize a test double would help here, but probably they will suggest replacing the AuthenticationGateway with a stub. That would work, but is a little bit indirect. Another way to do it is to replace the SingleSignOnRegistry with a mock. That makes the test setup a little simpler.
+Hopefully they will realize a test double would help here, and they might suggest replacing the AuthenticationGateway with a stub. That would work, but is a little bit indirect. Another way to do it is to replace the SingleSignOnRegistry with a mock. That makes the test setup a little simpler, and the test faster.
 
 Go through what a mock is and how it is different from a Stub. You could also mention the difference between a Mock and a Spy. 
 
