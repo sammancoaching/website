@@ -2,6 +2,8 @@
   title: Small Steps
 - name: test_design
   title: Test Design
+- name: test_doubles
+  title: Test Doubles
 - name: testable_design
   title: Testable Agile Design
 - name: refactoring
