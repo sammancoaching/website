@@ -1,13 +1,13 @@
 ---
 theme: code_reading
-title: Code Reading Tennis4
+title: Code Reading - Scanning
 kata: tennis
-difficulty: 1
+difficulty: 2
 author: emilybache
 affiliation: ProAgile
 ---
 
-# Code Reading Tennis4
+# Code Reading - Scanning
 
 This code has several classes and interfaces but only one public class and two public methods. What to refactor is not immediately obvious so it's useful to do a code reading session on it before trying the refactoring in a subsequent session.
 

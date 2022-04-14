@@ -2,7 +2,7 @@
 theme: refactoring
 title: Replace Conditional With Polymorphism
 kata: parrot
-difficulty: 1
+difficulty: 3
 author: emilybache
 affiliation: Praqma
 ---
