@@ -39,6 +39,8 @@ collections:
     sort_by: minutes
   workshops:
     output: true
+  code_smells:
+    output: true
 defaults:
   - scope:
       path: ""
@@ -60,6 +62,11 @@ defaults:
       type: "workshop"
     values:
       layout: "workshop"
+  - scope:
+      path: ""
+      type: "code_smells"
+    values:
+      layout: "code_smell"
   - scope:
       path: ""
     values:

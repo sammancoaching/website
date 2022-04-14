@@ -1,0 +1,12 @@
+---
+layout: homepage
+---
+
+{{ content }}
+<ul>
+    {% for smell in site.code_smells %}
+    <li>
+        <a href="{{ smell.url }}">{{ smell.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
