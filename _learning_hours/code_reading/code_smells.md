@@ -13,17 +13,15 @@ It's useful to have a vocabulary for talking about refactoring. It will help you
 
 ## Session Outline
  
-* 5 min connect: How do you know when to refactor? 
+* 5 min connect: How do you know when you have bad code? 
 * 10 min concept: Martin Fowler's code smell names 
 * 30 mins do: find code smells
 * 5 min reflect: What code smells does your production code often suffer from?
 
-### How do you know when to refactor?
-What kind of characteristics of the code prompt you to for example:
+### How do you know when you have bad code?
+Have you ever encountered bad code? If so, what characteristics does it have?
 
-- Extract Function
-- Rename variable
-- Inline variable
+Discuss in pairs and note down "bad code" characteristics. If you have never encountered bad code, note down why you think that is.
 
 Note down your ideas and share them with the group when the facilitator asks.
 
