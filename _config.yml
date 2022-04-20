@@ -16,10 +16,10 @@
 title: Samman Technical Coaching
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Samman Technical Coaching is a method for people who want to make a difference and improve the way software is built. 
+  Samman is a method for technical coaches who want to improve the way software is built. 
   This site extends and supports the materials in the book "Technical Agile Coaching with the Samman Method" by Emily Bache.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.sammancoaching.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://sammancoaching.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: emilybache
 github_username:  emilybache
 
