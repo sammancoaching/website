@@ -8,7 +8,7 @@ These lists are suggestions for which learning hours follow on from one another 
 
 ## Object-Oriented languages eg Java
 
-1. [Code Smells](/learning_hours/code_reading/code_smells.html)
+1. [Code Smells Intro](/learning_hours/code_reading/code_smells_intro.html)
 2. [Vocabulary for Refactoring](/learning_hours/refactoring/extract_function.html)
 3. [Misconceptions](/learning_hours/refactoring/misconceptions.html)
 4. [Keyboarding](/learning_hours/refactoring/keyboarding.html)
