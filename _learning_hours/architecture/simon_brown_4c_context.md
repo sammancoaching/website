@@ -1,6 +1,6 @@
 ---
-theme: documentation
-title: Simon Brown's 4C model - Context diagram
+theme: architecture
+title: Simon Brown's 4C model - Intro
 kata: instavoiced
 difficulty: 1
 author: emilybache

@@ -1,5 +1,5 @@
 ---
-theme: approval_testing_legacy
+theme: legacy
 title: Text-based Approval Tests for Yatzy
 kata: yatzy
 difficulty: 3

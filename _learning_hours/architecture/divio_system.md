@@ -1,5 +1,5 @@
 ---
-theme: documentation
+theme: architecture
 title: Divio Documentation System
 kata: instavoiced
 difficulty: 3

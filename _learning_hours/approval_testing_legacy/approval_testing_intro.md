@@ -1,5 +1,5 @@
 ---
-theme: approval_testing_legacy
+theme: legacy
 title: Approval Testing Intro
 kata: supermarket_receipt
 difficulty: 1

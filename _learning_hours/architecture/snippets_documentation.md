@@ -1,5 +1,5 @@
 ---
-theme: documentation
+theme: architecture
 title: User Documentation and code snippets
 kata: recently_used_list
 difficulty: 3

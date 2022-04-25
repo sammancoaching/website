@@ -1,5 +1,5 @@
 ---
-theme: documentation
+theme: architecture
 title: Simon Brown's 4C model - Container diagram
 kata: instavoiced
 difficulty: 2
@@ -44,7 +44,7 @@ The list below comprises descriptions of elements of the 4C model. Some statemen
 
 ### Context and Container diagrams
 
-Go through the example diagrams on [The C4 model](https://c4model.com/) website. Explain in particular the differences between Context and Container diagrams. Provide a context diagram for the Instavoiced exercise. Either one you designed yourself or one created in the previous session.
+Go through the example diagrams on [The C4 model](https://c4model.com/) website. Explain in particular the differences between Context and Container diagrams. Provide a context diagram for the [Instavoiced](/kata_descriptions/instavoiced.html)  exercise. Either one you designed yourself or one created in the previous session.
 
 Go through some advice on notation:
 - Put titles on diagrams. What type of diagram is it? What is the scope? eg “System Context for Instavoiced".

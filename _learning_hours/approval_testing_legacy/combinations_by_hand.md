@@ -1,5 +1,5 @@
 ---
-theme: approval_testing_legacy
+theme: legacy
 title: Approval Testing Combinations
 kata: yatzy
 difficulty: 2

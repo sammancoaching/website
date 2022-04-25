@@ -11,7 +11,7 @@ Instead of getting paper invoices in the post, BIGCO wants to instead receive al
 
 The POST_TO_PDF service is provided by a partner company. They scan paper invoices and upload them to INSTAVOICED in pdf format. Each invoice supplier can either choose to continue to post a paper invoice to the POST_A_PDF service or directly transfer a pdf to INSTAVOICED via their webpage. You estimate about half the suppliers will choose to continue with paper invoices and use the POST_TO_PDF service.
 
-INSTAVOICED converts each pdf invoice into the required standard xml format and forwards it to BIGCO’s internal accounts system. (BIGCO has a secure ftp server where xml files can be written). INSTAVOICED will also take a copy of each pdf invoice and store it in a long-term archive. BIGCO can search for and download old pdf invoices from INSTAVOICED for any given supplier in a given date range. 
+INSTAVOICED converts each pdf invoice into the required standard xml format and forwards it to BIGCO’s internal accounts system. (BIGCO has a secure ftp server where xml files can be written). INSTAVOICED will also take a copy of each pdf invoice and store it in a long-term archive. BIGCO can search for and download old pdf invoices from INSTAVOICED for any given supplier in a given date range.
 
 INSTAVOICED has an onboarding process for BIGCO's suppliers, facilitated by skilled technicians. For each small supplier, a technician creates an OCR mapping from the fields in the original pdf invoice to BIGCO's standard xml fields. This OCR mapping will be used to transform all the invoices from that supplier into xml. 
 

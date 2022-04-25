@@ -19,9 +19,9 @@ These lists are suggestions for which learning hours follow on from one another 
 1. [Properties of a unit test](/learning_hours/test_design/properties_unit_test.html)
 2. [Three parts of a test](/learning_hours/test_design/three_parts_of_a_test.html)
 3. [Test Fixtures intro](/learning_hours/test_design/fixtures_intro.html)
-4. [Approval testing intro](/learning_hours/approval_testing_legacy/approval_testing_intro.html)
-5. [Approval Testing Combinations](/learning_hours/approval_testing_legacy/combinations_by_hand.html)
-6. [Text-based Approval Testing](/learning_hours/approval_testing_legacy/text_based_testing.html)
+4. [Approval testing intro](/learning_hours/legacy/approval_testing_intro.html)
+5. [Approval Testing Combinations](/learning_hours/legacy/combinations_by_hand.html)
+6. [Text-based Approval Testing](/learning_hours/legacy/text_based_testing.html)
 
 ## C++
 

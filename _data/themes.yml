@@ -1,5 +1,5 @@
 - name: small_steps
-  title: Small Steps
+  title: Small Steps - Iterative and Incremental
 - name: test_design
   title: Test Design
 - name: test_doubles
@@ -12,18 +12,16 @@
   title: Code Reading
 - name: legacy
   title: Legacy Code
-- name: approval_testing_legacy
-  title: Approval Testing Legacy Code
-- name: approval_testing_texttest
-  title: Approval Testing with TextTest
-- name: approval_testing_bdd
-  title: Approval Testing in New Development
-- name: documentation
-  title: Documentation
+- name: architecture
+  title: Architecture
 - name: bdd
   title: Behaviour Driven Development
 - name: devops
   title: DevOps
+- name: approval_testing_texttest
+  title: Approval Testing with TextTest
+- name: approval_testing_bdd
+  title: Approval Testing in New Development
 - name: ensemble
   title: Working in an Ensemble
 - name: low_level_c

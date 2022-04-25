@@ -1,5 +1,5 @@
 ---
-theme: approval_testing_legacy
+theme: legacy
 title: Demo of Approvals with Coverage and Mutation testing
 kata: gilded_rose
 difficulty: 3

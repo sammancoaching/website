@@ -1,5 +1,5 @@
 ---
-theme: approval_testing_legacy
+theme: legacy
 title: Text-Based Testing
 kata: approvals_puzzles
 difficulty: 3
