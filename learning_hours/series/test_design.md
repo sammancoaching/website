@@ -12,7 +12,7 @@ These lists are suggestions for which learning hours follow on from one another 
 2. [Start with the Assertion](/learning_hours/test_design/start_with_assert.html)
 3. [Parameterized Tests](/learning_hours/test_design/parameterized_tests.html)
 4. [Four pillars](/learning_hours/test_design/four_pillars_khorikov.html)
-5. [Stubbing Dependencies](/learning_hours/test_design/stubbing_dependencies.html)
+5. [Stubbing Dependencies](/learning_hours/test_doubles/stubbing_dependencies.html)
 
 ## C
 
@@ -28,6 +28,6 @@ These lists are suggestions for which learning hours follow on from one another 
 1. [Unit test FIRST properties](/learning_hours/test_design/unit_test_FIRST_properties.html)
 2. [Benefits of Arrange - Act - Assert](/learning_hours/test_design/benefits_of_arrange_act_assert.html)
 3. [Test Fixture Introduction](/learning_hours/test_design/fixtures_intro.html)
-4. [Test Doubles](/learning_hours/test_design/test_doubles.html)
-5. [Stubbing Dependencies](/learning_hours/test_design/stubbing_dependencies.html)
+4. [Test Doubles](/learning_hours/test_doubles/test_double_intro.html)
+5. [Stubbing Dependencies](/learning_hours/test_doubles/stubbing_dependencies.html)
 6. [Parameterized Tests in Doctest](/learning_hours/test_design/doctest_parameterized.html)

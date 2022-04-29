@@ -42,7 +42,7 @@ Throughout, remember to come up with Simple Scenarios and Simple Solutions. Find
 This acronym should help you to come up with an initial test list and to update it as you work iteratively and incrementally towards a full solution.
 
 ### Concrete: do some TDD
-Some problems have very obvious zero, one, many - for example when building a function whos argument is a list. Try [CalcStats](kata_descriptions/calc_stats.html) or [ClosestToZero](kata_descriptions/closest_to_zero.html).
+Some problems have very obvious zero, one, many - for example when building a function whos argument is a list. Try [CalcStats](/kata_descriptions/calc_stats.html) or [ClosestToZero](/kata_descriptions/closest_to_zero.html).
 
 ### Conclusions: Review TDD cycles
 Check the test list against the TDD cycles. Ask - did we work iteratively and incrementally? Did ZOMBIES help us with splitting up the task into pieces?

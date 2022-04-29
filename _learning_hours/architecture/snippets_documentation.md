@@ -41,7 +41,7 @@ Put a mark by the statements you agree with:
 In the repo [Recently-Used-List-Docs](https://github.com/emilybache/Recently-Used-List-Docs) there is an example project with user documentation. It is a solution to the [RecentlyUsedList](/kata_descriptions/recently_used_list.html) kata in C++.
 The documentation uses [Markdown Snippets](https://github.com/SimonCropp/MarkdownSnippets) and [Jekyll](https://jekyllrb.com/). The idea is to write documentation in markdown that can be rendered as html. In the markdown we can include snippets of the unit test code. 
 
-Show how it works. Modify one of the snippets and some of the markdown and show the process to update the documentation. Relate this learning hour to the one on [the Divio Documentation system](/documentation/divio_system.html) for why the documentation is organized as it is.
+Show how it works. Modify one of the snippets and some of the markdown and show the process to update the documentation. Relate this learning hour to the one on [the Divio Documentation system](divio_system.html) for why the documentation is organized as it is.
 
 ### Concrete
 In the [Recently-Used-List-Docs](https://github.com/emilybache/Recently-Used-List-Docs) project the how-to page is largely empty, with only some headings. The exercise is to fill in these blanks and then to add more documentation as you see fit. If you have time, implement a the new feature and write the associated documentation. Feature description:
