@@ -1,6 +1,7 @@
 ---
 layout: code_smell
 title: Local Variable with Long Scope
+source: Emily Bache
 ---
 
 # Local Variable with Long Scope

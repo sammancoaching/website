@@ -1,6 +1,7 @@
 ---
 layout: code_smell
 title: Repeated Switches
+source: Martin Fowler
 ---
 
 # Repeated Switches

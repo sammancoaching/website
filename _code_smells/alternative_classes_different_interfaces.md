@@ -1,6 +1,7 @@
 ---
 layout: code_smell
 title: Alternative Classes with Different Interfaces
+source: Martin Fowler
 ---
 
 ## Alternative Classes with Different Interfaces

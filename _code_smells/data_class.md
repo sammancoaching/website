@@ -1,6 +1,7 @@
 ---
 layout: code_smell
 title: Data Class
+source: Martin Fowler
 ---
 
 # Data Class

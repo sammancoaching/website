@@ -1,6 +1,7 @@
 ---
 layout: code_smell
 title: Global Data
+source: Martin Fowler
 ---
 
 # Global Data

@@ -1,6 +1,7 @@
 ---
 layout: code_smell
 title: Temporary Field
+source: Martin Fowler
 ---
 
 # Temporary Field

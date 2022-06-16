@@ -1,6 +1,8 @@
 ---
 layout: code_smell
 title: Mysterious Name
+source: Martin Fowler
+wikipedia_source: true
 ---
 
 # Mysterious Name
