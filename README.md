@@ -27,10 +27,7 @@ When you push to the main branch, there is a github action that deploys the chan
 * Add a new event page under society/events
 * In hubspot, bulk update the 'events' property for everyone who attended the previous event
 * Wipe the 'next_open_space' property from all contacts in Hubspot
-* Create a signup form in hubspot that sets 'next_open_space'. Add a confirmation email to it.
-* Update the layouts/event.html layout with the hubspot signup form
-* Update the open_space_signup_thankyou.md layout with an AddEvent "add to calendar" link
-* Update the hubspot form with a landing page pointing at the 'signup thankyou' page
+* Update the society/events/open_space_signup_thankyou.md page with an AddEvent "add to calendar" link
 * Test that you can sign up:
   * correct signup thankyou page
   * 'add to calendar' link on that page works, 
