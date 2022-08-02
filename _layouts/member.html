@@ -3,9 +3,10 @@ layout: society
 ---
 
 {{ content }}
+{% assign person = site.data.members[page.author] %}
+{% if person.member %}  {% endif %}
 <h2> Learning Hours: </h2>
 <ul>
-    {% assign person = site.data.members[page.author] %}
     {% assign by_author = site.learning_hours | where: 'author', page.author | sort: 'difficulty' %}
     {% for learning_hour in by_author %}
     <li>

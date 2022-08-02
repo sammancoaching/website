@@ -2,31 +2,39 @@ emilybache:
   title: Emily Bache
   url: http://proagile.eu
   affiliation: ProAgile
+  member: yes
 objarni:
   title: Olof Bjarnason
   url: http://proagile.eu
   affiliation: ProAgile
+  member: yes
 neppord:
   title: Samuel Ytterbrink
   url: http://proagile.eu
   affiliation: ProAgile
+  member: yes
 fredrikwendt:
   title: Fredrik Wendt
   url: http://proagile.eu
   affiliation: ProAgile
+  member: yes
 jolod:
   title: Johan Lodin
   url: http://jolod.se/
   affiliation: Jolod AB
+  member: yes
 isidore:
   title: Llewellyn Falco
   url: http://llewellynfalco.blogspot.com/
   affiliation: Spun Labs
+  member: yes
 pfichtner:
   title: Peter Fichtner
   url: http://atruvia.de/
   affiliation: Atruvia AG
+  member: no
 agmsytim:
   title: Tim Müller
   url: http://it-agile.de/
   affiliation: it-agile
+  member: no

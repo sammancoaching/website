@@ -1,0 +1,28 @@
+ {{ section1 }}
+<ul>
+	{% for key_contributor in site.data.contributors %}
+	{% assign key = key_contributor[0] %}
+	{% assign contributor = key_contributor[1] %}
+		{% if contributor.member %}
+		<li>
+			<a href="/society/contributors/{{ key }}.html">{{ contributor.title }}</a>
+			- <a href="{{ contributor.url }}">{{ contributor.affiliation }}</a>
+		</li>
+		{% endif %}
+	{% endfor %}
+</ul>
+{{ section2 }}
+<ul>
+	{% for key_contributor in site.data.contributors %}
+	{% assign key = key_contributor[0] %}
+	{% assign contributor = key_contributor[1] %}
+		{% if contributor.member %}
+		{% else %}
+		<li>
+			<a href="/society/contributors/{{ key }}.html">{{ contributor.title }}</a>
+			- <a href="{{ contributor.url }}">{{ contributor.affiliation }}</a>
+		</li>
+		{% endif %}
+	{% endfor %}
+</ul>
+
