@@ -1,6 +1,8 @@
 ---
 layout: code_smell
 title: Feature Envy
+source: Martin Fowler
+wikipedia_source: true
 ---
 
 # Feature Envy

@@ -1,6 +1,7 @@
 ---
 layout: code_smell
 title: Primitive Obsession
+source: Martin Fowler
 ---
 
 # Primitive Obsession

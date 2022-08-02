@@ -1,6 +1,7 @@
 ---
 layout: code_smell
 title: Mutable Data
+source: Martin Fowler
 ---
 
 # Mutable Data

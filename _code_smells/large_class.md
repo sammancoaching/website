@@ -1,6 +1,8 @@
 ---
 layout: code_smell
 title: Large Class
+source: Martin Fowler
+wikipedia_source: true
 ---
 
 # Large Class

@@ -19,16 +19,17 @@ This learning hour introduces the basic ideas in [The C4 model for visualising s
 
 ## Session Outline
 
-* 5 min connect: What are diagrams for?
+* 5 min connect: What architecture diagrams do you already know?
 * 20 min concrete: analyse and draw diagrams for Instavoiced
 * 10 min concept: 4C model  
 * 10 min concrete: draw Context diagram
 * 10 min conclusions: compare original diagrams with Context diagram
 
-### Connect: What are software architecture diagrams for?
-Think about what you already know about software architecture diagrams. Write three facts on postits. Be ready to state them when asked. (Think it then ink it)
+### Connect: What software architecture diagrams do you already know about?
+Do an internet image search to find examples of the kinds of diagrams you are familiar with. Search by the name of diagram and find pictures that look similar to diagrams you've seen before.
+Paste a small example of each kind of diagram onto a shared online whiteboard. Add the name of the kind of diagram next to each one.
 
-When everyone has written something, pair them up and have them share their facts to one another. You can continue working in the same pairs in the rest of the session.
+Note - this is a [Web Hunt](/activities/connect/webhunt.html)
 
 ### Concrete: analyze Instavoiced
 

@@ -1,6 +1,7 @@
 ---
 layout: code_smell
 title: Lazy Element
+source: Martin Fowler
 ---
 
 # Lazy Element

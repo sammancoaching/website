@@ -1,6 +1,7 @@
 ---
 layout: code_smell
 title: Message Chains
+source: Martin Fowler
 ---
 
 # Message Chains
