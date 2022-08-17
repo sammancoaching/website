@@ -7,7 +7,7 @@ layout: society
 {% if person.member %}  {% endif %}
 <h2> Learning Hours: </h2>
 <ul>
-    {% assign by_author = site.learning_hours | where: 'author', page.author | sort: 'difficulty' %}
+    {% assign by_author = site.learning_hours | where: 'author', page.author | sort: 'title' %}
     {% for learning_hour in by_author %}
     <li>
         <a href="{{ learning_hour.url }}">{{ learning_hour.title }}</a>
