@@ -24,4 +24,4 @@ You can find full details of the Samman method in the book ["Technical Agile Coa
 
 We have a large collection of [Code Kata descriptions](/kata_descriptions/index.html) and [Learning Hour plans](/learning_hours/index.html) which you can do with your team. There are also some [reference materials](/reference/index.html) including a catalog of [Code Smells](/code_smells/index.html). If you'd like to design your own learning hours you can find templates for [teaching activities](/activities/index.html).
 
-If you would like to find out more about the community of coaches and how to use the Samman method, please follow [@CoachingSamman](https://twitter.com/coachingsamman) on twitter, [sign up for our newsletter](https://share-eu1.hsforms.com/1pvE5eTT2RWyYJtyH4AJSuwf6aty), and/or come to one of our [events](/society/events/index.html).
+If you would like to find out more about the community of coaches and how to use the Samman method, please follow [@CoachingSamman](https://twitter.com/coachingsamman) on Twitter, [sign up for our newsletter](https://share-eu1.hsforms.com/1pvE5eTT2RWyYJtyH4AJSuwf6aty), and/or come to one of our [events](/society/events/index.html).
