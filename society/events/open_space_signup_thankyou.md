@@ -6,4 +6,4 @@ title: Sign up successful
 # Sign up Successful
 Thank you for signing up for the Samman Society Online Open Space Event.
 
-[Add to calendar](https://www.addevent.com/event/rC14286290)
+[Add to calendar](https://www.addevent.com/event/Qb14711644)

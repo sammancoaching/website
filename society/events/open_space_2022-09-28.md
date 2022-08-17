@@ -5,7 +5,7 @@ title: Samman Coaching Society Online Open Space Event
 
 # Samman Coaching Society Online Open Space Event
 
-**Wednesday 17th August 2022, 15:30 CEST / 09:30 EDT / 06:30 PDT**
+**Wednesday 28th September 2022, 15:30 CEST / 09:30 EDT / 06:30 PDT**
 
 _Bring your questions and exchange experiences with other technical coaches._
 
