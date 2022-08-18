@@ -34,3 +34,7 @@ When you push to the main branch, there is a github action that deploys the chan
   * you get a confirmation email
   * you get the 'next_open_space' property in hubspot
 * Update society/events/index.md with a link to the event signup page
+* Create calendar event and invite co-host
+* Create zoom meeting
+* Create and schedule email 1 week before with zoom link
+* Create and schedule email on the day with zoom link
