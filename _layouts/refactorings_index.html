@@ -1,0 +1,13 @@
+---
+layout: homepage
+---
+
+{{ content }}
+<ul>
+    {% for refactoring in site.refactorings %}
+    <li>
+        <a href="{{ refactoring.url }}">{{ refactoring.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
+

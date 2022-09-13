@@ -1,5 +1,6 @@
 ---
 layout: code_smell
+name: global_data
 title: Global Data
 source: Martin Fowler
 ---

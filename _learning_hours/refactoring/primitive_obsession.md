@@ -1,4 +1,5 @@
 ---
+name: primitive_obsession
 theme: refactoring
 title: Primitive Obsession
 kata: person

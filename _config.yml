@@ -41,6 +41,8 @@ collections:
     output: true
   code_smells:
     output: true
+  refactorings:
+    output: true
 defaults:
   - scope:
       path: ""
@@ -67,6 +69,11 @@ defaults:
       type: "code_smells"
     values:
       layout: "code_smell"
+  - scope:
+      path: ""
+      type: "refactorings"
+    values:
+      layout: "refactoring"
   - scope:
       path: ""
     values:
