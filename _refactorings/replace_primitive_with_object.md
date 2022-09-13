@@ -22,7 +22,7 @@ learning_hours: primitive_obsession
   * IDE: with the cursor on the field, context menu, "add as parameter to the constructor"
 * Compile / run static checks.
 * Add getters and setters for the field on the new class
-  * IDE: Code | Generate... Getters and Setters
+  * IDE: with the cursor on the class declaration, Generate... Getters and Setters
 * Change the type of the primitive to the new class. This will break the compilation / static checks. Fix that:
   * Update the setter and/or the constructor to create an instance of the new class. Pass the primitive value to the constructor of the new class. Don't change the type signature of the original code yet. 
   * Update the getter to return the result of invoking the getter of the new class. Don't change the type signature of the original code yet.

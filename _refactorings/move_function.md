@@ -14,7 +14,7 @@ learning_hours: primitive_obsession
 * Work out the best order to move things in and make a plan.
 
 ## Refactoring steps
-* IDE: right click on the function declaration, Refactoring menu | move...
+* IDE: with the cursor on the function declaration, Refactoring menu, Move...
 
 If that doesn't work, these are some manual steps:
 * Copy and paste the function to the new module, class or namespace

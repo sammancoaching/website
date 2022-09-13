@@ -13,7 +13,7 @@ learning_hours: primitive_obsession
 
 ## Refactoring steps
 * Create a getter and setter function for the field you want to encapsulate. 
-  * IDE: Put the cursor on the field, right click, Generate... Getter and Setter
+  * IDE: with the cursor on the field, Generate... Getter and Setter
 * Compile / run static checks.
 * Go through each reference to the variable or field and replace it with a call to the getter or setter function. 
   * You could "lean on the compiler" to find all the references - rename the field or variable and find all the places that break.
