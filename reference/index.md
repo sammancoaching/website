@@ -10,4 +10,9 @@ Sometimes in a learning hour it's useful to provide people with reference materi
 * [Code Smells](code_smells/index.html)
 * [Refactorings](refactorings/index.html)
 
+Explanations of some words used on this website:
+
+* [Technical coach](technical_coach_definition.html)
+* [Ensemble Working](ensemble_definition.html)
+
 
