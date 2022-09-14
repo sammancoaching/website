@@ -1,9 +1,9 @@
 ---
 layout: society
-title: Technical Coach
+title: Technical Coach - Definition
 ---
 
-# Technical Coach
+# Technical Coach - Definition
 
 Technical coaches help software developers to adopt better coding practices. The focus is on the code and the way it is being written. A technical coach will themselves be a competent software developer able to mentor and teach specific coding practices. For example Test-Driven Development, Refactoring and the use of Design Patterns.
 

@@ -1,9 +1,9 @@
 ---
 layout: society
-title: Ensemble Working
+title: Ensemble Working - Definition
 ---
 
-# Ensemble Working
+# Ensemble Working - Definition
 
 Ensemble working - when a whole team works together on the same thing, at the same time, in the same space, on the same computer.
 
