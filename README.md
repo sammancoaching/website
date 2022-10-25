@@ -3,10 +3,11 @@ Teaching materials for Technical Agile Coaches
 
 This repo contains resources for technical agile coaches to use in their work. For more information, please read this book [Technical Agile Coaching](https://leanpub.com/techagilecoach) by Emily Bache.
 
+## Development
+
 To test locally:
 
     bundle exec jekyll serve
-
 
 Instead of using jekyll locally you can get a prebuilt docker image with Ruby, Jekyll etc. installed:
 
@@ -16,9 +17,23 @@ Test locally run the server with:
 
     dockerrun
 
+Alternatively use [docker-compose](https://docs.docker.com/compose/) using the docker-compose.yml. 
+    
+    docker-compose up
+
 Then browse to:
 
     http://localhost:4000
+
+If you want to get access to the terminal in the docker container the command is:
+
+    docker exec -it <name_of_container> /bin/bash
+
+were "name_of_container"  is found by running the command 
+
+    docker ls
+
+or expanding the container in the Docker desktop user interface.
 
 ## Deploying to the live site
 When you push to the main branch, there is a github action that deploys the changes.
