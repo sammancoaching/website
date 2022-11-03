@@ -47,17 +47,20 @@ I suggest you write the keyboard shortcuts you used on a whiteboard. You'd like 
 - Encapsulate Field
 - Push Members Down
 
-or (CLion 2019.3.2, C++)
+or (CLion 2022.2.3, C++)
 
-- create new static function 'createParrot'
-- create new C++ class 'EuropeanParrot'
+- Generate Definition for 'createParrot' declared in Parrot.h
+- Create new C++ class 'EuropeanParrot' and inherit Parrot manually, or Subclass... and manually add to target.
 - Generate constructor
 - Import EuropeanParrot.h
 - Remove declaration of parameter 'parrotType'
-- Override functions...
-- make function <xyz> protected
+- Override functions... (watch out for checkbox 'show non-virtual functions')
+- increase function visibility, make protected
 - Safe delete
 - Push Members Down
+- Inline function (Only works if there is only one return in the function.)
+- Change Signature
+- Introduce Constant...
 
 
 ### Do Parrot
