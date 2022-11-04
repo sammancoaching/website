@@ -13,26 +13,13 @@ When people start with TDD I often see them struggle to remember to write the te
 ## Learning Objectives
 
 * Remember to design new classes and functions in the test, before they exist
-* Use the capabilities of the IDE to create classes and functions from the test (if you're using an IDE)
-* Summarize why TDD helps you avoid designing more than you need
 
 ## Session Outline
  
-* 10 min connect: How to create a class / TDD things to remember  
+* 10 min connect: TDD things to remember  
 * 10 min concept: Golden Rule
 * 30 min do: shopping basket
 * 5 min reflect: tips to remember the golden rule
-
-### Connect - ways to create a class
-(use this connect if you are using an IDE that can create classes and methods)
-
-In your IDE, what different ways are there to create a new class? I mean, ways where you don't have to type anything except the class name and the tool puts in all the relevant language syntax, brackets, package declarations, constructor, superclass etc.
-
-Find as many ways as you can. Search the help and the menus. 
-
-Ask people to come forward and present their discoveries.
-
-Hopefully people will discover lots of useful options. If they don't spot it for themselves, point out that it also works to just start using the class in some other code then auto-complete it into existence. That's the way you can do it from a test.
 
 ### Connect - things to remember when doing TDD
 Instead of the above connect, do this learning hour a second time as a refresher, with a different connect.
@@ -75,8 +62,6 @@ Before you split into pairs to work on the kata, spend a few minutes in the whol
 - one item $250
 
 When they are doing the kata, try to stop them from creating a ShoppingBasket class or Product class or calculatePrice function without first creating a test case. Have them practice using things in the test _before_ they exist in the production code.
-
-If they use a float to represent money then don't stress too much. You could just show them how to do an approximate comparison with an assertEquals that has a tolerance. You could also explain that floats are not a good way to model money and suggest they use an integer and have all the prices in cents instead of dollars.
 
 ### Reflect: Design in TDD
 Does it help you design better classes and interfaces? Does using TDD prevent you from designing more than you need? Discuss in pairs. 
