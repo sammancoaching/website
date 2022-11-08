@@ -18,10 +18,10 @@ This can make a good follow up after [Design in the red step](design_with_a_test
 ## Session Outline
 
 * 5 min connect: Spec vs Example
-* 10 min concrete: Turn an example into a test case
+* 10 min concept exercise: Turn an example into a test case
 * 5 min concept: Example-guided design
-* 30 min do: shopping basket
-* 5 min reflect: How does it work and why would you?
+* 30 min concrete: shopping basket
+* 5 min conclusions: How does it work and why would you?
 
 ### Connect - Spec vs Example
 Write these items on notes or cards. Ask people to sort them into two sections - is it a specification or is it an example?
@@ -36,7 +36,7 @@ Write these items on notes or cards. Ask people to sort them into two sections -
 - When your basket is empty the basket report should not be available.
 - When your basket contains a printer cartridge and some pens then the report should show these items: printer cartridge, pens.
 
-### Concrete: Convert Example to Test Case
+### Concept exercise: Convert Example to Test Case
 Show the description of the [Shopping Basket Kata](/kata_descriptions/shopping_basket.html). The description includes an example. This example can be turned into a test case. You can do that without implementing the code that will make the test pass. Split into pairs and ask people to turn that specific example into code in a test case. Ask them not to implement the code - just leave everything red and not compiling.
 
 Give people about 10 minutes for this part, or until you can see that they've created a test case. Ask them to take a screenshot and share their test with the group via a shared online document or whiteboard.
@@ -45,7 +45,7 @@ Review all the code and comment on any differences. Hopefully you'll have got a 
 
 If they use a float to represent money then don't stress too much. You could just show them how to do an approximate comparison with an assertEquals that has a tolerance. You could also explain that floats are not a good way to model money and suggest they use an integer and have all the prices in cents instead of dollars.
 
-### Concept: Example-guided design
+### Concept explanation: Example-guided design
 Working from a concrete example can help you to come up with a better design. Use the thing before you implement it. It helps you focus on the interface and making it easy to use, rather than how you'll write the detailed code inside.
 
 You will probably need several examples to show all the various situations the new code might need to be used in. Start with simpler examples.
