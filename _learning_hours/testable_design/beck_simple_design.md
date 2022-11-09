@@ -40,7 +40,7 @@ Do include language or organization specific guidelines if you know any good one
 ### Concept exercise
 Give them a starting position with an empty failing test and ask them to implement [FizzBuzz](/kata_descriptions/fizzbuzz.html). Tell them to do it however they want to, and to follow the design guidelines they want to follow.
 
-If no-one does TDD and they all end up with rather simple but less testable code, you might want to give them a quick demo of what solving FizzBuzz with TDD looks like. You should end up with something more like code sample 3 in the next section.
+If no-one does TDD and they all end up with rather simple but less testable code, you might want to give them a quick demo of what solving FizzBuzz with TDD looks like. You should end up with something more like code sample 3 in the next section. Hopefully you won't have to - the ideal is that some pairs use TDD and end up with code like sample 3, and some don't, and end up with code like sample 1 or 2. That's important for the next section.
 
 ### Concept - TDD changes your design
 Print out and pin up the code samples from ["FizzbuzzKata-Samples"](https://github.com/emilybache/FizzBuzzKata-Samples) around the walls of the room, in order. Only include the implementations, not the tests. Have people walk around in their pairs and study the code together. Get them to put a marker by the code sample they think is most similar to their own. If you did a TDD demo, ask them to mark the code sample most like the design you came up with as well. 
