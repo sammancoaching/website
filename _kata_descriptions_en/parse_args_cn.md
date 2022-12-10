@@ -1,5 +1,5 @@
 ---
-title: Parse Command-Line Args - 解析命令行参数
+title: Parse Command-Line Args
 kata_name: parse_args
 ---
 

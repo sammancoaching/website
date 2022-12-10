@@ -1,9 +1,9 @@
 ---
-title: Shopping Basket - 购物车折扣
+title: Shopping Basket - 购物车打折
 kata_name: shopping_basket
 ---
 
-购物车折扣
+购物车打折
 ========================
 
 购物车中的物品有一个单价和数量。编写代码，使你能够：

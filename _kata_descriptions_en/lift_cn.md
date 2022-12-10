@@ -24,3 +24,6 @@ kata_name: lift
 
 ### 鸣谢
 这个 Kata 在[Kata-Log](https://kata-log.rocks/lift-kata)上有描述，但我对它做了些许改动。
+
+
+通过www.DeepL.com/Translator（免费版）翻译
