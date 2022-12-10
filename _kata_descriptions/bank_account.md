@@ -31,4 +31,4 @@ kata_name: bank_account
 * 不要担心与银行对账单的准确格式相匹配，重要的是要打印一个有列标题的表格，并按日期排列交易。
 
 ### 鸣谢
-这个卡塔是由 [Codurance](https://katalyst.codurance.com/bank)发明的。
+这个Kata是由 [Codurance](https://katalyst.codurance.com/bank)发明的。

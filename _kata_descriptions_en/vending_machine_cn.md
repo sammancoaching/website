@@ -53,4 +53,4 @@ kata_name: vending_machine
 
 # 鸣谢
 
-本卡塔由 Guy Royse 编写，他的版本可在[这里](https://github.com/guyroyse/vending-machine-kata)
+本Kata由 Guy Royse 编写，他的版本可在[这里](https://github.com/guyroyse/vending-machine-kata)

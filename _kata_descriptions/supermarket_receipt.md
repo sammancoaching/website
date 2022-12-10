@@ -21,7 +21,7 @@ kata_name: supermarket_receipt
 
 ## 重构版本
 
-另见[超市收据重构卡塔](https://github.com/emilybache/SupermarketReceipt-Refactoring-Kata)
+另见[超市收据重构Kata](https://github.com/emilybache/SupermarketReceipt-Refactoring-Kata)
 
 ## 鸣谢
 
