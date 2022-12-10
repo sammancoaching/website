@@ -21,4 +21,4 @@ kata_name: calc_stats
 
 
 ### 鸣谢
-此 Kata 在 cyber-dojo.org 上有描述。
+此 Kata 在 cyber-dojo.org 上有。

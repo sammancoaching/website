@@ -1,5 +1,5 @@
 ---
-title: 银行账户
+title: Bank Account - 银行账户
 kata_name: bank_account
 ---
 # 银行账户
