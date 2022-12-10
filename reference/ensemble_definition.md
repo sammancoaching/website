@@ -9,9 +9,9 @@ title: 合奏工作---定义
 
 当你在进行编程任务时，你称之为 Ensemble Programming，而当它是一个测试任务时，则称之为 Ensemble Testing。
 
-术语 合奏 编程 是[Mob Programming](https://en.wikipedia.org/wiki/Mob_programming)的同义词：它是同一件事。在 Samman 教练中，我们更愿意使用 "Ensemble "这个词，因为它听起来更友好。
+术语 合奏 编程 是[Mob Programming](https://en.wikipedia.org/wiki/Mob_programming)的同义词：它是同一件事。在 Samman 教练中，我们更愿意使用 "Ensemble" 这个词，因为它听起来更友好。
 
-## 说 "Ensemble "而不是 "Mob "的原因
+## 叫 "Ensemble" 而不是 "Mob" 的原因
 
 - **合奏 Ensemble** 具有积极的内涵，让人想到一群音乐家一起创造美好的事物。
 - **合奏工作** 包括了测试和测试人员。

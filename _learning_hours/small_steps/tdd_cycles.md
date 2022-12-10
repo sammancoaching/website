@@ -1,41 +1,41 @@
 ---
 theme: small_steps
-title: TDD cycles
+title: TDD 循环
 kata: closest_to_zero
 difficulty: 1
 author: emilybache
 affiliation: ProAgile
 ---
 
-# TDD Cycles
+# TDD 循环
 
-When you're working in TDD you'd like your cycles to be short and fairly regular. Let's look at that today.
+当你在 TDD 中工作时，你希望你的循环很短而且相当有规律。今天我们就来看看这个问题。
 
-## Session Outline
- 
-* 5 min connect: 3 things about TDD plus one
-* 5 min concept: TDD cycle
-* 35 min concrete: do some TDD
-* 10 min reflect: Correlate test list with TDD cycles
+## 会议大纲
+
+* 5分钟连接：关于 TDD 的 3 件事加 1 件
+* 5分钟的概念：TDD 循环
+* 35分钟具体练习：做一些TDD
+* 10分钟总结：将测试列表与 TDD 循环联系起来
 
 
-### Connect: 3 things about TDD plus one
+### 连接：关于 TDD 的 3 件事加 1 件
 
-Ask participants: What are three things you already know about TDD? Tell them to the person sitting next to you. Bonus: also tell them one thing you want to learn about TDD.
+询问参与者。关于 TDD 你已经知道的 3 件事是什么？把它们告诉坐在你旁边的人。奖励：也告诉他们你想学习的关于TDD的 1 件事。
 
-### Concept: TDD Cycle
+### 概念：TDD 循环
 
-Bring up an example cyber-dojo screenshot with some [traffic lights](/assets/images/cyber_dojo_traffic_lights.png). Show a TDD cycle. Explain you would like them to be short and fairly regular.
+调出一个有一些[交通灯](/assets/images/cyber_dojo_traffic_lights.png)的 cyber-dojo 截图例子。显示一个 TDD 循环。解释一下，你希望它们是短的和相当有规律的。
 
-### Concrete: Do some TDD cycles
-Pick an exercise, one that is not too complicated and you can fit several TDD cycles into 35 minutes. For example [Closest to Zero](/kata_descriptions/closest_to_zero.html). Ask them to work on it using TDD.
+### 具体的：做一些 TDD 循环
+挑选一个练习，不要太复杂，你可以在 35 分钟内完成几个 TDD 循环。例如 [最接近于 0](/kata_descriptions/closest_to_zero.html) 。要求他们用TDD来工作。
 
-If you've previously done a ['test list'](test_list.html) learning hour on this kata you could remind them of it and distribute the list you made that time. Otherwise, remind them to make their own test list.
+如果你以前在这个 Kata 上做过["测试列表"](test_list.html)学习时间，你可以提醒他们，并分发你那次做的列表。否则，提醒他们制作自己的测试列表。
 
-### Reflect: TDD cycles and test list
-Review the code and TDD cycles. A tool like cyber-dojo makes test cycles visible, but you can also use the local history in your IDE, or git history. 
+### 总结：TDD 周期和测试列表
+回顾代码和 TDD 循环。像 cyber-dojo 这样的工具使测试周期可见，但你也可以使用 IDE 中的本地历史，或 git 历史。
 
-- Were the cycles even in length, did you get a good TDD rhythm going?
-- Did you have one TDD cycle per test on your list?
-- Did you add or remove tests from your list during development?
-- What factors lead to successful TDD cycles?
+- 周期的长度是否均匀，你是否得到了一个良好的 TDD 节奏？
+- 你是否在你的列表中的每个测试有一个 TDD 循环？
+- 在开发过程中，你是否从你的列表中添加或删除测试？
+- 哪些因素促成了成功做到 TDD 循环？

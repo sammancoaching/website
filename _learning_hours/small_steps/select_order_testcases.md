@@ -1,57 +1,57 @@
 ---
 theme: small_steps
-title: Selecting and ordering test cases
+title: 测试用例的选择和排序
 kata: fizzbuzz
 difficulty: 1
 author: emilybache
 ---
 
-Selecting and ordering test cases 
+测试用例的选择和排序
 ----------------------------------
 
-[FizzBuzz](/kata_descriptions/fizzbuzz.html) is one step up in difficulty from Leap Years. The problem description asks you to design a console application. You need to do a small amount of analysis to realize the heart of it is a pure function similar to the one for Leap Years. This one takes an integer and returns a String. You can use this Kata to talk about how to plan and select test cases, and why you spend a few minutes analyzing the problem to look for a pure function to test drive. Note - this is part of the general strategy for ['inside-out' TDD](https://8thlight.com/blog/georgina-mcfadyen/2016/06/27/inside-out-tdd-vs-outside-in.html). 
+[FizzBuzz](/kata_descriptions/fizzbuzz.html) 的难度比 Leap Years 高一个等级。问题描述要求你设计一个控制台应用程序。你需要做少量的分析，以意识到它的核心是一个类似于 Leap Years 的纯函数。这个函数接收一个整数并返回一个字符串。你可以用这个 Kata 来讨论如何计划和选择测试用例，以及为什么你要花几分钟分析问题来寻找一个纯函数来测试驱动。注意--这是["由内向外" TDD](https://8thlight.com/blog/georgina-mcfadyen/2016/06/27/inside-out-tdd-vs-outside-in.html)的一般策略的一部分。
 
-### Learning goals
-The theme is the same as the first session: "Small steps". 
+### 学习目标
+主题与第一次会议相同。"小步骤"。
 
-* Explain why we look for a pure function to test-drive in TDD
-* Use a 'test case list' during TDD
-* Use TDD to build a pure function and associated tests
+* 解释为什么我们要在 TDD 中寻找一个纯函数来进行测试驱动
+* 在 TDD 过程中使用 "测试用例列表"
+* 使用 TDD 来建立一个纯函数和相关的测试
 
-## Session Outline
+## 会议大纲
 
-* 5 min connect: pairs discuss what is easiest to test  
-* 10 min explain & elaborate test cases for FizzBuzz 
-* 5 min explain inside-out vs outside-in TDD  
-* 25 min FizzBuzz in pairs  
-* 5 min reflect: pairs discuss what they learnt today
+* 5分钟联系：两人讨论什么是最容易测试的
+* 10分钟解释和阐述 FizzBuzz 的测试案例
+* 5分钟解释由内向外与由外向内的 TDD
+* 25分钟的 FizzBuzz 结对
+* 5分钟回顾：两人讨论他们今天学到了什么
 
-### Connect
-In pairs discuss this question.
+### 连接
+两人一组讨论这个问题。
 
-Which is easiest to write automated tests for:
+哪一个是最容易编写自动化测试的：
 
-- a whole system with a database
-- a front-end module
-- a pure function
-- a static function
-- a function with a void or undefined return value
+- 带有数据库的整个系统
+- 一个前端模块
+- 一个纯函数
+- 一个静态函数
+- 一个具有无效或未定义返回值的函数
 
- (Use the internet to research if you are unsure what those things are.)
+(如果你不确定这些东西是什么，可以使用互联网来研究）。
 
-The reason for asking about what is easy to test is to get them prepared for designing a pure function or static method for calculating FizzBuzz. These kinds of functions are easier to test since all the outcomes are visible in the return value, the input value is not modified and there are no side effects.
+之所以问什么是容易测试的，是为了让他们准备设计一个纯函数或静态方法来计算 FizzBuzz。这类函数更容易测试，因为所有的结果在返回值中是可见的，输入值没有被修改，也没有副作用。
 
-### Explain and elaborate test cases
-Starting at a whiteboard, explain the purpose of the [FizzBuzz](/kata_descriptions/fizzbuzz.html) kata. Read the description to the group, or put it on a screen they can see. Ask the group to suggest test cases we will need for this kata. Write up whatever they say. 
+### 解释和阐述测试案例
+从白板开始，解释[FizzBuzz](/kata_descriptions/fizzbuzz.html) Kata的目的。把描述读给小组听，或者放在他们能看到的屏幕上。请小组提出这个Kata需要的测试案例。把他们说的都写下来。
 
-What they come up with might include this - an impure function that prints a multi-line string: 
+他们提出的建议可能包括这个--一个打印多行字符串的混合的函数。
 
 	() -> print("1\n2\nFizz\n4\nBuzz\n...")
 
 
-Explain that they could usefully write a pure function that takes an integer and returns a string. This function could be called by the other one, and will be easier to test, while still giving us good coverage of the business rules. 
+解释一下，他们可以有效地写一个纯函数，接收一个整数并返回一个字符串。这个函数可以被另一个函数调用，而且会更容易测试，同时还能很好地覆盖业务规则。
 
-You might then end up with test cases on the whiteboard looking something like this:
+然后，你可能会发现白板上的测试用例是这样的：
 
 	1 -> "1"
 	3 -> "Fizz"
@@ -60,23 +60,23 @@ You might then end up with test cases on the whiteboard looking something like t
 	15 -> "FizzBuzz"
 
 
-When you have half a dozen or so of those kinds of cases, ask them to prioritize/sort them. Which is the easiest to implement? Which order should we take them in? Hopefully they will notice you should take a number that is not divisible by 3 or 5 to begin with. Write numbers next to the examples (in a different colour pen) which order to implement them as test cases.
+当你有 5、6 个或更多这样的案例时，请他们对它们进行优先排序/分类。哪个是最容易实现的？我们应该以什么顺序来处理它们？希望他们会注意到你应该先取一个不能被3或5整除的数字。在例子旁边写上数字（用不同颜色的笔），以哪种顺序来实现它们作为测试案例。
 
-### Inside-out vs Outside-In TDD
-Talk about how you plan and select test cases in TDD. Point out why you might spend a few minutes analyzing the problem to look for a pure function to test drive. Explain this is a strategy for 'inside-out' TDD, and explain what that is. I like to make a sketch as I talk or have a couple of  slides prepared. Share a link to more information (either something you wrote or an article or video or book that you recommend).
+### 由内向外 与 由外向内 的TDD
+讨论你如何在 TDD 中计划和选择测试用例。指出为什么你可能会花几分钟时间分析问题，寻找一个纯函数来测试驱动。解释这是一种 "由内向外" 的 TDD 策略，并解释那是什么。我喜欢边讲边画草图，或者准备好几张幻灯片。分享一个更多信息的链接（可以是你写的东西，也可以是你推荐的文章、视频或书籍）。
 
-### Do
-Have the group work in pairs or ensemble to do the Kata, starting from no code, just the examples written on the whiteboard. Every 4 minutes, remind them to swap the typist.
+### 做
+让小组成员两人一组或合力完成 "Kata"，从没有代码开始，只有写在白板上的例子。每隔4分钟，提醒他们换一下打字员。
 
-When it comes to the test for the impure function that prints to the console, I suggest you point out this is harder to test with a unit test and we will leave automating that test for another day. For today it's enough to automate the test for the pure function, and do a manual test of printing to the console.
+当涉及到对打印到控制台的非纯函数的测试时，我建议你指出这很难用单元测试来测试，我们将把这个测试的自动化留到下一天。今天，我们只需对纯函数进行自动化测试，并对打印到控制台进行手动测试即可。
 
-### Reflect
-Take the 'group temperature' on these questions - ask them to rate their confidence on a scale of 1-5
+### 总结
+对这些问题进行 "集体测温" —— 请他们在1-5的范围内给自己的信心评分
 
-* How confident do you feel about the code you test-drove? 
-* How confident do you feel that the whole solution works?
+* 你对你所测试的代码有多大信心？
+* 你对整个解决方案的正常工作有多大信心？
 
-Since they have probably not written an automated test for the overall solution that prints all the FizzBuzz numbers up to 100, they might feel less confident in that part of the code. On the other hand, they didn't need any mocks or test doubles in the tests they wrote.
+由于他们可能没有为整个解决方案写一个自动测试，以打印所有 FizzBuzz 数字到 100，他们可能对这部分的代码感到不太自信。另一方面，在他们写的测试中，他们不需要任何模拟或测试替身。
 
-In pairs, ask them to discuss: Can you think of other code you've written where you could have test-driven the 'inside' part?  
+以小组为单位，请他们讨论。你能想到你写过的其他代码中，你可以测试驱动 "内部" 部分吗？
 
