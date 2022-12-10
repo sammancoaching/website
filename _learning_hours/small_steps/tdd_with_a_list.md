@@ -1,63 +1,63 @@
 ---
 theme: small_steps
-title: TDD with a list
+title: 用清单进行TDD
 kata: vending_machine
 difficulty: 2
 author: emilybache
 affiliation: ProAgile
 ---
 
-# TDD with a list
+# 用清单进行TDD
 
-TDD is perhaps a little easier when someone else has started making the test list for you.
+当别人开始为你制作测试列表时，TDD也许会更容易一些。
 
-## Learning Objectives
+## 学习目标
 
-* describe how a test list supports working iteratively and incrementally
-* use a test list during TDD
+* 描述测试列表如何支持迭代和增量工作
+* 在TDD过程中使用测试列表
 
-## Session Outline
- 
-* 5 min connect: waterfall phases
-* 5 min concept: iterative and incremental
-* 35 min concrete: do some TDD
-* 10 min reflect: did we work in small steps
+## 会议大纲
+
+* 5分钟连接：瀑布阶段
+* 5分钟概念：迭代和增量
+* 35分钟具体：做一些 TDD
+* 10分钟的反思：我们是否以小步骤工作
 
 
-### Connect: Waterfall phases
+### 连接：瀑布阶段
 
-Mark the activities on this list that are phases in a Waterfall method:
+在这个列表中标出属于瀑布法的阶段的活动：
 
-* Singleton
-* Coding
-* Sprint planning
-* Operations
-* Design
-* Clean Code
-* Analysis
-* Testing
-* Iteration
-* Requirements
+* 单例
+* 编码
+* 冲刺计划
+* 运营
+* 设计
+* 清洁代码
+* 分析
+* 测试
+* 迭代
+* 需求
 
-When people have made their marks, ask them to check their answers against [the waterfall model](https://en.wikipedia.org/wiki/Waterfall_model#Model).
+当人们做完标记后，请他们对照[瀑布模型](https://en.wikipedia.org/wiki/Waterfall_model#Model)检查他们的答案。
 
-### Concept: Iterative and incremental
+### 概念：迭代和增量
 
-The whole problem is too large to tackle all at once. In Waterfall, you split the work into phases. The purpose of the Analysis phase is to understand the requirements and work out how to decompose the problem. In TDD we still need to do that, but instead of doing it all at once in a phase by itself, we do it a little at a time. A little analysis, design, coding, testing... then iterate. 
+整个问题太大，无法一下子解决。在瀑布模型中，你把工作分成几个阶段。分析阶段的目的是了解需求并研究如何分解问题。在 TDD 中，我们仍然需要这样做，但我们不是在一个阶段中一次做完，而是一次做一点。一点点的分析、设计、编码、测试......然后迭代。
 
-Making a test list is part of the analysis work. You identify some pieces of the solution that are testable, that you can soon design and build. It helps you to get started. There is no standard format for this, it's an informal list that probably only you will read. It's not an artifact to be saved for posterity. Each item on the test list is a reminder of a test you think you might need. A sketch of an example input and expected outcome, or just a name of a scenario.
+制作一个测试列表是分析工作的一部分。你确定解决方案的一些片段是可测试的，你可以很快设计和构建。它帮助你开始工作。这没有标准的格式，它是一个非正式的列表，可能只有你会看。它不是一个要保存给后人的艺术品。测试列表上的每一项都是对你认为你可能需要的测试的提醒。一个输入示例和预期结果的草图，或者只是一个场景的名称。
 
-Every time you complete a TDD cycle you revisit your test list and update it. By doing the design and coding and testing you learn more about the problem and can revisit the analysis.
+每当你完成一个 TDD 周期，你就重新审视你的测试列表并更新它。通过做设计、编码和测试，你对问题有了更多的了解，可以重新审视分析。
 
-### Concrete: Carry on with TDD
+### 具体练习：继续进行 TDD
 
-* You have one failing test. Add production code in ‘insert_coin’ to make the test pass.
-* Add a test for ‘dime’. This coin is worth 10 cents.
-* Add a test for ‘quarter’. This coin is worth 25 cents.
-* Add a test for ‘penny’. This coin should be rejected by the machine. 
-* Refer to the full [Vending Machine](/kata_descriptions/vending_machine.html) description for additional functionality.
+* 你有一个失败的测试。在 'insert_coin' 中添加生产代码以使测试通过。
+* 为 'dime' 添加一个测试。这枚硬币价值 10 美分。
+* 为 'quarter' 添加一个测试。这枚硬币价值 25 美分。
+* 增加对 'penny' 的测试。这枚硬币应该被机器拒绝。
+* 参考完整的[自动售货机](/kata_descriptions/vending_machine.html)描述以了解更多功能。
 
-The starting position for this is in the 'empty_machine' branch of [VendingMachine-Approval-Kata](https://github.com/emilybache/VendingMachine-Approval-Kata) at least in the C version so far.
+这方面的起始位置在[VendingMachine-Approval-Kata](https://github.com/emilybache/VendingMachine-Approval-Kata)的'empty_machine'分支中，至少在目前的C版本中是如此。
 
-### Conclusions: small steps
-Review the code written now. How many tests are crossed off the list? How many new tests did you think of and add to the list? Have you been working in small steps?
+### 结论：小步骤
+回顾一下现在写的代码。有多少个测试被划掉了？有多少新的测试是你想到并添加到列表中的？你是否一直在小步快跑地工作？
