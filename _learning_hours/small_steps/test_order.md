@@ -1,53 +1,51 @@
 ---
 theme: small_steps
-title: Test Order
+title: 测试顺序
 kata: yatzy
 difficulty: 1
 author: emilybache
 affiliation: ProAgile
 ---
 
-Test Order with Yatzy
+Yatzy 的测试顺序
 ------------------------
 
-This kata is a couple of steps up in difficulty from Leap Years. You are designing one main function with several helper functions. You test drive the implementation one helper function at a time. The group learns about this strategy for breaking down a problem into pieces suitable for TDD.
+这个 Kata 在难度上比 Leap Years 高了几级。你正在设计一个主函数和几个辅助函数。你每次测试一个辅助函数的实现。该小组学习了这种将问题分解成适合 TDD 的片段的策略。
 
-## Session Outline
+## 会议大纲
 
-* 2 min connect: pairs discuss when to write tests or not  
-* 10 min explain yatzy & make list of test cases together  
-* 10 min mob with you navigating  
-* 30 min mob continues 
-* 5 min reflect: whole group temperature - too many/too few tests?  
+* 2分钟连接：两人讨论什么时候写测试或不写
+* 10分钟解释 yatzy 并列出测试案例的清单  
+* 10分钟的 Mob Programming，由你来导航  
+* 30分钟的 Mob programming 继续
+* 5分钟思考：整个小组的温度 - 太多/太少的测试？
 
-### Connect
-- Do you usually write one unit test for every class and method? 
-- Note down your personal policies for when you write a test and when you don't.
- 
-### Demonstrate
-Starting at a whiteboard, explain the purpose of the kata. Read the description to the group, and put the category and scoring rules on a screen they can see. Ask the group if they can see any examples in the description that would make good test cases. There are lots! Ask the group what order they would tackle the examples in, note this on the whiteboard. I expect they would want to order by category, for example:
+### 连接
+- 你通常为每个类和方法写一个单元测试吗？
+- 记下你的个人策略，何时写测试，何时不写。
 
-- small straight
-- large straight
-- chance
-- ones
-- twos, threes, fours, fives, sixes
-- three of a kind
-- four of a kind
+### 演示
+从白板开始，解释 "Kata" 的目的。把描述读给小组听，并把类别和评分规则放在他们能看到的屏幕上。问小组成员是否能在描述中看到任何可以成为好的测试案例的例子。有很多啊! 问小组成员他们会以什么顺序来处理这些例子，在白板上记录下来。我估计他们会想按类别排序，例如：
+
+- 小顺
+- 大顺
+- Chance（机会）
+- 一
+- 二、三、四、五、六
+- 三条
+- 四条
 - yatzy
 - ...
 
-Don't worry too much about what order they want to do the categories in, although I do suggest you encourage them to tackle ones, twos etc before tackling pair or full house.
+不要太担心他们想按什么顺序来做这些分类，尽管我建议你鼓励他们在处理对子或满堂红之前处理1、2等。
 
-Take the navigator role in the mob, rotate the driver. Steer the group towards a design where you have a function for each yatzy category, and some kind of switch statement in the main function that calls them. Each such function is named after the category, takes a list of five integers, returns an integer. You should get at least as far as creating the first of those functions.
+在 mob 中扮演导航员的角色，轮流担任导航员。引导小组进行设计，为每一个 yatzy 类别设置一个函数，并在主函数中设置某种开关语句来调用它们。每个这样的函数都以类别命名，接受一个包含五个整数的列表，返回一个整数。你至少应该在创建这些函数中的第一个时就能做到。
 
-### Do
-Hand over the navigator role to someone in the mob, continuing to code from where you got to. Make sure they continue to work in small steps, implementing function by function and keeping all the tests passing.
+### 做
+将导航员的角色移交给 mob 中的某个人，从你到达的地方继续编码。确保他们继续以小步的方式工作，逐一实现功能，并保持所有测试通过。
 
-### Reflect
-- How did we break down the problem into pieces for TDD?
-- How much test code do we have compared with production code?
-- Have we over-tested or under-tested or got it right, in your opinion? Compare notes with the person next to you.
-- Take a whole-group temperature about whether there are too many tests, not enough or about right.
-
-
+### 反思
+- 我们是如何将问题分解成 TDD 的片段的？
+- 与生产代码相比，我们有多少测试代码？
+- 在你看来，我们是否测试过度、测试不足或测试正确？和你旁边的人比较一下便签。
+- 就测试太多、不够或差不多的问题进行全组讨论。

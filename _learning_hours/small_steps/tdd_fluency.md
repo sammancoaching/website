@@ -1,52 +1,52 @@
 ---
 theme: small_steps
-title: TDD Fluency
+title: TDD 流畅性
 kata: word_wrap
 difficulty: 2
 author: emilybache
 ---
 
-# Fluency with TDD
+# TDD 的流畅性
 
-It takes a lot of practice to get good at TDD. This is a learning hour for when you've already done a few katas and are starting to get the hang of it.
+熟练掌握 TDD 需要大量的练习。这是一个当你已经做了几个 kata，开始掌握它的时候的学习小时。
 
-## Learning Objectives
+## 学习目标
 
-* Remember the steps of the TDD cycle
-* Use TDD consistently when developing a function
-* Evaluate which aspects of TDD you're not yet fluent with
+* 记住 TDD 周期的各个步骤
+* 在开发一个功能时坚持使用 TDD
+* 评估 TDD 的哪些方面你还不太了解
 
-## Session Outline
+## 会议概要
 
-* 5 min connect: Benefits of TDD
-* 10 min concept: Fluency
-* 30 min do: Word Wrap
-* 5 min reflect: own practice goals
+* 5分钟的连接：TDD的好处
+* 10分钟的概念：流畅性
+* 30分钟做：单词折行
+* 5分钟思考：自己的练习目标
 
-### Connect - Benefits of TDD
-Put this question to the group, and ask them to come up with 5 answers.
+### 连接：TDD的好处
+向小组提出这个问题，并要求他们想出5个答案。
 
-"What are 5 important things to remember when you're doing Test-Driven Development?"
+"当你在做测试驱动开发时，有哪些需要记住的重要事情？"
 
-The kinds of answers you're looking for are:
+你要找的答案可能是：
 
-- take small steps, testing one thing at a time
-- run tests often
-- refactor test code as well as production code
-- only refactor when tests are passing
-- make a test list
-- write the test first
+- 采取小步骤，一次测试一件事
+- 经常运行测试
+- 重构测试代码和生产代码
+- 只有在测试通过时才进行重构
+- 制定一个测试列表
+- 先写测试
 
-### Concept: Fluency
-Tell a story about learning a skill like dancing or cooking or skiing or playing a musical instrument. Something from your experience. The key part of the story is telling them about a time you found you could do the new thing in the class, with the teacher, in ideal conditions, but not at the same time as doing something else. It's the difference between having a skill, and having it fluently. When you get a bit stressed, and have to devote most of your brain to thinking about something else, if you can still do the skill, then you've got some fluency with it.
+### 概念：流畅性
+讲一个关于学习技能的故事，比如跳舞、烹饪、滑雪或演奏乐器。一些来自你的经验。故事的关键部分是告诉他们，有一次你发现你可以在课堂上，在老师的指导下，在理想的条件下做这件新事情，但不是在做其他事情的同时。这是拥有一项技能，和流畅地拥有它之间的区别。当你有点压力，不得不把你的大部分大脑用于思考其他事情时，如果你仍然可以做这个技能，那么你已经有了一些流畅性。
 
-Today we're training TDD fluency. You get good at doing something by practicing it and reflecting.
+今天我们要训练 TDD 的流畅性。通过练习和反思，你可以很好地完成某项工作。
 
-### Do: Word Wrap
-Practice breaking the problem into small pieces by making a test list. Practice writing the design in the test first before you create the function. Practice making the tests pass one at a time. Practice updating your test list. Practice refactoring to remove duplication. Suggested kata - [Word Wrap](kata_descriptions/word_wrap.html).
+### 做：单词折行
+通过制定测试列表，练习将问题分成小块。练习在创建函数之前先在测试中写出设计。练习让测试一个一个地通过。练习更新你的测试列表。练习重构以消除重复。建议的 Kata - [单词折行](kata_descriptions/word_wrap.html) 。
 
-For each aspect of TDD that you're practicing, pay attention to how fluent it feels and how easily you can do it.
+对于你正在练习的TDD的每个方面，注意它的感觉有多流畅，你能做得多轻松。
 
-### Reflect: own practice goals
-Refer back to the list of what's important in TDD that you made earlier. Which aspects of TDD do you need to become more fluent with? Which parts were hardest for you? Perhaps ask people to dot vote, or make notes for themselves. Perhaps you can do some practice by yourself or your coach can arrange more learning hours focussed on those parts. 
+### 反思：自己的练习目标
+参考你之前列出的 TDD 中的重要内容。你需要在 TDD 的哪些方面变得更加流畅？哪些部分对你来说是最难的？也许可以请大家来点投票，或者为自己做笔记。也许你可以自己做一些练习，或者你的教练可以安排更多的学习时间专注于这些部分。
 
