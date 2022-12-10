@@ -1,49 +1,48 @@
 ---
 theme: small_steps
-title: Design in the Red step
+title: 在红色步骤中设计
 name: design_in_red_step
 kata: lift_button
 difficulty: 1
 author: emilybache
 ---
 
-# Design in the Red step
+# 在红色步骤中设计
 
-When you've got an IDE it's very convenient to create classes and method directly from the test case.
+当你有一个IDE时，直接从 test case 中创建类和方法是非常方便的。
 
-## Learning Objectives
+## 学习目标
 
-* Remember to design new classes and functions in the test, before they exist
-* Use the capabilities of the IDE to create classes and functions from the test 
+* 在它们存在之前，记住在测试中设计新的类和函数。
+* 使用IDE的功能，从测试中创建类和函数。
 
-## Session Outline
+## 会议大纲
 
-* 5 min connect: How to create a class
-* 10 min concept: Design in TDD - in the red step
-* 30 min do: Lift Button
-* 5 min reflect: note down the keyboard shortcuts
+* 5分钟的连接：如何创建一个类
+* 10分钟的概念：TDD中的设计 - 在红色的步骤中
+* 30分钟做：电梯按钮
+* 5分钟反思：写下键盘快捷键
 
-### Connect - ways to create a class
+### 连接 - 创建一个类的方法
 
-Put up the IDE on the big screen, with an empty project and empty test case open. Ask "I'd like to create a new class, called LiftButton. What should I do? Please navigate me". Hopefully someone will ask you to use the new class wizard or similar. Create the class as they instruct. Ask again - is there any other way to create a class? Hopefully someone eventually will tell you to write `new LiftButton()` (or similar) in the test case. Bingo. Make sure they see how you use the tool to summon the new class into existence from the test.
+把IDE放在大屏幕上，打开一个空项目和空测试案例。问： "我想创建一个新的类，叫做LiftButton。我应该怎么做？请为我导航"。希望有人会让你使用新类向导或类似的方法。按照他们的指示创建这个类。再问一遍--还有没有其他方法来创建一个类？希望最终会有人告诉你在测试用例中写 `new LiftButton()`（或类似的）。中奖了。确保他们看到你是如何使用工具从测试中生成出新的类来的。
 
-(Of course if no-one suggests this you show them anyway)
+(当然，如果没有人建议这样做，你还是要给他们看)
 
-### Concept: Design in TDD - the red step
-The test is the first time you use the class or method. Before you use the tool to summon it into existance, you can examine how easy it is to use your design. It's the cheapest possible moment to change your design decisions.
+### 概念：TDD中的设计 - 红色步骤
+测试是你第一次使用这个类或方法。在你使用工具把它生成出来之前，你可以检查一下使用你的设计有多容易。这是改变你的设计决定的成本最低的时刻。
 
-### Do: Lift Button
-Practice writing the tests first before creating the classes and functions they describe. The [Lift Button Kata](/kata_descriptions/lift_button.html) might be a good one.
+### 做：电梯按钮
+在创建它们所描述的类和函数之前，先练习写测试。[电梯按钮 Kata](/kata_descriptions/lift_button.html)可能是个好例子。
 
-Before you split into pairs to work on the kata, spend a few minutes in the whole group coming up with a test list. Something like:
+在你们分成两组进行 Kata 工作之前，在整个小组中花几分钟时间想出一个测试列表。比如：
 
-- button not pressed, doors closed, light off
-- button is pressed, doors closed, light on
-- button is pressed, doors open, light off
-- button not pressed, doors open, light off
+- 按钮未按下，门关闭，灯关闭
+- 按键被按下，门关闭，灯亮起
+- 按键被按下，门打开，灯关闭
+- 按钮未按下，门打开，灯关闭
 
-When they are doing the kata, try to stop them from creating any functionality without first creating a test case. Have them practice using things in the test _before_ they exist in the production code.
+当他们在做 "Kata" 时，试着阻止他们在没有创建测试用例的情况下创建任何功能。让他们在生产代码存在之前，练习在测试中使用这些东西。
 
-### Reflect: keyboard shortcuts
-Which keyboard shortcuts did we use to create things? Make a note so you remember them. 
-
+### 总结：键盘快捷键
+我们使用了哪些键盘快捷键来创建代码？写一个便签，以便你记住它们。

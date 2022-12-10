@@ -1,69 +1,68 @@
 ---
 theme: small_steps
-title: Example-guided design
+title: 实例引导的设计
 kata: shopping_basket
 difficulty: 1
 author: emilybache
 ---
+# 实例引导的设计
 
-# Example-guided design
+这可以成为[红色步骤中的设计](design_with_a_test.html)之后的一个很好的后续。
 
-This can make a good follow up after [Design in the red step](design_with_a_test.html).
+## 学习目标
 
-## Learning Objectives
+* 认识到需求规格和实例之间的区别
+* 将一个详细的实例变成一个测试 case
 
-* Recognize the difference between a specification and an example
-* Turn a detailed example into a test case
+## 会议大纲
 
-## Session Outline
+* 5分钟的连接：需求规格与实例
+* 10分钟的概念练习：把一个例子变成一个测试用例
+* 5分钟的概念：实例引导的设计
+* 30分钟的实战练习：购物车
+* 5分钟的总结：它是如何工作的，接下来你会怎么做？
 
-* 5 min connect: Spec vs Example
-* 10 min concept exercise: Turn an example into a test case
-* 5 min concept: Example-guided design
-* 30 min concrete: shopping basket
-* 5 min conclusions: How does it work and why would you?
+### 连接 - 规格与实例
+将这些项目写在笔记或卡片上。请大家把它们分成两部分--是规则还是例子？
 
-### Connect - Spec vs Example
-Write these items on notes or cards. Ask people to sort them into two sections - is it a specification or is it an example?
+- 如果你的购物车的总价值超过200元，就给予10%的折扣。
+- 你的购物车里最多允许有 100 件物品。
+- 如果你的购物车包含3个打印机墨盒（每个50元），5支笔（每支2元），5个记事本（每个10元），你应该得到10%的折扣。
+- 如果你的购物车包含1个打印机墨盒（每个50元），5支笔（每支2元），3个记事本（每本10元），你应该总共支付90元。
+- 如果你的购物车包含1个打印机墨盒（每个50元），5支笔（每支2元），5个记事本（每个10元），你应该得到5%的折扣。
+- 总价是每种物品的单价乘以数量之和。
+- 购物车报告应该列出你购物车里的所有物品。
+- 当你的购物车是空的时候，购物车报告就不应该出现。
+- 当你的购物车里有一个打印机墨盒和一些笔时，报告应该显示这些项目：打印机墨盒，笔。
 
-- If the total value of your basket is over $200, give a 10% discount.
-- The maximum number of items allowed in your basket is 100.
-- If your basket contains 3 printer cartridges ($50 each), 5 pens ($2 each), 5 notepads ($10 each), you should get a 10% discount.
-- If your basket contains 1 printer cartridge ($50 each), 5 pens ($2 each), 3 notepads ($10 each), you should pay a total of $90.
-- If your basket contains 1 printer cartridge ($50 each), 5 pens ($2 each), 5 notepads ($10 each), you should get a 5% discount.
-- The total price is the sum of the unit price multiplied by the quantity for each kind of item.
-- The basket report should list all the items in your basket.
-- When your basket is empty the basket report should not be available.
-- When your basket contains a printer cartridge and some pens then the report should show these items: printer cartridge, pens.
+### 概念练习：将实例转换为测试用例
+展示[购物车Kata](/kata_descriptions/shopping_basket.html)的描述。该描述包括一个例子。这个例子可以转化为一个测试用例。你可以在不实现使测试通过的代码的情况下做到这一点。分成两组，要求人们把这个特定的例子变成测试用例中的代码。要求他们不要实现代码--只是让所有的东西都是红色的，不要编译。
 
-### Concept exercise: Convert Example to Test Case
-Show the description of the [Shopping Basket Kata](/kata_descriptions/shopping_basket.html). The description includes an example. This example can be turned into a test case. You can do that without implementing the code that will make the test pass. Split into pairs and ask people to turn that specific example into code in a test case. Ask them not to implement the code - just leave everything red and not compiling.
+给人们10分钟的时间来完成这一部分，或者直到你看到他们已经创建了一个测试案例。要求他们进行截图，并通过共享在线文档或白板与大家分享他们的测试。
 
-Give people about 10 minutes for this part, or until you can see that they've created a test case. Ask them to take a screenshot and share their test with the group via a shared online document or whiteboard.
+审查所有的代码，并对任何差异进行评论。希望你能从不同的小组中得到各种各样的设计。学习要点--在同样的例子中，有不止一种方法来设计代码
 
-Review all the code and comment on any differences. Hopefully you'll have got a wide variety of designs from the different pairs. Learning point - there is more than one way to design code, given the same example!
+如果他们用 float 来表示钱，那么不要强调太多。你可以向他们展示如何用有公差的 assertEquals 做近似的比较。你也可以解释说，浮点数不是一个很好的货币模型，建议他们使用一个整数，让所有的价格以分代替元。
 
-If they use a float to represent money then don't stress too much. You could just show them how to do an approximate comparison with an assertEquals that has a tolerance. You could also explain that floats are not a good way to model money and suggest they use an integer and have all the prices in cents instead of dollars.
+### 概念解释：例子引导的设计
+从一个具体的例子出发，可以帮助你想出一个更好的设计。在你实现它之前使用这个东西。它可以帮助你把注意力集中在界面上，使其易于使用，而不是你将如何写出里面的详细代码。
 
-### Concept explanation: Example-guided design
-Working from a concrete example can help you to come up with a better design. Use the thing before you implement it. It helps you focus on the interface and making it easy to use, rather than how you'll write the detailed code inside.
+你可能需要几个例子来展示新代码可能需要用到的所有各种情况。从比较简单的例子开始。
 
-You will probably need several examples to show all the various situations the new code might need to be used in. Start with simpler examples.
+### 具体练习：购物车
+练习使用例子来建立功能。回去在[购物车Kata](/kata_descriptions/shopping_basket.html)上再写一些代码。然而，不要一开始就实现你刚想出来的测试。先注释掉他。
 
-### Concrete: Shopping Basket
-Practice using examples to build up functionality. Go back and write some more code on the [Shopping Basket Kata](/kata_descriptions/shopping_basket.html). However, don't start with implementing the test you just came up with. Comment it out for the moment.
+在你们分成两组进行Kata工作之前，先在整个小组中花几分钟时间想出一个带有简单例子的测试清单，比如：
 
-Before you split into pairs to work on the kata, spend a few minutes in the whole group coming up with a test list with simple examples to do first. Something like:
+- 空购物车，0元
+- 一件商品，50元
+- 两件商品，都是 20元
+- 一件商品 50元，一件商品 20元
+- 一件商品 160元， 5% 的折扣
+- 一件商品 250元，10% 的折扣
 
-- empty basket, $0
-- one item, $50
-- two items, both $20
-- one item $50, one item $20
-- one item $160 - 5% discount
-- one item $250 - 10% discount
+当他们做 "Kata"时，试着阻止他们在没有创建测试案例的情况下创建 ShoppingBasket 类 或 Product 类或 calculatePrice 函数。让他们在生产代码中存在之前，练习在测试中使用这些东西。
 
-When they are doing the kata, try to stop them from creating a ShoppingBasket class or Product class or calculatePrice function without first creating a test case. Have them practice using things in the test _before_ they exist in the production code.
-
-### Conclusions: How does it work and why would you?
-How do you use examples to guide design? Are there advantages to doing it this way? Discuss in pairs. 
+### 总结：它是如何工作的，为什么会这样？
+你是如何使用例子来指导设计的？这样做有什么好处吗？以小组为单位进行讨论。
 
