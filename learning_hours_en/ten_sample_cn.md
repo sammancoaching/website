@@ -1,9 +1,9 @@
 ---
 layout: homepage
-title: Ten Sample Learning Hours
+title: 10 个学习时间范例
 ---
 
-在[《Samman方法技术教练》](https://leanpub.com/techagilecoach)一书中，有10个学习时间样本。下面是它们的最新版本。
+在[《用Samman方法做技术教练》](https://leanpub.com/techagilecoach)一书中，有10个学习时间范例。下面是它们的最新版本：
 
 1. [渐进式工作，测试驱动](/learning_hours/small_steps/demo_tdd_intro.html)
 2. [实例-指导 的设计](/learning_hours/small_steps/example_guided_design.html)

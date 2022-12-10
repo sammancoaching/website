@@ -1,28 +1,28 @@
 - name: small_steps
-  title: Small Steps - Iterative and Incremental
+  title: 小步 - 迭代和增量
 - name: test_design
-  title: Test Design
+  title: 测试设计
 - name: test_doubles
-  title: Test Doubles
+  title: 测试替身
 - name: testable_design
-  title: Testable Agile Design
+  title: 可测试的敏捷设计
 - name: refactoring
-  title: Refactoring
+  title: 重构
 - name: code_reading
-  title: Code Reading
+  title: 代码阅读
 - name: legacy
-  title: Legacy Code
+  title: 遗留代码
 - name: architecture
-  title: Architecture
+  title: 架构
 - name: bdd
-  title: Behaviour Driven Development
+  title: 行为驱动开发(BDD)
 - name: devops
   title: DevOps
 - name: approval_testing_texttest
-  title: Approval Testing with TextTest
+  title: 用 TextTest 做认定测试
 - name: approval_testing_bdd
-  title: Approval Testing in New Development
+  title: 在新开发中做认定测试
 - name: ensemble
-  title: Working in an Ensemble
+  title: 用合奏（Ensemble）的方式工作
 - name: low_level_c
-  title: Working with C
+  title: 在 C 语言环境下工作

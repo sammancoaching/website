@@ -1,6 +1,6 @@
 ---
 layout: learning_hour_theme
-title: Learning Hours
+title: Learning Hours 学习时间
 theme: small_steps
 ---
 
