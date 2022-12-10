@@ -19,9 +19,9 @@
 - name: devops
   title: DevOps
 - name: approval_testing_texttest
-  title: 用 TextTest 做认定测试
+  title: 用 TextTest 做认定测试（Approval testing）
 - name: approval_testing_bdd
-  title: 在新开发中做认定测试
+  title: 在新开发中做认定测试（Approval testing）
 - name: ensemble
   title: 用合奏（Ensemble）的方式工作
 - name: low_level_c

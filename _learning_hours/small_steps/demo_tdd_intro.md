@@ -1,56 +1,56 @@
 ---
 theme: small_steps
-title: Using TDD to write a Leap Years function
+title: 使用TDD来写一个闰年函数
 kata: leap_years
 difficulty: 1
 author: emilybache
 ---
 
-# Using TDD to write a Leap Years function
+# 使用TDD来写一个闰年函数
 
-This is often the first exercise I do with new teams. You have to TDD a function that takes an integer argument and returns a boolean. It ends up being a rather small piece of code, just enough to show a few TDD cycles.
+这通常是我和新团队做的第一个练习。你必须TDD一个接受1个整数参数并返回1个布尔值的函数。它最终是一段相当小的代码，只够展示几个TDD循环。
 
-The first time I demonstrate this kata I usually don't show triangulation, and only do the four test cases listed in the problem description. That means I go straight to using the modulo operator when implementing the first test case. That keeps the demo shorter, and means you don't need to explain triangulation as a concept.
+在我第一次演示这个Kata时，我通常不展示三角法，只做问题描述中列出的4个测试案例。这意味着我在实现第1个测试用例时直接使用模运算。这样可以缩短演示的时间，也意味着你不需要解释三角法这个概念。
 
-## Learning Goals
-* Describe the Red-Green-Refactor cycle
-* Design a pure function that takes an integer and returns a boolean, using TDD
+## 学习目标
+* 描述 "红-绿-重构 "循环
+* 设计一个纯函数，使用TDD获取一个整数并返回一个布尔值
 
-## Session Outline
+## 会议大纲
 
-* 10 min connect: divide into pairs, 3 benefits of TDD  
-* 15 min concept: demo leap years  
-* 20 min do: leap years in pairs  
-* 10 min reflect: summary of main idea 
+* 10分钟连接：分成两组，TDD的3个好处
+* 15分钟概念：演示闰年
+* 20分钟做：结对做闰年
+* 10分钟思考：主要观点的总结
 
-### Connect
-In pairs:
+### 连接
+两人一组。
 
-- Think of 3 benefits of Test-Driven Development.
+- 想一想测试驱动开发的3个好处。
 
-After a few minutes of discussion, ask a few pairs to report some of the benefits they thought of to the whole group. Write up what they say on a whiteboard or shared document.
+经过几分钟的讨论，请几组人向全组人说明他们想到的一些好处。把他们所说的写在白板或共享文件上。
 
-Note - if you don't think the group knows enough about TDD to be able to come up with any benefits of it, ask about the benefits of unit testing in general.
+注意--如果你认为小组对TDD的了解不够，不能提出它的任何好处，可以问一下一般的单元测试的好处。
 
-### Demonstrate
-Starting at a whiteboard, explain the [LeapYear](/kata_descriptions/leap_years.html) kata. Read the description to the group, and/or display it on a slide. Write up all 4 examples given in the kata description on a whiteboard. Note that these will turn into tests.
+### 演示
+从白板开始，解释[LeapYear](/kata_descriptions/leap_years.html) Kata。向大家宣读描述，和/或在幻灯片上展示。在白板上写出Kata描述中给出的所有4个例子。注意，这些将变成测试。
 
-Demonstrate how to TDD this function, taking one example/test at a time. I often do the demo using cyber-dojo as a development environment, since it makes the TDD cycles visible.
+示范如何TDD这个功能，每次举一个例子/测试。我经常使用cyber-dojo作为开发环境来做演示，因为它使TDD的周期可见。
 
-### Do
-If you're using cyber-dojo for the exercise, spend a few minutes explaining how to use it. Make sure they know how to switch typist if they are working remotely. (Outgoing typist runs the tests, incoming typist refreshes the page).
+### 做
+如果你使用cyber-dojo进行练习，花几分钟时间解释如何使用它。确保他们知道如何切换打字员，如果他们是远程工作。(出去的打字员运行测试，进来的打字员刷新页面)。
 
-Have the group work in pairs or a mob to do the Kata again, starting from no code, just the examples written on the whiteboard. Every 4 minutes, remind them to swap the typist. (Or give them an online ensemble timer). They should do it the same way you demonstrated, test by test in small steps.
+让小组以两人或一群人的形式再次进行 "Kata"，从没有代码开始，只是写在白板上的例子。每隔4分钟，提醒他们换一下打字员。(或者给他们一个在线合奏的计时器）。他们应该按照你演示的方式来做，以小步骤逐一测试。
 
-Go around the pairs helping them. Remind them to write the tests before the implementation, working incrementally and iteratively.
+绕着两组人帮助他们。提醒他们在实现之前先写测试，逐步和迭代地工作。
 
-If any of the pairs are really quick and don't need as long as 20 minutes, they could additionally do TDD on another exercise - for example [Closest to zero](/kata_descriptions/closest_to_zero.html). Encourage them to make a test list before they begin coding.
+如果任何一对真的很快，不需要20分钟那么长的时间，他们可以另外在另一个练习上做TDD--例如[最接近0](/kata_descriptions/closest_to_zero.html)。鼓励他们在开始编码之前做一个测试列表。
 
-### Reflect
-- Think about what we did today. If you had to explain the main idea of TDD to someone else, what would you say?
-- Write your explanation in a sentence or two on a post-it or shared document
+### 反思
+- 想一想我们今天做了什么。如果你要向别人解释TDD的主要思想，你会怎么说？
+- 用一两句话把你的解释写在便利贴或共享文件上
 
-#### Visual reminder
-Put up a flipchart with the question "What is the main idea of TDD?" and make it look attractive with a lightbulb doodle or something. Ask people to stick their post-it notes on it. Read some notes out to the group. Hang the poster somewhere prominent afterwards, perhaps in the team area or coffee room.
+#### 视觉提醒
+在挂图上写上 "TDD的主要思想是什么？"，用灯泡涂鸦之类的东西让它看起来有吸引力。请大家把他们的便条贴在上面。向大家宣读一些笔记。之后把海报挂在显眼的地方，也许在团队区域或咖啡室。
 
-If you're working remotely, then set this homework: ask people to give their explaination of TDD to another colleague who wasn't in the session and note down their reaction.
+如果你是远程工作，那就布置这个家庭作业：请大家把他们对TDD的解释告诉另一个没有参加会议的同事，并记下他们的反应。

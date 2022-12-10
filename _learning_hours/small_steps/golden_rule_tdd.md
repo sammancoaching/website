@@ -1,68 +1,66 @@
 ---
 theme: small_steps
-title: Golden Rule of TDD
+title: TDD的黄金法则
 kata: shopping_basket
 difficulty: 1
 author: emilybache
 ---
+# TDD的黄金法则
 
-# Golden Rule of TDD
+当人们开始学习TDD时，我经常看到他们努力记住先写测试代码。他们可能有这个打算，但却很容易忘记。这节课帮助他们练习这个技能，并记住为什么它很重要。
 
-When people start with TDD I often see them struggle to remember to write the test code first. They may have that intention, but then forget all to easily. This session helps them practice this skill, and to remember why it's important.
+## 学习目标
 
-## Learning Objectives
+* 记住在新的类和函数存在之前，在测试中设计新的类和函数。
 
-* Remember to design new classes and functions in the test, before they exist
+## 会议大纲
 
-## Session Outline
- 
-* 10 min connect: TDD things to remember  
-* 10 min concept: Golden Rule
-* 30 min do: shopping basket
-* 5 min reflect: tips to remember the golden rule
+* 10分钟的连接：TDD需要记住的事情
+* 10分钟的概念：黄金法则
+* 30分钟做：购物车
+* 5分钟思考：记住黄金法则的提示
 
-### Connect - things to remember when doing TDD
-Instead of the above connect, do this learning hour a second time as a refresher, with a different connect.
+### 连接：做TDD时要记住的事情
+用不同的连接来代替上面的连接，第二次做这个学习小时作为复习。
 
-Put this question to the group, and ask them to come up with 5 answers.
+向小组提出这个问题，并要求他们想出5个答案。
 
-"What are 5 important things to remember when you're doing Test-Driven Development?"
+"当你做测试驱动开发时，需要记住的5件重要事情是什么？"
 
-The kinds of answers you're looking for are:
+答案可能是：
 
-- take small steps, testing one thing at a time
-- run tests often
-- refactor test code as well as production code
-- only refactor when tests are passing
-- make a test list
-- write the test first
+- 采取小的步骤，一次测试一件事
+- 经常运行测试
+- 重构测试代码和生产代码
+- 只有在测试通过时才进行重构
+- 制定一个测试列表
+- 先写测试
 
-The 'concept' part of this learning hour emphasizes the 'write the test first' guideline, but you can also write up and highlight the other guidelines they come up with.
+这个学习小时的 "概念" 部分强调了 "先写测试" 的准则，但你也可以写出并强调他们提出的其他准则。
 
-### Concept: Golden Rule
-In TDD the _tests_ drive the development of the production code. You can express that as a golden rule:
+### 概念：黄金法则
+在TDD中，_测试_驱动着生产代码的开发。你可以把它表述为一个黄金法则。
 
-**Do not write any production code until you have a failing test that requires it**
+**不要写任何生产代码，直到你有一个失败的测试需要它**。
 
-Declare new classes, methods etc, in test code. Then use your tools to bring those things into existence.
+在测试代码中声明新的类、方法等。然后使用你的工具来创建这些东西。
 
-Write the golden rule on a flipchart and make it look pretty. Ask people what they think of it.
+把黄金法则写在挂图上，并使它看起来漂亮。问大家对它的看法。
 
-You might mention there is an exception to the Golden Rule: you are allowed to declare new classes and methods while refactoring, so long as they are already covered by existing tests.
+你可以提到黄金法则有一个例外：你允许在重构时声明新的类和方法，只要它们已经被现有的测试所覆盖。
 
-### Do: Shopping Basket
-Practice writing the tests first before creating the classes and functions they describe. The [Shopping Basket Kata](/kata_descriptions/shopping_basket.html) might be a good one.
+### 做：购物车
+在创建它们所描述的类和函数之前，先练习编写测试。[购物车Kata](/kata_descriptions/shopping_basket.html)可能是一个好例子。
 
-Before you split into pairs to work on the kata, spend a few minutes in the whole group coming up with a test list. Something like:
+在你们分成两组进行Kata工作之前，在整个小组中花几分钟时间想出一个测试列表。类似的东西。
 
-- one item, $50
-- two items, both $20
-- one item $50, one item $20
-- one item $160
-- one item $250
+- 一件商品，50美元
+- 两件物品，都是20美元
+- 一件50美元，一件20美元
+- 一件160美元
+- 一件250美元
 
-When they are doing the kata, try to stop them from creating a ShoppingBasket class or Product class or calculatePrice function without first creating a test case. Have them practice using things in the test _before_ they exist in the production code.
+当他们做 "Kata" 时，试着阻止他们在没有创建测试案例的情况下创建 ShoppingBasket 类 或 Product 类 或 calculatePrice 函数。让他们练习在生产代码中存在之前在测试中使用这些东西。
 
-### Reflect: Design in TDD
-Does it help you design better classes and interfaces? Does using TDD prevent you from designing more than you need? Discuss in pairs. 
-
+### 总结：TDD中的设计
+它是否能帮助你设计出更好的类和接口？使用TDD是否会阻止你设计出比你需要的更多的东西？以小组为单位进行讨论。
