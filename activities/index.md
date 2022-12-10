@@ -1,10 +1,7 @@
 ---
 layout: activity_index
-title: Activities
+title: 活动
 ---
-# Activities
+# 活动
 
-A learning hour comprises several activities. Often one of the activities will be writing code to solve a [code kata](../kata_descriptions/index.html). The other activities might involve (virtual) sticky notes or talking in pairs or writing a few sentences about something. This part of the site details some kinds of activities you can adapt for many different kinds of topics and learning goals.
-
-
-
+一次学习时间包括几个活动。通常其中一个活动是写代码来解决[编码Kata](.../kata_descriptions/index.html)。其他的活动可能涉及（虚拟）便签，或成对交谈，或写几句关于某件事情的话。网站的这一部分详细介绍了一些活动的种类，你可以为许多不同种类的主题和学习目标进行调整。

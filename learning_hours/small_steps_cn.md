@@ -1,0 +1,7 @@
+---
+layout: learning_hour_theme
+title: Learning Hours
+theme: small_steps
+---
+
+这些学习时间都是为了学习如何渐进地工作。我们不是先写好所有的测试和实现，而是把这两方面的工作一块一块地进行。这种划分时间的方式，以及在代码和测试上迭代和递增的工作方式是成功的TDD的关键。

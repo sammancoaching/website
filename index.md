@@ -3,25 +3,25 @@ layout: homepage
 title: Samman Technical Coaching
 ---
 
-# Samman Technical Coaching
+# Samman 技术教练
 
-[Technical coaches](/reference/technical_coach_definition.html) work with software development teams to help them adopt better coding practices. The Samman method is a concrete approach that many technical coaches use. This website is designed to help people who do technical coaching and is maintained by the [Samman Technical Coaching Society](/society/index.html). Most materials published here are available under a [Creative Commons Share Alike license](LICENSE.html).
+[技术教练](/reference/technical_coach_definition.html)与软件开发团队合作，帮助他们采用更好的编码实践。Samman方法是许多技术教练使用的一种具体方法。这个网站旨在帮助从事技术教练的人，由[Samman技术教练协会](/society/index.html)维护。这里发表的大多数材料都是根据[知识共享共享许可证](LICENSE.html)提供的。
 
-## About the Samman method
+## 关于 Samman 方法
 
-Samman is a method for technical coaches who work with software teams. The focus is on iterative and incremental development practices. The Samman method has two main parts: 
+Samman 是一种针对与软件团队合作的技术教练的方法。其重点是迭代和增量的开发实践。Samman 方法有两个主要部分。
 
-- [Learning Hour](/learning_hours/index.html)
-- [Ensemble Working](/reference/ensemble_definition.html)
+- [学习时间](/learning_hours/index.html)
+- [合奏工作](/reference/ensemble_definition.html)
 
-In the learning hour the coach uses exercises and active learning techniques to teach the theory and practice of skills like Test-Driven Development and Refactoring. In the Ensemble sessions the whole team collaborates together with the coach in applying these development techniques in their usual production codebase.
+在学习时间里，教练使用练习和主动学习技术来教授理论和实践技能，如测试驱动开发和重构。在合奏工作中，整个团队与教练一起合作，将这些开发技术应用到他们通常的生产代码库中。
 
-The expected outcome is that teams work more effectively and consistently with iterative and incremental development techniques even after the coach has moved on. This should help the organization to build new features in their software with a shorter lead time and higher quality. 
+预期的结果是，即使在教练离开后，团队也能更有效和持续地使用迭代和增量开发技术。这应该有助于组织在他们的软件中以更短的时间和更高的质量建立新的功能。
 
-You can find full details of the Samman method in the book ["Technical Agile Coaching with the Samman method"](https://leanpub.com/techagilecoach) by Emily Bache.
+你可以在 Emily Bache 的书["Technical Agile Coaching with the Samman method"](https://leanpub.com/techagilecoach)中找到Samman方法的全部细节。
 
-## Where to go from here
+## 从这里出发
 
-We have a large collection of [Code Kata descriptions](/kata_descriptions/index.html) and [Learning Hour plans](/learning_hours/index.html) which you can do with your team. There are also some [reference materials](/reference/index.html) including a catalog of [Code Smells](/reference/code_smells/index.html) and [Refactorings](/reference/refactorings/index.html). If you'd like to design your own learning hours you can find templates for [teaching activities](/activities/index.html).
+我们有大量的[代码 Kata 描述](/kata_descriptions/index.html)和[学习时间计划](/learning_hours/index.html)，你可以和你的团队一起做。还有一些[参考资料](/reference/index.html)，包括[代码坏味道](/reference/code_smells/index.html)和[重构](/reference/refactorings/index.html)的目录。如果你想设计你自己的学习时间，你可以找到[教学活动](/activities/index.html)的模板。
 
-If you would like to find out more about the community of coaches and how to use the Samman method, please [sign up for our newsletter](https://share-eu1.hsforms.com/1pvE5eTT2RWyYJtyH4AJSuwf6aty), and/or come to one of our [events](/society/events/index.html). If you would like to hire a technical coach, see our list of [contributors](/society/contributors/index.html).
+如果你想了解更多关于教练社区和如何使用 Samman 方法的信息，请[注册我们的通讯](https://share-eu1.hsforms.com/1pvE5eTT2RWyYJtyH4AJSuwf6aty)，和/或来参加我们的[活动](/society/events/index.html) 。如果你想聘请一位技术教练，请看我们的[贡献者](/society/contributors/index.html)名单。

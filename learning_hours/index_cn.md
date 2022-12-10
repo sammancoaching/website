@@ -1,7 +1,7 @@
 ---
 layout: learning_hour_index
-title: 学习时间
-description: 一个学习小时是为一组软件开发人员提供的简短培训课程。其目的是他们可以学习像测试驱动开发这样的技能。
+title: Learning Hours
+description: A learning hour is a short training session for a group of software developers. The goal is they can learn skills like Test-Driven Development.
 ---
 # 学习时间
 
@@ -11,6 +11,6 @@ description: 一个学习小时是为一组软件开发人员提供的简短培�
 
 浏览不同的主题和学习时间计划，直到你找到一个吸引你的计划。在你和你的团队一起学习之前，你可能想自己先试着做一下练习，这样你就可以在别人遇到困难时帮助他们。所有的材料都是以知识共享协议发布的，这意味着你可以自由地使用它们，只要你写上许可证和署名。
 
-在[《用萨曼方法进行技术辅导》](https://leanpub.com/techagilecoach)一书中，有[十个学习时间样本](/learning_hours/ten_sample.html)，有四个不同主题。这个网站有它们的最新版本和更多的学习时间。如果你设计了一个新的学习时间，并有兴趣将其贡献给这个集合，请[联系](/contact.html)。
+在[《用萨曼方法进行技术辅导》](https://leanpub.com/techagilecoach)一书中，有[十个学习时间样本](/learning_hours/ten_sample_cn.html)，有四个不同主题。这个网站有它们的最新版本和更多的学习时间。如果你设计了一个新的学习时间，并有兴趣将其贡献给这个集合，请[联系](/contact.html)。
 
-下面的学习时间计划是按主题分组的。你也可以在每个[贡献者的页面](/society/contributors/index.html)上找到按作者分组的计划。
+下面的学习时间计划是按主题分组的。你也可以在每个[贡献者的页面]（/society/contributors/index.html）上找到按作者分组的计划。

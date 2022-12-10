@@ -1,12 +1,12 @@
 ---
 layout: society
-title: Technical Coach - Definition
+title: 技术教练 - 定义
 ---
 
-# Technical Coach - Definition
+# 技术教练 - 定义
 
-Technical coaches help software developers to adopt better coding practices. The focus is on the code and the way it is being written. A technical coach will themselves be a competent software developer able to mentor and teach specific coding practices. For example Test-Driven Development, Refactoring and the use of Design Patterns.
+技术教练帮助软件开发人员采用更好的开发实践。重点是代码和它的编写方式。技术教练本身是一个有能力的软件开发人员，能够指导和教授特定的开发实践。例如，测试驱动开发，重构和设计模式的使用。
 
-A technical coach works with an individual or team of developers to help them to achieve their goals. The coach does not usually write production code or tests directly. They contribute indirectly by helping others to do a better job of writing code. They facilitate, mentor and teach.
+技术教练与个人或团队的开发人员一起工作，帮助他们实现目标。教练通常不直接编写生产代码或测试。他们通过帮助他人更好地编写代码来间接地做出贡献。他们促进、指导和教导。
 
-There may be other coaches working with the same software development team who have other competencies and focus areas. For example process, product, leadership or team dynamics. A technical coach may also coach those areas if they are also skilled in them.
+在同一个软件开发团队中，可能还有其他的教练在工作，他们有其他的能力和重点领域。例如，流程、产品、领导力或团队动力。如果技术教练在这些领域也有专长，他们也可以对这些领域进行指导。
