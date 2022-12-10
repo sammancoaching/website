@@ -1,9 +1,7 @@
 ---
 layout: learning_hour_theme
-title: Learning Hours
+title: 学习时间
 theme: small_steps
 ---
 
-These learning hours are all about learning how to work incrementally. Instead of writing all the tests all the implementation first, we work with both together piece by piece. This way of dividing our time and working iteratively and incrementally on both code and tests is key to successful TDD.
-
-
+这些学习时间都是为了学习如何渐进地工作。我们不是先写好所有的测试和实现，而是把这两方面的工作一块一块地进行。这种划分时间的方式，以及在代码和测试上迭代和递增的工作方式是成功的TDD的关键。
