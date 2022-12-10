@@ -18,7 +18,7 @@ Samman 是一种针对与软件团队合作的技术教练的方法。其重点�
 
 预期的结果是，即使在教练离开后，团队也能更有效和持续地使用迭代和增量开发技术。这应该有助于组织在他们的软件中以更短的时间和更高的质量建立新的功能。
 
-你可以在 Emily Bache 的书["Technical Agile Coaching with the Samman method"](https://leanpub.com/techagilecoach)中找到Samman方法的全部细节。
+你可以在 Emily Bache 的书["Technical Agile Coaching with the Samman method"](https://leanpub.com/techagilecoach)中找到 Samman 方法的全部细节。
 
 ## 从这里出发
 
