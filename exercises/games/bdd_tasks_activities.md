@@ -4,118 +4,117 @@ title: BDD Tasks and Activities
 nav_order: 2
 ---
 
-# Behaviour Driven Development Tasks and Activities
+# 行为驱动开发的任务和活动
 
-Make small cards for each of these descriptions. Give a copy of these cards to small groups. Ask them to use the cards to design a BDD process.
+为这些描述分别制作成小卡片。将这些卡片的副本交给各小组。要求他们使用这些卡片来设计一个 BDD 流程。
 
-The purpose of the exercise is to get people to understand the main elements of Behaviour Driven Development and that you can tailor the exact process to your circumstances. There are many 'right' answers.
+这个练习的目的是让人们理解行为驱动开发的主要内容，并且你可以根据自己的情况来制定确切的流程。有很多 "正确" 的答案。
 
-Having said that, BDD doesn't usually involve creating detailed requirements documents. Not all the tasks and activities are wise to include!
+说了这么多，BDD 通常不涉及创建详细的需求文档。并非所有的任务和活动都是明智的，都要包括在内!
 
-This material was inspired by [Seb Rose's article](http://bddbooks.com/articles/bdd-tasks-and-activities.html)
+本材料的灵感来自[Seb Rose的文章](http://bddbooks.com/articles/bdd-tasks-and-activities.html)
 
-## Instructions
+## 说明
 
-If you were doing Behaviour Driven Development, which of these tasks and activities would you include in your software development process? Make a BDD process diagram by laying the cards out on a table or sticking them to a whiteboard. The placement of the cards should show how your development process would look. Draw arrows between cards to indicate which order to do the activities in and when to iterate or act on feedback.
+如果你在做行为驱动开发，你会在你的软件开发过程中包括哪些任务和活动？把这些卡片放在桌子上或贴在白板上，制作一张 BDD 流程图。卡片的位置应该显示你的开发过程的样子。在卡片之间画上箭头，表示以何种顺序进行活动以及何时进行迭代或对反馈采取行动。
 
-Note: you do not need to include all the tasks and activities in your BDD process diagram.
+注意：你不需要在你的 BDD 流程图中包括所有的任务和活动。
 
-## Retrospective
+## 回顾
 
-**What:** Review how the software development process went in the last sprint.  
-**Who:** Whole team including Product Owner.  
-**Outcome:** Process improvements or experiments to try in future.  
+- **内容：**回顾软件开发过程在上一个冲刺阶段是如何进行的。
+- **人：**整个团队，包括产品负责人。
+- **结果：**过程改进或实验，以便在将来尝试。
 
-## Examples Workshop
+## 实例研讨会
 
-**What:** Discuss one or more User Story, identify rules and example scenarios.  
-**Who:** at least 3 people, representing the Product Owner, Developer and Tester. Could be the whole team.  
-**Outcome:** several rules and examples to illustrate each User Story.   
+- **内容：**讨论一个或多个用户故事，确定规则和实例场景。
+- **谁：**至少3个人，代表产品负责人、开发人员和测试人员。可以是整个团队。
+- **结果：**几个规则和例子来说明每个用户故事。
 
-## Create a User Story
+## 创建一个用户故事
 
-**What:** Write a description of a new capability the software should have.  
-**Who:** The Product Owner or a Business Analyst.  
-**Outcome:** A sentence or two describing the user story.  
+- **内容：**写出软件应该具有的新能力的描述。
+- **谁：**产品负责人或业务分析师。
+- **结果：**一两句话来描述用户故事。
 
-## Performance Testing
+## 性能测试
 
-**What:** Operate the software under simulated load to examine whether it works as expected.  
-**Who:** Testers (often performance testing specialists).  
-**Outcome:** Information about whether the software works as expected or not. This information might lead to new or updated User Stories.   
+- **内容：**在模拟负载下操作软件，以检查它是否按预期工作。
+- **人：**测试人员（通常是性能测试专家）。
+- **结果：**关于软件是否按预期工作的信息。这些信息可能会导致新的或更新的用户故事。
 
-## Review Scenario Formulation
+## 制定审查方案
 
-**What:** Find out whether the formulated scenarios are correct and can be understood by relevant stakeholders.  
-**Who:** Business Analyst or Product Owner.  
-**Outcome:** Confidence the development team are building what the business needs.  
-
-
-## Sprint Planning
-
-**What:** Decide which User Stories to work on this sprint.  
-**Who:** Whole team including Product Owner.  
-**Outcome:** A prioritized list of stories and effort estimates.  
+- **内容：**找出所制定的方案是否正确，是否能被相关的利益相关者理解。
+- **谁：**业务分析师或产品负责人。
+- **结果：**相信开发团队正在建立业务需要的东西。
 
 
-## Implement a User Story
+## 冲刺计划
 
-**What:** Write code so that the software gains the capability described in the User Story.  
-**Who:** Developers.  
-**Outcome:** Working software. Scenarios can be successfully executed against the software.  
-
-
-## Automate Scenarios
-
-**What:** Write test code so that scenarios can be executed.  
-**Who:** Developers or Automation Testers or a Developer and Tester pair.  
-**Outcome:** Executable scenarios that can be run against the software. If the software doesn't yet support the scenario in question, it fails with an appropriate warning.  
+- **内容：**决定哪些用户故事要在这个冲刺阶段进行。
+- **人：**整个团队，包括产品负责人。
+- **结果：**一个优先考虑的故事列表和工作估算。
 
 
-## Exploratory Testing
+## 实现一个用户故事
 
-**What:** Exercise the software and look for missing features, scenarios, rules, or unexpected behaviours.  
-**Who:** Testers.  
-**Outcome:** Information about whether the software works as expected or not. This information might lead to new or updated User Stories.  
-
-
-## Review Automated (Running) Scenarios
-
-**What:** Find out whether the running scenarios are correct and can be understood by relevant stakeholders.  
-**Who:** Business Analyst or Product Owner.  
-**Outcome:** Confidence the development team have built what the business needs and that the running scenarios can be used as documentation.  
+- **内容：**编写代码，使软件获得用户故事中描述的能力。
+- **人：**开发人员。
+- **结果：**工作软件。场景可以针对软件成功执行。
 
 
-## Change Approval Board meeting
+## 自动化场景
 
-**What:** A decision is taken whether to release the latest version of the software to customers.  
-**Who:** Product Owner, Architects and others from outside the Development team.  
-**Outcome:** go/no go decision regarding the release.  
-
-
-## Architecture Diagram
-
-**What:** UML diagram describing the details of the architecture of the software.  
-**Who:** Architects from outside the development team.  
-**Outcome:** Developers have detailed instructions about how to implement User Stories.   
-
-## Detailed Requirements Specification
-
-**What:** Several pages of text and diagrams describing what to build.  
-**Who:** Business Analyst or Product Owner.  
-**Outcome:** Detailed instructions about what to implement including all the scenarios.   
+- **内容：**编写测试代码，使场景能够被执行。
+- **人：**开发人员或自动化测试人员或开发人员和测试人员配对。
+- **结果：**可执行的场景，可以针对软件运行。如果软件还不支持有关的场景，就会失败，并发出适当的警告。
 
 
-## Formulate Scenarios
+## 探索性测试
 
-**What:** Examples formulated as Scenarios, using a Domain Specific Language.  
-**Who:** Developer or Developer and Tester pair.  
-**Outcome:** Scenarios added to the team's shared repository.  
+- **内容：**使用软件，寻找缺失的功能、场景、规则或意外行为。
+- **谁：**测试人员。
+- **结果：**关于软件是否按预期工作的信息。这些信息可能导致新的或更新的用户故事。
 
 
-## Release Software
+## 审查自动化（运行）场景
 
-**What:** Create a Potentially Shippable product increment.  
-**Who:** Developer or a specialist release engineer.  
-**Outcome:** A deployable software package ready to release to users.  
+- **内容：**找出运行场景是否正确，是否能被相关的利益相关者理解。
+- **谁：**业务分析师或产品负责人。
+- **结果：**相信开发团队已经建立了业务需要的东西，并且运行场景可以作为文件使用。
 
+
+## 变更委员会会议
+
+- **内容：**决定是否向客户发布软件的最新版本。
+- **人：**产品负责人、架构师和开发团队以外的其他人。
+- **结果：**关于发布的 发布/不发布 决定。
+
+
+## 架构图
+
+- **内容：**UML 图，描述软件架构的细节。
+- **谁：**开发团队以外的架构师。
+- **结果：**开发人员有关于如何实现用户故事的详细说明。
+
+## 详细的需求说明
+
+- **内容：**几页的文字和图表，描述要建立什么。
+- **人：**业务分析师或产品负责人。
+- **结果：**关于实现什么的详细说明，包括所有的方案。
+
+
+## 创建场景
+
+- **内容：**使用特定领域的语言，将实例做成场景。
+- **人:** 开发者或开发者和测试者配对。
+- **结果：**场景添加到团队的共享库中。
+
+
+## 发布软件
+
+- **内容：**创建一个潜在的可发布的产品增量。
+- **人：**开发人员或专业的发布工程师。
+- **结果：**一个可部署的软件包，准备发布给用户。 
