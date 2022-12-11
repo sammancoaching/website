@@ -1,47 +1,45 @@
 ---
 theme: bdd
-title: BDD Process
+title: BDD 过程
 kata: lift
 difficulty: 1
 author: emilybache
 ---
 
-# Example mapping
+# 实例映射
 
-This is a useful technique to use in BDD example workshops.
+这是在 BDD 实例研讨会上使用的一种有用的技术。
 
-## Learning Goals
-- describe which tasks and activities usually form part of a BDD process
-- use example mapping to analyze a user story
-- compare BDD with your current process
+## 学习目标
+- 描述通常哪些任务和活动是构成 BDD 过程的一部分
+- 使用实例映射来分析用户故事
+- 将 BDD 与你目前的流程进行比较
 
-## Session Outline
+## 会议大纲
 
-* 10 min connect: BDD tasks and activities game
-* 5 min concept: Example mapping
-* 30 min concrete: examples workshop
-* 10 min conclusions: what parts of BDD are new or different for you?
+* 10分钟连接：BDD 任务和活动游戏
+* 5分钟的概念：实例映射
+* 30分钟具体：实例研讨会
+* 10分钟总结：BDD 的哪些部分对你来说是新的或不同的？
 
-### Connect: BDD tasks and activities game  
+### 连接：BDD 任务和活动游戏
 
-This activity is described [here](../../exercises/games/bdd_tasks_activities.html)
+此活动描述[这里](../../exercises/games/bdd_tasks_activities.html)
 
-### Concept: Example mapping
+### 概念：示例映射
 
-Highlight the Examples workshop part of the BDD process. In this workshop we can use a structured conversation called [Example Mapping](https://cucumber.io/blog/bdd/example-mapping-introduction/). Explain the basic idea.
+强调 BDD 过程中的实例研讨会部分。在这个工作坊中，我们可以使用一种叫做[实例映射](https://cucumber.io/blog/bdd/example-mapping-introduction/)的结构化对话。解释一下基本概念。
 
-### Concrete: examples workshop
+### 具体：实例研讨会
 
-Ask people to pretend to have different roles - Developers, Testers and Product Owners. Present a user story that we will use in the examples workshop. You could use the Pizza delivery example from ["BDD books - Discovery"](https://leanpub.com/bddbooks-discovery)
+请大家假装自己是不同的角色--开发人员、测试人员和产品（PO）。提出一个用户故事，我们将在实例研讨会上使用。你可以使用["BDD书籍--发现"](https://leanpub.com/bddbooks-discovery)中的比萨送餐实例。
 
-Imagine you work on developing a pizza delivery management application for a large pizza delivery company. It will allow customers to track the real-time status and location of their orders. This is the user story that is up next:
+想象一下，你的工作是为一家大型比萨饼配送公司开发一个比萨饼配送管理应用程序。它将允许客户跟踪其订单的实时状态和位置。这就是接下来要讲的用户故事：
 
-In order to fix an incorrect delivery address,  
-As a pizza customer,  
-I want to be able to change the delivery address after the pizza order has been placed.  
+可以修复错误的送货地址。
+作为一个比萨的顾客，
+我希望能够在比萨下单后更改送货地址。
+为这个用户故事主持一个示例映射研讨会。最后，与书中的样本进行比较。
 
-Facilitate an example mapping workshop for this user story. At the end, compare with the sample one in the book.
-
-### Conclusions: what is new?
-Look again at the BDD tasks and activities game. We just experienced a small examples workshop. What parts of the BDD process are new for you? What parts are different from what you use in your daily work at the moment? Discuss in pairs and note your conclusions.
-
+### 结论：什么是新的？
+再看一下 BDD 任务和活动游戏。我们刚刚经历了一个小型的实例研讨会。BDD 过程的哪些部分对你来说是新的？哪些部分与你目前在日常工作中使用的不同？以小组为单位进行讨论，并记下你的结论。

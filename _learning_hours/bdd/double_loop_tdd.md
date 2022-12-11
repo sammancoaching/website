@@ -1,55 +1,54 @@
 ---
 theme: bdd
-title: Double-Loop TDD
+title: 双环TDD
 kata: monty_hall
 difficulty: 2
 author: emilybache
 ---
 
-# Double-Loop TDD
 
-When you’re doing double loop TDD, you go around the inner loop on the timescale of minutes, and the outer loop on the timescale of hours to days. The outer loop tests are written from the perspective of the user of the system. I wrote [an article](http://coding-is-like-cooking.info/2013/04/outside-in-development-with-double-loop-tdd/) that explains more details.
+# 双环TDD
 
-Many organizations have automated tests that are not unit tests, but what they call them varies enormously. The first part of this session we want to discover what this organization calls them, and work out if they would be suitable to use in Double-loop TDD.
+当你做双循环TDD时，你在几分钟的节奏上进行内循环，在几小时到几天的节奏上进行外循环。外循环的测试是从系统用户的角度来写的。我写了[一篇文章](http://coding-is-like-cooking.info/2013/04/outside-in-development-with-double-loop-tdd/)，解释了更多细节。
 
-## Session Outline
- 
-* 5 min connect: Names of kinds of tests
-* 5 min concept: Double-Loop
-* 35 min do: Create some Guiding Tests
-* 10 min reflect: Compare what you knew before with what you know now
+许多组织都有不是单元测试的自动化测试，但他们对它们的称呼有很大的不同。本次会议的第一部分，我们要发现这个组织对它们的称呼，并研究它们是否适合在双环 TDD 中使用。
 
-### Connect: What do you call tests that aren't unit tests?
-Put a mark by any of these terms if you actually use them in your work, and they refer to tests that are automated but aren't unit tests:
+## 会议大纲
 
-- Customer Test
-- Guiding Test
-- Acceptance Test
-- Component Test
-- Integration Test
-- Programmer Test
-- Microtest
-- Gherkin Test
-- Microservice Test
-- (insert names of commercial tools too)
+* 5分钟的连接：测试种类的名称
+* 5分钟的概念：双循环
+* 35分钟做：创建一些指导性测试
+* 10分钟反思：比较你以前知道的和现在知道的
 
-Don't worry about the terms they are not familiar with and don't use. Go through the ones they do use and try to find out if they are suitable to use as outer-loop tests in double-loop TDD. For that to be the case, the programmers need to be able to run them in their development environments. They also need to use words the customer or user would understand.
+### 连接：你怎么称呼那些不是单元测试的测试？
+如果你在工作中实际使用了这些术语，并且它们指的是自动化但不是单元测试的测试，请在任何一个术语旁打上标记：
 
-### Concept: Double-Loop TDD
-Show this picture of ![Double Loop TDD](/assets/images/double_loop.jpg)
+- 客户测试（Customer Test）
+- 指导性测试（Guiding Test）
+- 验收测试（Acceptance Test）
+- 组件测试（Component Test）
+- 集成测试（Integration Test）
+- 程序员测试（Programmer Test）
+- 微测试（Microtest）
+- Gherkin 测试
+- 微服务测试（Microservice Test）
+- (也可插入商业工具的名称)
 
-Explain the idea - that the unit test cycle in TDD goes round on the scale of minutes. The outer loop goes round more slowly - days or even a week or two between first writing the test and getting it to pass. It's an idea they may already know as "Behaviour Driven Development", or "Specification by Example" or "Acceptance Test Driven Development".
+不要担心他们不熟悉和不使用的术语。通过他们所使用的术语，试着找出它们是否适合作为双环 TDD 的外环测试。要做到这一点，程序员需要能够在他们的开发环境中运行它们。他们还需要使用客户或用户会理解的词语。
 
-The outer loop test is written from the user or customer's perspective. It should use words they would understand. It could be written using a tool like [Cucumber](https://cucumber.io/), [Fitnesse](http://docs.fitnesse.org/FrontPage) or [Approvals](https://approvaltests.com/), or it could be written in an ordinary unit testing framework.
+### 概念：双环TDD
+展示这张图片！[双循环TDD](/assets/images/double_loop.jpg)
 
-### Do: Monty Hall or similar
-Sketch a guiding test for a kata. For example [Monty Hall](/kata_descriptions/monty_hall.html) or [Lift](/kata_descriptions/lift.html) or [Theater](https://github.com/emilybache/Theater-Kata) or [Train Reservation](https://github.com/emilybache/KataTrainReservation).
+解释一下这个概念--TDD中的单元测试周期以分钟为单位进行循环。外循环的速度更慢--从第一次编写测试到测试通过，需要几天甚至一两周的时间。这是一个他们可能已经知道的 "行为驱动开发（BDD）"，或 "实例化需求（SBE）" 或 "验收测试驱动开发（ATDD）" 的想法。
 
-Divide into pairs and have people sketch on a piece of paper. After about 5-10 minutes have them present to the rest of the group. Give them some feedback. Let them spend another 5 minutes or so to refine their sketches. Share them again and identify desirable traits. Ideally get the group to agree on one that would be usable in a future session as a Guiding Test.
+外环测试是从用户或客户的角度来写的。它应该使用他们能理解的词语。可以用[Cucumber](https://cucumber.io/)、[Fitnesse](http://docs.fitnesse.org/FrontPage)或[Approvals](https://approvaltests.com/)等工具来写，也可以用普通的单元测试框架来写。
 
-Repeat with another Kata if their is time.
+### 做：Monty Hall或类似的
+为 "Kata" 描绘一个指导性的测试。例如 [Monty Hall](/kata_descriptions/monty_hall.html) 或 [Lift](/kata_descriptions/lift.html) 或 [Theater](https://github.com/emilybache/Theater-Kata) 或 [Train Reservation](https://github.com/emilybache/KataTrainReservation)。
 
-### Reflect: 
-Compare and contrast the knowledge and assumptions you had about Guiding Tests (or whatever you call them in your organization) before this session and what you know now. Write a paragraph summarizing your comparisons.
+分成两组，让人们在一张纸上制作草图。大约5-10分钟后，让他们向小组其他成员介绍。给他们一些反馈。让他们再花5分钟左右来完善他们的草图。再次分享这些草图并确定理想的特征。理想的情况是，让小组同意一个可以在未来的会议中作为指导性测试使用的草图。
 
+如果他们有时间，可以重复另一个 "Kata"。
 
+### 总结
+对比一下你在本次会议之前对指导性测试（或你在组织中对其的称呼）的认识和假设，以及你现在所知道的。写一段话来总结你的比较。
