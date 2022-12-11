@@ -1,15 +1,15 @@
 ---
 layout: society
-title: Site Contributors
+title: 网站贡献者
 ---
 {% capture section1 %}
-# Site Contributors
+# 网站贡献者
 
-The Samman Technical Coaching Society members who manage this website are listed below.
+管理本网站的 Samman 技术教练协会成员名单如下：
 {% endcapture %}
 
 {% capture section2 %}
-We are also very grateful to other technical coaches who collaborate with us and contribute learning hours:
+我们也非常感谢与我们合作并贡献学习时间的其他技术教练：
 {% endcapture %}
 
 {% include contributors.html %}

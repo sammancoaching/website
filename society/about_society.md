@@ -1,18 +1,17 @@
 ---
 layout: society
-title: About the Samman Technical Coaching Society
+title: 关于 Samman 技术教练协会
 ---
 
-# About the Samman Technical Coaching Society
+# 关于 Samman 技术教练协会
 
-The Samman Technical Coaching Society is a not-for-profit organization based in Sweden. Its mission is to promote and develop Samman Technical Coaching and in particular support people who work as technical coaches with resources and opportunities to meet other coaches. The society owns the domain name ‘sammancoaching.org’ and the brand ‘Samman Coaching’ and protects these from misuse by third parties.
+Samman 技术教练协会是一个位于瑞典的非营利性组织。它的使命是促进和发展 Samman 技术教练，特别是为从事技术教练的人提供资源和认识其他教练的机会。该协会拥有域名'sammancoaching.org'和品牌' Samman 教练'，并保护这些域名不被第三方滥用。
 
-You do not have to join the society in order to use this website or attend society events. We do not offer certification as a Samman coach. However, membership of the society is only offered to technical coaches who have demonstrated their ability to use the Samman method.
+你不必为了使用本网站或参加协会活动而加入协会。我们不提供 Samman 教练的认证。然而，该协会的会员资格只提供给那些已经证明他们有能力使用 Samman 方法的技术教练。
 
-You don't need to be a member of the society to author learning hours, but you will need to pair with a member to get them published here. If you have something you'd like to contribute then please [contact us](/contact.html). You could also get to know us by attending a course. Training is offered via partner organizations, and you can find out what courses are available on our [Training](training.html) page. Organizations can also [sponsor](sponsorship.html) the society.
+你不需要成为协会的成员来编写学习时间，但你需要与一个成员配对，以便在这里发表。如果你有想要贡献的东西，那么请[联系我们](/contact.html)。你也可以通过参加一个课程来了解我们。培训是通过伙伴组织提供的，你可以在我们的[培训](training.html)页面上找到有哪些课程。各组织也可以[赞助](sponsorship.html)该协会。
 
-The primary benefit of joining the society is to get a say in how the practice of Samman coaching develops in the future. You can influence the kinds of materials and activities that we invest in, and the sponsorship that we accept. You can publish your materials to this site and have your name listed on the [member page](contributors/index.html).
+加入协会的主要好处是在未来如何发展萨满教练的实践中获得发言权。你可以影响我们所投资的材料和活动的种类，以及我们所接受的赞助。你可以将你的材料发布到本网站，并将你的名字列在[会员页](contributors/index.html)上。
 
-The Executive Board of the society only offers membership to people who have the ability to act as a Samman coach. A Samman coach is competent with techniques that enable iterative and incremental software development, for example Test Driven Development. A Samman coach has the ability to teach others these techniques in a pedagogical and engaging way. A Samman coach has the ability to act as mentor and facilitator for Ensemble working. If you are interested in joining the society, please [contact us](/contact.html).
-
+协会执行委员会只向有能力担任 Samman 教练的人提供会员资格。 Samman 教练能够胜任迭代和增量软件开发的技术，例如测试驱动开发。 Samman 教练有能力以教学和参与的方式向他人传授这些技术。 Samman 教练有能力指导和引导 合奏工作（Assemble Woking）。如果你有兴趣加入这个协会，请[联系我们](/contact.html)。
 

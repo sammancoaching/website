@@ -1,14 +1,13 @@
 ---
 layout: society
-title: Training Providers
+title: 培训提供方
 ---
 
-# Training in Samman Coaching
+# Samman 教练的培训
 
-Training for technical coaches is provided via partner organizations. 
+技术教练的培训是通过合作伙伴组织提供的。
 
-- [Ensemble Working](https://proagile.se/vara-kurser/ensemble-working-en)  with ProAgile 
-- [Learning Hour Design](https://proagile.se/vara-kurser/learning-hour-design-en) with ProAgile 
+- [合奏工作 Ensemble Working](https://proagile.se/vara-kurser/ensemble-working-en)  with ProAgile 
+- [设计学习时间](https://proagile.se/vara-kurser/learning-hour-design-en) with ProAgile 
 
-
-If you are interested in offering training in Samman Coaching and adding your training to this list, please [contact us](/contact.html).
+如果你有兴趣提供 Samman 教练的培训，并将你的培训加入这个列表，请[联系我们](/contact.html)。
