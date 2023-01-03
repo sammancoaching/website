@@ -13,7 +13,7 @@ This is a one hour online open space hosted by [Emily Bache](/society/contributo
 
 We will use the online whiteboard Miro to set up an open space agenda together, then hold two timeboxed discussions in Zoom breakout rooms. Everyone will be encouraged to contribute topics for the agenda, and to actively take part in discussions.
 
-This event is sponsored by xxx and is free to attend.
+This event is sponsored by [ProAgile](http://proagile.eu) and is free to attend.
 
 ## Agenda
 Times are CEST
