@@ -1,6 +1,6 @@
 ---
 theme: architecture
-title: Architecture Decision Recods
+title: Architecture Decision Records
 kata: instavoiced
 difficulty: 4
 author: emilybache
