@@ -7,6 +7,7 @@ difficulty: 1
 author: edytterbrink
 affiliation: Chocolate Driven Development
 ---
+# Refactor by renaming
 
 Reading code you don’t have to change is waste.
 Names that are honest and complete can mitigate lack of design,
@@ -23,22 +24,25 @@ Work in pairs or as a group, depending on group size.
 
 
 ## Concept
-
-Talking about how names are important to have to read less code.
-
+Names are important if we want to read less code.
 ”Don’t hide bad design behind pretty names.”
+When it is hard to find a "good" name it is often a sign of poor design.
 
-7 stages of naming  https://www.digdeeproots.com/articles/c/series/
+Arlo Balshee has the concept
+[7 stages of naming]( https://www.digdeeproots.com/articles/c/series/).
+
+This learning hour covers step two, three and four of those.
+They are honest nonsense, honest incomplete and honest complete.
 
 
-Focus on  Nonsense, honest & honest + complete
-
-Honest Nonsense is better than deception
-Honest and specific about one thing, and what we don’t say
-Honest and complete
-
-Step one, nonsense is unmasking the name that already is nonsense, only dishonest nonsense.
-
+Step one, nonsense is unmasking the name that already is nonsense,
+only making it dishonest nonsense.
+Honest Nonsense is better than deception.
+Then you improve it to be honest about one thing, 
+and state that it is not all there is.
+When everything is covered in the name and it is complete,
+we can move on to splitting it in smaller pieces.
+But that is another exercise.
 
 ## Concrete
 ### Active review
