@@ -14,7 +14,7 @@ Names that are honest and complete can mitigate lack of design,
 while the design is worked on. 
 Show a small demo exercise for each one.
 
-## Objective
+## Learning objective
 Know what steps to take to get a name that can be trusted.
 
 ## Connect
