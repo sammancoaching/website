@@ -44,6 +44,8 @@ When everything is covered in the name and it is complete,
 we can move on to splitting it in smaller pieces.
 But that is another exercise.
 
+[There is a blogpost where I explain it in my words.](https://www.chocolatedrivendevelopment.com/2022/10/10/whats-in-a-name/)
+
 ## Concrete
 ### Active review
 Sort nonsense, honest incomplete, honest
