@@ -5,7 +5,7 @@ name: naming
 kata: theatrical_players
 difficulty: 1
 author: edytterbrink
-affiliation: Chocolate Driven Development
+affiliation: Chocolate Driven Development AB
 ---
 
 # Reading by renaming
@@ -20,6 +20,9 @@ In well designed code the context and the domain will help us trust the names of
 But often it is ill advised to trust the names used in software.
 That is when this learning hour comes in handy.
 
+It is heavily inspired by Arlo Balshee and his [7 stages of naming]( https://www.digdeeproots.com/articles/c/series/).
+I call the *honest* step for * honest incomplete* and the *completely honest* for *honest complete*,
+to stress to difference between them. 
 
 Naming the code for what it actually does, 
 the first time you read it, 
@@ -29,16 +32,31 @@ while the design is worked on.
 
 
 The new name can then guide remodeling the code.
-The end goal is to have a clear language for the code, that speaks of the domain.
+The end goal is to have a clear language for the code,
+that speaks of the domain.
 This learning hour is a step in that direction. 
 
 ## Learning objective
-Know what steps to take to give a piece of code a name that can be trusted.
+Being able to explain how to give a piece of code a name that can be trusted.
 
 ## Connect
+Let the group look at some code and say if they think that the name is a good one.
+Work in pair, or small groups, if it is a big team. 
 
-Ask the group for "Unexpected things found in a method or function."
-Have them tell each other in pairs or each in turn as a group, depending on group size. 
+Examples (in some made up language and framework): 
+
+    def getUsers(db){
+        return db.get(Users.all);
+    }
+
+    def onStart(args){
+        Events.register("all");
+    }
+    
+    def saveUser(user, db){
+        db.save(user)
+        Events.send(UserNotifications.saved(user))
+    }
 
 
 ## Concept
@@ -52,10 +70,10 @@ Arlo Balshee has the concept
 [7 stages of naming]( https://www.digdeeproots.com/articles/c/series/).
 
 This learning hour is heavily inspired by step two, three and four of those.
-The steps are *honest nonsense*, *honest incomplete* and *honest complete*.
+The steps are *obvious nonsense*, *honest incomplete* and *honest complete*.
 
 
-1. *Honest nonsense* is about changing the current dishonest nonsense name to an honest one.
+1. *obvious nonsense* is about changing the current dishonest nonsense name to an honest one.
 It can also be used when a block of code is extracted, as a part of a refactoring.
 2. *Honest incomplete* is a way to improve it to be honest about one thing, 
 and state that this is not all there is.
@@ -70,14 +88,14 @@ But I recommend also reading the original posts by Balshee.
 ## Concrete
 There are two exercises, following after each other.
 The first exercise is to get a feel for the different stages of naming.
-The second is hands on, taking a name from honest nonsense to honest complete with unfamiliar code.
+The second is hands on, taking a name from obvious nonsense to honest complete with unfamiliar code.
 Show a small demo exercise for each one, before having the team to try.
 That is easier than explaining what to do.
 The active review can also be used as a connect for a follow up learning hour, 
 especially if someone missed this one.
 
-### Active review
-Sort the following into categories of *honest nonsense*, *honest incomplete*, *honest complete*.
+### Sorting names
+Sort the following into categories of *obvious nonsense*, *honest incomplete*, *honest complete*.
 Create notes for each item in the categories, mix them up and have the team sort them.
 Work in pairs or small groups. 
 
@@ -86,7 +104,7 @@ Work in pairs or small groups.
 - A board to match the notes. The kanban in Miro works well.
 
 #### Names to sort, by correct group
-Honest nonsense:
+Obvious nonsense:
 - Applesauce
 - Chutney 
 - Sauerkraut 
@@ -104,7 +122,7 @@ Honest complete:
 - SetGradientUnlessShapeFactoryMissingThenUseDefault
 - FindAllUsersAndEveryMonthBackupAllData
 
-### Try it yourselves  
+### Name some code  
 Give the team a piece of code with a nonsense name. 
 A good starting point is the main body of 
 [theatrical players kata]({{ site.baseurl }}{% link _kata_descriptions/theatrical_players.md %}). 
@@ -126,5 +144,4 @@ or if remote, without an editor.
 
 
 ## Conclude
-Write down these steps and practice to use them when you get stuck when naming,
-or when figuring out what the code in front of you actually do. 
+Pair up and explain how to get to an *honest complete* name and why we want that.
