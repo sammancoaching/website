@@ -20,10 +20,14 @@ In well designed code the context and the domain will help us trust the names of
 But often it is ill advised to trust the names used in software.
 That is when this learning hour comes in handy.
 
-It is heavily inspired by Arlo Balshee and his [7 stages of naming]( https://www.digdeeproots.com/articles/c/series/).
-I call the *honest* step for * honest incomplete* and the *completely honest* for *honest complete*,
+This is heavily inspired by Arlo Balshee and his [7 stages of naming]( https://www.digdeeproots.com/articles/c/series/).
+One change is that I call the *honest* step for *honest incomplete* and the *completely honest* for *honest complete*,
 to stress to difference between them. 
+I also think that the *obvious nonsense* could be called *honest nonsense*,
+to contrast it with the deceptive nonsense we see in a lot of code,
+but try to stick to *obvious nonsense* here.
 
+We want to store knowledge in the code. 
 Naming the code for what it actually does, 
 the first time you read it, 
 saves the time of re-reading the code.
@@ -60,10 +64,10 @@ Examples (in some made up language and framework):
 
 
 ## Concept
-Names are important, if we want to read less code. 
+Names are important when we want to read less code. 
 We often try to name things better than they deserve. 
 When it is hard to find a "good" name it is often a sign of poor design.
-This is an exercise exposing lack of structural integrity,
+This is an exercise in exposing lack of structural integrity,
 instead of hiding it behind pretty names, that don't tell us what the code does.
 
 Arlo Balshee has the concept
@@ -73,7 +77,7 @@ This learning hour is heavily inspired by step two, three and four of those.
 The steps are *obvious nonsense*, *honest incomplete* and *honest complete*.
 
 
-1. *obvious nonsense* is about changing the current dishonest nonsense name to an honest one.
+1. *Obvious nonsense* is about changing the current dishonest nonsense name to an honest one.
 It can also be used when a block of code is extracted, as a part of a refactoring.
 2. *Honest incomplete* is a way to improve it to be honest about one thing, 
 and state that this is not all there is.
@@ -89,19 +93,23 @@ But I recommend also reading the original posts by Balshee.
 There are two exercises, following after each other.
 The first exercise is to get a feel for the different stages of naming.
 The second is hands on, taking a name from obvious nonsense to honest complete with unfamiliar code.
-Show a small demo exercise for each one, before having the team to try.
+Show a small demo exercise for each one, before having the team try it.
 That is easier than explaining what to do.
 The active review can also be used as a connect for a follow up learning hour, 
 especially if someone missed this one.
 
 ### Sorting names
-Sort the following into categories of *obvious nonsense*, *honest incomplete*, *honest complete*.
+
+#### Preparations
 Create notes for each item in the categories, mix them up and have the team sort them.
-Work in pairs or small groups. 
 
 #### Tools
 - Notes, physical or digital.
 - A board to match the notes. The kanban in Miro works well.
+
+#### Instructions
+> Sort the following into categories of *obvious nonsense*, *honest incomplete*, *honest complete*.
+> Work in pairs or small groups.
 
 #### Names to sort, by correct group
 Obvious nonsense:
@@ -136,12 +144,18 @@ or the option to start refactoring.
 It also makes this learning hour possible to do without computers, 
 or if remote, without an editor.
 
-
 #### Tools
 - Screenshot of code, printed on a large paper or on a digital board.
 - Text area/paper for editing name.
 - Ways to hide or mark the code that is represented in the name.
 
+#### Instructions
+> Give the code an honest incomplete name. 
+> Read the code. 
+> Find parts that belong together and add something to the name that represents that part of the code.
+> Mark the code represented in the name to remember you processed it.
+> Continue until all the code can be roughly reconstructed by reading the name.
+> Change the name to signal that it is complete.
 
 ## Conclude
 Pair up and explain how to get to an *honest complete* name and why we want that.
