@@ -33,7 +33,7 @@ Explain Martin Fowler's [description of code smells](https://www.martinfowler.co
 * [Long Function](/code_smells/long_function.html)
 * [Loop](/code_smells/loop.html)
 * [Heavy Indentation](/code_smells/heavy_indentation.html)
-* [Local Variable with Long Scope](/code_smells/local_variable_with_long_scope.html)
+* [Variable with Long Scope](/code_smells/variable_with_long_scope.html)
 
 ### Find code smells
 Have them review some code and note down any code smells they find. In particular, they should look for the common smells you just explained. The idea is just to read the code and identify smells, not do anything about it. Note that you can identify code smells without necessarily understanding the code or being able to safely change it.
@@ -53,7 +53,7 @@ You are hoping that they will find smells like these:
 * Tennis1: [Long method](/code_smells/long_function.html), [Heavy Indentation](/code_smells/heavy_indentation.html)
 * Tennis2: [Duplicated code](/code_smells/duplicated_code.html)
 * Tennis3: [Mysterious names](/code_smells/mysterious_name.html)
-* Theatrical Players: [Local variable with Long Scope](/code_smells/local_variable_with_long_scope.html), [Loop](/code_smells/loop.html)
+* Theatrical Players: [Variable with Long Scope](/code_smells/variable_with_long_scope.html), [Loop](/code_smells/loop.html)
 * Gilded Rose: [Long function](/code_smells/long_function.html), [Heavy indentation](/code_smells/heavy_indentation.html)
 
 ### What code smells does your production code often suffer from?
