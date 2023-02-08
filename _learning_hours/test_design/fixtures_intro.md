@@ -1,33 +1,51 @@
 ---
 theme: test_design
 title: Test Fixture Introduction
-kata: recently_used_list
+kata: supermarket_receipt
 difficulty: 2
-author: emilybache
-affiliation: ProAgile
+author: jmossberg
+via: emilybache
+affiliation: Jacob Mossberg Consulting
+languages: cpp
 ---
 
 # Test Fixture Introduction
 
-Reduce duplication by using a test fixture. Let's look at the basic syntax.
+[Duplicated Code]({{ site.baseurl }}{% link _code_smells/duplicated_code.md %}) is a [code smell]({{ site.baseurl }}{% link reference/code_smells/index.md %}). Duplication makes the code harder to change since you have to find and modify all instances of the duplicated code. The same argument is also valid for test code.
+
+In this learning hour we write a test fixture and reduce duplication.
+
+## Learning Objective
+
+- Use a Test Fixture to reduce duplication in test code
 
 ## Session Outline
 
-* 5 min connect: Duplication and Readability
+* 5 min connect: Duplication problems
 * 10 min concept: Test Fixture 
 * 30 min concrete: convert code to use fixture
-* 5 min conclusions: What is a custom assert, what is a test fixture
+* 5 min conclusions: What is a test fixture
 
-## Connect: Duplication and Readability
-- Give me three reasons why code duplication can be a problem. 
-- Is duplication in test code an exception? Is it a problem?
+## Connect: Duplication
+- Give me three reasons why code duplication can be a problem.
 
 ## Concept: Test Fixture
-Explain what it is, show them the documentation for the language and framework you're using.
+A unit test usually has three phases:
+
+* Arrange - create objects to use in the test
+* Act - execute the code we wish to test
+* Assert - assert that the function or class under test produced the result you expect
+
+It is not uncommon that unit tests for a function or class duplicates code in the Arrange part of the tests. A test fixture allows us to share that code between the tests and thereby avoid duplication.
+
+Explain what a test fixture is, show them the documentation for the language and framework you're using. For example
+The Googletest Primer has a section describing [how to write a test fixture in Google Test](https://google.github.io/googletest/primer.html#same-data-multiple-tests).
 
 ## Concrete: Convert duplication to fixture
+Ask the participants to write a test fixture in SuperMarketTests.cpp that allows them to remove code duplication in the Arrange part of the existing unit tests. The git branch [test-fixture-starting-point](https://github.com/jmossberg/SupermarketReceipt-Refactoring-Kata/tree/test-fixture-starting-point) contains a starting point for the exercise. Ask them to expand the test fixture iteratively by adopting it for one new test case at a time.
 
-In [RecentlyUsedList](https://github.com/emilybache/custom-start-points/tree/master/start-points/RecentlyUsedList2/C), or [RecentlyUsedList](https://github.com/emilybache/RecentlyUsedList-Test-Design-Kata) there are several tests which share common code. Explain the problem and give them some pointers about how to refactor the tests to use a test fixture.
+The git branch [test-fixture-finished](https://github.com/jmossberg/SupermarketReceipt-Refactoring-Kata/tree/test-fixture-finished) contains one possible solution for the exercise if you want to compare it against your solutions.
 
 ## Conclusions
-Note down in your own words what you learnt about a custom assert and a test fixture.
+Note down in your own words what a test fixture is and how you can use it to remove duplication.
+
