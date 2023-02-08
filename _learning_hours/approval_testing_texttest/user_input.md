@@ -5,7 +5,7 @@ kata: dungeon_escape
 difficulty: 1
 author: emilybache
 affiliation: Bache Consulting
-languages: c
+languages: c,texttest
 ---
 
 # Supplying User Input via stdin
