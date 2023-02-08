@@ -39,16 +39,16 @@ or expanding the container in the Docker desktop user interface.
 When you push to the main branch, there is a github action that deploys the changes.
 
 ## Adding events
-* Add a new event page under society/events
 * In hubspot, bulk update the 'events' property for everyone who attended the previous event
 * Wipe the 'next_open_space' property from all contacts in Hubspot
 * Update the society/events/open_space_signup_thankyou.md page with an AddEvent "add to calendar" link
+* Rename the event page under society/events
+* Update society/events/index.md with a link to the updated event signup page
 * Test that you can sign up:
   * correct signup thankyou page
   * 'add to calendar' link on that page works, 
   * you get a confirmation email
   * you get the 'next_open_space' property in hubspot
-* Update society/events/index.md with a link to the event signup page
 * Create zoom meeting
 * Create calendar event and invite co-host & society members
 * Create and schedule email 1 week before with zoom link
