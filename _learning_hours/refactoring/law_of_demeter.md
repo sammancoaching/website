@@ -30,7 +30,9 @@ Put descriptions of these three code smells around the room or on a shared onlin
 You're hoping that people recognize all of these, especially the last one, since that's what this learning hour is mostly about.
 
 ## Concept - Law of Demeter
-Explain what this is and why it's a problem. You might like to summarize it as "talk to your friends, not your friend's friends", or "avoid train wrecks". Put a code sample like the one below on a shared screen and get some "train" stickers or similar. Ask them where you should put the stickers in the code to show where it's breaking the Law of Demeter.
+Explain what this is and why it's a problem. You might like to summarize it as "talk to your friends, not your friend's friends", or "avoid train wrecks". 
+
+Put the code sample below on a shared screen. It's from the [FantasyBattle-Refactoring-Kata](https://github.com/Neppord/FantasyBattle-Refactoring-Kata).  Get some "train" stickers or similar. Ask them where you should put the stickers in the code to show where it's breaking the Law of Demeter.
 
     private int CalculateBaseDamage() {
             Equipment equipment = Inventory.Equipment;
@@ -55,7 +57,7 @@ The refactoring sequence is:
 * [Extract method]({% link _refactorings/extract_function.md %})
 * [Move method]({% link _refactorings/move_function.md %})
 
-Note there are no test cases in the main branch so it's important to know your tools are good enough to do these refactorings for you.
+Note there are no test cases in the default branch so it's important to know your tools are good enough to do these refactorings for you, or that you are following the refactoring steps strictly.
 
 ## Concrete - Fix the Player class
 As with the demo, remove the Law of Demeter problems in the Player class by creating new methods and moving them to inventory and equipment. When you've completed that, similarly refactor the other method "CalculateDamageModifier". That one is almost the same but you have to handle the strengthModifier too.
