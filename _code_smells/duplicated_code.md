@@ -1,6 +1,7 @@
 ---
 layout: code_smell
 title: Duplicated Code
+name: duplicated_code
 source: Martin Fowler
 wikipedia_source: true
 ---
