@@ -5,6 +5,7 @@ name: law_of_demeter
 kata: fantasy_battle
 difficulty: 3
 author: neppord
+via: emilybache
 affiliation: ProAgile
 ---
 
@@ -53,14 +54,15 @@ You should end up with stickers on almost every line. This should lead you direc
 The essence of the demo is to refactor the method CalculateBaseDamage to follow the Law of Demeter. _Introduce_ a variable for Inventory, _Extract method_ on all the rest of the method, so you get a new method with one argument, inventory. Then _Move_ the method to Inventory. Now in class Inventory you do basically the same thing again. _Extract_ all the method contents so you get a new method with one argument - equipment - then _Move_ that method to Equipment.
 
 The refactoring sequence is:
-* [Introduce variable]({% link _refactorings/introduce_variable.md %})
-* [Extract method]({% link _refactorings/extract_function.md %})
-* [Move method]({% link _refactorings/move_function.md %})
+* Identify code that talks to a "friend's friend". Note which class is the "friend"
+* [Introduce variable]({% link _refactorings/introduce_variable.md %}) - for the "friend" class. (This variable might already exist and if so you can skip this step.)
+* [Extract method]({% link _refactorings/extract_function.md %}) - one of the arguments must be the "friend" - usually the variable you just introduced
+* [Move method]({% link _refactorings/move_function.md %}) - to the "friend" class
 
 Note there are no test cases in the default branch so it's important to know your tools are good enough to do these refactorings for you, or that you are following the refactoring steps strictly.
 
 ## Concrete - Fix the Player class
-As with the demo, remove the Law of Demeter problems in the Player class by creating new methods and moving them to inventory and equipment. When you've completed that, similarly refactor the other method "CalculateDamageModifier". That one is almost the same but you have to handle the strengthModifier too.
+As with the demo, remove the Law of Demeter problems in the Player class by creating new methods and moving them to Inventory and Equipment. When you've completed that, similarly refactor the other method "CalculateDamageModifier". That one is almost the same except you have to handle the strengthModifier too.
 
 When you've completed the refactoring, you should not be able to find any Law of Demeter problems in any of the classes, and all the methods will have good names that express what they do.
 
