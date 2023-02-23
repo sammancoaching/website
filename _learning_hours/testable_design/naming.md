@@ -1,6 +1,6 @@
 ---
 theme: testable_design
-title: Reading by renaming
+title: Reading by Renaming
 name: naming
 kata: theatrical_players
 difficulty: 1
@@ -8,7 +8,7 @@ author: edytterbrink
 affiliation: Chocolate Driven Development AB
 ---
 
-# Reading by renaming
+# Reading by Renaming
 
 It is wasteful to read code that you don't need to change.
 
@@ -20,7 +20,7 @@ Well designed code uses contexts and domain to build trust in the naming.
 But often it is ill advised to trust the names used in software.
 That is when this learning hour comes in handy.
 
-This learning hour is heavily inspired by Arlo Balshee and his [7 stages of naming]( https://www.digdeeproots.com/articles/c/series/).
+This learning hour is heavily inspired by Arlo Belshee and his [7 stages of naming]( https://www.digdeeproots.com/articles/c/series/).
 One change is that I call the *honest* step for *honest incomplete* and the *completely honest* for *honest complete*,
 to stress to difference between them. 
 I also think that the *obvious nonsense* could be called *honest nonsense*,
@@ -70,7 +70,7 @@ When it is hard to find a "good" name it is often a sign of poor design.
 This is an exercise in exposing lack of structural integrity,
 instead of hiding it behind pretty names, that don't tell us what the code does.
 
-Arlo Balshee has the concept
+Arlo Belshee has the concept
 [7 stages of naming]( https://www.digdeeproots.com/articles/c/series/).
 
 This learning hour is heavily inspired by step two, three and four of those.
@@ -87,7 +87,7 @@ After this we can move on to splitting the code into smaller pieces.
 But that is out of scope for this learning hour.
 
 [There is a companion blogpost for this learning hour.](https://www.chocolatedrivendevelopment.com/2022/10/10/whats-in-a-name/)
-But I recommend also reading the original posts by Balshee.
+But I recommend also reading the original posts by Belshee.
 
 ## Concrete
 There are two exercises, following after each other.
@@ -158,5 +158,5 @@ or if remote, without an editor.
 > Continue until all the code can be roughly reconstructed by reading the name.
 > Change the name to signal that it is now complete.
 
-## Conclude
+## Conclusions
 Pair up and explain how to get to an *honest complete* name and why we want that.
