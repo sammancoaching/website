@@ -10,17 +10,17 @@ affiliation: Chocolate Driven Development AB
 
 # Reading by renaming
 
-It is wasteful to read code you don't need to change.
+It is wasteful to read code that you don't need to change.
 
 If you trust the name of the code, you don't have to read the code itself.
-If the code is hard to navigate, and full of surprises,
+When the code is hard to navigate, and full of surprises,
 we don't want nice names, we want useful names.
 
-In well designed code the context and the domain will help us trust the names of the code.
+Well designed code uses contexts and domain to build trust in the naming.
 But often it is ill advised to trust the names used in software.
 That is when this learning hour comes in handy.
 
-This is heavily inspired by Arlo Balshee and his [7 stages of naming]( https://www.digdeeproots.com/articles/c/series/).
+This learning hour is heavily inspired by Arlo Balshee and his [7 stages of naming]( https://www.digdeeproots.com/articles/c/series/).
 One change is that I call the *honest* step for *honest incomplete* and the *completely honest* for *honest complete*,
 to stress to difference between them. 
 I also think that the *obvious nonsense* could be called *honest nonsense*,
@@ -45,7 +45,7 @@ Being able to explain how to give a piece of code a name that can be trusted.
 
 ## Connect
 Let the group look at some code and say if they think that the name is a good one.
-Work in pair, or small groups, if it is a big team. 
+Work in pairs, or small groups, if it is a big team. 
 
 Examples (in some made up language and framework): 
 
@@ -94,22 +94,22 @@ There are two exercises, following after each other.
 The first exercise is to get a feel for the different stages of naming.
 The second is hands on, taking a name from obvious nonsense to honest complete with unfamiliar code.
 Show a small demo exercise for each one, before having the team try it.
-That is easier than explaining what to do.
-The active review can also be used as a connect for a follow up learning hour, 
+That is easier than explaining what to do. 
+[Sorting names](#sorting-names) can also be used as a connect for a follow up learning hour, 
 especially if someone missed this one.
 
-### Sorting names
+### Sorting names ###
 
 #### Preparations
 Create notes for each item in the categories, mix them up and have the team sort them.
+Create pairs or small groups for the team to work in. 
 
 #### Tools
 - Notes, physical or digital.
 - A board to match the notes. The kanban in Miro works well.
 
-#### Instructions
-> Sort the following into categories of *obvious nonsense*, *honest incomplete*, *honest complete*.
-> Work in pairs or small groups.
+#### Instructions for the team
+> Sort the following names into categories of *obvious nonsense*, *honest incomplete*, *honest complete*.
 
 #### Names to sort, by correct group
 Obvious nonsense:
@@ -134,12 +134,13 @@ Honest complete:
 Give the team a piece of code with a nonsense name. 
 A good starting point is the main body of 
 [theatrical players kata]({{ site.baseurl }}{% link _kata_descriptions/theatrical_players.md %}). 
+Reuse the groups from the previous exercise. 
 Ask them to read the code and then edit the name for the function,
 step by step, while crossing out parts of the code in the screenshot.
 Each iterations should make another part of the code represented in the name,
 until there is nothing more to describe. 
 If the code can be roughly reconstructed from the method name, the name is detailed enough.
-Using a screenshot instead of actual code is not to get distracted by the editor,
+I recommend using a screenshot instead of actual code, not to get distracted by the editor,
 or the option to start refactoring. 
 It also makes this learning hour possible to do without computers, 
 or if remote, without an editor.
@@ -149,13 +150,13 @@ or if remote, without an editor.
 - Text area/paper for editing name.
 - Ways to hide or mark the code that is represented in the name.
 
-#### Instructions
+#### Instructions for the team
 > Give the code an honest incomplete name. 
 > Read the code. 
 > Find parts that belong together and add something to the name that represents that part of the code.
 > Mark the code represented in the name to remember you processed it.
 > Continue until all the code can be roughly reconstructed by reading the name.
-> Change the name to signal that it is complete.
+> Change the name to signal that it is now complete.
 
 ## Conclude
 Pair up and explain how to get to an *honest complete* name and why we want that.
