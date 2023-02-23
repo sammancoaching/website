@@ -38,13 +38,10 @@ A unit test usually has three phases:
 
 It is not uncommon that unit tests for a function or class duplicates code in the Arrange part of the tests. A test fixture allows us to share that code between the tests and thereby avoid duplication.
 
-Explain what a test fixture is, show them the documentation for the language and framework you're using. For example
-The Googletest Primer has a section describing [how to write a test fixture in Google Test](https://google.github.io/googletest/primer.html#same-data-multiple-tests).
-
 ## Concrete: Convert duplication to fixture
-Ask the participants to write a test fixture in SuperMarketTests.cpp that allows them to remove code duplication in the Arrange part of the existing unit tests. The git branch [test-fixture-starting-point](https://github.com/jmossberg/SupermarketReceipt-Refactoring-Kata/tree/test-fixture-starting-point) contains a starting point for the exercise. Ask them to expand the test fixture iteratively by adopting it for one new test case at a time.
+The exercise is [Supermarket-TestDesign-Kata](https://github.com/sammancoaching/Supermarket-TestDesign-Kata). Ask the participants to write a test fixture in SuperMarketTest that allows them to remove code duplication in the Arrange part of the existing unit tests. Ask them to expand the test fixture iteratively by adopting it for one new test case at a time.
 
-The git branch [test-fixture-finished](https://github.com/jmossberg/SupermarketReceipt-Refactoring-Kata/tree/test-fixture-finished) contains one possible solution for the exercise if you want to compare it against your solutions.
+If you've worked on the exercise in pairs, take a few minutes at the end to showcase the various solutions. The git branch "sample_solution" contains one possible solution for the exercise if you want to compare it against yours.
 
 ## Conclusions
 Note down in your own words what a test fixture is and how you can use it to remove duplication.
