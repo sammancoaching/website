@@ -17,14 +17,14 @@ We will use the online whiteboard Miro to set up an open space agenda together, 
 This event is sponsored by [Bache Consulting](http://bacheconsulting.com) and [ProAgile](https://proagile.se/en) and is free to attend.
 
 ## Agenda
-Times are CEST
+Times are CET
 * 15:20 - Zoom meeting opens.
 * 15:30 - Welcome & information, collaboratively agree open space agenda
 * 15:45 - First open space session
 * 16:05 - Second open space session
 * 16:25 - Take-aways
 * 16:30 - End of open space agenda
-* 16:45 - Zoom meeting closes.
+* 16:40 - Zoom meeting closes.
 
 ### To prepare for the event
 * Think of topics that you want to discuss and be ready to add them to the open space agenda.
