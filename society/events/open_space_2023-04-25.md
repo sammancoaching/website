@@ -5,7 +5,7 @@ title: Samman Coaching Society Online Open Space Event
 
 # Samman Coaching Society Online Open Space Event
 
-**Wednesday 22nd March 2023, 15:30 CET / 09:30 EST / 06:30 PST**
+**Tuesday 25th April 2023, 15:30 CET**
 
 _Bring your questions and exchange experiences with other technical coaches._
 
@@ -17,7 +17,7 @@ We will use the online whiteboard Miro to set up an open space agenda together, 
 This event is sponsored by [Bache Consulting](http://bacheconsulting.com) and [ProAgile](https://proagile.se/en) and is free to attend.
 
 ## Agenda
-Times are CET
+Times are CET - use this link to [Add to Calendar](https://www.addevent.com/event/Aq15076772) in your timezone.
 * 15:20 - Zoom meeting opens.
 * 15:30 - Welcome & information, collaboratively agree open space agenda
 * 15:45 - First open space session
