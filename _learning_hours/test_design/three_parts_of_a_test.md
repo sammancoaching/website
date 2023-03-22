@@ -20,12 +20,13 @@ This learning hour is about Arrange - Act - Assert and uses a simpler exercise t
 
 * 5 min connect: What is an automated unit test  
 * 10 min concept: Three parts of a test  
-* 35 min concrete: Write some tests 
+* 25 min concrete: Write some tests
+* 10 min conclusions: Showcase and discuss test design
 * 5 min conclusions: When to do this
 
 
 ### Connect: Three facts
-What is an automated unit test? Give me [three facts](/activities/connect/three_facts.html) about it.
+What is the most important job of a unit test? Give me your top three ideas ([three facts](/activities/connect/three_facts.html)).
 
 ### Concept: Three parts of a test
 An automated test usually has three kinds of code.
@@ -38,6 +39,9 @@ Normally in a unit test you only have one of each section, and they come in that
 
 ### Concrete
 Write some test cases for some existing code that has well-marked bugs in. For example [CalcStats](https://github.com/emilybache/CalcStats-TestDesign-Kata). Be sure to structure your test cases using Arrange - Act - Assert. Write tests that fail because of the bugs, and which pass when you fix the bugs.
+
+### Conclusions: Test Design Guidelines
+[Showcase]({% link _activities/concrete/showcase.md %}) the various tests people have written. Take some screenshots and put them on the shared online whiteboard. Annotate them with what is good about these designs. Highlight what's good, also mention things that could be improved if you think it's important.
 
 ### Conclusions
 Can you think of any advantages of structuring your tests this way, with Arrange - Act - Assert? Are there any situations where it wouldn’t be a good idea? [When should you use this?](/activities/conclusions/when_to_use_this.html)
