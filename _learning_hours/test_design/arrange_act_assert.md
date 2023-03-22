@@ -2,7 +2,7 @@
 theme: test_design
 title: Arrange - Act - Assert
 kata: mars_rover
-difficulty: 1
+difficulty: 2
 author: emilybache
 ---
 
