@@ -74,19 +74,17 @@ Stop and go to the next exercise when they get the point.
 
 Example snippet of such a checklist:
 
-> -   [ ] `fizzbuzz(3)` (Fizz)
-      >
-      >     -   [ ] add a new test / or new assert
->     -   [ ] see it fail
->     -   [ ] make it pass, with the smallest change possible
->     -   [ ] refactor if you like
->
-> -   [ ] `fizzbuzz(4)` (just another number)
-      >
-      >     -   [ ] add a new test / or new assert
->     -   [ ] **challenge / optional:** see it fail
->     -   [ ] make it pass, with the smallest change possible
->     -   [ ] refactor if you like
+-   [ ] `fizzbuzz(3)` (Fizz)
+    -   [ ] add a new test / or new assert
+    -   [ ] see it fail
+    -   [ ] make it pass, with the smallest change possible
+    -   [ ] refactor if you like
+-   [ ] `fizzbuzz(4)` (just another number)
+    -   [ ] add a new test / or new assert
+    -   [ ] **challenge / optional:** see it fail
+    -   [ ] make it pass, with the smallest change possible
+    -   [ ] refactor if you like
+
 
 The full checklist is [here](https://github.com/nitsanavni/intro-to-approvals-learning-hour/blob/main/frames/exercise-use-asserts.md).
 
