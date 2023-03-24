@@ -13,7 +13,7 @@ In this exercise you need to use a stub to test the code.
 
 ## Session Outline
 
-* 10 min connect: How can you test this?
+* 10 min connect: How can you test this bug?
 * 5 min concept: Explanation of test doubles
 * 30 mins concrete: Write a test using a test double
 * 5 min conclusion: How do you know when you need a stub?
