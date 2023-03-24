@@ -39,7 +39,7 @@ As a whole group, ask participants to answer the question “What are your favou
 
 You can ask them to write their answers on stickies using a tool like Miro, Mural or Jamboard, or in bullet points in a shared doc, or on actual stickies in person.
 
-This is a good exercise to get them thinking about keyboard shortcuts, which witruell be useful in this exercise and are demonstrated in the videos linked to below. Hopefully some of them will learn new shortcuts as a result of this exercise.
+This is a good exercise to get them thinking about keyboard shortcuts, which will be useful in this exercise and are demonstrated in the videos linked to below. Hopefully some of them will learn new shortcuts as a result of this exercise.
 
 ### Concept: Lift-up Conditional Demo
 I find it helpful to use schematics to visualise what’s happening, as if you haven’t seen the technique before it can be confusing at first. I also show the Gilded Rose code before and after, to show what we’re aiming for and get them primed for what I’m about to demonstrate.
