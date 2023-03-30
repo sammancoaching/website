@@ -1,0 +1,16 @@
+---
+layout: homepage
+---
+
+{{ content }}
+
+<ul>
+    {% for key_contributor in site.data.contributors %}
+        {% assign key = key_contributor[0] %}
+        {% assign contributor = key_contributor[1] %}
+        <li>
+            <a href="/society/contributors/{{ key }}.html">{{ contributor.title }}</a>
+        </li>
+    {% endfor %}
+</ul>
+

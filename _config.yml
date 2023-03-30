@@ -16,12 +16,12 @@
 title: Samman Technical Coaching
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Samman is a method for technical coaches who want to improve the way software is built. 
-  This site extends and supports the materials in the book "Technical Agile Coaching with the Samman Method" by Emily Bache.
+  Technical coaches will find useful materials for teaching skills like TDD on this site. 
+  The Samman Technical Coaching Society publishes code katas, learning hours and hosts networking events.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sammancoaching.org" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: emilybache
-github_username:  emilybache
+twitter_username: coachingsamman
+github_username:  sammancoaching
 
 # Build settings
 markdown: kramdown
@@ -40,6 +40,8 @@ collections:
   workshops:
     output: true
   code_smells:
+    output: true
+  refactorings:
     output: true
 defaults:
   - scope:
@@ -67,6 +69,11 @@ defaults:
       type: "code_smells"
     values:
       layout: "code_smell"
+  - scope:
+      path: ""
+      type: "refactorings"
+    values:
+      layout: "refactoring"
   - scope:
       path: ""
     values:

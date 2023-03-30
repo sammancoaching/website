@@ -1,6 +1,7 @@
 ---
 layout: code_smell
 title: Speculative Generality
+source: Martin Fowler
 ---
 
 # Speculative Generality

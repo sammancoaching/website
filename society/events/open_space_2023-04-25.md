@@ -5,25 +5,26 @@ title: Samman Coaching Society Online Open Space Event
 
 # Samman Coaching Society Online Open Space Event
 
-**Wednesday 25th May 2022, 15:30 CEST / 09:30 EDT / 06:30 PDT**
+**Tuesday 25th April 2023, 15:30 CET**
 
-_Bring your questions and exchange experiences with other technical coaches._ 
+_Bring your questions and exchange experiences with other technical coaches._
 
-This is a one hour online open space hosted by [Emily Bache](/society/contributors/emilybache.html) and [Samuel Ytterbrink](/society/contributors/neppord.html). Fill in the form lower down on this page to sign up and receive a meeting link by email. 
+This is a one hour online open space hosted by [Emily Bache]({% link 
+ society/contributors/emilybache.md %}). Fill in the form lower down on this page to sign up and receive a meeting link by email.
 
 We will use the online whiteboard Miro to set up an open space agenda together, then hold two timeboxed discussions in Zoom breakout rooms. Everyone will be encouraged to contribute topics for the agenda, and to actively take part in discussions.
 
-This event is sponsored by [ProAgile](https://proagile.eu)
+This event is sponsored by [Bache Consulting](http://bacheconsulting.com) and [ProAgile](https://proagile.se/en) and is free to attend.
 
-## Agenda 
-Times are CEST
-* 15:15 - Zoom meeting opens.
+## Agenda
+Times are CET - use this link to [Add to Calendar](https://www.addevent.com/event/Aq15076772) in your timezone.
+* 15:20 - Zoom meeting opens.
 * 15:30 - Welcome & information, collaboratively agree open space agenda
 * 15:45 - First open space session
 * 16:05 - Second open space session
 * 16:25 - Take-aways
 * 16:30 - End of open space agenda
-* 16:45 - Zoom meeting closes.
+* 16:40 - Zoom meeting closes.
 
 ### To prepare for the event
 * Think of topics that you want to discuss and be ready to add them to the open space agenda.
@@ -34,7 +35,7 @@ Times are CEST
 * Please use your own name to make communication easier
 * Please show respect and let others speak
 * You can move between the breakout rooms during the entire event
-* Help each other out so that newcomers to [Samman Society](/society/index.html) events feel welcome!
+* Help each other out so that newcomers to [Samman Society]({% link society/index.md %}) events feel welcome!
 
 ### Sign up
 Fill in the form below to sign up to attend. We will email you a link to the Zoom meeting before it starts.

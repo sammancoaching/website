@@ -3,10 +3,11 @@ Teaching materials for Technical Agile Coaches
 
 This repo contains resources for technical agile coaches to use in their work. For more information, please read this book [Technical Agile Coaching](https://leanpub.com/techagilecoach) by Emily Bache.
 
+## Development
+
 To test locally:
 
     bundle exec jekyll serve
-
 
 Instead of using jekyll locally you can get a prebuilt docker image with Ruby, Jekyll etc. installed:
 
@@ -16,23 +17,40 @@ Test locally run the server with:
 
     dockerrun
 
+Alternatively use [docker-compose](https://docs.docker.com/compose/) using the docker-compose.yml. 
+    
+    docker-compose up
+
 Then browse to:
 
     http://localhost:4000
+
+If you want to get access to the terminal in the docker container the command is:
+
+    docker exec -it <name_of_container> /bin/bash
+
+were "name_of_container"  is found by running the command 
+
+    docker ls
+
+or expanding the container in the Docker desktop user interface.
 
 ## Deploying to the live site
 When you push to the main branch, there is a github action that deploys the changes.
 
 ## Adding events
-* Add a new event page under society/events
-* Add a 'signup thankyou' page also under society/events
-* Create a signup form in hubspot. Add a confirmation email to it. Add a new contact property for the event so you can see which contacts signed up for it.
-* Update the layouts/event.html layout with the hubspot signup form
-* Update the layouts/event_signup_success.html layout with an AddEvent "add to calendar" link
-* Update the hubspot form with a landing page pointing at the 'signup thankyou' page
+* In hubspot, bulk update the 'events' property for everyone who attended the previous event
+* Wipe the 'next_open_space' property from all contacts in Hubspot
+* Update AddEvent "add to calendar" link with the next date
+* Rename the event page under society/events
+* Update society/events/index.md with a link to the updated event signup page
 * Test that you can sign up:
   * correct signup thankyou page
   * 'add to calendar' link on that page works, 
   * you get a confirmation email
-  * you get the new contact property in hubspot
-* Update society/events/index.md with a link to the event signup page
+  * you get the 'next_open_space' property in hubspot
+* Create zoom meeting
+* Create calendar event and invite co-host & society members
+* Create and schedule email 1 week before with zoom link
+* Create and schedule email on the day with zoom link
+* Advertize on discord etc

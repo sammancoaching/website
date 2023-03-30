@@ -53,8 +53,6 @@ def main():
         password = os.environ["FTP_PASSWORD"]
         server = os.environ["FTP_SERVER"]
 
-    print("found credentials", user, password, server)
-
     with FTP_TLS(host=server, user=user, passwd=password) as ftp:
         ftp.cwd("web")
         local_web = "_site"

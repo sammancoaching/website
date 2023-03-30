@@ -15,7 +15,7 @@ minutes: 2
 - If no-one raises a hand, give them hints 
 - Write up whatever they say on a list where everyone can see it. 
 
-If someone says something that you suspect isn't true, still write it up and don't immediately tell them that they are wrong. Ask whether anyone else in the group is of a different opinion. If no-one else says anything, explain in a kind way why you don't think that's true. On the shared visible list, mark the disagreement next to this item, (perhaps add an asterisk and a note). Then move on.
+If someone says something that you suspect isn't true, still write it up and don't immediately tell them that they are wrong. Ask whether anyone else in the group is of a different opinion. If no-one else says anything, don't worry about it. Hopefully they will work it out by the end of the session. Just move on.
 
 ## Benefits
 

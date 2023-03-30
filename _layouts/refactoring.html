@@ -1,0 +1,48 @@
+---
+layout: homepage
+---
+{{ content }}
+
+<h2>Prompted by Code Smells </h2>
+<p>
+    <ul>
+    {% assign sorted_smells = site.code_smells | sort: 'title' %}
+    {% for smell in sorted_smells %}
+        {% if page.code_smells contains smell.name %}
+        <li>
+            <a href="{{ smell.url }}">{{ smell.title }}</a>
+        </li>
+        {% endif %}
+    {% endfor %}
+</ul>
+</p>
+
+<h2>Relevant Learning Hours </h2>
+<p>
+<ul>
+    {% assign sorted_lhs = site.learning_hours | sort: 'title' %}
+    {% for lh in sorted_lhs %}
+    {% if page.learning_hours contains lh.name %}
+    <li>
+        <a href="{{ lh.url }}">{{ lh.title }}</a>
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>
+</p>
+
+<h2>Sources</h2>
+<p>
+<ul>
+    {% if page.source == 'Martin Fowler' %}
+    <li>This refactoring is included Martin Fowler's book <a href="{{ page.source_url }}">"Refactoring", 2nd Edition</a></li>
+    {% endif %}
+    {% if page.source != 'Martin Fowler' %}
+    <li>This refactoring was contributed to this site by {{ page.source }}</li>
+    {% endif %}
+
+</ul>
+</p>
+<p>
+    Back to <a href="/reference/refactorings/index.html">All Refactorings</a>
+</p>

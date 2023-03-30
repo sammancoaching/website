@@ -2,7 +2,7 @@
 theme: test_design
 title: Benefits of Arrange - Act - Assert
 kata: encode_refactoring
-difficulty: 1
+difficulty: 2
 author: emilybache
 affiliation: ProAgile
 ---

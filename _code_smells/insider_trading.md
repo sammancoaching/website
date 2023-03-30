@@ -1,6 +1,7 @@
 ---
 layout: code_smell
 title: Insider Trading
+source: Martin Fowler
 ---
 
 # Insider Trading

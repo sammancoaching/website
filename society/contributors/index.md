@@ -1,8 +1,15 @@
 ---
-layout: members
-title: Contributors to sammancoaching.org
+layout: society
+title: Site Contributors
 ---
+{% capture section1 %}
+# Site Contributors
 
-# Contributors to this site
+The Samman Technical Coaching Society members who manage this website are listed below.
+{% endcapture %}
 
-The Samman Technical Coaching Society is very grateful to the Samman coaches who have contributed materials to this site. They are listed below.
+{% capture section2 %}
+We are also very grateful to other technical coaches who collaborate with us and contribute learning hours:
+{% endcapture %}
+
+{% include contributors.html %}

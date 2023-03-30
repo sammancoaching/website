@@ -5,5 +5,13 @@ layout: default
 <hr>
 <footer>
     {% assign person = site.data.contributors[page.author] %}
-    License: <a href="/LICENSE.html">CC-BY-SA-4.0</a>. Attribution: <a href="/society/contributors/{{ page.author }}.html">{{ person.title }}</a> - {% if page.affiliation %}{{ page.affiliation }} - {% endif %}<a href="/">sammancoaching.org</a>
+    {% assign via = site.data.contributors[page.via] %}
+    License: <a href="/LICENSE.html">CC-BY-SA-4.0</a>.
+    Attribution: <a href="/society/contributors/{{ page.author }}.html">{{ person.title }}</a>
+    {% if via %}
+        & <a href="/society/contributors/{{ page.via }}.html">{{ via.title }}</a>
+    {% elsif page.affiliation %}
+        - {{ page.affiliation }}
+    {% endif %}
+    - <a href="/">sammancoaching.org</a>
 </footer>

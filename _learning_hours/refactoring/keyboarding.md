@@ -1,5 +1,6 @@
 ---
 theme: refactoring
+name: keyboarding
 title: Keyboarding skills
 kata: tennis
 difficulty: 2

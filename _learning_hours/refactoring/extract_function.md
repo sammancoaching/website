@@ -1,5 +1,6 @@
 ---
 theme: refactoring
+name: refactoring_vocabulary
 title: Vocabulary for Refactoring
 kata: tennis
 difficulty: 1
