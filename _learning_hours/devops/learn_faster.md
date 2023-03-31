@@ -3,7 +3,7 @@ theme: devops
 title: Learn Faster By Practicing Teaching
 kata: 
 difficulty: 1
-author: petergfader
+author: peitor
 affiliation: BeyondAgility
 ---
 
@@ -13,9 +13,7 @@ affiliation: BeyondAgility
 
  * Practice Teaching
  * Learn that Teaching is a great way of Learning
- 
- 
-  
+
  
 ## Session Outline
 
@@ -33,24 +31,20 @@ Two topics I would recommend to connect to:
      What is different afterwards?  
 
   2. How do you learn best?  
-  
-  
+
 *PS: #ELI5 = Explain It Like I'm 5.*
-  
 
 ### Concept: Learning
 Pre-requisite: Search for alternatives to this image:    
   [Learning Pyramid Search](https://www.ecosia.org/images?q=learning%20pyramid)  
 
 1. Show this model (or your alternative)  
-   ![Learning Pyramid](Learning-Pyramid-Training-Material.png)  
+   ![Learning Pyramid](/assets/images/Learning-Pyramid-Training-Material.png)  
 
 2. Explain it :)  
 3. Advanced (if time): Do you practice in a safe environment? (kata?) or in Production code? 
     How?
   
-    
-    
 
 ### Concrete: Teach Back
 
@@ -64,7 +58,7 @@ Pre-requisite: Search for alternatives to this image:
        
   
 #### Tips:  
-  * Find an use a picture
+  * Find and use a picture
   * Find code samples and use them
     
     
@@ -76,10 +70,8 @@ Explain
 
 
 ### Conclusions: 
-Collect Round Robin:
+[Collect Round Robin]({% link _activities/conclusions/collect_round_robin.md %}):
 
  * Your Aha! on a Meta Level  
  * What should we do with this?
   
-  
-   
