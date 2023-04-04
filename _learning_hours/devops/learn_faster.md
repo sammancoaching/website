@@ -35,11 +35,17 @@ Two topics I would recommend to connect to:
 ### Concept: Learning
 Pre-requisite: Search for alternatives to this image:    
   [Learning Pyramid Search](https://www.ecosia.org/images?q=learning%20pyramid)  
+  **Tips**: 
+  _There are lots of different versions of this model.  
+  Find one that suits your teaching style and that you can share in your organisation (documentation)._
+  
+  
 
 1. Show this model (or your alternative)  
    ![Learning Pyramid](/assets/images/Learning-Pyramid-Training-Material.png)  
 
 2. Explain it :)  
+   Make the teaching as interactive as possible, by asking questions around the model (or your favourite teaching style)
 3. Advanced (if time): Do you practice in a safe environment? (kata?) or in Production code? 
     How?
   
