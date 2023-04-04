@@ -26,13 +26,11 @@ affiliation: BeyondAgility
 ### Connect: 
 Two topics I would recommend to connect to:
  
-  1. #ELI5   
-     What does "*I learn something*" mean?   
+  1. What does "*I learn something*" mean?   
      What is different afterwards?  
 
   2. How do you learn best?  
 
-*PS: #ELI5 = Explain It Like I'm 5.*
 
 ### Concept: Learning
 Pre-requisite: Search for alternatives to this image:    
