@@ -59,9 +59,13 @@ Pre-requisite: Search for alternatives to this image:
 3. 15min: Everyone prepares 
 4. 1.5min: Everyone does short teach back 
 5. Group gives feedback (Fist of 5) 
+   
+**Fist of 5**: Everyone uses their hand to rate the teach back.   
+1=Disaster, 5=Perfect, all the others (2,3,4) are somewhere between disaster and perfect.  
+Everyone should be prepared to answer the followup question: _"What could the teacher improve to make it perfect (=5) for you?"_
        
   
-#### Tips:  
+#### Tips For Teach Back:  
   * Find and use a picture
   * Find code samples and use them
     
