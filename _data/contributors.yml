@@ -58,15 +58,15 @@ peitor:
   url: https://beyond-agility.com/
   affiliation: Beyond Agility
   member: no
-dmerejkowsky:
-  title: Dimitri Merejkowsky
-  url: https://dmerej.info/
-  affiliation: TODO
-  member: no
 gregorriegler:
   title: Gregor Riegler
   url: https://ebcont.com
   affiliation: ebcont
+  member: no
+dmerejkowsky:
+  title: Dimitri Merejkowsky
+  url: https://dmerej.info/
+  affiliation: Independent
   member: no
 claresudbery:
   title: Clare Sudbery
