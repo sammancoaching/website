@@ -2,9 +2,8 @@
 layout: member
 title: Clare Sudbery
 author: claresudbery
-role: Technical Coach
 ---
 
-# {{ page.title}}
+# Clare Sudbery
 {% assign author = site.data.contributors[page.author] %}
-{{author.title}} is a {{page.role}} at [{{author.affiliation}}]({{author.url}}).
+{{author.title}} is an independent Technical Coach with this [blog]({{author.url}}).
