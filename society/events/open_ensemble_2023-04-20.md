@@ -13,12 +13,12 @@ More and more developers are realizing ensemble or mob programming is a great wa
 
 * Development teams use ensemble working to do their normal work and raise quality.
 * Technical coaches use ensemble as a teaching forum for the teams they work with.
-* Dev leads and architects can share knowledge and skills with the teams they are responsible for.
+* Dev leads and architects hold ensembles to share knowledge and skills with the teams they are responsible for.
 * Open source projects host ensemble sessions where new contributors can work with experienced contributors.
 
-For a group that's never worked this way before it can be a little daunting and doesn't always go as well as you hoped the first time. This session is an introduction to the roles and basic structures of ensemble collaboration. We'll do a code kata in Java, although the focus will be on collaboration techniques. Don't worry if you're not that familiar with Java, we'll help you.
+For people who have never worked this way before it can be a little daunting and doesn't always go as well as you hoped the first time. This session is an introduction to the roles and basic structures of ensemble collaboration. We'll do a code kata in Java, although the focus will be on collaboration techniques. Don't worry if you're not that familiar with Java, we'll help you.
 
-Coming to this session will give you the skills you need to:
+Coming to this session will hopefully give you the skills and confidence you need to:
 
 * take part in open ensembles like those organized by [Mobus Operandi](https://mobusoperandi.com/), 
 * start your own ensemble internally at your company 
