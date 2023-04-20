@@ -1,5 +1,5 @@
 ---
-layout: ensemble_event
+layout: society
 title: Samman Society Open Ensemble Event
 ---
 
@@ -30,5 +30,4 @@ society/contributors/claresudbery.md %}). Fill in the form lower down on this pa
 
 This event is sponsored by [Bache Consulting](http://bacheconsulting.com) and is free to attend.
 
-### Sign up
-Fill in the form below to sign up to attend. We will email you a link to the Zoom meeting before it starts. You will not need access to any specific IDE or software, just a good internet connection and a modern browser.
+Signup for this event is closed. If you would like to hear about future events, please [contact us]({% link contact.md %})
