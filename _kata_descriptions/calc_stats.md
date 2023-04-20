@@ -19,6 +19,7 @@ For example: [6, 9, 15, -2, 92, 11]
 * number of elements in the sequence = 6
 * average value = 21.833333
 
+If you try to calculate the statistics of an empty sequence, it should throw an exception or otherwise return immediately with the message "sequence is empty".
 
 ### Acknowledgments
 This kata is described on cyber-dojo.org
