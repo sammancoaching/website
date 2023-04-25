@@ -5,12 +5,12 @@ title: Samman Coaching Society Online Open Space Event
 
 # Samman Coaching Society Online Open Space Event
 
-**Tuesday 25th April 2023, 15:30 CET**
+**Tuesday 30th May 2023, 15:30 CET**
 
 _Bring your questions and exchange experiences with other technical coaches._
 
-This is a one hour online open space hosted by [Emily Bache]({% link 
- society/contributors/emilybache.md %}). Fill in the form lower down on this page to sign up and receive a meeting link by email.
+This is a one hour online open space hosted by [Emily Bache]({% link
+society/contributors/emilybache.md %}). Fill in the form lower down on this page to sign up and receive a meeting link by email.
 
 We will use the online whiteboard Miro to set up an open space agenda together, then hold two timeboxed discussions in Zoom breakout rooms. Everyone will be encouraged to contribute topics for the agenda, and to actively take part in discussions.
 
