@@ -9,10 +9,13 @@ layout: homepage
     {% if page.source == 'Martin Fowler' %}
         <li>This smell is included Martin Fowler's book "Refactoring", 2nd Edition</li>
     {% endif %}
+    {% if page.source == 'Adam Tornhill' %}
+    <li>This smell comes from a respected technical leader, {{ page.source }}</li>
+    {% endif %}
     {% if page.wikipedia_source == true %}
         <li> This smell is included among wikipedia's <a href="https://en.wikipedia.org/wiki/Code_smell">code smells</a></li>
     {% endif %}
-    {% if page.source != 'Martin Fowler' %}
+    {% if page.source != 'Martin Fowler' and page.source != 'Adam Tornhill' %}
         <li>This smell was contributed to this site by {{ page.source }}</li>
     {% endif %}
 
