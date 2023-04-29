@@ -26,10 +26,11 @@ A common one that is sometimes applicable is to [Replace Nested Conditional with
 * 5 min connect: Discuss: How much nesting inside a function is tolerable?  
 * 10 min concept: Demo the refactoring
 * 5 min conclusion: Compare the original code with the simplified version
-* 35 min concrete practice: Practice the same refactoring
+* 25 min concrete practice: Practice the same refactoring
     * In an ensemble
     * In pairs
-* 5 min conclusion: Come up with places in your code where this would apply
+* 10 min concrete practice: Find potential Guard Clauses in your Code
+* 5 min conclusion: How did you spot it
 
 ### Connect: How much Nesting is tolerable?
 Have people discuss in pairs how much levels of nesting they think is ok.
@@ -51,5 +52,9 @@ Have the participants practice the same exercise.
 If the group is familiar with Ensemble Programming, you might want them to do it in an ensemble first.
 When there is time left have them do it again in pairs.
 
-### Conclusion: Come up with Places in your Code
-Ask the participants whether they know a code in their project where that refactoring would apply, too.
+### Concrete Practice: Find potential Guard Clauses in your Code
+Have the participants scan their own code for occurences where this refactoring would apply, and have them write down the filename and line number.
+
+### Conclusion: How did you spot it
+Ask the participants how they did spot those places.
+What are the characteristics of a potential guard clause?
