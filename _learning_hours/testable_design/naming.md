@@ -20,7 +20,7 @@ Well designed code uses contexts and domain to build trust in the naming.
 But often it is ill advised to trust the names used in software.
 That is when this learning hour comes in handy.
 
-This learning hour is heavily inspired by Arlo Belshee and his [7 stages of naming]( https://www.digdeeproots.com/articles/c/series/).
+This learning hour is heavily inspired by Arlo Belshee and his work on [Naming as a Process](https://www.digdeeproots.com/articles/naming-process/).
 One change is that I call the *honest* step for *honest incomplete* and the *completely honest* for *honest complete*,
 to stress to difference between them. 
 I also think that the *obvious nonsense* could be called *honest nonsense*,
@@ -71,10 +71,9 @@ This is an exercise in exposing lack of structural integrity,
 instead of hiding it behind pretty names, that don't tell us what the code does.
 
 Arlo Belshee has the concept
-[7 stages of naming]( https://www.digdeeproots.com/articles/c/series/).
+[Naming as a Process]( https://www.digdeeproots.com/articles/naming-process/).
 
-This learning hour is heavily inspired by step two, three and four of those.
-The steps are *obvious nonsense*, *honest incomplete* and *honest complete*.
+This learning hour is heavily inspired by step two, three and four: *obvious nonsense*, *honest incomplete* and *honest complete*.
 
 
 1. *Obvious nonsense* is about changing the current dishonest nonsense name to an honest one.
