@@ -53,6 +53,11 @@ nitsanavni:
   url: https://nitsanavni.github.io/
   affiliation: Independent
   member: yes
+peitor:
+  title: Peter Gfader
+  url: https://beyond-agility.com/
+  affiliation: BeyondAgility
+  member: no
 claresudbery:
   title: Clare Sudbery
   url: https://tinyurl.com/SSE-Ltd
@@ -63,3 +68,5 @@ xaviametller:
   url: https://www.myowncommonsense.com/
   affiliation: Independent
   member: no
+
+
