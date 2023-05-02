@@ -4,13 +4,26 @@ layout: society
 
 {{ content }}
 {% assign person = site.data.members[page.author] %}
+{% assign by_author = site.learning_hours | where: 'author', page.author | sort: 'title' %}
+{% assign by_via = site.learning_hours | where: 'via', page.author | sort: 'title' %}
 {% if person.member %}  {% endif %}
+{% if by_author.size > 0 %}
 <h2> Learning Hours: </h2>
 <ul>
-    {% assign by_author = site.learning_hours | where: 'author', page.author | sort: 'title' %}
     {% for learning_hour in by_author %}
     <li>
         <a href="{{ learning_hour.url }}">{{ learning_hour.title }}</a>
     </li>
     {% endfor %}
 </ul>
+{% endif %}
+{% if by_via.size > 0 %}
+<h2> Co-authored Learning Hours: </h2>
+<ul>
+    {% for learning_hour in by_via %}
+    <li>
+        <a href="{{ learning_hour.url }}">{{ learning_hour.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
+{% endif %}
