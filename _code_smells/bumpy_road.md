@@ -9,4 +9,6 @@ Code is easier to read if all the code in the same block has the same level of i
 
 Bumpy road is a sign that the [cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) of the code is high, and the code is difficult to read and comprehend. The human brain has a limit of how much complexity it can hold at once, and heavily indented code is very likely to be beyond human capabilities of comprehension just because there are so many things to keep in mind at once.
 
-This smell is also known as "Heavy Indentation" or "Deep Nesting". The name "Bumpy Road" comes from an article by Adam Tornhill [The Bumpy Road Code Smell: Measuring Code Complexity by its Shape and Distribution](https://codescene.com/blog/bumpy-road-code-complexity-in-context).
+## Other names for this smell
+
+This smell is also known as "Heavy Indentation" or "Deep Nesting". The name "Bumpy Road" comes from an article by Adam Tornhill [The Bumpy Road Code Smell: Measuring Code Complexity by its Shape and Distribution](https://codescene.com/blog/bumpy-road-code-complexity-in-context). In Michael Feathers book "Working Effectively with Legacy Code" he describes a similar smell: a "Snarled method" is one "dominated by a single large, indented section". It's a Bumpy Road with only one bump.
