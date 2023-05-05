@@ -18,7 +18,7 @@ In short, membership is offered to competent technical coaches who existing memb
 The mission of the society is to support all technical coaches, not only members. You don't need to be a member to:
 
 * Use materials from the website in your work
-* Join the most discussion groups on Discord and post about any topics relevant to technical coaching
+* Join most discussion groups on Discord and post about any topics relevant to technical coaching
 * Attend open space discussions and other such meetings organised by the society
 * Contribute materials to the website, if a member is willing to collaborate with you to publish them there.
 
