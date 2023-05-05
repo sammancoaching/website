@@ -7,7 +7,7 @@ title: About Membership of the Samman Technical Coaching Society
 
 This page sets out:
 * Benefits available to both members and non-members
-* Benefits are available only to members
+* Benefits available only to members
 * Requirements before people will be offered membership
 * Additional benefits available to members in certain roles within the society
 
