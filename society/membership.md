@@ -5,7 +5,6 @@ title: About Membership of the Samman Technical Coaching Society
 
 # Membership of the Samman Society
 
-## Executive Summary
 This page sets out:
 * Benefits available to both members and non-members
 * Benefits are available only to members
