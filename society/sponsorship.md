@@ -3,11 +3,11 @@ layout: society
 title: Sponsor the Samman Coaching Society
 ---
 
-# Sponsor the Samman Technical Coaching Society
+# Sponsors of the Samman Technical Coaching Society
 
-Our sponsors give financial and other support to enable the society to realize our mission to support technical coaches with quality materials, training and advice. We are grateful to their support.
+Our sponsors give financial and other support to enable the society to realize our [mission]({% link society/about_society.md %}). We are grateful to them:
 
 - [ProAgile](https://proagile.eu/) 
+- [Bache Consulting](http://bacheconsulting.com/)
 
-We accept sponsorship from companies which align with our society's [mission](about_society.html).
-If you are interested in becoming a sponsor, please get in touch via our [contact page](/contact.html).
+If you are interested in becoming a sponsor, please get in touch via our [contact page]({% link contact.md %}).
