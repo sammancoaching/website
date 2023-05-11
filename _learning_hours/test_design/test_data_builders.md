@@ -19,7 +19,8 @@ while improving their readability and reducing coupling between tests and source
 
 ## Connect
 
-- Write notes with the name of some following patterns which can be used to create test inputs: a class constructor
+- Write notes with the name of some following patterns which can be used to create test inputs: 
+  - a class constructor
   - a class constructor with default values
   - a factory method
   - object mother
@@ -48,7 +49,7 @@ Demo the refactoring of test inputs using a test data builder on an existing tes
 - remove usage of overriding methods when the value set is not relevant for the test case
 
 #### Tips
-- You can use the [test-data-builders-kata](../../mikado-method/test-data-builders-kata), choosing the language of your choice, refactoring the Country creation.
+- You can use the [test-data-builders-kata](https://github.com/katalogs/test-data-builders-kata), choosing the language of your choice, refactoring the Country creation.
 - Use the [generate code from usage](https://xtrem-tdd.netlify.app/Flavours/generate-code-from-usage) method to focus on writing the code as you need to use it, and keep the demo short and clear.
 
 ## Concrete Practice
