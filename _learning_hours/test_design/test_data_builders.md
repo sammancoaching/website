@@ -10,6 +10,11 @@ author: julienvitte
 [Test data builders](http://www.natpryce.com/articles/000714.html) is a pattern you can use to easily arrange test data, 
 while improving their readability and reducing coupling between tests and source code. 
 
+## Learning Goals
+
+- Name the 4 rules of the test data builder pattern
+- Use test data builders to create test inputs
+
 ## Session outline
 
 * 7 min connect: Map patterns with code examples
