@@ -56,11 +56,12 @@ Explain the [4 rules of test data builders](http://www.natpryce.com/articles/000
 ### Demo (10 min)
 Demo the refactoring of test inputs using a test data builder on an existing test.
 - use only with...() method names in a first time
-- remove usage of overriding methods when the value set is not relevant for the test case
+- remove usage of overriding method when the value set is not relevant for the test case 
+  (you can change the argument value with no side effect on the test execution)
 
 #### Tips
-- You can use the [test-data-builders-kata](https://github.com/katalogs/test-data-builders-kata), choosing the language of your choice, refactoring the Country creation.
-- Use the [generate code from usage](https://xtrem-tdd.netlify.app/Flavours/generate-code-from-usage) method to focus on writing the code as you need to use it, and keep the demo short and clear.
+- You can use the [test-data-builders-kata](https://github.com/katalogs/BookInvoicing-TestDesign-Kata), choosing the language of your choice, refactoring the Country object construction in tests.
+- You may use the [generate code from usage](https://xtrem-tdd.netlify.app/Flavours/generate-code-from-usage) method to focus on writing the code as you need to use it, and keep the demo short and clear.
 
 ## Concrete Practice
 
