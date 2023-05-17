@@ -17,25 +17,30 @@ while improving their readability and reducing coupling between tests and source
 
 ## Session outline
 
-* 7 min connect: Map patterns with code examples
+* 3 to 7 min [connect activity](#connect)
 * 13 min concept: 4 rules of a Test Data Builder + demo
-* 35 min concrete practice: refactor test data creation with test data builders  
-* 5 min reflect: explain the main idea
+* 35 to 39 min concrete practice: refactor test data creation with test data builders  
+* 5 min reflect: does our code have this issue?
 
 ## Connect
+Pick one of the following connect activities, depending on the trainee's knowledge:
+- 3 facts and a question about arranging inputs test
+- 3 facts about the builder pattern
+- map code examples with pattern names
+
+### Map code examples with pattern names
+
+#### Preparation
 
 - Write notes with the name of some following patterns which can be used to create test inputs: 
   - a class constructor
   - a class constructor with default values
   - a factory method
   - object mother
-  - test data builder
-  - test data builder + object mother combination
 - For each pattern, provide a note with an example
 - Randomize names and patterns
 
-### Map code examples with pattern names
-
+#### Activity
 - Ask attendees to map code examples of test inputs construction with the corresponding patterns. (3 min)
 - Discuss pros and cons of each pattern usage in a unit test suite context. (4 min)
 
