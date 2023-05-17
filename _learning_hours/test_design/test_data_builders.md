@@ -70,4 +70,7 @@ Ask attendees to:
 - apply the same technique to all objects created in the `Arrange` part of the tests
 
 ## Conclusion
-If you had to explain the main idea of test data builders usefulness to someone else, what would you say ?
+
+Does our code have this issue?
+
+Ask the team to find part of their tests where they could have applied the test data builder pattern
