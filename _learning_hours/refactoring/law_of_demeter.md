@@ -1,6 +1,6 @@
 ---
 theme: refactoring
-title: Law of Demeter
+title: Mending Law of Demeter Issues with Refactoring Tools
 name: law_of_demeter
 kata: fantasy_battle
 difficulty: 3
@@ -9,7 +9,7 @@ via: emilybache
 affiliation: ProAgile
 ---
 
-# Law of Demeter
+# Mending Law of Demeter Issues with Refactoring Tools
 
 This learning hour introduces the Law of Demeter and some concrete techniques for tackling code that breaks it.
 
