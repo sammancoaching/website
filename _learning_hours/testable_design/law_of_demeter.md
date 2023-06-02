@@ -1,7 +1,7 @@
 ---
 theme: testable_design
-name: law_of_demeter
-title: Law of Demeter
+name: identify_and_resolve_law_of_demeter_violations
+title: Identify and resolve Law of Demeter Violations
 kata: fantasy_battle
 difficulty: 3
 author: gregorriegler
