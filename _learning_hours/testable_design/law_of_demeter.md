@@ -1,13 +1,13 @@
 ---
 theme: testable_design
 name: identify_and_resolve_law_of_demeter_violations
-title: Identify and resolve Law of Demeter Violations
+title: Identify and Resolve Law of Demeter Violations
 kata: fantasy_battle
 difficulty: 3
 author: gregorriegler
 ---
 
-# Law of Demeter
+# Identify and Resolve Law of Demeter Violations
 
 The "Principle of Least Knowledge" is not a law, but rather a principle closely related to "Tell, Don't Ask". 
 It advises against unnecessary communication with unfamiliar entities to avoid excessive coupling. 
