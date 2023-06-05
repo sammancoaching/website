@@ -1,5 +1,5 @@
 ---
-layout: event
+layout: ensemble_event
 title: Samman Society Open Ensemble Event
 ---
 
