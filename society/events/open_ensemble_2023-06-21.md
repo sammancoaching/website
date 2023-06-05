@@ -1,11 +1,11 @@
 ---
-layout: society
+layout: event
 title: Samman Society Open Ensemble Event
 ---
 
 # Samman Society Open Ensemble
 
-**Thursday 20th April 2023, 15:00 - 17:00 CET**
+**Wednesday 21st June 2023, 10:00 - 12:00 CET**
 
 _Introduction to Ensemble programming._
 
@@ -25,9 +25,9 @@ Coming to this session will hopefully give you the skills and confidence you nee
 * Begin hosting an ensemble for your favourite open source project. 
 
 This is an open ensemble hosted by [Emily Bache]({% link
-society/contributors/emilybache.md %}) and [Clare Sudbery]({% link
-society/contributors/claresudbery.md %}). Fill in the form lower down on this page to sign up and receive a meeting link by email.
+society/contributors/emilybache.md %}). Fill in the form lower down on this page to sign up and receive a meeting link by email.
 
 This event is sponsored by [Bache Consulting](http://bacheconsulting.com) and is free to attend.
 
-Signup for this event is closed. If you would like to hear about future events, please [contact us]({% link contact.md %})
+### Sign up
+Fill in the form below to sign up to attend. We will email you a link to the Zoom meeting before it starts.
