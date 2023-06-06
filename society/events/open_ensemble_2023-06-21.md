@@ -25,7 +25,8 @@ Coming to this session will hopefully give you the skills and confidence you nee
 * Begin hosting an ensemble for your favourite open source project. 
 
 This is an open ensemble hosted by [Emily Bache]({% link
-society/contributors/emilybache.md %}). Fill in the form lower down on this page to sign up and receive a meeting link by email.
+society/contributors/emilybache.md %}) and [Nitsan Avni]({% link
+society/contributors/nitsanavni.md %}). Fill in the form lower down on this page to sign up and receive a meeting link by email.
 
 This event is sponsored by [Bache Consulting](http://bacheconsulting.com) and is free to attend.
 
