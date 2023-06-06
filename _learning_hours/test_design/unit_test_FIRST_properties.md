@@ -2,7 +2,7 @@
 theme: test_design
 title: Unit Test FIRST properties
 kata: leap_years
-difficulty: 1
+difficulty: 2
 author: emilybache
 affiliation: ProAgile
 ---
