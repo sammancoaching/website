@@ -20,14 +20,14 @@ author: ythirion
 * 5 min conclusions: Test readability
 
 ## Connect - Audit review
-Open the `AuditManager_Should` test class from the [Audit kata](/kata_descriptions/audit.html).
+Open the `AuditManager_Should` test class from the [Audit kata]({% link _kata_descriptions/audit.md %}) - the code is in the [Audit-Kata repo](https://github.com/katalogs/audit-kata).
 
 - What can be improved in the tests? Why?
 - What make this test hard to understand / maintain?
 - What do you think about the naming?
 
 ## Concepts - Styles and costs
-![State-Based Style](/assets/images/styles-of-unit-tests/state-based.png)
+![State-Based Style]({% link /assets/images/styles-of-unit-tests/state-based.png %})
 
 #### State-Based Example
 ```csharp
@@ -45,7 +45,7 @@ public void It_Should_Add_Given_Product_To_The_Order()
 }
 ```
 
-![Output-Based Style](/assets/images/styles-of-unit-tests/output-based.png)
+![Output-Based Style]({% link /assets/images/styles-of-unit-tests/output-based.png %})
 
 #### Output-Based Example
 ```csharp
@@ -61,7 +61,7 @@ public void Discount_Of_2_Products_Should_Be_2_Percent()
 }
 ```
 
-![Communication-Based Style](/assets/images/styles-of-unit-tests/communication-based.png)
+![Communication-Based Style]({% link /assets/images/styles-of-unit-tests/communication-based.png %})
 
 Refactorings are harder with `Communication-based` : if you change the interaction you need to change the tests as well.
 
@@ -83,7 +83,7 @@ public void Greet_A_User_Should_Send_An_Email_To_It()
 The images above are part of the `Unit Testing Principles, Practices and Patterns` book infographic available [here](https://yoan-thirion.gitbook.io/knowledge-base/xtrem-reading/my-book-infographics).
 
 ## Concrete Practice - Refactor to output-based testing
-Explain the purpose of the [Audit](/kata_descriptions/audit.html) kata. 
+Explain the purpose of the [Audit]({% link _kata_descriptions/audit.md %}) kata. 
 
 Ask them to:
 * Refactor the tests and production code to `Output based` tests
@@ -91,7 +91,7 @@ Ask them to:
       * `AuditManager` is then only responsible for making a decision about what to do with the files
       * A new class, `Persister` acts on that decision and applies updates to the filesystem
 
-![Functional code](/assets/images/audit-functional.png)
+![Functional code]({% link /assets/images/audit-functional.png %})
 
 A `step-by-step` guide is available [here](https://github.com/katalogs/audit-kata/blob/main/step-by-step.md).
 
