@@ -1,7 +1,7 @@
 ---
 theme: test_design
 title: Test data builders
-difficulty: 1
+difficulty: 3
 author: julienvitte
 ---
 
@@ -42,7 +42,7 @@ Pick one of the following connect activities, depending on the trainee's knowled
 
 #### Activity
 - Ask attendees to map code examples of test inputs construction with the corresponding patterns. (3 min)
-- Discuss pros and cons of each pattern usage in a unit test suite context. (4 min)
+- Discuss pros and cons of each pattern usage in a unit test suite context, (you could use examples from the team's production code). (4 min)
 
 ## Concepts
 
@@ -60,7 +60,7 @@ Demo the refactoring of test inputs using a test data builder on an existing tes
   (you can change the argument value with no side effect on the test execution)
 
 #### Tips
-- You can use the [test-data-builders-kata](https://github.com/katalogs/BookInvoicing-TestDesign-Kata), choosing the language of your choice, refactoring the Country object construction in tests.
+- You can use the [BookInvoicing-TestDesign-Kata](https://github.com/katalogs/BookInvoicing-TestDesign-Kata), (also known as test-data-builders-kata), choosing the language of your choice, refactoring the Country object construction in tests.
 - You may use the [generate code from usage](https://xtrem-tdd.netlify.app/Flavours/generate-code-from-usage) method to focus on writing the code as you need to use it, and keep the demo short and clear.
 
 ## Concrete Practice
