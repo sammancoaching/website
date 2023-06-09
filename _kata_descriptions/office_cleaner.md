@@ -38,7 +38,7 @@ Sample output:
 	=> Cleaned: 4
 
 ## Refactoring Kata
-There are several implementations you can use to practice Refactorings.
+There are several implementations you can use to practice refactoring in this repo: [Office Cleaning Robot Refactoring Kata](https://github.com/sammancoaching/OfficeCleaningRobot-Refactoring-Kata).
 
 ## Acknowlegements
 I learnt this exercise from Luca Minudel. It is quite similar to [Mars Rover]({% link _kata_descriptions/mars_rover.md %}).
