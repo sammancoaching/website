@@ -1,5 +1,5 @@
 ---
-layout: ensemble_event
+layout: society
 title: Samman Society Open Ensemble Event
 ---
 
@@ -31,4 +31,4 @@ society/contributors/nitsanavni.md %}). Fill in the form lower down on this page
 This event is sponsored by [Bache Consulting](http://bacheconsulting.com) and is free to attend.
 
 ### Sign up
-Fill in the form below to sign up to attend. We will email you a link to the Zoom meeting before it starts.
+Sign up is currently closed as we do not know when the next session will be held.
