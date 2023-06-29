@@ -14,7 +14,7 @@ society/contributors/isidore.md %}), Diana Sherwood and Chris May. Fill in the f
 
 We will use the online whiteboard Miro to set up an open space agenda together, then hold two timeboxed discussions in Zoom breakout rooms. Everyone will be encouraged to contribute topics for the agenda, and to actively take part in discussions.
 
-This event is sponsored by [Bache Consulting](http://bacheconsulting.com) and [ProAgile](https://proagile.se/en) and is free to attend.
+This event is free to attend.
 
 ## Agenda
 Times are CET - use this link to [Add to Calendar](https://www.addevent.com/event/Aq15076772) in your timezone.
