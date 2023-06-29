@@ -8,7 +8,7 @@ title: Refactorings
 This is a collection of descriptions of [Refactorings](https://refactoring.com/). The descriptions are original to this site although many of the names are taken from Martin Fowler's book "Refactoring" 2nd Edition.
 
 ## Refactoring structure
-Each refactoring is described using the structure "Identify - Prepare - Refactor - Clean - Follow up".
+Each refactoring is described using the structure "Identify - Prepare - Refactor - Clean - Follow up". This is based on the [EPIC Continuous Improvement Cycle by Bryan Beecham](https://www.agilealliance.org/resources/videos/epic-refactoring-applying-the-epic-continuous-improvement-cycle/).
 
 * Identify - find the program element(s) you want to transform.
 * Prepare - before you do the transformation, work on making that change easier. This can mean researching the impact of the planned change, or doing some preparatory refactorings to make it easier.
