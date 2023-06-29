@@ -10,8 +10,7 @@ via: emilybache
 
 # Identify Paragraphs in Long Methods
 
-[Long function]({% link _code_smells/long_function.md %}) is a common code smell. Learning to identify paragraphs that can be extracted as methods is often a good strategy in this situation. This learning hour is about understanding concepts and people will probably not be able to use this technique fluently without a follow-up session.
-
+[Long function]({% link _code_smells/long_function.md %}) is a common code smell. Learning to identify paragraphs that can be extracted as methods is often a good strategy in this situation. This learning hour is about understanding concepts and people will probably not be able to use this technique fluently without a follow-up session. It is adapted from a longer session that is detailed [in this repo](https://github.com/LearnWithLlew/RefactoringToCleanerCode.Slides).
 
 ## Learning Goals
 
@@ -44,7 +43,7 @@ A paragraph is a section of code within a long method that hangs together and mi
 * have a line of whitespace before and after
 * a cluster of statements using the same variable name or recurring word
 
-Once you think you've spotted a paragraph, it may take a little more investigation to see whether it really would be possible and/or desirable to extract as a method. If you have a refactoring tool, ask it to extract the paragraph for you. It should be able to tell you if it is possible and if so what the signature would look like.
+Once you think you've spotted a paragraph, it may take a little more investigation to see whether it really would be possible and/or desirable to extract as a method. If you have a refactoring tool, it can do this analysis for you. Ask it to do "extract method" on the paragraph. It should be able to show you if it's possible and what the method signature would be.
 
 ## Concrete Practice - BigDiceGame
 Bring up a development environment with a piece of code that has some easy to spot paragraphs that will easily turn into extracted methods. For example [BigDiceGame](https://github.com/LearnWithLlew/RefactoringToCleanerCode.cpp/blob/main/tests/YourCodeGoesHere.h).
