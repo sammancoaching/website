@@ -5,7 +5,7 @@ title: Samman Coaching Society Online Open Space Event
 
 # Samman Coaching Society Online Open Space Event
 
-**Monday 31st August 2023, 17:00 CET**
+**Monday 31st July 2023, 17:00 CET**
 
 _Bring your questions and exchange experiences with other technical coaches._
 
