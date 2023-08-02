@@ -13,10 +13,9 @@ This learning hour is about basic test design including assertions.
 
 ### Learning Goals
 
-- recognize a well-structured test case.
-- use assertions to check for equality
-- use assertions to check for exceptions
-
+- use a standard framework to write a test that fails if there is a bug.
+- recognize when a test has an AAA structure.
+- use an assert to check for equality of two numbers.
 
 ## Session Outline
 
