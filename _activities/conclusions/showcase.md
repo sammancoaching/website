@@ -1,5 +1,5 @@
 ---
-four_c_element: concrete
+four_c_element: conclusions
 title: Showcase
 minutes: 6
 ---
@@ -8,10 +8,10 @@ minutes: 6
 
 - Time 5-10 minutes
 
-When you do an exercise in pairs, people can be curious about what the other pairs have done. Ask each pair take a turn to put their solution up on the screen and spend 1-2 minutes explaining what they have done. 
+When you do an exercise in pairs, people can be curious about what the other pairs have done. Ask each pair take a turn to put their solution up on the screen and spend 1-2 minutes explaining what they have done.
 
 ## Benefits
-People like to show what they've done and it can help people understand there is more than one way to do things. If one pair has got much further than the others, it can serve as inspiration.
+People like to show what they've done and it can help people understand there is more than one way to do things. If one pair has got much further than the others, it can serve as inspiration. It's also an opportunity for [Coach's feedback]({% link _activities/conclusions/coaches_feedback.md %})
 
 ## Pitfalls
 The main way this can go wrong is if a pair spends ages talking about their solution and it turns into a big discussion. As facilitator, try to curtail that gracefully and find another occasion to address any issues being raised.

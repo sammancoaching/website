@@ -41,7 +41,7 @@ Normally in a unit test you only have one of each section, and they come in that
 Write some test cases for some existing code that has well-marked bugs in. For example [CalcStats](https://github.com/emilybache/CalcStats-TestDesign-Kata). Be sure to structure your test cases using Arrange - Act - Assert. Write tests that fail because of the bugs, and which pass when you fix the bugs.
 
 ### Conclusions: Test Design Guidelines
-[Showcase]({% link _activities/concrete/showcase.md %}) the various tests people have written. Take some screenshots and put them on the shared online whiteboard. Annotate them with what is good about these designs. Highlight what's good, also mention things that could be improved if you think it's important.
+[Showcase]({% link _activities/conclusions/showcase.md %}) the various tests people have written. Take some screenshots and put them on the shared online whiteboard. Annotate them with what is good about these designs. Highlight what's good, also mention things that could be improved if you think it's important.
 
 ### Conclusions
 Can you think of any advantages of structuring your tests this way, with Arrange - Act - Assert? Are there any situations where it wouldn’t be a good idea? [When should you use this?](/activities/conclusions/when_to_use_this.html)
