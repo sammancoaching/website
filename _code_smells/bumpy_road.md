@@ -11,4 +11,6 @@ Bumpy road is a sign that the [cyclomatic complexity](https://en.wikipedia.org/w
 
 ## Other names for this smell
 
-This smell is also known as "Heavy Indentation" or "Deep Nesting". The name "Bumpy Road" comes from an article by Adam Tornhill [The Bumpy Road Code Smell: Measuring Code Complexity by its Shape and Distribution](https://codescene.com/blog/bumpy-road-code-complexity-in-context). In Michael Feathers book "Working Effectively with Legacy Code" he describes a similar smell: a "Snarled method" is one "dominated by a single large, indented section". It's a Bumpy Road with only one bump.
+This smell has many other names, for example **Heavy Indentation** or **Deep Nesting**. The name "Bumpy Road" comes from an article by Adam Tornhill [The Bumpy Road Code Smell: Measuring Code Complexity by its Shape and Distribution](https://codescene.com/blog/bumpy-road-code-complexity-in-context). 
+
+In Michael Feathers book "Working Effectively with Legacy Code" he describes a similar smell: a **Snarled method** is one "dominated by a single large, indented section". It's a Bumpy Road with only one bump. Similarly the C2 wiki describes the [ArrowAntiPattern](http://wiki.c2.com/?ArrowAntiPattern).
