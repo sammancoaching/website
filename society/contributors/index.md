@@ -1,6 +1,6 @@
 ---
 layout: society
-title: Site Contributors
+title: Samman Coaches and Site Contributors
 ---
 {% capture section1 %}
 # Samman Coaches
