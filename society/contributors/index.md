@@ -3,7 +3,7 @@ layout: society
 title: Site Contributors
 ---
 {% capture section1 %}
-# Site Contributors
+# Samman Coaches
 
 The Samman Technical Coaching Society members who manage this website are listed below.
 {% endcapture %}
