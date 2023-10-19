@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Navigating without syntax details
+title: Talking without syntax details
 parent: Warm-up Questions
 grand_parent: Exercises
 nav_order: 6
 ---
 
-Match the words the navigator speaks to the code the typist should type. Write your answers in the “Code snippet number” column
+Match the words the talker speaks to the code the typist should type. Write your answers in the “Code snippet number” column
 
 
 1. Check if the numbers array is empty
