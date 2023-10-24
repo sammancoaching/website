@@ -35,14 +35,14 @@ The volunteer may be prepared to agree that they felt some small amount of stres
 ### A list of 7 related words in a familar sequence
 Thank the volunteer and ask if they can participate a final time. When they are ready read the final list, briskly but clearly, the same as in other excercises.
 
-Sink,
-Toothbrush,
-Toothpaste
+Bread,
+Butter,
+Ham
 
-Scrub,
-Mouthwash,
-Rinse,
-Towel
+Cheese,
+Lettuce,
+Tomato,
+Pickle
 
 Congratulate the volunteer if they are able to recall the list correctly, and then ask how they felt repeating the list this time around. Hopefully the whole ensemble will be able to agree that this list was much less stressful
 
