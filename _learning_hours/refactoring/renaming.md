@@ -26,7 +26,27 @@ author: codecop
 
 ### Connect - Fill-in-the-blanks "Naming"
 
-Prepare a fill in the blank exercise with at least 10 missing words in several paragraphs about readability and naming. (Chat-GPT works ok for this.) This is a self-correcting exercise. Each participant works on his/her own.
+Prepare a fill in the blanks exercise with at least 10 missing words in several paragraphs about readability and naming. (Chat-GPT works ok for this.) This is a self-correcting exercise. Each participant works on his/her own.
+<!-- [fill in the blanks]({% link _activities/connect/fill_in_blanks.md %} ) -->
+
+The exact exercise for this learning hour is:
+
+> Developers should prioritize writing their code for ___________ first, considering human readability over machine comprehension.
+> For code clarity, ___________ should be used to effectively convey the purpose of the associated code.
+> Incorporate ___________ to assign descriptive names to temporary values or expressions within your code.
+> More names mane it easier to understand the code's ___________.
+> 
+> Avoid using ___________ in identifiers, except for cases like ID and perhaps URL.
+> Choose ___________ for variables and functions, as they aid in discussions and recall.
+> The practice of ___________ notation negatively impacts code readability due to longer and less intuitive names.
+> It further complicates code maintenance when types ___________ or change.
+> 
+> Ensure that variable names correspond closely with the ___________ they represent, emphasizing ___________.
+> Function names must reflect the ___________ they execute, emphasizing ___________.
+
+With the used words (in that order):
+
+> people, expressive names, explanatory variables, intent, abbreviations, pronounceable names, Hungarian, evolve, entities, nouns, action, verbs
 
 ### Concept - Discuss importance of domain specific names
 
