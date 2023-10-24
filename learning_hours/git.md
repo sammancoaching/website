@@ -4,4 +4,4 @@ title: Learning Hours
 theme: git
 ---
 
-These learning hours are all about learning how to work effectively with the git command line tools. Fluency with the tools in you version control system is an essential part of effective continuous integration.
+These learning hours are all about learning how to work effectively with the git command line tools. Fluency with the tools in your version control system is an essential part of effective continuous integration.
