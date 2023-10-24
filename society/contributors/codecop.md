@@ -3,7 +3,6 @@ layout: member
 title: Peter Kofler
 author: codecop
 role: Software Development Coach
-url: https://blog.code-cop.org/
 ---
 
 # {{ page.title}}
