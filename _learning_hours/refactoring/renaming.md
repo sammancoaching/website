@@ -30,18 +30,18 @@ Prepare a fill in the blanks exercise with at least 10 missing words in several 
 
 The exact exercise for this learning hour is:
 
-> Developers should prioritize writing their code for ___________ first, considering human readability over machine comprehension.
-> For code clarity, ___________ should be used to effectively convey the purpose of the associated code.
-> Incorporate ___________ to assign descriptive names to temporary values or expressions within your code.
-> More names mane it easier to understand the code's ___________.
+> Developers should prioritize writing their code for \_\_\_\_\_\_\_\_\_\_\_ first, considering human readability over machine comprehension.
+> For code clarity, \_\_\_\_\_\_\_\_\_\_\_ should be used to effectively convey the purpose of the associated code.
+> Incorporate \_\_\_\_\_\_\_\_\_\_\_ to assign descriptive names to temporary values or expressions within your code.
+> More names mane it easier to understand the code's \_\_\_\_\_\_\_\_\_\_\_.
 > 
-> Avoid using ___________ in identifiers, except for cases like ID and perhaps URL.
-> Choose ___________ for variables and functions, as they aid in discussions and recall.
-> The practice of ___________ notation negatively impacts code readability due to longer and less intuitive names.
-> It further complicates code maintenance when types ___________ or change.
+> Avoid using \_\_\_\_\_\_\_\_\_\_\_ in identifiers, except for cases like ID and perhaps URL.
+> Choose \_\_\_\_\_\_\_\_\_\_\_ for variables and functions, as they aid in discussions and recall.
+> The practice of \_\_\_\_\_\_\_\_\_\_\_ notation negatively impacts code readability due to longer and less intuitive names.
+> It further complicates code maintenance when types \_\_\_\_\_\_\_\_\_\_\_ or change.
 > 
-> Ensure that variable names correspond closely with the ___________ they represent, emphasizing ___________.
-> Function names must reflect the ___________ they execute, emphasizing ___________.
+> Ensure that variable names correspond closely with the \_\_\_\_\_\_\_\_\_\_\_ they represent, emphasizing \_\_\_\_\_\_\_\_\_\_\_.
+> Function names must reflect the \_\_\_\_\_\_\_\_\_\_\_ they execute, emphasizing \_\_\_\_\_\_\_\_\_\_\_.
 
 With the used words (in that order):
 
