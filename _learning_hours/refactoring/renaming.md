@@ -24,7 +24,7 @@ author: codecop
 * 35 min concrete practice: Rename the Finder
 * 5 min conclusion: Round-robin "What did you learn?"
 
-### Connect - Fill-in-the-blanks "Naming"
+## Connect - Fill-in-the-blanks "Naming"
 
 Prepare a [fill in the blanks]({% link _activities/connect/fill_in_blanks.md %} ) exercise with at least 10 missing words in several paragraphs about readability and naming. (Chat-GPT works ok for this.) This is a self-correcting exercise. Each participant works on his/her own.
 
@@ -47,7 +47,7 @@ With the used words (in that order):
 
 > people, expressive names, explanatory variables, intent, abbreviations, pronounceable names, Hungarian, evolve, entities, nouns, action, verbs
 
-### Concept - Discuss importance of domain specific names
+## Concept - Discuss importance of domain specific names
 
 [Lecture]({% link _activities/concept/lecture.md %} ) using slides or frames: Recap the warmup's important things about naming. Only show a summary. Then state the importance of names being from the problem domain. This is one of the most important things about naming.
 
