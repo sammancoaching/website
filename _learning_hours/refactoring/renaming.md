@@ -26,7 +26,7 @@ author: codecop
 
 ### Connect - Fill-in-the-blanks "Naming"
 
-Prepare a fill in the blanks exercise with at least 10 missing words in several paragraphs about readability and naming. (Chat-GPT works ok for this.) This is a self-correcting exercise. Each participant works on his/her own.
+Prepare a [fill in the blanks]({% link _activities/connect/fill_in_blanks.md %} ) exercise with at least 10 missing words in several paragraphs about readability and naming. (Chat-GPT works ok for this.) This is a self-correcting exercise. Each participant works on his/her own.
 
 The exact exercise for this learning hour is:
 
