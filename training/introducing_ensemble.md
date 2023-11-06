@@ -13,7 +13,7 @@ The hope is that later on you’d be able to use the course materials to repeat 
 
 This training is highly interactive and participatory. No prior experience of ensemble is needed.
 
-Course topics:
+## Course Topics:
 
 * Creating a safe, engaging coding environment with your team
 * Ensemble roles, rotations and structure
@@ -22,6 +22,6 @@ Course topics:
 
 You will come away with the knowledge you need to get started ensemble working with your colleagues. If you are an experienced facilitator and coach in other contexts already then this course could give you enough knowledge to begin leading and facilitating ensemble more generally. If you are less experienced with facilitation and coaching we plan to offer a follow-up course later on that will address these aspect more fully - this course introduces only the basics.
 
-## Upcoming course dates
+## Course Dates
 
 * 12th December with [Emily Bache]({% link society/contributors/emilybache.md %}) and [Nitsan Avni]({% link society/contributors/nitsanavni.md %}) - [Sign Up](https://www.tickettailor.com/events/bacheconsultingab/1057757) or [Contact the trainers]({% link contact.md %}).
