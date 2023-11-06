@@ -5,7 +5,7 @@ title: Samman Technical Coaching
 
 # Samman Technical Coaching
 
-[Technical coaches](/reference/technical_coach_definition.html) work with software development teams to help them adopt better coding practices. The Samman method is a concrete approach that many technical coaches use. This website is designed to help people who do technical coaching and is maintained by the [Samman Technical Coaching Society](/society/index.html). Most materials published here are available under a [Creative Commons Share Alike license](LICENSE.html).
+[Technical coaches](/reference/technical_coach_definition.html) work with software development teams to help them adopt better coding practices. The Samman method is a concrete approach that many technical coaches use. This website is designed to help people who do technical coaching and is maintained by the [Samman Technical Coaching Society](/society/index.html). This site shares materials you can use for [Code Katas]({% link kata_descriptions/index.md %}), [Learning Hours]({% link learning_hours/index.md %}) and lists recommended [Training courses]({% link training/index.md %}). 
 
 ## About the Samman method
 
@@ -22,6 +22,6 @@ You can find full details of the Samman method in the book ["Technical Agile Coa
 
 ## Where to go from here
 
-We have a large collection of [Code Kata descriptions](/kata_descriptions/index.html) and [Learning Hour plans](/learning_hours/index.html) which you can do with your team. There are also some [reference materials](/reference/index.html) including a catalog of [Code Smells](/reference/code_smells/index.html) and [Refactorings](/reference/refactorings/index.html). If you'd like to design your own learning hours you can find templates for [teaching activities](/activities/index.html).
+We have a large collection of [Code Kata descriptions](/kata_descriptions/index.html) and [Learning Hour plans](/learning_hours/index.html) which you can do with your team. There are also some [reference materials](/reference/index.html) including a catalog of [Code Smells](/reference/code_smells/index.html) and [Refactorings](/reference/refactorings/index.html). If you'd like to design your own learning hours you can find templates for [teaching activities](/activities/index.html). If you are getting started with Samman coaching, you can also find recommended [Training courses]({% link training/index.md %}).
 
 If you would like to find out more about the community of coaches and how to use the Samman method, please [sign up for our newsletter](https://share-eu1.hsforms.com/1pvE5eTT2RWyYJtyH4AJSuwf6aty), and/or come to one of our [events](/society/events/index.html). If you would like to hire a technical coach, see our list of [contributors](/society/contributors/index.html).
