@@ -1,9 +1,11 @@
 - name: Home
   link: /
-- name: Kata Descriptions
+- name: Katas
   link: /kata_descriptions/index.html
 - name: Learning Hours
   link: /learning_hours/index.html
+- name: Training
+  link: /training/index.html
 - name: Activities
   link: /activities/index.html
 - name: Reference
