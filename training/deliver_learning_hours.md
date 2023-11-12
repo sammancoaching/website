@@ -8,7 +8,7 @@ _Lead learning hours with your team_
 
 Using materials provided by the Samman Society when leading learning hour sessions is a real jump-start for a technical coach. The idea is that with only a little preparation, all kinds of developers and coaches can put on a valuable session for their team. This course is designed to take you to the next level, explaining the teaching techniques and learning hour design principles that lie behind the Samman Society learning hour materials. We want to set you up for success leading these sessions and give you a chance to learn from more experienced coaches.
 
-The training is held online in several parts held over a period of 6-8 weeks. It begins and ends with a half day of training. In between are short 'session briefing' meetings where we go through the details of a learning hour you can lead with your team in the following week. In this way you get hands-on practice using the skills you're learning about, and a chance to get advice afterwards.
+The training is held online in three parts held over a period of 3-4 weeks. Between sessions you can expect to spend 1-2 hours on study and preparation. The idea is you will lead a learning hour for the group as well as take part in learning hours led by other participants. In this way you get hands-on practice using the skills you're learning about, and a chance to get advice from experienced coaches.
 
 ## Course Topics:
 
@@ -24,4 +24,6 @@ This online training is highly interactive and participatory, and is normally le
 
 ## Course Dates
 
-We expect to announce some course dates for this training soon. [Contact us]({% link contact.md %}) to pre-register your interest in attending.
+* 16th, 23rd, 30th January, 13:30 - 17:00 CET with Emily Bache and Clare Sudbery. [Information and sign-up](https://www.tickettailor.com/events/bacheconsultingab/1064180)
+
+[Contact us]({% link contact.md %}) if you have any questions or to register your interest in attending future instances of the course.
