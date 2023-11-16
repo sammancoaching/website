@@ -94,7 +94,7 @@ void lift_up_conditional(bool a, bool b) {
 }
 </pre>
 
-TODO: put this in github and translate it to other languages?
+You can use the [Lift-Up Conditional demo code](https://github.com/PierrickBlons/LiftUpConditional) to demonstrate how to lift-up the ```if (b)``` condition.
 
 Show the keyboard shortcuts you are using, and write them up on a list where people can see them. 
 
