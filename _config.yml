@@ -79,17 +79,6 @@ defaults:
     values:
       layout: "default"
 
-header_pages:
-  - index.md
-  - learning_hours/index.md
-  - kata_descriptions/index.md
-  - training/index.md
-  - activities/index.md
-  - reference/index.md
-  - society/index.md
-  - contact.md
-
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
