@@ -1,7 +1,6 @@
 @import "navigation";
 @import "colors";
 @import "variables";
-$font-stack: Helvetica, sans-serif;
 
 .current {
 	color: $light-blue;
@@ -24,6 +23,7 @@ img[src*="#book_cover"] {
 	position: relative;
 	left: 250px;
 }
+
 @media screen and (max-width: $on-medium) {
   .banner{
     padding-right: 70px;
@@ -40,6 +40,7 @@ img[src*="#book_cover"] {
     }
    }
 }
+
 body {
   margin-left: auto;
   margin-right: auto;
@@ -51,23 +52,11 @@ body {
         text-decoration: none;
     }
 }
-nav {
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
 
-  li { display: inline-block; }
-
-  a {
-    padding: 6px 12px;
-    text-decoration: none;
-  }
-}
 footer {
 	padding: 6px 12px;
 }
+
 .wrapper {
   max-width: calc(#{$content-width} - (#{$spacing-unit}));
   margin-right: auto;
