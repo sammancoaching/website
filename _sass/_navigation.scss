@@ -61,9 +61,11 @@
 
   @media screen and (min-width: $on-medium) {
     position: static;
-    float: right;
+    float: none;
     border: none;
     background-color: inherit;
+    text-align: justify;
+    text-align-last:center;
 
     label[for="nav-trigger"] {
       display: none;
@@ -78,13 +80,9 @@
     }
 
     .page-link {
-      display: inline;
-      padding: 0;
-
-      &:not(:last-child) {
-        margin-right: 20px;
-      }
-      margin-left: auto;
+      display: inline-block;
+      padding: 10px;
+      margin:0px;
     }
   }
 }
