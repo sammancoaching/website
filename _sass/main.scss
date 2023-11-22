@@ -1,16 +1,10 @@
-$font-stack: Helvetica, sans-serif;
-$primary-color: #333;
-$dark-blue: rgb(29, 62, 97);
-$mid-blue: rgb(65, 103, 136);
-$light-blue: rgb(170, 197, 220);
-$salmon-pink: rgb(227, 136, 117); 
+@import "navigation";
+@import "colors";
+@import "variables";
 
 .current {
 	color: $light-blue;
-} 
-.banner {
-	width: 750px;
-} 
+}
 a:link {
     color: $dark-blue;
 }
@@ -30,6 +24,23 @@ img[src*="#book_cover"] {
 	left: 250px;
 }
 
+@media screen and (max-width: $on-medium) {
+  .banner{
+    padding-right: 70px;
+    img{
+      width: 100%;
+    }
+   }
+}
+@media screen and (min-width: $on-medium) {
+
+  .banner {
+    img{
+      width: 750px;
+    }
+   }
+}
+
 body {
   margin-left: auto;
   margin-right: auto;
@@ -41,20 +52,21 @@ body {
         text-decoration: none;
     }
 }
-nav {
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
 
-  li { display: inline-block; }
-
-  a {
-    padding: 6px 12px;
-    text-decoration: none;
-  }
-}
 footer {
 	padding: 6px 12px;
+}
+
+.wrapper {
+  max-width: calc(#{$content-width} - (#{$spacing-unit}));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacing-unit * .5;
+  padding-left: $spacing-unit * .5;
+
+  @media screen and (min-width: $on-large) {
+    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+  }
 }
