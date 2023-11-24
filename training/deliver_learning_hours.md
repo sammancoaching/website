@@ -24,6 +24,6 @@ This online training is highly interactive and participatory, and is normally le
 
 ## Course Dates
 
-* 16th, 23rd, 30th January, 13:30 - 17:00 CET with Emily Bache and Clare Sudbery. [Information and sign-up](https://www.tickettailor.com/events/bacheconsultingab/1064180)
+* 16th, 23rd January, 6th February, 13:30 - 17:00 CET with Emily Bache and Clare Sudbery. [Information and sign-up](https://www.tickettailor.com/events/bacheconsultingab/1064180)
 
 [Contact us]({% link contact.md %}) if you have any questions or to register your interest in attending future instances of the course.
