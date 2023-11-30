@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Code Reading Practice
+title: Code Reading Practice - Scanning for Code Smells
 grand_parent: Exercises
 ---
-## Code Reading Practice
+## Code Reading Practice - Scanning for Code Smells
 Test your code reading skills. For this exercise you will need a suitable list of code sample urls. For example look at the [Tennis Refactoring Kata](https://github.com/emilybache/Tennis-Refactoring-Kata) and the [Office Cleaner Robot Refactoring Kata](https://github.com/sammancoaching/OfficeCleaningRobot-Refactoring-Kata).
 
 * Open each code sample url in a different browser tab (without looking at them)
