@@ -10,7 +10,7 @@ minutes: 15
 
 A fill in the blanks exercise is a learning activity where words or phrases are intentionally left out of a sentence, requiring the participant to complete it by inserting the missing elements. This helps learners practice and assess their understanding of the subject.
 
-Prepare a fill in the blanks exercise with 10 to 20 missing words in several paragraphs about about _\<the topic.\>_. Use normal sentences and omit some important words. Put the missing words, sorted alphabetically, into a column to the right of the paper or frame. (Without giving the words this exercise is much harder.) Then each participant works on his/her own. In the end read out the paragraphs and wait at each place holder for some participant to shout out the proper word, or say it yourself.
+Prepare a fill in the blanks exercise with 10 to 20 missing words in several paragraphs about _\<the topic.\>_. Use normal sentences and omit some important words. Put the missing words, sorted alphabetically, into a column to the right of the paper or frame. (Without giving the words this exercise is much harder.) Then each participant works on his/her own. In the end read out the paragraphs and wait at each place holder for some participant to shout out the proper word, or say it yourself.
 
 ## Practicalities
 
