@@ -3,31 +3,37 @@ emilybache:
   url: http://bacheconsulting.com
   affiliation: Bache Consulting
   member: yes
+  member_since: 2022-03-21
 objarni:
   title: Olof Bjarnason
   url: http://proagile.eu
   affiliation: ProAgile
   member: yes
+  member_since: 2022-03-21
 neppord:
   title: Samuel Ytterbrink
   url: http://proagile.eu
   affiliation: ProAgile
   member: yes
+  member_since: 2022-03-21
 fredrikwendt:
   title: Fredrik Wendt
   url: http://proagile.eu
   affiliation: ProAgile
   member: yes
+  member_since: 2022-03-21
 jolod:
   title: Johan Lodin
   url: http://jolod.se/
   affiliation: Jolod AB
   member: yes
+  member_since: 2022-03-21
 isidore:
   title: Llewellyn Falco
   url: http://llewellynfalco.blogspot.com/
   affiliation: Spun Labs
   member: yes
+  member_since: 2022-03-21
 pfichtner:
   title: Peter Fichtner
   url: http://atruvia.de/
@@ -43,6 +49,7 @@ edytterbrink:
   url: https://www.chocolatedrivendevelopment.com
   affiliation: Chocolate Driven Development AB
   member: yes
+  member_since: 2023-03-03
 jmossberg:
   title: Jacob Mossberg
   url: https://jacobmossberg.se/
@@ -53,6 +60,7 @@ nitsanavni:
   url: https://nitsanavni.github.io/
   affiliation: Independent
   member: yes
+  member_since: 2023-03-27
 peitor:
   title: Peter Gfader
   url: https://beyond-agility.com/
@@ -63,6 +71,7 @@ gregorriegler:
   url: https://gregorriegler.com
   affiliation: Independent
   member: yes
+  member_since: 2023-06-06
 dmerejkowsky:
   title: Dimitri Merejkowsky
   url: https://dmerej.info/
@@ -73,6 +82,7 @@ claresudbery:
   url: https://tinyurl.com/SSE-Ltd
   affiliation: Sudbery Software Engineering Ltd
   member: yes
+  member_since: 2023-05-23
 xaviametller:
   title: Xavi Ametller
   url: https://www.myowncommonsense.com/
@@ -92,4 +102,5 @@ codecop:
   title: Peter Kofler
   url: https://blog.code-cop.org/
   affiliation: Independent
-  member: no
+  member: yes
+  member_since: 2023-12-05
