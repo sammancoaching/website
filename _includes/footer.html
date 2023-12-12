@@ -1,4 +1,34 @@
-<hr>
 <footer>
-	License: <a href="/LICENSE.html">CC-BY-SA-4.0</a>. Attribution: <a href="/">sammancoaching.org</a>
+	<div class="web-licence">
+		<hr>
+		License: <a href="/LICENSE.html">CC-BY-SA-4.0</a>.
+		{% assign person = site.data.contributors[page.author] %}
+		{% assign via = site.data.contributors[page.via] %}
+		Attribution:
+		{% if person %}
+		<a href="/society/contributors/{{ page.author }}.html">{{ person.title }}</a>
+		{% endif %}
+
+		{% if via %}
+		& <a href="/society/contributors/{{ page.via }}.html">{{ via.title }}</a> -
+		{% elsif page.affiliation %}
+		- {{ page.affiliation }} -
+		{% endif %}
+		<a href="/">sammancoaching.org</a>
+	</div>
+	<div class="print-licence">
+		Attribution:
+		{% if person %}
+		{{person.title}}
+		{% endif %}
+		{% if via %}
+		 & {{via.title}},
+		{% elsif page.affiliation %}
+		, {{page.affiliation}},
+		{% endif %}
+		sammancoaching.org
+		<br>
+		License: This material is licensed with CC-BY-SA-4.0 https://creativecommons.org/licenses/by-sa/4.0/
+		<br>
+	</div>
 </footer>
