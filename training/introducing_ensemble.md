@@ -5,7 +5,7 @@ title: Introducing Ensemble - Samman Coaching Training
 
 # Introducing Ensemble - Samman Coaching Training
 
-_ensemble with your team_
+_set up for team success_
 
 When you have a team working together well in an ensemble it gives everyone a better chance to share knowledge and raise the quality of the work being done. Ensemble is another name for Software Teaming or Mob Programming. Before a team will be able to work smoothly in an ensemble you usually need to explain the structure, roles, and underlying principles. They will also need some hands-on practice working this way with a straightforward piece of code before they tackle the complexity of their production code. This course introduces all the important aspects for successful ensemble in a structured way that is tried and tested.
 
@@ -24,4 +24,4 @@ You will come away with the knowledge you need to get started ensemble working w
 
 ## Course Dates
 
-* 12th December with [Emily Bache]({% link society/contributors/emilybache.md %}) and [Nitsan Avni]({% link society/contributors/nitsanavni.md %}) - [Sign Up](https://www.tickettailor.com/events/bacheconsultingab/1057757) or [Contact the trainers]({% link contact.md %}).
+* 20th February with [Emily Bache]({% link society/contributors/emilybache.md %}) and [Nitsan Avni]({% link society/contributors/nitsanavni.md %}) - [Sign Up](https://www.tickettailor.com/events/bacheconsultingab/1093066) or [Contact the trainers]({% link contact.md %}).
