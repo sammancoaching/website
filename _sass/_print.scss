@@ -1,0 +1,27 @@
+@import "colors";
+
+.print-licence{
+  display:none;
+}
+@media print {
+  div {
+    break-inside: avoid;
+  }
+  .banner {
+    display: none;
+  }
+  .site-nav {
+    display: none;
+  }
+
+  .print-licence{
+    padding: 10px;
+    display: block;
+    border-width: 1px;
+    border-style: solid;
+    border-color: $dark-blue;
+  }
+  .web-licence{
+    display: none;
+  }
+}

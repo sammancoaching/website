@@ -1,7 +1,7 @@
 @import "navigation";
 @import "colors";
 @import "variables";
-
+@import "print";
 .current {
 	color: $light-blue;
 }
@@ -23,6 +23,7 @@ img[src*="#book_cover"] {
 	position: relative;
 	left: 250px;
 }
+
 
 @media screen and (max-width: $on-medium) {
   .banner{
