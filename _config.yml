@@ -53,12 +53,12 @@ defaults:
       path: ""
       type: "learning_hours"
     values:
-      layout: "learning_hour"
+      layout: "homepage"
   - scope:
       path: ""
       type: "activities"
     values:
-      layout: "activity"
+      layout: "homepage"
   - scope:
       path: ""
       type: "workshop"
