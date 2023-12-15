@@ -2,32 +2,6 @@
 theme: devops
 title: Basic GitHub Actions
 kata: fizzbuzz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 difficulty: 1
 author: balp
 affiliation: HiQ
@@ -114,7 +88,7 @@ Give an overview of GitHub Actions.
   on each others. Data and files can be shared between steps.
   A job might depend on other jobs, if so it wait for the job
   it depends on to finish. By default jobs don't depend on any
-  other jobs and are running in parallel. See [documentaion](https://docs.github.com/en/actions/using-jobs)
+  other jobs and are running in parallel. See [documentation](https://docs.github.com/en/actions/using-jobs)
   for more details. Show by setting up the first job.
 
       jobs:
