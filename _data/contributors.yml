@@ -38,12 +38,14 @@ pfichtner:
   title: Peter Fichtner
   url: http://atruvia.de/
   affiliation: Atruvia AG
-  member: no
+  member: yes
+  member_since: 2023-12-15
 agmsytim:
   title: Tim Müller
   url: http://it-agile.de/
   affiliation: it-agile
-  member: no
+  member: yes
+  member_since: 2023-12-15
 edytterbrink:
   title: EsterDaniel Ytterbrink
   url: https://www.chocolatedrivendevelopment.com
