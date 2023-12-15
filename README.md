@@ -54,3 +54,14 @@ When you push to the main branch, there is a github action that deploys the chan
 * Create and schedule email 1 week before with zoom link
 * Create and schedule email on the day with zoom link
 * Advertize on discord etc
+
+## Adding new members
+* Make sure they have read and understood [Membership](https://sammancoaching.org/society/membership.html)
+* Invite them to github organization
+* Update their settings in [contributors](_data/contributors.yml)
+* Update their profile page on this site 
+* Add them to the membership registry google doc
+* Add them to the next open space calendar invite
+* Update their groups on Discord
+* Send welcome mail saying you've done those things
+* Announce them on Discord & elsewhere
