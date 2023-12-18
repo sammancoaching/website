@@ -52,38 +52,43 @@ affiliation: HiQ
 
 ## Session Outline
 
-* 7 min: Code review of rust code
-* 7 min: GitHUb actions and environment basics
-* 40 min: Make your CI flow
-* 5 min: Explain the main idea with a CI Flow
+* 5 min: Connect: Three facts: Why do we need a CI-chain?
+* 3 min: Concrete: Preparations
+* 7 min: Concept: Introduce GitHub Actions
+* 40 min: Concrete: Create a CI Chain
+* 5 min: Conclusions: What have you learned by setting up GitHub Actions
 
   
-### Connect: Get a basic understanding on the rust library 
+### Connect: Three facts: Why do we need a CI-chain?
 
-A quick code review of [lib.rs](src/lib.rs)
+"As a group, please give me three reasons we need a CI-chain?
+Raise your hand if you have a fact to tell me."
 
-Open the lib.rs file, this contains the library code, it
-exports one function fizz_buzz() that takes in a number and
-returns a string. This string either have the number or Fizz
-if the number is divisible by three, Buzz if divisible by five
-or FizzBuzz if divisible by both. In short, it implements the
-[FizzBuzz kata](https://www.sammancoaching.org/kata_descriptions/fizzbuzz.html).
+* Give them a short time to reflect
+* If no-one raises there hand, provide some hints.
+  * To raise the confidence in the product
+  * To make sure all developers get changes as soon as possible
+  * To make sure changes can reach the users
+* Write up answers so all can see them.
 
-The end of the file have five tests cases for the code. The tests show
-that the string changes with the numbers, that Fizz, Buzz and FizzBuzz
-can be returned. But only on one sample point.
+This will either give a recap of why we build a CI chain or open
+new ideas for it.
 
-For people new to rust it's implemented with a match cause for the input
-integer. It works like if the if part e.g. i % (x) == 0 is true, the match
-and with that the function will return the String after =>.
-
-### Concept: Introduce GitHub Actions
-
+### Concrete: Preparations
 
 To prepare the concrete session have them follow along:
 
-* Show how to create repo from template in my [FizzBuzz Solution](https://github.com/balp/hiq-leap-fizzbuzz-template)
+* Show how to create repo from template in my [FizzBuzz Solution](https://github.com/balp/hiq-leap-fizzbuzz-template).
+  * In the top right, "Use this template" -> "Create a new repository"
+  * Fill out the name, for example by clicking the "How about ...?" link.
+  * Push "Create repository" in the bottom and wait a little.
 * Set up codespaces for the new repo.
+  * Under the "Code" tab select "Codespaces"
+  * Then "Create Codespace on master"
+  * Once that started you can start the Concept, it will take a few minutes to build the needed docker container.
+
+### Concept: Introduce GitHub Actions
+
 
 Give an overview of GitHub Actions.
 
@@ -147,6 +152,16 @@ Each pair, should have a GitHub CodeSpace for the FizzBuzz solution. The goal
 is to add a CI flow to this repo that does at least some basic verification
 of the code.
 
+Give a short overview of for Rust you use the cargo tool,
+it have some nice standard command that might be used in a
+CI chain:
+
+* build - Compiles the code
+* test - Runs all the tests
+* doc - Build code documentation
+* fmt - With the --check flag it make sure code formatting follows rust standards.
+* clippy - The rust static code analyser
+
 #### Tips on steps that might be usefull
 
 * Create a simple CI flow:
@@ -185,6 +200,10 @@ of the code.
                 path: target/release/
 
 
-### Conclusions: 
+### Conclusions: What have you learned by setting up GitHub Actions
 
-Explain: What is the main idea behind a CI flow?
+Give everyone a pen and a sticky note, then ask them to answer the following question and write down the answer:
+
+Explain: What did you learn from setting up a GitHub Actions CI-Flow.
+
+Encourage them to take the note with them and stick it on their desk, (or take a screenshot of the document and keep it on their computer desktop) for a week.  
