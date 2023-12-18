@@ -9,9 +9,7 @@ affiliation: HiQ
 
 # Basic GitHub Actions
 
-## Learning Outcome
-
-* The students should have basic familiarity with GitHub
+This session should provide some basic familiarity with GitHub
   actions and a simple CI flow.
 
 ## Requirements
@@ -23,7 +21,6 @@ affiliation: HiQ
 * Basic YAML knowledge
 * Basic knowledge about CI
 
-
 ## Session Outline
 
 * 5 min: Connect: Three facts: Why do we need a CI-chain?
@@ -32,11 +29,10 @@ affiliation: HiQ
 * 40 min: Concrete: Create a CI Chain
 * 5 min: Conclusions: What have you learned by setting up GitHub Actions
 
-  
 ### Connect: Three facts: Why do we need a CI-chain?
 
 "As a group, please give me three reasons we need a CI-chain?
-Raise your hand if you have a fact to tell me."
+Raise your hand if you have a fact to tell me." 
 
 * Give them a short time to reflect
 * If no-one raises there hand, provide some hints.
@@ -47,6 +43,8 @@ Raise your hand if you have a fact to tell me."
 
 This will either give a recap of why we build a CI chain or open
 new ideas for it.
+
+This is a [Three facts]({% link _activities/connect/three_facts.md %}) connect.
 
 ### Concrete: Preparations
 
@@ -62,7 +60,6 @@ To prepare the concrete session have them follow along:
   * Once that started you can start the Concept, it will take a few minutes to build the needed docker container.
 
 ### Concept: Introduce GitHub Actions
-
 
 Give an overview of GitHub Actions.
 
@@ -98,7 +95,6 @@ Give an overview of GitHub Actions.
             - uses: actions/checkout@v3
 
 
-
 * Actions: A custom application for the GitHub Actions platform.
   Each application can perform an complex and repeated task An
   action can pull your git repository from GitHub, set up the
@@ -127,7 +123,7 @@ is to add a CI flow to this repo that does at least some basic verification
 of the code.
 
 Give a short overview of for Rust you use the cargo tool,
-it have some nice standard command that might be used in a
+it has some nice standard command that might be used in a
 CI chain:
 
 * build - Compiles the code
@@ -152,7 +148,7 @@ CI chain:
             * code format?
             *
 
-#### An example start point to support in the next part
+#### An example start point
 
       name: check rust code
       on: [push]
@@ -180,4 +176,6 @@ Give everyone a pen and a sticky note, then ask them to answer the following que
 
 Explain: What did you learn from setting up a GitHub Actions CI-Flow.
 
-Encourage them to take the note with them and stick it on their desk, (or take a screenshot of the document and keep it on their computer desktop) for a week.  
+Encourage them to take the note with them and stick it on their desk, (or take a screenshot of the document and keep it on their computer desktop) for a week. 
+
+This is a [Note Important Takeaway]({% link _activities/conclusions/write_important_takeaway.md %}) conclusions activity.  
