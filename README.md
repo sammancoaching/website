@@ -1,7 +1,7 @@
 Teaching materials for Technical Agile Coaches
 ==============================================
 
-This repo contains resources for technical agile coaches to use in their work. For more information, please read this book [Technical Agile Coaching](https://leanpub.com/techagilecoach) by Emily Bache.
+This repo contains the sourcecode for [sammancoaching.org](sammancoaching.org) which is designed to provide resources for technical agile coaches to use in their work. For more information, please read this book [Technical Agile Coaching](https://leanpub.com/techagilecoach) by Emily Bache. This site is maintained by the members of the [Samman Technical Coaching Society](https://sammancoaching.org/society/index.html).
 
 ## Development
 
@@ -34,6 +34,11 @@ were "name_of_container"  is found by running the command
     docker ls
 
 or expanding the container in the Docker desktop user interface.
+
+## Contributing to the site
+You don't need to be a member of the Samman Technical Coaching Society to contribute to this website. We welcome pull requests with new materials for technical coaches. If you contribute, please include in the PR a contributor page for yourself. You'll need to add an entry in [_data/contributors.yml](_data/contributors.yml) and a new file under [society/contributors](society/contributors). Use your github handle as filename and key. If you don't have a github handle, choose another unique key.
+
+If you send a PR you can expect to be contacted by a member of the society who will help you to get your contribution merged and published on the site.
 
 ## Deploying to the live site
 When you push to the main branch, there is a github action that deploys the changes.
