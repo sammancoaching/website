@@ -25,9 +25,9 @@ jobs:
       - name: Building on server
         uses: appleboy/ssh-action@master
         with:
-          host: ${{secrets.WEB_HOST}}
-          username: ${{secrets.WEB_USER}}
-          key: ${{secrets.WEB_KEY}}
+          host: ${{secrets.FTP_SERVER}}
+          username: ${{secrets.FTP_USER}}
+          password: ${{secrets.FTP_PASSWORD}}
           port: 22
           script: | 
             cd website
