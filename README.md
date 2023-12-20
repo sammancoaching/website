@@ -42,6 +42,15 @@ As you prepare your contribution, you might use resources which are already on t
 
 If you send a PR you can expect to be contacted by a member of the society who will help you to get your contribution merged and published on the site.
 
+### Using links in markdown with Jekyll 
+Using the liquid link function enables checking for valid links when building the site.
+This is currently not used everywhere on the site, 
+so please tidy as you go and don't add new hardcoded links. 
+
+````markdown
+[The name of the link]({% link path_to_file_from_root_with.correct_file_ending %} )
+[Extract function ]({% link _refactorings/extract_function.md %} )
+````
 ## Deploying to the live site
 When you push to the main branch, there is a github action that deploys the changes.
 
