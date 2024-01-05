@@ -4,7 +4,7 @@ name: test_embedded_dependencies
 title: Testing Methods with Embedded Dependencies
 kata: trip_service
 difficulty: 2
-author: murathancelik
+author: mhc03
 via: emilybache
 ---
 
