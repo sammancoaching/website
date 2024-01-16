@@ -1,19 +1,19 @@
 ---
 theme: architecture
-title: Simon Brown's 4C model - Intro
+title: Simon Brown's C4 model - Intro
 kata: instavoiced
 difficulty: 1
 author: emilybache
 affiliation: ProAgile
 ---
 
-# Simon Brown's 4C model - Intro
+# Simon Brown's C4 model - Intro
 
 This learning hour introduces the basic ideas in [The C4 model for visualising software architecture](https://c4model.com/)
 
 ## Learning Goals
-- list the names of the four models in the 4C model
-- describe the problem which the 4C model solves 
+- list the names of the four models in the C4 model
+- describe the problem which the C4 model solves 
 - sketch a Context diagram
 - distinguish between important elements to show in a Context diagram and details to exclude
 
@@ -21,7 +21,7 @@ This learning hour introduces the basic ideas in [The C4 model for visualising s
 
 * 5 min connect: What architecture diagrams do you already know?
 * 20 min concrete: analyse and draw diagrams for Instavoiced
-* 10 min concept: 4C model  
+* 10 min concept: C4 model  
 * 10 min concrete: draw Context diagram
 * 10 min conclusions: compare original diagrams with Context diagram
 
@@ -40,7 +40,7 @@ Working in pairs, read the description of the [Instavoiced](/kata_descriptions/i
 
 Use paper or a whiteboard.
 
-### Concept: 4C model
+### Concept: C4 model
 The front page of the [The C4 model for visualising software architecture](https://c4model.com/) website explains these concepts. Present them in your own way.
 
 - why we need architectural diagrams
