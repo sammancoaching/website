@@ -14,8 +14,7 @@ This learning hour is about basic test design including assertions.
 ### Learning Goals
 
 - use a standard framework to write a test that fails if there is a bug.
-- recognize when a test has an AAA structure.
-- use an assert to check for equality of two numbers.
+- recognize a test that has a good failure message.
 
 ## Session Outline
 
