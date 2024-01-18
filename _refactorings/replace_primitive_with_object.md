@@ -9,13 +9,13 @@ learning_hours: primitive_obsession
 
 # Replace Primitive with Object
 
-## Identify
+## Examine
 Identify a field or variable that has a primitive type, which you would like to replace with an object of a more meaningful class.
 
 ## Prepare
 Apply [Encapsulate Variable](encapsulate_variable.html) on the field or variable (if it isn't already encapsulated). This will minimize the number of places that will break when you cut over from the primitive type to the new type.
 
-## Refactor
+## Implement
 * Create the new class and name it well.
   * IDE: right click on source folder: "New... Class" or "Add Class". 
 * Compile / run static checks.
@@ -33,7 +33,7 @@ Apply [Encapsulate Variable](encapsulate_variable.html) on the field or variable
 
 At this point you've succeeded in you original aim - the primitive type is internally stored as an object with a meaningful class instead. You probably have more work to do though.
 
-## Clean
+## Clear
 * Remove any unused getters and setters.
 
 ## Follow up

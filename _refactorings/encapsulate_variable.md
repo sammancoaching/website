@@ -9,7 +9,7 @@ learning_hours: primitive_obsession
 
 # Encapsulate Variable / Encapsulate Field
 
-## Identify
+## Examine
 Identify a variable or field that has public or global access that you would like to encapsulate.
 
 ## Prepare
@@ -18,7 +18,7 @@ Find all the places it is used and store this list or the means to re-create it.
 * IDE: with the cursor on the function declaration, Find Usages.
 * Alternatively - "lean on the compiler" - rename it and see what breaks.
 
-## Refactor
+## Implement
 * Create a getter and setter function for the field you want to encapsulate. 
   * IDE: with the cursor on the field, "Refactor, Encapsulate" or "Generate... Getter and Setter"
 * Compile / run static checks.
@@ -27,7 +27,7 @@ Find all the places it is used and store this list or the means to re-create it.
 
 At this point you've succeeded in you original aim - the global variable is encapsulated by getter and setter functions.
 
-## Clean
+## Clear
 
 Change the encapsulated field or variable to be private (if your language allows).
 
