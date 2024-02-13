@@ -2,7 +2,7 @@
 theme: small_steps
 title: Deliberate Practice
 name: deliberate_practice
-kata: fizz_buzz
+kata: fizzbuzz
 difficulty: 1
 author: virtualmackem
 ---
