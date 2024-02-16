@@ -12,6 +12,11 @@ affiliation: Praqma
 
 This refactoring replaces conditional logic with classes and polymorphism. The code smell that leads you to it is having a lot of similar switch statements that switch on type. In this session we'll practice doing it, and hopefully see just how good modern IDE tooling is for this kind of task.
 
+## Learning Goals
+
+* Use refactoring tools and keyboard shortcuts while refactoring
+* Use a sequence of smaller refactorings to complete a larger refactoring
+
 ## Session Outline
  
 * 5 min connect: top tips for refactoring productivity

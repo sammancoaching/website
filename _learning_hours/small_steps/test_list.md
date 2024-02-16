@@ -8,7 +8,13 @@ author: emilybache
 
 # Make a test list
 
-In agile, Big Design Up Front (BDUF) is something to be avoided, but that doesn't mean we don't do any design at all. Before starting to code with TDD it really helps to spend a few minutes on Little Design Up Front. Part of that is  making a list of test cases we will work on.
+In agile, Big Design Up Front (BDUF) is something to be avoided, but that doesn't mean we don't do any design at all. Before starting to code with TDD it really helps to spend a few minutes on Little Design Up Front. Part of that is  making a list of test cases we will work on. In this learning hour we learn why this is important but will not necessarily become skilled enough to actually do it.
+
+## Learning Goals
+
+* Identify the difference between a test list and a problem description
+* Recognize the role of a test list in TDD
+* Understand why they would benefit from learning how to create a test list from a problem description
 
 ## Session Outline
  

@@ -9,14 +9,14 @@ learning_hours: primitive_obsession
 
 # Move Function / Move Method
 
-## Identify
+## Examine
 Identify a function or method that you would like to move to a different module, class or namespace.
 
 ## Prepare
 * Go through the body of the function and consider all the program elements it uses. Should any of them move too? Also consider if the method is polymorphic what should happen to subclasses and superclasses.
 * Work out the best order to move things in and make a plan.
 
-## Refactor
+## Implement
 * IDE: with the cursor on the function declaration, Refactoring menu, Move...
 
 If that doesn't work, these are some manual steps:
@@ -30,7 +30,7 @@ If that doesn't work, these are some manual steps:
 
 At this point you have succeeded in you original aim - the function body is moved to a new place. However, clients of the original method will still be calling that one. 
 
-## Clean
+## Clear
 * Now the function is moved, check the access level. It may be able to be private or protected in its new home.
 
 ## Follow up

@@ -9,7 +9,7 @@ learning_hours: keyboarding
 
 # Inline function / Inline method
 
-## Identify
+## Examine
 Identify a function or method which you would like to replace with its body in some or all of the places it's used. 
 
 ## Prepare
@@ -18,7 +18,7 @@ If you plan to remove the original function or method, you should make a list of
 * IDE: with the cursor on the function declaration, Find Usages.
 * Alternatively - "lean on the compiler" - rename it and see what breaks.
 
-## Refactor
+## Implement
 * IDE: with the cursor on the function declaration, Refactoring menu, Inline
 
 If that doesn't work, these are some manual steps:
@@ -28,7 +28,7 @@ If that doesn't work, these are some manual steps:
   * Fix it up until it compiles.
   * Test.
 
-## Clean
+## Clear
 * Delete any commented-out code
 * Remove the original function definition if and when it is no longer used.
 
