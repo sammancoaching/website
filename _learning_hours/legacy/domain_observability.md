@@ -101,7 +101,7 @@ class ShoppingCart {
 ```
 
 ### Concrete: Reservation Kata
-Experiment in pair the [Reservation Kata refactoring]() to refactor the code by introducing a Domain Probe in the ReservationService.
+Experiment in pair the [Reservation Kata refactoring](https://github.com/PierrickBlons/reservation-kata) to refactor the code by introducing a Domain Probe in the ReservationService.
 
 ### Conclusions:
 Can you think of code you've written where you could have used a Domain Probe ? 
