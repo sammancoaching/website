@@ -24,4 +24,4 @@ You will come away with the knowledge you need to get started ensemble working w
 
 ## Course Dates
 
-* 20th February with [Emily Bache]({% link society/contributors/emilybache.md %}) and [Nitsan Avni]({% link society/contributors/nitsanavni.md %}) - [Sign Up](https://www.tickettailor.com/events/bacheconsultingab/1093066) or [Contact the trainers]({% link contact.md %}).
+* 16th April with [Emily Bache]({% link society/contributors/emilybache.md %}) and [Nitsan Avni]({% link society/contributors/nitsanavni.md %}) - [Sign Up](https://bacheconsulting.com/introducing_ensemble/) or [Contact the trainers]({% link contact.md %}).
