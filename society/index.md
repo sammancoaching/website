@@ -10,7 +10,7 @@ This site is owned by the Samman Technical Coaching Society which exists to help
 - Samman Society [Events]({% link society/events/index.md %}).
 - Samman Coaching [Training Courses]({% link training/index.md %})
 
-You may also be interested in [becoming a member]({% link society/membership.md %}), or opportunities to [sponsor the society]({% link society/sponsorship.md %}).
+You may also be interested in [becoming a member]({% link society/membership.md %}), or to sign up for our [Newsletter]({% link newsletter.md %}).
 
 ## About the society
 

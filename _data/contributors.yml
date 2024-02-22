@@ -106,3 +106,13 @@ codecop:
   affiliation: Independent
   member: yes
   member_since: 2023-12-05
+balp:
+  title: Anders Arnholm
+  url: https://www.hiq.se/
+  affiliation: HiQ
+  member: no
+ronheywood:
+  title: Ron Heywood
+  url: https://github.com/ronheywood
+  affiliation: Spektrix
+  member: no

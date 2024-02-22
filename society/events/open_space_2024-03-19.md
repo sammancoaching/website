@@ -5,7 +5,11 @@ title: Samman Coaching Society Online Open Space Event
 
 # Samman Coaching Society Online Open Space Event
 
+<<<<<<<< HEAD:society/events/open_space_2024-02-21.md
 **Wednesday 21st February 2024, 16:00 CET**
+========
+**Tuesday 19th March 2024, 16:00 CET**
+>>>>>>>> main:society/events/open_space_2024-03-19.md
 
 _Bring your questions and exchange experiences with other technical coaches._
 
