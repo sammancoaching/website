@@ -34,6 +34,7 @@ Would anyone think of Contract Test, Exploratory Test, Smoke Test, Beta Test?
 
 ## Concept
 Introduce the Test Desiderata
+
 Desiderata – (Latin: "desired things").
 
 ![The Test Desiderata]({% link /assets/images/test-desiderata/Desiderata-map.png %})
