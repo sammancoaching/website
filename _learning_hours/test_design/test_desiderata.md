@@ -3,6 +3,7 @@ theme: test_design
 title: Test Desiderata
 difficulty: 1
 author: ronheywood
+affiliation: Spektrix
 ---
 
 # Test Desiderata
