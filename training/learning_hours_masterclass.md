@@ -8,7 +8,7 @@ _next level learning hours_
 
 Once you've gained some experience leading learning hours then you could benefit from expert feedback. In this two-part course you will both learn useful theory and get some practical expert feedback. The first part has a focus on how developers learn coding skills, and how to best deal with different levels of experience in your group.
 
-Between the two sessions you can expect to spend 1-2 hours on homework. In the second part you will collaborate with other participants to prepare and lead a learning hour for the group, as well as take part in sessions led by other participants. You’ll get hands-on practice using the skills you're learning, and the chance to network with, and learn from, other coaches on the same journey as you.
+Between the two sessions you can expect to spend a couple of hours on homework. In the second part you will collaborate with other participants to prepare and lead a learning hour for the group, as well as take part in sessions led by other participants. You’ll get hands-on practice using the skills you're learning, and the chance to network with, and learn from, other coaches on the same journey as you.
 
 ## Course Topics:
 

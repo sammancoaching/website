@@ -22,9 +22,11 @@ All sessions are held online starting 16:00 CET
 * 17:30 - 17:45 - Open Q&A
 
 ## Dates and times:
-Sessions are held weekly online starting 16:00 CET, and you sign up for a block of 4 sessions. Below are some you can sign up for:
+Sessions are held weekly online starting 16:00 CET, and you sign up for a block of 4 sessions. 
 
-* 4 sessions on Refactoring starting [14th March 2024]({% link training/guided_learning_hours/2024-03-12_glh_refactoring.md %})
-* 4 sessions on TDD starting [9th April 2024]({% link training/guided_learning_hours/2024-04-09_glh_tdd.md %})
+* 14th March on Refactoring with [Emily Bache]({% link society/contributors/emilybache.md %}) and [Clare Sudbery]({% link society/contributors/claresudbery.md %}) - [Sign Up](https://bacheconsulting.com/_events/2024-03-12_glh_refactoring.html) 
+* 9th April on TDD with [Emily Bache]({% link society/contributors/emilybache.md %}) and [Clare Sudbery]({% link society/contributors/claresudbery.md %}) - [Sign Up](https://bacheconsulting.com/_events/2024-04-09_glh_tdd.html)
+
+If you have questions about this course do [Contact us]({% link contact.md %}).
 
 For more detailed advice about leading learning hours with your team, we recommend you follow-up this training by attending the course [Deliver Learning Hours]({% link training/deliver_learning_hours.md %}).

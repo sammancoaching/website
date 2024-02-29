@@ -20,4 +20,8 @@ This course is an introduction. You will come away with the knowledge you need t
 This online training is highly interactive and participatory, and is normally led by a pair of experienced coaches from the Samman Technical Coaching Society.
 
 ## Course Dates
-No courses are currently scheduled. [Contact us]({% link contact.md %}) to register your interest in attending future instances of this course.
+
+* 2nd May with [Emily Bache]({% link society/contributors/emilybache.md %}) and [Clare Sudbery]({% link society/contributors/nitsanavni.md %}) - [Sign Up](https://bacheconsulting.com/deliver_learning_hours/)
+
+
+If you have questions about this course please [Contact us]({% link contact.md %}).
