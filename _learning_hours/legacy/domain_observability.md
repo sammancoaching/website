@@ -15,8 +15,8 @@ In this learning hour we will see how to improve the understandability of code t
 
 ### Learning Goals
 
-- Improving the readability of the code
-- Refactoring techniques to extract code into methods
+- Recognize when a domain probe would increase code readability
+- Use the extract method refactoring
 
 ### Session Outline
 
@@ -31,12 +31,14 @@ Based on the [Pick only the correct items](https://sammancoaching.org/activities
 Share to the group the some propositions to answer the question "What is observability?".
 
 Example:
-1. Measure internal state of a system
+1. **Measure internal state of a system**
 2. Read data from database
-3. Gives feedback on application usage
-4. Monitor application performance
+3. **Gives feedback on application usage**
+4. **Monitor application performance**
 5. Alerts team when a service is down
 6. Displays data in reports
+
+*In bold the right answers.*
 
 ### Concept: Domain probe
 Explain [Domain probe](https://martinfowler.com/articles/domain-oriented-observability.html#DomainProbe) :
