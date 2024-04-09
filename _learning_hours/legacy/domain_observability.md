@@ -1,13 +1,13 @@
 ---
 theme: refactoring
-title: Domain Oriented Obervability on Reservation Kata
+title: Domain Oriented Observability on Reservation Kata
 name: domain_oriented_observability
 kata: reservation
 difficulty: 2
 author: pierrickblons
 ---
 
-# Domain Oriented Obervability
+# Domain Oriented Observability
 
 It's useful to have logging and metrics in our code to understand how it's behaving in production. But sometimes those little calls to loggers or metrics class start to spread all across the code base. It's quite common to see methods with more code dedicated to observability than code actually solving the problem.
 
