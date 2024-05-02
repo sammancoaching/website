@@ -21,7 +21,6 @@ This online training is highly interactive and participatory, and is normally le
 
 ## Course Dates
 
-* 2nd May with [Emily Bache]({% link society/contributors/emilybache.md %}) and [Clare Sudbery]({% link society/contributors/nitsanavni.md %}) - [Sign Up](https://bacheconsulting.com/deliver_learning_hours/)
+No dates are scheduled at present. If you are interested in this course we invite you to [get in touch]({% link contact.md %}) and we'll let you know as soon as one is scheduled.
 
-
-If you have questions about this course please [Contact us]({% link contact.md %}).
+If you have questions about this course please [Contact us]({% link contact.md %}). You could also sign up for our [Newsletter]({% link newsletter.md %}) to hear about upcoming trainings.
