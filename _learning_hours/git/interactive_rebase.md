@@ -8,7 +8,7 @@ author: xaviametller
 
 # Git interactive rebase
 
-Git is a powerful source control system that, among other options, allows us to redefine the history which can be very handy. Sometimes hour commit history can be messy and this capability allows us to rewrite the story as we'd like to read it instead of how it happened. 
+Git is a powerful source control system that, among other options, allows us to redefine the history which can be very handy. Sometimes our commit history can be messy and this capability allows us to rewrite the story as we'd like to read it instead of how it happened. 
 
 This learning hour is meant to understand what are some possibilities and put them in practice.
 
