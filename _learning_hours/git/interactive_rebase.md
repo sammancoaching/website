@@ -54,7 +54,7 @@ Split the commit in two and move the evenResult change into the previous commit 
 > 2. The fifth exercise is more complex than the previous four ones, maybe not everyone will have to make it. If only some persons can do it, you can let them facilitate or explain how did they do it to the rest of the group.
 
 ## Explain how interactive rebase works
-Sit with someone from another couple/group, and write in a post-it a summary of how does Git interactive rebase work.
+Sit with someone from another couple/group and write a summary of how Git interactive rebase works on a Post-it note.
 
 ## Acknowledgements
 LH created while working as Tech Coach for [SunwebGroup](https://www.sunwebgroup.com/) on top of the [Kata](https://github.com/xrecoba/Tennis-Refactoring-Git-Kata) created while working for [Volcànic](https://volcanicinternet.com/en/).
