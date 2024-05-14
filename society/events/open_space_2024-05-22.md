@@ -16,7 +16,7 @@ We will use the online whiteboard Miro to set up an open space agenda together, 
 This event is free to attend.
 
 ## Agenda
-Times are CET - use this link to [Add to Calendar](https://www.addevent.com/event/Aq15076772) in your timezone.
+Times are CET - use this link to [Add to Calendar](https://calndr.link/event/t0S6bmoy2u) in your timezone.
 * 15:50 - Zoom meeting opens.
 * 16:00 - Welcome & information, collaboratively agree open space agenda
 * 16:15 - First open space session
