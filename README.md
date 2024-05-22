@@ -48,7 +48,7 @@ When you push to the main branch, there is a github action that deploys the chan
 ## Adding events
 * In hubspot, bulk update the 'events' property for everyone who attended the previous event
 * Wipe the 'next_open_space' property from all contacts in Hubspot
-* Update AddEvent "add to calendar" link with the next date
+* Update calendr.link "add to calendar" link with the next date
 * Rename the event page under society/events
 * Update society/events/index.md with a link to the updated event signup page
 * Test that you can sign up:
