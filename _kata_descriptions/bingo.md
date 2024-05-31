@@ -20,7 +20,7 @@ The business rules are:
 - A cell may not be assigned a value that has already been assigned to another cell
 - When playing, a cell can be marked as selected
 
-# Refactoring
+## Refactoring
 
 There are several implementations you can use to practice refactoring in this repo: [Bingo-Refactoring-Kata](https://github.com/sammancoaching/Bingo-Refactoring-Kata).
 
@@ -29,10 +29,10 @@ Various aspects of parallel change can be highlighted:
 - Swapping the internal data structure (introducing Cell[][])
 - Introducing Coordinate and using it as parameter type. This one would affect the API (method signature) and so we have external dependencies on the “old” API which we should preserve in parallel with the new one. In a real system you’d use Parallel Change to eventually remove the “old” API once all the clients were migrated to the new one.
 
-# Notes
+## Notes
 
 All tests exist twice, one more technically oriented, one more professionally oriented (BDD), please use the one that suits you better.
 
-## Acknowledgement
+### Acknowledgement
 
 This kata was first published elsewhere: [Bingo Refactoring Kata](https://github.com/atruvia/samman-coaching-katas/tree/master/bingo-refactoring-kata)
