@@ -16,52 +16,9 @@ Your task is to write the code NASA would need to write to control the Pathfinde
 
     HOW ALIVE?
 
-You can assume the Pathfinder rover contains a stepper motor that can move the camera either clockwise or anticlockwise. It begins pointing at 0x0. The camera should pause for 5 seconds pointing at each of the two Hex codes that make up a letter, and pause for 10 seconds between letters. Your solution should send the whole message clearly and without wasting time unnecessarily. This is some sample code in C showing the interface to the motor and a how to use it to control the speed and direction of the camera:
+You can assume the Pathfinder rover contains a stepper motor that can move the camera either clockwise or anticlockwise. It begins pointing at 0x0. The camera should pause for 5 seconds pointing at each of the two Hex codes that make up a letter, and pause for 10 seconds between letters. Your solution should send the whole message clearly and without wasting time unnecessarily. 
 
-```c
-// Stepper.h
-
-// the number of steps to rotate a complete circle of 360 degrees
-#define STEPS 2048
-
-// the maximum motor speed in RPM
-#define MAXIMUM_SPEED 15
-
-class Stepper 
-{
-public:
-    Stepper(const uint8_t pin1 = 8, const uint8_t pin2 = 9, const uint8_t pin3 = 10, const uint8_t pin4 = 11);
-    
-    // Set the speed of the motor in RPM. Maximum is defined above.
-    void setSpeed(uint8_t);
-    
-    // move the indicated number of steps. The size of a step is defined above.
-    void move_clockwise(uint8_t steps);
-    void move_anticlockwise(uint8_t steps);
-    
-    // whether the motor is currently moving.
-    bool isRunning();
-}
-
-// main.c
-#include <Stepper.h> // Include the header file
-
-// create an instance of the stepper class with suitable pins set up
-Stepper stepper(8, 10, 9, 11);
-
-// configure the stepper motor speed in RPM
-stepper.setSpeed(10);
-
-// move the motor the number of steps indicated by val
-val = 42;
-stepper.step(val);
-
-// wait for the stepper to finish moving
-while(stepper.isRunning()) {
-    sleep(1);
-}
-
-```
+There is some [sample starting code](https://github.com/sammancoaching/MartianMessage-Kata?tab=readme-ov-file) in various languages showing the interface to the motor and how to use it to control the speed and direction of the camera.
 
 ## Quote from the movie
 
