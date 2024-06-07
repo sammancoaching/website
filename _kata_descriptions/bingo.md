@@ -13,7 +13,7 @@ This kata is used for practicing refactoring. The code contains at least the cod
 - long methods
 
 The structure of the Bingo Refactoring Kata is similar to the Game of Life kata, but since the focus here is on refactoring, the business rules should be kept as simple as possible. It is not absolutely necessary to understand the business rules in order to complete the task.
-The business rules are:
+However, the business rules are:
 
 - A bingo board must be initialized before it can be used/played
 - A board is initialized when each cell has been assigned a value
