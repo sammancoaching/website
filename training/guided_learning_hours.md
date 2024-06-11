@@ -25,7 +25,7 @@ All sessions are held online starting 16:00 CET
 Sessions are held weekly online starting 16:00 CET, and you sign up for a block of 4 sessions. 
 
 * 21st May on Refactoring with [Emily Bache]({% link society/contributors/emilybache.md %}) and [Clare Sudbery]({% link society/contributors/claresudbery.md %}) - [Sign Up](https://bacheconsulting.com/_events/2024-05-21_glh_refactoring.html)
-* 27th June on TDD with [Emily Bache]({% link society/contributors/emilybache.md %}) and [Clare Sudbery]({% link society/contributors/claresudbery.md %}) - [Sign Up](https://bacheconsulting.com/_events/2024-06-27_glh_tdd.html)
+* 18th July on TDD with [Emily Bache]({% link society/contributors/emilybache.md %}) and [Clare Sudbery]({% link society/contributors/claresudbery.md %}) - [Sign Up](https://bacheconsulting.com/_events/2024-07-18_glh_tdd.html)
 
 If you have questions about this course do [Contact us]({% link contact.md %}). You could also sign up for our [Newsletter]({% link newsletter.md %}) to hear about upcoming trainings.
 
