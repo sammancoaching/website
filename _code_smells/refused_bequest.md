@@ -2,7 +2,6 @@
 layout: code_smell
 title: Refused Bequest
 source: Martin Fowler
-wikipedia_source: true
 ---
 
 # Refused Bequest

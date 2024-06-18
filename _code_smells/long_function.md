@@ -3,7 +3,6 @@ layout: code_smell
 name: long_function
 title: Long Function
 source: Martin Fowler
-wikipedia_source: true
 ---
 
 # Long Function and Long Method

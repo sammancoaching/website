@@ -2,7 +2,6 @@
 layout: code_smell
 title: Paragraph of Code
 source: Emily Bache
-wikipedia_source: false
 ---
 
 # Paragraph of Code

@@ -2,7 +2,6 @@
 layout: code_smell
 title: Data Clumps
 source: Martin Fowler
-wikipedia_source: true
 ---
 
 # Data Clumps
