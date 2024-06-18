@@ -12,9 +12,6 @@ layout: homepage
     {% if page.source == 'Adam Tornhill' %}
     <li>This smell comes from a respected technical leader, {{ page.source }}</li>
     {% endif %}
-    {% if page.wikipedia_source == true %}
-        <li> This smell is included among wikipedia's <a href="https://en.wikipedia.org/wiki/Code_smell">code smells</a></li>
-    {% endif %}
     {% if page.source != 'Martin Fowler' and page.source != 'Adam Tornhill' %}
         <li>This smell was contributed to this site by {{ page.source }}</li>
     {% endif %}
