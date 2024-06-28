@@ -72,3 +72,11 @@ When you push to the main branch, there is a github action that deploys the chan
 * Update their groups on Discord
 * Send welcome mail saying you've done those things
 * Announce them on Discord & elsewhere
+
+## Jekyll Design Principles
+* Use collections for objects
+* Use liquid as a database
+* `_data` is good for things that don't have their own pages
+* Routing is best based on configuration not file structure
+* If it needs its own layout, write it in html from the start
+* Using frontmatter when possible enables jekyll to check that things work
