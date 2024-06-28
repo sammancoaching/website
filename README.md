@@ -73,6 +73,18 @@ When you push to the main branch, there is a github action that deploys the chan
 * Send welcome mail saying you've done those things
 * Announce them on Discord & elsewhere
 
+# Development plan for this website
+We would like to do some refactoring. This is the plan
+
+1. Improve the build so we don't release a broken site
+2. Use Jekyll links everywhere - no "]{/" in project
+3. Use defined perma links instead of folder structure
+4. Move index pages to their own folder instead of having them in a folder structure
+4. Make contributors into a collection
+5. Remove layouts that are only used in one place, use html in these pages instead
+6. Give learning hours ids (with a script?) and put them in a flat folder structure
+7. Supply page templates for collections in git but not included in the jekyll build
+
 ## Jekyll Design Principles
 * Use collections for objects
 * Use liquid as a database
@@ -80,3 +92,4 @@ When you push to the main branch, there is a github action that deploys the chan
 * Routing is best based on configuration not file structure
 * If it needs its own layout, write it in html from the start
 * Using frontmatter when possible enables jekyll to check that things work
+
