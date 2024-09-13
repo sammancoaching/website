@@ -21,7 +21,7 @@ In the learning hour the coach uses exercises and active learning techniques to 
 
 The expected outcome is that teams work more effectively and consistently with iterative and incremental development techniques even after the coach has moved on. This should help the organization to build new features in their software with a shorter lead time and higher quality. 
 
-You can find full details of the Samman method in the book ["Technical Agile Coaching with the Samman method"](https://leanpub.com/techagilecoach) by Emily Bache.
+You can find full details of the Samman method in the book ["Technical Agile Coaching with the Samman method"](https://leanpub.com/techagilecoach) by Emily Bache. "Samman Coaching" is an official trademark registered in the EU (#019000476) and owned by the Samman Technical Coaching Society.
 
 ## Where to go from here
 
