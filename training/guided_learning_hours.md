@@ -21,10 +21,6 @@ All sessions are held online starting 16:00 CET
 * 17:15 - 17:45 - Open Q&A
 
 ## Dates and times:
-Sessions are held weekly online starting 16:00 CET, and you sign up for a block of 4 sessions. 
-
-* 8th October on Test Design with [Emily Bache]({% link society/contributors/emilybache.md %}) - [Sign Up](https://bacheconsulting.com/_events/2024-10-08_glh_test_design.html)
-
-If you have questions about this course do [Contact us]({% link contact.md %}). You could also sign up for our [Newsletter]({% link newsletter.md %}) to hear about upcoming trainings.
+Sessions are held weekly online starting 16:00 CET, and you sign up for a block of 4 sessions. There are currently no dates scheduled, please [Contact us]({% link contact.md %}) to register your interest in the next course. You could also sign up for our [Newsletter]({% link newsletter.md %}) to hear about upcoming trainings.
 
 For more detailed advice about leading learning hours with your team, we recommend you follow-up this training by attending the course [Deliver Learning Hours]({% link training/deliver_learning_hours.md %}). 
