@@ -1,6 +1,6 @@
 ---
 layout: member
-title: Philippe Borgau
+title: Philippe Bourgau
 author: philou
 role: Technical Coach
 ---
