@@ -9,8 +9,9 @@ title: Samman Technical Coaching
 
 ## Upcoming events
 
-* [Online Open Space Networking Event]({% link society/events/open_space_2024-11-14.md %})
 * [Deliver Learning Hours Training]({% link training/deliver_learning_hours.md %})
+* [Online Verbal Aikido Dojo]({% link society/events/aikido_dojo_2024_nov.md %})
+* [Online Open Space Networking Event]({% link society/events/open_space_2024-11-14.md %})
 
 ## Sign up for our newsletter
 If you like what you see here and want to get updates when we publish new materials as well as advice about technical coaching, please sign up for our [Newsletter]({% link newsletter.md %}).
