@@ -21,6 +21,4 @@ This online training is highly interactive and participatory, and is normally le
 
 ## Course Dates
 
-* 6th November with [Emily Bache]({% link society/contributors/emilybache.md %}) and [Peter Kofler]({% link society/contributors/codecop.md %}) - [Sign Up](https://bacheconsulting.com/_events/2024-11-06_deliver_learning_hours.html)
-
-If you have questions about this course please [Contact us]({% link contact.md %}). You could also sign up for our [Newsletter]({% link newsletter.md %}) to hear about upcoming trainings.
+There are no public trainings currently scheduled. If you have questions about this course please [Contact us]({% link contact.md %}). You could also sign up for our [Newsletter]({% link newsletter.md %}) to hear about upcoming trainings.
