@@ -5,7 +5,7 @@ title: Samman Coaching Society Online Open Space Event
 
 # Samman Coaching Society Online Open Space Event
 
-**Thursday 14th November 2024, 16:00 Stockholm/Berlin**
+**Thursday 19th December 2024, 16:00 Stockholm/Berlin/Paris**
 
 _Bring your questions and exchange experiences with other technical coaches._
 
@@ -16,7 +16,7 @@ We will use the online whiteboard Miro to set up an open space agenda together, 
 This event is free to attend.
 
 ## Agenda
-Times are Stockholm/Berlin - use this link to [Add to Calendar](https://calndr.link/event/t0S6bmoy2u) in your timezone.
+Times are Stockholm/Berlin/Paris - use this link to [Add to Calendar](https://calndr.link/event/t0S6bmoy2u) in your timezone.
 * 15:50 - Online meeting opens.
 * 16:00 - Welcome & information, collaboratively agree open space agenda
 * 16:15 - First open space session

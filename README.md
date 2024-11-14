@@ -50,7 +50,7 @@ When you push to the main branch, there is a github action that deploys the chan
 * Wipe the 'next_open_space' property from all contacts in Hubspot
 * Update calendr.link "add to calendar" link with the next date
 * Rename the event page under society/events
-* Update society/events/index.md with a link to the updated event signup page
+* Update society/events/index.md with a link to the updated event signup page and the top level index page
 * Test that you can sign up:
   * correct signup thankyou page
   * 'add to calendar' link on that page works, 
