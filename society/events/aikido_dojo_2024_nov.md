@@ -5,7 +5,7 @@ title: Samman Coaching Society Verbal Aikido Dojo
 
 # Samman Coaching Society Verbal Aikido Dojo
 
-**Friday 15th November 2024, 16:00 Stockholm/Berlin**
+**Friday 22nd November 2024, 16:00 Stockholm/Berlin**
 
 _Practice and improve your verbal aikido skills together with other technical coaches._
 
