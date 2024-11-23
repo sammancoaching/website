@@ -12,6 +12,8 @@ affiliation: Praqma
 
 This refactoring replaces conditional logic with classes and polymorphism. The code smell that leads you to it is having a lot of similar switch statements that switch on type. In this session we'll practice doing it, and hopefully see just how good modern IDE tooling is for this kind of task.
 
+There is a video on Emily Bache's YouTube channel for this learning hour: ["Everyday Design Improvements in OO Code"](https://youtu.be/NCEWAqEFPic)
+
 ## Learning Goals
 
 * Use refactoring tools and keyboard shortcuts while refactoring

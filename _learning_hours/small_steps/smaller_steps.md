@@ -11,6 +11,8 @@ affiliation: ProAgile
 
 Inspired by Mike Hill's "Many more, much smaller steps".
 
+There is a video on Emily Bache's YouTube channel which takes up these topics, but uses a different exercise - ["Incremental Coding for Continuous Delivery"](https://youtu.be/DIB7DVvNfnA)
+
 ## Session Outline
  
 * 5 min connect: advantages of incremental releases

@@ -13,6 +13,8 @@ affiliation: ProAgile
 
 This learning hour introduces the Law of Demeter and some concrete techniques for tackling code that breaks it.
 
+There is a video on Emily Bache's YouTube channel on this topic but using a different exercise ["Law of Demeter"](https://youtu.be/Wa49D-akQb8)
+
 ## Session outline
 
 * 10 min connect: Recognize these smells?

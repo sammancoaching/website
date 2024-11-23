@@ -12,6 +12,8 @@ This is often the first exercise I do with new teams. You have to TDD a function
 
 The first time I demonstrate this kata I usually don't show triangulation, and only do the four test cases listed in the problem description. That means I go straight to using the modulo operator when implementing the first test case. That keeps the demo shorter, and means you don't need to explain triangulation as a concept.
 
+There is a video on Emily Bache's YouTube channel for this learning hour - ["TDD - What it is and why you should care"](https://youtu.be/OhT0_Xg-vZU)
+
 ## Learning Goals
 * Describe the Red-Green-Refactor cycle
 * Design a pure function that takes an integer and returns a boolean, using TDD

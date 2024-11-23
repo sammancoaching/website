@@ -11,6 +11,8 @@ via: emilybache
 
 In this exercise you need to use a stub to test the code.
 
+There is a video on Emily Bache's YouTube channel that goes through this learning hour ["Using a Test Double to find bugs"](https://youtu.be/rFtYJtbAb_g).
+
 ## Session Outline
 
 * 10 min connect: How can you test this bug?

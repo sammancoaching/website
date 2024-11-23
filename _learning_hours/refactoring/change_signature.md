@@ -11,6 +11,9 @@ affiliation: ProAgile
 
 Let's practice using this refactoring, especially if refactoring tools are new to the team.
 
+There is a video on Emily Bache's YouTube channel for this learning hour: ["Unlock the Power of Refactoring in Everyday OO Design"](https://youtu.be/sngRW3zPiiE)
+
+
 ## Learning Goals
 
 * describe what the "Change Signature" refactoring does

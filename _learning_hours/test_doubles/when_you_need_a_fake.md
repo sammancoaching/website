@@ -11,6 +11,8 @@ via: emilybache
 
 In this exercise you need to use a spy or fake to test the code.
 
+There is a video on Emily Bache's YouTube channel that goes through this learning hour ["The Fake Designer Handbag of Unit Testing"](https://youtu.be/m-1eeYq1uMI).
+
 ## Session Outline
 
 * 10 min connect: How can you test this?

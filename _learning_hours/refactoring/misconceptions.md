@@ -11,6 +11,8 @@ author: emilybache
 
 In this session we talk about what refactoring is and why we do it. We work on improving some names to improve readability.
 
+There is a video on Emily Bache's YouTube channel which shows a variant on this learning hour: ["Refactoring, what you need to know"](https://youtu.be/K7xSsNpeM8I)
+
 ## Session Outline
 
 * 15 min connect: refactoring warm-up questions   

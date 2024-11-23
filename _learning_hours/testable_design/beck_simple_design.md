@@ -13,6 +13,8 @@ Beck's rules of simple design
 
 In this learning hour we learn about Kent Beck's rules of simple design. There is no 'concrete' part of this learning hour, you don't get to practice using these rules. You should probably follow up this learning hour with a second one where you do so.
 
+There is a YouTube video on Emily Bache's channel for this learning hour - ["You Aren't Gonna Need It: in TDD Design is Simple"](https://youtu.be/OrxqfrTPns0)
+
 ## Session Outline
 
 * 5 min connect: vote for favourite design guidelines

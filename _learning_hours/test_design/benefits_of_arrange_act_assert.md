@@ -11,6 +11,8 @@ affiliation: ProAgile
 
 This session is an intro to the topic for people who havn't written many test cases before and where the other [Arrange Act Assert](arrange_act_assert.html) learning hour is too big of a step from where they are.
 
+There is a video on Emily Bache's YouTube channel which shows a version of this learning hour - ["3 parts of a test"](https://youtu.be/8KB5aF6QXe8)
+
 ## Learning Goals
 
 * Recognize a test written with the Arrange - Act - Assert pattern
