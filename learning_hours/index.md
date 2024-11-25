@@ -15,7 +15,7 @@ Find a Learning Hour facilitator's guide:
 
 You might also like to browse these lists of learning hours:
 
-* [Learning Hours with an accompanying YouTube video]({% link learning_hours/series/learning_hours_with_video.md %})
+* [Learning hours with an accompanying YouTube video]({% link learning_hours/series/learning_hours_with_video.md %})
 * [Learning hours mentioned in Emily Bache's book]({% link learning_hours/series/ten_sample.md %})
 
 

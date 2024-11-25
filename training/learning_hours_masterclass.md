@@ -22,8 +22,6 @@ This course is not an introduction to the topic, participants will normally have
 This online training is highly interactive and participatory, and is normally led by a pair of experienced coaches from the Samman Technical Coaching Society.
 
 ## Course Dates
-This course is two half-days held about a week apart. For more information follow the links to sign up.
+This course is two half-days held about a week apart. 
 
-* 3rd & 11th December with [Emily Bache]({% link society/contributors/emilybache.md %}) and [Peter Kofler]({% link society/contributors/codecop.md %}) - [Sign Up](https://bacheconsulting.com/_events/2024-12-03_learning_hours_masterclass.html)
-
-If you have questions about this course please [Contact us]({% link contact.md %}). You could also sign up for our [Newsletter]({% link newsletter.md %}) to hear about upcoming trainings.
+There are no public trainings currently scheduled. If you are interested please [Contact us]({% link contact.md %}) and mention when you'd like to do the training. We will contact you as soon as a training is scheduled. You could also sign up for our [Newsletter]({% link newsletter.md %}) to hear about upcoming trainings.

@@ -13,6 +13,8 @@ Currently available courses:
 * [Guided Learning Hours]({% link training/guided_learning_hours.md %})
 * [Deliver Learning Hours]({% link training/deliver_learning_hours.md %})
 * [Learning Hours Masterclass]({% link training/learning_hours_masterclass.md %})
+* [Personal Coaching]({% link training/personal_coaching.md %})
+* [Technical Coaching Programme]({% link training/full_package.md %})
 
 ## Which should I choose?
 We find technical coaching works best when there is a combination of hands-on practice sessions - Learning Hours - and working as a team in your production code - Ensemble. We have courses designed to help you get started with these activities. We want to support technical coaches and developers with all kinds of background, so there are various courses to choose from.
