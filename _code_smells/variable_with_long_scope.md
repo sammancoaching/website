@@ -1,6 +1,7 @@
 ---
 layout: code_smell
 title: Variable with Long Scope
+name: variable_with_long_scope
 source: Emily Bache
 ---
 

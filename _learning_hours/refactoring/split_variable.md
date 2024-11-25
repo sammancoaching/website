@@ -2,6 +2,7 @@
 theme: refactoring
 title: Split Variable
 name: split_variable
+code_smell: variable_with_long_scope
 kata: tennis
 difficulty: 3
 author: emilybache
@@ -39,7 +40,7 @@ Depending on how confident your group will be able to do these refactorings, you
 3. **Calculated Datamember** In Office Cleaner 9 there is a method 'parseInput' that calculates two datamembers - coordHashSet and position. If you want to extract parts of this calculation to a testable pure function then it will need to be passed the current state of these datamembers explicitly. You split the assignment of the datamember from the calculation of its value by introducing a new variable for the calculation, then assigning it at the end.
 
 ## Concrete: do split variable
-Set the group loose on the refactoring in all the examples you've shown. Make sure they have access to the list of the safe steps for all variants of this refactoring, and remind them to use their tools.
+Set the group loose on the refactoring in all the examples you've shown. Make sure they have access to the [list of the safe steps]({% link _refactorings/split_variable.md %}) for all variants of this refactoring, and remind them to use their tools.
 
 ## Conclusions: when will you use this?
 How will you notice you need 'split variable'?  What will you do then? This is a [Write important takeaway]({% link _activities/conclusions/write_important_takeaway.md %}) conclusion.
