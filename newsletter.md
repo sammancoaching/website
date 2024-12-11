@@ -1,8 +1,10 @@
 ---
-layout: newsletter
+layout: tdd_guide
 title: Newsletter
 ---
 
 # Newsletter
 
-Please use the form below to sign up for our newsletter. These are sent about once a month and will tell you about updates to this site, events we are hosting, and generally what's going on with Samman Coaching. You can unsubscribe at any time.
+**Special Offer - Receive a FREE Guide to TDD Heuristics**
+
+Please use the form below to sign up for our newsletter. You can unsubscribe at any time. After you sign up you will be able to download Emily Bache's _Guide to TDD Heuristics_.
