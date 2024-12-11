@@ -1,6 +1,7 @@
 ---
 layout: code_smell
 title: Divergent Change
+name: divergent_change
 source: Martin Fowler
 ---
 
