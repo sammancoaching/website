@@ -9,7 +9,7 @@ title: Samman Technical Coaching
 
 ## Upcoming events
 
-* [Online Open Space Networking Event]({% link society/events/open_space_2024-12-19.md %})
+* [Online Open Space Networking Event]({% link society/events/open_space_2025-01-21.md %})
 * [Deliver Learning Hours Training]({% link training/deliver_learning_hours.md %})
 
 ## Sign up for our newsletter
