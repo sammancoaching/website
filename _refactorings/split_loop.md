@@ -3,8 +3,8 @@ layout: refactoring
 title: Split Loop
 source: Emily Bache
 source_url: https://refactoring.com/catalog/splitLoop.html
-code_smells: loops,divergent_change
-learning_hours: split_loop
+code_smells: loops, divergent_change, shotgun_surgery
+learning_hours: split_loop, split_loop_advanced
 ---
 
 # Split Loop

@@ -1,6 +1,7 @@
 ---
 layout: code_smell
 title: Shotgun Surgery
+name: shotgun_surgery
 source: Martin Fowler
 ---
 
