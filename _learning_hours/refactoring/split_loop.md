@@ -8,7 +8,7 @@ difficulty: 2
 author: emilybache
 ---
 
-# Split Loop (simpler version)
+# Split Loop
 
 Merge conflicts are a major cause of bugs - people get in each other's way when they are editing the same lines of code because the same section of code does more than one thing.  It would be better to split up the logic according to each responsibility. Today we’re going to look at how to divide it up safely.
 
@@ -45,7 +45,7 @@ Explain that the reason you wanted them to classify the code like this is becaus
 For each type of change, the impacted lines of code are all over the place. What we'd be doing is a form of [Shotgun Surgery]({% link _code_smells/shotgun_surgery.md %}). This introduces a danger of merge conflicts if the changes are happening at the same time, and also the danger you'll miss somewhere that needs updating. We'd like to refactor the code before we begin either change.
 
 ## Demo: Split loop
-In Theatrical players show that you need to do several refactorings in order to gather the presentation logic together and separate it from the calculation logic. Show how to do that safely, including [Split Loop]({% link _refactorings/split_loop.md %}). Use the simpler form where you inline all the local variables.
+In Theatrical players show that you need to do several refactorings in order to gather the presentation logic together and separate it from the calculation logic. Show how to do that safely, including [Split Loop]({% link _refactorings/split_loop.md %}). Keep it simple - don't do a [Split Phase]({% link _refactorings/split_phase.md %}), simply inline all the local variables so they are calculated when needed.
 
 ## Concrete Practice: Split loop in Theatrical Players and Expense Report
 In pairs, do the same exercise in Theatrical Players that you just demonstrated. When they have done that one, they could try [Expense Report](https://github.com/emilybache/ExpenseReport-Refactoring-Kata) which is very similar.
