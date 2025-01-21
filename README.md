@@ -4,11 +4,22 @@ Teaching materials for Technical Agile Coaches
 This repo contains the sourcecode for [sammancoaching.org](sammancoaching.org) which is designed to provide resources for technical agile coaches to use in their work. For more information, please read this book [Technical Agile Coaching](https://leanpub.com/techagilecoach) by Emily Bache. This site is maintained by the members of the [Samman Technical Coaching Society](https://sammancoaching.org/society/index.html).
 
 ## Development
+You can either run jekyll natively on your platform, or use docker.
 
-To test locally:
+### Native Jekyll
+First install Ruby, which includes the utility 'bundler'. Use Bundler in the same folder as this README to get all the dependencies:
+
+    bundle install
+
+Note this will use the Gemfile and will create a Gemfile.lock itemizing all the versions of your gems. I found a problem installing wdm that was fixed by using this workaround 'gem install wdm -- --with-cflags=-Wno-implicit-function-declaration'
+
+Then launch the jekyll application locally, again using bundler:
 
     bundle exec jekyll serve
 
+Launch your local site: [http://127.0.0.1:4000/](http://127.0.0.1:4000/)
+
+### Using Docker
 Instead of using jekyll locally you can get a prebuilt docker image with Ruby, Jekyll etc. installed:
 
     dockerinit

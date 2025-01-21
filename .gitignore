@@ -6,3 +6,4 @@ _site
 .jekyll-cache
 credentials.txt
 .idea
+Gemfile.lock

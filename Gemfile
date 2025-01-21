@@ -29,7 +29,10 @@ end
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+gem "wdm", "~> 0.2.0" if Gem.win_platform?
+
+# needed to fix https://github.com/apache/arrow-site/issues/447
+gem "logger"
 
 # check for broken links
 gem "html-proofer"
