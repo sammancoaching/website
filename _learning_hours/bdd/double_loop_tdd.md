@@ -36,7 +36,7 @@ Put a mark by any of these terms if you actually use them in your work, and they
 Don't worry about the terms they are not familiar with and don't use. Go through the ones they do use and try to find out if they are suitable to use as outer-loop tests in double-loop TDD. For that to be the case, the programmers need to be able to run them in their development environments. They also need to use words the customer or user would understand.
 
 ### Concept: Double-Loop TDD
-Show this picture of ![Double Loop TDD](/assets/images/double_loop.jpg)
+Show this picture of ![Double Loop TDD]({% link /assets/images/double_loop.jpg %})
 
 Explain the idea - that the unit test cycle in TDD goes round on the scale of minutes. The outer loop goes round more slowly - days or even a week or two between first writing the test and getting it to pass. It's an idea they may already know as "Behaviour Driven Development", or "Specification by Example" or "Acceptance Test Driven Development".
 
