@@ -104,3 +104,5 @@ We would like to do some refactoring. This is the plan
 * If it needs its own layout, write it in html from the start
 * Using frontmatter when possible enables jekyll to check that things work
 
+## Site Improvements
+* Add a page about Kent Beck's tidyings from Tidy First? to the refactoring section of the site.
