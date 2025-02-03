@@ -19,20 +19,21 @@ Identify the two concerns you want to split. You may need to do some 'introduce 
 ## Implement
 
 * Tests all passing
-* Identify all local variables needed by the second section that are calculated in the first. One way to do this is use a tool to 'extract method' on the second section - the argument list to the new method contains these. 
-* Create a new class 'LocalData' with fields for all these local variables and a constructor that initializes them.
-* Create an instance of the new class called 'localData' between the two sections of code.
+* Identify the two sections of code that you want to separate. Slide statement as necessary to create whitespace between them.
+* Tests all passing
+* Imagine a new class 'LocalData' exists. Between the two sections of code, initialize an instance of it. 
+* Identify all local variables needed by the second section of code that are calculated in the first section. (One way to do this is use a tool to 'extract method' on the second section - the argument list to the new method contains these.) 
+* Pass all these variables to the constructor of 'LocalData'.
+* Use tools to create the class 'LocalData'. Create public fields for all the data.
 * Tests all passing ('localData' is not yet used).
-* Change the second section of code to use 'localData' members instead of the local variables or individual method arguments.
-* Tests all passing.
-* Extract method on the second section (if you didn't already do this) - argument is 'localData'.
-* Extract method on the first section - return value is 'localData'.
+* Change the second section of code to use 'localData' instead of the local variables.
 * Tests all passing.
 
 ## Clear
-Adjust names for variables - something better than 'localData'. 
+Adjust names for classes and variables - something better than 'LocalData'. 
 
 ## Follow up
+It often makes sense to Extract methods for the first and second sections - the return type of the first method is LocalData, the argument to the second is LocalData.
 
 If the two sections of code are in the same loop, you should now split it. There is a useful trick for making this easier:
 
