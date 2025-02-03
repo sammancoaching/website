@@ -33,10 +33,9 @@ Steps for each of the three situations:
 2. An accumulating variable
   * Tests all passing
   * Identify a variable that needs to be split, 'x'
-  * Create a new local variable 'initial_x' and initialize it to 'x'
   * Create a new local variable 'increment_x' and initialize it to an empty value eg zero
   * Within the lines of code you select use textual search and replace - rename 'x' to 'increment_x'
-  * After those lines, re-assign x = initial_x + increment_x
+  * After those lines, re-assign x += increment_x
   * Tests all passing
 
 3. A global or class variable
