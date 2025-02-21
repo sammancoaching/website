@@ -28,7 +28,7 @@ Explain the idea of a storyboard - where a test prints the state after 'arrange'
 
 ### Concrete - Design a printer
 
-There is a [starting position](https://github.com/emilybache/VendingMachine-Approval-Kata) for the [Vending Machine Kata](/kata_descriptions/vending_machine.html) with one test case. First convert the assertions to an approval test. (Do this as a demo, then ask them to do the same for themselves). Then introduce new functionality into the vending machine feature by feature. Either do this for yourself or merge in the feature branches provided. As you develop the code, extend your printer to test the new functionality.
+There is a [starting position](https://github.com/emilybache/VendingMachine-Approval-Kata) for the [Vending Machine Kata]({% link _kata_descriptions/vending_machine.md %}) with one test case. First convert the assertions to an approval test. (Do this as a demo, then ask them to do the same for themselves). Then introduce new functionality into the vending machine feature by feature. Either do this for yourself or merge in the feature branches provided. As you develop the code, extend your printer to test the new functionality.
 
 ### Conclusions - printer design
 
