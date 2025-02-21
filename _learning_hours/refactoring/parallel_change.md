@@ -13,7 +13,7 @@ affiliation: Atruvia
 This is a general refactoring strategy for completing a larger change in small steps.
 
 ### Connect
-[Mark the true statements](/activities/connect/pick_the_correct_items_on_the_list.html) and not the other ones:
+[Mark the true statements]({% link _activities/connect/pick_the_correct_items_on_the_list.md %}) and not the other ones:
 1. If you encounter ugly code that you don’t need to change to get your task done, then you don’t need to refactor it.
 2. You should get permission from your manager before refactoring.
 3. When someone is refactoring the code may be broken for a few days while they do it. 
@@ -55,7 +55,7 @@ If they finish that refactoring quickly, you could ask them to use Parallel Chan
 While the first parallel change focuses on swapping the internal data structure (introducing `Cell[][]`), this next one (introducing Coordinate and using it as parameter type) would affect the API (method signature) and so we have external dependencies on the "old" API which we should preserve in parallel with the new one. In a real system you'd use Parallel Change to eventually remove the "old" API once all the clients were migrated to the new one.
 
 ### Conclusions
-[Why should you use it](/activities/conclusions/write_important_takeaway.html): What is the most important aspect for you about "parallel change"? 
+[Why should you use it]({% link _activities/conclusions/write_important_takeaway.md %}): What is the most important aspect for you about "parallel change"? 
 
 
 # Acknowlegements

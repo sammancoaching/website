@@ -24,7 +24,7 @@ Roy Osherove has some advice about test name format which is widely followed.
 * 5 min conclusions: How does this compare to what we usually do?
 
 ### Connect
-What is the purpose of a test name? Give me [three facts](/activities/connect/three_facts.html) about it.
+What is the purpose of a test name? Give me [three facts]({% link _activities/connect/three_facts.md %}) about it.
 
 ### Concept
 Roy Osherove has [this advice](https://osherove.com/blog/2005/4/3/naming-standards-for-unit-tests.html) about test name format:

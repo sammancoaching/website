@@ -11,7 +11,7 @@ affiliation: ProAgile
 Although 'Test Double' is supposed to be the umbrella term for all kinds of mocks, fakes and stubs, in practice people tend to say 'mock'. That's fine in most cases, but it is probably useful to know what the difference is between a mock and other kinds of test double.
 
 ### Connect 
-On the topic of Test Doubles - give me [three facts](/activities/connect/three_facts.html).
+On the topic of Test Doubles - give me [three facts]({% link _activities/connect/three_facts.md %}).
 
 ### Concept - Mocks
 Instead of launching straight into the theory, first get them to review the [SingleSignOn](https://github.com/emilybache/Single-Sign-On-Kata) code and existing test. The test is slow and unreliable. How could you redesign it to make it faster and more reliable?

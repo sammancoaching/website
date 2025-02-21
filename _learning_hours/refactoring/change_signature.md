@@ -55,4 +55,4 @@ Ask people to reflect on what it was like using the "Change Signature" refactori
 
 They could write their answers on a note for themselves or in a shared document, or they could discuss in pairs.
 
-Note: this is a [When should you use this](/activities/conclusions/when_to_use_this.html) activity.
+Note: this is a [When should you use this]({% link _activities/conclusions/when_to_use_this.md %}) activity.

@@ -26,7 +26,7 @@ This learning hour is about Arrange - Act - Assert and uses a simpler exercise t
 
 
 ### Connect: Three facts
-What is the most important job of a unit test? Give me your top three ideas ([three facts](/activities/connect/three_facts.html)).
+What is the most important job of a unit test? Give me your top three ideas ([three facts]({% link _activities/connect/three_facts.md %})).
 
 ### Concept: Three parts of a test
 An automated test usually has three kinds of code.
@@ -44,4 +44,4 @@ Write some test cases for some existing code that has well-marked bugs in. For e
 [Showcase]({% link _activities/conclusions/showcase.md %}) the various tests people have written. Take some screenshots and put them on the shared online whiteboard. Annotate them with what is good about these designs. Highlight what's good, also mention things that could be improved if you think it's important.
 
 ### Conclusions
-Can you think of any advantages of structuring your tests this way, with Arrange - Act - Assert? Are there any situations where it wouldn’t be a good idea? [When should you use this?](/activities/conclusions/when_to_use_this.html)
+Can you think of any advantages of structuring your tests this way, with Arrange - Act - Assert? Are there any situations where it wouldn’t be a good idea? [When should you use this?]({% link _activities/conclusions/when_to_use_this.md %})

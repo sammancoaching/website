@@ -18,7 +18,7 @@ I think it's important to learn the basic concepts and how to create test double
 * 5 min conclusions: When to use a stub?
 
 ### Connect - Test Doubles
-Give me [Three Facts](/activities/connect/three_facts.html) about Mocks. Raise your hand if you have a fact to tell me.
+Give me [Three Facts]({% link _activities/connect/three_facts.md %}) about Mocks. Raise your hand if you have a fact to tell me.
 
 ### Concept - Test Doubles
 Go through [Meszaros' definitions](http://xunitpatterns.com/Mocks,%20Fakes,%20Stubs%20and%20Dummies.html) of Test Double, Mock, Stub, Fake. Focus on the Stub to begin with - this is the simplest kind of test double. 

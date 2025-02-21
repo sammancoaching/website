@@ -29,7 +29,7 @@ This learning hour introduces the basic ideas in [The C4 model for visualising s
 Do an internet image search to find examples of the kinds of diagrams you are familiar with. Search by the name of diagram and find pictures that look similar to diagrams you've seen before.
 Paste a small example of each kind of diagram onto a shared online whiteboard. Add the name of the kind of diagram next to each one.
 
-Note - this is a [Web Hunt](/activities/connect/webhunt.html)
+Note - this is a [Web Hunt]({% link _activities/connect/webhunt.md %})
 
 ### Concrete: analyze Instavoiced
 

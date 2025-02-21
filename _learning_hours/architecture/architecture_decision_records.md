@@ -59,4 +59,4 @@ Work in pairs. Pick an area, make a decision, and write it up in the form of an 
 Join two pairs together to review one another's ADRs. Suggest improvements to make them even better.
 
 ### Conclusions
-[When should you use this](/activities/conclusions/when_to_use_this.html)? Looking at your own team's situation, are there any decisions you should write up as ADRs?
+[When should you use this]({% link _activities/conclusions/when_to_use_this.md %})? Looking at your own team's situation, are there any decisions you should write up as ADRs?

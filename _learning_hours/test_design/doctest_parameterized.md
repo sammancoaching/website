@@ -20,7 +20,7 @@ This is a form of Data-Driven testing. The "Act" step is the same for all the te
 * 5 min reflect: Test Design with Doctest
 
 ### Connect: explain test design concepts
-[Explain previous concepts](/activities/connect/explain_previous_concepts.html):
+[Explain previous concepts]({% link _activities/connect/explain_previous_concepts.md %}):
 
 * Doctest
 * Test Fixture
@@ -39,4 +39,4 @@ Explain that this is a form of Data-Driven testing. The "Act" step is the same f
 Ask them to write new tests for the Shopping Basket implementation. When they have them working, ask them to re-insert the bug so one of the cases fails. Make sure the feedback is useful.
 
 ### Reflect: Test Design
-[Note down your most important takeaways](/activities/conclusions/write_important_takeaway.html) on the topic of Test Design.
+[Note down your most important takeaways]({% link _activities/conclusions/write_important_takeaway.md %}) on the topic of Test Design.

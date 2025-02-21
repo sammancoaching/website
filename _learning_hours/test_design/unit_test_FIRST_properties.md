@@ -24,7 +24,7 @@ Introducing Tim Ottinger & Brett Schuchert's [FIRST](http://agileinaflash.blogsp
 * 5 min conclusions: review facts and question on unit test design
 
 ### Connect
-Use the ["Three facts and a question"](/activities/connect/three_facts_and_a_q.html) format with the topic "Designing Good Unit Tests".
+Use the ["Three facts and a question"]({% link _activities/connect/three_facts_and_a_q.md %}) format with the topic "Designing Good Unit Tests".
 
 ### Concept
 Explain the [FIRST properties](http://agileinaflash.blogspot.com/2009/02/first.html). Get people to actively review the properties by asking them to match these characteristics of a test with the FIRST property they are missing:

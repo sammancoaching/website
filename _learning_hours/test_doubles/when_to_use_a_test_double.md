@@ -11,7 +11,7 @@ affiliation: ProAgile
 Dependencies of the class under test can be replaced with a test double. Sometimes you don't even need a double at all - you can just use the real collaborator.
 
 ### Connect - recap
-[Explain these concepts](/activities/connect/explain_previous_concepts.html):
+[Explain these concepts]({% link _activities/connect/explain_previous_concepts.md %}):
 
 * Test Double
 * Stub

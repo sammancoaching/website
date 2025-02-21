@@ -25,7 +25,7 @@ This learning hour is about basic test design including assertions.
 
 
 ### Connect: Three facts
-What is an automated unit test? Give me [three facts](/activities/connect/three_facts.html) about it.
+What is an automated unit test? Give me [three facts]({% link _activities/connect/three_facts.md %}) about it.
 
 ### Concept: Unit Test Design
 Briefly explain the most important things about test design. For example:

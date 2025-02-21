@@ -29,7 +29,7 @@ Web hunt - In your daily work, what documentation do you look at for the softwar
 
 Be ready to share your urls with the group.
 
-Note - this is a [Web Hunt](/activities/connect/webhunt.html).
+Note - this is a [Web Hunt]({% link _activities/connect/webhunt.md %}).
 
 ### Concept: Divio documentation system
 
