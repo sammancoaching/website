@@ -20,7 +20,7 @@ This is a way for architects to communicate their decisions. Most developers wil
 * 5 min conclusions: could you use this?
 
 ### Connect: What is an architecture decision
-[Pick only the correct items](/activities/connect/pick_the_correct_items_on_the_list.html)
+[Pick only the correct items]({% link _activities/connect/pick_the_correct_items_on_the_list.md %})
 
 Which of these is an architecture decision?
 
