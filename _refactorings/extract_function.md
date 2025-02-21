@@ -36,4 +36,4 @@ If that doesn't work, these are some manual steps:
 * Inline method parameters if the previously extracted variables no longer make sense. 
 
 ## Follow up
-Consider if the new method has [Feature Envy](/code_smells/feature_envy.html) and if it should be moved somewhere else.
+Consider if the new method has [Feature Envy]({% link _code_smells/feature_envy.md %}) and if it should be moved somewhere else.

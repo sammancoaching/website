@@ -35,7 +35,7 @@ Reference - Danilo Sato has published [an article](https://martinfowler.com/blik
 ### Concrete: Code Review 
 Ask everyone to take a look at this code: [Bingo Refactoring Kata](https://github.com/sammancoaching/Bingo-Refactoring-Kata). What code smells do they see (regardless of whether they can name them or not)? What would be a better structure? 
 
-You are hoping they will spot that there are [Data Clumps](/code_smells/data_clumps.html) and [Primitive Obsession](/code_smells/primitive_obsession.html) - in particular these primitives: 
+You are hoping they will spot that there are [Data Clumps]({% link _code_smells/data_clumps.md %}) and [Primitive Obsession]({% link _code_smells/primitive_obsession.md %}) - in particular these primitives: 
 
     String[][] cells 
     boolean[][] marked 

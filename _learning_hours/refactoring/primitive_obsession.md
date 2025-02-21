@@ -11,7 +11,7 @@ affiliation: Atruvia
 
 # Primitive Obsession
 
-It's useful to have a shared knowledge of different Code Smells and how to handle them. [Primitive Obsession](/code_smells/primitive_obsession.html) is a very common smell which occurs in projects.
+It's useful to have a shared knowledge of different Code Smells and how to handle them. [Primitive Obsession]({% link _code_smells/primitive_obsession.md %}) is a very common smell which occurs in projects.
 In this learning hour we will talk about what it is and how you are able to refactor it. 
 
 ## Session Outline
@@ -25,7 +25,7 @@ In this learning hour we will talk about what it is and how you are able to refa
 Everybody explains their own definition of a code smell.
  
 ### Concept: Primitive obsession
-Explain [Primitive Obsession](/code_smells/primitive_obsession.html), for example:
+Explain [Primitive Obsession]({% link _code_smells/primitive_obsession.md %}), for example:
   - The excessive use of primitive data types instead of (small) objects
   - The use of integers or enums to represent types of objects
 
