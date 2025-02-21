@@ -20,7 +20,7 @@ When working in an ensemble, the person _Talking_ should try to speak at a highe
 
 ### Connect: Match high level statements of intent with syntax
 
-Connect to what they already know about the names of programming constructs and how to describe them in English. Use the exercise [Talking without syntax details](/exercises/warm_up_questions/go_syntax.html)
+Connect to what they already know about the names of programming constructs and how to describe them in English. Use the exercise [Talking without syntax details]({% link exercises/warm_up_questions/go_syntax.md %})
 
 ### Concept: Intention, Location, Details
 Explain that the person Talking should communicate to the person Typing using words, so the whole ensemble hears the _Intention_. This should make it easier for the next person to take over talking, since they understand the direction.
