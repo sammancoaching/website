@@ -18,7 +18,7 @@ If you like what you see here and want to get updates when we publish new materi
 
 Samman is a method for technical coaches who work with software teams. The focus is on iterative and incremental development practices. The Samman method has two main parts: 
 
-- [Learning Hour](/learning_hours/index.html)
+- [Learning Hour]({% link learning_hours/index.md %})
 - [Ensemble Working](/reference/ensemble_definition.html)
 
 In the learning hour the coach uses exercises and active learning techniques to teach the theory and practice of skills like Test-Driven Development and Refactoring. In the Ensemble sessions the whole team collaborates together with the coach in applying these development techniques in their usual production codebase.
