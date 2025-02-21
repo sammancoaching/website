@@ -89,6 +89,8 @@ We would like to do some refactoring. This is the plan
 
 1. Improve the build so we don't release a broken site
 2. Use Jekyll links everywhere - no "]{/" in project
+   2.1. Use this regexp to find html links: \((\/.*?)(\.html)\)
+    2.2. the jekyll syntax for a link is: {% link foldername/documentname.md %}
 3. Use defined perma links instead of folder structure
 4. Move index pages to their own folder instead of having them in a folder structure
 4. Make contributors into a collection
