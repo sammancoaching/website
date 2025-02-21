@@ -33,7 +33,7 @@ Note - this is a [Web Hunt](/activities/connect/webhunt.html)
 
 ### Concrete: analyze Instavoiced
 
-Working in pairs, read the description of the [Instavoiced](/kata_descriptions/instavoiced.html) system. 
+Working in pairs, read the description of the [Instavoiced]({% link _kata_descriptions/instavoiced.md %}) system. 
 
 - Sketch a high-level architecture for this system
 - Document your architectural decisions in one or more diagrams
@@ -49,7 +49,7 @@ The front page of the [The C4 model for visualising software architecture](https
 - the main abstractions used on the diagrams
 
 ### Concrete
-Continuing with the same [Instavoiced](/kata_descriptions/instavoiced.html) system, start over on your diagrams. Draw a Context diagram. Use paper or a whiteboard.
+Continuing with the same [Instavoiced]({% link _kata_descriptions/instavoiced.md %}) system, start over on your diagrams. Draw a Context diagram. Use paper or a whiteboard.
 
 ### Conclusions
 Each pair posts their original and new diagrams in a place where everyone can see them. Walk around and look at everyone's diagrams. Each person should note for themselves what is important to include or not include in a Context diagram.

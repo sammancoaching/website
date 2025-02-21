@@ -48,7 +48,7 @@ Working in pairs, look through these urls and classify them into one of the four
 When you have done that, go back to your own lists of documentation you have looked at recently. Pick one. How would you classify it? Does it fit neatly into one of the categories or is it a mix of more than one? When you were looking for this documentation, were you studying or working? Were you looking for practical steps or theoretical knowlege? Does that match the document's classification according to the Divio system?
 
 ### Concrete: write a document
-Pick a tool or library that you know well. Alternatively imagine some part of the the [Instavoiced software](/kata_descriptions/instavoiced.html) Write a short text about it in one of the four documentation categories. When the time is up, share it with the group and have them guess which category it belongs to.
+Pick a tool or library that you know well. Alternatively imagine some part of the the [Instavoiced software]({% link _kata_descriptions/instavoiced.md %}) Write a short text about it in one of the four documentation categories. When the time is up, share it with the group and have them guess which category it belongs to.
 
 ### Conclusions: how can we use this
 Note for yourself if you see any situations where this documentation classification system could help you to write better documentation for the software you work on.

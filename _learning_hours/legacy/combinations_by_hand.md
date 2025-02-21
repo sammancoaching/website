@@ -33,7 +33,7 @@ Give examples they might have seen before with parameterized tests. The point is
 ### Concrete: Add more combinations
 There is a starting position for the [Yazty Refactoring Kata](https://github.com/emilybache/Yatzy-Refactoring-Kata/tree/main) with a branch 'empty_approvals' - not for every programming language unfortunately, but it does for C.
 
-Take a look at the [Yatzy Kata](/kata_descriptions/yatzy.html). The starting point has a (mostly) working implementation. The aim of today's exercise is to unify the interface to all the various calculation functions. Each category should have a function with the same name as that category, that takes one argument - the dice roll - and returns the score. Before you can do that refactoring you will need to improve the test coverage.
+Take a look at the [Yatzy Kata]({% link _kata_descriptions/yatzy.md %}). The starting point has a (mostly) working implementation. The aim of today's exercise is to unify the interface to all the various calculation functions. Each category should have a function with the same name as that category, that takes one argument - the dice roll - and returns the score. Before you can do that refactoring you will need to improve the test coverage.
 
 First check the test coverage for the test you have already. Increase the test coverage as needed to support your refactoring.
 

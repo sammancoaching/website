@@ -9,7 +9,7 @@ author: emilybache
 Selecting and ordering test cases 
 ----------------------------------
 
-[FizzBuzz](/kata_descriptions/fizzbuzz.html) is one step up in difficulty from Leap Years. The problem description asks you to design a console application. You need to do a small amount of analysis to realize the heart of it is a pure function similar to the one for Leap Years. This one takes an integer and returns a String. You can use this Kata to talk about how to plan and select test cases, and why you spend a few minutes analyzing the problem to look for a pure function to test drive. Note - this is part of the general strategy for ['inside-out' TDD](https://8thlight.com/blog/georgina-mcfadyen/2016/06/27/inside-out-tdd-vs-outside-in.html). 
+[FizzBuzz]({% link _kata_descriptions/fizzbuzz.md %}) is one step up in difficulty from Leap Years. The problem description asks you to design a console application. You need to do a small amount of analysis to realize the heart of it is a pure function similar to the one for Leap Years. This one takes an integer and returns a String. You can use this Kata to talk about how to plan and select test cases, and why you spend a few minutes analyzing the problem to look for a pure function to test drive. Note - this is part of the general strategy for ['inside-out' TDD](https://8thlight.com/blog/georgina-mcfadyen/2016/06/27/inside-out-tdd-vs-outside-in.html). 
 
 ### Learning goals
 The theme is the same as the first session: "Small steps". 
@@ -42,7 +42,7 @@ Which is easiest to write automated tests for:
 The reason for asking about what is easy to test is to get them prepared for designing a pure function or static method for calculating FizzBuzz. These kinds of functions are easier to test since all the outcomes are visible in the return value, the input value is not modified and there are no side effects.
 
 ### Explain and elaborate test cases
-Starting at a whiteboard, explain the purpose of the [FizzBuzz](/kata_descriptions/fizzbuzz.html) kata. Read the description to the group, or put it on a screen they can see. Ask the group to suggest test cases we will need for this kata. Write up whatever they say. 
+Starting at a whiteboard, explain the purpose of the [FizzBuzz]({% link _kata_descriptions/fizzbuzz.md %}) kata. Read the description to the group, or put it on a screen they can see. Ask the group to suggest test cases we will need for this kata. Write up whatever they say. 
 
 What they come up with might include this - an impure function that prints a multi-line string: 
 

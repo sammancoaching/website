@@ -44,13 +44,13 @@ Write these characteristics up on a whiteboard.
 ### Concrete: Write test lists
 Ask them to work in pairs to come up with a test list. 
 
-- Give them a requirements document to work from, like [MarsRover](/kata_descriptions/mars_rover.html).
+- Give them a requirements document to work from, like [MarsRover]({% link _kata_descriptions/mars_rover.md %}).
 - After they have had time to read it, ask if there are any questions about the requirements. Take the role of business expert and answer their questions.
 - Ask them to write a list of 4-6 test case ideas, give them 10-15 minutes
 - Everyone should share their lists with the whole group and read through everyone else's ideas.
 - Spend a few more minutes working in pairs improving the lists - steal the best ideas from the other groups.
 
-Repeat with a second problem if there is time, for example [Fractions](/kata_descriptions/fractions.html) or [MontyHall](/kata_descriptions/monty_hall.html) or [BankAccount](/kata_descriptions/bank_account.html).
+Repeat with a second problem if there is time, for example [Fractions]({% link _kata_descriptions/fractions.md %}) or [MontyHall]({% link _kata_descriptions/monty_hall.md %}) or [BankAccount]({% link _kata_descriptions/bank_account.md %}).
 
 ### Conclusions: how can we use this?
 If you didn’t choose option B in the warmup:

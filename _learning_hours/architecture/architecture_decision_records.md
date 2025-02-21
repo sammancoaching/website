@@ -45,7 +45,7 @@ The source for Architecture Decision Records is  [Michael Nygard's blog post](ht
 Find some publically available ADRs that are good examples of what you are looking for. For example [The winning entry in O'Reilly's architectural katas competition in 2022](https://github.com/tekiegirl/Archangels/blob/main/4.ADRs/README.md). You want people to read them actively, so prepare a version of them where you have deliberately introduced errors - eg you swapped some of the sections and titles. Ask them to read them through and tell you the errors.
 
 ### Write your own ADR
-Make an architecture deicion for the [Instavoiced](/kata_descriptions/instavoiced.html) system. For example you could decide:
+Make an architecture deicion for the [Instavoiced]({% link _kata_descriptions/instavoiced.md %}) system. For example you could decide:
 
 * What data storage option to use for archiving invoice pdfs
 * What web framework to use for suppliers to upload their pdf invoices

@@ -33,7 +33,7 @@ Put up the IDE on the big screen, with an empty project and empty test case open
 The test is the first time you use the class or method. Before you use the tool to summon it into existance, you can examine how easy it is to use your design. It's the cheapest possible moment to change your design decisions.
 
 ### Do: Lift Button
-Practice writing the tests first before creating the classes and functions they describe. The [Lift Button Kata](/kata_descriptions/lift_button.html) might be a good one.
+Practice writing the tests first before creating the classes and functions they describe. The [Lift Button Kata]({% link _kata_descriptions/lift_button.md %}) might be a good one.
 
 Before you split into pairs to work on the kata, spend a few minutes in the whole group coming up with a test list. Something like:
 

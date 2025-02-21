@@ -37,7 +37,7 @@ The topic is _overdesign_ in software. Read the list of statements below. Circle
 * Premature Generalization is a code smell.
  
 ## Demonstrate
-Starting at a whiteboard, explain the purpose of the [Yatzy](/kata_descriptions/yatzy.html) kata. Read the description to the group, and put the category and scoring rules on a screen they can see. Ask the group if they can see any examples in the description that would make good test cases. There are lots! For example they might find these examples:
+Starting at a whiteboard, explain the purpose of the [Yatzy]({% link _kata_descriptions/yatzy.md %}) kata. Read the description to the group, and put the category and scoring rules on a screen they can see. Ask the group if they can see any examples in the description that would make good test cases. There are lots! For example they might find these examples:
 
 * 1,1,3,3,6 placed on “chance” scores 14 (1+1+3+3+6)
 * 1,1,1,1,1 placed on “yatzy” scores 50
