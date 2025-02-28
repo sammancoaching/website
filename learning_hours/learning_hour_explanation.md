@@ -11,6 +11,6 @@ A technical coach, team lead or enthusiastic developer should be able to use the
 
 Browse the different topics and learning hour plans until you find one that appeals to you. Before you hold it with your team you'll probably want to try out the exercise(s) for yourself so you can help people if they get stuck. All the materials are released with a Creative Commons license which means you're free to use them so long as you include the license and attributions.
 
-In the book ["Technical Coaching with the Samman Method"](https://leanpub.com/techagilecoach) there are [ten sample learning hours](/learning_hours/ten_sample.html) with four different themes. This site has the most up-to-date versions of them and a lot more learning hours besides. If you design a new learning hour and are interested in contributing it to this collection, please [get in touch](/contact.html).
+In the book ["Technical Coaching with the Samman Method"](https://leanpub.com/techagilecoach) there are [ten sample learning hours]({% link learning_hours/series/ten_sample.md %}) with four different themes. This site has the most up-to-date versions of them and a lot more learning hours besides. If you design a new learning hour and are interested in contributing it to this collection, please [get in touch](/contact.html).
 
 
