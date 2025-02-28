@@ -14,5 +14,5 @@ _Start by opening a new file in a code editor. Begin declaring a test case. Refe
 
 ## Consequences
 
-If your requirements are well thought through this could actually work ok. The danger is they are not, and then you might end up starting with a test that is too difficult to get to pass quickly. You might need quite a bit of setup and become discouraged and give up on writing tests. Happily, it's easy to recover from here. Spend some time reading the requirements and analysing them. Then start again with a different test case. Take a look at [Option B](/exercises/consequences/tdd_overview_B.html) for more information.
+If your requirements are well thought through this could actually work ok. The danger is they are not, and then you might end up starting with a test that is too difficult to get to pass quickly. You might need quite a bit of setup and become discouraged and give up on writing tests. Happily, it's easy to recover from here. Spend some time reading the requirements and analysing them. Then start again with a different test case. Take a look at [Option B]({% link exercises/consequences/tdd_overview_B.md %}) for more information.
 

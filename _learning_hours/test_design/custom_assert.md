@@ -19,7 +19,7 @@ Writing your own assertions is a way to reduce duplication in tests. The error m
 * 10 min reflect: when should you write a custom assertion?
 
 ### Failure messages
-Look at these [failure messages](/exercises/games/failure_messages.html). What do you expect to see in a good failure message?
+Look at these [failure messages]({% link exercises/games/failure_messages.md %}). What do you expect to see in a good failure message?
 
 ### Custom Assertion
 If you've used a custom assertion in a previous exercise, review that code now. Otherwise, show an example of a custom assertion for an exercise they are already familiar with.

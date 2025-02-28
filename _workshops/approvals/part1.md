@@ -82,7 +82,7 @@ Handling tricky output. Follow this learning hour: ["Design for Approval Testing
 
 ## Part 4
 
-More tricky output - filtering and sorting. Follow this learning hour: ["Approvals Puzzles"](/approval_testing_texttest/run_dependent_text.html)
+More tricky output - filtering and sorting. Follow this learning hour: ["Approvals Puzzles"]({% link _learning_hours/approval_testing_texttest/run_dependent_text.md %})
 
 ## Part 5
 
