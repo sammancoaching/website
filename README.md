@@ -88,16 +88,13 @@ When you push to the main branch, there is a github action that deploys the chan
 We would like to do some refactoring. This is the plan
 
 1. Improve the build so we don't release a broken site
-2. Use Jekyll links everywhere - no "]{/" in project
-   2.1. Use this regexp to find html links: \((\/.*?)(\.html)\)
-    2.2. the jekyll syntax for a link is: {% link foldername/documentname.md %}
-3. Create a new list of learning hours listing "by Tag". Add tags to learning hours.
-4. Use defined perma links instead of folder structure
+2. Create a new list of learning hours listing "by Tag". Add tags to learning hours.
+3. Use defined perma links instead of folder structure
 4. Move index pages to their own folder instead of having them in a folder structure
-4. Make contributors into a collection
-5. Remove layouts that are only used in one place, use html in these pages instead
-6. Give learning hours ids (with a script?) and put them in a flat folder structure
-7. Supply page templates for collections in git but not included in the jekyll build
+5. Make contributors into a collection
+6. Remove layouts that are only used in one place, use html in these pages instead
+7. Give learning hours ids (with a script?) and put them in a flat folder structure
+8. Supply page templates for collections in git but not included in the jekyll build
 
 ## Jekyll Design Principles
 * Use collections for objects
