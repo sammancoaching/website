@@ -24,7 +24,7 @@ In agile, Big Design Up Front (BDUF) is something to be avoided, but that doesn'
 * 10 min reflect: Correlate test list with TDD cycles
 
 ### Connect
-Go to the [choose your own adventure page](/exercises/warm_up_questions/tdd_overview_what_would_you_do.html) and review the options A,B,C,D.
+Go to the [choose your own adventure page]({% link exercises/warm_up_questions/tdd_overview_what_would_you_do.md %}) and review the options A,B,C,D.
 Choose an option and read the suggested consequences. Read any other consequences you feel like. Turn your camera off while you’re doing the exercise, turn it back on when you’re done. (Alternatively, raise and lower a hand)
 
 Share with the group which option you first chose.
