@@ -90,7 +90,7 @@ We would like to do some refactoring. This is the plan
 1. Improve the build so we don't release a broken site
 2. Create a new list of learning hours listing "by Tag". Add tags to learning hours.
 3. Use defined [perma links](https://jekyllrb.com/docs/permalinks/) instead of folder structure.
-4. Move index pages to their own folder instead of having them in a folder structure
+4. Move index pages to their own folder instead of having them in a folder structure.
 5. Make contributors into a collection
 6. Remove layouts that are only used in one place, use html in these pages instead
 7. Give learning hours ids (with a script?) and put them in a flat folder structure
