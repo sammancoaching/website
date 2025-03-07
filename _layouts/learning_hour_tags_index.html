@@ -1,0 +1,23 @@
+---
+title: "Learning Hours by Tag"
+layout: homepage
+---
+
+{{ content }}
+<ul>
+    {% assign all_tags = site.learning_hours | map: 'tags' | join: ',' | split: ',' | uniq %}
+    {% for tag in all_tags %}
+    <li><a href="#{{ tag }}">{{ tag }}</a></li>
+    {% endfor %}
+</ul>
+
+{% for tag in all_tags %}
+<h2 id="{{ tag }}">{{ tag }}</h2>
+<ul>
+    {% for item in site.learning_hours %}
+    {% if item.tags contains tag %}
+    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+    {% endif %}
+    {% endfor %}
+</ul>
+{% endfor %}
