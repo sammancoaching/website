@@ -7,12 +7,14 @@ layout: homepage
 <ul>
     {% assign all_tags = site.learning_hours | map: 'tags' | join: ',' | split: ',' | uniq %}
     {% for tag in all_tags %}
-    <li><a href="#{{ tag }}">{{ tag }}</a></li>
+    {% assign tag_title = site.data.learning_hour_tags[tag] | default: tag %}
+    <li><a href="#{{ tag }}">{{ tag_title }}</a></li>
     {% endfor %}
 </ul>
 
 {% for tag in all_tags %}
-<h2 id="{{ tag }}">{{ tag }}</h2>
+{% assign tag_title = site.data.learning_hour_tags[tag] | default: tag %}
+<h2 id="{{ tag }}">{{ tag_title }}</h2>
 <ul>
     {% for item in site.learning_hours %}
     {% if item.tags contains tag %}

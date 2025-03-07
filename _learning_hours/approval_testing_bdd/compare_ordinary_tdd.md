@@ -5,6 +5,7 @@ title: Leap Years with Approvals
 difficulty: 1
 author: emilybache
 affiliation: ProAgile
+tags: approvals bdd
 ---
 
 # Leap Years with Approvals
