@@ -4,13 +4,45 @@ layout: homepage
 ---
 
 {{ content }}
-<ul>
-    {% assign all_tags = site.learning_hours | map: 'tags' | join: ',' | split: ',' | uniq %}
-    {% for tag in all_tags %}
-    {% assign tag_title = site.data.learning_hour_tags[tag] | default: tag %}
-    <li><a href="#{{ tag }}">{{ tag_title }}</a></li>
-    {% endfor %}
-</ul>
+
+<script>
+    function handleCheckboxClick(tag) {
+        showOnlySection(tag);
+    }
+
+
+    function updateSections() {
+        const checkboxes = document.querySelectorAll('.tag-checkbox');
+        checkboxes.forEach(checkbox => {
+            const tag = checkbox.value;
+            const header = document.getElementById(tag);
+            const list = header.nextElementSibling;
+            const displayStyle = checkbox.checked ? 'block' : 'none';
+            if (header) header.style.display = displayStyle;
+            if (list) list.style.display = displayStyle;
+        });
+    }
+
+    function showOnlySection(tag) {
+        const checkboxes = document.querySelectorAll('.tag-checkbox');
+        checkboxes.forEach(checkbox => {
+            checkbox.checked = checkbox.value === tag;
+        });
+        updateSections();
+    }
+</script>
+
+{% assign all_tags = site.learning_hours | map: 'tags' | join: ',' | split: ',' | uniq %}
+{% for tag in all_tags %}
+{% assign tag_title = site.data.learning_hour_tags[tag] | default: tag %}
+<div>
+    <label>
+        <input type="checkbox" class="tag-checkbox" value="{{ tag }}" onclick="handleCheckboxClick('{{ tag }}')"> {{ tag_title }}
+    </label>
+</div>
+
+{% endfor %}
+
 
 {% for tag in all_tags %}
 {% assign tag_title = site.data.learning_hour_tags[tag] | default: tag %}
@@ -23,3 +55,4 @@ layout: homepage
     {% endfor %}
 </ul>
 {% endfor %}
+
