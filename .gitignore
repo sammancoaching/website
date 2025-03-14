@@ -7,3 +7,4 @@ _site
 credentials.txt
 .idea
 Gemfile.lock
+__pycache__
