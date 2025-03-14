@@ -87,16 +87,16 @@ When you push to the main branch, there is a github action that deploys the chan
 # Development plan for this website
 We would like to do some refactoring. This is the plan
 
-1. Improve the build so we don't release a broken site
-2. Create a new list of learning hours listing "by Tag". Add tags to learning hours.
-2. Add a field to katas for "difficulty" and allow people to sort them. Possibly tags too?
-2. Add search feature - see if this [blog on WASM](https://www.devlead.se/posts/2025/2025-03-12-static-web-app-wasm-search) might work
-3. Use defined [perma links](https://jekyllrb.com/docs/permalinks/) instead of folder structure.
-4. Move index pages to their own folder instead of having them in a folder structure.
-5. Make contributors into a collection.
-6. Remove layouts that are only used in one place, use html in these pages instead
-7. Give learning hours ids (with a script?) and put them in a flat folder structure
-8. Supply page templates for collections in git but not included in the jekyll build
+1. Add tags to learning hours. (Emily can do this offline)
+2. Improve usability of tags page with some javascript
+3. Add a field to katas for "difficulty" and allow people to sort them. Possibly tags too?
+4. Add search feature - see if this [blog on WASM](https://www.devlead.se/posts/2025/2025-03-12-static-web-app-wasm-search) might work
+5. Use defined [perma links](https://jekyllrb.com/docs/permalinks/) instead of folder structure.
+6. Move index pages to their own folder instead of having them in a folder structure.
+7. Make contributors into a collection.
+8. Remove layouts that are only used in one place, use html in these pages instead
+9. Give learning hours ids (with a script?) and put them in a flat folder structure
+10. Supply page templates for collections in git but not included in the jekyll build
 
 ## Jekyll Design Principles
 * Use collections for objects
