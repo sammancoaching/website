@@ -5,6 +5,7 @@ kata: instavoiced
 difficulty: 3
 author: emilybache
 affiliation: ProAgile
+tags: architecture
 ---
 
 # The Divio Documentation System

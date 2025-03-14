@@ -5,6 +5,7 @@ title: Data Driven testing with Approvals
 difficulty: 1
 author: emilybache
 affiliation: ProAgile
+tags: approvals bdd
 ---
 
 # Data-Driven Testing with Approvals

@@ -4,6 +4,7 @@ title: BDD Process
 kata: lift
 difficulty: 1
 author: emilybache
+tags: bdd
 ---
 
 # Example mapping

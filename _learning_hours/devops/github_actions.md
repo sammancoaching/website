@@ -5,6 +5,7 @@ kata: fizzbuzz
 difficulty: 1
 author: balp
 affiliation: HiQ
+tags: devops
 ---
 
 # Basic GitHub Actions

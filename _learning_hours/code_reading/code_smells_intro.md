@@ -4,6 +4,7 @@ title: Code Reading - Identifying Code Smells
 kata: gilded_rose
 difficulty: 1
 author: emilybache
+tags: reading legacy
 ---
 
 # Code Smells - Introduction

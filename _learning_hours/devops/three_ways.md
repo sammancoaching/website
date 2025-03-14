@@ -5,6 +5,7 @@ kata:
 difficulty: 1
 author: fredrikwendt
 affiliation: ProAgile
+tags: devops
 ---
 
 # The three ways of DevOps

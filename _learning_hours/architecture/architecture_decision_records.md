@@ -5,6 +5,7 @@ kata: instavoiced
 difficulty: 4
 author: emilybache
 affiliation: ProAgile
+tags: architecture
 ---
 
 # Architecture Decision Records

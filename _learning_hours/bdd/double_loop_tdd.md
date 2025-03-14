@@ -4,6 +4,7 @@ title: Double-Loop TDD
 kata: monty_hall
 difficulty: 2
 author: emilybache
+tags: bdd
 ---
 
 # Double-Loop TDD

@@ -5,6 +5,7 @@ kata: instavoiced
 difficulty: 1
 author: emilybache
 affiliation: ProAgile
+tags: architecture
 ---
 
 # Simon Brown's C4 model - Intro

@@ -4,6 +4,7 @@ title: Git Interactive Rebase
 kata: 
 difficulty: 2
 author: xaviametller
+tags: teamwork
 ---
 
 # Git interactive rebase

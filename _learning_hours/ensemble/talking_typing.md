@@ -5,6 +5,7 @@ kata: calc_stats
 difficulty: 1
 author: emilybache
 affiliation: Bache Consulting, ProAgile
+tags: teamwork
 ---
 
 # Talking with Intent, Typing Syntax

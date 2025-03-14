@@ -4,6 +4,7 @@ title: Common Code Smells
 kata: tennis
 difficulty: 2
 author: emilybache
+tags: reading legacy
 ---
 
 # Code Reading - Common Code Smells

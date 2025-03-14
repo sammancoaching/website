@@ -5,6 +5,7 @@ kata: recently_used_list
 difficulty: 3
 author: emilybache
 affiliation: ProAgile
+tags: architecture
 ---
 
 # User Documentation and code snippets

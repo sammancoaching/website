@@ -5,6 +5,7 @@ kata: lift
 difficulty: 3
 author: emilybache
 affiliation: ProAgile
+tags: approvals bdd
 ---
 
 # Lift Kata with Approvals

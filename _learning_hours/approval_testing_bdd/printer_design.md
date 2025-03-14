@@ -5,6 +5,7 @@ kata: vending_machine
 difficulty: 2
 author: emilybache
 affiliation: ProAgile
+tags: approvals bdd
 ---
 
 # Printer design

@@ -6,6 +6,7 @@ difficulty: 1
 author: emilybache
 affiliation: Bache Consulting
 languages: c,texttest
+tags: c texttest
 ---
 
 # Supplying User Input via stdin

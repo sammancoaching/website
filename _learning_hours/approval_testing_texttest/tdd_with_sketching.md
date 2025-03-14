@@ -4,6 +4,7 @@ title: TDD with TextTest
 kata: parse_args
 difficulty: 3
 author: emilybache
+tags: texttest
 ---
 
 # TDD with TextTest

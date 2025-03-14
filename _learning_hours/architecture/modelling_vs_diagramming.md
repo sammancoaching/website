@@ -5,6 +5,7 @@ kata: instavoiced
 difficulty: 2
 author: emilybache
 affiliation: ProAgile
+tags: architecture
 ---
 
 # Modelling vs Diagramming
