@@ -11,8 +11,7 @@ affiliation: ProAgile
 
 Let's practice using this refactoring, especially if refactoring tools are new to the team.
 
-There is a video on Emily Bache's YouTube channel for this learning hour: ["Unlock the Power of Refactoring in Everyday OO Design"](https://youtu.be/sngRW3zPiiE)
-
+There is a video and other materials available for this learning hour as part of a [Technical Coaching Programme]({% link training/full_package.md %})
 
 ## Learning Goals
 

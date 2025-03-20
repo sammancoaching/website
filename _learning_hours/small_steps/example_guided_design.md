@@ -10,7 +10,7 @@ author: emilybache
 
 This can make a good follow up after [Design in the red step](design_with_a_test.html).
 
-There are two videos on Emily Bache's YouTube channel for learning hours on this topic - ["Usage First Design in TDD"](https://youtu.be/4xNPMbV4J4w) and ["Incremental TDD"](https://youtu.be/5BftptSNrAg)
+There is a video and other materials available for this learning hour as part of a [Technical Coaching Programme]({% link training/full_package.md %})
 
 ## Learning Objectives
 

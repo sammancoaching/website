@@ -10,6 +10,8 @@ learning_hours: split_variable
 # Split Variable
 This is one of the refactorings in Martin Fowler's book although I think his definition is unnecessarily narrow and I usually extend it to additional situations.
 
+There is a video and other materials available for this learning hour as part of a [Technical Coaching Programme]({% link training/full_package.md %})
+
 ## Examine
 There are three common situations to use split variable:
 

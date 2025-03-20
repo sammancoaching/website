@@ -40,7 +40,7 @@ The end goal is to have a clear language for the code,
 that speaks of the domain.
 This learning hour is a step in that direction. 
 
-There is a video on Emily Bache's YouTube channel that shows a variant on this learning hour ["Trustworthy Code with Naming as a Process"](https://youtu.be/PPQHJpWG4GA)
+There is a video and other materials available for this learning hour as part of a [Technical Coaching Programme]({% link training/full_package.md %})
 
 ## Learning objective
 Being able to explain how to give a piece of code a name that can be trusted.

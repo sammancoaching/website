@@ -10,7 +10,7 @@ author: emilybache
 
 In this exercise you need to use a mock or spy to test the code.
 
-There is a video on Emily Bache's YouTube channel that goes through this learning hour ["Mock objects: the Police Enforcer of Unit Testing"](https://youtu.be/4bCuxMhtf_E).
+There is a video and other materials available for this learning hour as part of a [Technical Coaching Programme]({% link training/full_package.md %})
 
 ## Session Outline
 

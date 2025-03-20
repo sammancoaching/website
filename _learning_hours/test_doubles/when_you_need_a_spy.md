@@ -11,7 +11,7 @@ via: emilybache
 
 In this exercise you need to use a spy or a mock to test the code.
 
-There is a video on Emily Bache's YouTube channel that goes through this learning hour ["The Undercover Agent in Unit Testing"](https://youtu.be/OuRtBe07T9A)
+There is a video and other materials available for this learning hour as part of a [Technical Coaching Programme]({% link training/full_package.md %})
 
 ## Session Outline
 

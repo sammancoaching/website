@@ -12,7 +12,7 @@ via: emilybache
 
 [Long function]({% link _code_smells/long_function.md %}) is a common code smell. Learning to identify paragraphs that can be extracted as methods is often a good strategy in this situation. This learning hour is about understanding concepts and people will probably not be able to use this technique fluently without a follow-up session. It is adapted from a longer session that is detailed [in this repo](https://github.com/LearnWithLlew/RefactoringToCleanerCode.Slides).
 
-There is a video on Emily Bache's YouTube channel for this learning hour: ["Reduce Method Sprawl with Code Paragraphs"](https://youtu.be/tPz1riXOrYk)
+There is a video and other materials available for this learning hour as part of a [Technical Coaching Programme]({% link training/full_package.md %})
 
 
 ## Learning Goals

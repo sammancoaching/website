@@ -11,7 +11,7 @@ tags: reading legacy
 
 It's useful to have a vocabulary for talking about refactoring. It will help you to communicate when doing strong-style pairing or mob programming. Code smells is perhaps a less-known concept than refactoring and knowing these names will also help you to communicate about code, and identify targets for refactoring. In this learning hour we'll talk about what a code smell is and learn the names of some common ones. 
 
-There is a video on Emily Bache's YouTube channel for this learning hour: ["How to Smell Bad Code"](https://youtu.be/L-cN7NI-Fes)
+There is a video and other materials available for this learning hour as part of a [Technical Coaching Programme]({% link training/full_package.md %})
 
 ## Learning Goals
 * Describe the term "Code Smell"

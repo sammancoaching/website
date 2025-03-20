@@ -11,7 +11,7 @@ affiliation: ProAgile
 
 Inspired by Mike Hill's "Many more, much smaller steps".
 
-There is a video on Emily Bache's YouTube channel which takes up these topics, but uses a different exercise - ["Incremental Coding for Continuous Delivery"](https://youtu.be/DIB7DVvNfnA)
+There is a video and other materials available for this learning hour as part of a [Technical Coaching Programme]({% link training/full_package.md %})
 
 ## Session Outline
  
