@@ -43,6 +43,8 @@ I want to be able to change the delivery address after the pizza order has been 
 
 Facilitate an example mapping workshop for this user story. At the end, compare with the sample one in the book.
 
+Note: you may find this [online Example Mapping tool](https://examplemapping.com/) useful during this exercise.
+
 ### Conclusions: what is new?
 Look again at the BDD tasks and activities game. We just experienced a small examples workshop. What parts of the BDD process are new for you? What parts are different from what you use in your daily work at the moment? Discuss in pairs and note your conclusions.
 
