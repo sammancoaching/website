@@ -2,6 +2,7 @@
 layout: code_smell
 title: Middle Man
 source: Martin Fowler
+name: middle_man
 ---
 
 # Middle Man
