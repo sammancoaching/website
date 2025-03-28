@@ -4,7 +4,7 @@ title: Replace Command with Function
 source: Martin Fowler
 source_url: https://refactoring.com/catalog/replaceCommandWithFunction.html
 code_smells: lazy_element
-learning_hours: 
+learning_hours: change_signature
 ---
 
 # Replace Command with Function - Instance to Static

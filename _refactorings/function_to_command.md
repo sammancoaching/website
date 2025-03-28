@@ -4,7 +4,7 @@ title: Replace Function with Command
 source: Martin Fowler
 source_url: https://refactoring.com/catalog/replaceFunctionWithCommand.html
 code_smells: feature_envy
-learning_hours: 
+learning_hours: change_signature
 ---
 
 # Replace Function with Command - Static to Instance
