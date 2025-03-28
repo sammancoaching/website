@@ -12,6 +12,7 @@ Find a Learning Hour facilitator's guide:
 * By [Topic]({% link learning_hours/learning_hours_by_topic.md %})
 * By [Author]({% link learning_hours/learning_hours_by_author.md %})
 * By [Kata]({% link learning_hours/learning_hours_by_kata.md %})
+* By [Tag]({% link learning_hours/learning_hours_by_tag.md %})
 
 You might also like to browse these lists of learning hours:
 
