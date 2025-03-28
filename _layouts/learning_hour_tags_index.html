@@ -6,31 +6,40 @@ layout: homepage
 {{ content }}
 
 <script>
-    function handleCheckboxClick(tag) {
-        showOnlySection(tag);
+    function handleCheckboxClick() {
+        updateSections();
     }
-
 
     function updateSections() {
         const checkboxes = document.querySelectorAll('.tag-checkbox');
+        const activeTags = [];
+        checkboxes.forEach(checkbox => {
+            if (checkbox.checked) {
+                activeTags.push(checkbox.value);
+            }
+        });
+
+        // Show all sections if no tags are selected
+        if (activeTags.length === 0) {
+            const headers = document.querySelectorAll('h2');
+            const lists = document.querySelectorAll('ul');
+            headers.forEach(header => header.style.display = 'block');
+            lists.forEach(list => list.style.display = 'block');
+            return;
+        }
+
+        // Show only selected sections
         checkboxes.forEach(checkbox => {
             const tag = checkbox.value;
             const header = document.getElementById(tag);
-            const list = header.nextElementSibling;
-            const displayStyle = checkbox.checked ? 'block' : 'none';
+            const list = header ? header.nextElementSibling : null;
+            const displayStyle = activeTags.includes(tag) ? 'block' : 'none';
             if (header) header.style.display = displayStyle;
             if (list) list.style.display = displayStyle;
         });
     }
-
-    function showOnlySection(tag) {
-        const checkboxes = document.querySelectorAll('.tag-checkbox');
-        checkboxes.forEach(checkbox => {
-            checkbox.checked = checkbox.value === tag;
-        });
-        updateSections();
-    }
 </script>
+
 
 {% assign all_tags = site.learning_hours | map: 'tags' | join: ',' | split: ',' | uniq %}
 {% for tag in all_tags %}
