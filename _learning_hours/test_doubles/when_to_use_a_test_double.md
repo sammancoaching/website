@@ -5,6 +5,7 @@ kata: delivery_controller
 difficulty: 5
 author: emilybache
 affiliation: ProAgile
+tags: test_doubles test_design
 ---
 
 # When to use a Test Double

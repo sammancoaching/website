@@ -5,6 +5,7 @@ kata: mars_rover
 difficulty: 2
 author: emilybache
 affiliation: ProAgile
+tags: test_design
 ---
 
 # Parameterized Tests

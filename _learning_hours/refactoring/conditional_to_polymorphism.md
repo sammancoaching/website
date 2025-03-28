@@ -5,6 +5,7 @@ kata: parrot
 difficulty: 3
 author: emilybache
 affiliation: Praqma
+tags:  refactoring
 ---
 
 

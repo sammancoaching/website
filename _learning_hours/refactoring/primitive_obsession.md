@@ -6,7 +6,8 @@ kata: person
 difficulty: 1
 author: agmsytim 
 via: emilybache
-affiliation: Atruvia 
+affiliation: Atruvia
+tags:  refactoring
 ---
 
 # Primitive Obsession

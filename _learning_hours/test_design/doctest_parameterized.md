@@ -5,6 +5,7 @@ kata: shopping_basket
 difficulty: 2
 author: emilybache
 affiliation: ProAgile
+tags: test_design c
 ---
 
 # Parameterized Tests in Doctest

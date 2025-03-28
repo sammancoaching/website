@@ -5,6 +5,7 @@ kata: leap_years
 difficulty: 2
 author: emilybache
 affiliation: ProAgile
+tags: test_design
 ---
 
 # Unit Test FIRST properties

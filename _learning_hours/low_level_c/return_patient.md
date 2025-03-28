@@ -5,6 +5,7 @@ kata: grep_with_marketing
 difficulty: 7
 author: emilybache
 affiliation: ProAgile
+tags: c refactoring legacy
 ---
 
 # Return the patient

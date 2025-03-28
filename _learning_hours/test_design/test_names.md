@@ -5,6 +5,7 @@ kata: gilded_rose
 difficulty: 1
 author: emilybache
 affiliation: ProAgile
+tags: test_design
 ---
 
 # Test Names - the Osherove pattern

@@ -5,6 +5,7 @@ kata: closest_to_zero
 difficulty: 1
 author: emilybache
 affiliation: ProAgile
+tags:  small_steps
 ---
 
 # TDD Cycles

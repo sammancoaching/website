@@ -5,6 +5,7 @@ kata: lift_button
 difficulty: 3
 author: objarni
 affiliation: ProAgile
+tags: c small_steps
 ---
 
 # TDD a lamp microcontroller

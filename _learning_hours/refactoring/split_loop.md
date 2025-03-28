@@ -6,6 +6,7 @@ code_smell: shotgun_surgery
 kata: theatrical_players
 difficulty: 2
 author: emilybache
+tags:  refactoring
 ---
 
 # Split Loop

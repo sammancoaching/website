@@ -4,6 +4,7 @@ title: Make a test list
 kata: mars_rover
 difficulty: 2
 author: emilybache
+tags:  small_steps
 ---
 
 # Make a test list

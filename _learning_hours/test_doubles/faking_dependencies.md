@@ -5,6 +5,7 @@ kata: html_converter
 difficulty: 3
 author: emilybache
 affiliation: ProAgile
+tags: test_doubles test_design
 ---
 
 # Faking Dependencies

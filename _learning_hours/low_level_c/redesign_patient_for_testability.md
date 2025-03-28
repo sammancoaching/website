@@ -5,6 +5,7 @@ kata: grep_with_marketing
 difficulty: 6
 author: emilybache
 affiliation: ProAgile
+tags: c legacy refactoring
 ---
 
 # Refactor the patient for testability

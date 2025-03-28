@@ -5,6 +5,7 @@ kata: theatrical_players
 difficulty: 2
 author: emilybache
 affiliation: ProAgile
+tags:  refactoring
 ---
 
 # Idiomatic Code

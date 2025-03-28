@@ -5,6 +5,7 @@ kata: closest_to_zero
 difficulty: 2
 author: emilybache
 affiliation: ProAgile
+tags:  small_steps
 ---
 
 # Iterative or Incremental?

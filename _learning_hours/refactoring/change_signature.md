@@ -6,6 +6,7 @@ difficulty: 2
 author: emilybache
 affiliation: ProAgile
 name: change_signature
+tags:  refactoring
 ---
 
 # Change Signature

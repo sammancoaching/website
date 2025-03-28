@@ -7,6 +7,7 @@ difficulty: 3
 author: neppord
 via: emilybache
 affiliation: ProAgile
+tags:  refactoring testable_design
 ---
 
 # Mending Law of Demeter Issues with Refactoring Tools

@@ -5,6 +5,7 @@ title: Replace Nested Conditional with Guard Clauses
 kata: payroll
 difficulty: 1
 author: gregorriegler
+tags:  refactoring
 ---
 
 # Replace Nested Conditional with Guard Clauses

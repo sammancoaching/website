@@ -6,6 +6,7 @@ code_smell: variable_with_long_scope
 kata: tennis
 difficulty: 3
 author: emilybache
+tags:  refactoring
 ---
 
 # Split Variable

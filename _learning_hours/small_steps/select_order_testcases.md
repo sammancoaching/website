@@ -4,6 +4,7 @@ title: Selecting and ordering test cases
 kata: fizzbuzz
 difficulty: 1
 author: emilybache
+tags:  small_steps
 ---
 
 Selecting and ordering test cases 

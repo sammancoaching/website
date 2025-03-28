@@ -5,6 +5,7 @@ kata: timer_expiry
 difficulty: 3
 author: emilybache
 affiliation: ProAgile
+tags: test_design c
 ---
 
 # Test Fixture Design

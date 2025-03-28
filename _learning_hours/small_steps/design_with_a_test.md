@@ -5,6 +5,7 @@ name: design_in_red_step
 kata: lift_button
 difficulty: 1
 author: emilybache
+tags:  small_steps refactoring 
 ---
 
 # Design in the Red step

@@ -4,6 +4,7 @@ title: Example-guided design
 kata: shopping_basket
 difficulty: 1
 author: emilybache
+tags:  small_steps bdd
 ---
 
 # Example-guided design

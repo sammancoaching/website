@@ -5,6 +5,7 @@ kata: todo
 difficulty: 3
 author: emilybache
 affiliation: ProAgile
+tags: test_design
 ---
 
 # Custom Assertions

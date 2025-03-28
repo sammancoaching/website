@@ -6,6 +6,7 @@ kata: fizzbuzz
 difficulty: 1
 author: emilybache
 affiliation: ProAgile
+tags: testable_design
 ---
 
 Beck's rules of simple design

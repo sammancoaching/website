@@ -5,6 +5,7 @@ kata: recently_used_list
 difficulty: 3
 author: emilybache
 affiliation: Bache Consulting
+tags: test_design
 ---
 
 # Test Fixtures - Readability vs Duplication

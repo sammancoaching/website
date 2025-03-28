@@ -6,6 +6,7 @@ difficulty: 3
 author: pfichtner
 via: emilybache
 affiliation: Atruvia
+tags:  refactoring small_steps
 ---
 
 # Parallel Change

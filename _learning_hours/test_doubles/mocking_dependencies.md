@@ -5,6 +5,7 @@ kata: single_sign_on
 difficulty: 4
 author: emilybache
 affiliation: ProAgile
+tags: test_doubles test_design
 ---
 
 # Mocking Dependencies

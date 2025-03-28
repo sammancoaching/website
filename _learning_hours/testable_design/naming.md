@@ -6,6 +6,7 @@ kata: theatrical_players
 difficulty: 1
 author: edytterbrink
 affiliation: Chocolate Driven Development AB
+tags: testable_design legacy
 ---
 
 # Reading by Renaming

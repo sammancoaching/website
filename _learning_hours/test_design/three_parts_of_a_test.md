@@ -5,6 +5,7 @@ kata: calc_stats
 difficulty: 2
 author: emilybache
 affiliation: ProAgile
+tags: test_design
 ---
 
 # Three parts of a test

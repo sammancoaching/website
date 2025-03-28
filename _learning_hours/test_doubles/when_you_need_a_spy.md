@@ -5,6 +5,7 @@ kata: doppelganger
 difficulty: 2
 author: dmerejkowsky
 via: emilybache
+tags: test_doubles test_design
 ---
 
 # When you need a spy

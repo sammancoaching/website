@@ -4,6 +4,7 @@ title: Outside-in TDD
 kata: todo
 difficulty: 5
 author: emilybache
+tags:  small_steps bdd
 ---
 
 # Outside-in TDD

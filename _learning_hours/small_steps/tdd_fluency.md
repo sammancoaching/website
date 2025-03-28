@@ -4,6 +4,7 @@ title: TDD Fluency
 kata: word_wrap
 difficulty: 2
 author: emilybache
+tags:  small_steps
 ---
 
 # Fluency with TDD

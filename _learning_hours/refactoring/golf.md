@@ -5,6 +5,7 @@ kata:
 difficulty: 3
 author: emilybache
 affiliation: ProAgile
+tags:  refactoring
 ---
 
 # Refactoring Golf

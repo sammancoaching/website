@@ -6,6 +6,7 @@ code_smell: divergent_change
 kata: theatrical_players
 difficulty: 3
 author: emilybache
+tags:  refactoring
 ---
 
 

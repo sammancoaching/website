@@ -6,11 +6,12 @@ kata: tennis
 difficulty: 2
 author: emilybache
 affiliation: ProAgile
+tags:  refactoring teamwork
 ---
 
 # Keyboarding skills
 
-Exercises to increase fluency with refactoring by practicing using keyboard shortcuts more.
+Exercises to increase fluency with refactoring by practicing using keyboard shortcuts more. This is particularly useful when pair programming or taking the typing role in an ensemble.
 
 ## Learning Goals
 

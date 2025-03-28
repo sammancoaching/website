@@ -4,6 +4,7 @@ title: Bottom-up design
 kata: yatzy
 difficulty: 2
 author: emilybache
+tags: testable_design
 ---
 
 # One function at a time, bottom up

@@ -5,6 +5,7 @@ kata: calc_stats
 difficulty: 1
 author: emilybache
 affiliation: Bache Consulting
+tags: test_design
 ---
 
 # Unit Tests Should Find Bugs

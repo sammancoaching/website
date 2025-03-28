@@ -5,6 +5,7 @@ kata: supermarket_receipt
 difficulty: 3
 author: emilybache
 affiliation: Praqma
+tags:  refactoring legacy
 ---
 
 # Simplify Conditional

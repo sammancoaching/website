@@ -4,6 +4,7 @@ title: When you need a mock
 kata: auction
 difficulty: 3
 author: emilybache
+tags: test_doubles test_design
 ---
 
 # When you need a mock

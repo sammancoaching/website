@@ -4,6 +4,7 @@ title: Stubbing Dependencies
 kata: tire_pressure
 difficulty: 2
 author: emilybache
+tags: test_doubles test_design
 ---
 
 # Stubbing Dependencies

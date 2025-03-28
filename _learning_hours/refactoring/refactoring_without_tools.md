@@ -4,6 +4,7 @@ title: Refactoring Without Tools
 kata: tennis
 difficulty: 1
 author: emilybache
+tags:  refactoring c
 ---
 
 # Refactoring without tools

@@ -5,6 +5,7 @@ kata: tire_pressure
 difficulty: 1
 author: emilybache
 affiliation: ProAgile
+tags: testable_design oop
 ---
 
 

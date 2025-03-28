@@ -5,6 +5,7 @@ kata: calc_stats
 difficulty: 3
 author: emilybache
 affiliation: ProAgile
+tags:  small_steps test_design
 ---
 
 # Slicing a task using ZOMBIES

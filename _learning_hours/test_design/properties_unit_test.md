@@ -5,6 +5,7 @@ kata: recently_used_list
 difficulty: 2
 author: emilybache
 affiliation: ProAgile
+tags: test_design
 ---
 
 # Characteristics of Unit tests

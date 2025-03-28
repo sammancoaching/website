@@ -6,6 +6,7 @@ kata: BigDiceGame
 difficulty: 2
 author: isidore
 via: emilybache
+tags:  refactoring legacy
 ---
 
 # Identify Paragraphs in Long Methods

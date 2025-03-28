@@ -4,6 +4,7 @@ title: Test Desiderata
 difficulty: 1
 author: ronheywood
 affiliation: Spektrix
+tags: test_design
 ---
 
 # Test Desiderata

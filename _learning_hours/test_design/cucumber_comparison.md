@@ -5,6 +5,7 @@ kata: leap_years
 difficulty: 4
 author: emilybache
 affiliation: ProAgile
+tags: test_design bdd
 ---
 
 # Gherkin intro

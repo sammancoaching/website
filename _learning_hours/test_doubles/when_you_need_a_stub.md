@@ -5,6 +5,7 @@ kata: doppelganger
 difficulty: 1
 author: gregorriegler
 via: emilybache
+tags: test_doubles test_design
 ---
 
 # When you need a stub

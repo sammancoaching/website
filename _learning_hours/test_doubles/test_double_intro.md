@@ -5,6 +5,7 @@ kata: tire_pressure
 difficulty: 1
 author: emilybache
 affiliation: Praqma
+tags: test_doubles test_design
 ---
 
 # Test Doubles Intro

@@ -5,6 +5,7 @@ kata: grep_with_marketing
 difficulty: 4
 author: emilybache
 affiliation: ProAgile
+tags: c test_doubles legacy
 ---
 
 # Move the Patient into the Surgery

@@ -5,6 +5,7 @@ title: Extracting Data Clumps
 kata: Hero Quest
 difficulty: 2
 author: codecop
+tags:  refactoring c
 ---
 
 # Extracting Data Clumps

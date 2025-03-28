@@ -4,6 +4,7 @@ title: Triangulation
 difficulty: 3
 author: jolod
 affiliation: Jolod AB
+tags:  small_steps
 ---
 
 # Triangulation

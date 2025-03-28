@@ -5,6 +5,7 @@ title: From Struct to Class
 kata: Hero Quest
 difficulty: 2
 author: codecop
+tags:  refactoring c
 ---
 
 # From Struct to Class

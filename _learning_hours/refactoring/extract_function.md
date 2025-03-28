@@ -5,6 +5,7 @@ title: Vocabulary for Refactoring
 kata: tennis
 difficulty: 1
 author: emilybache
+tags:  refactoring
 ---
 
 # Vocabulary for Refactoring
