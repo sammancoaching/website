@@ -24,4 +24,6 @@ This online training is highly interactive and participatory, and is normally le
 ## Course Dates
 This course is two half-days held about a week apart. 
 
-There are no public trainings currently scheduled. If you are interested please [Contact us]({% link contact.md %}) and mention when you'd like to do the training. We will contact you as soon as a training is scheduled. You could also sign up for our [Newsletter]({% link newsletter.md %}) to hear about upcoming trainings.
+* 16th & 23rd September Online with [Emily Bache]({% link society/contributors/emilybache.md %}) and [Peter Kofler]({% link society/contributors/codecop.md %}) - More information and signup via [Bache Consulting](https://bacheconsulting.com/_events/2025-09-16_learning_hours_masterclass.html)
+
+For more information please [Contact us]({% link contact.md %}). You could also sign up for our [Newsletter]({% link newsletter.md %}) to hear about upcoming trainings and other useful information.
