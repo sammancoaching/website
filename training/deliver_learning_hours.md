@@ -21,5 +21,8 @@ This online training is highly interactive and participatory, and is normally le
 
 ## Course Dates
 
-No dates scheduled at present. If you have questions about this course do [Contact us]({% link contact.md %}). You could also sign up for our [Newsletter]({% link newsletter.md %}) to hear about upcoming trainings.
+* 21st May Online with [Emily Bache]({% link society/contributors/emilybache.md %}) and [Peter Kofler]({% link society/contributors/codecop.md %}) - More information and signup via [Bache Consulting](https://bacheconsulting.com/_events/2025-05-21_deliver_learning_hours.html)
+* 3rd July Online with [Emily Bache]({% link society/contributors/emilybache.md %}) and [Peter Kofler]({% link society/contributors/codecop.md %}) - More information and signup via [Bache Consulting](https://bacheconsulting.com/_events/2025-07-03_deliver_learning_hours.html)
+
+If you have questions about this course do [Contact us]({% link contact.md %}). You could also sign up for our [Newsletter]({% link newsletter.md %}) to hear about new training dates and other useful information.
 

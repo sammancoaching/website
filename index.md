@@ -10,6 +10,7 @@ title: Samman Technical Coaching
 ## Upcoming events
 
 * [Online Open Space Networking Event]({% link society/events/next_open_space.md %})
+* [Deliver Learning Hours Training]({% link training/deliver_learning_hours.md %})
 
 ## Sign up for our newsletter
 If you like what you see here and want to get updates when we publish new materials as well as advice about technical coaching, please sign up for our [Newsletter]({% link newsletter.md %}).
