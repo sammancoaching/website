@@ -8,3 +8,5 @@ credentials.txt
 .idea
 Gemfile.lock
 __pycache__
+node_modules
+
