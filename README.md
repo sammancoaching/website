@@ -87,7 +87,10 @@ When you push to the main branch, there is a github action that deploys the chan
 We would like to do some refactoring. This is the plan
 
 1. Add a field to katas for "difficulty" and allow people to sort them. Possibly tags too?
-2. Add search feature - see if this [blog on WASM](https://www.devlead.se/posts/2025/2025-03-12-static-web-app-wasm-search) might work
+2. Add search feature - see if this [blog on WASM](https://www.devlead.se/posts/2025/2025-03-12-static-web-app-wasm-search) 
+   3. notes: 
+      4. unit tests are failing and not including the actual code
+      4. we have 2 copies of the seach code. the 2nd doesn't work.
 3. Use defined [perma links](https://jekyllrb.com/docs/permalinks/) instead of folder structure.
 4. Move index pages to their own folder instead of having them in a folder structure.
 5. Make contributors into a collection.
