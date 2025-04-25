@@ -56,7 +56,7 @@
 
                 {% for item in site.data.navigation %}
                 <div class="page-link">
-                    <a href="{{ item.link }}"
+                    <a {% if item.link[0] != "/" %}target="_blank" rel="noopener noreferrer" {% endif %} href="{{ item.link }}"
                         {% if page.url == item.link %}class="current"{% endif %}>
                         {{ item.name }}
                     </a>
