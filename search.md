@@ -1,6 +1,7 @@
 ---
 layout: search
-title: Learning Hours
-description: ...
+title: Search
+description: search this site
 ---
-# Learning Hours
+
+# Search Results
