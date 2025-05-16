@@ -26,10 +26,12 @@
             });
         });
         </script>
-    <div class="page-link" id="search-container" style="float: right;">
-        <input type="text" id="search-input" placeholder="Search...">
-        <ul id="search-results"></ul>
-    </div>
+  {% if jekyll.environment == "development" %}
+  <div class="page-link" id="search-container" style="float: right;">
+      <input type="text" id="search-input" placeholder="Search...">
+      <ul id="search-results"></ul>
+  </div>
+{% endif %}
 
         {%- assign page_paths = site.header_pages  -%}
         <nav class="site-nav">
