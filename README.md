@@ -87,16 +87,14 @@ When you push to the main branch, there is a github action that deploys the chan
 We would like to do some refactoring. This is the plan
 
 1. Add a field to katas for "difficulty" and allow people to sort them. Possibly tags too?
-2. Add search feature - see if this [blog on WASM](https://www.devlead.se/posts/2025/2025-03-12-static-web-app-wasm-search) 
-   3. notes: 
-      4. unit tests are failing and not including the actual code
-      4. we have 2 copies of the seach code. the 2nd doesn't work.
-3. Use defined [perma links](https://jekyllrb.com/docs/permalinks/) instead of folder structure.
-4. Move index pages to their own folder instead of having them in a folder structure.
-5. Make contributors into a collection.
-6. Remove layouts that are only used in one place, use html in these pages instead
-7. Give learning hours ids (with a script?) and put them in a flat folder structure
-8. Supply page templates for collections in git but not included in the jekyll build
+2. Add search feature
+3. Show a calendar of all upcoming events. Do not show joining info, link to information page for the event. Not sure how to achieve this - base it on the google calendar? 
+4. Use defined [perma links](https://jekyllrb.com/docs/permalinks/) instead of folder structure.
+5. Move index pages to their own folder instead of having them in a folder structure.
+6. Make contributors into a collection.
+7. Remove layouts that are only used in one place, use html in these pages instead
+8. Give learning hours ids (with a script?) and put them in a flat folder structure
+9. Supply page templates for collections in git but not included in the jekyll build
 
 ## Jekyll Design Principles
 * Use collections for objects
