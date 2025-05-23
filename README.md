@@ -86,8 +86,9 @@ When you push to the main branch, there is a github action that deploys the chan
 # Development plan for this website
 We would like to do some refactoring. This is the plan
 
-1. Add a field to katas for "difficulty" and allow people to sort them. Possibly tags too?
-2. Add search feature
+1. Add search feature
+2. Bug: "Training" opens in new window. Desired behaviour - only external links open in new window. Possibly use [this plugin](https://github.com/keithmifsud/jekyll-target-blank). Problem is caused by code in header.html
+2. Add a field to katas for "difficulty" and allow people to sort them. Possibly tags too?
 3. Show a calendar of all upcoming events. Do not show joining info, link to information page for the event. Not sure how to achieve this - base it on the google calendar? 
 4. Use defined [perma links](https://jekyllrb.com/docs/permalinks/) instead of folder structure.
 5. Move index pages to their own folder instead of having them in a folder structure.
