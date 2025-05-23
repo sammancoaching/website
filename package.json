@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "playwright": "^1.52.0",
     "simple-jekyll-search": "^1.10.0"
   },
   "devDependencies": {
