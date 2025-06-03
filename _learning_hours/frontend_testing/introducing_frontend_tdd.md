@@ -32,17 +32,17 @@ After 5 minutes of discussion, ask for volunteers to share key insights with the
 
 **An updated test pyramid (static, unit, integration, End to end)**
 
-![The test automation pyramid is biased towards favoring more unit tests, for speed and predicatbility and fewer UI tests which are slower and more error prone](/assets/images/frontend-tdd/The_test_automation_pyramid.png)
+![The test automation pyramid is biased towards favoring more unit tests, for speed and predictability and fewer UI tests which are slower and more error prone](/assets/images/frontend-tdd/The_test_automation_pyramid.png)
 
 > The pyramid is based on the assumption that broad-stack tests are expensive, slow, and brittle compared to more focused tests, such as unit tests.
 
-In front end testing our intergration test are much more valuable, and they're much faster than backend integration tests too, since there's often little to no infrastructure required.
+In front-end testing, our integration tests are much more valuable, and they're much faster than backend integration tests too, since there's often little to no infrastructure required.
 
 End to end tests remain slow and sometimes brittle, so we still use these sparingly to give us confidence on those components that could cause reputational damage if they fail.
 
 ### The Test Trophy
 Visualize the pyramid now more like:
-![Arrangement of tests more like a trophy than a pyramid]({% link /assets/images/frontend-tdd/testing-trophy.png %})
+![Testing trophy diagram showing the distribution of test types: many integration tests in the middle, some unit tests at the bottom, few end-to-end tests at the top, and static analysis as the base]({% link /assets/images/frontend-tdd/testing-trophy.png %})
 
 ### Static Test Tools
 * [ESLint](https://eslint.org/) - Identifies problematic patterns in JavaScript code
@@ -70,7 +70,7 @@ Visualize the pyramid now more like:
 
 ## Concrete Practice:
 
-Diagram the test trophy as it would applly to your website.
+Diagram the test trophy as it would apply to your website.
 Which features and components would benefit from which kind of test?
 
 ## Conclusions:
@@ -81,4 +81,4 @@ Which features and components would benefit from which kind of test?
 
 [Kent C. Dodds – Write Tests. Not Too Many. Mostly Integration](https://kentcdodds.com/blog/write-tests)
 
-<iframe width="1007" height="566" src="https://www.youtube.com/embed/Fha2bVoC8SE?list=PLV5CVI1eNcJgNqzNwcs4UKrlJdhfDjshf" title="Kent C. Dodds – Write tests. Not too many. Mostly integration." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1007" height="566" src="https://www.youtube.com/embed/Fha2bVoC8SE?list=PLV5CVI1eNcJgNqzNwcs4UKrlJdhfDjshf" title="Kent C. Dodds – Write tests. Not too many. Mostly integration." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen aria-label="Video: Kent C. Dodds explains testing strategy focusing on integration tests"></iframe>
