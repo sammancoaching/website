@@ -1,3 +1,5 @@
+[![build_and_test](https://github.com/sammancoaching/website/actions/workflows/build_and_test.yml/badge.svg)](https://github.com/sammancoaching/website/actions/workflows/build_and_test.yml)
+
 Teaching materials for Technical Agile Coaches
 ==============================================
 
