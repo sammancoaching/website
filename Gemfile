@@ -36,3 +36,6 @@ gem "logger"
 
 # check for broken links
 gem "html-proofer"
+
+gem "csv"
+gem "base64"
