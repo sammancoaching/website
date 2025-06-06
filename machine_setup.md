@@ -38,11 +38,11 @@ This will install all required packages listed in `package.json`.
 
 ## 4. Running Tests
 
-All automated tests are located in the `tests` directory and use [Jest](https://jestjs.io/) with jsdom for DOM simulation.
+All automated tests are located in the `tests` directory.
 
 To run all tests:
-```sh
-npx jest
+```cmd
+build_and_test.cmd
 ```
 
 ## 5. Running the Project Locally
