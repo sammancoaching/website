@@ -13,10 +13,24 @@ tags: [legacy, refactoring]
 
 Often, we want to improve our codebase, but refactoring is seen as a non-essential activity that gets postponed. Preparatory refactoring integrates refactoring into feature work: before adding a new feature, we refactor to make the implementation easier. This approach saves time and leads to a cleaner, more maintainable codebase.
 
+
 ## Learning Objectives
 - Understand the benefits of refactoring before adding a feature, not after
 - Learn to envision the ideal design for a new feature and use this vision to guide refactoring
 - Appreciate the value of goal-driven refactoring, tailored to an immediate change
+
+## Prerequisite
+
+This learning hour is based on the Trivia kata, however it assumes tests are already in place and the typo `Answer was corrent!!!!` has been fixed. The Trivia kata is available [here](https://github.com/jbrains/trivia) and is maintained by J.B.Rainsberger.
+
+Before starting:
+1. Clone the Trivia repository
+2. Ensure you have all necessary dependencies installed
+
+Since the original kata doesn't include tests, you'll need to:
+1. Add unit tests for the existing functionality
+2. Fix the typo in the "Answer was correct" message
+3. Ensure all tests pass before proceeding with the refactoring exercises
 
 ## Outline
 * 10 min connect: How hard is it to add this feature?
