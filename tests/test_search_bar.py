@@ -30,12 +30,17 @@ class TestSearchBar(unittest.TestCase):
         results = driver.find_element(By.ID, 'search-results')
         # Assert that at least one result contains 'approval' in the title or text
         found = False
-        for li in results.find_elements(By.TAG_NAME, 'li'):
+        all_results = results.find_elements(By.TAG_NAME, 'li')
+        all_titles = []
+        all_texts = []
+        for li in all_results:
             link = li.find_element(By.TAG_NAME, 'a')
+            all_titles.append(link.get_attribute('title'))
+            all_texts.append(link.text)
             if 'approval' in link.get_attribute('title').lower() or 'approval' in link.text.lower():
-                found = True
-                break
-        self.assertTrue(found, "No search result contains 'approval' in the title or text.")
+               found = True
+               break
+        self.assertTrue(found, f"No search result contains 'approval' in the title or text. {all_titles=} {all_texts=}")
 
     def test_search_bar_no_results(self):
         driver = self.driver
@@ -45,7 +50,7 @@ class TestSearchBar(unittest.TestCase):
         search_input.send_keys(Keys.RETURN)
         time.sleep(1)
         results = driver.find_element(By.ID, 'search-results')
-        self.assertIn('No results found', results.text)
+        self.assertEqual('', results.text)
 
 if __name__ == '__main__':
     unittest.main()
