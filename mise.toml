@@ -1,0 +1,54 @@
+[tools]
+ruby = "3.4"
+node = "18"
+python = "3.11"
+
+[settings]
+# Use ruby-install instead of ruby-build
+ruby.ruby_install = true
+
+
+[env]
+MISE_RUBY_INSTALL_OPTS = "--no-install-deps"
+JEKYLL_ENV = "development"
+
+[tasks.build-and-run]
+description = "Serve Jekyll site with livereload"
+run = "bundle exec jekyll serve --livereload"
+env = { JEKYLL_ENV = "development" }
+
+[tasks."build-and-run-prod"]
+description = "Serve Jekyll site in production mode"
+run = "bundle exec jekyll serve --livereload"
+env = { JEKYLL_ENV = "production" }
+
+[tasks.build]
+description = "Build Jekyll site"
+run = "bundle exec jekyll build"
+depends = ["install"]
+
+[tasks.build-prod]
+description = "Build Jekyll site for production"
+run = "bundle exec jekyll build"
+env = { JEKYLL_ENV = "production" }
+depends = ["install"]
+
+[tasks.build-and-test]
+description = "Run full test suite"
+run = [
+  "bundle exec jekyll build",
+  "pip install -r requirements.txt",
+  "python -m unittest discover tests"
+]
+depends = ["install"]
+
+[tasks.install]
+description = "Install all dependencies"
+run = [
+  "bundle install",
+  "npm install"
+]
+
+[tasks.clean]
+description = "Clean Jekyll build artifacts"
+run = "bundle exec jekyll clean"
