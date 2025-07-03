@@ -7,15 +7,14 @@ python = "3.11"
 # Use ruby-install instead of ruby-build
 ruby.ruby_install = true
 
-
 [env]
-MISE_RUBY_INSTALL_OPTS = "--no-install-deps"
 JEKYLL_ENV = "development"
 
 [tasks.build-and-run]
 description = "Serve Jekyll site with livereload"
 run = "bundle exec jekyll serve --livereload"
 env = { JEKYLL_ENV = "development" }
+depends = ["install"]
 
 [tasks."build-and-run-prod"]
 description = "Serve Jekyll site in production mode"
