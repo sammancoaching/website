@@ -1,6 +1,5 @@
 [tools]
 ruby = "3.4"
-node = "18"
 python = "3.11"
 
 [settings]
@@ -45,7 +44,6 @@ depends = ["install"]
 description = "Install all dependencies"
 run = [
   "bundle install",
-  "npm install"
 ]
 
 [tasks.clean]
