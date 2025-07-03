@@ -22,7 +22,7 @@ Normally the total price is the sum of unit price * quantity for all the items. 
 - Item B: price $25, quantity 2
 - Item C: price $9.99, quantity 6
 
-This basket qualifies for a 5% discount and the total price is $151.94
+This basket qualifies for a 5% discount and the total price is $151.94. The total number of items is 13, of which 6 are item C.
 
 ### Acknowledgements
 I got this kata from Jason Gorman but I have changed it slightly.
