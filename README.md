@@ -6,47 +6,10 @@ Teaching materials for Technical Agile Coaches
 This repo contains the sourcecode for [sammancoaching.org](sammancoaching.org) which is designed to provide resources for technical agile coaches to use in their work. For more information, please read this book [Technical Agile Coaching](https://leanpub.com/techagilecoach) by Emily Bache. This site is maintained by the members of the [Samman Technical Coaching Society](https://sammancoaching.org/society/index.html).
 
 ## Development
-You can either run jekyll natively on your platform, or use docker.
-
-### Native Jekyll
-First install Ruby, which includes the utility 'bundler'. Use Bundler in the same folder as this README to get all the dependencies:
-
-    bundle install
-
-Note this will use the Gemfile and will create a Gemfile.lock itemizing all the versions of your gems. I found a problem installing wdm that was fixed by using this workaround 'gem install wdm -- --with-cflags=-Wno-implicit-function-declaration'
-
-Then launch the jekyll application locally, again using bundler:
-
-    bundle exec jekyll serve
-
-Launch your local site: [http://127.0.0.1:4000/](http://127.0.0.1:4000/)
-
-### Using Docker
-Instead of using jekyll locally you can get a prebuilt docker image with Ruby, Jekyll etc. installed:
-
-    dockerinit
-
-Test locally run the server with:
-
-    dockerrun
-
-Alternatively use [docker-compose](https://docs.docker.com/compose/) using the docker-compose.yml. 
-    
-    docker-compose up
-
-Then browse to:
-
-    http://localhost:4000
-
-If you want to get access to the terminal in the docker container the command is:
-
-    docker exec -it <name_of_container> /bin/bash
-
-were "name_of_container"  is found by running the command 
-
-    docker ls
-
-or expanding the container in the Docker desktop user interface.
+1. Install Python
+1. Follow the instructions at https://jekyllrb.com/docs/installation/.
+1. Run `bundle install`.
+1. Run the `build_and_test` script.
 
 ## Contributing to the site
 You don't need to be a member of the Samman Technical Coaching Society to contribute to this website. We welcome pull requests with new materials for technical coaches. If you contribute, please include in the PR a contributor page for yourself. You'll need to add an entry in [_data/contributors.yml](_data/contributors.yml) and a new file under [society/contributors](society/contributors). Use your github handle as filename and key. 
