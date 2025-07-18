@@ -90,6 +90,9 @@ We would like to do some refactoring. This is the plan
 
 1. Add search feature
    - [ ] search results include unwanted pages (e.g. 404)
+   - [ ] flaky test (https://github.com/sammancoaching/website/actions/runs/16373420386/attempts/1)
+   - [ ] the test uses `buidl_and_run`; either use Jeckyll or serve with Python
+   - [ ] ensure the teardown kills the server
 2. Bug: "Training" opens in new window. Desired behaviour - only external links open in new window. Possibly use [this plugin](https://github.com/keithmifsud/jekyll-target-blank). Problem is caused by code in header.html
 2. Add a field to katas for "difficulty" and allow people to sort them. Possibly tags too?
 3. Show a calendar of all upcoming events. Do not show joining info, link to information page for the event. Not sure how to achieve this - base it on the google calendar? 
