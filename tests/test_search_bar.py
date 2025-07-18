@@ -1,5 +1,7 @@
 import time
 import unittest
+import subprocess
+import sys
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -8,6 +10,14 @@ from selenium.webdriver.chrome.options import Options
 class TestSearchBar(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
+        # Start the server using subprocess
+        if sys.platform.startswith('win'):
+            # On Windows, use the .cmd script
+            cls.server_process = subprocess.Popen(['cmd', '/c', 'build_and_run.cmd'])
+        else:
+            cls.server_process = subprocess.Popen(['./build_and_run'])
+        time.sleep(3)  # Give the server time to start
+
         chrome_options = Options()
         chrome_options.add_argument('--headless')  # Run headless for CI
         chrome_options.add_argument('--no-sandbox')
@@ -19,6 +29,12 @@ class TestSearchBar(unittest.TestCase):
     @classmethod
     def tearDownClass(cls):
         cls.driver.quit()
+        # Terminate the server process
+        cls.server_process.terminate()
+        try:
+            cls.server_process.wait(timeout=5)
+        except subprocess.TimeoutExpired:
+            cls.server_process.kill()
 
     def test_search_bar_shows_results(self):
         driver = self.driver
