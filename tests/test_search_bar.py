@@ -16,7 +16,7 @@ class TestSearchBar(unittest.TestCase):
             cls.server_process = subprocess.Popen(['cmd', '/c', 'build_and_run.cmd'])
         else:
             cls.server_process = subprocess.Popen(['./build_and_run'])
-        time.sleep(3)  # Give the server time to start
+        time.sleep(20)  # Give the server time to start
 
         chrome_options = Options()
         chrome_options.add_argument('--headless')  # Run headless for CI
