@@ -44,7 +44,7 @@ class TestSearchBar(unittest.TestCase):
         search_input.clear()
         search_input.send_keys('approval')
         search_input.send_keys(Keys.RETURN)
-        time.sleep(20)  # Wait for search results to load
+        time.sleep(2)  # Wait for search results to load
         results = driver.find_element(By.ID, 'search-results')
         # Assert that at least one result contains 'approval' in the title or text
         found = False
@@ -66,7 +66,7 @@ class TestSearchBar(unittest.TestCase):
         search_input.clear()
         search_input.send_keys('thisqueryshouldnotexist123')
         search_input.send_keys(Keys.RETURN)
-        time.sleep(20)
+        time.sleep(2)
         results = driver.find_element(By.ID, 'search-results')
         self.assertEqual('', results.text)
 
