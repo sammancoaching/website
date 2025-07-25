@@ -5,7 +5,7 @@ title: Samman Coaching Society Online Open Space Event
 
 # Samman Coaching Society Online Open Space Event
 
-**Tuesday 22nd July 2025, 16:00 Stockholm/Berlin/Paris**
+**Tuesday 19th August 2025, 16:00 Stockholm/Berlin/Paris**
 
 _Bring your questions and exchange experiences with other technical coaches._
 
