@@ -89,7 +89,7 @@ When you push to the main branch, there is a github action that deploys the chan
 We would like to do some refactoring. This is the plan
 
 1. Add search feature
-    - [ ] flaky test (https://github.com/sammancoaching/website/actions/runs/16373420386/attempts/1)
+    - [ ] flaky test (need to wait for search results. Increasing sleep to 20 seconds fixed it. Need a better solution! Use playwright?)
     - [ ] search results include unwanted pages (e.g. 404)
     - [ ] the test uses `build_and_run`; either use Jekyll or serve with Python
     - [ ] ensure the teardown kills the server
