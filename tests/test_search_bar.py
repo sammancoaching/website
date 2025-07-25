@@ -35,6 +35,8 @@ class TestSearchBar(unittest.TestCase):
             cls.server_process.wait(timeout=5)
         except subprocess.TimeoutExpired:
             cls.server_process.kill()
+        if sys.platform.startswith('win'):
+            subprocess.call("taskkill.exe /F /im ruby.exe", shell=True)
 
     def test_search_bar_shows_results(self):
         driver = self.driver
