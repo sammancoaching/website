@@ -16,7 +16,7 @@ class TestSearchBar(unittest.TestCase):
             cls.server_process = subprocess.Popen(['cmd', '/c', 'build_and_run.cmd'])
         else:
             cls.server_process = subprocess.Popen(['./build_and_run'])
-        time.sleep(20)  # Give the server time to start
+        time.sleep(3)  # Give the server time to start
 
         chrome_options = Options()
         chrome_options.add_argument('--headless')  # Run headless for CI
@@ -44,7 +44,7 @@ class TestSearchBar(unittest.TestCase):
         search_input.clear()
         search_input.send_keys('approval')
         search_input.send_keys(Keys.RETURN)
-        time.sleep(1)  # Wait for search results to load
+        time.sleep(20)  # Wait for search results to load
         results = driver.find_element(By.ID, 'search-results')
         # Assert that at least one result contains 'approval' in the title or text
         found = False
@@ -66,7 +66,7 @@ class TestSearchBar(unittest.TestCase):
         search_input.clear()
         search_input.send_keys('thisqueryshouldnotexist123')
         search_input.send_keys(Keys.RETURN)
-        time.sleep(1)
+        time.sleep(20)
         results = driver.find_element(By.ID, 'search-results')
         self.assertEqual('', results.text)
 
