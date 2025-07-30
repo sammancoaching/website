@@ -1,7 +1,7 @@
 ---
 theme: legacy
 title: Preparatory Refactoring
-kata: trivia_preparatory_refactoring
+kata: trivia
 difficulty: 4
 author: Ivett Ördög
 affiliation: 
@@ -13,22 +13,22 @@ tags: [legacy, refactoring]
 
 Often, we want to improve our codebase, but refactoring is seen as a non-essential activity that gets postponed. Preparatory refactoring integrates refactoring into feature work: before adding a new feature, we refactor to make the implementation easier. This approach saves time and leads to a cleaner, more maintainable codebase.
 
-
 ## Learning Objectives
 - Understand the benefits of refactoring before adding a feature, not after
-- Learn to envision the ideal design for a new feature and use this vision to guide refactoring
 - Appreciate the value of goal-driven refactoring, tailored to an immediate change
 
 ## Prerequisite
 
-This learning hour is based on the Trivia kata, however it assumes tests are already in place and the typo `Answer was corrent!!!!` has been fixed. The Trivia kata is available [here](https://github.com/jbrains/trivia) and is maintained by J.B.Rainsberger.
+This learning hour is based on the Trivia kata, however it assumes tests are already in place and the typo `Answer was corrent!!!!` has been fixed. 
+
+The original Trivia kata is available [here](https://github.com/jbrains/trivia) and is maintained by J.B.Rainsberger.
 
 Before starting:
 1. Clone the Trivia repository
-2. Ensure you have all necessary dependencies installed
+2. Ensure you have all necessary dependencies installed 
 
 Since the original kata doesn't include tests, you'll need to:
-1. Add unit tests for the existing functionality
+1. Add unit tests for the existing functionality (For some languages you may find a [version with tests here](https://github.com/devill/trivia/tree/with-tests).)
 2. Fix the typo in the "Answer was correct" message
 3. Ensure all tests pass before proceeding with the refactoring exercises
 
@@ -50,11 +50,16 @@ Present Kent Beck’s advice: "Make the change easy, then make the easy change."
 
 ### Concrete (Demo)
 - Goal: Isolate a `Questions` class and refactor the code to use a single array of categories.
-- A recorded demo is available [here](https://www.youtube.com/watch?v=<TO BE ADDED>).
+- A recorded demo is available [here](https://youtu.be/6vCA4dYnbX4?si=4qO7PoBLwSJ8ZK77).
 - Steps:
   - Identify functions with category/question logic (`CurrentCategory`, `AskQuestion`, `InitializeQuestions`).
+  - Extract variable `place` in `CurrentCategory`.
   - Extract `GetCategoryFor(place)` from `CurrentCategory`.
+  - Inline variable `place`.
+  - Extract variable `currentCategory` from `AskQuestion`.
+  - Introduce `question` variable, and move logging outside at the end of the function.
   - Extract `GetQuestionFor(category)` from `AskQuestion`.
+  - Inline variables in `AskQuestion`.
   - Inline the single dependency of `InitializeQuestions`.
   - Use automated refactoring to move these to a new `Questions` class.
   - Move `InitializeQuestions` into the `Questions` constructor.
