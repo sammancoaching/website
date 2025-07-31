@@ -21,14 +21,15 @@ Often, we want to improve our codebase, but refactoring is seen as a non-essenti
 
 This learning hour is based on the Trivia kata, however it assumes tests are already in place and the typo `Answer was corrent!!!!` has been fixed. 
 
-The original Trivia kata is available [here](https://github.com/jbrains/trivia) and is maintained by J.B.Rainsberger.
+The original Trivia kata is available [here](https://github.com/jbrains/trivia) and is maintained by J.B.Rainsberger. 
+For this learning hour check out the `with-starter-unit-tests` branch. 
 
 Before starting:
 1. Clone the Trivia repository
 2. Ensure you have all necessary dependencies installed 
 
 Since the original kata doesn't include tests, you'll need to:
-1. Add unit tests for the existing functionality (For some languages you may find a [version with tests here](https://github.com/devill/trivia/tree/with-tests).)
+1. Add unit tests for the existing functionality (For some languages you may find a [version with tests here](https://github.com/jbrains/trivia/tree/with-starter-unit-tests).)
 2. Fix the typo in the "Answer was correct" message
 3. Ensure all tests pass before proceeding with the refactoring exercises
 
