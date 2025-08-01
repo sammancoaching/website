@@ -29,24 +29,24 @@ def wait_for_server(url, max_attempts=5, base_delay=1):
             print(f"Attempt {attempt + 1}/{max_attempts}: Trying to connect...")
             response = requests.get(url, timeout=5)
             if response.status_code < 500:  # Accept any non-5xx status code
-                print(f"✓ Server responded with status code: {response.status_code}")
+                print(f"SUCCESS: Server responded with status code: {response.status_code}")
                 print("=== Server is up and running! ===\n")
                 return True
             else:
-                print(f"⚠ Server responded with status code: {response.status_code}")
+                print(f"WARNING: Server responded with status code: {response.status_code}")
         except requests.exceptions.Timeout:
-            print("✗ Connection timed out")
+            print("INFO: Connection timed out")
         except requests.exceptions.ConnectionError as e:
-            print(f"✗ Connection refused: {str(e)}")
+            print(f"INFO: Connection refused: {str(e)}")
         except requests.exceptions.RequestException as e:
-            print(f"✗ Request failed: {str(e)}")
+            print(f"INFO: Request failed: {str(e)}")
         
         if attempt < max_attempts - 1:  # Don't sleep on the last attempt
             wait_time = base_delay * (2 ** attempt)
             print(f"Waiting {wait_time} seconds before next attempt...\n")
             time.sleep(wait_time)
     
-    print("\n❌ Server failed to start after all attempts")
+    print("\nERROR: Server failed to start after all attempts")
     return False
 
 class TestSearchBar(unittest.TestCase):
