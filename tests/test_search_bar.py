@@ -52,14 +52,9 @@ def wait_for_server(url, max_attempts=5, base_delay=1):
 class TestSearchBar(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        # Start the server using subprocess
-        if sys.platform.startswith('win'):
-            # On Windows, use the .cmd script
-            cls.server_process = subprocess.Popen(['cmd', '/c', 'build_and_run.cmd'])
-        else:
-            cls.server_process = subprocess.Popen(['./build_and_run'])
-        # Wait for server to be ready with exponential backoff
-        server_url = 'http://localhost:4000'
+        port = 4001
+        cls.server_process = subprocess.Popen(["bundle", "exec", "jekyll", "serve", "--port", str(port)], shell=True)
+        server_url = f'http://localhost:{port}'
         if not wait_for_server(server_url):
             raise Exception(f"Server did not start after multiple attempts")
 
@@ -68,8 +63,7 @@ class TestSearchBar(unittest.TestCase):
         chrome_options.add_argument('--no-sandbox')
         chrome_options.add_argument('--disable-dev-shm-usage')
         cls.driver = webdriver.Chrome(options=chrome_options)
-        # Adjust this URL as needed for your local dev server
-        cls.driver.get('http://localhost:4000/')
+        cls.driver.get(server_url)
 
     @classmethod
     def tearDownClass(cls):
