@@ -10,9 +10,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: ruby/setup-ruby@v1
-
+      - uses: actions/setup-python@v4
       - run: gem install bundler jekyll
-
       - run: ./build_and_test.cmd
