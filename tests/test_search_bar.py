@@ -62,8 +62,7 @@ class TestSearchBar(unittest.TestCase):
         chrome_options.add_argument('--no-sandbox')
         chrome_options.add_argument('--disable-dev-shm-usage')
         cls.driver = webdriver.Chrome(options=chrome_options)
-        # Adjust this URL as needed for your local dev server
-        cls.driver.get('http://localhost:4000/')
+        cls.driver.get(server_url)
 
     @classmethod
     def tearDownClass(cls):
