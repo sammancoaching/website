@@ -52,13 +52,7 @@ def wait_for_server(url, max_attempts=5, base_delay=1):
 class TestSearchBar(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        # Start the server using subprocess
-        if sys.platform.startswith('win'):
-            # On Windows, use the .cmd script
-            cls.server_process = subprocess.Popen(['cmd', '/c', 'build_and_run.cmd'])
-        else:
-            cls.server_process = subprocess.Popen(['./build_and_run'])
-        # Wait for server to be ready with exponential backoff
+        cls.server_process = subprocess.Popen(["bundle", "exec", "jekyll", "serve"], shell=True)
         server_url = 'http://localhost:4000'
         if not wait_for_server(server_url):
             raise Exception(f"Server did not start after multiple attempts")
