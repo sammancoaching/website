@@ -2,6 +2,8 @@ import time
 import unittest
 import subprocess
 import sys
+import socket
+import requests
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -16,7 +18,26 @@ class TestSearchBar(unittest.TestCase):
             cls.server_process = subprocess.Popen(['cmd', '/c', 'build_and_run.cmd'])
         else:
             cls.server_process = subprocess.Popen(['./build_and_run'])
-        time.sleep(10)  # Give the server time to start
+        # Wait for server to be ready with exponential backoff
+        max_attempts = 5
+        base_delay = 1  # Start with 1 second
+        server_up = False
+        
+        for attempt in range(max_attempts):
+            try:
+                # Try to connect to the server
+                response = requests.get('http://localhost:4000', timeout=5)
+                if response.status_code < 500:  # Accept any non-5xx status code
+                    server_up = True
+                    break
+            except (requests.exceptions.RequestException, ConnectionError):
+                pass
+                
+            if attempt < max_attempts - 1:  # Don't sleep on the last attempt
+                time.sleep(base_delay * (2 ** attempt))  # Exponential backoff
+        
+        if not server_up:
+            raise Exception(f"Server did not start after {max_attempts} attempts")
 
         chrome_options = Options()
         chrome_options.add_argument('--headless')  # Run headless for CI
