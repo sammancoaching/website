@@ -93,6 +93,7 @@ We would like to do some refactoring. This is the plan
     - [ ] search results include unwanted pages (e.g. 404)
     - [ ] the test uses `build_and_run`; either use Jekyll or serve with Python
     - [ ] ensure the teardown kills the server
+1. switch from scripts to rake
 2. Add a field to katas for "difficulty" and allow people to sort them. Possibly tags too?
 3. Show a calendar of all upcoming events. Do not show joining info, link to information page for the event. Not sure how to achieve this - base it on the google calendar? 
 4. Use defined [perma links](https://jekyllrb.com/docs/permalinks/) instead of folder structure.
