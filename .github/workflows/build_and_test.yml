@@ -15,6 +15,4 @@ jobs:
 
       - run: gem install bundler jekyll
 
-      - run: bundle install
-
       - run: ./build_and_test.cmd
