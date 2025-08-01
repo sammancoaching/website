@@ -52,8 +52,8 @@ def wait_for_server(url, max_attempts=5, base_delay=1):
 class TestSearchBar(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        port = 4000
-        cls.server_process = subprocess.Popen(["bundle", "exec", "jekyll", "serve"], shell=True)
+        port = 4001
+        cls.server_process = subprocess.Popen(["bundle", "exec", "jekyll", "serve", "--port", str(port)], shell=True)
         server_url = f'http://localhost:{port}'
         if not wait_for_server(server_url):
             raise Exception(f"Server did not start after multiple attempts")
