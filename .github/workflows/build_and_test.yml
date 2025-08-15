@@ -6,11 +6,16 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-and-test:
-    runs-on: windows-latest
+  matrix:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os:
+          - windows-latest
+          - ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: ruby/setup-ruby@v1
       - uses: actions/setup-python@v4
       - run: gem install bundler jekyll
-      - run: ./build_and_test.cmd
+      - run: ./build_and_test
