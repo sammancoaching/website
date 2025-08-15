@@ -3,6 +3,7 @@ import unittest
 import subprocess
 import sys
 import socket
+import platform
 import requests
 import time
 from selenium import webdriver
@@ -58,7 +59,7 @@ class TestSearchBar(unittest.TestCase):
         port = 4001
         cls.server_process = subprocess.Popen(
             ["bundle", "exec", "jekyll", "serve", "--port", str(port)],
-            shell=True,
+            shell=platform.system() == "Windows",
             stdout=subprocess.DEVNULL,
         )
         server_url = f'http://localhost:{port}'
