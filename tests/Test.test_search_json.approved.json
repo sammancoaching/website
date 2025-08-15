@@ -1,0 +1,814 @@
+[
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "",
+        "url": "/404.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "4C Training model",
+        "url": "/activities/4C_model.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "",
+        "url": "/LICENSE.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "The mission of the Samman Technical Coaching Society",
+        "url": "/society/about_society.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Tim M\u00fcller",
+        "url": "/society/contributors/agmsytim.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Samman Coaching Society Verbal Aikido Dojo",
+        "url": "/society/events/aikido_dojo_2024_nov.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Samman Coaching Society Online Open Space Events",
+        "url": "/society/events/all_open_space_events.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Approval Testing Legacy Code series",
+        "url": "/learning_hours/series/approval_testing.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Learning Hours",
+        "url": "/learning_hours/approval_testing_bdd.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Approval Testing Learning Objectives",
+        "url": "/exercises/warm_up_questions/approval_testing_learning_outcomes.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Learning Hours",
+        "url": "/learning_hours/approval_testing_texttest.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Unit testing vs testing at another level",
+        "url": "/exercises/warm_up_questions/approval_testing_vs_unit_testing.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Approval Testing",
+        "url": "/exercises/warm_up_questions/approval_testing_warm_up_questions.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Learning Hours - Architecture",
+        "url": "/learning_hours/architecture.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Anders Arnholm",
+        "url": "/society/contributors/balp.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Learning Hours",
+        "url": "/learning_hours/bdd.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "BDD Tasks and Activities",
+        "url": "/exercises/games/bdd_tasks_activities.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Clare Sudbery",
+        "url": "/society/contributors/claresudbery.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Samman Society Code of Conduct",
+        "url": "/society/code_of_conduct.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Learning Hours",
+        "url": "/learning_hours/code_reading.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Code Reading Practice - Scanning for Code Smells",
+        "url": "/exercises/code_reading.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Peter Kofler",
+        "url": "/society/contributors/codecop.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Activities for New Concept",
+        "url": "/activities/concept.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Activities for Conclusions",
+        "url": "/activities/conclusions.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Activities for Concrete Practice",
+        "url": "/activities/concrete.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Activities for Connect",
+        "url": "/activities/connect.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Contact",
+        "url": "/contact.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Code Coverage",
+        "url": "/exercises/warm_up_questions/coverage_warm_up_questions.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Deliver Learning Hours - Samman Coaching Training",
+        "url": "/training/deliver_learning_hours.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Learning Hours",
+        "url": "/learning_hours/devops.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Dimitri Merejkowsky",
+        "url": "/society/contributors/dmerejkowsky.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "",
+        "url": "/docker-compose.yml"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "EsterDaniel Ytterbrink",
+        "url": "/society/contributors/edytterbrink.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Emily Bache",
+        "url": "/society/contributors/emilybache.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Learning Hours",
+        "url": "/learning_hours/ensemble.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Ensemble Working - Definition",
+        "url": "/reference/ensemble_definition.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Test Failure messages",
+        "url": "/exercises/games/failure_messages.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Fredrik Wendt",
+        "url": "/society/contributors/fredrikwendt.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Technical Coaching Programme",
+        "url": "/training/full_package.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Learning Hours",
+        "url": "/learning_hours/git.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Talking without syntax details",
+        "url": "/exercises/warm_up_questions/go_syntax.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Gregor Riegler",
+        "url": "/society/contributors/gregorriegler.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Guided Learning Hours - Samman Coaching Training",
+        "url": "/training/guided_learning_hours.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Exercises",
+        "url": "/exercises/"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Workshops",
+        "url": "/workshops/"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Samman Coaching Training",
+        "url": "/training/"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Activities",
+        "url": "/activities/"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Learning Hours",
+        "url": "/learning_hours/"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Kata Descriptions",
+        "url": "/kata_descriptions/"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "The Samman Technical Coaching Society",
+        "url": "/society/"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Samman Technical Coaching",
+        "url": "/"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Samman Coaches and Site Contributors",
+        "url": "/society/contributors/"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Reference Materials",
+        "url": "/reference/"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Code Smells",
+        "url": "/reference/code_smells/"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Refactorings",
+        "url": "/reference/refactorings/"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Samman Coaching Society Events",
+        "url": "/society/events/"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Introducing Ensemble - Samman Coaching Training",
+        "url": "/training/introducing_ensemble.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Llewellyn Falco",
+        "url": "/society/contributors/isidore.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Jacob Mossberg",
+        "url": "/society/contributors/jmossberg.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Johan Lodin",
+        "url": "/society/contributors/jolod.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Julien VITTE",
+        "url": "/society/contributors/julienvitte.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Learning Hours",
+        "url": "/learning_hours/learning_hour_explanation.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Learning Hours By Author",
+        "url": "/learning_hours/learning_hours_by_author.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Learning Hours By Kata",
+        "url": "/learning_hours/learning_hours_by_kata.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Learning Hours By Tag",
+        "url": "/learning_hours/learning_hours_by_tag.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Learning Hours By Topic",
+        "url": "/learning_hours/learning_hours_by_topic.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Learning Hours Masterclass - Samman Coaching Training",
+        "url": "/training/learning_hours_masterclass.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Learning Hours with accompanying video",
+        "url": "/learning_hours/series/learning_hours_with_video.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Learning Hours",
+        "url": "/learning_hours/legacy.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Legacy Code",
+        "url": "/exercises/warm_up_questions/legacy_code_warm_up_questions.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Working with C",
+        "url": "/learning_hours/low_level_c.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "About Membership of the Samman Technical Coaching Society",
+        "url": "/society/membership.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Samuel Ytterbrink",
+        "url": "/society/contributors/neppord.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Newsletter",
+        "url": "/newsletter.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Newsletter",
+        "url": "/newsletter_and_guide.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Samman Coaching Society Online Open Space Event",
+        "url": "/society/events/next_open_space.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Nitsan Avni",
+        "url": "/society/contributors/nitsanavni.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Olof Bjarnason",
+        "url": "/society/contributors/objarni.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Sign up successful",
+        "url": "/society/events/open_dojo_signup_thankyou.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Samman Society Open Ensemble Event",
+        "url": "/society/events/open_ensemble_2023-06-21.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Sign up successful",
+        "url": "/society/events/open_ensemble_signup_thankyou.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Samman Coaching Society Online Open Learning Hour",
+        "url": "/society/events/open_learning_hour.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Sign up successful",
+        "url": "/society/events/open_space_signup_thankyou.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Pair by Confidence",
+        "url": "/exercises/games/pair_by_confidence.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Peter Gfader",
+        "url": "/society/contributors/peitor.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Personal 1-1 mentoring and Train-the-trainer",
+        "url": "/training/personal_coaching.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Peter Fichtner",
+        "url": "/society/contributors/pfichtner.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Philippe Bourgau",
+        "url": "/society/contributors/philou.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Pierrick Blons",
+        "url": "/society/contributors/pierrickblons.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Privacy Policy",
+        "url": "/society/privacy_policy.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Refactoring series",
+        "url": "/learning_hours/series/refactoring.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Learning Hours",
+        "url": "/learning_hours/refactoring.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Refactoring Principles",
+        "url": "/exercises/warm_up_questions/refactoring_warm_up_questions.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Ron Heywood",
+        "url": "/society/contributors/ronheywood.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "",
+        "url": "/assets/js/search-data.json"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "",
+        "url": "/search.json"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Learning Hours",
+        "url": "/learning_hours/small_steps.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Sponsor the Samman Coaching Society",
+        "url": "/society/sponsorship.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "",
+        "url": "/assets/css/styles.css"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Option A",
+        "url": "/exercises/consequences/tdd_overview_A.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Option B",
+        "url": "/exercises/consequences/tdd_overview_B.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Option C",
+        "url": "/exercises/consequences/tdd_overview_C.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Option D",
+        "url": "/exercises/consequences/tdd_overview_D.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "What would you do? TDD Overview",
+        "url": "/exercises/warm_up_questions/tdd_overview_what_would_you_do.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Order of TDD steps",
+        "url": "/exercises/games/tdd_steps_in_order.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Technical Coach - Definition",
+        "url": "/reference/technical_coach_definition.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Ten Sample Learning Hours",
+        "url": "/learning_hours/series/ten_sample.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Learning Hours",
+        "url": "/learning_hours/test_design.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Test Design series",
+        "url": "/learning_hours/series/test_design.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Learning Hours",
+        "url": "/learning_hours/test_doubles.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Learning Hours",
+        "url": "/learning_hours/testable_design.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Xavi Ametller",
+        "url": "/society/contributors/xaviametller.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "Yoan Thirion",
+        "url": "/society/contributors/ythirion.html"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "",
+        "url": "/feed.xml"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "",
+        "url": "/sitemap.xml"
+    },
+    {
+        "category": "",
+        "date": "",
+        "tags": "",
+        "title": "",
+        "url": "/robots.txt"
+    }
+]
