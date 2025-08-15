@@ -11,6 +11,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions
+from selenium.common.exceptions import NoSuchElementException
 
 
 def wait_for_server(url, max_attempts=5, base_delay=1):
@@ -107,7 +108,7 @@ class TestSearchBar(unittest.TestCase):
         self.assertTrue(found, f"No search result contains 'approval' in the title or text. {all_titles=} {all_texts=}")
 
 
-    def ignore_test_search_bar_no_results(self):
+    def test_search_bar_no_results(self):
         driver = self.driver
         search_input = WebDriverWait(driver, 10).until(
             expected_conditions.presence_of_element_located((By.ID, 'search-input'))
@@ -115,10 +116,19 @@ class TestSearchBar(unittest.TestCase):
         search_input.clear()
         search_input.send_keys('thisqueryshouldnotexist123')
         search_input.send_keys(Keys.RETURN)
-        results = WebDriverWait(driver, 10).until(
-            expected_conditions.visibility_of_element_located((By.ID, 'search-results'))
+        # Expectation: results container is NOT visible and its text is empty
+        # Wait until the results container is invisible or not present
+        WebDriverWait(driver, 10).until(
+            expected_conditions.invisibility_of_element_located((By.ID, 'search-results'))
         )
-        self.assertEqual('', results.text)
+        # Verify: not visible AND empty text. If element is absent, treat as not visible with empty text
+        try:
+            results = driver.find_element(By.ID, 'search-results')
+            self.assertFalse(results.is_displayed(), "Expected #search-results to be not visible")
+            self.assertEqual('', results.text)
+        except NoSuchElementException:
+            # Not present implies not visible, and we consider text to be empty
+            pass
 
 if __name__ == '__main__':
     unittest.main()
