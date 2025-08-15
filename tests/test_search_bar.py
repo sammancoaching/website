@@ -60,7 +60,6 @@ class TestSearchBar(unittest.TestCase):
             ["bundle", "exec", "jekyll", "serve", "--port", str(port)],
             shell=True,
             stdout=subprocess.DEVNULL,
-            stderr=subprocess.DEVNULL,
         )
         server_url = f'http://localhost:{port}'
         if not wait_for_server(server_url):
