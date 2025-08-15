@@ -9,4 +9,5 @@ class Test(unittest.TestCase):
     def test_search_json(self):
         path = Path('_site/search.json')
         data = json.loads(path.read_text(encoding='utf-8'))
+        data = sorted(data, key=lambda x: x.get('url'))
         verify_as_json(data)
