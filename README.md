@@ -58,33 +58,6 @@ If you send a PR you can expect to be contacted by a member of the society who w
 ## Deploying to the live site
 When you push to the main branch, there is a github action that deploys the changes.
 
-## Adding events
-* In hubspot, bulk update the 'events' property for everyone who attended the previous event
-* Wipe the 'next_open_space' property from all contacts in Hubspot
-* Update calendr.link "add to calendar" link with the next date
-* Update next_open_space.md with the next date
-* Test that you can sign up:
-  * correct signup thankyou page
-  * 'add to calendar' link on that page works, 
-  * you get a confirmation email
-  * you get the 'next_open_space' property in hubspot
-* Create zoom meeting
-* Create calendar event and invite co-host & society members
-* Create and schedule email 1 week before with zoom link
-* Create and schedule email on the day with zoom link
-* Advertize on discord etc
-
-## Adding new members
-* Make sure they have read and understood [Membership](https://sammancoaching.org/society/membership.html)
-* Invite them to github organization
-* Update their settings in [contributors](_data/contributors.yml)
-* Update their profile page on this site 
-* Add them to the membership registry google doc
-* Add them to the next open space calendar invite
-* Update their groups on Discord
-* Send welcome mail saying you've done those things
-* Announce them on Discord & elsewhere
-
 # Development plan for this website
 We would like to do some refactoring. This is the plan
 
