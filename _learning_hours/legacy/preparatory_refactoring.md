@@ -3,7 +3,7 @@ theme: legacy
 title: Preparatory Refactoring
 kata: trivia
 difficulty: 4
-author: Ivett Ördög
+author: devill
 affiliation: 
 languages: C#
 tags: [legacy, refactoring]
