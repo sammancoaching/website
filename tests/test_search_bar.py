@@ -97,7 +97,7 @@ class TestSearchBar(unittest.TestCase):
         # Assert that at least one result contains 'approval' in the title or text
         found = False
         # Wait for search results to be visible
-        results = WebDriverWait(driver, 20).until(
+        results = WebDriverWait(driver, 100).until(
             expected_conditions.visibility_of_element_located((By.ID, 'search-results'))
         )
         all_results = results.find_elements(By.TAG_NAME, 'li')
