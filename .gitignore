@@ -10,4 +10,4 @@ Gemfile.lock
 __pycache__
 node_modules
 *.received.*
-
+/junit-reports

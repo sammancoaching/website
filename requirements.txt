@@ -1,2 +1,4 @@
 selenium
 approvaltests
+requests
+unittest-xml-reporting
