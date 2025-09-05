@@ -139,7 +139,7 @@ class TestSearchBar(unittest.TestCase):
         self.assertTrue(found, f"No search result contains 'approval' in the title or text. {all_titles=} {all_texts=}")
 
 
-    def ignore_test_search_bar_no_results(self):
+    def test_search_bar_no_results(self):
         driver = self.driver
         search_input = WebDriverWait(driver, 10).until(
             expected_conditions.presence_of_element_located((By.ID, 'search-input'))
