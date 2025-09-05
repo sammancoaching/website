@@ -28,6 +28,7 @@ def wait_for_server(url, max_attempts=5, base_delay=1):
         bool: True if server is up, False otherwise
     """
     print(f"\n=== Waiting for server at {url} ===")
+    print(f"Time: {time.strftime('%Y-%m-%d %H:%M:%S')}")
     for attempt in range(max_attempts):
         try:
             print(f"Attempt {attempt + 1}/{max_attempts}: Trying to connect...")
@@ -41,9 +42,13 @@ def wait_for_server(url, max_attempts=5, base_delay=1):
         except requests.exceptions.Timeout:
             print("INFO: Connection timed out")
         except requests.exceptions.ConnectionError as e:
-            print(f"INFO: Connection refused: {str(e)}")
+            error_msg = str(e)
+            if "Connection refused" in error_msg or "Failed to establish" in error_msg:
+                print(f"INFO: Connection refused (server not ready yet)")
+            else:
+                print(f"INFO: Connection error: {error_msg[:100]}")  # Truncate long errors
         except requests.exceptions.RequestException as e:
-            print(f"INFO: Request failed: {str(e)}")
+            print(f"INFO: Request failed: {str(e)[:100]}")  # Truncate long errors
         
         if attempt < max_attempts - 1:  # Don't sleep on the last attempt
             wait_time = base_delay * (2 ** attempt)
@@ -51,20 +56,29 @@ def wait_for_server(url, max_attempts=5, base_delay=1):
             time.sleep(wait_time)
     
     print("\nERROR: Server failed to start after all attempts")
+    print(f"Time: {time.strftime('%Y-%m-%d %H:%M:%S')}")
     return False
 
 class TestSearchBar(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        port = 4001
+        # Find an available port dynamically to avoid conflicts
+        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+            s.bind(('', 0))
+            s.listen(1)
+            port = s.getsockname()[1]
+        
+        print(f"Starting Jekyll server on dynamically allocated port: {port}")
+        cls.port = port
         cls.server_process = subprocess.Popen(
             ["bundle", "exec", "jekyll", "serve", "--port", str(port)],
             shell=platform.system() == "Windows",
             stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,  # Also suppress stderr to avoid conflicts
         )
         server_url = f'http://localhost:{port}'
-        if not wait_for_server(server_url):
-            raise Exception(f"Server did not start after multiple attempts")
+        if not wait_for_server(server_url, max_attempts=10, base_delay=2):
+            raise Exception(f"Server did not start after multiple attempts on port {port}")
 
         chrome_options = Options()
         chrome_options.add_argument('--headless')  # Run headless for CI
@@ -75,15 +89,27 @@ class TestSearchBar(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls):
+        print(f"\nCleaning up: Stopping Jekyll server on port {cls.port}")
         cls.driver.quit()
-        # Terminate the server process
+        
+        # Terminate the server process gracefully first
         cls.server_process.terminate()
         try:
             cls.server_process.wait(timeout=5)
+            print("Jekyll server terminated gracefully")
         except subprocess.TimeoutExpired:
+            print("Jekyll server did not terminate gracefully, forcing kill")
             cls.server_process.kill()
+            cls.server_process.wait(timeout=5)
+        
+        # On Windows, ensure all Ruby processes are killed to avoid port conflicts
         if sys.platform.startswith('win'):
-            subprocess.call("taskkill.exe /F /im ruby.exe", shell=True, stdout=subprocess.DEVNULL)
+            print("Cleaning up any remaining Ruby processes on Windows")
+            subprocess.call("taskkill.exe /F /im ruby.exe", shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        
+        # Give a small delay to ensure port is released
+        time.sleep(1)
+        print("Cleanup completed")
 
     def test_search_bar_shows_results(self):
         driver = self.driver
