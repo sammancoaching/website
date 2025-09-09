@@ -8,9 +8,9 @@ _next level learning hours_
 
 Once you've gained some experience leading learning hours then you could benefit from expert feedback. In this two-part course you will both learn useful theory and get some practical expert feedback. The first part has a focus on how developers learn coding skills, and how to best deal with different levels of experience in your group.
 
-Between the two sessions you can expect to spend a couple of hours on homework. In the second part you will collaborate with other participants to prepare and lead a learning hour for the group, as well as take part in sessions led by other participants. You’ll get hands-on practice using the skills you're learning, and the chance to network with, and learn from, other coaches on the same journey as you.
+Between the two sessions you can expect to spend a couple of hours on homework. In the second part you will collaborate with other participants to prepare and lead a learning hour for the group, as well as take part in sessions led by other participants. You'll get hands-on practice using the skills you're learning, and the chance to network with, and learn from, other coaches on the same journey as you.
 
-## Course Topics:
+## Course Topics
 
 * Facilitation skills for interactive learning activities
 * How programmers acquire coding skills
@@ -22,8 +22,9 @@ This course is not an introduction to the topic, participants will normally have
 This online training is highly interactive and participatory, and is normally led by a pair of experienced coaches from the Samman Technical Coaching Society.
 
 ## Course Dates
-This course is two half-days held about a week apart. 
 
-* 16th & 23rd September Online with [Emily Bache]({% link society/contributors/emilybache.md %}) and [Peter Kofler]({% link society/contributors/codecop.md %}) - More information and signup via [Bache Consulting](https://bacheconsulting.com/_events/2025-09-16_learning_hours_masterclass.html)
+This course is two half-days held about two weeks apart.
+
+* 26th November & 10th December Online with [Emily Bache]({% link society/contributors/emilybache.md %}) and [Peter Kofler]({% link society/contributors/codecop.md %}) - More information and signup via [Bache Consulting](https://bacheconsulting.com/_events/2025-09-16_learning_hours_masterclass.html)
 
 For more information please [Contact us]({% link contact.md %}). You could also sign up for our [Newsletter]({% link newsletter.md %}) to hear about upcoming trainings and other useful information.
