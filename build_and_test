@@ -5,4 +5,4 @@ bundle install
 bundle exec jekyll build
 pip install -r requirements.txt --quiet
 mkdir -p junit-reports
-python -m pytest tests/ --html=junit-reports/report.html --self-contained-html
+python -m pytest tests/ --junit-xml=junit-reports/results.xml

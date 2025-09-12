@@ -3,3 +3,4 @@ approvaltests
 requests
 pytest
 pytest-html
+pytest-junit
