@@ -1,4 +1,5 @@
 selenium
 approvaltests
 requests
-unittest-xml-reporting
+pytest
+pytest-html

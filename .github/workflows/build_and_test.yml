@@ -20,8 +20,9 @@ jobs:
       - uses: actions/setup-python@v4
       - run: gem install bundler jekyll
       - run: ./build_and_test
-      - name: Publish Test Report
-        uses: mikepenz/action-junit-report@v5
+      - name: Upload Test Report
+        uses: actions/upload-artifact@v4
         if: always()
         with:
-          detailed_summary: true
+          name: test-report-${{ matrix.os }}
+          path: junit-reports/report.html
