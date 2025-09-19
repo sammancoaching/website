@@ -124,23 +124,23 @@
         "url": "/learning_hours/architecture.html"
     },
     {
-        "title": "Learning Hours",
+        "title": "BDD Learning Hours",
         "url": "/learning_hours/bdd.html"
     },
     {
-        "title": "Learning Hours",
+        "title": "Code Reading Learning Hours",
         "url": "/learning_hours/code_reading.html"
     },
     {
-        "title": "Learning Hours",
+        "title": "DevOps Learning Hours",
         "url": "/learning_hours/devops.html"
     },
     {
-        "title": "Learning Hours",
+        "title": "Ensemble Learning Hours",
         "url": "/learning_hours/ensemble.html"
     },
     {
-        "title": "Learning Hours",
+        "title": "Git Learning Hours",
         "url": "/learning_hours/git.html"
     },
     {
@@ -164,7 +164,7 @@
         "url": "/learning_hours/learning_hours_by_topic.html"
     },
     {
-        "title": "Learning Hours",
+        "title": "Legacy Code Learning Hours",
         "url": "/learning_hours/legacy.html"
     },
     {
@@ -172,7 +172,7 @@
         "url": "/learning_hours/low_level_c.html"
     },
     {
-        "title": "Learning Hours",
+        "title": "Refactoring Learning Hours",
         "url": "/learning_hours/refactoring.html"
     },
     {
@@ -196,19 +196,19 @@
         "url": "/learning_hours/series/test_design.html"
     },
     {
-        "title": "Learning Hours",
+        "title": "Small Steps Learning Hours",
         "url": "/learning_hours/small_steps.html"
     },
     {
-        "title": "Learning Hours",
+        "title": "Test Design Learning Hours",
         "url": "/learning_hours/test_design.html"
     },
     {
-        "title": "Learning Hours",
+        "title": "Test Doubles and Mocks Learning Hours",
         "url": "/learning_hours/test_doubles.html"
     },
     {
-        "title": "Learning Hours",
+        "title": "Testable Design Learning Hours",
         "url": "/learning_hours/testable_design.html"
     },
     {

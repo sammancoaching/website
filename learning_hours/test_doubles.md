@@ -1,6 +1,6 @@
 ---
 layout: learning_hour_theme
-title: Learning Hours
+title: Test Doubles and Mocks Learning Hours
 theme: test_doubles
 ---
 

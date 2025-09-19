@@ -1,6 +1,6 @@
 ---
 layout: learning_hour_theme
-title: Learning Hours
+title: Legacy Code Learning Hours
 theme: legacy
 ---
 
