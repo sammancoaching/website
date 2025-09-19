@@ -2,7 +2,8 @@
 layout: none
 ---
 [
-{% for post in site.pages %}
+{% assign posts_with_title = site.pages | where_exp: "post", "post.title" %}
+{% for post in posts_with_title %}
 {
 "title"    : "{{ post.title | escape }}",
 "category" : "{{ post.category }}",

@@ -10,20 +10,6 @@
         "category": "",
         "date": "",
         "tags": "",
-        "title": "",
-        "url": "/404.html"
-    },
-    {
-        "category": "",
-        "date": "",
-        "tags": "",
-        "title": "",
-        "url": "/LICENSE.html"
-    },
-    {
-        "category": "",
-        "date": "",
-        "tags": "",
         "title": "Activities",
         "url": "/activities/"
     },
@@ -66,29 +52,8 @@
         "category": "",
         "date": "",
         "tags": "",
-        "title": "",
-        "url": "/assets/css/styles.css"
-    },
-    {
-        "category": "",
-        "date": "",
-        "tags": "",
-        "title": "",
-        "url": "/assets/js/search-data.json"
-    },
-    {
-        "category": "",
-        "date": "",
-        "tags": "",
         "title": "Contact",
         "url": "/contact.html"
-    },
-    {
-        "category": "",
-        "date": "",
-        "tags": "",
-        "title": "",
-        "url": "/docker-compose.yml"
     },
     {
         "category": "",
@@ -215,13 +180,6 @@
         "tags": "",
         "title": "What would you do? TDD Overview",
         "url": "/exercises/warm_up_questions/tdd_overview_what_would_you_do.html"
-    },
-    {
-        "category": "",
-        "date": "",
-        "tags": "",
-        "title": "",
-        "url": "/feed.xml"
     },
     {
         "category": "",
@@ -460,27 +418,6 @@
         "tags": "",
         "title": "Technical Coach - Definition",
         "url": "/reference/technical_coach_definition.html"
-    },
-    {
-        "category": "",
-        "date": "",
-        "tags": "",
-        "title": "",
-        "url": "/robots.txt"
-    },
-    {
-        "category": "",
-        "date": "",
-        "tags": "",
-        "title": "",
-        "url": "/search.json"
-    },
-    {
-        "category": "",
-        "date": "",
-        "tags": "",
-        "title": "",
-        "url": "/sitemap.xml"
     },
     {
         "category": "",
