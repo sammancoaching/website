@@ -1,7 +1,7 @@
 ---
 layout: refactoring
 title: Transform Return Type
-source: 
+source: Emily Bache
 source_url: 
 code_smells: variable_with_long_scope, primitive_obsession
 learning_hours:
@@ -18,15 +18,16 @@ Usually you want this refactoring when a method has multiple return values that 
 I usually find this one goes easier if I inline the method first (provided it's not called from too many places).
 
 ## Implement
-* Identify which local variables will be combined into the new wrapper type. 
-* Pretend you already have the new class, declare a variable for it and call its constructor with the arguments you want to put in the new type, eg `var wrapper = ReturnTypeWrapper(a, b, c)`.
+* Identify which local variables will be combined into the new wrapper type, eg `var a; var b; var c;`. 
+* Identify a position in the code after these local variables have all been declared and where you can create a new variable of the new type to wrap them.
+* Pretend you already have the new class, declare a variable for it. Call its constructor with the arguments you want to put in the new type, eg `var wrapper = ReturnTypeWrapper(a, b, c)`.
 * Use your tools to create that class `ReturnTypeWrapper`.
 * Store all the constructor arguments in public fields.
 * change all the references to these variables to use the fields of your new class, eg `a` becomes `wrapper.a`. (Use search and replace within a selection).
 * 'Extract method' on all the code that uses `wrapper`. The method should have the signature you wanted.
 
-
 ## Clear
+
 
 ## Follow up
 
