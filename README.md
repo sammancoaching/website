@@ -26,8 +26,9 @@ We would like to do some refactoring. This is the plan
 
 1. Add search feature
     - [x] bring back nice XML-based test reports in GitHub workflow
-    - [ ] search results include unwanted pages (e.g. 404)
-    - [ ] ensure the teardown kills the server
+    - [x] search results include unwanted pages (e.g. 404)
+    - [x] ensure the teardown kills the server
+    - [ ] add more pages to the search index
 1. switch from scripts to rake
 2. Add a field to katas for "difficulty" and allow people to sort them. Possibly tags too?
 3. Show a calendar of all upcoming events. Do not show joining info, link to information page for the event. Not sure how to achieve this - base it on the google calendar? 
