@@ -28,9 +28,12 @@ We would like to do some refactoring. This is the plan
     - [x] bring back nice XML-based test reports in GitHub workflow
     - [x] search results include unwanted pages (e.g. 404)
     - [x] ensure the teardown kills the server
-    - [ ] add more pages to the search index
+    - [x] add more pages to the search index
+    - [ ] remove signup thankyou pages from search index
+    - [ ] toggle search on in production
 1. Think of a better name for "Activities" - "Learning Segments" and move it under "Reference" which we can rename to "Resources"
 2. Work out what the 'workshops' collection is and whether to keep it and/or add it to the search index
+3. Improve page names for open space signups - too many pages with similar names!
 1. switch from scripts to rake
 2. Add a field to katas for "difficulty" and allow people to sort them. Possibly tags too?
 3. Show a calendar of all upcoming events. Do not show joining info, link to information page for the event. Not sure how to achieve this - base it on the google calendar? 
