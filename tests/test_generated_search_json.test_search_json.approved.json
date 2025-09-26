@@ -108,6 +108,138 @@
         "url": "/kata_descriptions/"
     },
     {
+        "title": "Kata: Audit everything",
+        "url": "/kata_descriptions/audit.html"
+    },
+    {
+        "title": "Kata: Bank Account",
+        "url": "/kata_descriptions/bank_account.html"
+    },
+    {
+        "title": "Kata: Bingo Refactoring Kata",
+        "url": "/kata_descriptions/bingo.html"
+    },
+    {
+        "title": "Kata: Birthday Greetings",
+        "url": "/kata_descriptions/birthday_greetings.html"
+    },
+    {
+        "title": "Kata: Calculate Stats",
+        "url": "/kata_descriptions/calc_stats.html"
+    },
+    {
+        "title": "Kata: Christmas Song",
+        "url": "/kata_descriptions/christmas_song.html"
+    },
+    {
+        "title": "Kata: Closest To Zero",
+        "url": "/kata_descriptions/closest_to_zero.html"
+    },
+    {
+        "title": "Kata: Diamond",
+        "url": "/kata_descriptions/diamond.html"
+    },
+    {
+        "title": "Kata: Filename Range",
+        "url": "/kata_descriptions/filename_range.html"
+    },
+    {
+        "title": "Kata: FizzBuzz",
+        "url": "/kata_descriptions/fizzbuzz.html"
+    },
+    {
+        "title": "Kata: Fractions",
+        "url": "/kata_descriptions/fractions.html"
+    },
+    {
+        "title": "Kata: Gilded Rose Refactoring Kata",
+        "url": "/kata_descriptions/gilded_rose.html"
+    },
+    {
+        "title": "Kata: Instavoiced",
+        "url": "/kata_descriptions/instavoiced.html"
+    },
+    {
+        "title": "Kata: Leap Years",
+        "url": "/kata_descriptions/leap_years.html"
+    },
+    {
+        "title": "Kata: Lift",
+        "url": "/kata_descriptions/lift.html"
+    },
+    {
+        "title": "Kata: Lift Button",
+        "url": "/kata_descriptions/lift_button.html"
+    },
+    {
+        "title": "Kata: Mars Rover",
+        "url": "/kata_descriptions/mars_rover.html"
+    },
+    {
+        "title": "Kata: Martian Message",
+        "url": "/kata_descriptions/martian_message.html"
+    },
+    {
+        "title": "Kata: Monty Hall",
+        "url": "/kata_descriptions/monty_hall.html"
+    },
+    {
+        "title": "Kata: Office Cleaning Robot",
+        "url": "/kata_descriptions/office_cleaner.html"
+    },
+    {
+        "title": "Kata: Parse Command-Line Args",
+        "url": "/kata_descriptions/parse_args.html"
+    },
+    {
+        "title": "Kata: RecentlyUsedList",
+        "url": "/kata_descriptions/recently_used_list.html"
+    },
+    {
+        "title": "Kata: RPG Combat",
+        "url": "/kata_descriptions/rpg_combat.html"
+    },
+    {
+        "title": "Kata: Shopping Basket",
+        "url": "/kata_descriptions/shopping_basket.html"
+    },
+    {
+        "title": "Kata: Strange Characters",
+        "url": "/kata_descriptions/strange_characters.html"
+    },
+    {
+        "title": "Kata: String Calculator",
+        "url": "/kata_descriptions/string_calculator.html"
+    },
+    {
+        "title": "Kata: Supermarket Receipt",
+        "url": "/kata_descriptions/supermarket_receipt.html"
+    },
+    {
+        "title": "Kata: Tennis",
+        "url": "/kata_descriptions/tennis.html"
+    },
+    {
+        "title": "Kata: Theatrical Players",
+        "url": "/kata_descriptions/theatrical_players.html"
+    },
+    {
+        "title": "Kata: Tire Pressure",
+        "url": "/kata_descriptions/tire_pressure.html"
+    },
+    {
+        "title": "Kata: Vending Machine",
+        "url": "/kata_descriptions/vending_machine.html"
+    },
+    {
+        "title": "Kata: Word Wrap",
+        "url": "/kata_descriptions/word_wrap.html"
+    },
+    {
+        "title": "Kata: Yatzy",
+        "url": "/kata_descriptions/yatzy.html"
+    },
+    {
         "title": "Learning Hours",
         "url": "/learning_hours/"
     },
