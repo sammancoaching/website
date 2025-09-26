@@ -248,32 +248,132 @@
         "url": "/learning_hours/approval_testing_bdd.html"
     },
     {
+        "title": "Learning Hour: Leap Years with Approvals",
+        "url": "/learning_hours/approval_testing_bdd/compare_ordinary_tdd.html"
+    },
+    {
+        "title": "Learning Hour: Data Driven testing with Approvals",
+        "url": "/learning_hours/approval_testing_bdd/data_driven_approval_tests.html"
+    },
+    {
+        "title": "Learning Hour: Discover and Formulate Scenarios",
+        "url": "/learning_hours/approval_testing_bdd/discover_formulate.html"
+    },
+    {
+        "title": "Learning Hour: Designing a Printer",
+        "url": "/learning_hours/approval_testing_bdd/printer_design.html"
+    },
+    {
+        "title": "Learning Hour: Test Driving Development with Approvals",
+        "url": "/learning_hours/approval_testing_bdd/tdd_approvals.html"
+    },
+    {
         "title": "Learning Hours",
         "url": "/learning_hours/approval_testing_texttest.html"
+    },
+    {
+        "title": "Learning Hour: Filtering output that varies",
+        "url": "/learning_hours/approval_testing_texttest/run_dependent_text.html"
+    },
+    {
+        "title": "Learning Hour: Sandboxing Introduction",
+        "url": "/learning_hours/approval_testing_texttest/sandboxing_intro.html"
+    },
+    {
+        "title": "Learning Hour: TDD with TextTest",
+        "url": "/learning_hours/approval_testing_texttest/tdd_with_sketching.html"
+    },
+    {
+        "title": "Learning Hour: Supplying User Input via stdin",
+        "url": "/learning_hours/approval_testing_texttest/user_input.html"
     },
     {
         "title": "Learning Hours - Architecture",
         "url": "/learning_hours/architecture.html"
     },
     {
+        "title": "Learning Hour: Architecture Decision Records",
+        "url": "/learning_hours/architecture/architecture_decision_records.html"
+    },
+    {
+        "title": "Learning Hour: Divio Documentation System",
+        "url": "/learning_hours/architecture/divio_system.html"
+    },
+    {
+        "title": "Learning Hour: Modelling vs Diagramming",
+        "url": "/learning_hours/architecture/modelling_vs_diagramming.html"
+    },
+    {
+        "title": "Learning Hour: Simon Brown&#39;s C4 model - Container diagram",
+        "url": "/learning_hours/architecture/simon_brown_4c_container.html"
+    },
+    {
+        "title": "Learning Hour: Simon Brown&#39;s C4 model - Intro",
+        "url": "/learning_hours/architecture/simon_brown_4c_context.html"
+    },
+    {
+        "title": "Learning Hour: User Documentation and code snippets",
+        "url": "/learning_hours/architecture/snippets_documentation.html"
+    },
+    {
         "title": "BDD Learning Hours",
         "url": "/learning_hours/bdd.html"
+    },
+    {
+        "title": "Learning Hour: Double-Loop TDD",
+        "url": "/learning_hours/bdd/double_loop_tdd.html"
+    },
+    {
+        "title": "Learning Hour: BDD Process",
+        "url": "/learning_hours/bdd/example_mapping.html"
     },
     {
         "title": "Code Reading Learning Hours",
         "url": "/learning_hours/code_reading.html"
     },
     {
+        "title": "Learning Hour: Code Reading - Identifying Code Smells",
+        "url": "/learning_hours/code_reading/code_smells_intro.html"
+    },
+    {
+        "title": "Learning Hour: Common Code Smells",
+        "url": "/learning_hours/code_reading/common_code_smells.html"
+    },
+    {
+        "title": "Learning Hour: Code Reading - Scanning",
+        "url": "/learning_hours/code_reading/reading_tennis4.html"
+    },
+    {
         "title": "DevOps Learning Hours",
         "url": "/learning_hours/devops.html"
+    },
+    {
+        "title": "Learning Hour: Basic GitHub Actions",
+        "url": "/learning_hours/devops/github_actions.html"
+    },
+    {
+        "title": "Learning Hour: Learn Faster By Practicing Teaching",
+        "url": "/learning_hours/devops/learn_faster.html"
+    },
+    {
+        "title": "Learning Hour: The three ways of DevOps",
+        "url": "/learning_hours/devops/three_ways.html"
     },
     {
         "title": "Ensemble Learning Hours",
         "url": "/learning_hours/ensemble.html"
     },
     {
+        "title": "Learning Hour: Talking with Intent, Typing Syntax",
+        "url": "/learning_hours/ensemble/talking_typing.html"
+    },
+    {
         "title": "Git Learning Hours",
         "url": "/learning_hours/git.html"
+    },
+    {
+        "title": "Learning Hour: Git Interactive Rebase",
+        "url": "/learning_hours/git/interactive_rebase.html"
     },
     {
         "title": "Learning Hours",
@@ -300,12 +400,192 @@
         "url": "/learning_hours/legacy.html"
     },
     {
+        "title": "Learning Hour: Approval Testing Intro",
+        "url": "/learning_hours/legacy/approval_testing_intro.html"
+    },
+    {
+        "title": "Learning Hour: Intro to Approvals",
+        "url": "/learning_hours/legacy/approvals_intro.html"
+    },
+    {
+        "title": "Learning Hour: Combination Approvals needs a Pure Function",
+        "url": "/learning_hours/legacy/combination_approvals_pure_function.html"
+    },
+    {
+        "title": "Learning Hour: Approval Testing Combinations",
+        "url": "/learning_hours/legacy/combinations_by_hand.html"
+    },
+    {
+        "title": "Learning Hour: Demo of Approvals with Coverage and Mutation testing",
+        "url": "/learning_hours/legacy/coverage_mutation_approvals_demo.html"
+    },
+    {
+        "title": "Learning Hour: Domain Oriented Observability on Reservation Kata",
+        "url": "/learning_hours/legacy/domain_observability.html"
+    },
+    {
+        "title": "Learning Hour: Extract and Override",
+        "url": "/learning_hours/legacy/extract_override.html"
+    },
+    {
+        "title": "Learning Hour: Design for Approval Testing",
+        "url": "/learning_hours/legacy/handle_dates.html"
+    },
+    {
+        "title": "Learning Hour: Invasive Critical Aggregator",
+        "url": "/learning_hours/legacy/invasive_critical_aggregator.html"
+    },
+    {
+        "title": "Learning Hour: Preparatory Refactoring",
+        "url": "/learning_hours/legacy/preparatory_refactoring.html"
+    },
+    {
+        "title": "Learning Hour: Strangler Fig Pattern",
+        "url": "/learning_hours/legacy/strangler_fig.html"
+    },
+    {
+        "title": "Learning Hour: Test maintenance",
+        "url": "/learning_hours/legacy/test_maintenance.html"
+    },
+    {
+        "title": "Learning Hour: Text-Based Testing",
+        "url": "/learning_hours/legacy/text_based_testing.html"
+    },
+    {
+        "title": "Learning Hour: Text-based Approval Tests for Yatzy",
+        "url": "/learning_hours/legacy/vendor_assessment.html"
+    },
+    {
+        "title": "Learning Hour: Using coverage when adding tests to existing code",
+        "url": "/learning_hours/legacy/verify_xml_reports.html"
+    },
+    {
         "title": "Working with C",
         "url": "/learning_hours/low_level_c.html"
     },
     {
+        "title": "Learning Hour: Cover the patient with tests",
+        "url": "/learning_hours/low_level_c/cover_patient.html"
+    },
+    {
+        "title": "Learning Hour: TDD a lamp microcontroller",
+        "url": "/learning_hours/low_level_c/lamp_microcontroller.html"
+    },
+    {
+        "title": "Learning Hour: Move the patient into the surgery",
+        "url": "/learning_hours/low_level_c/patient_into_surgery.html"
+    },
+    {
+        "title": "Learning Hour: Refactor for testability",
+        "url": "/learning_hours/low_level_c/redesign_patient_for_testability.html"
+    },
+    {
+        "title": "Learning Hour: Return the patient",
+        "url": "/learning_hours/low_level_c/return_patient.html"
+    },
+    {
+        "title": "Learning Hour: TDD a state machine",
+        "url": "/learning_hours/low_level_c/tdd_state_machine.html"
+    },
+    {
         "title": "Refactoring Learning Hours",
         "url": "/learning_hours/refactoring.html"
+    },
+    {
+        "title": "Learning Hour: Change Signature",
+        "url": "/learning_hours/refactoring/change_signature.html"
+    },
+    {
+        "title": "Learning Hour: Replace Conditional With Polymorphism",
+        "url": "/learning_hours/refactoring/conditional_to_polymorphism.html"
+    },
+    {
+        "title": "Learning Hour: From Struct to Class",
+        "url": "/learning_hours/refactoring/convert_struct_to_class.html"
+    },
+    {
+        "title": "Learning Hour: Decompose Conditional",
+        "url": "/learning_hours/refactoring/decompose_conditional.html"
+    },
+    {
+        "title": "Learning Hour: Vocabulary for Refactoring",
+        "url": "/learning_hours/refactoring/extract_function.html"
+    },
+    {
+        "title": "Learning Hour: Extracting Data Clumps",
+        "url": "/learning_hours/refactoring/extracting_data_clumps.html"
+    },
+    {
+        "title": "Learning Hour: Refactoring Golf",
+        "url": "/learning_hours/refactoring/golf.html"
+    },
+    {
+        "title": "Learning Hour: Replace Nested Conditional with Guard Clauses",
+        "url": "/learning_hours/refactoring/guard_clause.html"
+    },
+    {
+        "title": "Learning Hour: Identify Paragraphs in Long Methods",
+        "url": "/learning_hours/refactoring/identify_paragraphs.html"
+    },
+    {
+        "title": "Learning Hour: Idiomatic Code",
+        "url": "/learning_hours/refactoring/idiomatic.html"
+    },
+    {
+        "title": "Learning Hour: Keyboarding skills",
+        "url": "/learning_hours/refactoring/keyboarding.html"
+    },
+    {
+        "title": "Learning Hour: Mending Law of Demeter Issues with Refactoring Tools",
+        "url": "/learning_hours/refactoring/law_of_demeter.html"
+    },
+    {
+        "title": "Learning Hour: Lift-Up Conditional on Gilded Rose",
+        "url": "/learning_hours/refactoring/lift_up_conditional.html"
+    },
+    {
+        "title": "Learning Hour: Lift-Up Conditional Introduction",
+        "url": "/learning_hours/refactoring/lift_up_conditional_intro.html"
+    },
+    {
+        "title": "Learning Hour: Misconceptions about Refactoring",
+        "url": "/learning_hours/refactoring/misconceptions.html"
+    },
+    {
+        "title": "Learning Hour: Parallel Change",
+        "url": "/learning_hours/refactoring/parallel_change.html"
+    },
+    {
+        "title": "Learning Hour: Primitive Obsession",
+        "url": "/learning_hours/refactoring/primitive_obsession.html"
+    },
+    {
+        "title": "Learning Hour: Refactoring Without Tools",
+        "url": "/learning_hours/refactoring/refactoring_without_tools.html"
+    },
+    {
+        "title": "Learning Hour: Renaming Variables, Fields and Types",
+        "url": "/learning_hours/refactoring/renaming.html"
+    },
+    {
+        "title": "Learning Hour: Roll Up Loop",
+        "url": "/learning_hours/refactoring/roll_up_loop.html"
+    },
+    {
+        "title": "Learning Hour: Simplify Conditional",
+        "url": "/learning_hours/refactoring/simplify_conditional.html"
+    },
+    {
+        "title": "Learning Hour: Split Loop",
+        "url": "/learning_hours/refactoring/split_loop.html"
+    },
+    {
+        "title": "Learning Hour: Split Phase",
+        "url": "/learning_hours/refactoring/split_phase.html"
+    },
+    {
+        "title": "Learning Hour: Split Variable",
+        "url": "/learning_hours/refactoring/split_variable.html"
     },
     {
         "title": "Approval Testing Legacy Code series",
@@ -332,16 +612,244 @@
         "url": "/learning_hours/small_steps.html"
     },
     {
+        "title": "Learning Hour: Adding Behavior Instead Of Breaking Behavior",
+        "url": "/learning_hours/small_steps/changing_by_adding.html"
+    },
+    {
+        "title": "Learning Hour: Using TDD to write a Leap Years function",
+        "url": "/learning_hours/small_steps/demo_tdd_intro.html"
+    },
+    {
+        "title": "Learning Hour: Design in the Red step",
+        "url": "/learning_hours/small_steps/design_with_a_test.html"
+    },
+    {
+        "title": "Learning Hour: Example-guided design",
+        "url": "/learning_hours/small_steps/example_guided_design.html"
+    },
+    {
+        "title": "Learning Hour: Golden Rule of TDD",
+        "url": "/learning_hours/small_steps/golden_rule_tdd.html"
+    },
+    {
+        "title": "Learning Hour: Iterative or Incremental",
+        "url": "/learning_hours/small_steps/iterative_or_incremental.html"
+    },
+    {
+        "title": "Learning Hour: Outside-in TDD",
+        "url": "/learning_hours/small_steps/outside_in.html"
+    },
+    {
+        "title": "Learning Hour: Selecting and ordering test cases",
+        "url": "/learning_hours/small_steps/select_order_testcases.html"
+    },
+    {
+        "title": "Learning Hour: Take Smaller Steps",
+        "url": "/learning_hours/small_steps/smaller_steps.html"
+    },
+    {
+        "title": "Learning Hour: TDD cycles",
+        "url": "/learning_hours/small_steps/tdd_cycles.html"
+    },
+    {
+        "title": "Learning Hour: TDD Fluency",
+        "url": "/learning_hours/small_steps/tdd_fluency.html"
+    },
+    {
+        "title": "Learning Hour: TDD with a list",
+        "url": "/learning_hours/small_steps/tdd_with_a_list.html"
+    },
+    {
+        "title": "Learning Hour: Make a test list",
+        "url": "/learning_hours/small_steps/test_list.html"
+    },
+    {
+        "title": "Learning Hour: Test Order",
+        "url": "/learning_hours/small_steps/test_order.html"
+    },
+    {
+        "title": "Learning Hour: Triangulation",
+        "url": "/learning_hours/small_steps/triangulation.html"
+    },
+    {
+        "title": "Learning Hour: Slicing a task using ZOMBIES",
+        "url": "/learning_hours/small_steps/zombies.html"
+    },
+    {
         "title": "Test Design Learning Hours",
         "url": "/learning_hours/test_design.html"
+    },
+    {
+        "title": "Learning Hour: Arrange - Act - Assert",
+        "url": "/learning_hours/test_design/arrange_act_assert.html"
+    },
+    {
+        "title": "Learning Hour: Asserting on Collections of Objects",
+        "url": "/learning_hours/test_design/asserting_on_collections.html"
+    },
+    {
+        "title": "Learning Hour: Benefits of Arrange - Act - Assert",
+        "url": "/learning_hours/test_design/benefits_of_arrange_act_assert.html"
+    },
+    {
+        "title": "Learning Hour: Gherkin intro",
+        "url": "/learning_hours/test_design/cucumber_comparison.html"
+    },
+    {
+        "title": "Learning Hour: Custom Assertions",
+        "url": "/learning_hours/test_design/custom_assert.html"
+    },
+    {
+        "title": "Learning Hour: Parameterized Tests in Doctest",
+        "url": "/learning_hours/test_design/doctest_parameterized.html"
+    },
+    {
+        "title": "Learning Hour: Test Fixture design",
+        "url": "/learning_hours/test_design/fixtures_comparison.html"
+    },
+    {
+        "title": "Learning Hour: Test Fixture Introduction",
+        "url": "/learning_hours/test_design/fixtures_intro.html"
+    },
+    {
+        "title": "Learning Hour: Test Fixtures - Readability vs Duplication",
+        "url": "/learning_hours/test_design/fixtures_readability_vs_duplication.html"
+    },
+    {
+        "title": "Learning Hour: Four Pillars of a Good Test (Khorikov)",
+        "url": "/learning_hours/test_design/four_pillars_khorikov.html"
+    },
+    {
+        "title": "Learning Hour: Parameterized Tests",
+        "url": "/learning_hours/test_design/parameterized_tests.html"
+    },
+    {
+        "title": "Learning Hour: Characteristics of Unit tests",
+        "url": "/learning_hours/test_design/properties_unit_test.html"
+    },
+    {
+        "title": "Learning Hour: Start with the Assertion",
+        "url": "/learning_hours/test_design/start_with_assert.html"
+    },
+    {
+        "title": "Learning Hour: Styles of Unit Tests",
+        "url": "/learning_hours/test_design/styles_of_unit_tests.html"
+    },
+    {
+        "title": "Learning Hour: Test a Bug",
+        "url": "/learning_hours/test_design/test_a_bug.html"
+    },
+    {
+        "title": "Learning Hour: Test data builders",
+        "url": "/learning_hours/test_design/test_data_builders.html"
+    },
+    {
+        "title": "Learning Hour: Test Desiderata",
+        "url": "/learning_hours/test_design/test_desiderata.html"
+    },
+    {
+        "title": "Learning Hour: Unit Tests Should Find Bugs",
+        "url": "/learning_hours/test_design/test_design_assertions.html"
+    },
+    {
+        "title": "Learning Hour: Test Names",
+        "url": "/learning_hours/test_design/test_names.html"
+    },
+    {
+        "title": "Learning Hour: Three parts of a test",
+        "url": "/learning_hours/test_design/three_parts_of_a_test.html"
+    },
+    {
+        "title": "Learning Hour: Unit Test FIRST properties",
+        "url": "/learning_hours/test_design/unit_test_FIRST_properties.html"
     },
     {
         "title": "Test Doubles and Mocks Learning Hours",
         "url": "/learning_hours/test_doubles.html"
     },
     {
+        "title": "Learning Hour: Faking Dependencies",
+        "url": "/learning_hours/test_doubles/faking_dependencies.html"
+    },
+    {
+        "title": "Learning Hour: Mocking Dependencies",
+        "url": "/learning_hours/test_doubles/mocking_dependencies.html"
+    },
+    {
+        "title": "Learning Hour: Stubbing Dependencies",
+        "url": "/learning_hours/test_doubles/stubbing_dependencies.html"
+    },
+    {
+        "title": "Learning Hour: Test Doubles Intro",
+        "url": "/learning_hours/test_doubles/test_double_intro.html"
+    },
+    {
+        "title": "Learning Hour: When to use a Test Double",
+        "url": "/learning_hours/test_doubles/when_to_use_a_test_double.html"
+    },
+    {
+        "title": "Learning Hour: When you need a fake",
+        "url": "/learning_hours/test_doubles/when_you_need_a_fake.html"
+    },
+    {
+        "title": "Learning Hour: When you need a mock",
+        "url": "/learning_hours/test_doubles/when_you_need_a_mock.html"
+    },
+    {
+        "title": "Learning Hour: When you need a spy",
+        "url": "/learning_hours/test_doubles/when_you_need_a_spy.html"
+    },
+    {
+        "title": "Learning Hour: When you need a stub",
+        "url": "/learning_hours/test_doubles/when_you_need_a_stub.html"
+    },
+    {
         "title": "Testable Design Learning Hours",
         "url": "/learning_hours/testable_design.html"
+    },
+    {
+        "title": "Learning Hour: Beck&#39;s 4 rules of simple design",
+        "url": "/learning_hours/testable_design/beck_simple_design.html"
+    },
+    {
+        "title": "Learning Hour: Bottom-up design",
+        "url": "/learning_hours/testable_design/bottom_up_design.html"
+    },
+    {
+        "title": "Learning Hour: Complexity / Collaborator quadrant analysis",
+        "url": "/learning_hours/testable_design/complexity_collaborator_quadrants.html"
+    },
+    {
+        "title": "Learning Hour: The Dependency Inversion Principle",
+        "url": "/learning_hours/testable_design/dependency_inversion_principle.html"
+    },
+    {
+        "title": "Learning Hour: Identify and Resolve Law of Demeter Violations",
+        "url": "/learning_hours/testable_design/law_of_demeter.html"
+    },
+    {
+        "title": "Learning Hour: Reading by Renaming",
+        "url": "/learning_hours/testable_design/naming.html"
+    },
+    {
+        "title": "Learning Hour: Overdesign",
+        "url": "/learning_hours/testable_design/overdesign.html"
+    },
+    {
+        "title": "Learning Hour: Strategy - Peel",
+        "url": "/learning_hours/testable_design/peel.html"
+    },
+    {
+        "title": "Learning Hour: Testing Private Methods",
+        "url": "/learning_hours/testable_design/private_methods.html"
+    },
+    {
+        "title": "Learning Hour: Testing Pure Functions",
+        "url": "/learning_hours/testable_design/pure_functions_are_easy_to_test.html"
+    },
+    {
+        "title": "Learning Hour: Strategy - Slice",
+        "url": "/learning_hours/testable_design/slice.html"
     },
     {
         "title": "Newsletter",

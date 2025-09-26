@@ -13,6 +13,12 @@ layout: none
 {
 "title"    : "Kata: {{ kata.title | escape }}",
 "url"      : "{{ site.baseurl }}{{ kata.url }}"
+},
+{% endfor %}
+{% for lh in site.learning_hours %}
+{
+"title"    : "Learning Hour: {{ lh.title | escape }}",
+"url"      : "{{ site.baseurl }}{{ lh.url }}"
 } {% unless forloop.last %},{% endunless %}
 {% endfor %}
 ]
