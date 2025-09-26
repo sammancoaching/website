@@ -16,16 +16,236 @@
         "url": "/activities/concept.html"
     },
     {
+        "title": "Activity: Code Demo",
+        "url": "/activities/concept/code_demo.html"
+    },
+    {
+        "title": "Activity: Lecture",
+        "url": "/activities/concept/lecture.html"
+    },
+    {
+        "title": "Activity: Table Groups Playing Games",
+        "url": "/activities/concept/table_game_groups.html"
+    },
+    {
         "title": "Activities for Conclusions",
         "url": "/activities/conclusions.html"
+    },
+    {
+        "title": "Activity: Coach&#39;s encouraging feedback",
+        "url": "/activities/conclusions/coaches_feedback.html"
+    },
+    {
+        "title": "Activity: Code Comparison",
+        "url": "/activities/conclusions/code_compare.html"
+    },
+    {
+        "title": "Activity: Collect Round Robin Style",
+        "url": "/activities/conclusions/collect_round_robin.html"
+    },
+    {
+        "title": "Activity: Explain the main idea",
+        "url": "/activities/conclusions/explain_main_idea.html"
+    },
+    {
+        "title": "Activity: Raising the Group Temperature",
+        "url": "/activities/conclusions/group_temperature.html"
+    },
+    {
+        "title": "Activity: How does it feel?",
+        "url": "/activities/conclusions/how_does_it_feel.html"
+    },
+    {
+        "title": "Activity: Does our code have this issue?",
+        "url": "/activities/conclusions/how_to_apply_here.html"
+    },
+    {
+        "title": "Activity: Showcase",
+        "url": "/activities/conclusions/showcase.html"
+    },
+    {
+        "title": "Activity: TDD Cycles",
+        "url": "/activities/conclusions/tdd_cycles.html"
+    },
+    {
+        "title": "Activity: When should you use this?",
+        "url": "/activities/conclusions/when_to_use_this.html"
+    },
+    {
+        "title": "Activity: Note down your most important takeaways",
+        "url": "/activities/conclusions/write_important_takeaway.html"
     },
     {
         "title": "Activities for Concrete Practice",
         "url": "/activities/concrete.html"
     },
     {
+        "title": "Activity: Facilitated Ensemble",
+        "url": "/activities/concrete/facilitated_ensemble.html"
+    },
+    {
+        "title": "Activity: Individual work with showcasing",
+        "url": "/activities/concrete/individual_work_with_showcasing.html"
+    },
+    {
+        "title": "Activity: Work In Pairs",
+        "url": "/activities/concrete/work_in_pairs.html"
+    },
+    {
         "title": "Activities for Connect",
         "url": "/activities/connect.html"
+    },
+    {
+        "title": "Activity: Code Review",
+        "url": "/activities/connect/code_review.html"
+    },
+    {
+        "title": "Activity: Explain previous concepts",
+        "url": "/activities/connect/explain_previous_concepts.html"
+    },
+    {
+        "title": "Activity: Fill in the Blanks",
+        "url": "/activities/connect/fill_in_blanks.html"
+    },
+    {
+        "title": "Activity: Learning Goal Voting",
+        "url": "/activities/connect/learning_goal_voting.html"
+    },
+    {
+        "title": "Activity: Pick only the correct items",
+        "url": "/activities/connect/pick_the_correct_items_on_the_list.html"
+    },
+    {
+        "title": "Activity: Sort these items",
+        "url": "/activities/connect/sort_these_items.html"
+    },
+    {
+        "title": "Activity: Three Facts",
+        "url": "/activities/connect/three_facts.html"
+    },
+    {
+        "title": "Activity: Three Facts and a Question",
+        "url": "/activities/connect/three_facts_and_a_q.html"
+    },
+    {
+        "title": "Activity: True or False mythbusting",
+        "url": "/activities/connect/true_or_false_mythbusting.html"
+    },
+    {
+        "title": "Activity: Web Hunt",
+        "url": "/activities/connect/webhunt.html"
+    },
+    {
+        "title": "Code Smell: Alternative Classes with Different Interfaces",
+        "url": "/code_smells/alternative_classes_different_interfaces.html"
+    },
+    {
+        "title": "Code Smell: Bumpy Road",
+        "url": "/code_smells/bumpy_road.html"
+    },
+    {
+        "title": "Code Smell: Comments",
+        "url": "/code_smells/comments.html"
+    },
+    {
+        "title": "Code Smell: Data Class",
+        "url": "/code_smells/data_class.html"
+    },
+    {
+        "title": "Code Smell: Data Clumps",
+        "url": "/code_smells/data_clumps.html"
+    },
+    {
+        "title": "Code Smell: Deep Nesting",
+        "url": "/code_smells/deep_nesting.html"
+    },
+    {
+        "title": "Code Smell: Divergent Change",
+        "url": "/code_smells/divergent_change.html"
+    },
+    {
+        "title": "Code Smell: Duplicated Code",
+        "url": "/code_smells/duplicated_code.html"
+    },
+    {
+        "title": "Code Smell: Feature Envy",
+        "url": "/code_smells/feature_envy.html"
+    },
+    {
+        "title": "Code Smell: Global Data",
+        "url": "/code_smells/global_data.html"
+    },
+    {
+        "title": "Code Smell: Insider Trading",
+        "url": "/code_smells/insider_trading.html"
+    },
+    {
+        "title": "Code Smell: Large Class",
+        "url": "/code_smells/large_class.html"
+    },
+    {
+        "title": "Code Smell: Lazy Element",
+        "url": "/code_smells/lazy_element.html"
+    },
+    {
+        "title": "Code Smell: Long Function",
+        "url": "/code_smells/long_function.html"
+    },
+    {
+        "title": "Code Smell: Long Parameter List",
+        "url": "/code_smells/long_parameter_list.html"
+    },
+    {
+        "title": "Code Smell: Loops",
+        "url": "/code_smells/loop.html"
+    },
+    {
+        "title": "Code Smell: Message Chains",
+        "url": "/code_smells/message_chains.html"
+    },
+    {
+        "title": "Code Smell: Middle Man",
+        "url": "/code_smells/middle_man.html"
+    },
+    {
+        "title": "Code Smell: Mutable Data",
+        "url": "/code_smells/mutable_data.html"
+    },
+    {
+        "title": "Code Smell: Mysterious Name",
+        "url": "/code_smells/mysterious_name.html"
+    },
+    {
+        "title": "Code Smell: Paragraph of Code",
+        "url": "/code_smells/paragraph.html"
+    },
+    {
+        "title": "Code Smell: Primitive Obsession",
+        "url": "/code_smells/primitive_obsession.html"
+    },
+    {
+        "title": "Code Smell: Refused Bequest",
+        "url": "/code_smells/refused_bequest.html"
+    },
+    {
+        "title": "Code Smell: Repeated Switches",
+        "url": "/code_smells/repeated_switches.html"
+    },
+    {
+        "title": "Code Smell: Shotgun Surgery",
+        "url": "/code_smells/shotgun_surgery.html"
+    },
+    {
+        "title": "Code Smell: Speculative Generality",
+        "url": "/code_smells/speculative_generality.html"
+    },
+    {
+        "title": "Code Smell: Temporary Field",
+        "url": "/code_smells/temporary_field.html"
+    },
+    {
+        "title": "Code Smell: Variable with Long Scope",
+        "url": "/code_smells/variable_with_long_scope.html"
     },
     {
         "title": "Contact",
@@ -858,6 +1078,74 @@
     {
         "title": "Newsletter",
         "url": "/newsletter_and_guide.html"
+    },
+    {
+        "title": "Refactoring: Replace Command with Function",
+        "url": "/refactorings/command_to_function.html"
+    },
+    {
+        "title": "Refactoring: Replace Conditional Logic with Strategy",
+        "url": "/refactorings/conditional_to_strategy.html"
+    },
+    {
+        "title": "Refactoring: Encapsulate Variable",
+        "url": "/refactorings/encapsulate_variable.html"
+    },
+    {
+        "title": "Refactoring: Extract Function",
+        "url": "/refactorings/extract_function.html"
+    },
+    {
+        "title": "Refactoring: Replace Function with Command",
+        "url": "/refactorings/function_to_command.html"
+    },
+    {
+        "title": "Refactoring: Inline Function",
+        "url": "/refactorings/inline_function.html"
+    },
+    {
+        "title": "Refactoring: Introduce Parameter Object",
+        "url": "/refactorings/introduce_parameter_object.html"
+    },
+    {
+        "title": "Refactoring: Introduce Variable",
+        "url": "/refactorings/introduce_variable.html"
+    },
+    {
+        "title": "Refactoring: Lift Up Conditional",
+        "url": "/refactorings/lift_up_conditional.html"
+    },
+    {
+        "title": "Refactoring: Move Function",
+        "url": "/refactorings/move_function.html"
+    },
+    {
+        "title": "Refactoring: Replace Conditional with Polymorphism",
+        "url": "/refactorings/replace_conditional_polymorphism.html"
+    },
+    {
+        "title": "Refactoring: Replace Primitive with Object",
+        "url": "/refactorings/replace_primitive_with_object.html"
+    },
+    {
+        "title": "Refactoring: Split Loop",
+        "url": "/refactorings/split_loop.html"
+    },
+    {
+        "title": "Refactoring: Split Message Chain",
+        "url": "/refactorings/split_message_chain.html"
+    },
+    {
+        "title": "Refactoring: Split Phase",
+        "url": "/refactorings/split_phase.html"
+    },
+    {
+        "title": "Refactoring: Split Variable",
+        "url": "/refactorings/split_variable.html"
+    },
+    {
+        "title": "Refactoring: Transform Return Type",
+        "url": "/refactorings/transform_return_type.html"
     },
     {
         "title": "Reference Materials",
