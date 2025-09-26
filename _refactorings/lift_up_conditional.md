@@ -8,6 +8,8 @@ learning_hours: lift_up_conditional_intro
 
 # Lift-up Conditional
 This refactoring was named by Emily Bache. She first learned it from Llewellyn Falco.
+It's also related to Fowler's Remove Flag Argument https://refactoring.com/catalog/removeFlagArgument.html,  
+last example from the book is the begining of a lift up conditional.
 
 ## Examine
 Look for a complex conditional that has a condition that is duplicated in more than one place. This is the conditional you will 'lift up' to be only in one place at the top. Note - in this process another conditional might become duplicated instead, so it doesn't always help.
