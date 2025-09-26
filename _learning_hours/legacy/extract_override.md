@@ -8,7 +8,7 @@ author: emilybache
 
 # Extract and Override
 
-"Extract and Override" is a classic dependency breaking technique from Michael Feathers' book "Working Effectively with Legacy Code". In this session we demonstrate it using the classic coding problem "TripService" by Sandro Mancuso.
+This is a classic dependency breaking technique from Michael Feathers' book "Working Effectively with Legacy Code". In this session we learn how to use it on the classic coding problem "TripService" by Sandro Mancuso. Emily Bache has made a video ["Breaking Legacy Code Dependencies with Extract and Override"](https://www.youtube.com/watch?v=hwr9bVyXkTY) that explains more and shows a demo using Java.
 
 ## Learning Objectives
 - Describe when to use a dependency breaking technique
