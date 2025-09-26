@@ -15,6 +15,24 @@ layout: none
 "url"      : "{{ site.baseurl }}{{ kata.url }}"
 },
 {% endfor %}
+{% for activity in site.activities %}
+{
+"title"    : "Activity: {{ activity.title | escape }}",
+"url"      : "{{ site.baseurl }}{{ activity.url }}"
+},
+{% endfor %}
+{% for smell in site.code_smells %}
+{
+"title"    : "Code Smell: {{ smell.title | escape }}",
+"url"      : "{{ site.baseurl }}{{ smell.url }}"
+},
+{% endfor %}
+{% for refactoring in site.refactorings %}
+{
+"title"    : "Refactoring: {{ refactoring.title | escape }}",
+"url"      : "{{ site.baseurl }}{{ refactoring.url }}"
+},
+{% endfor %}
 {% for lh in site.learning_hours %}
 {
 "title"    : "Learning Hour: {{ lh.title | escape }}",
