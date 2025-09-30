@@ -5,6 +5,7 @@ title: Renaming Variables, Fields and Types
 kata: Finder
 difficulty: 1
 author: codecop
+tags:  refactoring legacy
 ---
 
 # Renaming Variables, Fields and Types

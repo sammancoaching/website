@@ -4,11 +4,14 @@ title: Code Reading - Identifying Code Smells
 kata: gilded_rose
 difficulty: 1
 author: emilybache
+tags: reading legacy
 ---
 
 # Code Smells - Introduction
 
 It's useful to have a vocabulary for talking about refactoring. It will help you to communicate when doing strong-style pairing or mob programming. Code smells is perhaps a less-known concept than refactoring and knowing these names will also help you to communicate about code, and identify targets for refactoring. In this learning hour we'll talk about what a code smell is and learn the names of some common ones. 
+
+There is a video and other materials available for this learning hour as part of a [Technical Coaching Programme]({% link training/full_package.md %})
 
 ## Learning Goals
 * Describe the term "Code Smell"
@@ -30,7 +33,7 @@ Have you ever encountered bad code? If so, what characteristics does it have? Di
 If someone claims there is no such thing as bad code, try not to get into a big argument. It's a valid perspective but not actually very useful. Try to get the discussion more onto code smells as a concept and ask them to suspend their disbelief in bad code for the duration of the session.
 
 ### Code smells
-Explain Martin Fowler's [description of code smells](https://www.martinfowler.com/bliki/CodeSmell.html). The list of [Code Smells](/reference/code_smells/index.html) on this site uses the same names as Martin Fowler's book 'Refactoring'. There is another list of common code smells on [wikipedia](https://en.wikipedia.org/wiki/Code_smell). If they have already met some code smells in a previous session, remind them of the descriptions of those.
+Explain Martin Fowler's [description of code smells](https://www.martinfowler.com/bliki/CodeSmell.html). The list of [Code Smells]({% link reference/code_smells/index.md %}) on this site uses the same names as Martin Fowler's book 'Refactoring'. There is another list of common code smells on [wikipedia](https://en.wikipedia.org/wiki/Code_smell). If they have already met some code smells in a previous session, remind them of the descriptions of those.
 
 ### Sparrow deck on Long Methods
 If they havn't seen a sparrow deck before, show them the original either using [Llewellyn's slides](https://llewellynfalco.blogspot.com/p/sparrow-decks.html) or [Emily's video](https://youtu.be/tkqZDaw-4E4). Then show them the "Long Methods" sparrow deck.

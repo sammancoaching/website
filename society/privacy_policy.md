@@ -26,7 +26,7 @@ The Samman Society collects your data so that we can:
 We keep your data securely in the online tool Hubspot. Only members of the Samman Society Executive Board have access to this data. We will never sell your data to any third party.
 
 ## Marketing
-We would like to send you information about products and services of ours that we think you might like, as well as those of our [sponsors](/society/sponsorship.html).
+We would like to send you information about products and services of ours that we think you might like, as well as those of our [sponsors]({% link society/sponsorship.md %}).
 
 If you have agreed to receive our newsletter and marketing materials, you can always opt out at a later date. You have the right at any time to stop us from contacting you for marketing purposes. Every communication will provide a way to unsubscribe from future similar communications.
 
@@ -34,4 +34,4 @@ If you have agreed to receive our newsletter and marketing materials, you can al
 At present we do not use cookies on this website.
 
 ## How to contact us
-Please use the [contact form](/contact.html)
+Please use the [contact form]({% link contact.md %})

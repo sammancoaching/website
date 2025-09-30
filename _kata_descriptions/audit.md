@@ -10,7 +10,7 @@ It :
 * system appends the visitor’s name and the time of their visit to the end of the most recent file
     - When the maximum number of entries per file is reached: a new file with an `incremented index` is created
 
-![Audit file example](/assets/images/audit-example.png)
+![Audit file example]({% link assets/images/audit-example.png %})
 
 This is actually a refactoring kata. 
 The starting position is available on Github [here](https://github.com/katalogs/audit-kata).

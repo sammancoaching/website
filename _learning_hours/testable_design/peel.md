@@ -5,6 +5,7 @@ kata: tire_pressure
 difficulty: 3
 author: emilybache
 affiliation: ProAgile
+tags: testable_design legacy
 ---
 
 # Peel - a strategy for difficult to test code

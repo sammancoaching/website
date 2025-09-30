@@ -1,6 +1,6 @@
 ---
 layout: learning_hour_theme
-title: Learning Hours
+title: Code Reading Learning Hours
 theme: code_reading
 ---
 

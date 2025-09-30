@@ -5,6 +5,7 @@ kata:
 difficulty: 1
 author: peitor
 affiliation: BeyondAgility
+tags: devops
 ---
 
 # Learn Faster By Practicing Teaching

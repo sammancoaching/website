@@ -1,6 +1,7 @@
 ---
 layout: code_smell
 title: Loops
+name: loops
 source: Martin Fowler
 ---
 

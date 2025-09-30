@@ -5,11 +5,14 @@ kata: rpg_combat
 difficulty: 3
 author: emilybache
 affiliation: ProAgile
+tags:  small_steps
 ---
 
 # Take Smaller Steps
 
 Inspired by Mike Hill's "Many more, much smaller steps".
+
+There is a video and other materials available for this learning hour as part of a [Technical Coaching Programme]({% link training/full_package.md %})
 
 ## Session Outline
  
@@ -33,7 +36,7 @@ Mike Hill has a good description of the difference between a Step and an Action 
 There are lots of benefits to having a shorter stride length. Mike Hill describes many of them in ["MMMSS - The Intrinsic Benefit of Steps"](https://www.geepawhill.org/2021/11/16/mmmss-the-intrinsic-benefit-of-steps/)
 
 ### Concrete: RPG Combat Kata
-In the [RPG Combat exercise](/kata_descriptions/rpg_combat.html) we will be working on several user stories. After each user story, the code will be ready to ship to end users. However, we want there to be several smaller steps in between where the code has passing unit tests and is ready to share with other developers.
+In the [RPG Combat exercise]({% link _kata_descriptions/rpg_combat.md %}) we will be working on several user stories. After each user story, the code will be ready to ship to end users. However, we want there to be several smaller steps in between where the code has passing unit tests and is ready to share with other developers.
 
 Work on the problem in pairs, taking note of each time you complete both kinds of step. You want to track how many steps you take for each user story, so you can measure your stride lengths. It might be convenient to use cyber-dojo because it allows you to visualize this.
 

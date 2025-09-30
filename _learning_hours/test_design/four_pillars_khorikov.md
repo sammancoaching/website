@@ -5,6 +5,7 @@ kata: word_wrap
 difficulty: 2
 author: emilybache
 affiliation: ProAgile
+tags: test_design
 ---
 
 # Four Pillars of a Good Test (Khorikov)

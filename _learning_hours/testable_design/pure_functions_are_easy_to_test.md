@@ -5,6 +5,7 @@ kata: trig_math
 difficulty: 1
 author: emilybache
 affiliation: ProAgile
+tags: testable_design c
 ---
 
 # Writing tests for pure functions

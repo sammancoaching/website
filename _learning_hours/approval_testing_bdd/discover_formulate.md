@@ -5,6 +5,7 @@ title: Discover and Formulate Scenarios
 difficulty: 2
 author: emilybache
 affiliation: ProAgile
+tags: approvals bdd
 ---
 # Discover and Formulate Scenarios for the Lift Kata
 

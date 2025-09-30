@@ -6,6 +6,7 @@ kata: theatrical_players
 difficulty: 1
 author: edytterbrink
 affiliation: Chocolate Driven Development AB
+tags: testable_design legacy
 ---
 
 # Reading by Renaming
@@ -39,6 +40,8 @@ The new name can then guide remodeling the code.
 The end goal is to have a clear language for the code,
 that speaks of the domain.
 This learning hour is a step in that direction. 
+
+There is a video and other materials available for this learning hour as part of a [Technical Coaching Programme]({% link training/full_package.md %})
 
 ## Learning objective
 Being able to explain how to give a piece of code a name that can be trusted.

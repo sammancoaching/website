@@ -5,6 +5,7 @@ kata: yatzy
 difficulty: 2
 author: emilybache
 affiliation: ProAgile
+tags: testable_design
 ---
 
 Testing Private Methods with Yatzy

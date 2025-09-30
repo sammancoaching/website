@@ -4,6 +4,7 @@ title: Golden Rule of TDD
 kata: shopping_basket
 difficulty: 1
 author: emilybache
+tags:  small_steps
 ---
 
 # Golden Rule of TDD
@@ -51,7 +52,7 @@ Write the golden rule on a flipchart and make it look pretty. Ask people what th
 You might mention there is an exception to the Golden Rule: you are allowed to declare new classes and methods while refactoring, so long as they are already covered by existing tests.
 
 ### Do: Shopping Basket
-Practice writing the tests first before creating the classes and functions they describe. The [Shopping Basket Kata](/kata_descriptions/shopping_basket.html) might be a good one.
+Practice writing the tests first before creating the classes and functions they describe. The [Shopping Basket Kata]({% link _kata_descriptions/shopping_basket.md %}) might be a good one.
 
 Before you split into pairs to work on the kata, spend a few minutes in the whole group coming up with a test list. Something like:
 

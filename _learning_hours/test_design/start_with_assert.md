@@ -4,6 +4,7 @@ title: Start with the Assertion
 kata: mars_rover
 difficulty: 2
 author: emilybache
+tags: test_design
 ---
 
 # Start with the Assertion

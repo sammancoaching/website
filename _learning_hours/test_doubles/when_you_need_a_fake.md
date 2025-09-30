@@ -5,11 +5,14 @@ kata: doppelganger
 difficulty: 3
 author: dmerejkowsky
 via: emilybache
+tags: test_doubles test_design
 ---
 
 # When you need a fake
 
 In this exercise you need to use a spy or fake to test the code.
+
+There is a video and other materials available for this learning hour as part of a [Technical Coaching Programme]({% link training/full_package.md %})
 
 ## Session Outline
 

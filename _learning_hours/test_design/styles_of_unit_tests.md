@@ -4,6 +4,7 @@ title: Styles of Unit Tests
 kata: audit
 difficulty: 3
 author: ythirion
+tags: test_design
 ---
 
 # Styles of Unit Tests

@@ -1,6 +1,6 @@
 ---
 layout: learning_hour_theme
-title: Learning Hours
+title: Small Steps Learning Hours
 theme: small_steps
 ---
 

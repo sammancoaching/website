@@ -4,6 +4,7 @@ title: Asserting on Collections of Objects
 kata: strange_characters
 difficulty: 1
 author: emilybache
+tags: test_design
 ---
 
 # Asserting on Collections of Objects

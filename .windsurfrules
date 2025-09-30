@@ -1,0 +1,3 @@
+to run: `./build_and_run`
+
+to test: `./build_and_test`

@@ -5,6 +5,7 @@ title: Data Driven testing with Approvals
 difficulty: 1
 author: emilybache
 affiliation: ProAgile
+tags: approvals bdd
 ---
 
 # Data-Driven Testing with Approvals
@@ -41,4 +42,4 @@ Encourage them to make a commit whenever they have green tests.
 This kata lends itself to data-driven testing, with PlayerCharacters with different starting data. There is a convenient [starting point](https://github.com/emilybache/RPG-Combat-Approval-Kata) available.
 
 ### Reflect
-There are some retrospective questions in the [Kata description](/kata_descriptions/rpg_combat.html). Have people especially consider how readable the test cases are, and whether any would qualify as data-driven tests. If you like, show the [sample solution](https://github.com/emilybache/RPG-Combat-Approval-Kata/tree/sample_solution).
+There are some retrospective questions in the [Kata description]({% link _kata_descriptions/rpg_combat.md %}). Have people especially consider how readable the test cases are, and whether any would qualify as data-driven tests. If you like, show the [sample solution](https://github.com/emilybache/RPG-Combat-Approval-Kata/tree/sample_solution).

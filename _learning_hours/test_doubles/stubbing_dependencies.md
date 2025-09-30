@@ -4,13 +4,14 @@ title: Stubbing Dependencies
 kata: tire_pressure
 difficulty: 2
 author: emilybache
+tags: test_doubles test_design
 ---
 
 # Stubbing Dependencies
 We already met a first stub in the [test doubles intro](test_double_intro.html). Here we look at using a mocking framework and follow up with another exercise that needs a stub.
 
 ### Connect - Mocking frameworks
-What mocking frameworks have you used? Which one(s) do you use in your current codebase? Do a [Web Hunt](/activities/connect/webhunt.html) and look for resources and documentation for your preferred mocking framework. Can you use it to create a Stub?
+What mocking frameworks have you used? Which one(s) do you use in your current codebase? Do a [Web Hunt]({% link _activities/connect/webhunt.md %}) and look for resources and documentation for your preferred mocking framework. Can you use it to create a Stub?
 
 ### Concept - Stub with a mocking framework
 Recap when you might want to use a stub - to replace an awkward dependency. Demo how to create a stub in their preferred mocking framework.

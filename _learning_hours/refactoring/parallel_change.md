@@ -6,6 +6,7 @@ difficulty: 3
 author: pfichtner
 via: emilybache
 affiliation: Atruvia
+tags:  refactoring small_steps
 ---
 
 # Parallel Change
@@ -13,7 +14,7 @@ affiliation: Atruvia
 This is a general refactoring strategy for completing a larger change in small steps.
 
 ### Connect
-[Mark the true statements](/activities/connect/pick_the_correct_items_on_the_list.html) and not the other ones:
+[Mark the true statements]({% link _activities/connect/pick_the_correct_items_on_the_list.md %}) and not the other ones:
 1. If you encounter ugly code that you don’t need to change to get your task done, then you don’t need to refactor it.
 2. You should get permission from your manager before refactoring.
 3. When someone is refactoring the code may be broken for a few days while they do it. 
@@ -35,7 +36,7 @@ Reference - Danilo Sato has published [an article](https://martinfowler.com/blik
 ### Concrete: Code Review 
 Ask everyone to take a look at this code: [Bingo Refactoring Kata](https://github.com/sammancoaching/Bingo-Refactoring-Kata). What code smells do they see (regardless of whether they can name them or not)? What would be a better structure? 
 
-You are hoping they will spot that there are data clumps and [Primitive Obsession](/code_smells/primitive_obsession.html) - in particular these primitives: 
+You are hoping they will spot that there are [Data Clumps]({% link _code_smells/data_clumps.md %}) and [Primitive Obsession]({% link _code_smells/primitive_obsession.md %}) - in particular these primitives: 
 
     String[][] cells 
     boolean[][] marked 
@@ -55,7 +56,7 @@ If they finish that refactoring quickly, you could ask them to use Parallel Chan
 While the first parallel change focuses on swapping the internal data structure (introducing `Cell[][]`), this next one (introducing Coordinate and using it as parameter type) would affect the API (method signature) and so we have external dependencies on the "old" API which we should preserve in parallel with the new one. In a real system you'd use Parallel Change to eventually remove the "old" API once all the clients were migrated to the new one.
 
 ### Conclusions
-[Why should you use it](/activities/conclusions/write_important_takeaway.html): What is the most important aspect for you about "parallel change"? 
+[Why should you use it]({% link _activities/conclusions/write_important_takeaway.md %}): What is the most important aspect for you about "parallel change"? 
 
 
 # Acknowlegements

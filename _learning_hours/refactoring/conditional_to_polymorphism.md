@@ -5,12 +5,20 @@ kata: parrot
 difficulty: 3
 author: emilybache
 affiliation: Praqma
+tags:  refactoring
+name: replace_conditional_with_polymorphism
 ---
-
 
 # Replace Conditional With Polymorphism
 
 This refactoring replaces conditional logic with classes and polymorphism. The code smell that leads you to it is having a lot of similar switch statements that switch on type. In this session we'll practice doing it, and hopefully see just how good modern IDE tooling is for this kind of task.
+
+There is a video and other materials available for this learning hour as part of a [Technical Coaching Programme]({% link training/full_package.md %})
+
+## Learning Goals
+
+* Use refactoring tools and keyboard shortcuts while refactoring
+* Use a sequence of smaller refactorings to complete a larger refactoring
 
 ## Session Outline
  
@@ -62,6 +70,7 @@ or (CLion 2022.2.3, C++)
 - Change Signature
 - Introduce Constant...
 
+You could also use the refactoring steps outlined in ["Replace Conditional with Polymorphism"]({% link _refactorings/replace_conditional_polymorphism.md %})
 
 ### Do Parrot
 People should work in pairs to do the same exercise again from the start. If they lack IDE experience, they should follow your list of shortcuts from the whiteboard. More confident pairs may know other shortcuts and can try to achieve the same thing in a different way. Ask them to write down their sequence of steps if so.

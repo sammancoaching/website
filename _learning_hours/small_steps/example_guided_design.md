@@ -4,11 +4,14 @@ title: Example-guided design
 kata: shopping_basket
 difficulty: 1
 author: emilybache
+tags:  small_steps bdd
 ---
 
 # Example-guided design
 
 This can make a good follow up after [Design in the red step](design_with_a_test.html).
+
+There is a video and other materials available for this learning hour as part of a [Technical Coaching Programme]({% link training/full_package.md %})
 
 ## Learning Objectives
 
@@ -37,7 +40,7 @@ Write these items on notes or cards. Ask people to sort them into two sections -
 - When your basket contains a printer cartridge and some pens then the report should show these items: printer cartridge, pens.
 
 ### Concept exercise: Convert Example to Test Case
-Show the description of the [Shopping Basket Kata](/kata_descriptions/shopping_basket.html). The description includes an example. This example can be turned into a test case. You can do that without implementing the code that will make the test pass. Split into pairs and ask people to turn that specific example into code in a test case. Ask them not to implement the code - just leave everything red and not compiling.
+Show the description of the [Shopping Basket Kata]({% link _kata_descriptions/shopping_basket.md %}). The description includes an example. This example can be turned into a test case. You can do that without implementing the code that will make the test pass. Split into pairs and ask people to turn that specific example into code in a test case. Ask them not to implement the code - just leave everything red and not compiling.
 
 Give people about 10 minutes for this part, or until you can see that they've created a test case. Ask them to take a screenshot and share their test with the group via a shared online document or whiteboard.
 
@@ -51,7 +54,7 @@ Working from a concrete example can help you to come up with a better design. Us
 You will probably need several examples to show all the various situations the new code might need to be used in. Start with simpler examples.
 
 ### Concrete: Shopping Basket
-Practice using examples to build up functionality. Go back and write some more code on the [Shopping Basket Kata](/kata_descriptions/shopping_basket.html). However, don't start with implementing the test you just came up with. Comment it out for the moment.
+Practice using examples to build up functionality. Go back and write some more code on the [Shopping Basket Kata]({% link _kata_descriptions/shopping_basket.md %}). However, don't start with implementing the test you just came up with. Comment it out for the moment.
 
 Before you split into pairs to work on the kata, spend a few minutes in the whole group coming up with a test list with simple examples to do first. Something like:
 

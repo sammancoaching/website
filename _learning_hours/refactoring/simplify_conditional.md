@@ -5,6 +5,7 @@ kata: supermarket_receipt
 difficulty: 3
 author: emilybache
 affiliation: Praqma
+tags:  refactoring legacy
 ---
 
 # Simplify Conditional
@@ -31,7 +32,7 @@ Examples of behaviour-preserving transformations for conditionals. I started a [
 * Split & join if statements
 * Two statements in one if statement -> two if statements (specialization of 'Split Loop')
 * redundant 'else' when followed by one more if
-* Normalize Conditional
+* Normalize Conditional (aka lift-up conditional)
 
 ## Demo: show the patterns and the shape of the refactoring
 

@@ -63,7 +63,7 @@ _short break_
 
 ## Part 1
 
-Use this learning hour ["Approval Testing plain text strings with Verify"](/learning_hours/legacy/approval_testing_intro.html). As well as answering warm up questions, introduce yourselves and form groups of 2-4 where you agree on a programming language. Mix up people from different companies.
+Use this learning hour ["Approval Testing plain text strings with Verify"]({% link _learning_hours/legacy/approval_testing_intro.md %}). As well as answering warm up questions, introduce yourselves and form groups of 2-4 where you agree on a programming language. Mix up people from different companies.
 
 ### Conclusions - How about?
 
@@ -73,16 +73,16 @@ Use this learning hour ["Approval Testing plain text strings with Verify"](/lear
 
 ## Part 2
 
-Work in small steps. First go through 'how about' questions. Link to them when explaining approval testing characteristics. Follow this learning hour: ["Test Maintenance"](/learning_hours/legacy/test_maintenance.html)
+Work in small steps. First go through 'how about' questions. Link to them when explaining approval testing characteristics. Follow this learning hour: ["Test Maintenance"]({% link _learning_hours/legacy/test_maintenance.md %})
 
 
 ## Part 3
 
-Handling tricky output. Follow this learning hour: ["Design for Approval Testing"](/learning_hours/legacy/handle_dates.html)
+Handling tricky output. Follow this learning hour: ["Design for Approval Testing"]({% link _learning_hours/legacy/handle_dates.md %})
 
 ## Part 4
 
-More tricky output - filtering and sorting. Follow this learning hour: ["Approvals Puzzles"](/approval_testing_texttest/run_dependent_text.html)
+More tricky output - filtering and sorting. Follow this learning hour: ["Approvals Puzzles"]({% link _learning_hours/approval_testing_texttest/run_dependent_text.md %})
 
 ## Part 5
 

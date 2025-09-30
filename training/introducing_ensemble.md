@@ -24,4 +24,7 @@ You will come away with the knowledge you need to get started ensemble working w
 
 ## Course Dates
 
-* 20th February with [Emily Bache]({% link society/contributors/emilybache.md %}) and [Nitsan Avni]({% link society/contributors/nitsanavni.md %}) - [Sign Up](https://www.tickettailor.com/events/bacheconsultingab/1093066) or [Contact the trainers]({% link contact.md %}).
+* 15th October Online with [Emily Bache]({% link society/contributors/emilybache.md %}) and [Nitsan Avni]({% link society/contributors/nitsanavni.md %}) - More information and signup via [Bache Consulting](https://bacheconsulting.com/_events/2025-10-15_introducing_ensemble.html)
+
+If you have questions about this course do [Contact us]({% link contact.md %}). You could also sign up for our [Newsletter]({% link newsletter.md %}) to hear about new training dates and other useful information.
+

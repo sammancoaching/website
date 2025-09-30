@@ -5,6 +5,7 @@ title: Identify and Resolve Law of Demeter Violations
 kata: fantasy_battle
 difficulty: 3
 author: gregorriegler
+tags: testable_design oop
 ---
 
 # Identify and Resolve Law of Demeter Violations

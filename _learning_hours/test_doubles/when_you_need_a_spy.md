@@ -5,11 +5,14 @@ kata: doppelganger
 difficulty: 2
 author: dmerejkowsky
 via: emilybache
+tags: test_doubles test_design
 ---
 
 # When you need a spy
 
 In this exercise you need to use a spy or a mock to test the code.
+
+There is a video and other materials available for this learning hour as part of a [Technical Coaching Programme]({% link training/full_package.md %})
 
 ## Session Outline
 

@@ -111,7 +111,7 @@ Explain the DSL we'll be using for this exercise
 
 ### Concrete: create examples and formulations
 
-Explain the Lift Kata and show the list of [requirements](/kata_descriptions/lift.html). You can act as the business representative if they have questions about the requirements. 
+Explain the Lift Kata and show the list of [requirements]({% link _kata_descriptions/lift.md %}). You can act as the business representative if they have questions about the requirements. 
 
 In small groups or pairs, get people to come up with examples and formulate them using the DSL.
 

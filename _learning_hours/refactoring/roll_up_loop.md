@@ -5,6 +5,7 @@ kata: timer_expiry
 difficulty: 3
 author: emilybache
 affiliation: ProAgile
+tags:  refactoring
 ---
 
 # Roll Up Loop

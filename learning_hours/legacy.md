@@ -1,6 +1,6 @@
 ---
 layout: learning_hour_theme
-title: Learning Hours
+title: Legacy Code Learning Hours
 theme: legacy
 ---
 
@@ -8,5 +8,5 @@ Legacy code is basically code that is difficult to work with but we have to chan
 
 Approval testing is a great technique for this situation and many of these learning hours are about it.
 
-The ‘Legacy Code’ theme is closely related to both [Refactoring](/learning_hours/refactoring.html) and [Test Design](/learning_hours/test_design.html), but I tend to put it in its own category since there are techniques for handling legacy code that you wouldn’t need in other situations.
+The 'Legacy Code' theme is closely related to both [Refactoring]({% link learning_hours/refactoring.md %}) and [Test Design]({% link learning_hours/test_design.md %}), but I tend to put it in its own category since there are techniques for handling legacy code that you wouldn't need in other situations.
 

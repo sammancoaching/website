@@ -6,12 +6,13 @@ kata: person
 difficulty: 1
 author: agmsytim 
 via: emilybache
-affiliation: Atruvia 
+affiliation: Atruvia
+tags:  refactoring
 ---
 
 # Primitive Obsession
 
-It's useful to have a shared knowledge of different Code Smells and how to handle them. [Primitive Obsession](/code_smells/primitive_obsession.html) is a very common smell which occurs in projects.
+It's useful to have a shared knowledge of different Code Smells and how to handle them. [Primitive Obsession]({% link _code_smells/primitive_obsession.md %}) is a very common smell which occurs in projects.
 In this learning hour we will talk about what it is and how you are able to refactor it. 
 
 ## Session Outline
@@ -25,7 +26,7 @@ In this learning hour we will talk about what it is and how you are able to refa
 Everybody explains their own definition of a code smell.
  
 ### Concept: Primitive obsession
-Explain [Primitive Obsession](/code_smells/primitive_obsession.html), for example:
+Explain [Primitive Obsession]({% link _code_smells/primitive_obsession.md %}), for example:
   - The excessive use of primitive data types instead of (small) objects
   - The use of integers or enums to represent types of objects
 
@@ -53,7 +54,7 @@ Using the [Person Refactoring Kata](https://github.com/sammancoaching/Person-Ref
 To support the refactoring it is helpful to have some UML-like sketch on a whiteboard which shows how the target relationship between Person and other classes will look before and afterwards. Then the participants should try to refactor the class Person on their own. (In pairs or ensemble). They should use as much IDE-refactoring-support as possible.
 
 ### Conclusion: How would you describe primitive obsession in your own words?
-Ask everyone to [explain the main idea](/activities/conclusions/explain_main_idea.html) of primitive obsession in their own words.
+Ask everyone to [explain the main idea]({% link _activities/conclusions/explain_main_idea.md %}) of primitive obsession in their own words.
 
 # Acknowlegements
 This learning hour was first published elsewhere: [Primitive Obsession](https://github.com/atruvia/samman-coaching-website/blob/lh-additions/_learning_hours/refactoring/primitive_obsession.md) 

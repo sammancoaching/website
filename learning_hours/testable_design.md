@@ -1,6 +1,6 @@
 ---
 layout: learning_hour_theme
-title: Learning Hours
+title: Testable Design Learning Hours
 theme: testable_design
 ---
 

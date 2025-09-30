@@ -6,12 +6,15 @@ kata: fizzbuzz
 difficulty: 1
 author: emilybache
 affiliation: ProAgile
+tags: testable_design
 ---
 
 Beck's rules of simple design
 =============================
 
 In this learning hour we learn about Kent Beck's rules of simple design. There is no 'concrete' part of this learning hour, you don't get to practice using these rules. You should probably follow up this learning hour with a second one where you do so.
+
+There is a video and other materials available for this learning hour as part of a [Technical Coaching Programme]({% link training/full_package.md %})
 
 ## Session Outline
 
@@ -38,7 +41,7 @@ Make a list of plausible design guidelines that people might find important/rele
 Do include language or organization specific guidelines if you know any good ones.
 
 ### Concept exercise
-Give them a starting position with an empty failing test and ask them to implement [FizzBuzz](/kata_descriptions/fizzbuzz.html). Tell them to do it however they want to, and to follow the design guidelines they want to follow.
+Give them a starting position with an empty failing test and ask them to implement [FizzBuzz]({% link _kata_descriptions/fizzbuzz.md %}). Tell them to do it however they want to, and to follow the design guidelines they want to follow.
 
 If no-one does TDD and they all end up with rather simple but less testable code, you might want to give them a quick demo of what solving FizzBuzz with TDD looks like. You should end up with something more like code sample 3 in the next section. Hopefully you won't have to - the ideal is that some pairs use TDD and end up with code like sample 3, and some don't, and end up with code like sample 1 or 2. That's important for the next section.
 

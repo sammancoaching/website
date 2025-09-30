@@ -4,6 +4,7 @@ title: Adding Behavior Instead Of Breaking Behavior
 difficulty: 4
 author: jolod
 affiliation: Jolod AB
+tags:  small_steps
 ---
 
 # Adding behavior instead of breaking behavior

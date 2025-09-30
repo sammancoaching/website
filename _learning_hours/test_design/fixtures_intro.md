@@ -7,6 +7,7 @@ author: jmossberg
 via: emilybache
 affiliation: Jacob Mossberg Consulting
 languages: cpp
+tags: test_design c
 ---
 
 # Test Fixture Introduction

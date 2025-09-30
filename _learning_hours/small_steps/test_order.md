@@ -5,6 +5,7 @@ kata: yatzy
 difficulty: 1
 author: emilybache
 affiliation: ProAgile
+tags:  small_steps
 ---
 
 Test Order with Yatzy

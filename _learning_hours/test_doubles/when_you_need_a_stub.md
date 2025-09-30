@@ -5,11 +5,14 @@ kata: doppelganger
 difficulty: 1
 author: gregorriegler
 via: emilybache
+tags: test_doubles test_design
 ---
 
 # When you need a stub
 
 In this exercise you need to use a stub to test the code.
+
+There is a video and other materials available for this learning hour as part of a [Technical Coaching Programme]({% link training/full_package.md %})
 
 ## Session Outline
 

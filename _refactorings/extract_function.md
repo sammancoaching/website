@@ -9,7 +9,7 @@ learning_hours: refactoring_vocabulary
 
 # Extract function / Extract method
 
-## Identify
+## Examine
 Identify a section of a function or method which you would like to extract to its own function.
 
 ## Prepare
@@ -19,7 +19,7 @@ In a similar way, work out what variables are updated and will need to be return
 * IDE: select the block of code and do 'Extract Method' straight away. It will do the analysis for you and tell you want arguments it thinks you need. Cancel the refactoring when you've learnt what you need to know.
 * IDE: 'Extract Variable' may be called 'Introduce Variable'
 
-## Refactor
+## Implement
 * IDE: select the block of code and do 'Extract Method'
 
 If that doesn't work, these are some manual steps:
@@ -31,9 +31,9 @@ If that doesn't work, these are some manual steps:
 * Comment out the copied block of code and add a call to the new method.
 * Test.
 
-## Clean
+## Clear
 * Delete any commented-out code.
 * Inline method parameters if the previously extracted variables no longer make sense. 
 
 ## Follow up
-Consider if the new method has [Feature Envy](/code_smells/feature_envy.html) and if it should be moved somewhere else.
+Consider if the new method has [Feature Envy]({% link _code_smells/feature_envy.md %}) and if it should be moved somewhere else.

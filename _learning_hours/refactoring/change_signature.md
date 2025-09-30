@@ -5,11 +5,15 @@ kata: yatzy
 difficulty: 2
 author: emilybache
 affiliation: ProAgile
+name: change_signature
+tags:  refactoring
 ---
 
 # Change Signature
 
 Let's practice using this refactoring, especially if refactoring tools are new to the team.
+
+There is a video and other materials available for this learning hour as part of a [Technical Coaching Programme]({% link training/full_package.md %})
 
 ## Learning Goals
 
@@ -39,17 +43,17 @@ Explain this refactoring. Perhaps refer to the online documentation for your ref
 
 Show the group the code for the [Yatzy-Refactoring-Kata](https://github.com/emilybache/Yatzy-Refactoring-Kata). Ask them to spend a few minutes reviewing it individually. They should look for any code smells or problems in the code.
 
-Bring the code up on the shared screen and go through the problems they identified. There are many problems in this code, but hopefully someone will mention how inconsistent all the methods are. The names of the parameters are different in every method. What types each method takes are also inconsistent. Explain that you'd like to fix this by using the Change Signature refactoring.
+Bring the code up on the shared screen and go through the problems they identified. There are many problems in this code, but hopefully someone will mention how inconsistent all the methods are. The names of the parameters are different in every method. What types each method takes are also inconsistent. Explain that you'd like to fix this by using the Change Signature refactoring, together with [Replace Command with Function]({% link _refactorings/command_to_function.md %}) and/or [Replace Function with Command]({% link _refactorings/function_to_command.md %}).
 
-Give the instructions for the exercise: they should begin by making all the various scoring methods (chance, pair, ones, full_house etc) have the same signature. You can tell them which signature you want - I usually mention that "fours" has a good signature - or you can ask them to decide for themselves. So long as they are aiming for consistency and they are using the tools to do Change Signature then that's fine.
+Give the instructions for the exercise: they should begin by making all the various scoring methods (chance, pair, ones, full_house etc) have the same signature. You can tell them which signature you want - I usually mention that "fours" has a good signature - or you can ask them to decide for themselves. So long as they are aiming for consistency and they are using the tools then that's fine.
 
 ### Do: Yatzy
 
-Facilitate the group working in pairs, doing this refactoring.
+Facilitate the group working in pairs, refactoring the code for consistency.
 
 ### Reflect: how did it go
-Ask people to reflect on what it was like using the "Change Signature" refactoring tool. In what situations would you use it?
+Ask people to reflect on what it was like using the refactoring tools to improve design in this code. In what situations would you use these tools?
 
 They could write their answers on a note for themselves or in a shared document, or they could discuss in pairs.
 
-Note: this is a [When should you use this](/activities/conclusions/when_to_use_this.html) activity.
+Note: this is a [When should you use this]({% link _activities/conclusions/when_to_use_this.md %}) activity.

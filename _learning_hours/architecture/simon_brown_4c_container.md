@@ -1,13 +1,14 @@
 ---
 theme: architecture
-title: Simon Brown's 4C model - Container diagram
+title: Simon Brown's C4 model - Container diagram
 kata: instavoiced
 difficulty: 2
 author: emilybache
 affiliation: ProAgile
+tags: architecture
 ---
 
-# Simon Brown's 4C model - Container diagrams
+# Simon Brown's C4 model - Container diagrams
 
 This learning hour follows on from the previous one on this topic and goes into a little more detail about [The C4 model for visualising software architecture](https://c4model.com/)
 
@@ -18,13 +19,13 @@ This learning hour follows on from the previous one on this topic and goes into 
 
 ## Session Outline
 
-* 10 min connect: 4C recap 
+* 10 min connect: C4 recap 
 * 10 min concept: Context and Container diagrams
 * 20 min concrete: draw a container diagram 
 * 15 min conclusions: compare Context and Container diagrams
 
-### Connect: 4C recap
-The list below comprises descriptions of elements of the 4C model. Some statements describe a Diagram, some describe an Abstraction. Fill in the blanks with the following words:
+### Connect: C4 recap
+The list below comprises descriptions of elements of the C4 model. Some statements describe a Diagram, some describe an Abstraction. Fill in the blanks with the following words:
 
 - Component
 - System Context
@@ -44,7 +45,7 @@ The list below comprises descriptions of elements of the 4C model. Some statemen
 
 ### Context and Container diagrams
 
-Go through the example diagrams on [The C4 model](https://c4model.com/) website. Explain in particular the differences between Context and Container diagrams. Provide a context diagram for the [Instavoiced](/kata_descriptions/instavoiced.html)  exercise. Either one you designed yourself or one created in the previous session.
+Go through the example diagrams on [The C4 model](https://c4model.com/) website. Explain in particular the differences between Context and Container diagrams. Provide a context diagram for the [Instavoiced]({% link _kata_descriptions/instavoiced.md %})  exercise. Either one you designed yourself or one created in the previous session.
 
 Go through some advice on notation:
 - Put titles on diagrams. What type of diagram is it? What is the scope? eg “System Context for Instavoiced".

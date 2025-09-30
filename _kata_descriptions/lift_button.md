@@ -9,7 +9,7 @@ Write the brains of a lift button. When you press the button, the light comes on
 
 This is a state diagram:
 
-![Lift Button State Diagram](/assets/images/lift_button_states_transitions.png)
+![Lift Button State Diagram]({% link /assets/images/lift_button_states_transitions.png %})
 
 
 ### Acknowledgments

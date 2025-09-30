@@ -5,11 +5,14 @@ kata: encode_refactoring
 difficulty: 1
 author: emilybache
 affiliation: ProAgile
+tags: test_design
 ---
 
 # Benefits of Arrange - Act - Assert
 
 This session is an intro to the topic for people who havn't written many test cases before and where the other [Arrange Act Assert](arrange_act_assert.html) learning hour is too big of a step from where they are.
+
+There is a video on Emily Bache's YouTube channel which shows a version of this learning hour - ["3 parts of a test"](https://youtu.be/8KB5aF6QXe8)
 
 ## Learning Goals
 
@@ -29,7 +32,7 @@ In your organization do you have test design guidelines? How would you advise so
 
 The point of this part is to get them thinking about the issue, what they already know, and where to find out information. If the information they come with is questionable or bad in your opinion, that can help you to plan future sessions. A 'connect' activity is not the best time to have a big discussion or tell people they are wrong.
 
-Note - this is a [Web Hunt](/activities/connect/webhunt.html).
+Note - this is a [Web Hunt]({% link _activities/connect/webhunt.md %}).
 
 ### Concept - Arrange - Act - Assert
 Explain the AAA structure, why it increases readability, and why that's important. If anything they found in the 'connect' activity references it, draw attention to that.

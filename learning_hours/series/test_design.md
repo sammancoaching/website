@@ -8,26 +8,26 @@ These lists are suggestions for which learning hours follow on from one another 
 
 ## Java, C#
 
-1. [Arrange - Act - Assert](/learning_hours/test_design/arrange_act_assert.html)
-2. [Start with the Assertion](/learning_hours/test_design/start_with_assert.html)
-3. [Parameterized Tests](/learning_hours/test_design/parameterized_tests.html)
-4. [Four pillars](/learning_hours/test_design/four_pillars_khorikov.html)
-5. [Stubbing Dependencies](/learning_hours/test_doubles/stubbing_dependencies.html)
+1. [Arrange - Act - Assert]({% link _learning_hours/test_design/arrange_act_assert.md %})
+2. [Start with the Assertion]({% link _learning_hours/test_design/start_with_assert.md %})
+3. [Parameterized Tests]({% link _learning_hours/test_design/parameterized_tests.md %})
+4. [Four pillars]({% link _learning_hours/test_design/four_pillars_khorikov.md %})
+5. [Stubbing Dependencies]({% link _learning_hours/test_doubles/stubbing_dependencies.md %})
 
 ## C
 
-1. [Properties of a unit test](/learning_hours/test_design/properties_unit_test.html)
-2. [Three parts of a test](/learning_hours/test_design/three_parts_of_a_test.html)
-3. [Test Fixtures intro](/learning_hours/test_design/fixtures_intro.html)
-4. [Approval testing intro](/learning_hours/legacy/approval_testing_intro.html)
-5. [Approval Testing Combinations](/learning_hours/legacy/combinations_by_hand.html)
-6. [Text-based Approval Testing](/learning_hours/legacy/text_based_testing.html)
+1. [Properties of a unit test]({% link _learning_hours/test_design/properties_unit_test.md %})
+2. [Three parts of a test]({% link _learning_hours/test_design/three_parts_of_a_test.md %})
+3. [Test Fixtures intro]({% link _learning_hours/test_design/fixtures_intro.md %})
+4. [Approval testing intro]({% link _learning_hours/legacy/approval_testing_intro.md %})
+5. [Approval Testing Combinations]({% link _learning_hours/legacy/combinations_by_hand.md %})
+6. [Text-based Approval Testing]({% link _learning_hours/legacy/text_based_testing.md %})
 
 ## C++
 
-1. [Unit test FIRST properties](/learning_hours/test_design/unit_test_FIRST_properties.html)
-2. [Benefits of Arrange - Act - Assert](/learning_hours/test_design/benefits_of_arrange_act_assert.html)
-3. [Test Fixture Introduction](/learning_hours/test_design/fixtures_intro.html)
-4. [Test Doubles](/learning_hours/test_doubles/test_double_intro.html)
-5. [Stubbing Dependencies](/learning_hours/test_doubles/stubbing_dependencies.html)
-6. [Parameterized Tests in Doctest](/learning_hours/test_design/doctest_parameterized.html)
+1. [Unit test FIRST properties]({% link _learning_hours/test_design/unit_test_FIRST_properties.md %})
+2. [Benefits of Arrange - Act - Assert]({% link _learning_hours/test_design/benefits_of_arrange_act_assert.md %})
+3. [Test Fixture Introduction]({% link _learning_hours/test_design/fixtures_intro.md %})
+4. [Test Doubles]({% link _learning_hours/test_doubles/test_double_intro.md %})
+5. [Stubbing Dependencies]({% link _learning_hours/test_doubles/stubbing_dependencies.md %})
+6. [Parameterized Tests in Doctest]({% link _learning_hours/test_design/doctest_parameterized.md %})

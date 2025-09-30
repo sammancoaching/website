@@ -5,6 +5,7 @@ kata: vending_machine
 difficulty: 2
 author: emilybache
 affiliation: ProAgile
+tags:  small_steps
 ---
 
 # TDD with a list
@@ -55,7 +56,7 @@ Every time you complete a TDD cycle you revisit your test list and update it. By
 * Add a test for ‘dime’. This coin is worth 10 cents.
 * Add a test for ‘quarter’. This coin is worth 25 cents.
 * Add a test for ‘penny’. This coin should be rejected by the machine. 
-* Refer to the full [Vending Machine](/kata_descriptions/vending_machine.html) description for additional functionality.
+* Refer to the full [Vending Machine]({% link _kata_descriptions/vending_machine.md %}) description for additional functionality.
 
 The starting position for this is in the 'empty_machine' branch of [VendingMachine-Approval-Kata](https://github.com/emilybache/VendingMachine-Approval-Kata) at least in the C version so far.
 

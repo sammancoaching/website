@@ -5,6 +5,7 @@ kata: tennis
 difficulty: 2
 author: emilybache
 affiliation: ProAgile
+tags: reading
 ---
 
 # Code Reading - Scanning

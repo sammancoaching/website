@@ -19,7 +19,7 @@ Many teams use coverage metrics to assess how good their tests are. In this sess
 * 5 min reflect: review warm-up questions
 
 ### Connect
-What do you already know about code coverage? I have some [warm-up questions](/exercises/warm_up_questions/coverage_warm_up_questions.html) which could be a good way to get you thinking. Have people read and answer the questions for themselves, then discuss in small groups whether they all answered the same.
+What do you already know about code coverage? I have some [warm-up questions]({% link exercises/warm_up_questions/coverage_warm_up_questions.md %}) which could be a good way to get you thinking. Have people read and answer the questions for themselves, then discuss in small groups whether they all answered the same.
 
 ### Demo Product Export Refactoring Kata
 Explain the starting position for [Product Export Refactoring Kata](https://github.com/emilybache/Product-Export-Refactoring-Kata). You want to add tests for ``XMLExporter`` until you have 100% coverage. The starting code contains an empty test that doesn't do anything, but very helpfully, there is some test data available in ``SampleModelObjects``. Write a test case for the first function in ``XMLExporter``, I suggest using Approvals and VerifyXML in particular. Show the coverage. It should be much improved for that function, but not 100%. Leave that for them to fix.

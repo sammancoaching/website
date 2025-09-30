@@ -6,6 +6,7 @@ kata: gilded_rose
 difficulty: 3
 author: claresudbery
 via: xaviametller
+tags:  refactoring legacy
 ---
 
 # Lift-Up Conditional on Gilded Rose

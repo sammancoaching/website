@@ -1,5 +1,7 @@
 - name: Home
   link: /
+- name: Book
+  link: https://emilybache.com/samman-coaching-book/
 - name: Katas
   link: /kata_descriptions/index.html
 - name: Learning Hours

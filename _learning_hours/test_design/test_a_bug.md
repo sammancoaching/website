@@ -3,6 +3,7 @@ theme: test_design
 title: Test a Bug
 difficulty: 2
 author: gregorriegler
+tags: test_design
 ---
 
 # Test a Bug

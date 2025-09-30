@@ -8,7 +8,7 @@ objarni:
   title: Olof Bjarnason
   url: http://proagile.eu
   affiliation: ProAgile
-  member: yes
+  member: no
   member_since: 2022-03-21
 neppord:
   title: Samuel Ytterbrink
@@ -71,7 +71,7 @@ peitor:
 gregorriegler:
   title: Gregor Riegler
   url: https://gregorriegler.com
-  affiliation: Independent
+  affiliation: Tricentis
   member: yes
   member_since: 2023-06-06
 dmerejkowsky:
@@ -111,6 +111,26 @@ balp:
   url: https://www.hiq.se/
   affiliation: HiQ
   member: no
+pierrickblons:
+  title: Pierrick Blons
+  url: https://github.com/pierrickblons
+  affiliation: D-Edge
+  member: no
+ronheywood:
+  title: Ron Heywood
+  url: https://github.com/ronheywood
+  affiliation: Spektrix
+  member: yes
+philou:
+  title: Philippe Bourgau
+  url: https://philippe.bourgau.net/
+  affiliation: Independent
+  member: no
+devill:
+  title: Ivett Ördög
+  url: https://www.ivettordog.com/
+  affiliation: Independent
+  member: yes
 mhc03:
   title: Murat Han Celik
   url: https://www.linkedin.com/in/murat-han-celik-105221265

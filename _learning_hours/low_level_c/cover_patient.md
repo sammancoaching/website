@@ -5,6 +5,7 @@ kata: grep_with_marketing
 difficulty: 5
 author: emilybache
 affiliation: ProAgile
+tags: c test_doubles legacy
 ---
 
 # Cover the patient with tests

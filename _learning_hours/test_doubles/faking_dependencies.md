@@ -5,13 +5,14 @@ kata: html_converter
 difficulty: 3
 author: emilybache
 affiliation: ProAgile
+tags: test_doubles test_design
 ---
 
 # Faking Dependencies
 Following on from the learning hours on Stubs. Fakes are like stubs but with a real implementation.
 
 ### Connect
-[Mark the true statements](/activities/connect/pick_the_correct_items_on_the_list.html) and not the other ones:
+[Mark the true statements]({% link _activities/connect/pick_the_correct_items_on_the_list.md %}) and not the other ones:
 - A stub is a piece of code that doesn’t work yet
 - A test double replaces a dependency of the class or function under test
 - A stub behaves differently depending on the situation and the arguments it’s passed
@@ -36,4 +37,4 @@ Get them to find the documentation for their language if you don't have it.
 Remind them to preserve the original constructor in addition to a new one that lets you inject the test double.
 
 ### Conclusions
-[When should you use](/activities/conclusions/when_to_use_this.html) a Test Double? In particular, when should you use a Fake? Make some notes and share with the group.
+[When should you use]({% link _activities/conclusions/when_to_use_this.md %}) a Test Double? In particular, when should you use a Fake? Make some notes and share with the group.

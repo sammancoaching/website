@@ -5,6 +5,7 @@ kata: fizzbuzz
 difficulty: 1
 author: emilybache
 affiliation: ProAgile
+tags: testable_design oop
 ---
 
 FizzBuzz - how does TDD affect your design?
@@ -36,7 +37,7 @@ Print out and pin up the code samples from ["FizzbuzzKata-Samples"](https://gith
 When the time is up, ask them to stand next to the code sample they would answer for the first question. Note if there are any clusters. Then ask them to move and stand next to the code sample they would answer for the second question. Note if there are new clusters. Pick a couple of pairs at random, some people who moved between questions and people who stayed still. Ask them to explain their reasoning.
 
 ### Do
-Have the group work in pairs to implement [FizzBuzz](/kata_descriptions/fizzbuzz.html) using TDD.
+Have the group work in pairs to implement [FizzBuzz]({% link _kata_descriptions/fizzbuzz.md %}) using TDD.
 
 ### Reflect
 - Show your implementation code to another pair. Ask them which code sample it is most similar to. Is that what you expected?

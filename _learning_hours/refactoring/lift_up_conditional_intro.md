@@ -6,6 +6,7 @@ kata: gilded_rose
 difficulty: 2
 author: claresudbery
 via: nitsanavni
+tags:  refactoring legacy
 ---
 
 # Lift-Up Conditional Introduction

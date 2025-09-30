@@ -6,11 +6,15 @@ kata: BigDiceGame
 difficulty: 2
 author: isidore
 via: emilybache
+tags:  refactoring legacy
 ---
 
 # Identify Paragraphs in Long Methods
 
 [Long function]({% link _code_smells/long_function.md %}) is a common code smell. Learning to identify paragraphs that can be extracted as methods is often a good strategy in this situation. This learning hour is about understanding concepts and people will probably not be able to use this technique fluently without a follow-up session. It is adapted from a longer session that is detailed [in this repo](https://github.com/LearnWithLlew/RefactoringToCleanerCode.Slides).
+
+There is a video and other materials available for this learning hour as part of a [Technical Coaching Programme]({% link training/full_package.md %})
+
 
 ## Learning Goals
 
@@ -35,13 +39,7 @@ A [Sparrow Deck](http://llewellynfalco.blogspot.com/p/sparrow-decks.html) is a w
 
 Alternatively, if you don't want to use these prepared materials, you could collect some of your own code samples and put boxes around parts which may or may not be paragraphs. Give them to participants and ask them to classify them as "paragraph" or "not a paragraph" just by looking.
 
-A paragraph is a section of code within a long method that hangs together and might make sense to extract as a method. You can spot them without reading the code in any detail. They have one or more of these visual characteristics:
-
-* begin with a short comment explaining what the next lines of code do
-* are in a code block (ie they are between a pair of curly braces or at the same indentation level)
-* begin with a for, if, try, switch or while statement
-* have a line of whitespace before and after
-* a cluster of statements using the same variable name or recurring word
+A [code paragraph]({% link _code_smells/paragraph.md %}) is a section of code within a long method that hangs together and might make sense to extract as a method.
 
 Once you think you've spotted a paragraph, it may take a little more investigation to see whether it really would be possible and/or desirable to extract as a method. If you have a refactoring tool, it can do this analysis for you. Ask it to do "extract method" on the paragraph. It should be able to show you if it's possible and what the method signature would be.
 

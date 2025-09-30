@@ -4,6 +4,7 @@ title: Filtering output that varies
 kata: quizz
 difficulty: 3
 author: emilybache
+tags: approvals texttest
 ---
 
 # Filtering output that varies

@@ -5,11 +5,14 @@ title: Vocabulary for Refactoring
 kata: tennis
 difficulty: 1
 author: emilybache
+tags:  refactoring
 ---
 
 # Vocabulary for Refactoring
 
-It's useful to have a vocabularly for talking about refactoring. It will help you to communicate when doing strong-style pairing or mob programming. In this learning hour we'll learn what refactorings are and the names of some of them. We'll also practice applying Extract Function in order to address a Long Function smell.
+It's useful to have a vocabulary for talking about refactoring. It will help you to communicate when doing strong-style pairing or mob programming. In this learning hour we'll learn what refactorings are and the names of some of them. We'll also practice applying Extract Function in order to address a Long Function smell.
+
+There is a video and other materials available for this learning hour as part of a [Technical Coaching Programme]({% link training/full_package.md %})
 
 ## Learning Goals
 
