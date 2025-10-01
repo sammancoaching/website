@@ -1,9 +1,11 @@
 ---
 theme: functional_programming
 title: Replace Loop with Higher-Order Functions
-difficulty: ??
+difficulty: 2
 author: nicolerauch
-tags: functional_programming streams lambda higher_order_functions map fold filter
+tags: functional_programming streams higher_order_functions design
+code_smell: loops
+name: replace_loop_with_higher_order_functions
 ---
 
 # Replace Loop with Higher-Order Functions

@@ -4,7 +4,7 @@ title: Split Loop
 source: Emily Bache
 source_url: https://refactoring.com/catalog/splitLoop.html
 code_smells: loops,divergent_change,shotgun_surgery
-learning_hours: split_loop
+learning_hours: split_loop,replace_loop_with_higher_order_functions
 ---
 
 # Split Loop
