@@ -30,6 +30,7 @@ We would like to do some refactoring. This is the plan
     - [x] ensure the teardown kills the server
     - [x] add more pages to the search index
     - [x] remove signup thankyou pages from search index
+    - [ ] fix title mismatch (check_title_mismatch.py)
     - [ ] toggle search on in production
 1. Think of a better name for "Activities" - "Learning Segments" and move it under "Reference" which we can rename to "Resources"
 2. Work out what the 'workshops' collection is and whether to keep it and/or add it to the search index
