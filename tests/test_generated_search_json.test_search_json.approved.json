@@ -448,6 +448,10 @@
         "url": "/kata_descriptions/tire_pressure.html"
     },
     {
+        "title": "Kata: Trip Service Kata",
+        "url": "/kata_descriptions/trip_service.html"
+    },
+    {
         "title": "Kata: Vending Machine",
         "url": "/kata_descriptions/vending_machine.html"
     },
@@ -662,6 +666,10 @@
     {
         "title": "Learning Hour: Strangler Fig Pattern",
         "url": "/learning_hours/legacy/strangler_fig.html"
+    },
+    {
+        "title": "Learning Hour: Testing Methods with Embedded Dependencies",
+        "url": "/learning_hours/legacy/test_embedded_dependencies.html"
     },
     {
         "title": "Learning Hour: Test maintenance",
@@ -1076,10 +1084,6 @@
         "url": "/newsletter.html"
     },
     {
-        "title": "Newsletter",
-        "url": "/newsletter_and_guide.html"
-    },
-    {
         "title": "Refactoring: Replace Command with Function",
         "url": "/refactorings/command_to_function.html"
     },
@@ -1238,6 +1242,10 @@
     {
         "title": "Julien VITTE",
         "url": "/society/contributors/julienvitte.html"
+    },
+    {
+        "title": "Murat Han Celik",
+        "url": "/society/contributors/mhc03.html"
     },
     {
         "title": "Samuel Ytterbrink",
