@@ -29,7 +29,7 @@ We would like to do some refactoring. This is the plan
     - [x] search results include unwanted pages (e.g. 404)
     - [x] ensure the teardown kills the server
     - [x] add more pages to the search index
-    - [ ] remove signup thankyou pages from search index
+    - [x] remove signup thankyou pages from search index
     - [ ] toggle search on in production
 1. Think of a better name for "Activities" - "Learning Segments" and move it under "Reference" which we can rename to "Resources"
 2. Work out what the 'workshops' collection is and whether to keep it and/or add it to the search index

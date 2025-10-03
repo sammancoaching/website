@@ -3,11 +3,14 @@ layout: none
 ---
 [
 {% assign posts_with_title = site.pages | where_exp: "post", "post.title" %}
+
 {% for post in posts_with_title %}
+{% unless post.url contains 'signup_thankyou' %}
 {
 "title": "{{ post.title | escape }}",
 "url": "{{ site.baseurl }}{{ post.url }}"
 },
+{% endunless %}
 {% endfor %}
 {% for kata in site.kata_descriptions %}
 {
