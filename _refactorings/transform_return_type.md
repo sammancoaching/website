@@ -15,7 +15,7 @@ Some tools have this, Resharper includes it in the "Transform Parameters" refact
 Usually you want this refactoring when a method has multiple return values that and either you're only getting one of them, or you're putting them in an awkward collection type before returning them.
 
 ## Prepare
-I usually find this one goes easier if I inline the method first (provided it's not called from too many places).
+I usually find this one goes easier if I inline the method first, unless it's called from several places.
 
 ## Implement
 * Identify which local variables will be combined into the new wrapper type, eg `var a; var b; var c;`. 
@@ -27,7 +27,8 @@ I usually find this one goes easier if I inline the method first (provided it's 
 * 'Extract method' on all the code that uses `wrapper`. The method should have the signature you wanted.
 
 ## Clear
+Try to remove the declaration of the local variables and instead use default values in the constructor of your new class.
 
 
 ## Follow up
-
+Look for other methods you could extract and move to the new type. Look for [Feature Envy]({% link _code_smells/feature_envy.md %}) on its fields.
