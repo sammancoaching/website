@@ -22,7 +22,9 @@ the like. Therefore it is worthwhile to find out more about them.
 
 * Get to know common Higher-Order Functions in Functional Programming
 * Learn how to apply them in the place of loops
-* Learn how to transform one into the other (where possible)
+
+Describe the three common filter, map, and reduce
+Use those three to convert a loop ...
 
 ## Session Outline
 
@@ -49,23 +51,23 @@ returns another function/method.
 
 Common higher-order functions are:
 
-1. map
-2. fold / reduce
-3. filter
+1. filter
+2. map
+3. fold / reduce
 
 That is their name in many programming languages.
 
 C# LinQ calls them:
 
-1. Select
-2. Aggregate
-3. Where
+1. Where
+2. Select
+3. Aggregate
 
 while Ruby and Smalltalk call them:
 
-1. collect
-2. inject
-3. select
+1. select
+2. collect
+3. inject
 
 Explain how these work. Maybe draw some images to illustrate the flow of data.
 
@@ -92,7 +94,7 @@ and an initial output value, and returns the final output value (after all array
 ### Do: Applying Common Higher-Order Functions
 
 Implement the following functions, either using a text editor or IDE or by writing (pseudo) code on post-it's.
-There is no need to execute the functions.
+Also write unit tests for them.
 
 * Apply filter / Where / select:
 
@@ -115,6 +117,7 @@ A function *reverse* that takes a list of integers and returns the reverse of th
 
 Ask the following questions in the group. First let them reflect silently for a minute or two, then discuss.
 
-* Which of the three functions is the most powerful? Why?
-* Do you have typical use cases in your production code where you could apply one of the three functions? Which are they?
+* Now that you have learned about the three common Higher-Order Functions filter, map, and reduce:
+Do you have typical use cases in your production code where you could apply one of the three functions? Which are they?
 
+<link to template>
