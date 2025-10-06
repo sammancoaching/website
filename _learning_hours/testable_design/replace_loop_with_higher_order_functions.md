@@ -20,11 +20,8 @@ the like. Therefore it is worthwhile to find out more about them.
 
 ## Learning Objectives
 
-* Get to know common Higher-Order Functions in Functional Programming
-* Learn how to apply them in the place of loops
-
-Describe the three common filter, map, and reduce
-Use those three to convert a loop ...
+* Learn to describe the three common higher-order functions filter, map, and reduce
+* Learn how to apply them by converting a given piece of code that contains a loop.
 
 ## Session Outline
 
@@ -33,18 +30,24 @@ Use those three to convert a loop ...
 * 30 min do: Apply common higher-order functions
 * 10 min reflect: Typical use cases
 
-### Connect: Higher-Order Functions
+### Connect
 
 Ask these questions in the group, and give them some time to write down some answers on sticky notes etc.
 
-* Do you know this term? Explain it briefly.
-* Do you know any common higher-order functions?
+* What do you call a function that takes a function as an argument or that returns a function?
+* Have you ever done this in your code? What was the use-case?
+
 
 The kinds of answers you are looking for are:
-1) A higher-order function is a function that takes another function/method as argument or that
-returns another function/method.
+1) These functions are called higher-order functions.
 
-2) See "Concept".
+2) - various applications related to the Java streaming API.
+   - callback functions
+   - event listeners
+   - decorators
+   - middleware pipelines
+   - function composition (i.e. building more complex functions from simple ones)
+   - strategy pattern (passing a specific algorithm to a function that implements the general structure)
 
 
 ### Concept: Common Higher-Order Functions
@@ -91,31 +94,19 @@ Takes an array of values, an aggregator function that aggregates the array's val
 and an initial output value, and returns the final output value (after all array values have been aggregated).
 
 
-### Do: Applying Common Higher-Order Functions
+### Concrete: Applying Common Higher-Order Functions instead of Using Loops
 
-Implement the following functions, either using a text editor or IDE or by writing (pseudo) code on post-it's.
-Also write unit tests for them.
+Give the participants some loops that they can refactor to use filter, map, and reduce.
 
-* Apply filter / Where / select:
-
-A function *even* that takes a list of integers and returns a list that only contains the even 
-numbers from the original list, in the same order.
-_Example:_ even([1, 2, 3, 4, 5, 6, 7]) = [2, 4, 6]
-
-* map / Select / collect:
-
-A function *plusOne* that takes a list of integers and returns a list where each element of the original ist is incremented by one, retaining the order.
-_Example:_ plusOne([1, 2, 3]) = 6
-
-* fold or reduce / Aggregate / inject:
-
-A function *sum* that takes a list of integers and returns the sum of its elements. _Example:_ sum([1, 2, 3]) = 6
-A function *reverse* that takes a list of integers and returns the reverse of that list. _Example:_ reverse([1, 2, 3]) = [3, 2, 1]
+There are some examples with tests in ...repo... You can pick some or all of the provided examples.
+Make sure to set a time box for each of the functions (~5 min for filter, ~5 min for map, 
+~10 min for reduce, with some grace time) so that everybody can work at their own pace.
+Not everybody will be able to finish all of the exercises, which is totally fine.
 
 
-### Reflect: What are typical use cases for these functions?
+### Conclusions: What are typical use cases for these functions?
 
-Ask the following questions in the group. First let them reflect silently for a minute or two, then discuss.
+Ask the following question in the group. First let them reflect silently for a minute or two, then discuss.
 
 * Now that you have learned about the three common Higher-Order Functions filter, map, and reduce:
 Do you have typical use cases in your production code where you could apply one of the three functions? Which are they?
