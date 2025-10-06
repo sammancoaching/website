@@ -41,14 +41,13 @@ Ask these questions in the group, and give them some time to write down some ans
 The kinds of answers you are looking for are:
 1) These functions are called higher-order functions.
 
-2) - various applications related to the Java streaming API.
+2) - various applications related to the Java streaming API
    - callback functions
    - event listeners
    - decorators
    - middleware pipelines
    - function composition (i.e. building more complex functions from simple ones)
    - strategy pattern (passing a specific algorithm to a function that implements the general structure)
-
 
 ### Concept: Common Higher-Order Functions
 
@@ -93,6 +92,7 @@ Array<V> -> (V,A)->A -> A -> A
 Takes an array of values, an aggregator function that aggregates the array's values one by one into an output value, 
 and an initial output value, and returns the final output value (after all array values have been aggregated).
 
+Here are [some tips on how to run this]({% link _activities/concept/lecture.html %}).
 
 ### Concrete: Applying Common Higher-Order Functions instead of Using Loops
 
@@ -103,6 +103,9 @@ Make sure to set a time box for each of the functions (~5 min for filter, ~5 min
 ~10 min for reduce, with some grace time) so that everybody can work at their own pace.
 Not everybody will be able to finish all of the exercises, which is totally fine.
 
+Let them work in pairs - either pair up more experienced with less experienced participants, or build pairs of
+similarly (in-)experienced participants. You can [find some more suggestions and details here]({% link _activities/concrete/work_in_pairs.html %}).
+
 
 ### Conclusions: What are typical use cases for these functions?
 
@@ -111,4 +114,4 @@ Ask the following question in the group. First let them reflect silently for a m
 * Now that you have learned about the three common Higher-Order Functions filter, map, and reduce:
 Do you have typical use cases in your production code where you could apply one of the three functions? Which are they?
 
-<link to template>
+Another [idea of running this can be found here]({% link _activities/conclusions/how_to_apply_here.html %}).
