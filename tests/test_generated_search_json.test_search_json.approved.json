@@ -668,10 +668,6 @@
         "url": "/learning_hours/legacy/strangler_fig.html"
     },
     {
-        "title": "Learning Hour: Testing Methods with Embedded Dependencies",
-        "url": "/learning_hours/legacy/test_embedded_dependencies.html"
-    },
-    {
         "title": "Learning Hour: Test maintenance",
         "url": "/learning_hours/legacy/test_maintenance.html"
     },
