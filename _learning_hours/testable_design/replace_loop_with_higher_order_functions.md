@@ -92,19 +92,19 @@ Array<V> -> (V,A)->A -> A -> A
 Takes an array of values, an aggregator function that aggregates the array's values one by one into an output value, 
 and an initial output value, and returns the final output value (after all array values have been aggregated).
 
-Here are [some tips on how to run this]({% link _activities/concept/lecture.html %}).
+Here are [some tips on how to run this]({% link _activities/concept/lecture.md %}).
 
 ### Concrete: Applying Common Higher-Order Functions instead of Using Loops
 
 Give the participants some loops that they can refactor to use filter, map, and reduce.
 
-There are some examples with tests in ...repo... You can pick some or all of the provided examples.
+There are some examples with tests in [Replace Loop](https://github.com/NicoleRauch/Learning_Hour_Replace_Loop) You can pick some or all of the provided examples.
 Make sure to set a time box for each of the functions (~5 min for filter, ~5 min for map, 
 ~10 min for reduce, with some grace time) so that everybody can work at their own pace.
 Not everybody will be able to finish all of the exercises, which is totally fine.
 
 Let them work in pairs - either pair up more experienced with less experienced participants, or build pairs of
-similarly (in-)experienced participants. You can [find some more suggestions and details here]({% link _activities/concrete/work_in_pairs.html %}).
+similarly (in-)experienced participants. You can [find some more suggestions and details here]({% link _activities/concrete/work_in_pairs.md %}).
 
 
 ### Conclusions: What are typical use cases for these functions?
@@ -114,4 +114,4 @@ Ask the following question in the group. First let them reflect silently for a m
 * Now that you have learned about the three common Higher-Order Functions filter, map, and reduce:
 Do you have typical use cases in your production code where you could apply one of the three functions? Which are they?
 
-Another [idea of running this can be found here]({% link _activities/conclusions/how_to_apply_here.html %}).
+Another [idea of running this can be found here]({% link _activities/conclusions/how_to_apply_here.md %}).
