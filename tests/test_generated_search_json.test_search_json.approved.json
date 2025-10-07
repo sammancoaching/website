@@ -1072,6 +1072,10 @@
         "url": "/learning_hours/testable_design/pure_functions_are_easy_to_test.html"
     },
     {
+        "title": "Learning Hour: Replace Loop with Higher-Order Functions",
+        "url": "/learning_hours/testable_design/replace_loop_with_higher_order_functions.html"
+    },
+    {
         "title": "Learning Hour: Strategy - Slice",
         "url": "/learning_hours/testable_design/slice.html"
     },
@@ -1246,6 +1250,10 @@
     {
         "title": "Samuel Ytterbrink",
         "url": "/society/contributors/neppord.html"
+    },
+    {
+        "title": "Nicole Rauch",
+        "url": "/society/contributors/nicolerauch.html"
     },
     {
         "title": "Nitsan Avni",
