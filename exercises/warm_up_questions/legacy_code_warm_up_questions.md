@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Legacy Code
+title: Legacy Code - Warm-Up Questions
 parent: Warm-up Questions
 grand_parent: Exercises
 nav_order: 8

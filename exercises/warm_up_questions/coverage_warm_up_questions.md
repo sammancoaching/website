@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Code Coverage
+title: Code Coverage - Warm-Up Questions
 parent: Warm-up Questions
 grand_parent: Exercises
 nav_order: 1

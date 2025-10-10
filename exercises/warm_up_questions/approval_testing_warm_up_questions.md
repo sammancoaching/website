@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Approval Testing
+title: Approval Testing - Warm-Up Questions
 parent: Warm-up Questions
 grand_parent: Exercises
 nav_order: 3
