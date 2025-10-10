@@ -31,6 +31,7 @@ We would like to do some refactoring. This is the plan
     - [x] add more pages to the search index
     - [x] remove signup thankyou pages from search index
     - [ ] fix title mismatch (check_title_mismatch.py)
+    - [ ] use title case for page titles
     - [ ] rename about_society.md
     - [ ] toggle search on in production
 1. Think of a better name for "Activities" - "Learning Segments" and move it under "Reference" which we can rename to "Resources"
