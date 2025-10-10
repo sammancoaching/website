@@ -1,13 +1,13 @@
 ---
 theme: bdd
-title: BDD Process
+title: Example Mapping
 kata: lift
 difficulty: 1
 author: emilybache
 tags: bdd
 ---
 
-# Example mapping
+# Example Mapping
 
 This is a useful technique to use in BDD example workshops.
 

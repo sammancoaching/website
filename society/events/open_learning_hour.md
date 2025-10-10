@@ -1,6 +1,6 @@
 ---
 layout: society
-title: Samman Coaching Society Online Open Learning Hour
+title: Online Open Learning Hour
 ---
 
 # Online Open Learning Hour

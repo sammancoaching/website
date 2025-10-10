@@ -1,6 +1,6 @@
 ---
 theme: code_reading
-title: Code Reading - Identifying Code Smells
+title: Code Smells - Introduction
 kata: gilded_rose
 difficulty: 1
 author: emilybache

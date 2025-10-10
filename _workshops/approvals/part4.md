@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Approval Testing in a Microservices Architecture
+title: Approval Testing with Microservices
 parent: Approval Testing
 grand_parent: Workshops
 nav_order: 4

@@ -1,6 +1,6 @@
 ---
 theme: legacy
-title: Approval Testing Combinations
+title: Approval Testing with Combinations
 kata: yatzy
 difficulty: 2
 author: emilybache

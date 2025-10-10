@@ -1,6 +1,6 @@
 ---
 theme: test_design
-title: Test Names
+title: Test Names - the Osherove pattern
 kata: gilded_rose
 difficulty: 1
 author: emilybache
