@@ -3,7 +3,7 @@ layout: society
 title: About Membership of the Samman Technical Coaching Society
 ---
 
-# Membership of the Samman Society
+# About Membership of the Samman Technical Coaching Society
 
 This page sets out:
 * Benefits available to both members and non-members

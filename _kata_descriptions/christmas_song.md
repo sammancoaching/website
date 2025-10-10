@@ -1,5 +1,5 @@
 ---
-title: Christmas Song
+title: Twelve Days of Christmas Song
 kata_name: christmas_song
 ---
 

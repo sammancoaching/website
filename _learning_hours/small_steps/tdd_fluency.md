@@ -1,6 +1,6 @@
 ---
 theme: small_steps
-title: TDD Fluency
+title: Fluency with TDD
 kata: word_wrap
 difficulty: 2
 author: emilybache

@@ -4,7 +4,7 @@ title: Code Reading Learning Hours
 theme: code_reading
 ---
 
-# Code Reading
+# Code Reading Learning Hours
 
 Rapid, effective code reading is a useful skill for all programmers. For example, before you can refactor, you need to read the code and understand enough of the current structure of it that you have a good idea of what you can change safely. 
 

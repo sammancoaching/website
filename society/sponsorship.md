@@ -1,6 +1,6 @@
 ---
 layout: society
-title: Sponsor the Samman Coaching Society
+title: Sponsors of the Samman Technical Coaching Society
 ---
 
 # Sponsors of the Samman Technical Coaching Society

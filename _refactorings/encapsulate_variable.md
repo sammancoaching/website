@@ -1,6 +1,6 @@
 ---
 layout: refactoring
-title: Encapsulate Variable
+title: Encapsulate Variable / Encapsulate Field
 source: Martin Fowler
 source_url: https://refactoring.com/catalog/encapsulateVariable.html
 code_smells: global_data

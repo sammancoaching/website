@@ -1,6 +1,6 @@
 ---
 layout: refactoring
-title: Introduce Variable
+title: Extract Variable / Introduce Variable
 source: Martin Fowler
 source_url: https://refactoring.com/catalog/extractVariable.html
 code_smells: duplicated_code

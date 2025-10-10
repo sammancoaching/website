@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Coverage and Combinations
+title: Using Coverage and Combinations with Legacy Code
 parent: Approval Testing
 grand_parent: Workshops
 nav_order: 2

@@ -1,5 +1,5 @@
 ---
-title: Instavoiced
+title: Invoice Standardization System INSTAVOICED
 kata_name: instavoiced
 ---
 

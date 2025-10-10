@@ -3,7 +3,7 @@ title: Martian Message
 kata_name: martian_message
 ---
 
-# Martin Message
+# Martian Message
 In the film "The Martian" the hero who is stuck on Mars needs to communicate with Earth. He has a brilliant idea. He digs up the Pathfinder Rover, a primitive robot previously sent to the planet by NASA. He uses it to hack together a simple but usable communication channel. This kata is to reproduce the code that NASA would have written to send him messages.
 
 The Pathfinder rover has a camera on the top of a long pole that can be rotated 360 degrees to take pictures of the martian terrain around it. It can send these pictures back to Earth. The hero on Mars can see which direction the camera is pointing in. That is the basis of the communication. 

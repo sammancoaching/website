@@ -1,9 +1,9 @@
 ---
 layout: society
-title: The mission of the Samman Technical Coaching Society
+title: The Mission of the Samman Technical Coaching Society
 ---
 
-# The Mission of the Samman Society
+# The Mission of the Samman Technical Coaching Society
 
 Our mission is to promote and develop Samman Technical Coaching and support people everywhere who work as [technical coaches](
 {% link reference/technical_coach_definition.md %}) with resources and opportunities to meet other coaches. We are continually learning and using better ways to help individuals and teams to adopt the technical practices that enable iterative and incremental software development. 

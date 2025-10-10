@@ -4,6 +4,6 @@ title: DevOps Learning Hours
 theme: devops
 ---
 
-# DevOps
+# DevOps Learning Hours
 
 These learning hours are about devops theory and practices.
