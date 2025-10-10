@@ -6,7 +6,7 @@ title: Deliver Learning Hours - Samman Coaching Training
 # Deliver Learning Hours - Samman Coaching Training
 _Lead learning hours with your team_
 
-Would you like to lead some learning hours with your team, but you need a little more help getting started? With only a little preparation, all kinds of developers and coaches can put on a valuable session for their team, using materials available online. In order to get the best out of the Samman Society learning hour materials it helps to understand the eaching techniques and design principles that lie behind them. This course is designed to set you up for success leading these sessions, and gives you a chance to learn from more experienced coaches.
+Would you like to lead some learning hours with your team, but you need a little more help getting started? With only a little preparation, all kinds of developers and coaches can put on a valuable session for their team, using materials available online. In order to get the best out of the Samman Society learning hour materials it helps to understand the teaching techniques and design principles that lie behind them. This course is designed to set you up for success leading these sessions, and gives you a chance to learn from more experienced coaches.
 
 ## Course Topics:
 
