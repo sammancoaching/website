@@ -1,6 +1,6 @@
 ---
 layout: learning_hour_theme
-title: Learning Hours
+title: Learning Hours on Approval Testing in new development
 theme: approval_testing_bdd
 ---
 

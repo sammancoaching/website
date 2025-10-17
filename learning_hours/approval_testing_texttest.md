@@ -1,6 +1,6 @@
 ---
 layout: learning_hour_theme
-title: Learning Hours
+title: Learning Hours on Approval testing with TextTest
 theme: approval_testing_texttest
 ---
 

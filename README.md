@@ -31,9 +31,9 @@ We would like to do some refactoring. This is the plan
     - [x] add more pages to the search index
     - [x] remove signup thankyou pages from search index
     - [x] fix title mismatch (check_title_mismatch.py)
-    - [ ] use title case for page titles
-    - [ ] rename about_society.md
     - [ ] toggle search on in production
+1. use title case for page titles
+1. rename about_society.md
 1. Think of a better name for "Activities" - "Learning Segments" and move it under "Reference" which we can rename to "Resources"
 2. Work out what the 'workshops' collection is and whether to keep it and/or add it to the search index
 3. Improve page names for open space signups - too many pages with similar names!
