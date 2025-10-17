@@ -1,6 +1,6 @@
 ---
 layout: society
-title: Samman Society Open Ensemble Event
+title: Samman Society Open Ensemble
 ---
 
 # Samman Society Open Ensemble

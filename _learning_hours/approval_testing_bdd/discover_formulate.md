@@ -1,7 +1,7 @@
 ---
 theme: approval_testing_bdd
 kata: lift
-title: Discover and Formulate Scenarios
+title: Discover and Formulate Scenarios for the Lift Kata
 difficulty: 2
 author: emilybache
 affiliation: ProAgile

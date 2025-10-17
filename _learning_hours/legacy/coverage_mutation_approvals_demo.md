@@ -1,13 +1,13 @@
 ---
 theme: legacy
-title: Demo of Approvals with Coverage and Mutation testing
+title: Gilded Rose Demo - Approvals with Coverage and Mutation testing
 kata: gilded_rose
 difficulty: 3
 author: emilybache
 affiliation: Praqma
 ---
 
-# Gilded Rose Demo
+# Gilded Rose Demo - Approvals with Coverage and Mutation testing
 
 This is some really horrible legacy code, and it is so satisfying to refactor it! This exercise is the most popular one I have, judged by the number of stars and forks and pull requests I get for it. In this learning hour you show a full worked solution, demonstrating several techniques. The idea is that attendees will come away with a bigger picture of what's possible to achieve, and higher ambitions for their own work with legacy code.
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: BDD Tasks and Activities
+title: Behaviour Driven Development Tasks and Activities
 nav_order: 2
 ---
 

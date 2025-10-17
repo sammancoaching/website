@@ -1,6 +1,6 @@
 ---
 layout: refactoring
-title: Transform Return Type
+title: Transform Return Type aka Wrap Return Value
 source: Emily Bache
 source_url: 
 code_smells: variable_with_long_scope, primitive_obsession
