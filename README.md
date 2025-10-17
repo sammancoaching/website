@@ -31,7 +31,8 @@ We would like to do some refactoring. This is the plan
     - [x] add more pages to the search index
     - [x] remove signup thankyou pages from search index
     - [x] fix title mismatch (check_title_mismatch.py)
-    - [ ] toggle search on in production
+    - [x] toggle search on in production
+    - [ ] investigate why you can't click on search results if the timeout is too small
 1. use title case for page titles
 1. rename about_society.md
 1. Think of a better name for "Activities" - "Learning Segments" and move it under "Reference" which we can rename to "Resources"
