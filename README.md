@@ -30,7 +30,7 @@ We would like to do some refactoring. This is the plan
     - [x] ensure the teardown kills the server
     - [x] add more pages to the search index
     - [x] remove signup thankyou pages from search index
-    - [ ] fix title mismatch (check_title_mismatch.py)
+    - [x] fix title mismatch (check_title_mismatch.py)
     - [ ] use title case for page titles
     - [ ] rename about_society.md
     - [ ] toggle search on in production
