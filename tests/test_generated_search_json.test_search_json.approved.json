@@ -8,7 +8,7 @@
         "url": "/activities/"
     },
     {
-        "title": "4C Training model",
+        "title": "The 4C Training model",
         "url": "/activities/4C_model.html"
     },
     {
@@ -52,7 +52,7 @@
         "url": "/activities/conclusions/group_temperature.html"
     },
     {
-        "title": "Activity: How does it feel?",
+        "title": "Activity: How does it feel when we use this technique?",
         "url": "/activities/conclusions/how_does_it_feel.html"
     },
     {
@@ -188,7 +188,7 @@
         "url": "/code_smells/lazy_element.html"
     },
     {
-        "title": "Code Smell: Long Function",
+        "title": "Code Smell: Long Function and Long Method",
         "url": "/code_smells/long_function.html"
     },
     {
@@ -276,7 +276,7 @@
         "url": "/exercises/consequences/tdd_overview_D.html"
     },
     {
-        "title": "BDD Tasks and Activities",
+        "title": "Behaviour Driven Development Tasks and Activities",
         "url": "/exercises/games/bdd_tasks_activities.html"
     },
     {
@@ -296,15 +296,15 @@
         "url": "/exercises/warm_up_questions/approval_testing_learning_outcomes.html"
     },
     {
-        "title": "Unit testing vs testing at another level",
+        "title": "Differences between unit tests and other tests",
         "url": "/exercises/warm_up_questions/approval_testing_vs_unit_testing.html"
     },
     {
-        "title": "Approval Testing",
+        "title": "Approval Testing - Warm-Up Questions",
         "url": "/exercises/warm_up_questions/approval_testing_warm_up_questions.html"
     },
     {
-        "title": "Code Coverage",
+        "title": "Code Coverage - Warm-Up Questions",
         "url": "/exercises/warm_up_questions/coverage_warm_up_questions.html"
     },
     {
@@ -312,11 +312,11 @@
         "url": "/exercises/warm_up_questions/go_syntax.html"
     },
     {
-        "title": "Legacy Code",
+        "title": "Legacy Code - Warm-Up Questions",
         "url": "/exercises/warm_up_questions/legacy_code_warm_up_questions.html"
     },
     {
-        "title": "Refactoring Principles",
+        "title": "Refactoring Principles - Warm-Up Questions",
         "url": "/exercises/warm_up_questions/refactoring_warm_up_questions.html"
     },
     {
@@ -348,7 +348,7 @@
         "url": "/kata_descriptions/calc_stats.html"
     },
     {
-        "title": "Kata: Christmas Song",
+        "title": "Kata: Twelve Days of Christmas Song",
         "url": "/kata_descriptions/christmas_song.html"
     },
     {
@@ -376,7 +376,7 @@
         "url": "/kata_descriptions/gilded_rose.html"
     },
     {
-        "title": "Kata: Instavoiced",
+        "title": "Kata: Invoice Standardization System INSTAVOICED",
         "url": "/kata_descriptions/instavoiced.html"
     },
     {
@@ -412,7 +412,7 @@
         "url": "/kata_descriptions/parse_args.html"
     },
     {
-        "title": "Kata: RecentlyUsedList",
+        "title": "Kata: Recently Used List",
         "url": "/kata_descriptions/recently_used_list.html"
     },
     {
@@ -456,7 +456,7 @@
         "url": "/kata_descriptions/trip_service.html"
     },
     {
-        "title": "Kata: Vending Machine",
+        "title": "Kata: Vending Machine Kata",
         "url": "/kata_descriptions/vending_machine.html"
     },
     {
@@ -472,7 +472,7 @@
         "url": "/learning_hours/"
     },
     {
-        "title": "Learning Hours",
+        "title": "Learning Hours on Approval Testing in new development",
         "url": "/learning_hours/approval_testing_bdd.html"
     },
     {
@@ -480,23 +480,23 @@
         "url": "/learning_hours/approval_testing_bdd/compare_ordinary_tdd.html"
     },
     {
-        "title": "Learning Hour: Data Driven testing with Approvals",
+        "title": "Learning Hour: Data-Driven Testing with Approvals",
         "url": "/learning_hours/approval_testing_bdd/data_driven_approval_tests.html"
     },
     {
-        "title": "Learning Hour: Discover and Formulate Scenarios",
+        "title": "Learning Hour: Discover and Formulate Scenarios for the Lift Kata",
         "url": "/learning_hours/approval_testing_bdd/discover_formulate.html"
     },
     {
-        "title": "Learning Hour: Designing a Printer",
+        "title": "Learning Hour: Printer Design",
         "url": "/learning_hours/approval_testing_bdd/printer_design.html"
     },
     {
-        "title": "Learning Hour: Test Driving Development with Approvals",
+        "title": "Learning Hour: Lift Kata with Approvals",
         "url": "/learning_hours/approval_testing_bdd/tdd_approvals.html"
     },
     {
-        "title": "Learning Hours",
+        "title": "Learning Hours on Approval testing with TextTest",
         "url": "/learning_hours/approval_testing_texttest.html"
     },
     {
@@ -524,7 +524,7 @@
         "url": "/learning_hours/architecture/architecture_decision_records.html"
     },
     {
-        "title": "Learning Hour: Divio Documentation System",
+        "title": "Learning Hour: The Divio Documentation System",
         "url": "/learning_hours/architecture/divio_system.html"
     },
     {
@@ -532,7 +532,7 @@
         "url": "/learning_hours/architecture/modelling_vs_diagramming.html"
     },
     {
-        "title": "Learning Hour: Simon Brown&#39;s C4 model - Container diagram",
+        "title": "Learning Hour: Simon Brown&#39;s C4 model - Container diagrams",
         "url": "/learning_hours/architecture/simon_brown_4c_container.html"
     },
     {
@@ -552,7 +552,7 @@
         "url": "/learning_hours/bdd/double_loop_tdd.html"
     },
     {
-        "title": "Learning Hour: BDD Process",
+        "title": "Learning Hour: Example Mapping",
         "url": "/learning_hours/bdd/example_mapping.html"
     },
     {
@@ -560,11 +560,11 @@
         "url": "/learning_hours/code_reading.html"
     },
     {
-        "title": "Learning Hour: Code Reading - Identifying Code Smells",
+        "title": "Learning Hour: Code Smells - Introduction",
         "url": "/learning_hours/code_reading/code_smells_intro.html"
     },
     {
-        "title": "Learning Hour: Common Code Smells",
+        "title": "Learning Hour: Code Reading - Common Code Smells",
         "url": "/learning_hours/code_reading/common_code_smells.html"
     },
     {
@@ -640,11 +640,11 @@
         "url": "/learning_hours/legacy/combination_approvals_pure_function.html"
     },
     {
-        "title": "Learning Hour: Approval Testing Combinations",
+        "title": "Learning Hour: Approval Testing with Combinations",
         "url": "/learning_hours/legacy/combinations_by_hand.html"
     },
     {
-        "title": "Learning Hour: Demo of Approvals with Coverage and Mutation testing",
+        "title": "Learning Hour: Gilded Rose Demo - Approvals with Coverage and Mutation testing",
         "url": "/learning_hours/legacy/coverage_mutation_approvals_demo.html"
     },
     {
@@ -704,7 +704,7 @@
         "url": "/learning_hours/low_level_c/patient_into_surgery.html"
     },
     {
-        "title": "Learning Hour: Refactor for testability",
+        "title": "Learning Hour: Refactor the Patient for Testability",
         "url": "/learning_hours/low_level_c/redesign_patient_for_testability.html"
     },
     {
@@ -880,7 +880,7 @@
         "url": "/learning_hours/small_steps/tdd_cycles.html"
     },
     {
-        "title": "Learning Hour: TDD Fluency",
+        "title": "Learning Hour: Fluency with TDD",
         "url": "/learning_hours/small_steps/tdd_fluency.html"
     },
     {
@@ -968,7 +968,7 @@
         "url": "/learning_hours/test_design/test_a_bug.html"
     },
     {
-        "title": "Learning Hour: Test data builders",
+        "title": "Learning Hour: Refactoring test inputs with Test Data Builders",
         "url": "/learning_hours/test_design/test_data_builders.html"
     },
     {
@@ -980,7 +980,7 @@
         "url": "/learning_hours/test_design/test_design_assertions.html"
     },
     {
-        "title": "Learning Hour: Test Names",
+        "title": "Learning Hour: Test Names - the Osherove pattern",
         "url": "/learning_hours/test_design/test_names.html"
     },
     {
@@ -1040,7 +1040,7 @@
         "url": "/learning_hours/testable_design/beck_simple_design.html"
     },
     {
-        "title": "Learning Hour: Bottom-up design",
+        "title": "Learning Hour: One function at a time, bottom up",
         "url": "/learning_hours/testable_design/bottom_up_design.html"
     },
     {
@@ -1064,7 +1064,7 @@
         "url": "/learning_hours/testable_design/overdesign.html"
     },
     {
-        "title": "Learning Hour: Strategy - Peel",
+        "title": "Learning Hour: Peel - a strategy for difficult to test code",
         "url": "/learning_hours/testable_design/peel.html"
     },
     {
@@ -1072,7 +1072,7 @@
         "url": "/learning_hours/testable_design/private_methods.html"
     },
     {
-        "title": "Learning Hour: Testing Pure Functions",
+        "title": "Learning Hour: Writing tests for pure functions",
         "url": "/learning_hours/testable_design/pure_functions_are_easy_to_test.html"
     },
     {
@@ -1088,7 +1088,7 @@
         "url": "/newsletter.html"
     },
     {
-        "title": "Refactoring: Replace Command with Function",
+        "title": "Refactoring: Replace Command with Function - Instance to Static",
         "url": "/refactorings/command_to_function.html"
     },
     {
@@ -1096,19 +1096,19 @@
         "url": "/refactorings/conditional_to_strategy.html"
     },
     {
-        "title": "Refactoring: Encapsulate Variable",
+        "title": "Refactoring: Encapsulate Variable / Encapsulate Field",
         "url": "/refactorings/encapsulate_variable.html"
     },
     {
-        "title": "Refactoring: Extract Function",
+        "title": "Refactoring: Extract Function / Extract Method",
         "url": "/refactorings/extract_function.html"
     },
     {
-        "title": "Refactoring: Replace Function with Command",
+        "title": "Refactoring: Replace Function with Command - Static to Instance",
         "url": "/refactorings/function_to_command.html"
     },
     {
-        "title": "Refactoring: Inline Function",
+        "title": "Refactoring: Inline Function / Inline Method",
         "url": "/refactorings/inline_function.html"
     },
     {
@@ -1116,7 +1116,7 @@
         "url": "/refactorings/introduce_parameter_object.html"
     },
     {
-        "title": "Refactoring: Introduce Variable",
+        "title": "Refactoring: Extract Variable / Introduce Variable",
         "url": "/refactorings/introduce_variable.html"
     },
     {
@@ -1124,7 +1124,7 @@
         "url": "/refactorings/lift_up_conditional.html"
     },
     {
-        "title": "Refactoring: Move Function",
+        "title": "Refactoring: Move Function / Move Method",
         "url": "/refactorings/move_function.html"
     },
     {
@@ -1152,7 +1152,7 @@
         "url": "/refactorings/split_variable.html"
     },
     {
-        "title": "Refactoring: Transform Return Type",
+        "title": "Refactoring: Transform Return Type aka Wrap Return Value",
         "url": "/refactorings/transform_return_type.html"
     },
     {
@@ -1180,7 +1180,7 @@
         "url": "/society/"
     },
     {
-        "title": "The mission of the Samman Technical Coaching Society",
+        "title": "The Mission of the Samman Technical Coaching Society",
         "url": "/society/about_society.html"
     },
     {
@@ -1300,24 +1300,12 @@
         "url": "/society/events/"
     },
     {
-        "title": "Samman Coaching Society Verbal Aikido Dojo",
-        "url": "/society/events/aikido_dojo_2024_nov.html"
-    },
-    {
         "title": "Samman Coaching Society Online Open Space Events",
         "url": "/society/events/all_open_space_events.html"
     },
     {
         "title": "Samman Coaching Society Online Open Space Event",
         "url": "/society/events/next_open_space.html"
-    },
-    {
-        "title": "Samman Society Open Ensemble Event",
-        "url": "/society/events/open_ensemble_2023-06-21.html"
-    },
-    {
-        "title": "Samman Coaching Society Online Open Learning Hour",
-        "url": "/society/events/open_learning_hour.html"
     },
     {
         "title": "About Membership of the Samman Technical Coaching Society",
@@ -1328,7 +1316,7 @@
         "url": "/society/privacy_policy.html"
     },
     {
-        "title": "Sponsor the Samman Coaching Society",
+        "title": "Sponsors of the Samman Technical Coaching Society",
         "url": "/society/sponsorship.html"
     },
     {
@@ -1356,7 +1344,7 @@
         "url": "/training/learning_hours_masterclass.html"
     },
     {
-        "title": "Personal 1-1 mentoring and Train-the-trainer",
+        "title": "Personal one-on-one mentoring and Train-the-trainer",
         "url": "/training/personal_coaching.html"
     },
     {
