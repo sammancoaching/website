@@ -31,6 +31,6 @@ There are also tasks for updating things in Hubspot
 * Add them to the membership registry google doc
 * Add them to the next open space calendar invite
 * Update their groups on Discord
-* Send welcome mail saying you've done those things
+* Send welcome mail saying you've done those things & asking for membership fee.
 * Announce them on Discord & elsewhere
 
