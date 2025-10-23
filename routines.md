@@ -21,7 +21,6 @@ There are also tasks for updating things in Hubspot
 3. Update calendr.link "add to calendar" link with the next date 
 4. Create and schedule email 1 week before with zoom link 
 5. Create and schedule email on the day with zoom link
-6. Create 'routines' meeting invite after the next open space
 
 ## Adding new society members
 * Make sure they have read and understood [Membership](https://sammancoaching.org/society/membership.html)
