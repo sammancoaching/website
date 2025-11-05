@@ -60,6 +60,10 @@
         "url": "/activities/conclusions/how_to_apply_here.html"
     },
     {
+        "title": "Activity: Popcorn Feedback",
+        "url": "/activities/conclusions/popcorn_feedback.html"
+    },
+    {
         "title": "Activity: Showcase",
         "url": "/activities/conclusions/showcase.html"
     },
@@ -590,6 +594,10 @@
     {
         "title": "Ensemble Learning Hours",
         "url": "/learning_hours/ensemble.html"
+    },
+    {
+        "title": "Learning Hour: Ensemble Emojies and 124All-Design",
+        "url": "/learning_hours/ensemble/emojies_and_124all_design.html"
     },
     {
         "title": "Learning Hour: Talking with Intent, Typing Syntax",
