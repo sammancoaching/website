@@ -32,7 +32,7 @@ By the end of this session, participants will:
 
 Ask:
 
-> _“Look back at the past few days or weeks. When you were working in an ensemble, and was not typing nor talking: remember what are examples of things you would have wished to communicate, without breaking the flow?”_
+> _Look back at the past few days or weeks. When you were working in an ensemble, and was not typing nor talking: remember what are examples of things you would have wished to communicate, without breaking the flow?_
 
 Then:
 
@@ -44,9 +44,10 @@ Then:
 If remote: use 1-3-all (3 min triplet breakouts) instead.
 
 Debrief:
-Highlight the tension between *staying in flow* and *needing to communicate*.
 
-> _“Today, we’ll explore simple ensemble protocols that let everyone communicate smoothly — even the quieter voices.”_
+Highlight the tension between *staying in flow* and *needing to communicate*:
+
+> _Today, we’ll explore simple ensemble protocols that let everyone communicate smoothly — even the quieter voices._
 
 ## Concept
 
@@ -93,7 +94,7 @@ Highlight the tension between *staying in flow* and *needing to communicate*.
 
 Let's practice this on a short ensemble coding task.
 
-Adapt the coding exercise and design question to the team. Here is an example around testing a (log parser)[https://github.com/philou/log-parser-kata]:
+Adapt the coding exercise and design question to the team. Here is an example around testing a [log parser](https://github.com/philou/log-parser-kata):
 
 1. Setup the ensemble coding environment.
 2. Present the coding exercise: "Someone wrote a log parser, but they forgot to add tests! Your ensemble’s task is to add tests to the log parser while practicing the emoji protocols and 1-2-4-All design pauses."
@@ -115,4 +116,4 @@ Ask:
 
 Wrap-up reflection:
 
-> _“Ensemble work improves when we make communication visible and lightweight. These small shared signals help everyone contribute without breaking the flow.”_
+> _Ensemble work improves when we make communication visible and lightweight. These small shared signals help everyone contribute without breaking the flow._
