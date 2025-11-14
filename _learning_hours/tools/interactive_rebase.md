@@ -1,9 +1,8 @@
 ---
-theme: git
+theme: tools
 title: Git Interactive Rebase
-kata: 
 difficulty: 2
-author: xaviametller
+author: xrecoba
 tags: teamwork
 ---
 
