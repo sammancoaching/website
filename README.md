@@ -24,7 +24,14 @@ When you push to the main branch, there is a github action that deploys the chan
 # Development plan for this website
 We would like to do some refactoring. This is the plan
 
-1. Add search feature
+1. Update style to new branding guidelines
+    - [] review the colors for the text should be dark blue
+    - [] hovers should coral
+    - [] links need to be discussed, light blue
+    - [] background color whould be off white
+    - [] need to install new fonts
+    - [] use new branding fonts
+2. Add search feature
     - [x] bring back nice XML-based test reports in GitHub workflow
     - [x] search results include unwanted pages (e.g. 404)
     - [x] ensure the teardown kills the server
