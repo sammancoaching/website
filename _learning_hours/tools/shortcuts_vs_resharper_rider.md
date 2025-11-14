@@ -1,9 +1,9 @@
 ---
-theme: shortcuts
+theme: tools
 title: Shortcuts with Visual Studio + ReSharper or Rider
 difficulty: 1
-author: xaviametller
-tags: shortcuts
+author: xrecoba
+tags: shortcuts, ide
 ---
 
 # Visual Studio + ReSharper and Rider Shortcuts
@@ -41,7 +41,7 @@ Display the map of shortcuts and explain everyone that during the session, you'l
 
 It is recommended to setup the presentation mode in Rider or to install the [ShowTheShortcut]([https://github.com/madskristensen/ShowTheShortcut]) extension in Visual Studio so the tool can highlight which shortcuts are you using at the right time.     
  
-![map_of_shortctuts.png](map_of_shortctuts.png)
+![/images/map_of_shortctuts.png](../../assets/images/map_of_shortctuts.png)
 
 ### Demo + Concrete
 For each block in the shorcuts map, open the corresponding file and go through the different exercises inside. While screen sharing, solve the exercise using the shortcut and explain what you do with special emphasis on the key combinations you use. Afterwards, leave time to the group to try on their own machines (as already said, individually, everyone should practice on their own).
