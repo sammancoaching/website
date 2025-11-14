@@ -29,6 +29,8 @@ We would like to do some refactoring. This is the plan
     - [x] hovers should coral
     - [] links need to be discussed, light blue
     - [x] background color whould be off white
+    - [x] remove references to old colours
+    - [] style the current nav item in light blue
     - [] need to install new fonts
     - [] use new branding fonts
 2. Add search feature

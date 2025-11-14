@@ -9,7 +9,7 @@ a:link {
     color: $dark-blue;
 }
 a:visited {
-    color: $mid-blue;
+    color: $dark-blue;
 }
 a:active {
     color: $light-blue;
@@ -47,7 +47,7 @@ body {
   margin-right: auto;
   max-width: 750px;
 	font: 100% $font-stack;
-	color: $dark-blue-2;
+	color: $dark-blue;
 	background: $off-white;
 	li {
         padding: 0px 12px;
