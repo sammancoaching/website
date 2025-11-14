@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Xavi Ametller
-author: xaviametller
+author: xrecoba
 role: Technical Coach
 ---
 
