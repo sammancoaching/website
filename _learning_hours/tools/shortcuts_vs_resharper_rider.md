@@ -3,7 +3,7 @@ theme: tools
 title: Shortcuts with Visual Studio + ReSharper or Rider
 difficulty: 1
 author: xrecoba
-tags: shortcuts, ide
+tags: shortcuts ide
 ---
 
 # Visual Studio + ReSharper and Rider Shortcuts
