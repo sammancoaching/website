@@ -4,7 +4,7 @@ title: Narrow Integration Tests for Outbound Ports
 kata: enterprise_phonebook
 difficulty: 5
 author: emilybache
-tags: test_doubles test_design domain_centric_architecture
+tags: test_doubles test_design architecture
 ---
 
 # Narrow Integration Tests for Outbound Ports

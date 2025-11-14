@@ -604,6 +604,10 @@
         "url": "/learning_hours/git/interactive_rebase.html"
     },
     {
+        "title": "Learning Hour: Shortcuts with Visual Studio + ReSharper or Rider",
+        "url": "/learning_hours/ide/shortcuts_vs_resharper_rider.html"
+    },
+    {
         "title": "Learning Hours",
         "url": "/learning_hours/learning_hour_explanation.html"
     },
