@@ -3,8 +3,8 @@ theme: devops
 title: Semantic Release
 kata: lift_button
 difficulty: 1
-author: ibanfr?
-affiliation: etu?
+author: ibanfr
+affiliation: Independent
 tags: devops
 ---
 
@@ -28,4 +28,3 @@ workflow.
 - The front-matter includes an `affiliation` field. Should this be set to the name of the company or organization that 
   the author works for?
 - The front-matter includes a `difficulty` field. How should a difficulty level be assigned?
-- The front-matter includes a `author` filed. Should this be set to the name of the author or their GitHub handle?
