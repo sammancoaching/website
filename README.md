@@ -25,10 +25,10 @@ When you push to the main branch, there is a github action that deploys the chan
 We would like to do some refactoring. This is the plan
 
 1. Update style to new branding guidelines
-    - [] review the colors for the text should be dark blue
-    - [] hovers should coral
+    - [x] review the colors for the text should be dark blue
+    - [x] hovers should coral
     - [] links need to be discussed, light blue
-    - [] background color whould be off white
+    - [x] background color whould be off white
     - [] need to install new fonts
     - [] use new branding fonts
 2. Add search feature

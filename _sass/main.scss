@@ -15,7 +15,7 @@ a:active {
     color: $light-blue;
 }
 a:hover {
-    color: $salmon-pink;
+    color: $coral;
 }
 img[src*="#book_cover"] {
 	border: 5px solid $dark-blue;
@@ -47,7 +47,8 @@ body {
   margin-right: auto;
   max-width: 750px;
 	font: 100% $font-stack;
-	color: $primary-color;
+	color: $dark-blue-2;
+	background: $off-white;
 	li {
         padding: 0px 12px;
         text-decoration: none;
