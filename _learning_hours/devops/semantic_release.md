@@ -9,7 +9,7 @@ tags: devops
 ---
 
 # Semantic Release
-Learn how to apply [Semantic Versioning] (SemVer) to automate software releases by working through the Lift Button 
+Learn how to apply Semantic Versioning (SemVer) to automate software releases by working through the [Lift Button]({% link _kata_descriptions/lift_button.md %}) 
 Kata. 
 
 This Learning Hour will help you understand versioning principles and integrate them into your development 
@@ -29,7 +29,7 @@ automatically? What challenges have you faced with versioning?
 
 ## Concept: Semantic Versioning Specification
 
-Semantic Versioning (SemVer) is a versioning scheme that consist in Simple set of rules and requirements that 
+[Semantic Versioning] (SemVer) is a versioning scheme that consist in Simple set of rules and requirements that 
 dictate how version numbers are assigned and incremented for software releases.
 
 SemVer uses a three-part version number - `MAJOR.MINOR.PATCH` - to communicate changes to the software with specific 
@@ -41,7 +41,7 @@ increments to the version number:
 
 ## Concept: Semantic-Release
 
-[Semantic-Release] is a tool that automates the release process by analyzing commit messages to determine the type of
+[Semantic Release] is a tool that automates the release process by analyzing commit messages to determine the type of
 changes made in the codebase.
 
 Contributors follow a specific commit message convention to indicate the nature of their changes:
@@ -86,7 +86,7 @@ commit? What benefits does it bring to your development workflow and team collab
 
 
 [Semantic Versioning]: https://semver.org/
-[Semantic-Release]: https://semantic-release.gitbook.io/semantic-release
+[Semantic Release]: https://semantic-release.gitbook.io/semantic-release
 [forking]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository
 [duplicating]: https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository
 [semantic-versioning-kata]: https://github.com/ibanFR/semantic-versioning-kata
