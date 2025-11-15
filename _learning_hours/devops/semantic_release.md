@@ -84,9 +84,6 @@ Practice with the Lift Button Kata in your IDE:
 Discuss the advantages of automating releases with Semantic Release. Is it really a good idea to release on every 
 commit? What benefits does it bring to your development workflow and team collaboration? 
 
-## TODO
-
-- The front-matter includes a `difficulty` field. How should a difficulty level be assigned?
 
 [Semantic Versioning]: https://semver.org/
 [Semantic-Release]: https://semantic-release.gitbook.io/semantic-release
