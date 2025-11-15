@@ -35,9 +35,9 @@ dictate how version numbers are assigned and incremented for software releases.
 SemVer uses a three-part version number - `MAJOR.MINOR.PATCH` - to communicate changes to the software with specific 
 increments to the version number: 
 
-- `MAJOR` version when you make incompatible API changes
-- `MINOR` version when you add functionality in a backwards-compatible manner like adding new features.
-- `PATCH` version when you make backwards-compatible bug fixes.
+- `MAJOR` version, increased for backwards incompatible changes.
+- `MINOR` version, increased for new features/functionality in a backwards compatible manner.
+- `PATCH` version, increased for backwards compatible bug fixes.
 
 ## Concept: Semantic-Release
 
