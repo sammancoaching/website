@@ -19,8 +19,9 @@ workflow.
 
 * 5 min connect: How are version numbers assigned for your software?
 * 5 min concept: Semantic Versioning Specification
-* 5 min concept: Semantic Release
-* 40 min concrete: Release a Version for Lift Button
+* 10 min concept: Semantic Release
+* 20 min concrete: Release initial features for Lift Button
+* 15 min concrete: Release a BREAKING CHANGE for Lift Button
 * 5 min conclusions: What are the benefits of releasing on every commit?
 
 ## Connect: How are version numbers assigned for your software?
