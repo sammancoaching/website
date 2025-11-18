@@ -596,18 +596,6 @@
         "url": "/learning_hours/ensemble/talking_typing.html"
     },
     {
-        "title": "Git Learning Hours",
-        "url": "/learning_hours/git.html"
-    },
-    {
-        "title": "Learning Hour: Git Interactive Rebase",
-        "url": "/learning_hours/git/interactive_rebase.html"
-    },
-    {
-        "title": "Learning Hour: Shortcuts with Visual Studio + ReSharper or Rider",
-        "url": "/learning_hours/ide/shortcuts_vs_resharper_rider.html"
-    },
-    {
         "title": "Learning Hours",
         "url": "/learning_hours/learning_hour_explanation.html"
     },
@@ -1008,6 +996,10 @@
         "url": "/learning_hours/test_doubles/mocking_dependencies.html"
     },
     {
+        "title": "Learning Hour: Narrow Integration Tests for Outbound Ports",
+        "url": "/learning_hours/test_doubles/narrow_integration_tests.html"
+    },
+    {
         "title": "Learning Hour: Stubbing Dependencies",
         "url": "/learning_hours/test_doubles/stubbing_dependencies.html"
     },
@@ -1086,6 +1078,18 @@
     {
         "title": "Learning Hour: Strategy - Slice",
         "url": "/learning_hours/testable_design/slice.html"
+    },
+    {
+        "title": "Learning Hours for Specific Tools",
+        "url": "/learning_hours/tools.html"
+    },
+    {
+        "title": "Learning Hour: Git Interactive Rebase",
+        "url": "/learning_hours/tools/interactive_rebase.html"
+    },
+    {
+        "title": "Learning Hour: Shortcuts with Visual Studio + ReSharper or Rider",
+        "url": "/learning_hours/tools/shortcuts_vs_resharper_rider.html"
     },
     {
         "title": "Newsletter",
