@@ -101,7 +101,7 @@ Adapt the coding exercise and design question to the team. Here is an example ar
 3. Kick start with 1-2-4-All-Design. Share the code so that everyone can browse it: [https://github.com/philou/log-parser-kata/blob/main/python/log_parser.py](https://github.com/philou/log-parser-kata/blob/main/python/log_parser.py). Then ask the question: "Read this code and list the tests we should write around it. Don't just write down a list of ideas, use real good [test names]({%link _learning_hours/test_design/test_names.md %})."
 4. Collect the test names as comments in the test file, asking one group after the other for 1 more test name.
 5. Start the ensemble, now implementing these tests
-6. Invite everyone to use the emoji protocols during the mob: ⌚, ☕, 🏗, 👋, BRB, ❓. Model the use of emojis as needed. (It's ok to exaggerate!)
+6. Invite everyone to use the emoji protocols during the ensemble: ⌚, ☕, 🏗, 👋, BRB, ❓. Model the use of emojis as needed. Ask everybody to exagerate as it's a first-time deliberate practice! Model the behavior as a coach too.
 7. Debrief as a group using the popcorn method:
     * What felt easier or smoother?
     * Did the emojis help keep the flow?
