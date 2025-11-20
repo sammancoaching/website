@@ -396,6 +396,10 @@
         "url": "/kata_descriptions/lift_button.html"
     },
     {
+        "title": "Kata: Log Parser",
+        "url": "/kata_descriptions/log_parser.html"
+    },
+    {
         "title": "Kata: Mars Rover",
         "url": "/kata_descriptions/mars_rover.html"
     },
