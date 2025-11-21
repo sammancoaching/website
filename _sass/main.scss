@@ -2,9 +2,7 @@
 @import "colors";
 @import "variables";
 @import "print";
-.current {
-	color: $light-blue;
-}
+
 a:link {
     color: $dark-blue;
 }
@@ -16,6 +14,9 @@ a:active {
 }
 a:hover {
     color: $coral;
+}
+a.current {
+	color: $light-blue;
 }
 img[src*="#book_cover"] {
 	border: 5px solid $dark-blue;
@@ -53,6 +54,24 @@ body {
         padding: 0px 12px;
         text-decoration: none;
     }
+}
+
+.site-header {
+  background-image: url("/assets/images/samman_banner_thin.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  background-color: $coral;
+  padding-top: 110px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+}
+
+
+.search-box {
+  float:right;
+  margin: -13px 18px 5px 0;
 }
 
 footer {

@@ -5,10 +5,36 @@
   position: absolute;
   top: 9px;
   right: $spacing-unit * .5;
-  background-color: white;
+  background-color: $coral;
   border: 1px solid $dark-blue;
   border-radius: 5px;
   text-align: right;
+
+  a {
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 3px 6px;
+    margin: 0px;
+  }
+  a:link, a:visited {
+      color: $off-white;
+      background: $coral;
+  }
+  a:active,  a.current {
+      color: $coral;
+      background: $off-white;
+  }
+  a:hover {
+      background: $dark-blue;
+  }
+  a:hover.current {
+      color: $dark-blue;
+      background: $off-white;
+  }
+
 
   .nav-trigger {
     display: none;
@@ -63,7 +89,6 @@
     position: static;
     float: none;
     border: none;
-    background-color: inherit;
     text-align: justify;
     text-align-last:center;
 
@@ -81,7 +106,7 @@
 
     .page-link {
       display: inline-block;
-      padding: 5px;
+      padding: 0px;
       margin:0px;
     }
   }

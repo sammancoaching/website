@@ -30,9 +30,11 @@ We would like to do some refactoring. This is the plan
     - [] links need to be discussed, light blue
     - [x] background color whould be off white
     - [x] remove references to old colours
-    - [] style the current nav item in light blue
+    - [] style the current nav item in light blue or coral
     - [] need to install new fonts
     - [] use new branding fonts
+    - [] move the search box somewhere better
+    - [] make the nav bar part of the header somehow
 2. Add search feature
     - [x] bring back nice XML-based test reports in GitHub workflow
     - [x] search results include unwanted pages (e.g. 404)

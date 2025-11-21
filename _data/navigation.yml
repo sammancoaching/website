@@ -3,16 +3,16 @@
 - name: Book
   link: https://emilybache.com/samman-coaching-book/
 - name: Katas
-  link: /kata_descriptions/index.html
+  link: /kata_descriptions/
 - name: Learning Hours
-  link: /learning_hours/index.html
+  link: /learning_hours/
 - name: Training
-  link: /training/index.html
+  link: /training/
 - name: Activities
-  link: /activities/index.html
+  link: /activities/
 - name: Reference
-  link: /reference/index.html
+  link: /reference/
 - name: Society
-  link: /society/index.html
+  link: /society/
 - name: Contact
   link: /contact.html
