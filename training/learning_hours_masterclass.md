@@ -25,6 +25,6 @@ This online training is highly interactive and participatory, and is normally le
 
 This course is two half-days held about two weeks apart.
 
-* 26th November & 10th December Online with [Emily Bache]({% link society/contributors/emilybache.md %}) and [Peter Kofler]({% link society/contributors/codecop.md %}) - More information and signup via [Bache Consulting](https://bacheconsulting.com/_events/2025-11-26_learning_hours_masterclass.html)
+* 15th April & 29th April 2026 Online with [Emily Bache]({% link society/contributors/emilybache.md %}) and [Peter Kofler]({% link society/contributors/codecop.md %}) - More information and signup via [Bache Consulting](https://bacheconsulting.com/_events/next_learning_hours_masterclass.html)
 
 For more information please [Contact us]({% link contact.md %}). You could also sign up for our [Newsletter]({% link newsletter.md %}) to hear about upcoming trainings and other useful information.
