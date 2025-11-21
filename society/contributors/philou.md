@@ -6,5 +6,6 @@ role: Technical Coach
 ---
 
 # {{ page.title}}
+{% assign author = site.data.contributors[page.author] %}
 
-Philippe Bourgau is an Agile Technical Coach at Murex and also works independently on coaching missions. He’s a [blogger](https://philippe.bourgau.net) and the co-author of [The 1-Hour Event Storming Book](https://www.eventstormingjournal.com/1h-event-storming-book/).
+{{author.title}} is an {{page.role}} at [{{author.affiliation}}]({{author.url}}). He’s a [blogger]({{author.url}}) and the co-author of [The 1-Hour Event Storming Book](https://www.eventstormingjournal.com/1h-event-storming-book/).

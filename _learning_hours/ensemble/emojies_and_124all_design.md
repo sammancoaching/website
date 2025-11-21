@@ -94,7 +94,7 @@ Highlight the tension between *staying in flow* and *needing to communicate*:
 
 Let's practice this on a short ensemble coding task.
 
-Adapt the coding exercise and design question to the team. Here is an example around testing a [Log Parser](https://github.com/philou/log-parser-kata):
+Adapt the coding exercise and design question to the team. Here is an example around testing a [Log Parser]({% link _kata_descriptions/log_parser.md %}):
 
 1. Setup the ensemble coding environment.
 2. Present the coding exercise: "Someone wrote a log parser, but they forgot to add tests! Your ensemble’s task is to add tests to the log parser while practicing the emoji protocols and 1-2-4-All design pauses."
