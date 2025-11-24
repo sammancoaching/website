@@ -35,6 +35,9 @@ We would like to do some refactoring. This is the plan
     - [] use new branding fonts
     - [] move the search box somewhere better
     - [] make the nav bar part of the header somehow
+    - [] make header look nice on mobile
+    - [] retain navigation 'current' css style when viewing pages underneath that tab (https://stackoverflow.com/questions/8340170/jekyll-automatically-highlight-current-tab-in-menu-bar)
+
 2. Add search feature
     - [x] bring back nice XML-based test reports in GitHub workflow
     - [x] search results include unwanted pages (e.g. 404)
