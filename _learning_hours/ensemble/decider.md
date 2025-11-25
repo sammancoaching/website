@@ -1,7 +1,7 @@
 ---
 theme: ensemble
 title: The Decider Protocol in Ensemble Programming
-kata: calc_stats
+kata: supermarket_receipt
 difficulty: 1
 author: philou
 tags: teamwork
@@ -19,7 +19,7 @@ By the end of this session, participants will:
 1. Understand the **purpose and steps** of the Decider Protocol.
 2. Practice making **small, structured team decisions** quickly and inclusively.
 3. Learn when to trigger a Decider during ensemble work to keep flow.
-4. End the session with a **shared commitment**: when and how they will try it next week.
+4. End the session with a **shared commitment**: when and how they will try it from now on.
 
 ## 1️⃣ Connect: Decision Friction Mini-Retro (10 min)
 
@@ -67,7 +67,7 @@ Facilitator runs one quick example with everyone:
 
 Discuss: _What are your first impressions?_ Use the [popcorn share]({% link _activities/conclusions/popcorn_feedback.md %}) to collect answers.
 
-Note: If the team already knows the Emoji Protocol or 1-2-4-All, mention briefly that Decider complements these very well. Otherwise, skip.
+Note: If the team already knows the [Emoji Protocol or 1-2-4-All]({% link _learning_hours/ensemble/emojies_and_124all_design.md %}), mention briefly that Decider complements these very well. Otherwise, skip.
 
 ## 3️⃣ Concrete: Practice in short, realistic rounds (30 min)
 
@@ -77,7 +77,7 @@ Show a short, messy code snippet.
 
 > “We’ll use the Decider Protocol to choose how we’d refactor this.”
 
-As a reference, with a team of system testers, we used ["uglified tests" from the Supermarket Kata](https://github.com/philou/Supermarket-TestDesign-Kata/tree/ugly_tests).
+As a reference, with a team of system testers, we used ["Uglified Tests" from the Supermarket Kata](https://github.com/philou/Supermarket-TestDesign-Kata/tree/ugly_tests).
 
 Tip: LLMs are really good at making code messier!
 
@@ -91,7 +91,7 @@ Run as many Decider cycles as you can:
 
 ### 1-2-4-All Option:
 
-If the team did the [Emojies and 1-2-4-All-Design](./emojies_124all_design.md) Learning Hour before, start with a 1-2-4-All-Design round to generate improvement proposals, then ask each group to trigger a Decider on their favorite proposal in turn.
+If the team did the [Emojies and 1-2-4-All-Design]({% link _learning_hours/ensemble/emojies_and_124all_design.md %}) Learning Hour before, start with a 1-2-4-All-Design round to generate improvement proposals, then ask each group to trigger a Decider on their favorite proposal in turn.
 
 ## 4️⃣ Conclusions: Feedback and Propositions (10 min)
 
@@ -119,10 +119,10 @@ Wait for team members to come up with propositions, and make them use the decide
 
 ## 💡 Optional Extensions & References
 
-If the team already practiced [**1-2-4-All** and **Emoji Protocols**](./emojies_and_124all_design.md), combine them naturally:
+If the team already practiced [**1-2-4-All** and **Emoji Protocols**]({% link _learning_hours/ensemble/emojies_and_124all_design.md %}), combine them naturally:
 
 * 🏗 → pause for design → 1-2-4-All → Decider → Act.
 * Otherwise, this learning hour stands completely on its own.
 
-The Decider is one of the core protocols, can find more details here: [Decider Protocol](https://thecoreprotocols.org/protocols/decider).
+The Decider is one of the Core Protocols, can find more details here: [Decider Protocol](https://thecoreprotocols.org/protocols/decider).
 
