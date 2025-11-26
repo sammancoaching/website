@@ -1,6 +1,6 @@
 ---
 layout: member
-title: Ivan Fernandez
+title: Iván Fernández
 author: ibanfr
 role: Technical Coach
 ---
