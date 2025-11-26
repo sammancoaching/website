@@ -1,0 +1,4 @@
+selenium
+approvaltests
+requests
+pytest

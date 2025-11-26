@@ -1,6 +1,6 @@
 ---
 theme: testable_design
-title: Testing Pure Functions
+title: Writing tests for pure functions
 kata: trig_math
 difficulty: 1
 author: emilybache

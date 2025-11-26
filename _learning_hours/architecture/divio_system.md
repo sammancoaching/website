@@ -1,6 +1,6 @@
 ---
 theme: architecture
-title: Divio Documentation System
+title: The Divio Documentation System
 kata: instavoiced
 difficulty: 3
 author: emilybache

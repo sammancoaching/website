@@ -1,6 +1,6 @@
 ---
 theme: small_steps
-title: TDD Fluency
+title: Fluency with TDD
 kata: word_wrap
 difficulty: 2
 author: emilybache
@@ -44,7 +44,7 @@ Tell a story about learning a skill like dancing or cooking or skiing or playing
 Today we're training TDD fluency. You get good at doing something by practicing it and reflecting.
 
 ### Do: Word Wrap
-Practice breaking the problem into small pieces by making a test list. Practice writing the design in the test first before you create the function. Practice making the tests pass one at a time. Practice updating your test list. Practice refactoring to remove duplication. Suggested kata - [Word Wrap](kata_descriptions/word_wrap.html).
+Practice breaking the problem into small pieces by making a test list. Practice writing the design in the test first before you create the function. Practice making the tests pass one at a time. Practice updating your test list. Practice refactoring to remove duplication. Suggested kata - [Word Wrap]({% link _kata_descriptions/word_wrap.md %}).
 
 For each aspect of TDD that you're practicing, pay attention to how fluent it feels and how easily you can do it.
 

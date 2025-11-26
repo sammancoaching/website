@@ -1,13 +1,13 @@
 ---
 layout: refactoring
-title: Inline Function
+title: Inline Function / Inline Method
 source: Martin Fowler
 source_url: https://refactoring.com/catalog/inlineFunction.html
 code_smells: lazy_element
 learning_hours: keyboarding
 ---
 
-# Inline function / Inline method
+# Inline Function / Inline Method
 
 ## Examine
 Identify a function or method which you would like to replace with its body in some or all of the places it's used. 

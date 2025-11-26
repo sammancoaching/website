@@ -8,3 +8,7 @@ credentials.txt
 .idea
 Gemfile.lock
 __pycache__
+node_modules
+*.received.*
+/junit-reports
+*/settings.local.json

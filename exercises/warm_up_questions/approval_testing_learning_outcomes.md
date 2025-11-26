@@ -6,7 +6,7 @@ grand_parent: Exercises
 nav_order: 6
 ---
 
-# Your personal learning objectives
+# Approval Testing Learning Objectives
 
 You have three sticky dots. Read through these learning objectives and place a dot next to the two or three that are the most important to you.
 

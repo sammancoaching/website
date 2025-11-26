@@ -1,6 +1,6 @@
 ---
 theme: testable_design
-title: Bottom-up design
+title: One function at a time, bottom up
 kata: yatzy
 difficulty: 2
 author: emilybache

@@ -2,6 +2,9 @@
     <div class="banner">
         <img src="{{ site.baseurl }}/assets/images/samman_banner_thin.png">
     </div>
+
+    {% include search.html %}
+
         {%- assign page_paths = site.header_pages  -%}
         <nav class="site-nav">
             <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -17,7 +20,7 @@
 
                 {% for item in site.data.navigation %}
                 <div class="page-link">
-                    <a {% if item.link[0] != "/" %}target="_blank" rel="noopener noreferrer" {% endif %} href="{{ item.link }}"
+                    <a href="{{ item.link }}"
                         {% if page.url == item.link %}class="current"{% endif %}>
                         {{ item.name }}
                     </a>

@@ -1,13 +1,13 @@
 ---
 layout: refactoring
-title: Extract Function
+title: Extract Function / Extract Method
 source: Martin Fowler
 source_url: https://refactoring.com/catalog/extractFunction.html
 code_smells: long_function
 learning_hours: refactoring_vocabulary
 ---
 
-# Extract function / Extract method
+# Extract Function / Extract Method
 
 ## Examine
 Identify a section of a function or method which you would like to extract to its own function.

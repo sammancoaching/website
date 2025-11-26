@@ -1,6 +1,6 @@
 ---
 theme: test_design
-title: Test data builders
+title: Refactoring test inputs with Test Data Builders
 difficulty: 3
 author: julienvitte
 tags: test_design

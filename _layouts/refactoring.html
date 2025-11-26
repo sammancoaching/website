@@ -37,7 +37,10 @@ layout: homepage
     {% if page.source == 'Martin Fowler' %}
     <li>This refactoring is included Martin Fowler's book <a href="{{ page.source_url }}">"Refactoring", 2nd Edition</a></li>
     {% endif %}
-    {% if page.source != 'Martin Fowler' %}
+    {% if page.source == 'Joshua Kerievsky' %}
+    <li>This refactoring is included Joshua Kerievsky's book <a href="{{ page.source_url }}">"Refactoring to Patterns"</a></li>
+    {% endif %}
+    {% if page.source == 'Emily Bache' %}
     <li>This refactoring was contributed to this site by {{ page.source }}</li>
     {% endif %}
 

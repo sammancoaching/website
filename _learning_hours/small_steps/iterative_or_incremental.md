@@ -8,7 +8,7 @@ affiliation: ProAgile
 tags:  small_steps
 ---
 
-# Iterative or Incremental?
+# Iterative or Incremental
 
 TDD is both, but it can be a useful thinking tool to identify when you are working in each style. It's also useful to realize that iterative and incremental works on many timescales, and TDD is iterative and incremental on a minutes-to-hours timescale. 
 

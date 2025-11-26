@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Refactoring Principles
+title: Refactoring Principles - Warm-Up Questions
 parent: Warm-up Questions
 grand_parent: Exercises
 nav_order: 2

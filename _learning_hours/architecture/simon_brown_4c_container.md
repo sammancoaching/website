@@ -1,6 +1,6 @@
 ---
 theme: architecture
-title: Simon Brown's C4 model - Container diagram
+title: Simon Brown's C4 model - Container diagrams
 kata: instavoiced
 difficulty: 2
 author: emilybache

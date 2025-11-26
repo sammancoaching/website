@@ -1,7 +1,7 @@
 ---
 layout: code_smell
 name: long_function
-title: Long Function
+title: Long Function and Long Method
 source: Martin Fowler
 ---
 

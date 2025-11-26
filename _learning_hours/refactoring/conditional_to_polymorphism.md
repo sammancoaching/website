@@ -6,8 +6,8 @@ difficulty: 3
 author: emilybache
 affiliation: Praqma
 tags:  refactoring
+name: replace_conditional_with_polymorphism
 ---
-
 
 # Replace Conditional With Polymorphism
 
@@ -70,6 +70,7 @@ or (CLion 2022.2.3, C++)
 - Change Signature
 - Introduce Constant...
 
+You could also use the refactoring steps outlined in ["Replace Conditional with Polymorphism"]({% link _refactorings/replace_conditional_polymorphism.md %})
 
 ### Do Parrot
 People should work in pairs to do the same exercise again from the start. If they lack IDE experience, they should follow your list of shortcuts from the whiteboard. More confident pairs may know other shortcuts and can try to achieve the same thing in a different way. Ask them to write down their sequence of steps if so.

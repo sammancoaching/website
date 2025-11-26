@@ -85,11 +85,11 @@ claresudbery:
   affiliation: Sudbery Software Engineering Ltd
   member: yes
   member_since: 2023-05-23
-xaviametller:
+xrecoba:
   title: Xavi Ametller
   url: https://www.myowncommonsense.com/
   affiliation: Independent
-  member: no
+  member: yes
 julienvitte:
   title: Julien Vitte
   url: https://www.insidegroup.fr/
@@ -120,12 +120,26 @@ ronheywood:
   title: Ron Heywood
   url: https://github.com/ronheywood
   affiliation: Spektrix
-  member: no
+  member: yes
 philou:
   title: Philippe Bourgau
   url: https://philippe.bourgau.net/
+  affiliation: Independent and employed at Murex
+  member: yes
+devill:
+  title: Ivett Ördög
+  url: https://www.ivettordog.com/
   affiliation: Independent
+  member: yes
+mhc03:
+  title: Murat Han Celik
+  url: https://www.linkedin.com/in/murat-han-celik-105221265
   member: no
+nicolerauch:
+  title: Nicole Rauch
+  url: http://nicole-rauch.de
+  affiliation: Independent
+  member: yes
 ibanfr:
   title: Ivan Fernandez
   url: https://ibanfr.github.io/

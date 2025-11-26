@@ -1,6 +1,6 @@
 ---
 layout: refactoring
-title: Replace Function with Command
+title: Replace Function with Command - Static to Instance
 source: Martin Fowler
 source_url: https://refactoring.com/catalog/replaceFunctionWithCommand.html
 code_smells: feature_envy

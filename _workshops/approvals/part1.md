@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Approval Testing Intro
+title: Introduction to Approval Testing
 parent: Approval Testing
 grand_parent: Workshops
 nav_order: 1

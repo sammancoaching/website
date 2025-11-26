@@ -1,6 +1,6 @@
 ---
 theme: code_reading
-title: Common Code Smells
+title: Code Reading - Common Code Smells
 kata: tennis
 difficulty: 2
 author: emilybache

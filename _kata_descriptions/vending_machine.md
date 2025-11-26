@@ -1,5 +1,5 @@
 ---
-title: Vending Machine
+title: Vending Machine Kata
 kata_name: vending_machine
 ---
 

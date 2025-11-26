@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Behaviour Driven Development with Approval tests
+title: Using Approval Testing in Behaviour Driven Development
 parent: Approval Testing
 grand_parent: Workshops
 nav_order: 3

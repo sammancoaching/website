@@ -1,7 +1,7 @@
 ---
 theme: approval_testing_bdd
 kata: rpg_combat
-title: Data Driven testing with Approvals
+title: Data-Driven Testing with Approvals
 difficulty: 1
 author: emilybache
 affiliation: ProAgile

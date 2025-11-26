@@ -1,6 +1,6 @@
 ---
 layout: refactoring
-title: Replace Command with Function
+title: Replace Command with Function - Instance to Static
 source: Martin Fowler
 source_url: https://refactoring.com/catalog/replaceCommandWithFunction.html
 code_smells: lazy_element

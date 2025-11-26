@@ -1,6 +1,6 @@
 ---
 layout: society
-title: Personal 1-1 mentoring and Train-the-trainer
+title: Personal one-on-one mentoring and Train-the-trainer
 ---
 
 # Personal one-on-one mentoring and Train-the-trainer

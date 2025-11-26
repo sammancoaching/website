@@ -5,7 +5,7 @@ title: Samman Coaching Training
 
 # Samman Coaching Training
 
-The Samman Society offers official training courses in skills that are essential for Samman Coaching. 
+The Samman Society offers official training courses in skills that are essential for Samman Coaching. This [5 minute video](https://www.youtube.com/watch?v=RTfNlF5-WkI) explains more. 
 
 Currently available courses: 
 

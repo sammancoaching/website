@@ -1,6 +1,6 @@
 ---
 layout: society
-title: 4C Training model
+title: The 4C Training model
 ---
 # The 4C Training model
 

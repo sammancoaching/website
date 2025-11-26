@@ -1,6 +1,6 @@
 ---
 theme: low_level_c
-title: Refactor for testability
+title: Refactor the Patient for Testability
 kata: grep_with_marketing
 difficulty: 6
 author: emilybache
@@ -8,7 +8,7 @@ affiliation: ProAgile
 tags: c legacy refactoring
 ---
 
-# Refactor the patient for testability
+# Refactor the Patient for Testability
 
 part 3 of 4 learning hours on this theme.
 

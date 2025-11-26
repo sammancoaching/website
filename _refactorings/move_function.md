@@ -1,6 +1,6 @@
 ---
 layout: refactoring
-title: Move Function
+title: Move Function / Move Method
 source: Martin Fowler
 source_url: https://refactoring.com/catalog/moveFunction.html
 code_smells: feature_envy

@@ -1,5 +1,5 @@
 ---
-title: RecentlyUsedList
+title: Recently Used List
 kata_name: recently_used_list
 ---
 

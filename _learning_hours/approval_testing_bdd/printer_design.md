@@ -1,6 +1,6 @@
 ---
 theme: approval_testing_bdd
-title: Designing a Printer
+title: Printer Design
 kata: vending_machine
 difficulty: 2
 author: emilybache
@@ -8,7 +8,7 @@ affiliation: ProAgile
 tags: approvals bdd
 ---
 
-# Printer design
+# Printer Design
 
 Redesigning asserts as a printer.
 
