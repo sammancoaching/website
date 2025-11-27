@@ -140,6 +140,10 @@
         "url": "/activities/connect/webhunt.html"
     },
     {
+        "title": "Activity: Describe Your Experience",
+        "url": "/activities/connect/your_experience.html"
+    },
+    {
         "title": "Code Smell: Alternative Classes with Different Interfaces",
         "url": "/code_smells/alternative_classes_different_interfaces.html"
     },
