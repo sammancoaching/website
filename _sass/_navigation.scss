@@ -3,12 +3,12 @@
 
 .site-nav {
   position: absolute;
-  top: 9px;
-  right: $spacing-unit * .5;
+  top: 20px;
+  left: $spacing-unit * .5;
   background-color: $coral;
   border: 1px solid $dark-blue;
   border-radius: 5px;
-  text-align: right;
+  text-align: left;
 
   a {
     font-weight: bold;
@@ -55,7 +55,7 @@
 
   label[for="nav-trigger"] {
     display: block;
-    float: right;
+    float: left;
     width: 36px;
     height: 36px;
     z-index: 2;
@@ -82,7 +82,7 @@
     &:not(:last-child) {
       margin-right: 0;
     }
-    margin-left: 20px;
+    margin-left: 5px;
   }
 
   @media screen and (min-width: $on-medium) {
