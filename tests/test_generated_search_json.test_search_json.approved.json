@@ -32,6 +32,10 @@
         "url": "/activities/conclusions.html"
     },
     {
+        "title": "Activity: 1-2-4-All",
+        "url": "/activities/conclusions/1-2-4-all.html"
+    },
+    {
         "title": "Activity: Coach&#39;s encouraging feedback",
         "url": "/activities/conclusions/coaches_feedback.html"
     },
@@ -614,6 +618,10 @@
     {
         "title": "Learning Hour: Talking with Intent, Typing Syntax",
         "url": "/learning_hours/ensemble/talking_typing.html"
+    },
+    {
+        "title": "Learning Hour: Keeping a Shared Indented TODO List",
+        "url": "/learning_hours/ensemble/todo_list.html"
     },
     {
         "title": "Learning Hours",
