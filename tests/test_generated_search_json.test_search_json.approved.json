@@ -596,6 +596,10 @@
         "url": "/learning_hours/devops/learn_faster.html"
     },
     {
+        "title": "Learning Hour: Semantic Release",
+        "url": "/learning_hours/devops/semantic_release.html"
+    },
+    {
         "title": "Learning Hour: The three ways of DevOps",
         "url": "/learning_hours/devops/three_ways.html"
     },
@@ -1258,6 +1262,10 @@
     {
         "title": "Gregor Riegler",
         "url": "/society/contributors/gregorriegler.html"
+    },
+    {
+        "title": "Iv\u00e1n Fern\u00e1ndez",
+        "url": "/society/contributors/ibanfr.html"
     },
     {
         "title": "Llewellyn Falco",
