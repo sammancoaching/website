@@ -140,6 +140,10 @@
         "url": "/activities/connect/webhunt.html"
     },
     {
+        "title": "Activity: Describe Your Experience",
+        "url": "/activities/connect/your_experience.html"
+    },
+    {
         "title": "Code Smell: Alternative Classes with Different Interfaces",
         "url": "/code_smells/alternative_classes_different_interfaces.html"
     },
@@ -598,6 +602,10 @@
     {
         "title": "Ensemble Learning Hours",
         "url": "/learning_hours/ensemble.html"
+    },
+    {
+        "title": "Learning Hour: The Decider Protocol in Ensemble Programming",
+        "url": "/learning_hours/ensemble/decider.html"
     },
     {
         "title": "Learning Hour: Ensemble Emojies and 124All-Design",
