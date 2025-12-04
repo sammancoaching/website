@@ -17,9 +17,9 @@ workflow.
 
 ## Learning Goals
 
-* Understand the principles of Semantic Versioning (SemVer).
-* Write semantic commit messages to document the nature of the changes made in the codebase.
-* Explore how semantic-release uses the commit messages to automate software releases.
+1. Understand the principles of Semantic Versioning (SemVer).
+2. Write semantic commit messages to document the nature of the changes made in the codebase.
+3. Explore how semantic-release uses the commit messages to automate software releases.
 
 ## Session Outline
 
@@ -137,10 +137,18 @@ the team will release this feature as a breaking change:
 3. After pushing your commit to the main branch, check your [repository's releases and tags] to see the new major
    version created for the breaking change.
 
-## Conclusions: What are the benefits of releasing on every commit?
+## Conclusions: When should you use semantic commit messages?
 
-Discuss the advantages of automating releases with Semantic Release. Is it really a good idea to release on every
-commit? What benefits does it bring to your development workflow and team collaboration?
+Now that you have experienced how semantic commit messages are used to release new features of the Lift Button, ask the
+group to think about:
+
+> _[When should you use]({% link _activities/conclusions/when_to_use_this.md %}) semantic commit messages?_
+
+Collect and summarize the ideas for everyone. Highlight the ones that better align with the learning goals:
+
+> _"Use semantic commit messages to automate software releases in a continuous delivery pipeline"_
+> 
+> _"Semantic commit messages help communicate the nature of changes to the codebase"_
 
 
 [Semantic Versioning]: https://semver.org/
