@@ -13,7 +13,13 @@ Learn how to apply Semantic Versioning (SemVer) to automate software releases by
 Kata. 
 
 This Learning Hour will help you understand versioning principles and integrate them into your development 
-workflow. 
+workflow.
+
+## Learning Goals
+
+* Understand the principles of Semantic Versioning (SemVer).
+* Write semantic commit messages to document the nature of the changes made in the codebase.
+* Explore how semantic-release uses the commit messages to automate software releases.
 
 ## Session Outline
 
