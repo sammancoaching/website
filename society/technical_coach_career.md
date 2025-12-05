@@ -27,3 +27,5 @@ In parallel with passing these competency milestones, senior developers will nee
 
 ## A Note on Certification
 We don't currently plan to certify people in the Samman method because it seems to be very difficult to do well. We will provide training and mentoring that is designed to help individuals to reach new milestones, which includes 'certificates of participation' for training courses. If Samman society members have worked with people and seen them in action on the job we can provide individual references on request.
+
+"Samman Coaching" is an official trademark registered in the EU (#019000476) and owned by the Samman Technical Coaching Society. The right to refer to yourself as a "Samman Technical Coach" is reserved for [members]({% link society/membership.md %}).
