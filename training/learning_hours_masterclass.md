@@ -17,7 +17,7 @@ Between the two sessions you can expect to spend a couple of hours on homework. 
 * Adapting materials and activities for the needs of your team
 * Common training difficulties and how to handle them
 
-This course is not an introduction to the topic, participants will normally have previously attended the [Deliver Learning Hours]({% link training/deliver_learning_hours.md %}) course. This course is designed to support senior developers working towards milestone 3 in the [Samman Learning Hour Career Track]({% link training/learning_hour_milestones.md %}). This course will set you on the path to begin designing and leading learning hours from your own materials.
+This course is not an introduction to the topic, participants will normally have previously attended the [Deliver Learning Hours]({% link training/deliver_learning_hours.md %}) course. This course is designed to support senior developers working towards milestone 3 in the [Samman Learning Hour Career Track]({% link society/learning_hour_milestones.md %}). This course will set you on the path to begin designing and leading learning hours from your own materials.
 
 This online training is highly interactive and participatory, and is normally led by a pair of experienced coaches from the Samman Technical Coaching Society.
 

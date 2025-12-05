@@ -15,7 +15,7 @@ Would you like to lead some [learning hours]({% link reference/learning_hour_def
 * Setting learning goals
 * Facilitation skills for interactive learning activities
 
-This course is designed to support senior developers working towards milestone 2 in the [Samman Learning Hour Career Track]({% link training/learning_hour_milestones.md %}). You will come away with the knowledge you need to lead learning hours with your colleagues, using materials that have been developed by others. If you’re an experienced trainer in other contexts already, then this course will also set you on the path to begin designing and leading learning hours from your own materials. There is a follow-up course [Learning Hours Masterclass]({% link training/learning_hours_masterclass.md %}) that will help you to take the next steps.
+This course is designed to support senior developers working towards milestone 2 in the [Samman Learning Hour Career Track]({% link society/learning_hour_milestones.md %}). You will come away with the knowledge you need to lead learning hours with your colleagues, using materials that have been developed by others. If you’re an experienced trainer in other contexts already, then this course will also set you on the path to begin designing and leading learning hours from your own materials. There is a follow-up course [Learning Hours Masterclass]({% link training/learning_hours_masterclass.md %}) that will help you to take the next steps.
 
 This online training is highly interactive and participatory, and is normally led by a pair of experienced coaches from the Samman Technical Coaching Society. 
 

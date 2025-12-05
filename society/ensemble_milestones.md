@@ -4,7 +4,7 @@ title: Ensemble Career Milestones
 ---
 
 # Competence Milestones for Ensemble
-These milestones can help senior developers to reason about where they are in their skill and career progression with [Ensemble]({% link reference/ensemble_definition.md %}) facilitation skills. The [Samman Technical Coaching Career]({% link training/technical_coach_career.md %}) has a similar track for [Learning Hour Milestones]({% link training/learning_hour_milestones.md %}). There is more information about training and support for reaching these milestones in the [Samman Training Index]({% link training/index.md %}).
+These milestones can help senior developers to reason about where they are in their skill and career progression with [Ensemble]({% link reference/ensemble_definition.md %}) facilitation skills. The [Samman Technical Coaching Career]({% link society/technical_coach_career.md %}) has a similar track for [Learning Hour Milestones]({% link society/learning_hour_milestones.md %}). There is more information about training and support for reaching these milestones on the [Samman Training Page]({% link training/index.md %}).
 
 1. **Take part in ensemble programming, contributing appropriately and leading retrospectives.**
 Senior developers can join a well-functioning ensemble and have the communication skills to contribute actively and appropriately as typist, talker and supporter. They can facilitate the ensemble retrospective and draw out learning and action points from the group.

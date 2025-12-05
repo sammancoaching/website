@@ -4,7 +4,7 @@ title: Learning Hour Career Milestones
 ---
 
 # Learning Hour Career Milestones
-These milestones can help senior developers to reason about where they are in their skill and career progression with [Learning Hour]({% link reference/learning_hour_definition.md %}) teaching skills. The [Samman Technical Coaching Career]({% link training/technical_coach_career.md %}) has a similar track for [Ensemble Milestones]({% link training/ensemble_milestones.md %}). There is more information about training and support for reaching these milestones in the [Samman Training Index]({% link training/index.md %}).
+These milestones can help senior developers to reason about where they are in their skill and career progression with [Learning Hour]({% link reference/learning_hour_definition.md %}) teaching skills. The [Samman Technical Coaching Career]({% link society/technical_coach_career.md %}) has a similar track for [Ensemble Milestones]({% link society/ensemble_milestones.md %}). There is more information about training and support for reaching these milestones on the [Samman Training Page]({% link training/index.md %}).
 
 1. **Facilitate learning hours based on detailed existing materials, including video.**
 Senior developers can lead learning hours with their own team of developers. They learn the materials by taking part in sessions led by a more experienced coach. They have good enough facilitation skills to lead discussions and assist hands-on exercises, presenting topics using videos of code demos made by others.

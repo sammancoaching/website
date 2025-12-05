@@ -21,7 +21,7 @@ This training is highly interactive and participatory.
 * Ensemble roles, rotations and structure
 * Practical tips to improve communication and collaboration
 
-This course is designed to support senior developers working towards milestone 3 in the [Samman Ensemble Career Track]({% link training/ensemble_milestones.md %}). You will come away with the knowledge you need to introduce ensemble working to your colleagues. 
+This course is designed to support senior developers working towards milestone 3 in the [Samman Ensemble Career Track]({% link society/ensemble_milestones.md %}). You will come away with the knowledge you need to introduce ensemble working to your colleagues. 
 
 ## Course Dates
 

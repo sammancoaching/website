@@ -12,8 +12,8 @@ The exact details of the milestones are still being worked on by the Samman Soci
 
 We divide competencies into two tracks, with five Samman Coaching Career Milestones in each:
 
-* [Learning Hour Milestones]({% link training/learning_hour_milestones.md %})
-* [Ensemble Milestones]({% link training/ensemble_milestones.md %})
+* [Learning Hour Milestones]({% link society/learning_hour_milestones.md %})
+* [Ensemble Milestones]({% link society/ensemble_milestones.md %})
 
 These milestones loosely correspond to significant changes in the individual's job title and the composition of their working days. Competence is acknowledged within the individual's organization as they start doing a different job and get the associated title and benefits.
 

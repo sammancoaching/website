@@ -18,7 +18,7 @@ There are several themes available, including:
 For company-internal training you can choose the exact sessions. For public training the topics are published alongside the course dates.
 
 ## Equipping you to lead these sessions afterwards
-This training is designed to support senior developers working towards milestone 1 in the [Samman Learning Hour Career Track]({% link training/learning_hour_milestones.md %}). The idea is you learn the materials and are afterwards able to lead learning hours in your own organization based on them. 
+This training is designed to support senior developers working towards milestone 1 in the [Samman Learning Hour Career Track]({% link society/learning_hour_milestones.md %}). The idea is you learn the materials and are afterwards able to lead learning hours in your own organization based on them. 
 
 After each learning hour there is an optional Session Briefing and Q&A with your host. If you haven't facilitated or led training before then it can be a little daunting to just call a meeting and ask your team to go through a Learning Hour with you as host. This online training can help demystify the experience.
 

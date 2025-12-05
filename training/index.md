@@ -5,14 +5,14 @@ title: Samman Coaching Training
 
 # Samman Coaching Training
 
-The Samman Society offers official training courses in skills that are essential for Samman Coaching. This [5 minute video](https://www.youtube.com/watch?v=RTfNlF5-WkI) explains more. These trainings are all designed to support the [Samman Technical Coaching Career Milestones]({% link training/technical_coach_career.md %})
+The Samman Society offers official training courses in skills that are essential for Samman Coaching. This [5 minute video](https://www.youtube.com/watch?v=RTfNlF5-WkI) explains more. These trainings are all designed to support the [Samman Technical Coaching Career]({% link society/technical_coach_career.md %})
 
 Currently available courses: 
 
-* [Guided Learning Hours]({% link training/guided_learning_hours.md %}) - For milestone 1 in the [Learning Hour track]({% link training/learning_hour_milestones.md %}).
-* [Deliver Learning Hours]({% link training/deliver_learning_hours.md %}) - For milestone 2 in the [Learning Hour track]({% link training/learning_hour_milestones.md %}).
-* [Learning Hours Masterclass]({% link training/learning_hours_masterclass.md %}) - For milestone 3 in the [Learning Hour track]({% link training/learning_hour_milestones.md %}).
-* [Introducing Ensemble]({% link training/introducing_ensemble.md %}) - For milestone 3 in the [Ensemble track]({% link training/ensemble_milestones.md %}).
+* [Guided Learning Hours]({% link training/guided_learning_hours.md %}) - For milestone 1 in the [Learning Hour track]({% link society/learning_hour_milestones.md %}).
+* [Deliver Learning Hours]({% link training/deliver_learning_hours.md %}) - For milestone 2 in the [Learning Hour track]({% link society/learning_hour_milestones.md %}).
+* [Learning Hours Masterclass]({% link training/learning_hours_masterclass.md %}) - For milestone 3 in the [Learning Hour track]({% link society/learning_hour_milestones.md %}).
+* [Introducing Ensemble]({% link training/introducing_ensemble.md %}) - For milestone 3 in the [Ensemble track]({% link society/ensemble_milestones.md %}).
 * [Personal Coaching]({% link training/personal_coaching.md %}) - For milestones 4 and 5 in either track.
 * [Technical Coaching Programme]({% link training/full_package.md %}) - For training senior developers in both tracks across a whole organization.
 
