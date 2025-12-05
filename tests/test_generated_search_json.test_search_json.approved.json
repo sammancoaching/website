@@ -32,6 +32,10 @@
         "url": "/activities/conclusions.html"
     },
     {
+        "title": "Activity: 1-2-4-All",
+        "url": "/activities/conclusions/1-2-4-all.html"
+    },
+    {
         "title": "Activity: Coach&#39;s encouraging feedback",
         "url": "/activities/conclusions/coaches_feedback.html"
     },
@@ -616,8 +620,8 @@
         "url": "/learning_hours/ensemble/talking_typing.html"
     },
     {
-        "title": "Learning Hours",
-        "url": "/learning_hours/learning_hour_explanation.html"
+        "title": "Learning Hour: Keeping a Shared Indented TODO List",
+        "url": "/learning_hours/ensemble/todo_list.html"
     },
     {
         "title": "Learning Hours By Author",
@@ -1196,6 +1200,10 @@
         "url": "/reference/ensemble_definition.html"
     },
     {
+        "title": "Learning Hour - Definition",
+        "url": "/reference/learning_hour_definition.html"
+    },
+    {
         "title": "Refactorings",
         "url": "/reference/refactorings/"
     },
@@ -1324,6 +1332,10 @@
         "url": "/society/contributors/ythirion.html"
     },
     {
+        "title": "Ensemble Career Milestones",
+        "url": "/society/ensemble_milestones.html"
+    },
+    {
         "title": "Samman Coaching Society Events",
         "url": "/society/events/"
     },
@@ -1336,6 +1348,10 @@
         "url": "/society/events/next_open_space.html"
     },
     {
+        "title": "Learning Hour Career Milestones",
+        "url": "/society/learning_hour_milestones.html"
+    },
+    {
         "title": "About Membership of the Samman Technical Coaching Society",
         "url": "/society/membership.html"
     },
@@ -1346,6 +1362,10 @@
     {
         "title": "Sponsors of the Samman Technical Coaching Society",
         "url": "/society/sponsorship.html"
+    },
+    {
+        "title": "Samman Technical Coaching Career",
+        "url": "/society/technical_coach_career.html"
     },
     {
         "title": "Samman Coaching Training",

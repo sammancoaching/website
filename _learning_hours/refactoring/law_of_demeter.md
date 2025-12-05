@@ -16,6 +16,11 @@ This learning hour introduces the Law of Demeter and some concrete techniques fo
 
 There is a video on Emily Bache's YouTube channel on this topic but using a different exercise ["Law of Demeter"](https://youtu.be/Wa49D-akQb8)
 
+## Learning Goals
+
+* Describe how to spot Law of Demeter problems.
+* Use automated refactoring tools to solve 'train wreck' code by creating methods and moving them to appropriate classes.
+
 ## Session outline
 
 * 10 min connect: Recognize these smells?
