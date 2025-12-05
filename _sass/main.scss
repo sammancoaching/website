@@ -92,11 +92,19 @@ h1, h2, h3, h4, h5, h6 {
 footer {
 	padding: 6px 12px;
 
-	img {
-	  display: block;
-	  max-width: 120px;
-	  height: auto;
-	  margin: 12px auto 0; // space from text, centered horizontally
+	.footer-logo-bar {
+	  margin: 12px -12px 0; // full-width bar inside padded footer
+	  background-color: $coral;
+	  border-top-left-radius: 5px;
+	  border-top-right-radius: 5px;
+	  text-align: center;
+	  padding: 6px 0;
+
+	  img {
+	    display: inline-block;
+	    max-width: 120px;
+	    height: auto;
+	  }
 	}
 }
 
