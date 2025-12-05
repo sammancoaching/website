@@ -18,7 +18,7 @@ workflow.
 ## 🎯 Learning Goals
 
 1. Understand the principles of Semantic Versioning (SemVer).
-2. Write semantic commit messages to document the nature of the changes made in the codebase.
+2. Write semantic commit messages to document the nature of the changes made to the codebase.
 3. Explore how semantic-release uses the commit messages to automate software releases.
 
 ## 📝 Session Outline
@@ -32,8 +32,13 @@ workflow.
 
 ## 1️⃣ Connect: How are version numbers assigned for your software? (⏱️ 5 min)
 
-Discuss with the group how version numbers are currently assigned in your projects. Are they done manually or
-automatically? What challenges have you faced with versioning?
+Discuss with the group how version numbers are currently assigned in their current projects. You may
+use [Describe your experience]({% link _activities/connect/your_experience.md %}) or
+[Three Facts]({% link _activities/connect/three_facts.md %}) depending on the team size.
+
+Write notes of what they say on a whiteboard or shared document where everyone can see them. 
+
+Review the notes and highlight those that relate to the concepts covered in the upcoming sections.
 
 ## 2️⃣ Concept: Semantic Versioning Specification (⏱️ 5 min)
 
