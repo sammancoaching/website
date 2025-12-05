@@ -21,6 +21,15 @@ workflow.
 2. Write semantic commit messages to document the nature of the changes made in the codebase.
 3. Explore how semantic-release uses the commit messages to automate software releases.
 
+## 📝 Session Outline
+
+* 5 min connect: How are version numbers assigned for your software?
+* 5 min concept: Semantic Versioning Specification
+* 10 min concept: Semantic Release
+* 20 min concrete: Release initial features for Lift Button
+* 15 min concrete: Release a BREAKING CHANGE for Lift Button
+* 5 min conclusions: What are the benefits of releasing on every commit?
+
 ## 1️⃣ Connect: How are version numbers assigned for your software? (⏱️ 5 min)
 
 Discuss with the group how version numbers are currently assigned in your projects. Are they done manually or
