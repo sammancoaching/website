@@ -80,6 +80,11 @@ h1, h2, h3, h4, h5, h6 {
   }
   .site-header {
     background-image: url("/assets/images/samman_logo_right.png");
+    background-size: auto 110px; // keep logo height consistent on small screens
+    padding-bottom: 20px; // extend coral further down
+  }
+  .site-header .search-box {
+    margin: -8px 18px 12px 0;
   }
 }
 
