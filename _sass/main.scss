@@ -94,6 +94,26 @@ h1, h2, h3, h4, h5, h6 {
   margin: -13px 18px 5px 0;
 }
 
+.search-box #search-input {
+  border: 1px solid $dark-blue;
+  border-radius: 6px;
+}
+
+.site-header #search-results {
+  display: none;
+  position: absolute;
+  background: #fff;
+  border: 1px solid $dark-blue;
+  border-radius: 6px;
+  padding: 8px;
+  margin-top: 2px;
+  z-index: 1000;
+}
+
+.site-header #search-results.active {
+  display: block;
+}
+
 footer {
 	padding: 6px 12px;
 
