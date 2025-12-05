@@ -91,6 +91,13 @@ h1, h2, h3, h4, h5, h6 {
 
 footer {
 	padding: 6px 12px;
+
+	img {
+	  display: block;
+	  max-width: 120px;
+	  height: auto;
+	  margin: 12px auto 0; // space from text, centered horizontally
+	}
 }
 
 .wrapper {
