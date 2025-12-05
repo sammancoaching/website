@@ -28,7 +28,7 @@ workflow.
 * 10 min concept: Semantic Release
 * 20 min concrete: Release initial features for Lift Button
 * 15 min concrete: Release a BREAKING CHANGE for Lift Button
-* 5 min conclusions: What are the benefits of releasing on every commit?
+* 5 min conclusions: When should you use semantic commit messages?
 
 ## 1️⃣ Connect: How are version numbers assigned for your software? (⏱️ 5 min)
 
