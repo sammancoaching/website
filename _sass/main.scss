@@ -1,21 +1,23 @@
+@import "fonts";
 @import "navigation";
 @import "colors";
 @import "variables";
 @import "print";
-.current {
-	color: $light-blue;
-}
+
 a:link {
     color: $dark-blue;
 }
 a:visited {
-    color: $mid-blue;
+    color: $dark-blue;
 }
 a:active {
     color: $light-blue;
 }
 a:hover {
-    color: $salmon-pink;
+    color: $coral;
+}
+a.current {
+	color: $light-blue;
 }
 img[src*="#book_cover"] {
 	border: 5px solid $dark-blue;
@@ -25,37 +27,113 @@ img[src*="#book_cover"] {
 }
 
 
-@media screen and (max-width: $on-medium) {
-  .banner{
-    padding-right: 70px;
-    img{
-      width: 100%;
-    }
-   }
-}
 @media screen and (min-width: $on-medium) {
 
   .banner {
     img{
       width: 750px;
     }
-   }
+  }
 }
 
 body {
   margin-left: auto;
   margin-right: auto;
   max-width: 750px;
-	font: 100% $font-stack;
-	color: $primary-color;
-	li {
-        padding: 0px 12px;
-        text-decoration: none;
+  font-family: $font-stack-body;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  color: $dark-blue;
+  background: $off-white;
+  li {
+    padding: 0px 12px;
+    text-decoration: none;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-stack-headers;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.site-header {
+  background-image: url("/assets/images/samman_banner.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  background-color: $coral;
+  padding-top: 110px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+}
+@media screen and (max-width: $on-medium) {
+
+  .banner{
+    padding-right: 70px;
+    img{
+
+      width: 100%;
     }
+  }
+  .site-header {
+    background-image: url("/assets/images/samman_logo_right.png");
+    background-size: auto 110px; // keep logo height consistent on small screens
+    padding-bottom: 20px; // extend coral further down
+  }
+  .site-header .search-box {
+    margin: -8px 18px 12px 0;
+  }
+}
+
+.search-box {
+  float:right;
+  margin: -13px 18px 5px 0;
+}
+
+.search-box #search-input {
+  border: 1px solid $dark-blue;
+  border-radius: 6px;
+}
+
+.site-header #search-results {
+  display: none;
+  position: absolute;
+  background: #fff;
+  border: 1px solid $dark-blue;
+  border-radius: 6px;
+  z-index: 1000;
+  list-style: none;
+  margin: 0;
+  padding: 8px 8px 8px 0;
+  text-align: left;
+  width: 20em;
+  right: 18px;
+}
+
+.site-header #search-results.active {
+  display: block;
 }
 
 footer {
 	padding: 6px 12px;
+
+	.footer-logo-bar {
+	  margin: 12px -12px 0; // full-width bar inside padded footer
+	  background-color: $coral;
+	  border-top-left-radius: 5px;
+	  border-top-right-radius: 5px;
+	  text-align: center;
+	  padding: 6px 0;
+
+	  img {
+	    display: inline-block;
+	    max-width: 120px;
+	    height: auto;
+	  }
+	}
 }
 
 .wrapper {

@@ -24,7 +24,21 @@ When you push to the main branch, there is a github action that deploys the chan
 # Development plan for this website
 We would like to do some refactoring. This is the plan
 
-1. Add search feature
+1. Update style to new branding guidelines
+    - [x] review the colors for the text should be dark blue
+    - [x] hovers should coral
+    - [] links need to be discussed, light blue
+    - [x] background color whould be off white
+    - [x] remove references to old colours
+    - [] style the current nav item in light blue or coral
+    - [] need to install new fonts
+    - [] use new branding fonts
+    - [] move the search box somewhere better
+    - [] make the nav bar part of the header somehow
+    - [] make header look nice on mobile
+    - [] retain navigation 'current' css style when viewing pages underneath that tab (https://stackoverflow.com/questions/8340170/jekyll-automatically-highlight-current-tab-in-menu-bar)
+
+2. Add search feature
     - [x] bring back nice XML-based test reports in GitHub workflow
     - [x] search results include unwanted pages (e.g. 404)
     - [x] ensure the teardown kills the server

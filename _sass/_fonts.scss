@@ -1,0 +1,17 @@
+// Inter Variable Font for body text
+@font-face {
+  font-family: 'Inter';
+  src: url('/assets/fonts/Inter-Variable.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+// Neulis Sans Semi Bold for headers
+@font-face {
+  font-family: 'Neulis Sans';
+  src: url('/assets/fonts/NeulisSans-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}

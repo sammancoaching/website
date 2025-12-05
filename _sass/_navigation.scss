@@ -3,12 +3,39 @@
 
 .site-nav {
   position: absolute;
-  top: 9px;
-  right: $spacing-unit * .5;
-  background-color: white;
+  top: 20px;
+  left: $spacing-unit * .5;
+  background-color: $coral;
   border: 1px solid $dark-blue;
   border-radius: 5px;
-  text-align: right;
+  text-align: left;
+  font-family: $font-stack-headers;
+
+  a {
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 3px 6px;
+    margin: 0px;
+  }
+  a:link, a:visited {
+      color: $off-white;
+      background: $coral;
+  }
+  a:active,  a.current {
+      color: $coral;
+      background: $off-white;
+  }
+  a:hover {
+      background: $dark-blue;
+  }
+  a:hover.current {
+      color: $dark-blue;
+      background: $off-white;
+  }
+
 
   .nav-trigger {
     display: none;
@@ -29,7 +56,7 @@
 
   label[for="nav-trigger"] {
     display: block;
-    float: right;
+    float: left;
     width: 36px;
     height: 36px;
     z-index: 2;
@@ -56,14 +83,13 @@
     &:not(:last-child) {
       margin-right: 0;
     }
-    margin-left: 20px;
+    margin-left: 5px;
   }
 
   @media screen and (min-width: $on-medium) {
     position: static;
     float: none;
     border: none;
-    background-color: inherit;
     text-align: justify;
     text-align-last:center;
 
@@ -81,7 +107,7 @@
 
     .page-link {
       display: inline-block;
-      padding: 5px;
+      padding: 0px;
       margin:0px;
     }
   }
