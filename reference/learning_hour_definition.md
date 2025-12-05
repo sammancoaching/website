@@ -2,6 +2,7 @@
 layout: society
 title: Learning Hour - Definition
 ---
+# Learning Hour - Definition
 
 A Learning Hour is a short training session for a group of software developers led by a technical coach. They are designed to take about an hour, so you can fit them into your ordinary schedule alongside your other development work. You can do them remotely or in person.
 
