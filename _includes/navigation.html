@@ -11,9 +11,28 @@
   <div class="trigger">
 
     {% for item in site.data.navigation %}
+    {% assign item_len = item.link | size %}
+    {% assign page_prefix = page.url | slice: 0, item_len %}
+    {% assign is_current = false %}
+
+    {% if item.link == '/' %}
+      {% comment %} Home: only current on the root page {% endcomment %}
+      {% if page.url == '/' %}
+        {% assign is_current = true %}
+      {% endif %}
+    {% elsif item.link == '/reference/' %}
+      {% if page.url == item.link or page_prefix == item.link or page.layout == 'code_smell' or page.layout == 'refactoring' %}
+        {% assign is_current = true %}
+      {% endif %}
+    {% else %}
+      {% if page.url == item.link or page_prefix == item.link %}
+        {% assign is_current = true %}
+      {% endif %}
+    {% endif %}
+
     <div class="page-link">
       <a href="{{ item.link }}"
-         {% if page.url == item.link %}class="current"{% endif %}>
+         {% if is_current %}class="current"{% endif %}>
         {{ item.name }}
       </a>
     </div>
