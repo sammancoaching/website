@@ -18,4 +18,4 @@ Optional extras:
 * A bounded capacity can be specified at construction, so there is an upper limit to the number of items contained, with the least recently added items dropped on overflow.
 
 ### Acknowledgements
-This kata is described on cyber-dojo.org
+This kata is described on [cyber-dojo](https://cyber-dojo.org/)

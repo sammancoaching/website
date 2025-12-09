@@ -46,4 +46,4 @@ That means for example that multiples of 3 & 7 are “FizzWhizz”, multiples of
 
 
 ### Acknowledgments
-This kata is described on cyber-dojo.org, I added the follow-up requirements.
+This kata is described on [cyber-dojo](https://cyber-dojo.org/), I added the follow-up requirements.

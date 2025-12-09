@@ -32,4 +32,4 @@ C   C
 </pre>
 
 ### Acknowledgments
-This kata is described on cyber-dojo.org
+This kata is described on [cyber-dojo](https://cyber-dojo.org/)
