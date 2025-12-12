@@ -8,6 +8,7 @@ title: Samman Coaching Society Events
 If you are working as a technical coach, you might be interested in events organized by the society. Sign up using the links below:
 
 * [Online Open Space Networking Event]({% link society/events/next_open_space.md %})
+* [Samman Learning Hour]({% link society/events/next_learning_hour.md %})
 * [Samman Ensemble]({% link society/events/next_ensemble.md %})
 
 If you would like to get emails with information about future events, please sign up for our [Newsletter]({% link newsletter.md %}).
