@@ -1344,6 +1344,14 @@
         "url": "/society/events/all_open_space_events.html"
     },
     {
+        "title": "Samman Coaching Society Ensemble Events",
+        "url": "/society/events/next_ensemble.html"
+    },
+    {
+        "title": "Samman Coaching Society Learning Hour Events",
+        "url": "/society/events/next_learning_hour.html"
+    },
+    {
         "title": "Samman Coaching Society Online Open Space Event",
         "url": "/society/events/next_open_space.html"
     },
