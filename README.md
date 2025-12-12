@@ -49,14 +49,15 @@ We would like to do some refactoring. This is the plan
     - [x] toggle search on in production
     - [ ] investigate why you can't click on search results if the timeout is too small
 1. use title case for page titles
-1. rename about_society.md
-1. Think of a better name for "Activities" - "Learning Segments" and move it under "Reference" which we can rename to "Resources"
+1. Show a calendar of all upcoming events. Do not show joining info, link to information page for the event. Not sure how to achieve this - base it on the google calendar?
+4. rename about_society.md
+1. Think of a better name for "Activities" - "Learning Segments" or "4C Activity Templates" and move it under "Reference" which we can rename to "Resources"
 2. Work out what the 'workshops' collection is and whether to keep it and/or add it to the search index
 3. Improve page names for open space signups - too many pages with similar names!
+4. Add newsletter/blog
 1. switch from scripts to rake
 2. Add a field to katas for "difficulty" and allow people to sort them. Possibly tags too?
-3. Show a calendar of all upcoming events. Do not show joining info, link to information page for the event. Not sure how to achieve this - base it on the google calendar? 
-4. Use defined [perma links](https://jekyllrb.com/docs/permalinks/) instead of folder structure.
+3. Use defined [perma links](https://jekyllrb.com/docs/permalinks/) instead of folder structure.
 5. Move index pages to their own folder instead of having them in a folder structure.
 6. Make contributors into a collection.
 7. Remove layouts that are only used in one place, use html in these pages instead
