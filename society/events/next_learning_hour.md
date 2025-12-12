@@ -7,6 +7,8 @@ title: Samman Coaching Society Learning Hour Events
 
 _Preview new learning hours designed by society members and supporters._
 
+[Add to Calendar](https://addcal.co/ce/YSnGoV3KR4)
+
 This is a monthly, 90-minute meeting. This event is accessible to society contributers and supporters. Hosted by [Emily Bache]({% link society/contributors/emilybache.md %}). 
 The joining details are published on our Discord.
 
