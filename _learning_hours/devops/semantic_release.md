@@ -42,7 +42,7 @@ Review the notes and highlight those that relate to the concepts covered in the 
 
 ## 2️⃣ Concept: Semantic Versioning Specification (⏱️ 5 min)
 
-[Semantic Versioning] (SemVer) is a versioning scheme that consist in Simple set of rules and requirements that
+[Semantic Versioning] (SemVer) is a versioning scheme that consist in a simple set of rules and requirements that
 dictate how version numbers are assigned and incremented for software releases.
 
 SemVer uses a three-part version number - `MAJOR.MINOR.PATCH` - to communicate changes to the software with specific
