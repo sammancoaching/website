@@ -32,9 +32,9 @@ workflow.
 
 ## 1️⃣ Connect: How are version numbers assigned for your software? (⏱️ 5 min)
 
-Discuss with the group how version numbers are currently assigned in their current projects. You may
+Discuss with the group how version numbers are currently assigned in their current projects (you may
 use [Describe your experience]({% link _activities/connect/your_experience.md %}) or
-[Three Facts]({% link _activities/connect/three_facts.md %}) depending on the team size.
+[Three Facts]({% link _activities/connect/three_facts.md %}) depending on the team size).
 
 Write notes of what they say on a whiteboard or shared document where everyone can see them. 
 
