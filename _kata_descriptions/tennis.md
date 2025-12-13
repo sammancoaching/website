@@ -16,5 +16,5 @@ You can read more about Tennis scores [on wikipedia](http://en.wikipedia.org/wik
 
 You need only report the score for the current game. Sets and Matches are out of scope.
 
-### Acknowledgements
-This kata is described on cyber-dojo.org
+## Acknowledgements
+This kata is described on [cyber-dojo](https://cyber-dojo.org/)

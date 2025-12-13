@@ -428,6 +428,10 @@
         "url": "/kata_descriptions/parse_args.html"
     },
     {
+        "title": "Kata: Phonebook",
+        "url": "/kata_descriptions/phonebook.html"
+    },
+    {
         "title": "Kata: Recently Used List",
         "url": "/kata_descriptions/recently_used_list.html"
     },
