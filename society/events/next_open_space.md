@@ -1,15 +1,15 @@
 ---
-layout: event
+layout: all_open_space_events
 title: Samman Coaching Society Online Open Space Event
 ---
 
 # Samman Coaching Society Online Open Space Event
 
-**Thursday 18th December 2025, 16:00 Stockholm/Berlin/Paris**
+**Wednesday 21st January 2026, 16:00 Stockholm/Berlin/Paris**
 
 _Bring your questions and exchange experiences with other technical coaches._
 
-This is a one hour online open space hosted by [Emily Bache]({% link society/contributors/emilybache.md %}). Fill in the form lower down on this page to sign up and receive a meeting link by email.
+[Add to Calendar](https://calndr.link/event/t0S6bmoy2u). This is a one hour online open space hosted by [Emily Bache]({% link society/contributors/emilybache.md %}). Fill in the form lower down on this page to sign up and receive meeting links by email.
 
 We will use the online whiteboard Miro to set up an open space agenda together, then hold two timeboxed discussions in breakout rooms. Everyone will be encouraged to contribute topics for the agenda, and to actively take part in discussions.
 
@@ -37,4 +37,6 @@ Times are Stockholm/Berlin/Paris - use this link to [Add to Calendar](https://ca
 * Help each other out so that newcomers to [Samman Society]({% link society/index.md %}) events feel welcome!
 
 ### Sign up
-Fill in the form below to sign up to attend. We will email you a link to the Zoom meeting before it starts.
+If you fill in the form below you will receive a meeting link by email every time we hold an open space event. This email will also include a link to unsubscribe if you no longer wish to receive these emails. 
+
+The meeting links are also posted in our Discord server. You can get access to it by becoming a society [Supporter]({% link society/supporters.md %}) or [Contributor]({% link society/contributors/index.md %}).  

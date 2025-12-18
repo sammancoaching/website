@@ -9,7 +9,7 @@ The Samman Technical Coaching Society members who manage this website are listed
 {% endcapture %}
 
 {% capture section2 %}
-We are also very grateful to other technical coaches who collaborate with us and contribute learning hours:
+We are also very grateful to our Contributors. These are technical coaches who have shared their materials with us:
 {% endcapture %}
 
 {% include contributors.html %}

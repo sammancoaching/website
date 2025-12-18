@@ -3,6 +3,14 @@ layout: society
 title: About Membership of the Samman Technical Coaching Society
 ---
 
+{% capture section1 %}
+# Samman Society Members
+These are the current members of the society. All have good coaching skills and contribute to the society's [mission]({% link society/about_society.md %}).
+
+{% endcapture %}
+
+{% include members.html %}
+
 # About Membership of the Samman Technical Coaching Society
 
 This page sets out:
