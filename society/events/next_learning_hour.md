@@ -9,12 +9,9 @@ _Preview new learning hours designed by society members and supporters._
 
 [Add to Calendar](https://addcal.co/ce/YSnGoV3KR4)
 
-This is a monthly, 90-minute meeting. This event is accessible to society contributers and supporters. Hosted by [Emily Bache]({% link society/contributors/emilybache.md %}). 
-The joining details are published on our Discord.
+This is a monthly, 90-minute meeting. We use this time to try out a new learning hour before it is published on the website. The presenter gets qualified feedback from other coaches.  Hosted by [Emily Bache]({% link society/contributors/emilybache.md %}).
 
-We use this time to try out a new learning hour before it is published on the website. The presenter gets qualified feedback from other coaches.
+These events are open to [Members]({% link society/membership.md %}), [Supporters]({% link society/supporters.md %}) and [Contributors]({% link society/contributors/index.md %}). The joining details are published on our Discord.
 
-If you think this is something you would like to participate in, then contributing and supporting some of our open events, such as the [Open Space]({% link society/events/next_open_space.md %})
-is the best way to introduce yourself and find out more.
-
-This event is also open to [Patreon Supporters](https://www.patreon.com/EmilyBache).
+If you would like to get involved in the work of the society, we recommend you join one of our [Open Space]({% link society/events/next_open_space.md %}) events
+so you can introduce yourself and find out more.

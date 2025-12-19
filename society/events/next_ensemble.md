@@ -7,12 +7,9 @@ title: Samman Coaching Society Ensemble Events
 
 _Support the Society and Collaborate with Other Coaches._
 
-This is a weekly, 1 hour ensemble. This event is accessible to society contributers and supporters. Hosted by [Emily Bache]({% link society/contributors/emilybache.md %}). 
-The joining details are published on our Discord.
+This is a weekly, 1 hour ensemble. We use this time to collaborate with our friends in the industry, where a diverse range of skills are brought to the room and we have fun writing code using ensemble techniques.  Hosted by [Emily Bache]({% link society/contributors/emilybache.md %}).
 
-We use this time to collaborate with our friends in the industry, where a diverse range of skills are brought to the room and we have fun writing code using ensemble techniques.
+This event is open to [Members]({% link society/membership.md %}), [Supporters]({% link society/supporters.md %}) and [Contributors]({% link society/contributors/index.md %}). The joining details are published on our Discord.
 
-If you think this is something you would like to participate in, then contributing and supporting some of our open events, such as the [Open Space]({% link society/events/next_open_space.md %})
-is the best way to introduce yourself and find out more.
-
-This event is also open to [Patreon Supporters](https://www.patreon.com/EmilyBache).
+If you would like to get involved in the work of the society, we recommend you join one of our [Open Space]({% link society/events/next_open_space.md %}) events
+so you can introduce yourself and find out more.
