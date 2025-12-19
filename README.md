@@ -27,17 +27,18 @@ We would like to do some refactoring. This is the plan
 1. Update style to new branding guidelines
     - [x] review the colors for the text should be dark blue
     - [x] hovers should coral
-    - [] links need to be discussed, light blue
+    - [x] links need to be discussed, light blue
     - [x] background color whould be off white
     - [x] remove references to old colours
-    - [] style the current nav item in light blue or coral
-    - [] need to install new fonts
-    - [] use new branding fonts
-    - [] move the search box somewhere better
-    - [] make the nav bar part of the header somehow
-    - [] make header look nice on mobile
-    - [] retain navigation 'current' css style when viewing pages underneath that tab (https://stackoverflow.com/questions/8340170/jekyll-automatically-highlight-current-tab-in-menu-bar)
-
+    - [x] style the current nav item in light blue or coral
+    - [x] need to install new fonts
+    - [x] use new branding fonts
+    - [x] move the search box somewhere better
+    - [x] make the nav bar part of the header somehow
+    - [x] make header look nice on mobile
+    - [x] retain navigation 'current' css style when viewing pages underneath that tab (https://stackoverflow.com/questions/8340170/jekyll-automatically-highlight-current-tab-in-menu-bar)
+    - [] search box hovers too far to the right if window is wide
+   
 2. Add search feature
     - [x] bring back nice XML-based test reports in GitHub workflow
     - [x] search results include unwanted pages (e.g. 404)
@@ -48,14 +49,15 @@ We would like to do some refactoring. This is the plan
     - [x] toggle search on in production
     - [ ] investigate why you can't click on search results if the timeout is too small
 1. use title case for page titles
-1. rename about_society.md
-1. Think of a better name for "Activities" - "Learning Segments" and move it under "Reference" which we can rename to "Resources"
+1. Show a calendar of all upcoming events. Do not show joining info, link to information page for the event. Not sure how to achieve this - base it on the google calendar?
+4. rename about_society.md
+1. Think of a better name for "Activities" - "Learning Segments" or "4C Activity Templates" and move it under "Reference" which we can rename to "Resources"
 2. Work out what the 'workshops' collection is and whether to keep it and/or add it to the search index
 3. Improve page names for open space signups - too many pages with similar names!
+4. Add newsletter/blog
 1. switch from scripts to rake
 2. Add a field to katas for "difficulty" and allow people to sort them. Possibly tags too?
-3. Show a calendar of all upcoming events. Do not show joining info, link to information page for the event. Not sure how to achieve this - base it on the google calendar? 
-4. Use defined [perma links](https://jekyllrb.com/docs/permalinks/) instead of folder structure.
+3. Use defined [perma links](https://jekyllrb.com/docs/permalinks/) instead of folder structure.
 5. Move index pages to their own folder instead of having them in a folder structure.
 6. Make contributors into a collection.
 7. Remove layouts that are only used in one place, use html in these pages instead
