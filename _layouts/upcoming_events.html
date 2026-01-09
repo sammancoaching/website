@@ -1,0 +1,30 @@
+---
+layout: society
+---
+
+<h1>{{ page.title }}</h1>
+
+<div class="events-list">
+{% for event in page.events %}
+  <div class="event-card">
+    <div class="event-date-block">
+      <div class="weekday">{{ event.weekday }}</div>
+      <div class="day">{{ event.day }}</div>
+      <div class="month-year">{{ event.month_year }}</div>
+      <div class="time">{{ event.time }}</div>
+    </div>
+    <div class="event-details">
+      <h3>{{ event.title }}</h3>
+      <div class="event-meta">
+        <span>{{ event.duration }}</span>
+        <span>{{ event.audience }}</span>
+      </div>
+      <p>{{ event.description }}</p>
+      <div class="event-links">
+        <a href="#" class="add-calendar-btn">Add to Calendar</a>
+        <a href="{% link {{ event.details_link }} %}" class="details-link">View Details</a>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+</div>
