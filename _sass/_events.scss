@@ -15,6 +15,7 @@
   border: 2px solid #e8e8e8;
   border-radius: 10px;
   transition: all 0.3s ease;
+  color: #4caf50;
 }
 
 .event-card:hover {
@@ -111,13 +112,14 @@
 }
 
 .add-calendar-btn {
-  background: $dark-blue;
-  color: white;
+  background: white;
+  color: $light-blue;
+  border: 2px solid $light-blue;
 }
 
 .add-calendar-btn:hover {
-  background: $mid-blue;
-  transform: translateY(-2px);
+  background: $light-blue;
+  color: $dark-blue;
 }
 
 .details-link {
