@@ -18,5 +18,12 @@ Write a function that will create a consistent Phonebook from a file of name and
 
 There are files of suitable test data available in this repo: [Phone-Numbers-Kata](https://github.com/emilybache/Phone-Numbers-Kata).
 
+## Enterprise functionality
+Your phonebook is so successful that it needs _enterprise_ support. The following features are requested:
+
+* **Security Authorization** - Looking up numbers needs authorization. Before returning the number associated with a name, make an http GET call to a security service endpoint and ensure you get a 200 OK response.
+* **Invalid Entry Reporting** - If someone attempts to add a new entry that would cause the phonebook to become inconsistent, don't add it, just report the attempt. Include the new and existing clashing entries in a json file that you POST to a reporting service http endpoint.
+* **Audit Logging** - write to an audit log every time a new entry is added to the phonebook. This log may be a local file or a remote service, the runtime implementation should be configurable.
+
 ## Acknowledgements
-This kata is described on [cyber-dojo](https://cyber-dojo.org/) and I have tweaked it slightly.
+This kata is described on [cyber-dojo](https://cyber-dojo.org/) although I have added further requirements.
