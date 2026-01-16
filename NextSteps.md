@@ -5,12 +5,17 @@
 We want to dynamically fetch event dates from AddCal ICS feeds instead of hardcoding them in the markdown file. This will allow events to be automatically updated whenever the site is rebuilt with Jekyll.
 
 ### Current State
-- Events are manually defined in `society/events/upcoming_events.md` front matter
+- Events are manually defined in `society/events/upcoming_events.md` front matter with hardcoded dates
+- Each event now has a `next_event` property pointing to its specific ICS feed:
+  - Learning Hour: `https://addcal.co/ce/YSnGoV3KR4/ics`
+  - Open Space: `https://addcal.co/ce/t0S6bmoy2u/ics`
+  - Ensemble: `https://addcal.co/ce/PsrhxxrWjJ/ics`
 - Layout `_layouts/upcoming_events.html` renders events from page front matter
-- AddCal provides ICS feed at: `https://addcal.co/ce/t0S6bmoy2u/apple`
+- Static metadata (title, description, audience, details_link) remains in front matter
 
 ### Target State
-- Events fetched dynamically from AddCal ICS feed during Jekyll build
+- Event dates/times fetched dynamically from individual ICS feeds during Jekyll build
+- Static metadata (title, description, audience, details_link) kept in front matter
 - No manual date updates needed in markdown files
 - Automatic filtering to show only future events
 
@@ -67,43 +72,52 @@ bundle install
 
 **File:** `_layouts/upcoming_events.html`
 
-Replace the current event loop with the jekyll-ical-tag syntax. The current template uses:
+Update the template to fetch dates dynamically from each event's `next_event` ICS feed while preserving the static metadata from the front matter.
+
+The current template uses:
 ```liquid
 {% for event in page.events %}
 ```
 
-Replace the entire events-list div (lines 7-30) with:
+Replace the entire events-list div (lines 7-30) with a hybrid approach:
 
 ```liquid
 <div class="events-list">
-{% ical url: https://addcal.co/ce/t0S6bmoy2u/apple only_future: true %}
+{% for event_meta in page.events %}
+  {% ical url: {{ event_meta.next_event }} only_future: true limit: 1 %}
   <div class="event-card">
     <div class="event-date-block">
       <div class="weekday">{{ event.start_time | date: "%A" }}</div>
       <div class="day">{{ event.start_time | date: "%-d" }}</div>
       <div class="month-year">{{ event.start_time | date: "%B %Y" }}</div>
-      <div class="time">{{ event.start_time | date: "%H:%M %Z" }}</div>
+      <div class="time">{{ event.start_time | date: "%H:%M" }}</div>
     </div>
     <div class="event-details">
-      <h3>{{ event.summary }}</h3>
+      <h3>{{ event_meta.title }}</h3>
       <div class="event-meta">
-        <span>{{ event.dtend | date: "%H:%M" | minus: event.dtstart | date: "%H:%M" }} minutes</span>
-        <span>{{ event.location }}</span>
+        <span>{{ event_meta.duration }}</span>
+        <span>{{ event_meta.audience }}</span>
       </div>
-      <p>{{ event.description }}</p>
+      <p>{{ event_meta.description }}</p>
       <div class="event-links">
-        <a href="https://addcal.co/ce/t0S6bmoy2u" class="add-calendar-btn">Add to Calendar</a>
-        {% if event.url %}
-        <a href="{{ event.url }}" class="details-link">View Details</a>
+        <a href="{{ event_meta.next_event | replace: '/ics', '' }}" class="add-calendar-btn">Add to Calendar</a>
+        {% if event_meta.details_link %}
+        <a href="{{ event_meta.details_link | relative_url }}" class="details-link">View Details</a>
         {% endif %}
       </div>
     </div>
   </div>
-{% endical %}
+  {% endical %}
+{% endfor %}
 </div>
 ```
 
-**Note:** The ICS feed may not contain all the custom fields we currently have (like `audience`, `details_link`). You may need to adjust the template based on what data is actually in the AddCal ICS feed.
+**Key changes:**
+- Loop through `page.events` to get static metadata (title, description, audience, details_link)
+- For each event, use `{% ical %}` tag with the `next_event` URL to fetch dynamic date/time
+- Use `limit: 1` to get only the next occurrence
+- Combine ICS date data with front matter metadata
+- Preserve existing styling and structure
 
 **Action for agent:** Use the `edit` tool to replace the events loop in `_layouts/upcoming_events.html`.
 
@@ -111,16 +125,41 @@ Replace the entire events-list div (lines 7-30) with:
 
 **File:** `society/events/upcoming_events.md`
 
-Remove the hardcoded events from the front matter, keeping only the layout and title:
+Remove the hardcoded date/time fields (weekday, day, month_year, time) from each event, keeping only:
+- Static metadata: title, duration, audience, description, details_link
+- Dynamic data reference: next_event (ICS URL)
+
+The front matter should look like:
 
 ```yaml
 ---
 layout: upcoming_events
 title: Upcoming Samman Coaching Society Events
+events:
+  - title: Samman Coaching Society Learning Hour
+    duration: 90 minutes
+    audience: Society Members
+    description: Preview new learning hours designed by society members and supporters. Get qualified feedback from other coaches before publishing on the website.
+    details_link: society/events/next_learning_hour.md
+    next_event: https://addcal.co/ce/YSnGoV3KR4/ics
+  
+  - title: Online Open Space Event
+    duration: 60 minutes
+    audience: Open to All
+    description: Bring your questions and exchange experiences with other technical coaches. Free to attend. We'll collaboratively create an agenda and hold discussions in breakout rooms.
+    details_link: society/events/next_open_space.md
+    next_event: https://addcal.co/ce/t0S6bmoy2u/ics
+  
+  - title: Samman Coaching Society Ensemble
+    duration: 60 minutes
+    audience: Society Members
+    description: Weekly ensemble session to collaborate with other coaches. Bring diverse skills to the room and have fun writing code together using ensemble techniques.
+    details_link: society/events/next_ensemble.md
+    next_event: https://addcal.co/ce/PsrhxxrWjJ/ics
 ---
 ```
 
-**Action for agent:** Use the `edit` tool to remove the `events:` section and all event data from the front matter.
+**Action for agent:** Use the `edit` tool to remove the hardcoded date fields (weekday, day, month_year, time) from each event.
 
 ### Step 6: Test the Implementation
 
@@ -144,25 +183,36 @@ Check that:
 
 ## Important Considerations for Implementation
 
+### Hybrid Data Model
+
+This implementation uses a **hybrid approach**:
+- **Static metadata** (title, description, audience, duration, details_link) stays in `upcoming_events.md` front matter
+- **Dynamic date/time data** fetched from individual ICS feeds via `next_event` property
+- Each event type has its own AddCal ICS feed
+
+**Benefits:**
+- Custom fields (audience, duration, details_link) remain available
+- Only dates/times need updating in AddCal
+- Event descriptions and metadata controlled in the repository
+- Each event series (Learning Hour, Open Space, Ensemble) managed independently
+
 ### AddCal ICS Feed Structure
 
-The AddCal ICS feed will provide standard iCalendar fields:
-- `summary` - Event title
-- `description` - Event description
-- `dtstart` - Start date/time
+Each AddCal ICS feed will provide standard iCalendar fields:
+- `dtstart` - Start date/time (used for display)
 - `dtend` - End date/time
-- `location` - Event location
-- `url` - Event URL (if provided)
-
-**Missing fields:** The current template uses custom fields like `audience`, `duration`, and `details_link` that won't be in the ICS feed. You'll need to either:
-1. Remove these fields from the template, OR
-2. Add them to the AddCal event descriptions in a structured format and parse them
+- `summary` - Event title (from AddCal, but we use front matter title instead)
+- `description` - Event description (from AddCal, but we use front matter description instead)
+- `location` - Event location (if configured in AddCal)
 
 ### Multiple Event Types
 
-If you have different types of events (Learning Hour, Open Space, Ensemble) with different AddCal feeds, you may need to:
-1. Call the `{% ical %}` tag multiple times with different URLs
-2. Add custom logic to categorize events based on their titles or descriptions
+Each event type has its own ICS feed:
+- **Learning Hour:** `https://addcal.co/ce/YSnGoV3KR4/ics`
+- **Open Space:** `https://addcal.co/ce/t0S6bmoy2u/ics`
+- **Ensemble:** `https://addcal.co/ce/PsrhxxrWjJ/ics`
+
+The template loops through `page.events` and fetches the next occurrence from each feed individually.
 
 ### Time Zone Handling
 
@@ -201,23 +251,29 @@ When implementing this plan:
 2. **Make targeted edits** - Use the `edit` tool with exact string matching
 3. **Test incrementally** - Run the build after each major change
 4. **Check for errors** - Read build output carefully
-5. **Verify the ICS feed** - Before implementing, fetch the AddCal URL to see what data is actually available
-6. **Adjust the template** - Based on actual ICS feed contents, you may need to modify the template structure
-7. **Don't assume** - If a field isn't in the ICS feed, don't include it in the template
+5. **Understand the hybrid model** - Static metadata stays in front matter, only dates come from ICS feeds
+6. **Preserve existing data** - Don't remove the static fields (title, description, audience, duration, details_link)
+7. **Remove only date fields** - Only remove weekday, day, month_year, and time from the front matter
+8. **Test with multiple feeds** - Each event has its own ICS feed URL in the `next_event` property
 
 ## Additional Resources
 
 - jekyll-ical-tag GitHub: https://github.com/Rakefire/jekyll-ical-tag
 - jekyll-ical-tag RubyGems: https://rubygems.org/gems/jekyll-ical-tag
 - iCalendar RFC 5545: https://tools.ietf.org/html/rfc5545
-- AddCal ICS Feed: https://addcal.co/ce/t0S6bmoy2u/apple
+- AddCal ICS Feeds:
+  - Learning Hour: https://addcal.co/ce/YSnGoV3KR4/ics
+  - Open Space: https://addcal.co/ce/t0S6bmoy2u/ics
+  - Ensemble: https://addcal.co/ce/PsrhxxrWjJ/ics
 
 ## Success Criteria
 
 - [ ] jekyll-ical-tag gem installed and configured
-- [ ] Layout template updated to use ICS feed
-- [ ] Hardcoded events removed from markdown file
+- [ ] Layout template updated to use hybrid approach (ICS dates + front matter metadata)
+- [ ] Hardcoded date fields removed from markdown file (weekday, day, month_year, time)
+- [ ] Static metadata preserved in markdown file (title, description, audience, duration, details_link, next_event)
 - [ ] Site builds successfully without errors
-- [ ] Events page displays future events from AddCal
-- [ ] Event dates, times, and descriptions render correctly
+- [ ] Events page displays future events with dates from individual AddCal ICS feeds
+- [ ] Event dates, times, titles, and descriptions render correctly
+- [ ] Custom fields (audience, duration, details links) display correctly
 - [ ] Styling remains consistent with current design

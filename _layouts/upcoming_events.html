@@ -5,26 +5,75 @@ layout: society
 <h1>{{ page.title }}</h1>
 
 <div class="events-list">
-{% for event in page.events %}
+{% assign event_meta = page.events[0] %}
+{% ical url: https://addcal.co/ce/YSnGoV3KR4/ics only_future: true limit: 1 %}
   <div class="event-card">
     <div class="event-date-block">
-      <div class="weekday">{{ event.weekday }}</div>
-      <div class="day">{{ event.day }}</div>
-      <div class="month-year">{{ event.month_year }}</div>
-      <div class="time">{{ event.time }}</div>
+      <div class="weekday">{{ event.start_time | date: "%A" }}</div>
+      <div class="day">{{ event.start_time | date: "%-d" }}</div>
+      <div class="month-year">{{ event.start_time | date: "%B %Y" }}</div>
+      <div class="time">{{ event.start_time | date: "%H:%M" }}</div>
     </div>
     <div class="event-details">
-      <h3>{{ event.title }}</h3>
+      <h3>{{ event_meta.title }}</h3>
       <div class="event-meta">
-        <span>{{ event.duration }}</span>
-        <span>{{ event.audience }}</span>
+        <span>{{ event_meta.duration }}</span>
+        <span>{{ event_meta.audience }}</span>
       </div>
-      <p>{{ event.description }}</p>
+      <p>{{ event_meta.description }}</p>
       <div class="event-links">
-        <a href="#" class="add-calendar-btn">Add to Calendar</a>
-        <a href="{% link {{ event.details_link }} %}" class="details-link">View Details</a>
+        <a href="{{ event_meta.next_event | replace: '/ics', '' }}" class="add-calendar-btn">Add to Calendar</a>
+        <a href="{% link {{ event_meta.details_link }} %}" class="details-link">View Details</a>
       </div>
     </div>
   </div>
-{% endfor %}
+{% endical %}
+
+{% assign event_meta = page.events[1] %}
+{% ical url: https://addcal.co/ce/t0S6bmoy2u/ics only_future: true limit: 1 %}
+  <div class="event-card">
+    <div class="event-date-block">
+      <div class="weekday">{{ event.start_time | date: "%A" }}</div>
+      <div class="day">{{ event.start_time | date: "%-d" }}</div>
+      <div class="month-year">{{ event.start_time | date: "%B %Y" }}</div>
+      <div class="time">{{ event.start_time | date: "%H:%M" }}</div>
+    </div>
+    <div class="event-details">
+      <h3>{{ event_meta.title }}</h3>
+      <div class="event-meta">
+        <span>{{ event_meta.duration }}</span>
+        <span>{{ event_meta.audience }}</span>
+      </div>
+      <p>{{ event_meta.description }}</p>
+      <div class="event-links">
+        <a href="{{ event_meta.next_event | replace: '/ics', '' }}" class="add-calendar-btn">Add to Calendar</a>
+        <a href="{% link {{ event_meta.details_link }} %}" class="details-link">View Details</a>
+      </div>
+    </div>
+  </div>
+{% endical %}
+
+{% assign event_meta = page.events[2] %}
+{% ical url: https://addcal.co/ce/PsrhxxrWjJ/ics only_future: true limit: 1 %}
+  <div class="event-card">
+    <div class="event-date-block">
+      <div class="weekday">{{ event.start_time | date: "%A" }}</div>
+      <div class="day">{{ event.start_time | date: "%-d" }}</div>
+      <div class="month-year">{{ event.start_time | date: "%B %Y" }}</div>
+      <div class="time">{{ event.start_time | date: "%H:%M" }}</div>
+    </div>
+    <div class="event-details">
+      <h3>{{ event_meta.title }}</h3>
+      <div class="event-meta">
+        <span>{{ event_meta.duration }}</span>
+        <span>{{ event_meta.audience }}</span>
+      </div>
+      <p>{{ event_meta.description }}</p>
+      <div class="event-links">
+        <a href="{{ event_meta.next_event | replace: '/ics', '' }}" class="add-calendar-btn">Add to Calendar</a>
+        <a href="{% link {{ event_meta.details_link }} %}" class="details-link">View Details</a>
+      </div>
+    </div>
+  </div>
+{% endical %}
 </div>
