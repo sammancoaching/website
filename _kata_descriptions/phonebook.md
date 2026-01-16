@@ -22,7 +22,7 @@ There are files of suitable test data available in this repo: [Phone-Numbers-Kat
 Your phonebook is so successful that it needs _enterprise_ support. The following features are requested:
 
 * **Security Authorization** - Looking up numbers needs authorization. Before returning the number associated with a name, make an http GET call to a security service endpoint and ensure you get a 200 OK response.
-* **Invalid Entry Reporting** - If someone attempts to add a new entry that would cause the phonebook to become inconsistent, don't add it, just report the attempt. Include the new and existing clashing entries in a json file that you POST to a reporting service http endpoint.
+* **Invalid Entry Reporting** - If someone attempts to add a new entry that would cause the phonebook to become inconsistent, don't add it, and report the attempt. Include the new and existing clashing entries in a json file that you POST to a reporting service http endpoint.
 * **Audit Logging** - write to an audit log every time a new entry is added to the phonebook. This log may be a local file or a remote service, the runtime implementation should be configurable.
 
 ## Acknowledgements
