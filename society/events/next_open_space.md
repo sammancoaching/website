@@ -22,11 +22,7 @@ We will use the online whiteboard Miro to set up an open space agenda together, 
 This event is free to attend.
 
 ## Agenda
-Times are Stockholm/Berlin/Paris - use this link to add to calendar in your timezone:
-
-<div class="event-links">
-  <a href="https://calndr.link/event/t0S6bmoy2u" class="add-calendar-btn">Add to Calendar</a>
-</div>
+Note: times are Stockholm/Berlin/Paris
 * 15:50 - Online meeting opens.
 * 16:00 - Welcome & information, collaboratively agree open space agenda
 * 16:15 - First open space session
