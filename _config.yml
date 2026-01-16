@@ -26,6 +26,7 @@ github_username:  sammancoaching
 # Build settings
 markdown: kramdown
 search_enabled: true
+timezone: Europe/Stockholm
 plugins:
   - jekyll-feed
 collections:
