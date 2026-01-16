@@ -580,6 +580,10 @@
         "url": "/learning_hours/code_reading.html"
     },
     {
+        "title": "Learning Hour: Code Smells - Summaries",
+        "url": "/learning_hours/code_reading/code_smell_summaries.html"
+    },
+    {
         "title": "Learning Hour: Code Smells - Introduction",
         "url": "/learning_hours/code_reading/code_smells_intro.html"
     },
