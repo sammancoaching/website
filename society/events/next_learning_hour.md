@@ -7,6 +7,10 @@ title: Samman Coaching Society Learning Hour Events
 
 _Preview new learning hours designed by society members and supporters._
 
+{% ical url: https://addcal.co/ce/YSnGoV3KR4/ics only_future: true limit: 1 %}
+**Next event: {{ event.start_time | date: "%A %-d %B %Y, %H:%M" }} {{ event.start_time | date: "%Z" }}**
+{% endical %}
+
 [Add to Calendar](https://addcal.co/ce/YSnGoV3KR4)
 
 This is a monthly, 90-minute meeting. We use this time to try out a new learning hour before it is published on the website. The presenter gets qualified feedback from other coaches.  Hosted by [Emily Bache]({% link society/contributors/emilybache.md %}).

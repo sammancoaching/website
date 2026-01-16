@@ -5,7 +5,9 @@ title: Samman Coaching Society Online Open Space Event
 
 # Samman Coaching Society Online Open Space Event
 
-**Wednesday 21st January 2026, 16:00 Stockholm/Berlin/Paris**
+{% ical url: https://addcal.co/ce/t0S6bmoy2u/ics only_future: true limit: 1 %}
+**{{ event.start_time | date: "%A %-d %B %Y, %H:%M" }} Stockholm/Berlin/Paris**
+{% endical %}
 
 _Bring your questions and exchange experiences with other technical coaches._
 
