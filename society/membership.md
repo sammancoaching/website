@@ -68,6 +68,8 @@ New members should have the recommendation of at least two existing members. Tho
 
 The executive board will make the final decision whether to offer membership to an individual, although they may delegate this power to a committee.
 
+New members should agree to follow our [Code of Conduct]({% link society/code_of_conduct.md %}) and pay the membership fee for the current year.
+
 ## Other roles within the society
 The society's statutes set out these roles: member of the executive board and member of the nomination committee. The executive board is elected from among members, and the position as chair of the board is also elected by the members. This happens at the Annual General Meeting. The nomination committee decides who will be put forward for election at this meeting. It is up to the executive board to decide on any other roles.
 
