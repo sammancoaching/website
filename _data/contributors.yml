@@ -67,7 +67,8 @@ peitor:
   title: Peter Gfader
   url: https://beyond-agility.com/
   affiliation: Beyond Agility
-  member: no
+  member: yes
+  member_since: 2026-01-20
 gregorriegler:
   title: Gregor Riegler
   url: https://gregorriegler.com
@@ -90,6 +91,7 @@ xrecoba:
   url: https://www.myowncommonsense.com/
   affiliation: Independent
   member: yes
+  member_since: 2025-10-21
 julienvitte:
   title: Julien Vitte
   url: https://www.insidegroup.fr/
@@ -121,16 +123,19 @@ ronheywood:
   url: https://github.com/ronheywood
   affiliation: Spektrix
   member: yes
+  member_since: 2025-05-21
 philou:
   title: Philippe Bourgau
   url: https://philippe.bourgau.net/
   affiliation: Independent and employed at Murex
   member: yes
+  member_since: 2025-11-24
 devill:
   title: Ivett Ördög
   url: https://www.ivettordog.com/
   affiliation: Independent
   member: yes
+  member_since: 2025-09-01
 mhc03:
   title: Murat Han Celik
   url: https://www.linkedin.com/in/murat-han-celik-105221265
@@ -140,6 +145,7 @@ nicolerauch:
   url: http://nicole-rauch.de
   affiliation: Independent
   member: yes
+  member_since: 2025-10-21
 ibanfr:
   title: Iván Fernández
   url: https://ibanfr.github.io/

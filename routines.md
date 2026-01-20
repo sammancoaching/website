@@ -23,7 +23,7 @@ There are also tasks for updating things in Hubspot
 5. Create and schedule email on the day with zoom link
 
 ## Adding new society members
-* Make sure they have read and understood [Membership](https://sammancoaching.org/society/membership.html)
+* Make sure they have read and understood [Membership](https://sammancoaching.org/society/membership.html) & [Code of conduct](https://sammancoaching.org/society/code_of_conduct.html)
 * Invite them to github organization
 * Update their settings in [contributors](_data/contributors.yml)
 * Update their profile page on this site
