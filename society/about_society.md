@@ -6,7 +6,7 @@ title: The Mission of the Samman Technical Coaching Society
 # The Mission of the Samman Technical Coaching Society
 
 Our mission is to promote and develop Samman Technical Coaching and support people everywhere who work as [technical coaches](
-{% link reference/technical_coach_definition.md %}) with resources and opportunities to meet other coaches. We are continually learning and using better ways to help individuals and teams to adopt the technical practices that enable iterative and incremental software development. 
+{% link reference/technical_coach_definition.md %}) with resources and opportunities to meet other coaches. We are continually learning and using better ways to help individuals and teams to adopt the technical practices that enable iterative and incremental software development. The society has formally adopted a [Code of Conduct]({% link society/code_of_conduct.md %})
 
 The Samman Technical Coaching Society is a not-for-profit organization based in Sweden. The society owns the domain name 'sammancoaching.org' and the brand 'Samman Coaching' and protects these from misuse by third parties. Details of the society's trademark registration are available in the [EUIPO database](https://www.euipo.europa.eu/). 
 

@@ -5,8 +5,6 @@ title: Samman Society Code of Conduct
 
 # Samman Society Code of Conduct
 
-Note: This is a draft and has not yet been formally adopted.
-
 ## Our Pledge
 We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.
 
