@@ -5,4 +5,4 @@ The individual event pages don't show times from ical because I couldn't work ou
 
 - Check what happens if I forget to update the date or time of an event.
 - Assess how easy it is to add new events or one-off events.
-- 
+- We need to implement the time zone conversion in the individual events pages (as seen in upcoming_events.html)
