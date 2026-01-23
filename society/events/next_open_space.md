@@ -5,14 +5,16 @@ title: Samman Coaching Society Online Open Space Event
 
 # Samman Coaching Society Online Open Space Event
 
-{% ical url: https://addcal.co/ce/t0S6bmoy2u/ics only_future: true limit: 1 %}
+{% assign ical_url = site.data.events.open_space.ical_url %}
+{% assign calendar_link = site.data.events.open_space.calendar_link %}
+{% ical url: ical_url only_future: true limit: 1 %}
 **{{ event.start_time | date: "%A %-d %B %Y" }}, 16:00 Stockholm/Berlin/Paris**
 {% endical %}
 
 _Bring your questions and exchange experiences with other technical coaches._
 
 <div class="event-links">
-  <a href="https://calndr.link/event/t0S6bmoy2u" class="add-calendar-btn">Add to Calendar</a>
+  <a href="{{ calendar_link }}" class="add-calendar-btn">Add to Calendar</a>
 </div>
 
 This is a one hour online open space hosted by [Emily Bache]({% link society/contributors/emilybache.md %}). Fill in the form lower down on this page to sign up and receive meeting links by email.

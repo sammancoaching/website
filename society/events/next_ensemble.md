@@ -7,11 +7,13 @@ title: Samman Coaching Society Ensemble Events
 
 _Support the Society and Collaborate with Other Coaches._
 
-{% ical url: https://addcal.co/ce/PsrhxxrWjJ/ics only_future: true limit: 1 %}
+{% assign ical_url = site.data.events.ensemble.ical_url %}
+{% assign calendar_link = site.data.events.ensemble.calendar_link %}
+{% ical url: ical_url only_future: true limit: 1 %}
 **Next event: {{ event.start_time | date: "%A %-d %B %Y" }}**
 
 <div class="event-links">
-  <a href="https://calndr.link/event/PsrhxxrWjJ" class="add-calendar-btn">Add to Calendar</a>
+  <a href="{{ calendar_link }}" class="add-calendar-btn">Add to Calendar</a>
 </div>
 {% endical %}
 

@@ -7,11 +7,13 @@ title: Samman Coaching Society Learning Hour Events
 
 _Preview new learning hours designed by society members and supporters._
 
-{% ical url: https://addcal.co/ce/YSnGoV3KR4/ics only_future: true limit: 1 %}
+{% assign ical_url = site.data.events.learning_hour.ical_url %}
+{% assign calendar_link = site.data.events.learning_hour.calendar_link %}
+{% ical url: ical_url only_future: true limit: 1 %}
 **Next event: {{ event.start_time | date: "%A %-d %B %Y" }}**
 
 <div class="event-links">
-  <a href="https://addcal.co/ce/YSnGoV3KR4" class="add-calendar-btn">Add to Calendar</a>
+  <a href="{{ calendar_link }}" class="add-calendar-btn">Add to Calendar</a>
 </div>
 {% endical %}
 
