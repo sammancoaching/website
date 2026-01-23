@@ -15,7 +15,7 @@ layout: society
       <div class="weekday">{{ local_time | date: "%A" }}</div>
       <div class="day">{{ local_time | date: "%-d" }}</div>
       <div class="month-year">{{ local_time | date: "%B %Y" }}</div>
-      <div class="time">{{ local_time | date: "%H:%M" }} Stockholm/Berlin/Paris</div>
+      <div class="time">{{ local_time | date: "%H:%M %Z" }} </div>
     </div>
     <div class="event-details">
       <h3>{{ event_meta.title }}</h3>
@@ -42,7 +42,7 @@ layout: society
       <div class="weekday">{{ local_time | date: "%A" }}</div>
       <div class="day">{{ local_time | date: "%-d" }}</div>
       <div class="month-year">{{ local_time | date: "%B %Y" }}</div>
-      <div class="time">{{ local_time | date: "%H:%M" }} Stockholm/Berlin/Paris</div>
+      <div class="time">{{ local_time | date: "%H:%M %Z" }}</div>
     </div>
     <div class="event-details">
       <h3>{{ event_meta.title }}</h3>
@@ -69,7 +69,7 @@ layout: society
       <div class="weekday">{{ local_time | date: "%A" }}</div>
       <div class="day">{{ local_time | date: "%-d" }}</div>
       <div class="month-year">{{ local_time | date: "%B %Y" }}</div>
-      <div class="time">{{ local_time | date: "%H:%M" }} Stockholm/Berlin/Paris</div>
+      <div class="time">{{ local_time | date: "%H:%M %Z" }}</div>
     </div>
     <div class="event-details">
       <h3>{{ event_meta.title }}</h3>
