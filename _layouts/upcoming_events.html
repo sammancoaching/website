@@ -10,11 +10,12 @@ layout: society
 {% assign ical_url = event_data.ical_url %}
 {% ical url: ical_url only_future: true limit: 1 %}
   <div class="event-card">
+    {% assign local_time = event.start_time | to_local_time %}
     <div class="event-date-block">
-      <div class="weekday">{{ event.start_time | date: "%A" }}</div>
-      <div class="day">{{ event.start_time | date: "%-d" }}</div>
-      <div class="month-year">{{ event.start_time | date: "%B %Y" }}</div>
-      <div class="time">{{ event.start_time | date: "%H:%M" }}</div>
+      <div class="weekday">{{ local_time | date: "%A" }}</div>
+      <div class="day">{{ local_time | date: "%-d" }}</div>
+      <div class="month-year">{{ local_time | date: "%B %Y" }}</div>
+      <div class="time">{{ local_time | date: "%H:%M" }} Stockholm/Berlin/Paris</div>
     </div>
     <div class="event-details">
       <h3>{{ event_meta.title }}</h3>
@@ -36,11 +37,12 @@ layout: society
 {% assign ical_url = event_data.ical_url %}
 {% ical url: ical_url only_future: true limit: 1 %}
   <div class="event-card">
+    {% assign local_time = event.start_time | to_local_time %}
     <div class="event-date-block">
-      <div class="weekday">{{ event.start_time | date: "%A" }}</div>
-      <div class="day">{{ event.start_time | date: "%-d" }}</div>
-      <div class="month-year">{{ event.start_time | date: "%B %Y" }}</div>
-      <div class="time">{{ event.start_time | date: "%H:%M" }}</div>
+      <div class="weekday">{{ local_time | date: "%A" }}</div>
+      <div class="day">{{ local_time | date: "%-d" }}</div>
+      <div class="month-year">{{ local_time | date: "%B %Y" }}</div>
+      <div class="time">{{ local_time | date: "%H:%M" }} Stockholm/Berlin/Paris</div>
     </div>
     <div class="event-details">
       <h3>{{ event_meta.title }}</h3>
@@ -62,11 +64,12 @@ layout: society
 {% assign ical_url = event_data.ical_url %}
 {% ical url: ical_url only_future: true limit: 1 %}
   <div class="event-card">
+    {% assign local_time = event.start_time | to_local_time %}
     <div class="event-date-block">
-      <div class="weekday">{{ event.start_time | date: "%A" }}</div>
-      <div class="day">{{ event.start_time | date: "%-d" }}</div>
-      <div class="month-year">{{ event.start_time | date: "%B %Y" }}</div>
-      <div class="time">{{ event.start_time | date: "%H:%M" }}</div>
+      <div class="weekday">{{ local_time | date: "%A" }}</div>
+      <div class="day">{{ local_time | date: "%-d" }}</div>
+      <div class="month-year">{{ local_time | date: "%B %Y" }}</div>
+      <div class="time">{{ local_time | date: "%H:%M" }} Stockholm/Berlin/Paris</div>
     </div>
     <div class="event-details">
       <h3>{{ event_meta.title }}</h3>
