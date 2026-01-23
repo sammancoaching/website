@@ -3,7 +3,7 @@ layout: society
 title: Samman Coaching Society Ensemble Events
 ---
 
-# Samman Coaching Society Ensemble Events
+# Samman Ensemble Events
 
 _Support the Society and Collaborate with Other Coaches._
 

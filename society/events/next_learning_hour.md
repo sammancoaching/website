@@ -3,7 +3,7 @@ layout: society
 title: Samman Coaching Society Learning Hour Events
 ---
 
-# Samman Coaching Society Learning Hour Events
+# Samman Learning Hour Events
 
 _Preview new learning hours designed by society members and supporters._
 
