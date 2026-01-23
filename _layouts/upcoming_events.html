@@ -6,7 +6,9 @@ layout: society
 
 <div class="events-list">
 {% assign event_meta = page.events[0] %}
-{% ical url: https://addcal.co/ce/YSnGoV3KR4/ics only_future: true limit: 1 %}
+{% assign event_data = site.data.events[event_meta.event_key] %}
+{% assign ical_url = event_data.ical_url %}
+{% ical url: ical_url only_future: true limit: 1 %}
   <div class="event-card">
     <div class="event-date-block">
       <div class="weekday">{{ event.start_time | date: "%A" }}</div>
@@ -22,7 +24,7 @@ layout: society
       </div>
       <p>{{ event_meta.description }}</p>
       <div class="event-links">
-        <a href="{{ event_meta.next_event | replace: '/ics', '' }}" class="add-calendar-btn">Add to Calendar</a>
+        <a href="{{ event_data.calendar_link }}" class="add-calendar-btn">Add to Calendar</a>
         <a href="{% link {{ event_meta.details_link }} %}" class="details-link">View Details</a>
       </div>
     </div>
@@ -30,7 +32,9 @@ layout: society
 {% endical %}
 
 {% assign event_meta = page.events[1] %}
-{% ical url: https://addcal.co/ce/t0S6bmoy2u/ics only_future: true limit: 1 %}
+{% assign event_data = site.data.events[event_meta.event_key] %}
+{% assign ical_url = event_data.ical_url %}
+{% ical url: ical_url only_future: true limit: 1 %}
   <div class="event-card">
     <div class="event-date-block">
       <div class="weekday">{{ event.start_time | date: "%A" }}</div>
@@ -46,7 +50,7 @@ layout: society
       </div>
       <p>{{ event_meta.description }}</p>
       <div class="event-links">
-        <a href="{{ event_meta.next_event | replace: '/ics', '' }}" class="add-calendar-btn">Add to Calendar</a>
+        <a href="{{ event_data.calendar_link }}" class="add-calendar-btn">Add to Calendar</a>
         <a href="{% link {{ event_meta.details_link }} %}" class="details-link">View Details</a>
       </div>
     </div>
@@ -54,7 +58,9 @@ layout: society
 {% endical %}
 
 {% assign event_meta = page.events[2] %}
-{% ical url: https://addcal.co/ce/PsrhxxrWjJ/ics only_future: true limit: 1 %}
+{% assign event_data = site.data.events[event_meta.event_key] %}
+{% assign ical_url = event_data.ical_url %}
+{% ical url: ical_url only_future: true limit: 1 %}
   <div class="event-card">
     <div class="event-date-block">
       <div class="weekday">{{ event.start_time | date: "%A" }}</div>
@@ -70,7 +76,7 @@ layout: society
       </div>
       <p>{{ event_meta.description }}</p>
       <div class="event-links">
-        <a href="{{ event_meta.next_event | replace: '/ics', '' }}" class="add-calendar-btn">Add to Calendar</a>
+        <a href="{{ event_data.calendar_link }}" class="add-calendar-btn">Add to Calendar</a>
         <a href="{% link {{ event_meta.details_link }} %}" class="details-link">View Details</a>
       </div>
     </div>
