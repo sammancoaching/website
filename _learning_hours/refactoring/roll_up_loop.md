@@ -15,33 +15,29 @@ This refactoring doesn't seem to have an official description anywhere, but it's
 ## Session Outline
 
 * 5 min connect: Code smells and refactorings 
-* 5 min concept: Roll-up loop
-* 5 min demo: show them the code duplication & go through strategy
+* 10 min concept: Roll-up loop
 * 35 min do: refactor away the duplication
 * 5 min reflect: note down learnings
-
 
 ## Connect: Code smells and refactorings
 
 Ask the group to name some refactorings that they have used, and the corresponding code smells.
 
 ## Concept: Roll Up loop
+Explain what this is. Demo some of the simpler examples in [RollUpLoop-Refactoring-Practice](https://github.com/emilybache/RollUpLoop-Refactoring-Practice).
 
-Explain what this is. Demonstrate a really simple case, like one of the examples in [RollUpLoop](https://github.com/emilybache/RollUpLoop).
+## Concrete: refactoring practice
+Have them work through the examples in [RollUpLoop-Refactoring-Practice](https://github.com/emilybache/RollUpLoop-Refactoring-Practice) turning the 'before' version into the 'after' version. Encourage them to continue refactoring after that if they now see new opportunities to use any abstractions they have introduced.
 
-## Demo: show them the code duplication & go through strategy
-There are two exercises I use for this - [TimerExpiry](https://github.com/emilybache/TimerExpiry-Refactoring-Kata) and [ClarifyException](https://github.com/emilybache/Clarify-Exception-Refactoring-Kata). Both work equally well.
+For a follow-up session or if they get the idea very quickly, there are two harder exercises - [TimerExpiry](https://github.com/emilybache/TimerExpiry-Refactoring-Kata) and [ClarifyException](https://github.com/emilybache/Clarify-Exception-Refactoring-Kata). For these ones there is no 'after' shown in the main branch. 
 
-Show them the duplication in each if statement. Explain the goal - for TimerExpiry this a list of function pointers you loop over. Each function returns the time until the timer goes off. Then just find the smallest value in one place rather than 6 places. For ClarifyException you can have a small class rather than a function pointer - with two methods "matches" and "build".
+For TimerExpiry you could change to a design with a list of function pointers you loop over. Each function returns the time until the timer goes off. Then find the smallest value in one place rather than 6 places. 
 
-## Concrete: refactor away the duplication
-
-Have them work on the code to achieve the refactoring goal - roll up loop.
+For ClarifyException you can have a small class rather than a function pointer - with two methods "matches" and "build".
 
 ## Conclusions: note down learnings
-
-Describe this refactoring in your own words. Include
+Describe this refactoring in your own words or discuss in pairs. Include
 
 * signs and smells that it could be needed
 * what the outcome looks like
-* any disadvantages of it
+* any disadvantages or when not to use it
