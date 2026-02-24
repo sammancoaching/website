@@ -10,7 +10,7 @@ After an open space, this is what Emily usually does.
 2. Choose date for next open space & create calendar invite for Samman Society members
 3. Create Zoom link & put it in the calendar invite
 4. Update calendr.link "add to calendar" link with the next date
-4. Trigger the github action to rebuild the site
+4. Trigger the github action to rebuild the site 
 5. Upload the miro pdf to Discord #general channel
 6. Message Discord #general inviting people to sign up for the next event and give them the signup link and the 'add to calendar' link.
 
