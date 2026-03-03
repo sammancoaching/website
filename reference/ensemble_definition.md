@@ -21,6 +21,8 @@ The main ensemble roles are:
 
 Usually everyone rotates through all of these roles on a timescale of 3-10 minutes per rotation.
 
+Competence with ensemble is one of the tracks in the [Samman Technical Coaching Career]({% link society/technical_coach_career.md %})
+
 ## Notes: Reasons to say "Ensemble" instead of "Mob"
 
 - _Ensemble_ has positive connotations and calls to mind a group of musicians creating something beautiful together.
