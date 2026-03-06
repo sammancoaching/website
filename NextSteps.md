@@ -1,8 +1,5 @@
 # Next steps
 
-Check all the details necessary to publish the 'upcoming events' page. Currently the times are shown without timezone which is confusing.
-The individual event pages don't show times from ical because I couldn't work out how to show them in the correct timezone.
+Include upcoming trainings in the 'upcoming events'. The dates of these trainings are not currently available through ical downloads. We need to add those. Not all trainings have an upcoming date.
 
-- Check what happens if I forget to update the date or time of an event.
-- Assess how easy it is to add new events or one-off events.
-- We need to implement the time zone conversion in the individual events pages (as seen in upcoming_events.html)
+Once the 'upcoming events' page is looking good enough, link to it from the events page and possibly the home page too.
