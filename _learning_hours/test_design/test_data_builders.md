@@ -62,7 +62,7 @@ Demo the refactoring of test inputs using a test data builder on an existing tes
 
 #### Tips
 - You can use the [BookInvoicing-TestDesign-Kata](https://github.com/katalogs/BookInvoicing-TestDesign-Kata), (also known as test-data-builders-kata), choosing the language of your choice, refactoring the Country object construction in tests.
-- You may use the [generate code from usage](https://xtrem-tdd.netlify.app/Flavours/generate-code-from-usage) method to focus on writing the code as you need to use it, and keep the demo short and clear.
+- You may use the [generate code from usage](https://xtrem-tdd.netlify.app/Flavours/Design/generate-code-from-usage) method to focus on writing the code as you need to use it, and keep the demo short and clear.
 
 ## Concrete Practice
 
@@ -75,3 +75,4 @@ Ask attendees to:
 Does our code have this issue?
 
 Ask the team to find part of their tests where they could have applied the test data builder pattern
+
