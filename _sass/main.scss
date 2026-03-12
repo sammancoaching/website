@@ -59,6 +59,18 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
 }
 
+.centered-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+  height: auto;
+
+  @media screen and (max-width: $on-medium) {
+    max-width: 90%;
+  }
+}
+
 .site-header {
   background-image: url("/assets/images/samman_banner.png");
   background-repeat: no-repeat;
