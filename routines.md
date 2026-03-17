@@ -16,7 +16,7 @@ After an open space, this is what Emily usually does.
 
 There are also tasks for creating Hubspot emails:
 
-1. Create and schedule email 1 week before with zoom link 
+1. Create and schedule email 1 week before with zoom link: CHECK THE SUBJECT LINE
 1. Create and schedule email on the day with zoom link
 
 ## Adding new society members
@@ -25,6 +25,7 @@ There are also tasks for creating Hubspot emails:
 * Update their settings in [contributors](_data/contributors.yml)
 * Update their profile page on this site
 * Add them to the membership registry google doc
+* Add them to the google drive
 * Add them to the next open space calendar invite
 * Update their groups on Discord
 * Send welcome mail saying you've done those things & asking for membership fee.
