@@ -14,7 +14,7 @@
   padding: 1rem;
   border: 2px solid #e8e8e8;
   border-radius: 10px;
-  transition: all 0.3s ease;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .event-card:hover {
@@ -102,26 +102,17 @@
   text-decoration: none;
   border-radius: 6px;
   font-weight: 500;
-  transition: all 0.2s;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
-.add-calendar-btn {
-  background: white;
-  color: $light-blue;
-  border: 2px solid $light-blue;
-}
-
-.add-calendar-btn:hover {
-  background: $light-blue;
-  color: $dark-blue;
-}
-
+.add-calendar-btn,
 .details-link {
   background: white;
   color: $light-blue;
   border: 2px solid $light-blue;
 }
 
+.add-calendar-btn:hover,
 .details-link:hover {
   background: $light-blue;
   color: $dark-blue;
