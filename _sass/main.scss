@@ -5,6 +5,12 @@
 @import "print";
 @import "events";
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 a:link {
     color: $dark-blue;
 }
@@ -38,8 +44,18 @@ a:focus:not(:focus-visible) {
 img[src*="#book_cover"] {
 	border: 5px solid $dark-blue;
 	width: 250px;
+	max-width: 100%;
 	position: relative;
 	left: 250px;
+}
+
+@media screen and (max-width: $on-medium) {
+  img[src*="#book_cover"] {
+    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 
@@ -153,6 +169,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: left;
   width: 20em;
   right: 18px;
+  max-width: calc(100vw - 36px);
 }
 
 .site-header #search-results.active {
