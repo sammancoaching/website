@@ -1,6 +1,6 @@
 # Routines
 
-Checklists for various routine tasks.
+Checklists for various routine tasks. 
 
 ## Next open space
 
