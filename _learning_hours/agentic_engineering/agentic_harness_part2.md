@@ -15,7 +15,7 @@ Starting from a minimal harness and code with a 'long method' smell, we learn ho
 
 ## Learning Goals
 
-* Describe the benefits of moving instructions from an agent conversation into a harness file.
+* Describe the benefits of moving instructions from an agent conversation into a knowledge document.
 * Use a knowledge document to prompt the coding agent to address a 'long method' code smell.
 
 ## Session Outline
@@ -54,7 +54,7 @@ Revert your code changes back to the poorly designed code you had at the start, 
 
 Review the code changes. If it still doesn't meet your expectations, continue the conversation until it looks good. When you are happy, ask it to update the knowledge document. Revert the code and repeat until it can do a good enough design in one shot.
 
-#### Step 4: Additional Knowlege Documents
+#### Step 4: Additional Knowledge Documents
 Review the contents of "AGENTS.md". Should anything here also be moved into a separate knowledge document? Discuss and experiment.
 
 ### Conclusions
