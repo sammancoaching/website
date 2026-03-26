@@ -492,6 +492,18 @@
         "url": "/learning_hours/"
     },
     {
+        "title": "Agentic Engineering",
+        "url": "/learning_hours/agentic_engineering.html"
+    },
+    {
+        "title": "Learning Hour: Designing a Harness for Agentic Autonomy (Part 1)",
+        "url": "/learning_hours/agentic_engineering/agentic_harness_part1.html"
+    },
+    {
+        "title": "Learning Hour: Designing a Harness for Agentic Autonomy (Part 2)",
+        "url": "/learning_hours/agentic_engineering/agentic_harness_part2.html"
+    },
+    {
         "title": "Learning Hours on Approval Testing in new development",
         "url": "/learning_hours/approval_testing_bdd.html"
     },
@@ -1298,6 +1310,10 @@
     {
         "title": "Julien VITTE",
         "url": "/society/contributors/julienvitte.html"
+    },
+    {
+        "title": "Johan Martinsson",
+        "url": "/society/contributors/martinsson.html"
     },
     {
         "title": "Murat Han Celik",
