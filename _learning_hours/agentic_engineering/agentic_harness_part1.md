@@ -50,7 +50,9 @@ Note: Some people might have files in their user home folder that the agent will
 #### Step 1: No Harness
 Use this prompt:
 
-    Implement the feature from feature.md
+```
+Implement the feature from feature.md
+```
 
 If it can't work out how to build the code and run the Demo Day application, give it that information in the prompt too.
 
@@ -59,11 +61,15 @@ Review the quality of the code changes. Usually with this prompt, the agent impl
 #### Step 2: Agent Instruction File
 Revert the code. Create an AGENTS.md file in your repository and include this text: 
 
-    Add unit tests for new features
+```
+Add unit tests for new features
+```
 
 Start a new context window and give this prompt again:
 
-    Implement the feature from feature.md
+```
+Implement the feature from feature.md
+```
     
 Review the code changes. Hopefully, this time it will have created unit tests. Usually, it will not have fixed the code smell. (If your agent does, try again with a less good/cheaper LLM!) Discuss anything it did which doesn't align with your preferences for *test* design.
 

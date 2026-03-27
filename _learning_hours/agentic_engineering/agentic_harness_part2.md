@@ -36,21 +36,27 @@ Start from the code you had at the end of part 1. There should be a new feature 
 
 You would like it to refactor the design. Give a simple prompt like:
 
-        Improve the design, keeping the tests the same.
+```
+Improve the design, keeping the tests the same.
+```
 
 Review the design changes. Prompt it again to correct anything it did which doesn't align with your preferences. Keep prompting in the same conversation until you are happy with the code. 
 
 #### Step 2: Create a "Knowledge Document"
 Give this prompt in the same conversation as before:
 
-        Extract the design principles we have used into a document "design-principles.md"
+```
+Extract the design principles we have used into a document "design-principles.md"
+```
 
 Take a look at what it comes up with and keep prompting until the document looks good. (Don't write any of the document by hand, use prompts).
 
 #### Step 3: Use your "Knowledge Document"
 Revert your code changes back to the poorly designed code you had at the start, but keep the new design-principles document. Give this single prompt:
 
-    Use "design-principles.md" to improve the design, keeping the tests the same.
+```
+Use "design-principles.md" to improve the design, keeping the tests the same.
+```
 
 Review the code changes. If it still doesn't meet your expectations, continue the conversation until it looks good. When you are happy, ask it to update the knowledge document. Revert the code and repeat until it can do a good enough design in one shot.
 

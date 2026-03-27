@@ -1,0 +1,68 @@
+div.highlighter-rouge, figure.highlight, pre, blockquote {
+  position: relative;
+  border-radius: 4px;
+}
+
+pre, blockquote {
+  background-color: #f6f8fa;
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  border-radius: 6px;
+}
+
+blockquote {
+  border-left: 0.25em solid $light-blue;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 24px;
+  color: #6a737d;
+}
+
+.copy-code-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 4px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $dark-blue;
+  background-color: $off-white;
+  border: 1px solid $light-blue;
+  border-radius: 4px;
+  cursor: pointer;
+  opacity: 0; // Hidden by default
+  transition: opacity 0.2s ease, background-color 0.2s ease, transform 0.1s ease;
+  z-index: 10;
+
+  &:hover {
+    background-color: $light-blue;
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+
+  &.copied {
+    background-color: #d1f7d1;
+    border-color: #a8dba8;
+    color: #155724;
+    opacity: 1 !important; // Force show when copied
+  }
+}
+
+// Show button on hover of the container
+div.highlighter-rouge:hover .copy-code-button,
+figure.highlight:hover .copy-code-button,
+pre:hover .copy-code-button,
+blockquote:hover .copy-code-button {
+  opacity: 0.6;
+
+  &:hover {
+    opacity: 1;
+  }
+}
