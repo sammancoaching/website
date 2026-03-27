@@ -53,6 +53,13 @@ blockquote {
     color: #155724;
     opacity: 1 !important; // Force show when copied
   }
+
+  &.error {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+    opacity: 1 !important;
+  }
 }
 
 // Show button on hover of the container
