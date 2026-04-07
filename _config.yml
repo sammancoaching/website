@@ -44,6 +44,10 @@ collections:
     output: true
   refactorings:
     output: true
+  offers:
+    output: true
+    permalink: /:collection/:name:output_ext
+
 defaults:
   - scope:
       path: ""
@@ -75,6 +79,11 @@ defaults:
       type: "refactorings"
     values:
       layout: "refactoring"
+  - scope:
+      path: ""
+      type: "offers"
+    values:
+      layout: "offer"
   - scope:
       path: ""
     values:
