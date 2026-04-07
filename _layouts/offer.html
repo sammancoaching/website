@@ -1,0 +1,23 @@
+---
+layout: default
+---
+{% assign name = site.data.contributors[page.coach].title %}
+{% assign company = site.data.contributors[page.coach].affiliation %}
+
+<h1>{{ page.title | upcase }}</h1>
+<h2>{{ page.subtitle }}</h2>
+<p>
+    Don't miss your chance to book {{ name}} from {{company}}
+</p>
+        {{ content  | markdownify }}
+{% if page.call_to_action_url %}
+<div class="button">
+            <a href ={{page.call_to_action_url}}>{{page.call_to_action_text}}</a>
+</div>
+{% else %}
+<div class="button">
+    <a href ={{site.data.contributors[page.coach].url}}>Visit the website</a>
+</div>
+{% endif %}
+
+

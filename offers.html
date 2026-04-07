@@ -1,0 +1,31 @@
+---
+layout: default
+title: Offers
+permalink: /offers/
+---
+
+<h1>Find your Technical Coach</h1>
+<div class="card-grid-description">
+    <p>
+        Technical skills have to be acquired deliberately.
+        The best effect comes from lifting the entire team at the same time.
+        So look around and book a meeting if you find something interesting.
+    </p>
+</div>
+<div class="card-grid">
+
+    {% for offer in site.offers %}
+    {% assign name = site.data.contributors[offer.coach].title %}
+    {% assign company = site.data.contributors[offer.coach].affiliation %}
+
+    <div class="card">
+        <div class="ribbon">{{offer.time}}</div>
+        <h2>{{ offer.title | upcase }}</h2>
+        <p>{{name}}, {{company}}</p>
+        <p>{{ offer.core }}</p>
+        <div>
+            <a class="button" href="{{ offer.url }}">Read more</a>
+        </div>
+    </div>
+    {% endfor %}
+</div>

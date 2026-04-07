@@ -1,0 +1,42 @@
+@import "colors";
+.card-grid{
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fit, 250px);
+  grid-auto-rows: minmax(350px, auto);
+}
+.card-grid-description{
+  max-width: 80em;
+  grid-column: 1/3;
+  grid-row: 1;
+}
+
+.card-title {
+   margin-top: 30px;
+}
+.card {
+  display: grid;
+  grid-auto-rows: minmax(70px, auto);
+
+  gap: 10px;
+  text-align: center;
+  overflow: hidden;
+  .card-image {
+    overflow: hidden;
+    max-height: 150px;
+  }
+
+  img {
+    padding:10px;
+  }
+}
+.ribbon {
+  transform: rotate(-45deg);
+  background-color: $light-blue;
+  top: 25px;
+  height: fit-content;
+  padding: 2px;
+  left: -25px;
+  width: 50%;
+  position: relative;
+}
