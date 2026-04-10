@@ -13,8 +13,10 @@ permalink: /offers/
     </p>
 </div>
 <div class="card-grid">
-
+    {% assign current_date = 'now' | date: '%Y-%m-%d' %}
     {% for offer in site.offers %}
+    {% assign expiry_date = offer.expiry_date | date: '%Y-%m-%d' %}
+    {% if expiry_date >= current_date %}
     {% assign name = site.data.contributors[offer.coach].title %}
     {% assign company = site.data.contributors[offer.coach].affiliation %}
 
@@ -27,5 +29,6 @@ permalink: /offers/
             <a class="button" href="{{ offer.url }}">Read more</a>
         </div>
     </div>
+    {% endif %}
     {% endfor %}
 </div>
