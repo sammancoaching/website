@@ -7,7 +7,7 @@ layout: default
 <h1>{{ page.title | upcase }}</h1>
 <h2>{{ page.subtitle }}</h2>
 <p>
-    Don't miss your chance to book {{ name}} from {{company}}
+    Don't miss your chance to book {{ name}} ({{company}})
 </p>
         {{ content  | markdownify }}
 {% if page.call_to_action_url %}
