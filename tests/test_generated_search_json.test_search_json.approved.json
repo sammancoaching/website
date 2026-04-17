@@ -1144,6 +1144,10 @@
         "url": "/newsletter.html"
     },
     {
+        "title": "Offers",
+        "url": "/offers/"
+    },
+    {
         "title": "Refactoring: Replace Command with Function - Instance to Static",
         "url": "/refactorings/command_to_function.html"
     },
