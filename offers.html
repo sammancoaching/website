@@ -7,18 +7,20 @@ permalink: /offers/
 <h1>Find your Technical Coach</h1>
 <div class="card-grid-description">
     <p>
-        Technical skills have to be acquired deliberately.
-        The best effect comes from lifting the entire team at the same time.
-        So look around and book a meeting if you find something interesting.
+        Technical skills have to be acquired deliberately and
+        the best effect comes from lifting the entire team at the same time.
+        Technical coaches can help you with that.
     </p>
 </div>
 <div class="card-grid">
     {% assign current_date = 'now' | date: '%Y-%m-%d' %}
+    {% assign offers_found = false %}
     {% for offer in site.offers %}
     {% assign expiry_date = offer.expiry_date | date: '%Y-%m-%d' %}
     {% if expiry_date >= current_date %}
     {% assign name = site.data.contributors[offer.coach].title %}
     {% assign company = site.data.contributors[offer.coach].affiliation %}
+    {% assign offers_found = true %}
 
     <div class="card">
         <div class="ribbon">{{offer.time}}</div>
@@ -32,3 +34,12 @@ permalink: /offers/
     {% endif %}
     {% endfor %}
 </div>
+
+
+{% if offers_found == false %}
+<div class="card-grid-description">
+    <p>
+        No coaches are currently advertizing here... check back later, or get in touch via our <a href="{% link contact.md %}">contact page</a>.
+    </p>
+</div>
+{% endif %}
