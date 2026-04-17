@@ -47,6 +47,9 @@ collections:
   offers:
     output: true
     permalink: /:collection/:name:output_ext
+  upcoming_events:
+    output: true
+    permalink: /society/events/:name:output_ext
 
 defaults:
   - scope:
@@ -84,6 +87,11 @@ defaults:
       type: "offers"
     values:
       layout: "offer"
+  - scope:
+      path: ""
+      type: "upcoming_events"
+    values:
+      layout: "upcoming_event"
   - scope:
       path: ""
     values:
