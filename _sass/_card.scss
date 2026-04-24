@@ -15,12 +15,18 @@
    margin-top: 30px;
 }
 .card {
+  position: relative;
   display: grid;
   grid-auto-rows: minmax(70px, auto);
 
   gap: 10px;
   text-align: center;
   overflow: hidden;
+  padding: 1rem;
+  border: 2px solid #e8e8e8;
+  border-radius: 10px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+
   .card-image {
     overflow: hidden;
     max-height: 150px;
@@ -30,13 +36,40 @@
     padding:10px;
   }
 }
+
+.card:hover {
+  border-color: $dark-blue;
+  box-shadow: 0 4px 12px rgba(23,64,100, 0.15);
+}
+
 .ribbon {
-  transform: rotate(-45deg);
+  position: absolute;
+  top: 15px;
+  left: -35px;
+  width: 120px;
   background-color: $light-blue;
-  top: 25px;
-  height: fit-content;
-  padding: 2px;
-  left: -25px;
-  width: 50%;
-  position: relative;
+  color: $dark-blue;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 4px 0;
+  transform: rotate(-45deg);
+  z-index: 1;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  background: white;
+  color: $light-blue;
+  border: 2px solid $light-blue;
+}
+
+.button:hover {
+  background: $light-blue;
+  color: $dark-blue;
 }
