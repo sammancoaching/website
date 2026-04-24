@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Offers
-permalink: /offers/
 ---
 
 <h1>Find your Technical Coach</h1>
