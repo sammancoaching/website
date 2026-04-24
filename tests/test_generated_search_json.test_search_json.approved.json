@@ -1144,10 +1144,6 @@
         "url": "/newsletter.html"
     },
     {
-        "title": "Offers",
-        "url": "/offers/"
-    },
-    {
         "title": "Refactoring: Replace Command with Function - Instance to Static",
         "url": "/refactorings/command_to_function.html"
     },
@@ -1406,6 +1402,10 @@
     {
         "title": "Career Milestones and Job Role",
         "url": "/society/milestones_job_role.html"
+    },
+    {
+        "title": "Offers",
+        "url": "/society/offers/"
     },
     {
         "title": "Privacy Policy",
