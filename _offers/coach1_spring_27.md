@@ -1,5 +1,5 @@
 ---
-title: Team based coaching now!
+title: Team based coaching
 coach: edytterbrink
 core: One team, two days a week spring 2027
 subtitle: Book now!
@@ -10,4 +10,4 @@ call_to_action_url: chocolatedrivendevelopment.com/offers
 call_to_action_text: Visit my calendly for more information
 ---
 
-Describe your awesome offer and all the details
+This is an awesome offer for coaching with a real expert

@@ -14,7 +14,8 @@ title: Offers
 <div class="card-grid">
     {% assign current_date = 'now' | date: '%Y-%m-%d' %}
     {% assign offers_found = false %}
-    {% for offer in site.offers %}
+    {% assign sorted_offers = site.offers | sort: 'expiry_date' %}
+    {% for offer in sorted_offers %}
     {% assign expiry_date = offer.expiry_date | date: '%Y-%m-%d' %}
     {% if expiry_date >= current_date %}
     {% assign name = site.data.contributors[offer.coach].title %}

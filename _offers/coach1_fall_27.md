@@ -10,4 +10,4 @@ call_to_action_url: chocolatedrivendevelopment.com/offers
 call_to_action_text: Visit my website for more information
 ---
 
-Describe your awesome offer and all the details
+Lift your technical competency with this coaching
