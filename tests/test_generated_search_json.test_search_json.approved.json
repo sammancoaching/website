@@ -1372,8 +1372,12 @@
         "url": "/society/ensemble_milestones.html"
     },
     {
-        "title": "Samman Coaching Society Events",
+        "title": "Upcoming Samman Coaching Society Events",
         "url": "/society/events/"
+    },
+    {
+        "title": "Samman Coaching Society AI Coding Dojo",
+        "url": "/society/events/ai_coding_dojo.html"
     },
     {
         "title": "Samman Coaching Society Online Open Space Events",
@@ -1390,10 +1394,6 @@
     {
         "title": "Samman Coaching Society Online Open Space Event",
         "url": "/society/events/next_open_space.html"
-    },
-    {
-        "title": "Upcoming Samman Coaching Society Events",
-        "url": "/society/events/upcoming_events.html"
     },
     {
         "title": "Learning Hour Skill Milestones",

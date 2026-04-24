@@ -1,11 +1,15 @@
-open_space:
-  ical_url: https://addcal.co/ce/t0S6bmoy2u/ics
-  calendar_link: https://calndr.link/event/t0S6bmoy2u
+ensemble:
+  ical_url: https://addcal.io/e/ddwqsupzzee5/ics
+  calendar_link: https://addcal.io/e/ddwqsupzzee5
   
 learning_hour:
-  ical_url: https://addcal.co/ce/YSnGoV3KR4/ics
-  calendar_link: https://addcal.co/ce/YSnGoV3KR4
+  ical_url: https://addcal.io/e/k45h70ianftj/ics
+  calendar_link: https://addcal.io/e/k45h70ianftj
   
-ensemble:
-  ical_url: https://addcal.co/ce/PsrhxxrWjJ/ics
-  calendar_link: https://calndr.link/event/PsrhxxrWjJ
+open_space:
+  ical_url: https://addcal.io/e/01153up7ty8a/ics
+  calendar_link: https://addcal.io/e/01153up7ty8a
+
+ai_coding_dojo:
+  ical_url: https://addcal.io/e/lecxetoqzijj/ics
+  calendar_link: https://addcal.io/e/lecxetoqzijj

@@ -11,8 +11,8 @@ def test_upcoming_events():
     * all links are valid
     """
     
-    events_page_path = Path("_site/society/events/upcoming_events.html")
-    assert events_page_path.exists(), "The upcoming events page was not generated at _site/society/events/upcoming_events.html. Run 'bundle exec jekyll build' first."
+    events_page_path = Path("_site/society/events/index.html")
+    assert events_page_path.exists(), "The upcoming events page was not generated at _site/society/events/index.html. Run 'bundle exec jekyll build' first."
     
     with open(events_page_path, 'r', encoding='utf-8') as f:
         html_content = f.read()
