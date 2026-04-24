@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Samman Learning Hour
 event_key: learning_hour
 duration: 90 minutes

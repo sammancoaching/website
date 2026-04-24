@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Samman Ensemble
 event_key: ensemble
 duration: 60 minutes

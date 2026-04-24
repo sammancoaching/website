@@ -1,4 +1,5 @@
 ---
+layout: default
 title: AI Coding Dojo
 event_key: ai_coding_dojo
 duration: 3 hours

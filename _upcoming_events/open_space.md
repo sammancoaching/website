@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Online Open Space Event
 event_key: open_space
 duration: 60 minutes
