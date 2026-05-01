@@ -31,3 +31,7 @@ These lists are suggestions for which learning hours follow on from one another 
 4. [Test Doubles]({% link _learning_hours/test_doubles/test_double_intro.md %})
 5. [Stubbing Dependencies]({% link _learning_hours/test_doubles/stubbing_dependencies.md %})
 6. [Parameterized Tests in Doctest]({% link _learning_hours/test_design/doctest_parameterized.md %})
+
+## Python
+
+1. [Fixture Object]({% link _learning_hours/test_design/fixture_object.md %})
