@@ -504,6 +504,10 @@
         "url": "/learning_hours/agentic_engineering/agentic_harness_part2.html"
     },
     {
+        "title": "Learning Hour: Agentic vs Ask Mode",
+        "url": "/learning_hours/agentic_engineering/agentic_vs_ask_mode.html"
+    },
+    {
         "title": "Learning Hours on Approval Testing in new development",
         "url": "/learning_hours/approval_testing_bdd.html"
     },
@@ -1310,6 +1314,10 @@
     {
         "title": "Julien VITTE",
         "url": "/society/contributors/julienvitte.html"
+    },
+    {
+        "title": "Lars Eckart",
+        "url": "/society/contributors/larseckart.html"
     },
     {
         "title": "Johan Martinsson",
