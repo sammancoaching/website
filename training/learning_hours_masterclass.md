@@ -32,7 +32,9 @@ This course is two half-days held about two weeks apart.
 {% ical url: ical_url only_future: true limit: 1 %}
 {% assign has_upcoming_dates = true %}
 {% assign local_time = event.start_time | to_local_time %}
-* {{ local_time | date: "%-d %B %Y" }} (first half-day) with [Emily Bache]({% link society/contributors/emilybache.md %}) and [Peter Kofler]({% link society/contributors/codecop.md %}) - More information and signup via [Bache Consulting](https://bacheconsulting.com/_events/next_learning_hours_masterclass.html)
+{% assign first_day_unix = local_time | date: "%s" %}
+{% assign second_day_unix = first_day_unix | plus: 1209600 %}
+* {{ local_time | date: "%-d %B %Y" }} & {{ second_day_unix | date: "%-d %B %Y" }} Online with [Emily Bache]({% link society/contributors/emilybache.md %}) and [Peter Kofler]({% link society/contributors/codecop.md %}) - More information and signup via [Bache Consulting](https://bacheconsulting.com/_events/next_learning_hours_masterclass.html)
 {% endical %}
 {% endif %}
 {% unless has_upcoming_dates %}
