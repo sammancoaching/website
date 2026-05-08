@@ -25,6 +25,18 @@ This online training is highly interactive and participatory, and is normally le
 
 This course is two half-days held about two weeks apart.
 
-* 10th November & 24th November 2026 Online with [Emily Bache]({% link society/contributors/emilybache.md %}) and [Peter Kofler]({% link society/contributors/codecop.md %}) - More information and signup via [Bache Consulting](https://bacheconsulting.com/_events/next_learning_hours_masterclass.html)
+{% assign event_data = site.data.events.learning_hours_masterclass_training %}
+{% assign ical_url = event_data.ical_url %}
+{% assign has_upcoming_dates = false %}
+{% if ical_url %}
+{% ical url: ical_url only_future: true limit: 1 %}
+{% assign has_upcoming_dates = true %}
+{% assign local_time = event.start_time | to_local_time %}
+* {{ local_time | date: "%-d %B %Y" }} (first half-day) with [Emily Bache]({% link society/contributors/emilybache.md %}) and [Peter Kofler]({% link society/contributors/codecop.md %}) - More information and signup via [Bache Consulting](https://bacheconsulting.com/_events/next_learning_hours_masterclass.html)
+{% endical %}
+{% endif %}
+{% unless has_upcoming_dates %}
+There are no training dates scheduled at present.
+{% endunless %}
 
 For more information please [Contact us]({% link contact.md %}). You could also sign up for our [Newsletter]({% link newsletter.md %}) to hear about upcoming trainings and other useful information.
