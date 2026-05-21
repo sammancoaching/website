@@ -39,15 +39,6 @@ We would like to do some refactoring. This is the plan
     - [x] retain navigation 'current' css style when viewing pages underneath that tab (https://stackoverflow.com/questions/8340170/jekyll-automatically-highlight-current-tab-in-menu-bar)
     - [] search box hovers too far to the right if window is wide
    
-2. Add search feature
-    - [x] bring back nice XML-based test reports in GitHub workflow
-    - [x] search results include unwanted pages (e.g. 404)
-    - [x] ensure the teardown kills the server
-    - [x] add more pages to the search index
-    - [x] remove signup thankyou pages from search index
-    - [x] fix title mismatch (check_title_mismatch.py)
-    - [x] toggle search on in production
-    - [ ] investigate why you can't click on search results if the timeout is too small
 1. use title case for page titles
 1. Show a calendar of all upcoming events. Do not show joining info, link to information page for the event. Not sure how to achieve this - base it on the google calendar?
 4. rename about_society.md
