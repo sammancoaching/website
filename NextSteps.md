@@ -1,10 +1,8 @@
 # Next steps
 
-* [ ] Once the 'upcoming events' page is looking good enough, link to it from the events page and possibly the home page too.
+* [ ] Include upcoming events on home page
 
 * [ ] Check out the 'book cover' picture doesn't overlay the menu when in mobile view.
-
-* [ ] Examine the 'offers' branch and decide where to put this content.
 
 * [ ] the `test_upcoming_events.py` should be refactored and cleaned
 
