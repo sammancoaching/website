@@ -9,7 +9,49 @@ title: Samman Technical Coaching
 
 ## Upcoming events
 
-* [Online Open Space Networking Event]({% link society/events/next_open_space.md %}) - exchange ideas with other coaches
+<div class="events-list home-events-list">
+{% assign event_entries = "" | split: "," %}
+{% for event_item in site.upcoming_events %}
+  {% if event_item.show_on_homepage %}
+    {% assign event_data = site.data.events[event_item.event_key] %}
+    {% assign ical_url = event_data.ical_url %}
+    {% ical url: ical_url only_future: true limit: 1 %}
+      {% assign start_timestamp = event.start_time | date: "%Y%m%d%H%M" %}
+      {% capture event_html %}
+      <div class="event-card event-card--mini">
+        {% assign local_time = event.start_time | to_local_time %}
+        <div class="event-date-block">
+          <div class="weekday">{{ local_time | date: "%a" }}</div>
+          <div class="day">{{ local_time | date: "%-d" }}</div>
+          <div class="month-year">{{ local_time | date: "%b %Y" }}</div>
+          <div class="time">{{ local_time | date: "%H:%M %Z" }}</div>
+        </div>
+        <div class="event-details">
+          <h3>{{ event_item.title }}</h3>
+          <div class="event-meta">
+            <span>{{ event_item.duration }}</span>
+          </div>
+          <p>{{ event_item.description }}</p>
+          <div class="event-links">
+            <a href="{% link {{ event_item.details_link }} %}" class="details-link">View Details</a>
+          </div>
+        </div>
+      </div>
+      {% endcapture %}
+      {% assign entry = start_timestamp | append: "|||" | append: event_html %}
+      {% assign event_entries = event_entries | push: entry %}
+    {% endical %}
+  {% endif %}
+{% endfor %}
+
+{% assign sorted_entries = event_entries | sort %}
+{% for entry in sorted_entries limit: 3 %}
+  {% assign parts = entry | split: "|||" %}
+  {{ parts[1] }}
+{% endfor %}
+</div>
+
+<p><a href="{% link society/events/index.md %}">See all events</a></p>
 
 ## Sign up for our newsletter
 

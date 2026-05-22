@@ -17,7 +17,7 @@ _Practice AI coding skills in a group._
 </div>
 {% endical %}
 
-This is an occasional event, usually held on a Thursday at 14:00 Stockholm/Paris/Berlin. We get together and write some code using AI tools, in an evolving format that includes Ensemble working and frequent retrospectives.
+This is an occasional event, usually held in an afternoon during European working hours. We get together and write some code using AI tools, in an evolving format that includes Ensemble working and frequent retrospectives.
 
 This event is open to [Members]({% link society/membership.md %}), [Supporters]({% link society/supporters.md %}) and [Contributors]({% link society/contributors/index.md %}). The joining details are published on our Discord.
 
