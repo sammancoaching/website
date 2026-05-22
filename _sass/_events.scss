@@ -53,12 +53,18 @@
 }
 
 .home-community__newsletter {
-  background: #f7fbff;
-  border: 1px solid #d8e8f8;
+  background: transparent;
+  border: 2px solid #e8e8e8;
   border-radius: 10px;
   padding: 1rem;
   position: sticky;
   top: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home-community__newsletter:hover {
+  border-color: $dark-blue;
+  box-shadow: 0 4px 12px rgba(23,64,100, 0.15);
 }
 
 .home-community__newsletter h3 {
@@ -169,7 +175,9 @@
   flex-wrap: wrap;
 }
 
-.event-links a {
+.event-links a,
+.add-calendar-btn,
+.details-link {
   display: inline-block;
   padding: 0.5rem 1rem;
   text-decoration: none;
