@@ -58,9 +58,9 @@ title: Samman Technical Coaching
 
   <aside class="home-community__newsletter">
     <h3>Stay connected</h3>
-    <p>Get event updates and coaching tips in one monthly email.</p>
+    <p>Community updates and coaching resources in one monthly email.</p>
     <p><strong>Includes free TDD Heuristics guide.</strong></p>
-    <a class="details-link" href="{% link newsletter.md %}">Join the newsletter</a>
+    <a class="details-link" href="{% link newsletter.md %}">Newsletter</a>
     <p>Unsubscribe anytime.</p>
   </aside>
 </section>
