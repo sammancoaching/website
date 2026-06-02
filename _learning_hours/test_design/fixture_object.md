@@ -1,3 +1,14 @@
+---
+theme: test_design
+title: Fixture Object Pattern
+kata: expense-sheet-approval
+difficulty: 2
+author: janvanryswyck
+via: emilybache
+languages: python
+tags: test_design
+---
+
 # Fixture Object pattern
 
 Avoiding duplication is one of the four rules of simple design. This is where the DRY principle and the "Once And Only Once" rule are founded on. This principle applies to all production code. And since test code is also code, which might be a complete revelation to some, the DRY principle also applies to test code as well. Other forces that are at play for test code are the DAMP principle (Descriptive and Meaningful Phrases) and loose coupling.
