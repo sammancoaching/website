@@ -976,6 +976,10 @@
         "url": "/learning_hours/test_design/doctest_parameterized.html"
     },
     {
+        "title": "Learning Hour: Fixture Object Pattern",
+        "url": "/learning_hours/test_design/fixture_object.html"
+    },
+    {
         "title": "Learning Hour: Test Fixture design",
         "url": "/learning_hours/test_design/fixtures_comparison.html"
     },
@@ -1302,6 +1306,10 @@
     {
         "title": "Llewellyn Falco",
         "url": "/society/contributors/isidore.html"
+    },
+    {
+        "title": "Jan van Ryswyck",
+        "url": "/society/contributors/janvanryswyck.html"
     },
     {
         "title": "Jacob Mossberg",
