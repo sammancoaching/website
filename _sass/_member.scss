@@ -3,7 +3,7 @@
   grid-template-columns: 130px 1fr;
   gap: 20px;
   align-items: center;
-  margin: 10px 0 24px;
+  margin: 18px 0 24px;
 }
 
 .member-hero--no-photo {
@@ -14,7 +14,8 @@
   width: 130px;
   height: 130px;
   object-fit: cover;
-  border-radius: 2px;
+  border-radius: 6px;
+  border: 2px solid $dark-blue;
   display: block;
 }
 
