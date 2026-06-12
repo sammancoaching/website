@@ -4,6 +4,7 @@ emilybache:
   affiliation: Bache Consulting
   member: yes
   member_since: 2022-03-21
+  headline: I coach teams and other coaches to write better software
 objarni:
   title: Olof Bjarnason
   url: http://proagile.eu
@@ -136,6 +137,11 @@ devill:
   affiliation: Independent
   member: yes
   member_since: 2025-09-01
+  headline: I help software teams deliver faster without wasting tokens
+  photo: assets/images/profiles/ivett.jpg
+  additional_links:
+    - LinkedIn: https://www.ivettordog.com/
+    - YouTube: https://www.ivettordog.com/
 mhc03:
   title: Murat Han Celik
   url: https://www.linkedin.com/in/murat-han-celik-105221265

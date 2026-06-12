@@ -2,11 +2,63 @@
 layout: society
 ---
 
-{{ content }}
-{% assign person = site.data.members[page.author] %}
+{% assign contributor = site.data.contributors[page.author] %}
 {% assign by_author = site.learning_hours | where: 'author', page.author | sort: 'title' %}
 {% assign by_via = site.learning_hours | where: 'via', page.author | sort: 'title' %}
-{% if person.member %}  {% endif %}
+{% assign youtube_url = nil %}
+{% assign linkedin_url = nil %}
+{% assign contact_url = nil %}
+{% if contributor.additional_links %}
+{% for item in contributor.additional_links %}
+    {% for link in item %}
+        {% assign label = link[0] | downcase %}
+        {% if label == 'youtube' %}{% assign youtube_url = link[1] %}{% endif %}
+        {% if label == 'linkedin' %}{% assign linkedin_url = link[1] %}{% endif %}
+        {% if label == 'contact' %}{% assign contact_url = link[1] %}{% endif %}
+    {% endfor %}
+{% endfor %}
+{% endif %}
+
+<section class="member-hero{% unless contributor.photo %} member-hero--no-photo{% endunless %}">
+    {% if contributor.photo %}
+    <div class="member-hero__media">
+        <img src="/{{ contributor.photo }}" alt="{{ contributor.title }}" class="member-hero__photo">
+    </div>
+    {% endif %}
+    <div class="member-hero__content">
+        <h1>{{ page.title }}</h1>
+        {% if contributor.headline %}
+        <p class="member-hero__headline">{{ contributor.headline }}</p>
+        {% endif %}
+        <div class="member-hero__links">
+            {% if contributor.url %}
+            <a class="member-link" href="{{ contributor.url }}">Website</a>
+            {% endif %}
+            {% if youtube_url %}
+            <a class="member-link" href="{{ youtube_url }}">YouTube</a>
+            {% endif %}
+            {% if linkedin_url %}
+            <a class="member-link" href="{{ linkedin_url }}">LinkedIn</a>
+            {% endif %}
+            {% if contact_url %}
+            <a class="member-link" href="{{ contact_url }}">Contact</a>
+            {% endif %}
+            {% if contributor.additional_links %}
+            {% for item in contributor.additional_links %}
+                {% for link in item %}
+                    {% assign label = link[0] | downcase %}
+                    {% unless label == 'youtube' or label == 'linkedin' or label == 'contact' %}
+            <a class="member-link" href="{{ link[1] }}">{{ link[0] }}</a>
+                    {% endunless %}
+                {% endfor %}
+            {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+</section>
+
+{{ content }}
+
 {% if by_author.size > 0 %}
 <h2> Learning Hours: </h2>
 <ul>

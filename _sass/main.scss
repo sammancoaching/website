@@ -6,6 +6,7 @@
 @import "events";
 @import "code";
 @import "card";
+@import "member";
 
 *,
 *::before,
@@ -210,3 +211,5 @@ footer {
     padding-left: $spacing-unit;
   }
 }
+
+
