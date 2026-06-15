@@ -6,4 +6,6 @@
 
 * [ ] filter upcoming events by open to all / training / supporters & society (audience tag in event), maybe use color to differentiate
 
+* [ ] update the offers page to instead of offering particular people, offer "Samman coaching for teams", "Personal Coaching" and "Train the trainer". Each should link to a page showing the members who offer those things.
+
 *  [ ] Send a message on Discord when someone adds a Pull Request on the website repo. Perhaps use  https://docs.discord.com/developers/quick-start/getting-started  to make a Discord bot?

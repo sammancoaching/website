@@ -5,7 +5,6 @@ author: codecop
 role: Software Development Coach
 ---
 
-# {{ page.title}}
 {% assign author = site.data.contributors[page.author] %}
 {{author.title}} is an independent {{page.role}} with this [blog]({{author.url}}), and a member of the Samman Technical Coaching Society.
 

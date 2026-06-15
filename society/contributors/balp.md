@@ -5,7 +5,6 @@ author: balp
 role: Technical Coach
 ---
 
-# {{ page.title}}
 {% assign author = site.data.contributors[page.author] %}
 {{author.title}} is a {{page.role}} at [HiQ](https://www.hiq.se) focusing on developing developers.
 

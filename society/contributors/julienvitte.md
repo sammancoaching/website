@@ -4,7 +4,6 @@ title: Julien VITTE
 author: julienvitte
 ---
 
-# Julien VITTE
 
 Julien is a Technical Agile Coach and Software Craftsman with [Inside Group](https://www.insidegroup.fr/).
 
