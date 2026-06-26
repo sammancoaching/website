@@ -1,12 +1,12 @@
 ---
 name: create-learning-hour
-description: Author a Learning Hour (Emily Bache's time-boxed Connect/Concept/Concrete/Conclusions workshop format) for the website's _learning_hours/ collection. Use when creating a new learning hour, or restructuring workshop notes into the site format. Triggers on "create a learning hour", "add a learning hour", "write a workshop session".
+description: Author a Learning Hour (a time-boxed Connect/Concept/Concrete/Conclusions workshop using Sharon Bowman's 4C format) for the website's _learning_hours/ collection. Use when creating a new learning hour, or restructuring workshop notes into the site format. Triggers on "create a learning hour", "add a learning hour", "write a workshop session".
 ---
 
 # Create a Learning Hour
 
-A Learning Hour is a time-boxed, interactive workshop following Emily Bache's 4C format
-(Connect, Concept, Concrete, Conclusions). Gather the content, structure the document,
+A Learning Hour is a time-boxed, interactive workshop following the 4C format
+(Connect, Concept, Concrete, Conclusions) from Sharon Bowman's *Training from the Back of the Room*. Gather the content, structure the document,
 and place it under `_learning_hours/<theme>/`.
 
 ## Steps
