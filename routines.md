@@ -11,13 +11,10 @@ After an open space, this is what Emily usually does.
 3. Create Zoom link & put it in the calendar invite
 4. Update addcal.co "add to calendar" link with the next date
 4. Trigger the github action to rebuild the site 
-5. Upload the miro pdf to Discord #general channel
-6. Message Discord #general inviting people to sign up for the next event and give them the signup link and the 'add to calendar' link.
-
-There are also tasks for creating Hubspot emails:
-
 1. Create and schedule email 1 week before with zoom link: CHECK THE SUBJECT LINE
 1. Create and schedule email on the day with zoom link
+5. Upload the miro pdf to Discord #general channel
+6. Message Discord #general inviting people to sign up for the next event and give them the signup link and the 'add to calendar' link.
 
 ## Adding new society members
 * Make sure they have read and understood [Membership](https://sammancoaching.org/society/membership.html) & [Code of conduct](https://sammancoaching.org/society/code_of_conduct.html)
