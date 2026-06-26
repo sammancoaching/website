@@ -5,7 +5,7 @@ kata: expense-sheet-approval
 difficulty: 2
 author: janvanryswyck
 via: emilybache
-languages: python
+languages: python,C#,java
 tags: test_design
 ---
 
@@ -14,6 +14,8 @@ tags: test_design
 Avoiding duplication is one of the four rules of simple design. This is where the DRY principle and the "Once And Only Once" rule are founded on. This principle applies to all production code. And since test code is also code, which might be a complete revelation to some, the DRY principle also applies to test code as well. Other forces that are at play for test code are the DAMP principle (Descriptive and Meaningful Phrases) and loose coupling.
 
 In this learning hour, we'll explore how to apply the Fixture Object pattern to not only reduce duplication of code in the Arrange step of tests, but also how to reduce coupling between the test code and production code.
+
+**Note:** As a prerequisite for this learning hour, it is recommended that participants have a good understanding about the different kinds of test doubles. Check out the [Test Doubles Intro] learning hour as a reference on the subject.
 
 ## Learning Objective
 
@@ -29,6 +31,8 @@ Use the Fixture Object pattern to reduce coupling between test code and producti
 ## Connect: Coupling introduced by type of Test Double
 
 Rank the test doubles from highest to lowest coupling between test and production code.
+
+The idea is that using a Mock/Spy results in more coupling between the test and production code compared to a Dummy/Stub/Fake. Participants should therefore rank Mock/Spy higher than Dummy/Stub/Fake.
 
 ## Concept: Fixture Object pattern
 
@@ -55,6 +59,10 @@ A Fixture Object:
 * provides helper methods that enabled a test to configure values that can be queries by the Subject Under Test.
 * creates an instance of the Subject Under Test when requested.
 * captures indirect outputs passed to  the dependencies of the Subject Under Test and makes them available to the test.
+
+For more information:
+* [Mark Seemann - Fixture Object](https://blog.ploeh.dk/2009/03/16/FixtureObject/)
+* [Writing Maintainable Unit Tests (Chapter 4)](https://principal-it.eu/books.html)
 
 ## Concrete
 

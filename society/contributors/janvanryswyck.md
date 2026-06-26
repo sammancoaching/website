@@ -1,6 +1,6 @@
 ---
 layout: member
-title: Jan van Ryswyck
+title: Jan Van Ryswyck
 author: janvanryswyck
 role: Technical Coach
 ---
