@@ -27,4 +27,3 @@ After an open space, this is what Emily usually does.
 * Update their groups on Discord
 * Send welcome mail saying you've done those things & asking for membership fee.
 * Announce them on Discord & elsewhere
-
