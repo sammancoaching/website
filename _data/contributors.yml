@@ -1,11 +1,11 @@
 emilybache:
   title: Emily Bache
-  url: http://bacheconsulting.com
+  url: http://emilybache.com
   affiliation: Bache Consulting
   member: yes
   member_since: 2022-03-21
   headline: Technical coaching for teams and mentoring for other coaches
-  offers: [teams, personal, train_the_trainer]
+  offers: [teams, train_the_trainer]
   additional_links:
     - LinkedIn: https://www.linkedin.com/in/emilybache/
     - YouTube: https://www.youtube.com/@EmilyBache-tech-coach
