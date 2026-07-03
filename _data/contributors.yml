@@ -5,6 +5,7 @@ emilybache:
   member: yes
   member_since: 2022-03-21
   headline: Technical coaching for teams and mentoring for other coaches
+  offers: [teams, personal, train_the_trainer]
   additional_links:
     - LinkedIn: https://www.linkedin.com/in/emilybache/
     - YouTube: https://www.youtube.com/@EmilyBache-tech-coach
@@ -141,6 +142,7 @@ devill:
   member: yes
   member_since: 2025-09-01
   headline: I help software teams deliver faster without wasting tokens
+  offers: [teams, personal]
   photo: assets/images/profiles/ivett.jpg
   additional_links:
     - LinkedIn: https://www.linkedin.com/in/ivett-%C3%B6rd%C3%B6g-03aa9035/

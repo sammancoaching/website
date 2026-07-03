@@ -2,3 +2,4 @@ selenium
 approvaltests
 requests
 pytest
+pyyaml

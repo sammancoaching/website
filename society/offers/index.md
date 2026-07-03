@@ -3,43 +3,38 @@ layout: default
 title: Offers
 ---
 
-<h1>Find your Technical Coach</h1>
+<h1>Hire a Technical Coach</h1>
 <div class="card-grid-description">
     <p>
-        Technical skills have to be acquired deliberately and
+        Technical skills have to be acquired deliberately, and
         the best effect comes from lifting the entire team at the same time.
-        Technical coaches can help you with that.
+        Members of the Samman Technical Coaching Society offer three kinds of coaching.
     </p>
 </div>
-<div class="card-grid">
-    {% assign current_date = 'now' | date: '%Y-%m-%d' %}
-    {% assign offers_found = false %}
-    {% assign sorted_offers = site.offers | sort: 'expiry_date' %}
-    {% for offer in sorted_offers %}
-    {% assign expiry_date = offer.expiry_date | date: '%Y-%m-%d' %}
-    {% if expiry_date >= current_date %}
-    {% assign name = site.data.contributors[offer.coach].title %}
-    {% assign company = site.data.contributors[offer.coach].affiliation %}
-    {% assign offers_found = true %}
+<div class="card-grid offer-card-grid">
+    {% for offer_entry in site.data.coaching_offers %}
+    {% assign offer = offer_entry[1] %}
+    {% assign coach_count = 0 %}
+    {% for contributor_entry in site.data.contributors %}
+    {% assign contributor = contributor_entry[1] %}
+    {% if contributor.member and contributor.offers contains offer_entry[0] %}
+    {% assign coach_count = coach_count | plus: 1 %}
+    {% endif %}
+    {% endfor %}
 
-    <div class="card">
-        <div class="ribbon">{{offer.time}}</div>
+    <div class="card offer-card">
         <h2>{{ offer.title | upcase }}</h2>
-        <p>{{name}}, {{company}}</p>
-        <p>{{ offer.core }}</p>
+        <p>{{ offer.description }}</p>
+        <p class="offer-coach-count">{{ coach_count }} {% if coach_count == 1 %}coach offers{% else %}coaches offer{% endif %} this</p>
         <div>
-            <a class="button" href="{{ offer.url }}">Read more</a>
+            <a class="button" href="{{ site.baseurl }}/society/offers/{{ offer.slug }}.html">See the coaches</a>
         </div>
     </div>
-    {% endif %}
     {% endfor %}
 </div>
 
-
-{% if offers_found == false %}
 <div class="card-grid-description">
-    <p>
-        No coaches are currently advertizing here... check back later, or get in touch via our <a href="{% link contact.md %}">contact page</a>.
+    <p class="offer-contact-note">
+        Not sure which fits? Get in touch via our <a href="{% link contact.md %}">contact page</a>.
     </p>
 </div>
-{% endif %}

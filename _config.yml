@@ -44,9 +44,6 @@ collections:
     output: true
   refactorings:
     output: true
-  offers:
-    output: true
-    permalink: /:collection/:name:output_ext
   upcoming_events:
     output: true
     permalink: /society/events/:name:output_ext
@@ -82,11 +79,6 @@ defaults:
       type: "refactorings"
     values:
       layout: "refactoring"
-  - scope:
-      path: ""
-      type: "offers"
-    values:
-      layout: "offer"
   - scope:
       path: ""
       type: "upcoming_events"

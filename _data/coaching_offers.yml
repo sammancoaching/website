@@ -1,0 +1,18 @@
+teams:
+  title: Samman Coaching for Teams
+  slug: teams
+  description: >-
+    The classic format: a block of 10 Samman sessions for a dev team that
+    works together, combining learning hours and ensemble working.
+personal:
+  title: "1:1 Personal Coaching"
+  slug: personal
+  description: >-
+    For tech leads and architects with an ambition to become technical
+    coaches. Regular coach-the-coach sessions alongside our training courses.
+train_the_trainer:
+  title: Train the Trainer
+  slug: train_the_trainer
+  description: >-
+    For organisations that want to roll out technical coaching as a career
+    path across whole departments. A programme that grows coaches in-house.

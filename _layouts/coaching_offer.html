@@ -1,0 +1,47 @@
+---
+layout: default
+---
+{% assign offer = site.data.coaching_offers[page.offer_key] %}
+
+<p class="offer-back-link"><a href="{% link society/offers/index.md %}">&larr; All coaching offers</a></p>
+<h1>{{ offer.title }}</h1>
+<div class="card-grid-description">
+    {{ content | markdownify }}
+</div>
+
+<div class="coach-list">
+    {% for contributor_entry in site.data.contributors %}
+    {% assign contributor = contributor_entry[1] %}
+    {% if contributor.member and contributor.offers contains page.offer_key %}
+    <div class="coach-row">
+        {% if contributor.photo %}
+        <img class="coach-row__photo" src="{{ site.baseurl }}/{{ contributor.photo }}" alt="{{ contributor.title }}">
+        {% else %}
+        {% assign name_parts = contributor.title | split: ' ' %}
+        <div class="coach-row__initials">{% for part in name_parts limit: 2 %}{{ part | slice: 0 }}{% endfor %}</div>
+        {% endif %}
+        <div class="coach-row__details">
+            <div class="coach-row__name">{{ contributor.title }}</div>
+            <div class="coach-row__affiliation">{{ contributor.affiliation }}</div>
+            {% if contributor.headline %}
+            <div class="coach-row__headline">{{ contributor.headline }}</div>
+            {% endif %}
+        </div>
+        <div>
+            <a class="button" href="{{ contributor.url }}">Website</a>
+        </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>
+
+<p class="offer-cross-links">
+    Also on offer:
+    {% assign others = "" | split: "" %}
+    {% for offer_entry in site.data.coaching_offers %}
+    {% unless offer_entry[0] == page.offer_key %}
+    {% assign others = others | push: offer_entry[1] %}
+    {% endunless %}
+    {% endfor %}
+    {% for other in others %}<a href="{{ site.baseurl }}/society/offers/{{ other.slug }}.html">{{ other.title }}</a>{% if forloop.last %}.{% else %} and {% endif %}{% endfor %}
+</p>
