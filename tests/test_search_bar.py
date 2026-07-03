@@ -1,3 +1,4 @@
+import os
 import time
 import subprocess
 import sys
@@ -81,6 +82,10 @@ def selenium_driver():
     chrome_options.add_argument('--headless')  # Run headless for CI
     chrome_options.add_argument('--no-sandbox')
     chrome_options.add_argument('--disable-dev-shm-usage')
+    # Allow environments without a standard Chrome install (e.g. remote dev
+    # containers) to point at their browser binary
+    if os.environ.get("CHROME_BIN"):
+        chrome_options.binary_location = os.environ["CHROME_BIN"]
     driver = webdriver.Chrome(options=chrome_options)
     driver.get(server_url)
     
