@@ -15,12 +15,10 @@ jobs:
       run: |
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && bundle install && bundle exec jekyll build --future"
     - name: Deploy to ftp server
       env:
         FTP_USER: '${{ secrets.FTP_USER }}'
         FTP_PASSWORD: '${{ secrets.FTP_PASSWORD }}'
         FTP_SERVER: '${{ secrets.FTP_SERVER }}'
       run: ./deploy.py
-        
-      
