@@ -6,7 +6,7 @@ emilybache:
   member_since: 2022-03-21
   headline: Technical coaching for teams and mentoring for other coaches
   offers: [teams, train_the_trainer]
-  photo: assets/images/profiles/emilybache.png
+  photo: assets/images/profiles/emilybache.jpg
   additional_links:
     - LinkedIn: https://www.linkedin.com/in/emilybache/
     - YouTube: https://www.youtube.com/@EmilyBache-tech-coach
@@ -115,6 +115,7 @@ codecop:
   member: yes
   member_since: 2023-12-05
   photo: assets/images/profiles/codecop.png
+  headline: Code Cop
 balp:
   title: Anders Arnholm
   url: https://www.hiq.se/
