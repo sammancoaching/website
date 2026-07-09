@@ -13,6 +13,8 @@ When writing tests using repositories, one might use mocks or fakes instead of t
 They both carry the risk of behaving differently from the 'actual' code.
 Contract tests are introduced as a why to reduce behavioral drift between fake and real implementations.
 
+Accompanying Miro slides: found [here](https://miro.com/app/board/uXjVH9Vcgcg=/?share_link_id=314485831274)
+
 ## Learning Objectives
 
 * Understand the value of using Contract Tests to ensure fake and production implementations don't drift.
