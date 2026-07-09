@@ -23,3 +23,7 @@ credentials.txt
 *.received.*
 /junit-reports
 */settings.local.json
+
+# Agent tooling
+.claude-channel/
+.windsurf/
