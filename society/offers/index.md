@@ -7,8 +7,8 @@ title: Offers
 <div class="card-grid-description">
     <p>
         Technical skills have to be acquired deliberately, and
-        the best effect comes from lifting the entire team at the same time.
-        Members of the Samman Technical Coaching Society offer three kinds of coaching.
+        the best effect comes from working with a good coach who combines theory and practice in your real code.
+        Some members of the Samman Technical Coaching Society are available for hire, and offer these kinds of engagements.
     </p>
 </div>
 <div class="card-grid offer-card-grid">
