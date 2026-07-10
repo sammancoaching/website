@@ -89,6 +89,7 @@
 .offer-card {
   padding: 1.4rem 1rem;
   background: rgba(255, 255, 255, 0.45);
+  grid-template-rows: auto 1fr auto auto;
 }
 
 .offer-coach-count {
