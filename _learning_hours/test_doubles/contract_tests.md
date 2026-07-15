@@ -44,8 +44,8 @@ interface.
 
 ### Do: refactor existing repository tests
 
-The [accompanying kata](TODO) has an example implementation of a `UserRepositoryContractTest`, implemented by an `InMemoryUserRepository` and a `SqlUserRepository`.
-The task is now to take the `InMemoryBookRepositoryTest` and `SqlBookRepositoryTest` and rework them towards extending a `BookRepositoryContractTest` and only
+The [accompanying kata](https://github.com/hdeweirdt/contract-test-kata) has an example implementation of a `UserRepositoryContractTest`, implemented by an `InMemoryUserRepository` and a `SqlUserRepository`.
+The task is now to take the `InMemoryCarRepositoryTest` and `SqlCarRepositoryTest` and rework them towards extending a `CarRepositoryContractTest` and only
 having to provide an implementation of the `getRepository` function.
 
 ### Reflect: concept
