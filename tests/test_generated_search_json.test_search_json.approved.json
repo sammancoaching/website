@@ -1052,6 +1052,10 @@
         "url": "/learning_hours/test_doubles/faking_dependencies.html"
     },
     {
+        "title": "Learning Hour: Introduction to Nullables",
+        "url": "/learning_hours/test_doubles/intro_nullables.html"
+    },
+    {
         "title": "Learning Hour: Mocking Dependencies",
         "url": "/learning_hours/test_doubles/mocking_dependencies.html"
     },
@@ -1330,6 +1334,10 @@
     {
         "title": "Lars Eckart",
         "url": "/society/contributors/larseckart.html"
+    },
+    {
+        "title": "Lada Kesseler",
+        "url": "/society/contributors/lexler.html"
     },
     {
         "title": "Johan Martinsson",
