@@ -22,8 +22,12 @@ This kata is a couple of steps up in difficulty from Leap Years. You are designi
 * 5 min reflect: whole group temperature - too many/too few tests?  
 
 ### Connect
+In pairs:
+
 - Do you usually write one unit test for every class and method? 
 - Note down your personal policies for when you write a test and when you don't.
+
+This is a [Describe Your Experience]({% link _activities/connect/your_experience.md %}) connect.
  
 ### Demonstrate
 Starting at a whiteboard, explain the purpose of the kata. Read the description to the group, and put the category and scoring rules on a screen they can see. Ask the group if they can see any examples in the description that would make good test cases. There are lots! Ask the group what order they would tackle the examples in, note this on the whiteboard. I expect they would want to order by category, for example:

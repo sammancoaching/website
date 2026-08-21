@@ -28,6 +28,8 @@ It's probably a good thing if the participants have done FizzBuzz before. It's g
 ### Connect
 Find a pair to work with today. Discuss whether the code you usually work with suffers from overdesign or if it could benefit from more structure and abstractions.
 
+This is a [Describe Your Experience]({% link _activities/connect/your_experience.md %}) connect.
+
 ### Concept
 Print out and pin up the code samples from ["FizzbuzzKata-Samples"](https://github.com/emilybache/FizzBuzzKata-Samples) around the walls of the room, in order. Only include the implementations, not the tests. Have people walk around in their pairs and study the code together. Ask them to consider the following questions:
 

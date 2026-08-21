@@ -26,6 +26,8 @@ This approach enables us to confirm that the issue has been resolved correctly a
 Have the participants discuss in small groups how they fix bugs.
 This often involves analysis, using the debugger and manual testing.
 
+This is a [Describe Your Experience]({% link _activities/connect/your_experience.md %}) connect.
+
 ### Concept: Test a bug
 Explain the steps how to verifiably fix a bug in the way it stays fixed.
 
