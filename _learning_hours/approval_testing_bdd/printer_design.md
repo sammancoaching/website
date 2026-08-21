@@ -21,6 +21,8 @@ Redesigning asserts as a printer.
 
 When a test case fails, what kinds of things help you to work out what's happened? Note down some ideas.
 
+This is an [Open Question]({% link _activities/connect/open_question.md %}) connect.
+
 ### Concept - What is a printer, what is a storyboard
 
 Explain what a printer is in the context of approval testing. Perhaps show the ones for [Supermarket Receipt](https://github.com/emilybache/SupermarketReceipt-Refactoring-Kata) or [TicTacToe](https://github.com/emilybache/TicTacToe-Kata). 

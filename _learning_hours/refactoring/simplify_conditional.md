@@ -24,6 +24,8 @@ Lean on the good tests. Improve the code in ShoppingCart.
 
 What are you hoping to achieve, when you sit down to refactor some code? What is your motivation?
 
+This is an [Open Question]({% link _activities/connect/open_question.md %}) connect.
+
 ## Concept: Refactoring conditionals
 
 Examples of behaviour-preserving transformations for conditionals. I started a [repo](https://github.com/emilybache/Refactor-Conditionals) for some of these. 

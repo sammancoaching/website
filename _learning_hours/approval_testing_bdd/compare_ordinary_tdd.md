@@ -25,6 +25,8 @@ People learn better when they are moving about than when they are sitting still.
 ### Connect
 In pairs, write down 3 properties of a good unit test.
 
+This is an [Open Question]({% link _activities/connect/open_question.md %}) connect.
+
 ### Do
 Have the pairs walk around the room looking at the code snippets you've pinned up on the walls. Have them read the code and try to work out what the test is doing. Assess the test against the criteria they just came up with. Add new criteria as it occurs to them.
 

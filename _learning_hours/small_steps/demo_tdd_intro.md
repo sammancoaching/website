@@ -33,6 +33,8 @@ In pairs:
 
 After a few minutes of discussion, ask a few pairs to report some of the benefits they thought of to the whole group. Write up what they say on a whiteboard or shared document.
 
+This is an [Open Question]({% link _activities/connect/open_question.md %}) connect.
+
 Note - if you don't think the group knows enough about TDD to be able to come up with any benefits of it, ask about the benefits of unit testing in general.
 
 ### Demonstrate

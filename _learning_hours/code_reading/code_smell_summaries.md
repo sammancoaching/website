@@ -28,6 +28,8 @@ One of the benefits of learning about code smells is you gain a new vocabulary t
 ### Names of Code Smells you know already
 Ask "Do you know any Code Smells? What are they called?" Ask for suggestions and get people to write notes. Read out all the suggestions.
 
+This is an [Open Question]({% link _activities/connect/open_question.md %}) connect.
+
 ### Martin Fowler's definition & catalogues
 Explain the concept of a Code Smell, for example referencing [Martin Fowler's definition](https://martinfowler.com/bliki/CodeSmell.html). Also show the catalogue of [Code Smells on the Samman Society Website]({% link reference/code_smells/index.md %}).
 

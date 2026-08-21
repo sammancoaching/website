@@ -31,6 +31,8 @@ There is a video and other materials available for this learning hour as part of
 ### Names of Refactorings
 Have people note down names of refactorings that they know already. For example, suggest they already know "Rename variable"
 
+This is an [Open Question]({% link _activities/connect/open_question.md %}) connect.
+
 ### Refactoring definition
 Put up [Martin Fowler's definitions](https://martinfowler.com/bliki/DefinitionOfRefactoring.html) of Refactoring as a noun and verb on a projector screen or write them on a flipchart. Explain how you understand these definitions. You could point out the code shouldn't break while you refactor, and the reason to refactor is primarily economic not moral. You could mention that as you refactor you take a series of small steps and can commit and share your work after any completed step.
 

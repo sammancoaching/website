@@ -40,6 +40,8 @@ Which is easiest to write automated tests for:
 
  (Use the internet to research if you are unsure what those things are.)
 
+This is an [Open Question]({% link _activities/connect/open_question.md %}) connect.
+
 The reason for asking about what is easy to test is to get them prepared for designing a pure function or static method for calculating FizzBuzz. These kinds of functions are easier to test since all the outcomes are visible in the return value, the input value is not modified and there are no side effects.
 
 ### Explain and elaborate test cases

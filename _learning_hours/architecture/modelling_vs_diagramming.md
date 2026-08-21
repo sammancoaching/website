@@ -23,6 +23,8 @@ Before we get into designing container diagrams we should talk about the differe
 ### Connect: Diagramming and modelling tools you know
 What do you use to make architecture diagrams? Add notes with names of tools to a shared whiteboard. Put a plus marker by any which you have used.
 
+This is an [Open Question]({% link _activities/connect/open_question.md %}) connect.
+
 ### Concept: Diagramming vs Modelling
 There used to be an article on the c4model site about this, you can find it on the [wayback machine](https://web.archive.org/web/20220520164641/https://c4model.com/#Modelling). Similar material by the same author is outlined in an [article about Structurizr](https://structurizr.com/help/modelling). 
 

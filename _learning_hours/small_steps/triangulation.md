@@ -23,6 +23,8 @@ Discuss in pairs:
 * How do you decide which tests to write/keep?
 * How do you decide where a test belongs?
 
+This is an [Open Question]({% link _activities/connect/open_question.md %}) connect.
+
 ### Concept - Just-in-time generalization
 
 Triangulation is about helping you to generalize "just in time". The currently red test focuses your attention to a particular pieces of the code, and when it grows in an "uninteresting way" (e.g. just adding special cases), it is an indication that you have pinpointed a point in the code where a more general property perhaps would be appropriate.

@@ -26,6 +26,8 @@ Not all tests exhibit all properties, but Kent stated "No property should be giv
 
 ### On a post it note write the names of some types of tests that you know.
 
+This is an [Open Question]({% link _activities/connect/open_question.md %}) connect.
+
 We would expect that many members of a team can come up with Unit Test and Integration Test. 
 
 Would anyone think of Contract Test, Exploratory Test, Smoke Test, Beta Test?

@@ -24,6 +24,8 @@ There is a video and other materials available for this learning hour as part of
 ### Connect
 What are advantages to releasing new software once a week rather than all at once in 6 months' time? Gather input from the group on notes, then read them out.
 
+This is an [Open Question]({% link _activities/connect/open_question.md %}) connect.
+
 ### Concept
 A _Step_ takes you from a Ready state to another Ready state. This is different from an _action_ which may begin or end in a non-ready state. A Step can comprise one action or many, but usually it's many. The amount of time it takes to complete a Step is called your _stride length_
 

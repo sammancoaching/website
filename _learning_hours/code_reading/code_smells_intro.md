@@ -30,6 +30,8 @@ There is a video and other materials available for this learning hour as part of
 ### How do you know when you have bad code?
 Have you ever encountered bad code? If so, what characteristics does it have? Discuss in pairs and note down "bad code" characteristics. Note down your ideas and share them with the group when the facilitator asks.
 
+This is an [Open Question]({% link _activities/connect/open_question.md %}) connect.
+
 If someone claims there is no such thing as bad code, try not to get into a big argument. It's a valid perspective but not actually very useful. Try to get the discussion more onto code smells as a concept and ask them to suspend their disbelief in bad code for the duration of the session.
 
 ### Code smells

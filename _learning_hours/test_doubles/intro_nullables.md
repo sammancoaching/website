@@ -26,6 +26,8 @@ Based on the work of [James Shore](https://www.jamesshore.com/v2/projects/nullab
 ### Connect: What makes dependencies in tests difficult?
 Ask: "Give examples of dependencies that make tests slow, flaky or hard", get people to write answers on notes. Go through and group them.
 
+This is an [Open Question]({% link _activities/connect/open_question.md %}) connect.
+
 Hopefully you'll bring out of this that the hardest kinds of dependencies are ones that go over the network and talk to the outside.
 
 ### Concept: Using a Mock vs a Nullable

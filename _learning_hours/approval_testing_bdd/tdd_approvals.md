@@ -23,6 +23,8 @@ Approval testing can be used for getting legacy code under control. That's how w
 ### Connect
 Ask people to call out katas they have done using Approval testing. Write them on a whiteboard
 
+This is an [Open Question]({% link _activities/connect/open_question.md %}) connect.
+
 Put a mark by those are Refactoring katas. Approval testing is a popular technique for legacy code, and you will probably mark several. Today we will use Approvals for new development work.
 
 ### Introducing the Lift Kata

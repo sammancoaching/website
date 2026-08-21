@@ -25,6 +25,8 @@ The main learning point for this session is that when we do TDD, there are some 
 ### Connect
 In pairs, come up with strategies for how to test private methods. Have them write them on post-it notes.
 
+This is an [Open Question]({% link _activities/connect/open_question.md %}) connect.
+
 ### Concept
 Prepare a flipchart paper with the question "How do you test private methods". Make it look nice with a doodle of a stop sign or similar.
 Invite pairs to come forward and present one of their strategies then stick their post-it to the flipchart. Write additional text next to it if the post-it is vague. If the group runs out of strategies and you can think of more, add your own ideas to the list.

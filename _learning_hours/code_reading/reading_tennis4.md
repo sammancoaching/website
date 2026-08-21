@@ -31,6 +31,8 @@ What are typical situations when you need to read and understand code that you h
 
 As people to note down answers to this question in a shared whiteboard/document. Hopefully they will identify lots of different situations. This is actually a big part of a developer's job.
 
+This is an [Open Question]({% link _activities/connect/open_question.md %}) connect.
+
 ### Concept - what the eye-tracking research has found
 The first concept is 'scanning' code. This is a behaviour researchers observed and wrote up in [this paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.98.1585&rep=rep1&type=pdf). They used eye-trackers to observe developers reading unfamiliar code and looking for a bug. They found the people who were most effective at finding bugs will spend more time in this behaviour they call 'scanning'. That is where the eye rapidly moves over the code vertically taking in many lines. Occasionally the eye pauses on one or two lines and reads them more carefully before continuing rapidly downwards. The lines they tend to pause on will correspond to interesting features like function headers.
 

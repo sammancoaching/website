@@ -26,6 +26,8 @@ This learning hour is meant to understand what are some possibilities and put th
 ## Useful Git commands
 Ask people to share one Git command or alias they find especially useful. Doesn't need to be a command line action, it can be done from any Git client.
 
+This is an [Open Question]({% link _activities/connect/open_question.md %}) connect.
+
 ## How does Git use commits
 Git is a source control system that works with commits. We can consider a commit as if it were a diff file and a pointer to the parent commit. With this definition, when we checkout a commit (usually the latest in a branch), what we see is the result of applying a bunch of diffs in the order defined by the parenting relationship.
 

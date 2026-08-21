@@ -22,6 +22,8 @@ Extra challenge with dates, process ids, things in random order.
 
 Is it acceptable to re-design your production code to make it more testable? What kinds of things might you want to change in your architecture? Have you changed anything in your architecture purely for the sake of testing?
 
+This is an [Open Question]({% link _activities/connect/open_question.md %}) connect.
+
 Hopefully they will mention controlling the current time.
 
 ### Concrete - analyse why the tests are failing and how to fix them

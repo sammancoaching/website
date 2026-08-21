@@ -33,6 +33,8 @@ There is a video and other materials available for this learning hour as part of
 
 Ask the group to list the names of some refactorings they already know. For example they might say Extract Function and Rename variable. Give them only a couple of minutes, depending on experience they might come up with only 1-2 or perhaps 5-6. 
 
+This is an [Open Question]({% link _activities/connect/open_question.md %}) connect.
+
 By having them think about refactorings they already know, you get them ready to learn about Change Signature. If someone already mentions it then ask them to describe it - they can do the 'Concept' section for you :-)
 
 ### Concept: Change Signature

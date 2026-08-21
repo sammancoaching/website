@@ -31,6 +31,8 @@ For the remainder of the Learning Hour, we'll use GitHub Copilot as an example.
 ## Connect - Give some examples of what you have already used AI for?
 Pose an open question and ask people to write notes with their answers. If you don't understand something they write, ask them to explain verbally. There are no wrong answers or right answers you are looking for, you are connecting to what they already know. This is not supposed to be a long discussion or analysis: acknowledge their experiences and move on.
 
+This is an [Open Question]({% link _activities/connect/open_question.md %}) connect.
+
 ## Concept - The Agent Loop
 Show the relationship diagram and explain it:
 

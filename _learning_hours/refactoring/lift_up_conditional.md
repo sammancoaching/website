@@ -39,6 +39,8 @@ As a whole group, ask participants to answer the question “What are your favou
 
 You can ask them to write their answers on stickies using a tool like Miro, Mural or Jamboard, or in bullet points in a shared doc, or on actual stickies in person.
 
+This is an [Open Question]({% link _activities/connect/open_question.md %}) connect.
+
 This is a good exercise to get them thinking about keyboard shortcuts, which will be useful in this exercise and are demonstrated in the videos linked to below. Hopefully some of them will learn new shortcuts as a result of this exercise.
 
 ### Concept: Lift-Up Conditional Demo

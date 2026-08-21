@@ -25,6 +25,8 @@ In case you split the session in two, I propose two different connect exercises 
 * Option 1 (preferred) - What are the keyboard shortcuts that you use the most while coding?
 * Option 2 - What are the activities you've seen people using shortcuts for, you wish you knew the shortcut?
 
+This is an [Open Question]({% link _activities/connect/open_question.md %}) connect.
+
 ### Setup
 #### Checkout
 Ask everyone to checkout the [repo](https://github.com/xrecoba/VS-ReSharper-shortcuts) with the exercise. In opposition to most LHs, the recommendation for this one is that everyone does it individually to develop muscle memory.
