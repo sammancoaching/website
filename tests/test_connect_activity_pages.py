@@ -21,7 +21,7 @@ def _front_matter_title(path):
 
 def _generated_url(path):
     relative = path.relative_to("_learning_hours")
-    return "/learning_hours/" + str(relative.with_suffix(".html"))
+    return "/learning_hours/" + relative.with_suffix(".html").as_posix()
 
 
 def _expected_learning_hours_for(connect_slug):
