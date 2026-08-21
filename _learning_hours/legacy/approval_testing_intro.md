@@ -24,6 +24,8 @@ This is an introduction to Approval testing and the aim is people will come away
 
 In the starting position for this exercise, [Supermarket-Receipt-Refactoring-Kata](https://github.com/emilybache/SupermarketReceipt-Refactoring-Kata), (on the main/default branch), there is a test that contains quite a few assert statements to check the contents of the Receipt object. Everyone should review this test case. Discuss in pairs for 5 minutes and note down anything you like about the test and anything you don't like about it. Use two different colours of sticky note. Share your notes with the group and put your common list of 'like' and 'dont like' on a flipchart.
 
+This is a [Code Review]({% link _activities/connect/code_review.md %}) connect.
+
 For a remote meeting: use a shared google doc to make your group lists.
 
 
