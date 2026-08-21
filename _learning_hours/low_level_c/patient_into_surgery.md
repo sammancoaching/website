@@ -27,7 +27,7 @@ Part 1 of 4 learning hours on this topic. All are specific for the C language.
 
 ### Connect - what stops you writing tests?
 
-From this list, pick your top three reasons for not writing unit tests: 
+This is a [Personal Relevance Voting]({% link _activities/connect/learning_goal_voting.md %}) connect. From this list, pick your top three reasons for not writing unit tests: 
 
 - It’s boring: I don’t enjoy writing tests.
 - The code has loads of dependencies that make it hard to test.

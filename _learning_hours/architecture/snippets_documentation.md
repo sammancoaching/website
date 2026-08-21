@@ -26,7 +26,7 @@ Unit tests form part of the documentation for your code. They should probably no
 
 
 ### Connect: Documentation attitudes
-Put a mark by the statements you agree with:
+This is a [Personal Relevance Voting]({% link _activities/connect/learning_goal_voting.md %}) connect. Put a mark by the statements you agree with:
 
 - I use documentation much more often than I write it.
 - All the documentation can be generated from the source code if you write good comments, tests and name things well.
