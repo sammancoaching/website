@@ -20,10 +20,15 @@ In his book "Unit Testing Principles, Practices and Patterns", Vladimir Khorikov
 * 20 min concrete: Write tests for WordWrap
 * 5 min conclusions: discuss which pillar your tests have most trouble with
 
-### Connect - web hunt test design principles
+### Connect - Test Design Principles
 What test design principles do you know already? 
 
-For example people might talk about the test pyramid, or white box testing, or "don't mock what you don't own".
+- Test Pyramid
+- White box testing vs Black box testing
+- Data-Driven testing
+- Arrange - Act - Assert
+
+Use either [Explain Previous Concepts]({% link _activities/connect/explain_previous_concepts.md %}), or if you don't expect them to be able to explain these in detail, have them put a mark by the ones they know. You can then briefly explain any that have no marks.
 
 ### Concept - Four pillars of a good test
 Vladimir Khorikov describes these pillars of a good test in his book "Unit Testing Principles, Practices and Patterns":
