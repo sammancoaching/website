@@ -25,6 +25,8 @@ There is a video on Emily Bache's YouTube channel which shows a variant on this 
 ### Discuss Misconceptions
 Create a handout with a number of statements about refactoring, which are controvertial, wrong, or only partially true. Ask people to discuss them in small groups and decide whether each statement is true or false. [Here]({% link exercises/warm_up_questions/refactoring_warm_up_questions.md %}) is a sample page of questions you could use.
 
+This is a [True or False Mythbusting]({% link _activities/connect/true_or_false_mythbusting.md %}) connect.
+
 ### Purpose of refactoring
 Remind people that the purpose of refactoring is to make code easier to understand and cheaper to modify. 
 

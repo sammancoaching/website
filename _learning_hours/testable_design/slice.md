@@ -28,6 +28,8 @@ Copy a symbol next to the items on this list which might make a function difficu
 - Function contains log statements using printf
 - Function is called from many places in the system
 
+This is a [Pick only the correct items]({% link _activities/connect/pick_the_correct_items_on_the_list.md %}) connect.
+
 
 ### Concept: Slice
 This picture visualizes the Slice strategy:

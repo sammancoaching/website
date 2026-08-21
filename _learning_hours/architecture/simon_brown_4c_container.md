@@ -25,7 +25,7 @@ This learning hour follows on from the previous one on this topic and goes into 
 * 15 min conclusions: compare Context and Container diagrams
 
 ### Connect: C4 recap
-The list below comprises descriptions of elements of the C4 model. Some statements describe a Diagram, some describe an Abstraction. Fill in the blanks with the following words:
+The list below comprises descriptions of elements of the C4 model. Some statements describe a Diagram, some describe an Abstraction. This is a [Fill in the Blanks]({% link _activities/connect/fill_in_blanks.md %}) connect. Fill in the blanks with the following words:
 
 - Component
 - System Context
