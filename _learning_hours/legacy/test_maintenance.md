@@ -22,7 +22,7 @@ Work in small steps.
 
 ### Connect: Does fixing the tests take longer than fixing the code?
 
-Have you had this experience that fixing the code takes 5 minutes then you spend days updating the tests? Why does that happen? I would like you to tell me at least 3 reasons.
+Have you had this experience that fixing the code takes 5 minutes then you spend days updating the tests? Why does that happen? This is a [Three Facts]({% link _activities/connect/three_facts.md %}) connect - I would like you to tell me at least 3 reasons.
 
 ### Concept - Characteristics of Approval testing
 

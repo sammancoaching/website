@@ -25,7 +25,7 @@ Part 4 of 4 learning hours on this theme.
 * 5 min conclusions: Was it worth it
 
 ### Connect
-Look at this list of steps. Re-order it in the order you'd do these steps in. Compare with others in the group and discuss if there are any differences.
+This is a [Sort these items]({% link _activities/connect/sort_these_items.md %}) connect. Look at this list of steps. Re-order it in the order you'd do these steps in. Compare with others in the group and discuss if there are any differences.
 
 - assess whether the test coverage is good enough to allow refactoring and only proceed once it is
 - move the patient back into the main build

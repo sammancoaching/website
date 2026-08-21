@@ -25,9 +25,9 @@ When people start with TDD I often see them struggle to remember to write the te
 ### Connect - things to remember when doing TDD
 Instead of the above connect, do this learning hour a second time as a refresher, with a different connect.
 
-Put this question to the group, and ask them to come up with 5 answers.
+This is a [Three Facts]({% link _activities/connect/three_facts.md %}) connect. Put this question to the group, and ask them to come up with at least 3 answers.
 
-"What are 5 important things to remember when you're doing Test-Driven Development?"
+"What are at least 3 important things to remember when you're doing Test-Driven Development?"
 
 The kinds of answers you're looking for are:
 

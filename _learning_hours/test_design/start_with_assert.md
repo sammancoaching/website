@@ -19,7 +19,7 @@ Tests usually have the structure Arrange - Act - Assert. If you write the test c
 * 5 min reflect: observations
 
 ### Connect
-In advance of the session, write sticky notes with some concepts they should already be familiar with, and stick them where everyone can see them on a whiteboard or flipchart. For example you could have these:
+This is an [Explain previous concepts]({% link _activities/connect/explain_previous_concepts.md %}) connect. In advance of the session, write sticky notes with some concepts they should already be familiar with, and stick them where everyone can see them on a whiteboard or flipchart. For example you could have these:
 
 - Red, Green, Refactor
 - TDD Golden Rule

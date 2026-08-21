@@ -21,7 +21,7 @@ This strategy is useful when you have code that is easy to test sandwiched in th
  
 
 ### Connect - recap Extract Function
-These are some steps you can follow in a ‘extract function’ refactoring. What order should you do the steps in? Re-order them in your own copy of the list.
+This is a [Sort these items]({% link _activities/connect/sort_these_items.md %}) connect. These are some steps you can follow in a ‘extract function’ refactoring. What order should you do the steps in? Re-order them in your own copy of the list.
 
 1. Compile and run tests
 1. Declare a new function with a suitable name

@@ -23,7 +23,7 @@ Before doing this session, they should have already done an exercise with ordina
 * 5 min reflect: pros and cons of combination approvals
 
 ### Connect: Pure functions
-What are the rules for what functions count as 'pure'? Look at the examples in [Pure-Or-Not-Quizz](https://github.com/emilybache/Pure-Or-Not-Quizz) and mark which ones are pure and which ones aren't. If you get stuck, look at the [Wikipedia article](https://en.wikipedia.org/wiki/Pure_function) describing what a pure function is. 
+This is a [Pick the correct items]({% link _activities/connect/pick_the_correct_items_on_the_list.md %}) connect. What are the rules for what functions count as 'pure'? Look at the examples in [Pure-Or-Not-Quizz](https://github.com/emilybache/Pure-Or-Not-Quizz) and mark which ones are pure and which ones aren't. If you get stuck, look at the [Wikipedia article](https://en.wikipedia.org/wiki/Pure_function) describing what a pure function is. 
 
 ### Demo: Combination Approvals on a Pure Function
 The starting position for [ValidateAndAddProduct-Refactoring-Kata](https://github.com/emilybache/ValidateAndAddProduct-Refactoring-Kata) has an ordinary Approval test to start you off. The coverage is not great, and you'd like to increase it. Combination Approvals would be a good approach since it's one big piece of conditional logic with few side effects.

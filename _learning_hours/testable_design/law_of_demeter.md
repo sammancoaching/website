@@ -34,7 +34,7 @@ By understanding the principle, and being able to identify and resolve violation
 
 ## Connect: WebHunt for three facts about LoD
 
-Group participants in pairs and have them research the Law of Demeter to come up with three facts.
+Group participants in pairs and have them research the Law of Demeter to come up with three facts. This is a [Web Hunt]({% link _activities/connect/webhunt.md %}) connect.
 Ask them to put the found facts on a shared board so everybody can see it.
 
 ## Concept: Explain LoD based on the found facts

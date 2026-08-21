@@ -23,7 +23,7 @@ In the Assert part of the test, you often want to check a collection of objects 
 * 5 min reflect: What did we learn about test design?
 
 ### Connect: Important Job of a Unit Test
-Ask "What is the most important job of a unit test"? Collect two or three answers and write them on a shared whiteboard. You're hoping someone will mention that it should fail when there is a problem, and give a good message.
+This is a [Three Facts]({% link _activities/connect/three_facts.md %}) connect. Ask "What is the most important job of a unit test"? Collect two or three answers and write them on a shared whiteboard. You're hoping someone will mention that it should fail when there is a problem, and give a good message.
 
 ### Concept: Asserting on Collections of Objects
 Today we're looking at collections of [Value Objects](https://en.wikipedia.org/wiki/Value_object) so you probably need to first explain what that is. 

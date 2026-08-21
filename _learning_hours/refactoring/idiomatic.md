@@ -27,7 +27,7 @@ Whether you find code readable or not can to a large extent depend on whether it
 
 
 ### Connect
-Show them some very non-idiomatic code in their language and ask them what's wrong with it.
+This is a [Code Review]({% link _activities/connect/code_review.md %}) connect. Show them some very non-idiomatic code in their language and ask them what's wrong with it.
 
 ### Concept
 Describe some idioms for the programming language you will be using in the session.

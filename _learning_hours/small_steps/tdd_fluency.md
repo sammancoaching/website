@@ -25,9 +25,9 @@ It takes a lot of practice to get good at TDD. This is a learning hour for when 
 * 5 min reflect: own practice goals
 
 ### Connect - Benefits of TDD
-Put this question to the group, and ask them to come up with 5 answers.
+This is a [Three Facts]({% link _activities/connect/three_facts.md %}) connect. Put this question to the group, and ask them to come up with at least 3 answers.
 
-"What are 5 important things to remember when you're doing Test-Driven Development?"
+"What are at least 3 important things to remember when you're doing Test-Driven Development?"
 
 The kinds of answers you're looking for are:
 

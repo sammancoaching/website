@@ -23,11 +23,11 @@ This learning hour is for C++ and would need adapting if you are using a differe
 
 # Connect: What is a test fixture for 
 
-I want 3 reasons to write a test fixture. Make sure they come up with 3 reaons before you proceed. 
+This is a [Three Facts]({% link _activities/connect/three_facts.md %}) connect. I want 3 reasons to write a test fixture. Make sure they come up with 3 reaons before you proceed. 
 
 # Connect: review test fixture in GoogleTest
 
-Review code in master branch for [TimerExpiryRefactoringKata](https://github.com/emilybache/TimerExpiry-Refactoring-Kata). Look at the code in [TimerExpiryGoogletestUnitTests.cpp](https://github.com/emilybache/TimerExpiry-Refactoring-Kata/blob/master/c/test/googletest_unittest/TimerExpiryGoogletestUnitTests.cpp) Could you re-use this fixture in other tests for the function 'how_long_until_next_timer_expiry'?
+This is a [Code Review]({% link _activities/connect/code_review.md %}) connect. Review code in master branch for [TimerExpiryRefactoringKata](https://github.com/emilybache/TimerExpiry-Refactoring-Kata). Look at the code in [TimerExpiryGoogletestUnitTests.cpp](https://github.com/emilybache/TimerExpiry-Refactoring-Kata/blob/master/c/test/googletest_unittest/TimerExpiryGoogletestUnitTests.cpp) Could you re-use this fixture in other tests for the function 'how_long_until_next_timer_expiry'?
 
 
 # Demo: Sections for TimerExpiry

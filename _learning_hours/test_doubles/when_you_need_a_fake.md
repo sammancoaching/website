@@ -23,7 +23,7 @@ There is a video and other materials available for this learning hour as part of
 
 ### Connect: How can you test this?
 
-Today's exercise is [The Doppelganger kata](https://github.com/dmerejkowsky/kata-doppelganger), and in particular the MailSender problem. Read the code - the MailSender class. It contains two versions of a method that has two different bugs, marked with comments. How could you write tests that would fail because of each bug? Discuss in pairs. Don't write any code at this point, just talk.
+This is a [Code Review]({% link _activities/connect/code_review.md %}) connect. Today's exercise is [The Doppelganger kata](https://github.com/dmerejkowsky/kata-doppelganger), and in particular the MailSender problem. Read the code - the MailSender class. It contains two versions of a method that has two different bugs, marked with comments. How could you write tests that would fail because of each bug? Discuss in pairs. Don't write any code at this point, just talk.
 
 ### Concept: Test Doubles
 

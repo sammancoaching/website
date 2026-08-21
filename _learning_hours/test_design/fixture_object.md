@@ -30,7 +30,7 @@ Use the Fixture Object pattern to reduce coupling between test code and producti
 
 ## Connect: Coupling introduced by type of Test Double
 
-Rank the test doubles from highest to lowest coupling between test and production code.
+This is a [Sort these items]({% link _activities/connect/sort_these_items.md %}) connect. Rank the test doubles from highest to lowest coupling between test and production code.
 
 The idea is that using a Mock/Spy results in more coupling between the test and production code compared to a Dummy/Stub/Fake. Participants should therefore rank Mock/Spy higher than Dummy/Stub/Fake.
 

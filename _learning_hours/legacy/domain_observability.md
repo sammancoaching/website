@@ -26,7 +26,7 @@ In this learning hour we will see how to improve the understandability of code t
 * 10 min conclusions: Discussion about this technique in your current code base
 
 ### Connect: What is observability?
-Based on the [Pick only the correct items](https://sammancoaching.org/activities/connect/pick_the_correct_items_on_the_list.html) activity 
+Based on the [Pick only the correct items]({% link _activities/connect/pick_the_correct_items_on_the_list.md %}) activity 
 
 Share to the group the some propositions to answer the question "What is observability?".
 

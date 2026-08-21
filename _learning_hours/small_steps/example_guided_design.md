@@ -27,7 +27,7 @@ There is a video and other materials available for this learning hour as part of
 * 5 min conclusions: How does it work and why would you?
 
 ### Connect - Spec vs Example
-Write these items on notes or cards. Ask people to sort them into two sections - is it a specification or is it an example?
+This is a [Sort these items]({% link _activities/connect/sort_these_items.md %}) connect. Write these items on notes or cards. Ask people to sort them into two sections - is it a specification or is it an example?
 
 - If the total value of your basket is over $200, give a 10% discount.
 - The maximum number of items allowed in your basket is 100.

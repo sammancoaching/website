@@ -19,8 +19,8 @@ TDD is both, but it can be a useful thinking tool to identify when you are worki
 * 40 min do: Mars Rover or similar
 * 5 min reflect: identify when we did iterative or incremental development
 
-### Connect: give me 5
-Give me 5 advantages to delivering a new piece of software in regular updates once per week rather than the whole thing once in 6-12 months time.
+### Connect: give me at least 3
+This is a [Three Facts]({% link _activities/connect/three_facts.md %}) connect. Give me at least 3 advantages to delivering a new piece of software in regular updates once per week rather than the whole thing once in 6-12 months time.
 
 You are looking for answers like:
 - End-user feedback we're on the right track

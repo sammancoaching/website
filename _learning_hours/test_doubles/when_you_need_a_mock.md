@@ -22,7 +22,7 @@ There is a video and other materials available for this learning hour as part of
 
 ### Connect: How can you test this?
 
-Today's exercise is [Auction Test Design Kata](https://github.com/emilybache/Auction-TestDesign-Kata). Review the code in
+This is a [Code Review]({% link _activities/connect/code_review.md %}) connect. Today's exercise is [Auction Test Design Kata](https://github.com/emilybache/Auction-TestDesign-Kata). Review the code in
 "AuctionMessageTranslator". It is supposed to parse text messages it receives from an external source, and notify a listener. The messages are about the progress of an online auction.
 
 There are bugs, marked with comments. The listener interface is under development. This listener wants to know what is happening in the auction so it can decide whether to make a bid.

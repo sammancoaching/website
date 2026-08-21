@@ -22,7 +22,7 @@ When you're working in TDD you'd like your cycles to be short and fairly regular
 
 ### Connect: 3 things about TDD plus one
 
-Ask participants: What are three things you already know about TDD? Tell them to the person sitting next to you. Bonus: also tell them one thing you want to learn about TDD.
+This is a [Three Facts and a Question]({% link _activities/connect/three_facts_and_a_q.md %}) connect, done in pairs. Ask participants: What are three things you already know about TDD? Tell them to the person sitting next to you. Bonus: also tell them one thing you want to learn about TDD.
 
 ### Concept: TDD Cycle
 

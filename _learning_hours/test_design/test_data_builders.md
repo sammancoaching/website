@@ -25,8 +25,8 @@ while improving their readability and reducing coupling between tests and source
 
 ## Connect
 Pick one of the following connect activities, depending on the trainee's knowledge:
-- 3 facts and a question about arranging inputs test
-- 3 facts about the builder pattern
+- [3 facts and a question]({% link _activities/connect/three_facts_and_a_q.md %}) about arranging inputs test
+- [3 facts]({% link _activities/connect/three_facts.md %}) about the builder pattern
 - map code examples with pattern names
 
 ### Map code examples with pattern names

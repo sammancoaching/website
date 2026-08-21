@@ -23,7 +23,7 @@ There is a video and other materials available for this learning hour as part of
 
 ### Connect: How can you test this?
 
-Today's exercise is [The Doppelganger kata](https://github.com/dmerejkowsky/kata-doppelganger), and in particular the Calculator problem. Read the code - the Calculator class. It contains a bug, marked with a comment. How could you write a test that would fail because of this bug? Discuss in pairs. Don't write any code at this point, just talk.
+This is a [Code Review]({% link _activities/connect/code_review.md %}) connect. Today's exercise is [The Doppelganger kata](https://github.com/dmerejkowsky/kata-doppelganger), and in particular the Calculator problem. Read the code - the Calculator class. It contains a bug, marked with a comment. How could you write a test that would fail because of this bug? Discuss in pairs. Don't write any code at this point, just talk.
 
 ### Concept: Test Doubles
 

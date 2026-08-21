@@ -28,7 +28,7 @@ In this learning hour we write a test fixture and reduce duplication.
 * 5 min conclusions: What is a test fixture
 
 ## Connect: Duplication
-- Give me three reasons why code duplication can be a problem.
+This is a [Three Facts]({% link _activities/connect/three_facts.md %}) connect. Give me three reasons why code duplication can be a problem.
 
 ## Concept: Test Fixture
 A unit test usually has three phases:

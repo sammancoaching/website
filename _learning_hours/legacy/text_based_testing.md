@@ -22,7 +22,7 @@ This is almost the same as Approval testing. This session introduces texttest on
 
 ### Connect: characteristics of Approval testing
 
-What are the characteristics of approval testing? Can you tell me 3?
+This is a [Three Facts]({% link _activities/connect/three_facts.md %}) connect. What are the characteristics of approval testing? Can you tell me 3?
 
 ### Connect: introduce Approvals Puzzles
 

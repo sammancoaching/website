@@ -20,7 +20,7 @@ A Data-Driven test keeps the 'act' part of the test the same, and only varies th
 * 5 min reflect: How readable are the test cases?
 
 ### Connect
-Mark all the statements that are true of Data-Driven testing
+This is a [Pick the correct items]({% link _activities/connect/pick_the_correct_items_on_the_list.md %}) connect. Mark all the statements that are true of Data-Driven testing
 
 - The assertion is the same in every test case
 - The 'act' step is the same in every test case

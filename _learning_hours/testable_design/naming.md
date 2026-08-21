@@ -47,7 +47,7 @@ There is a video and other materials available for this learning hour as part of
 Being able to explain how to give a piece of code a name that can be trusted.
 
 ## Connect
-Let the group look at some code and say if they think that the name is a good one.
+Let the group look at some code and say if they think that the name is a good one. This is a [Code Review]({% link _activities/connect/code_review.md %}) connect.
 Work in pairs, or small groups, if it is a big team. 
 
 Examples (in some made up language and framework): 

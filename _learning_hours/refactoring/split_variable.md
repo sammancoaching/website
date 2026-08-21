@@ -24,7 +24,7 @@ There is a video on Emily Bache's YouTube channel for this learning hour ["Prepa
 * 5 min conclusions: note down learnings
 
 ## Connect: Identify Paragraphs
-If the group is not familiar with code paragraphs then you should do a learning hour on that before this one. The purpose of this connect exercise is to remind them what they already know about code paragraphs by having them review some code and identify paragraphs.
+If the group is not familiar with code paragraphs then you should do a learning hour on that before this one. The purpose of this connect exercise is to remind them what they already know about code paragraphs. This is a [Code Review]({% link _activities/connect/code_review.md %}) connect - have them review some code and identify paragraphs.
 
 For example, show them [Theatrical Players](https://github.com/emilybache/Theatrical-Players-Refactoring-Kata). 
 

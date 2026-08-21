@@ -27,7 +27,7 @@ TDD is perhaps a little easier when someone else has started making the test lis
 
 ### Connect: Waterfall phases
 
-Mark the activities on this list that are phases in a Waterfall method:
+This is a [Pick the correct items]({% link _activities/connect/pick_the_correct_items_on_the_list.md %}) connect. Mark the activities on this list that are phases in a Waterfall method:
 
 * Singleton
 * Coding

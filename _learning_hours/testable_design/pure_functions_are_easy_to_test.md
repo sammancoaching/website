@@ -19,7 +19,7 @@ tags: testable_design c
 * 5 min reflect: pure functions in your code?
 
 ### Connect: Pure or not quizz
-Examine the [code snippets](https://github.com/emilybache/Pure-Or-Not-Quizz). Note down which are pure functions.
+This is a [Pick the correct items]({% link _activities/connect/pick_the_correct_items_on_the_list.md %}) connect. Examine the [code snippets](https://github.com/emilybache/Pure-Or-Not-Quizz). Note down which are pure functions.
 
 ### Concrete: Trig math
 Use the [cyber-dojo starting point](https://github.com/emilybache/custom-start-points/tree/master/start-points/TrigMath).

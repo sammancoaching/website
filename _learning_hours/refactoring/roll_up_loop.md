@@ -28,7 +28,7 @@ A loop is really just a sequence of blocks each doing the same thing, so often y
 
 ## Connect: Code smells and refactorings
 
-Ask the group to review the code for the exercise you will do later on. I've used several different ones depending on how skilled the group is. The idea at this point is to get them to read the code with enough detail that they see the long method and within that several similar code paragraphs.
+Ask the group to review the code for the exercise you will do later on. I've used several different ones depending on how skilled the group is. The idea at this point is to get them to read the code with enough detail that they see the long method and within that several similar code paragraphs. This is a [Code Review]({% link _activities/connect/code_review.md %}) connect.
 
 ## Concept: Roll Up loop
 Explain what this is through examples. I have quite a few examples in [RollUpLoop-Refactoring-Practice](https://github.com/emilybache/RollUpLoop-Refactoring-Practice). Put the 'before' version on a slide or handout and hide the 'after' version for the moment. Give them a series of 6-10 examples to go through and for each one ask the question: "Imagine turning the sequence into a loop. What type would you loop over?"

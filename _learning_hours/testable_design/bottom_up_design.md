@@ -26,7 +26,7 @@ The theme continues on designing testable code.
 * 5 min Reflect: whole group temperature - too many/too few tests?  
 
 ## Connect
-The topic is _overdesign_ in software. Read the list of statements below. Circle those that are relevant to the topic, and cross out those that are unrelated. Compare your answers with your neighbour.
+This is a [Pick the correct items]({% link _activities/connect/pick_the_correct_items_on_the_list.md %}) connect. The topic is _overdesign_ in software. Read the list of statements below. Circle those that are relevant to the topic, and cross out those that are unrelated. Compare your answers with your neighbour.
 
 * All problems in computer science can be solved by another level of indirection ...except for the problem of too many layers of indirection.
 * Boundary condition analysis is useful in test design.
