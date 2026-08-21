@@ -26,7 +26,7 @@ Part 2 of 4 learning hours on this topic. All are specific for the C language.
 
 ### Connect - when do you have enough tests?
 
-How do you know you have enough unit tests? Put a mark next to any you agree with. This is a [Personal Relevance Voting]({% link _activities/connect/learning_goal_voting.md %}) connect.
+How do you know you have enough unit tests? Put a mark next to any you agree with. This is a [Personal Relevance Voting]({% link _activities/connect/personal_relevance_voting.md %}) connect.
 
 - When the Architect is happy
 - When coverage is 80%

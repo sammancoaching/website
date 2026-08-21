@@ -27,7 +27,7 @@ There is a video and other materials available for this learning hour as part of
 ### Connect - vote for favourite design guidelines
 Make a list of plausible design guidelines that people might find important/relevent/useful. Put them up on a shared whiteboard and ask each person to pick their top 4 and mark them with dot votes.
 
-This is a [Personal Relevance Voting]({% link _activities/connect/learning_goal_voting.md %}) connect.
+This is a [Personal Relevance Voting]({% link _activities/connect/personal_relevance_voting.md %}) connect.
 
 * No duplication
 * Single return per function

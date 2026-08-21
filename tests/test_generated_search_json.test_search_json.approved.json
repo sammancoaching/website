@@ -116,8 +116,12 @@
         "url": "/activities/connect/fill_in_blanks.html"
     },
     {
-        "title": "Activity: Learning Goal Voting",
-        "url": "/activities/connect/learning_goal_voting.html"
+        "title": "Activity: Open Question",
+        "url": "/activities/connect/open_question.html"
+    },
+    {
+        "title": "Activity: Personal Relevance Voting",
+        "url": "/activities/connect/personal_relevance_voting.html"
     },
     {
         "title": "Activity: Pick only the correct items",

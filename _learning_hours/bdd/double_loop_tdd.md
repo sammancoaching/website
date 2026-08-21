@@ -21,7 +21,7 @@ Many organizations have automated tests that are not unit tests, but what they c
 * 10 min reflect: Compare what you knew before with what you know now
 
 ### Connect: What do you call tests that aren't unit tests?
-This is a [Personal Relevance Voting]({% link _activities/connect/learning_goal_voting.md %}) connect. Put a mark by any of these terms if you actually use them in your work, and they refer to tests that are automated but aren't unit tests:
+This is a [Personal Relevance Voting]({% link _activities/connect/personal_relevance_voting.md %}) connect. Put a mark by any of these terms if you actually use them in your work, and they refer to tests that are automated but aren't unit tests:
 
 - Customer Test
 - Guiding Test

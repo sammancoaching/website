@@ -32,7 +32,7 @@ There is a video on Emily Bache's YouTube channel on this topic but using a diff
 
 Put descriptions of these three code smells around the room or on a shared online whiteboard. Have people form pairs and go around and read them. If they recognize the smell, and have experienced it in their work, put a "nose" sticker next to it. Give them a pile of nose stickers or brightly coloured postit notes.
 
-This is a [Personal Relevance Voting]({% link _activities/connect/learning_goal_voting.md %}) connect.
+This is a [Personal Relevance Voting]({% link _activities/connect/personal_relevance_voting.md %}) connect.
 
 * [Shotgun Surgery]({% link _code_smells/shotgun_surgery.md %})
 * [Divergent Change]({% link _code_smells/divergent_change.md %})

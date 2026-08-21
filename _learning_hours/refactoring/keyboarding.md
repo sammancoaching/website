@@ -29,7 +29,7 @@ Exercises to increase fluency with refactoring by practicing using keyboard shor
 * 2 min reflect: note most useful shortcuts
 
 ### Connect: keyboard shortcuts you use a lot
-What are the keyboard shortcuts that you use the most while coding? This is a [Personal Relevance Voting]({% link _activities/connect/learning_goal_voting.md %}) connect. Dot voting, up to 5 votes each:
+What are the keyboard shortcuts that you use the most while coding? This is a [Personal Relevance Voting]({% link _activities/connect/personal_relevance_voting.md %}) connect. Dot voting, up to 5 votes each:
 
 * Copy
 * Cut
