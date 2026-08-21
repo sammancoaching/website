@@ -14,7 +14,11 @@ Redesigning asserts as a printer.
 
 ## Learning Goals
 
-* 
+* Explain how storyboards can help with printer design
+* Design a printer and extend it as you build more functionality
+* Convert some assertions to _print_ - _diff_
+
+## Session Outline
 
 * 2 min connect: What do you look for in an error message
 * 5 min concept: What is a Storyboard in Approval testing
