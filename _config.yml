@@ -65,6 +65,11 @@ defaults:
     values:
       layout: "homepage"
   - scope:
+      path: "_activities/connect"
+      type: "activities"
+    values:
+      layout: "connect_activity"
+  - scope:
       path: ""
       type: "workshop"
     values:

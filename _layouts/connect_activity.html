@@ -1,0 +1,19 @@
+---
+layout: homepage
+---
+
+{{ content }}
+
+{% assign slug = page.name | remove: '.md' %}
+{% assign lhs_using = site.learning_hours | where_exp: "lh", "lh.connects contains slug" %}
+{% assign lhs_using = lhs_using | sort: 'title' %}
+{% if lhs_using.size > 0 %}
+<h2>Used in these Learning Hours</h2>
+<ul>
+{% for lh in lhs_using %}
+  <li><a href="{{ lh.url }}">{{ lh.title }}</a></li>
+{% endfor %}
+</ul>
+{% endif %}
+
+<p><a href="{% link activities/connect.md %}">Back to all Connect activities</a></p>
