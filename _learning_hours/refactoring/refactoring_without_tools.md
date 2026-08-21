@@ -21,6 +21,8 @@ You don't always have the tools you'd like to have, and they don't always work t
 ### Connect
 Ask the group - What can go wrong when refactoring? How do you know if your refactoring was safe? Gather comments from the whole group and note them in a shared document or whiteboard.
 
+This is a [Three Facts]({% link _activities/connect/three_facts.md %}) connect.
+
 Hopefully people will know that refactoring can be dangerous and the compiler and tests can protect you from mistakes.
 
 

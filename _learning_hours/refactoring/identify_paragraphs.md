@@ -32,6 +32,8 @@ There is a video and other materials available for this learning hour as part of
 ### Connect - Why does code have long methods?
 Ask this question and write down what they say on sticky notes on the shared whiteboard. Most developers have experience of and opinions about long methods. There are no wrong answers! 
 
+This is a [Three Facts]({% link _activities/connect/three_facts.md %}) connect.
+
 ### Concept - Code Paragraphs
 Long methods tend to get longer, (hopefully in the Connect someone will have said this, and you can reiterate what they said). At some point the method may become so long and complex that nobody understands what it does anymore - they can't hold in their head all that complexity at once. In this situation we need techniques that still work even when we don't understand the code.
 
