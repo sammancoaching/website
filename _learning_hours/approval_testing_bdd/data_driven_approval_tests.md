@@ -12,6 +12,10 @@ tags: approvals bdd
 
 A Data-Driven test keeps the 'act' part of the test the same, and only varies the data in the 'arrange' part. The 'assert' part of the test usually varies according to the data given, and with an approval testing approach, it becomes easy to update.
 
+## Learning Goals
+* Write several approval tests all with the same 'act' step.
+* Explain that approval testing and data-driven testing can be combined to make readable tests.
+
 ## Session Outline
  
 * 5 min connect: describe data-driven testing

@@ -12,7 +12,8 @@ tags: test_design
 In this learning hour we discuss if code duplication can be a problem for test code, and how it relates to readability.
 
 ## Learning Objective
-- Compare test code with and without a fixture and how it affects readability
+* Compare test code with and without a fixture and how it affects readability
+* Refactor duplicated test code into a fixture
 
 ## Session Outline
 

@@ -17,7 +17,8 @@ There is a video and other materials available for this learning hour as part of
 ## Learning Goals
 
 * Remember the name of the refactoring "Extract Function" aka "Extract Method"
-* Identify a situation when you can successfully apply "Extract Function" or "Extract Method"
+* Identify a situation when you can successfully apply "Extract Function"
+* Perform "Extract Function" on a straightforward code paragraph, using a tool.
 
 ## Session Outline
  

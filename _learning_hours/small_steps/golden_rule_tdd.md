@@ -13,7 +13,8 @@ When people start with TDD I often see them struggle to remember to write the te
 
 ## Learning Objectives
 
-* Remember to design new classes and functions in the test, before they exist
+* Explain that designing new classes and functions in the test, before they exist, helps prevent overdesign.
+* Write a test before the production code exists to make it compile or run
 
 ## Session Outline
  

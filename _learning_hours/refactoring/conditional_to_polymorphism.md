@@ -16,7 +16,7 @@ This refactoring replaces conditional logic with classes and polymorphism. The c
 There is a video and other materials available for this learning hour as part of a [Technical Coaching Programme]({% link training/full_package.md %})
 
 ## Learning Goals
-
+* Explain the main benefits of using refactoring tools - they make refactoring faster and safer
 * Use refactoring tools and keyboard shortcuts while refactoring
 * Use a sequence of smaller refactorings to complete a larger refactoring
 

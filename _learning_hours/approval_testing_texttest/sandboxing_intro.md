@@ -14,6 +14,7 @@ Sometimes you need to adapt your application a little bit to make it testable. I
 
 ## Learning Objective
 * Explain what sandboxing is and why you'd want to do that
+* Write a test for an application that would have been difficult to test if it weren't sandboxed.
 
 ## Outline
 

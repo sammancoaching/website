@@ -16,6 +16,7 @@ Introducing Tim Ottinger & Brett Schuchert's [FIRST](http://agileinaflash.blogsp
 
 * List some important properties of a unit test, especially that they should be Fast and Isolated.
 * Recognize tests that have FIRST properties and those that do not.
+* Write a unit test that fulfills most FIRST properties
 
 ## Session Outline
 

@@ -12,6 +12,10 @@ tags: approvals bdd
 
 Redesigning asserts as a printer.
 
+## Learning Goals
+
+* 
+
 * 2 min connect: What do you look for in an error message
 * 5 min concept: What is a Storyboard in Approval testing
 * 40 min concrete: Design a printer

@@ -15,7 +15,7 @@ tags:  refactoring
 Divergent Change is a code smell that describes when the same section of code needs to change because of several different reasons. It would be better to divide up the responsibilities. This learning hour is similar to the one on [Split Loop]({% link _learning_hours/refactoring/split_loop.md %}) but is intended to show how to combine Split Phase with Split Loop.
 
 # Learning Goals
-
+* Explain when and how to do a "Split Phase" refactoring
 * Use "Split Phase" to separate concerns into different sequential steps
 
 # Session Outline

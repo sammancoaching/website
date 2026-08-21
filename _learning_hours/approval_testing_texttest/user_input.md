@@ -15,6 +15,7 @@ Command-line programs sometimes ask the user for input interactively. This is a 
 ## Learning Objective
 * use TextTest to operate an application with user input
 * turn use cases into tests
+* Recognize that TextTest is a useful tool to get a command-line program under test
 
 ## Session Outline
 

@@ -13,9 +13,9 @@ In agile, Big Design Up Front (BDUF) is something to be avoided, but that doesn'
 
 ## Learning Goals
 
-* Identify the difference between a test list and a problem description
-* Recognize the role of a test list in TDD
-* Understand why they would benefit from learning how to create a test list from a problem description
+* Identify the difference between a test list and a problem description - the list contains examples.
+* Recognize the role of a test list in TDD.
+* Create a test list from a problem description. The list should include concrete examples.
 
 ## Session Outline
  

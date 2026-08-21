@@ -14,6 +14,10 @@ The group will probably have seen Leap Years before, so it's a good one for intr
 
 People learn better when they are moving about than when they are sitting still. They also learn more when they are talking than when they are just listening. That's why we put the code listings on the wall and have them walk about, talking to one another.
 
+## Learning Goals
+* Recognize different styles of TDD will produce tests with different properties
+* Apply their knowledge of good unit test properties to assess different kinds of tests
+
 ## Session Outline
  
 * 5 min connect: in pairs, properties of a good unit test?

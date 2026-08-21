@@ -18,6 +18,7 @@ A loop is really just a sequence of blocks each doing the same thing, so often y
 
 * Describe the design feedback indicated by a sequence of similar statements or repeating blocks.
 * Identify an abstraction to loop over in order to remove duplication in a sequence of similar statements or repeating blocks.
+* Perform a Roll-up-loop refactoring in a straightforward situation
 
 ## Session Outline
 
