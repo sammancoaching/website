@@ -59,7 +59,5 @@ An important aspect of code smells is that when you detect one, it gives you a c
 Explain this and show a demo of using "Extract method" to address a Long Method smell. For example version 9 of the [Office Cleaner Robot Refactoring Kata](https://github.com/sammancoaching/OfficeCleaningRobot-Refactoring-Kata). The long method contains a switch statement and each case can be extracted to a method like "MoveNorth" etc.
 
 ### Conclusions - Code Smells main idea
-If you had to explain the main idea of Code Smells to a colleague, what would you say?
-
-This is an [explain the main idea]({% link _activities/conclusions/explain_main_idea.md %}) conclusions activity.
+If you had to [explain the main idea]({% link _activities/conclusions/explain_main_idea.md %}) of Code Smells to a colleague, what would you say?
 

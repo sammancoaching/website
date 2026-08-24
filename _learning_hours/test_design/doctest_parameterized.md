@@ -45,4 +45,4 @@ Explain that Parameterized tests are a form of Data-Driven testing. The "Act" st
 Ask them to write new tests for the Shopping Basket implementation. When they have them working, ask them to re-insert the bug so one of the cases fails. Make sure the feedback is useful.
 
 ### Reflect: Test Design
-[Note down your most important takeaways]({% link _activities/conclusions/write_important_takeaway.md %}) on the topic of Test Design.
+[Look back at the failure messages you compared in the Code Review]({% link _activities/conclusions/revisit_connect.md %}). Does your parameterized test give feedback that's just as useful when it fails?
