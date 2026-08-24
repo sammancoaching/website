@@ -14,6 +14,8 @@ Gather responses by asking them to choose an emoji. Example emojis:
 
 ![emojis](/assets/images/how_does_it_feel.png)
 
+Alternatively use a 'fist to five' vote with 1 = not good 5 = great
+
 Afterwards you could comment briefly on whether you observe mostly positive or negative emotions. Don't overthink it, it's mostly meant to be a bit of fun.
 
 ## Benefits

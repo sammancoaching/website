@@ -30,7 +30,8 @@ This is a [Pick the correct items]({% link _activities/connect/pick_the_correct_
 Use the [cyber-dojo starting point](https://github.com/emilybache/custom-start-points/tree/master/start-points/TrigMath).
 
 ### Reflect
-Fist to five vote: 5 fingers = very, zero = not at all
+Ask ['how does it feel']({% link _activities/conclusions/how_does_it_feel.md %}).
+Fist to five vote: 5 fingers = very, zero = not at all (or use emojis)
 
 - How hard was getting some test coverage of this code?
 - How relevant was this to your normal work?
@@ -49,7 +50,8 @@ An easy-to-test function has these properties:
 Code that is harder to test will lack some or all of these properties.
 
 ### Reflect: What about your code?
-Fist to five vote: 5 fingers = very, zero = not at all
+Ask ['how does it feel']({% link _activities/conclusions/how_does_it_feel.md %}).
+Fist to five vote: 5 fingers = very, zero = not at all  (or use emojis)
 
 - How much of the time do you find yourself writing tests for functions that have all these three properties?
 
