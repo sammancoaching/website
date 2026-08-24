@@ -1,7 +1,7 @@
 ---
 theme: test_design
 title: Parameterized Tests
-kata: mars_rover
+kata: coffee_shop
 difficulty: 2
 author: emilybache
 affiliation: ProAgile
@@ -11,6 +11,11 @@ tags: test_design
 # Parameterized Tests
 
 This is a form of Data-Driven testing. The "Act" step is the same for all the tests, but the Arrange and Assert parts are parameterized.
+
+## Learning Goals
+
+* Refactor some existing test cases as a parameterized test
+* Explain how parameterized testing helps with reliability and maintainability of tests
 
 ## Session Outline
  

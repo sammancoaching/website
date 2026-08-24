@@ -15,6 +15,11 @@ Similarly you could say about test code - All code you write may contain bugs, a
 
 No-one wants buggy test code that could hide bugs in the production code. So what to do? We write our test code to be as simple and straightforward as possible. Nowhere for bugs to hide. Using a standard Arrange - Act - Assert structure helps.
 
+## Learning Goals
+
+* Explain how the Arrange - Act - Assert pattern leads to test which are readable, low complexity, and use a consistent abstraction level throughout.
+* Use the Arrange - Act - Assert pattern to write tests for a straightforward coding exercise.
+
 ## Session Outline
  
 * 15 min connect: review test code samples   

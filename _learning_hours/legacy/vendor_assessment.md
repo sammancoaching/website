@@ -11,6 +11,12 @@ affiliation: Praqma
 
 Write some text-based tests. Define input in a text file, approve output in a text file. Design which dice and categories are interesting to test and how to arrange them into test cases.
 
+## Learning Goals
+
+* Explain some situations when text-based testing is a good approach
+* Use text-based testing to add regression tests for some functionality with more than one implementation.
+* Use text-based testing to find bugs in existing functionality
+
 ## Session Outline
 
 * 5 min connect: What's an edge case 

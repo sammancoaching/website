@@ -12,6 +12,10 @@ Martin Fowler, author of "Refactoring" and signatory of the Agile Manifesto, cre
 
 TODO: create a good exercise for this
 
+## Learning Goals
+
+* TODO
+
 ## Connect: how bad was the worst code you ever worked with? 
 
 Pose this question: Have you ever worked on code that was so bad it made you want to find a new job?

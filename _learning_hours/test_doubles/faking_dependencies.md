@@ -11,6 +11,11 @@ tags: test_doubles test_design
 # Faking Dependencies
 Following on from the learning hours on Stubs. Fakes are like stubs but with a real implementation.
 
+## Learning Goals
+
+* Use a Fake to test some suitable code
+* Explain when to use a Fake rather than another kind of test double
+
 ### Connect
 [Mark the true statements]({% link _activities/connect/pick_the_correct_items_on_the_list.md %}) and not the other ones:
 - A stub is a piece of code that doesn’t work yet

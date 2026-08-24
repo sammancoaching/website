@@ -10,7 +10,12 @@ tags: architecture
 
 # Architecture Decision Records
 
-This is a way for architects to communicate their decisions. Most developers will at some point need to follow guidance from architects and might be shown Architectur Decision Records so it could be good to know what they are.
+This is a way for architects to communicate their decisions. Most developers will at some point need to follow guidance from architects and might be shown Architecture Decision Records, so it could be good to know what they are.
+
+## Learning Goals
+
+* Explain when you should use an Architecture Decision Record
+* Write an Architecture Decision Record for a sample decision including all important sections 
 
 ## Session outline
 

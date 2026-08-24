@@ -11,6 +11,16 @@ affiliation: Praqma
 
 This is some really horrible legacy code, and it is so satisfying to refactor it! This exercise is the most popular one I have, judged by the number of stars and forks and pull requests I get for it. In this learning hour you show a full worked solution, demonstrating several techniques. The idea is that attendees will come away with a bigger picture of what's possible to achieve, and higher ambitions for their own work with legacy code.
 
+## Learning Goals
+
+* Remember some strategies for refactoring legacy code
+* Identify one or more techniques for refactoring legacy code, from this list:
+  - Combination Approvals
+  - Coverage
+  - Mutation Testing
+  - Normalize Conditional (aka lift-up conditional)
+  - Replace Conditional with Polymorphism
+
 ## Session Outline
  
 * 5 min connect: how to refactor code you don't understand?  

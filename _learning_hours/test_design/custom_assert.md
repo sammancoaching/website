@@ -12,6 +12,11 @@ tags: test_design
 
 Writing your own assertions is a way to reduce duplication in tests. The error message also needs to be informative. Approval testing is a different way to achieve that but we don't go into that here.
 
+## Learning Goals
+
+* Describe some advantages of using custom assertions in tests
+* Replace several assertions with a custom assertion using safe refactoring steps
+
 ## Session outline
 
 * 5 min connect: Failure messages

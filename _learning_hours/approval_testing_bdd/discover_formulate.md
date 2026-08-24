@@ -11,6 +11,11 @@ tags: approvals bdd
 
 When you're doing TDD, how do you know what to test? The starting point is usually some kind of requirements specification, and/or discussions with a business representative. This learning hour is about how to discover and formulate scenarios and get your TDD cycle started. If you hold a second learning hour on the same Kata, you can use these scenarios to drive double-loop TDD.
 
+## Learning Goals
+
+* Formulate a BDD scenario from an example
+* Explain the purpose of scenarios in TDD
+* Judge whether a given scenario will be automatable with an automation tool they already know
 
 ## Session Outline
 

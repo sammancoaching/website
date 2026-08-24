@@ -12,6 +12,11 @@ tags: testable_design legacy
 
 This strategy is useful when you have code that is easy to test sandwiched in the middle of hard-to-test code.
 
+## Learning Goals
+
+* Explain when to use the 'peel' strategy to break dependencies in difficult to test code
+* Use the 'peel' strategy to extract testable functions from legacy code that is suitable for it.
+
 ## Session Outline
  
 * 5 min connect: recap Extract Function

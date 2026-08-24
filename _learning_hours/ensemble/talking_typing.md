@@ -12,6 +12,11 @@ tags: teamwork
 
 When working in an ensemble, the person _Talking_ should try to speak at a higher level of abstraction. The person _Typing_ should be able to take care of syntax without the talker dictating keystrokes.
 
+## Learning Goals
+
+* Use the Intention - Location - Details pattern when communicating in an ensemble setting
+* Explain the dangers of communicating only in "Details" when coding collaboratively
+
 ## Session Outline
  
 * 5 min connect: Match high level statements of intent with syntax

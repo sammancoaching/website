@@ -11,6 +11,11 @@ tags: test_doubles test_design
 # Mocking Dependencies
 Although 'Test Double' is supposed to be the umbrella term for all kinds of mocks, fakes and stubs, in practice people tend to say 'mock'. That's fine in most cases, but it is probably useful to know what the difference is between a mock and other kinds of test double.
 
+## Learning Goals
+
+* Use a Mock to test some suitable code
+* Explain when to use a Mock rather than some other kind of test double
+
 ### Connect 
 On the topic of Test Doubles - give me [three facts]({% link _activities/connect/three_facts.md %}).
 

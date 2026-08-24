@@ -10,6 +10,11 @@ tags: testable_design c
 
 # Writing tests for pure functions
 
+## Learning Goals
+
+* Given a pure function, write a test for it.
+* Explain why pure functions are easier to test than functions with side effects.
+
 ## Session Outline
  
 * 10 min connect: pure or not quizz  

@@ -12,6 +12,11 @@ tags:  small_steps test_design
 
 When you're working in TDD you'd like your cycles to be short and fairly regular. That means slicing up the problem into pieces. ZOMBIES is an acronym invented by James Grenning to help you to do that.
 
+## Learning Goals
+
+* Use the ZOMBIES acronym to inform choice of test cases during TDD
+* Explain the ZOMBIES acronym and how it helps us to split a problem during TDD
+
 ## Session Outline
  
 * 10 min connect: Classify activities as Iterative, Incremental or Waterfall

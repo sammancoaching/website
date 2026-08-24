@@ -10,6 +10,12 @@ tags: test_doubles test_design
 # Stubbing Dependencies
 We already met a first stub in the [test doubles intro](test_double_intro.html). Here we look at using a mocking framework and follow up with another exercise that needs a stub.
 
+## Learning Goals
+
+* Use a Stub to test some suitable code
+* Create a Stub using a mocking framework
+* Explain when to use a mocking framework to create a Stub and when you might hand-code one.
+
 ### Connect - Mocking frameworks
 What mocking frameworks have you used? Which one(s) do you use in your current codebase? Do a [Web Hunt]({% link _activities/connect/webhunt.md %}) and look for resources and documentation for your preferred mocking framework. Can you use it to create a Stub?
 

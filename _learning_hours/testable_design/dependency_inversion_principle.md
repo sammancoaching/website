@@ -14,6 +14,11 @@ The Dependency Inversion Principle
 
 This is one of the 5 SOLID principles outlined in Robert C. Martin's book "Agile Software Development Principles, Patterns and Practices". In this session we work on some code that breaks the principle and is also difficult to write unit tests for.
 
+## Learning Goals
+
+* Explain that code which breaks the Dependency Inversion Principle is harder to test
+* Write tests for code which breaks the Dependency Inversion Principle by using a Stub
+
 ## Session Outline
  
 * 5 min connect: pairs discuss design principles

@@ -12,6 +12,10 @@ tags: testable_design
 
 In his book "Unit Testing Principles, Practices and Patterns", Vladimir Khorikov analyses the code to be tested in terms of Complexity and Collaborator quandrants. This learning hour introduces them.
 
+## Learning Goals
+
+* TODO
+
 ## Session Outline
 
 * 5 min connect: 

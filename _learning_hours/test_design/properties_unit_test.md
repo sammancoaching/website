@@ -12,6 +12,11 @@ tags: test_design
 
 Using a list from Roy Osherove's book "The Art of Unit Testing".
 
+## Learning Goals
+
+* Convert a 'main' function that was previously used to test a class into a unit test using a standard unit testing framework
+* Explain some of Roy Osherove's characteristics of good unit tests
+
 ## Session Outline
 
 * 10 min connect: Questioning whether you have unit tests 

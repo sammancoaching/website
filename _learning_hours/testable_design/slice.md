@@ -11,6 +11,11 @@ tags: testable_design legacy
 # Strategy - Slice
 For when 'Peel' strategy doesn't work, like when the difficult-to-test code is in the middle of the testable code, not at the beginning or end.
 
+## Learning Goals
+
+* Explain when to use the 'slice' strategy to break dependencies in difficult to test code
+* Use the 'slice' strategy to extract testable functions from legacy code that is suitable for it.
+
 ## Session Outline
  
 * 5 min connect: identify testability problems

@@ -11,6 +11,12 @@ tags: test_doubles test_design
 # When to use a Test Double
 Dependencies of the class under test can be replaced with a test double. Sometimes you don't even need a double at all - you can just use the real collaborator.
 
+## Learning Goals
+
+* Identify which kind of test double to use in a testing scenario by looking at the properties of the collaborator.
+* Explain why there is no need to replace a ValueObject with a test double for testing
+* Use a Spy to replace a collaborator in a test
+
 ### Connect - recap
 [Explain these concepts]({% link _activities/connect/explain_previous_concepts.md %}):
 

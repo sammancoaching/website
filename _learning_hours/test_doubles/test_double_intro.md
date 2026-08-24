@@ -11,6 +11,11 @@ tags: test_doubles test_design
 # Test Doubles Intro
 I think it's important to learn the basic concepts and how to create test doubles by hand before launching into the details of a specific mocking framework.
 
+## Learning Goals
+
+* Use a Stub to test some suitable code
+* Explain when to use a Stub
+
 ## Session Outline
 
 * 15 min connect: three facts about mocks

@@ -12,6 +12,11 @@ tags: test_design c
 
 This is a form of Data-Driven testing. The "Act" step is the same for all the tests, but the Arrange and Assert parts are parameterized.
 
+## Learning Goals
+
+* Create a parameterized test for some existing code
+* Identify how to design a parameterized test so that when it fails the feedback is useful
+
 ## Session Outline
 
 * 10 min connect: explain test design concepts
@@ -34,7 +39,7 @@ This is a form of Data-Driven testing. The "Act" step is the same for all the te
 Review the test cases in [Shopping Basket Test Design Kata](https://github.com/emilybache/ShoppingBasket-Test-Design-Kata). Insert a bug (change 0.05 to 0.07 so the five percent discount case is wrong) and run the tests. Look at the failure messages. Which test design gives the best feedback?
 
 ### Concept: Parameterized Tests
-Explain that this is a form of Data-Driven testing. The "Act" step is the same for all the tests, but the Arrange and Assert parts are parameterized. Show how to do this with Doctest (ie it's not very easy at present).
+Explain that Parameterized tests are a form of Data-Driven testing. The "Act" step is the same for all the tests, but the Arrange and Assert parts are parameterized. Show how to do this with Doctest (ie it's not very easy at present).
 
 ### Do: Write some parameterized tests
 Ask them to write new tests for the Shopping Basket implementation. When they have them working, ask them to re-insert the bug so one of the cases fails. Make sure the feedback is useful.

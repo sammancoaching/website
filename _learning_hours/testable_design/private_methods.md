@@ -15,6 +15,11 @@ How should you test private methods? That's the main question we'll be looking a
 
 The main learning point for this session is that when we do TDD, there are some strategies for testing private methods that we probably won't use. For example we don't need to use reflection or a PowerMock tool to break encapsulation in order to get at a private method to test it. TDD will help us to choose a testable design. Those other strategies are ones we may choose when faced with code that was not designed for testability.
 
+## Learning Goals
+
+* Explain some strategies to test private methods, and which ones are favoured in TDD.
+* Create private methods in the context of TDD and use a suitable strategy to ensure they are tested.
+
 ## Session Outline
  
 * 5 min connect: pairs discuss how to test private methods  

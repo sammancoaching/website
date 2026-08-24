@@ -8,9 +8,14 @@ tags: reading legacy
 ---
 
 # Code Reading - Common Code Smells
-Code Smells by definition should be easy to detect. We'll practice looking for them. This learning hour is still being worked on and currently only has a 'concrete' and 'conclusion'.
+Code Smells, by definition, should be easy to detect. We'll practice looking for them. This learning hour is still being worked on and currently only has a 'concrete' and 'conclusion'.
 
-### Code reading practice
+## Learning Goals
+
+* Identify code smells in example code, in particular Long function, Bumpy Road, Duplicated Code, Mysterious names
+* Describe code smells in their own code
+
+### Concrete: Code reading practice
 Have people work in pairs to review some code and note down any code smells they find. In particular, they should look for the common smells you just explained. The idea is just to read the code and identify smells, not do anything about it. Note that you can identify code smells without necessarily understanding the code or being able to safely change it.
 
 Example katas that work well:
@@ -31,7 +36,7 @@ You are hoping that they will find smells like these:
 * Theatrical Players: [Variable with Long Scope]({% link _code_smells/variable_with_long_scope.md %}), [Loop]({% link _code_smells/loop.md %})
 * Gilded Rose: [Long function]({% link _code_smells/long_function.md %}), [Bumpy Road]({% link _code_smells/bumpy_road.md %})
 
-### What code smells does your production code often suffer from?
+### Conclusions: What code smells does your production code often suffer from?
 Are any of these smells common in your production code? Or are there other smells? Discuss in pairs and note down names of smells you have noticed in your production code. Collect the names on a shared whiteboard.
 
 In the coming days as you work with your production code, keep a look out for smells and note where you find them. 

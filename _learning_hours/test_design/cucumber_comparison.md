@@ -12,6 +12,11 @@ tags: test_design bdd
 
 Gherkin is the name of the formal language you use with a tool like Cucumber or SpecFlow for test automation. It's often used in Behaviour Driven Development for the outer loop tests of Double-Loop TDD.
 
+## Learning Goals
+
+* Describe how using Gherkin in test cases improves test readability
+* Use Gherkin to describe a feature with several scenarios, for a straightforward coding problem they are already familiar with.
+
 ## Session Outline
  
 * 5 min connect: Demo classic Leap Years

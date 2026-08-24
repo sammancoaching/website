@@ -11,6 +11,11 @@ affiliation: Praqma
 
 Many teams use coverage metrics to assess how good their tests are. In this session we'll use coverage interactively during test development, to help us to add tests to existing code. The warm-up questions might raise a wider discussion about good use of coverage data in the organization, which could be a good thing, but possibly something to defer for a later occasion.
 
+## Learning Goals
+
+* Add tests to existing code, using coverage as a driver
+* Explain when using coverage to decide on which test cases to add is a good strategy
+
 ## Session Outline
 
 * 10 min connect: discuss warm-up questions  
