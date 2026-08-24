@@ -47,5 +47,5 @@ Note that you can re-use the same printer in many tests, so overall it is not go
 Have people work in pairs to repeat what you demonstrated, then add further tests for different discounts. Point out the enumeration class 'SpecialOfferType' that contains all the different varieties of discount.
 
 ### Reflect - Differences with Approval testing
-Look at your new tests and compare them with the list of things you liked and didn't like at the start of the session. Which are still valid for your new tests? Make a new list of things you like and don't like by writing new stickies on a new list.
+[Look at your new tests and compare them with the list of things you liked and didn't like at the start of the session]({% link _activities/conclusions/revisit_connect.md %}). Which are still valid for your new tests? Make a new list of things you like and don't like by writing new stickies on a new list.
 

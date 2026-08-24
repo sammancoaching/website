@@ -49,7 +49,7 @@ Start over from scratch and demo using Approvals.
 Since LeapYears is a relatively small problem to solve, probably any other approach than standard TDD looks like overkill. You might want to explain that people should focus on what the approach looks like rather than whether it is appropriate for this problem. You're using a problem they are familiar with so they can focus on something else.
 
 ### Reflect
-Ask people to discuss in pairs. Do the tests that come from the new approach have all the properties they came up with during the earlier part of the session? Leave your demo code up on the projector screen where they can see it while they discuss.
+Ask people to discuss in pairs. [Do the tests that come from the new approach have all the properties they came up with during the earlier part of the session?]({% link _activities/conclusions/revisit_connect.md %}) Leave your demo code up on the projector screen where they can see it while they discuss.
 
 
 

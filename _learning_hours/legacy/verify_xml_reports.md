@@ -39,4 +39,4 @@ Have people work in pairs to do the exercise. Help them to set up their IDEs as 
 The last function they try to write tests for has a twist. The output varies with every run since it prints today's date. Some pairs will be able to work out a way to handle it, others will ask for help. You probably won't have time to help them fix that in this session, assure them you will tackle it in a later session. Ask them to focus on getting 100% coverage for the other functions for the time being.
 
 ### Reflect
-Give people a chance to review their answers to the warm-up questions. In particular draw their attention to any questions that concern adding tests to existing code, which was today's topic.
+[Give people a chance to review their answers to the warm-up questions]({% link _activities/conclusions/revisit_connect.md %}). In particular draw their attention to any questions that concern adding tests to existing code, which was today's topic.

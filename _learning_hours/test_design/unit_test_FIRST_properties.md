@@ -46,7 +46,7 @@ Write some unit tests that have FIRST properties. Suggested exercise: [LeapYears
 You could use [FIRST Test Design Kata](https://github.com/emilybache/FIRST-Test-Design-Kata) as a starting position.
 
 ### Conclusions
-Review your facts and questions from the first part of the session. Can you answer any of the questions? Do any of the facts need reviewing? Annotate the notes you made with new notes detailing things you learnt during the session.
+[Review your facts and questions from the first part of the session]({% link _activities/conclusions/revisit_connect.md %}). Can you answer any of the questions? Do any of the facts need reviewing? Annotate the notes you made with new notes detailing things you learnt during the session.
 
 
 
