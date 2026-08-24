@@ -916,10 +916,6 @@
         "url": "/learning_hours/small_steps/iterative_or_incremental.html"
     },
     {
-        "title": "Learning Hour: Outside-in TDD",
-        "url": "/learning_hours/small_steps/outside_in.html"
-    },
-    {
         "title": "Learning Hour: Selecting and ordering test cases",
         "url": "/learning_hours/small_steps/select_order_testcases.html"
     },
@@ -1122,10 +1118,6 @@
     {
         "title": "Learning Hour: Reading by Renaming",
         "url": "/learning_hours/testable_design/naming.html"
-    },
-    {
-        "title": "Learning Hour: Overdesign",
-        "url": "/learning_hours/testable_design/overdesign.html"
     },
     {
         "title": "Learning Hour: Peel - a strategy for difficult to test code",
