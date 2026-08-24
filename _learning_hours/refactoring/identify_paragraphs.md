@@ -21,6 +21,7 @@ There is a video and other materials available for this learning hour as part of
 * Recognize paragraphs in a long method
 * Identify paragraphs that you can do 'extract method' on (that have a single return value)
 * Recognize when you know enough to give an extracted method an honest name
+* Safely refactor an identified code paragraph using 'extract method'
 
 ## Session Outline
 

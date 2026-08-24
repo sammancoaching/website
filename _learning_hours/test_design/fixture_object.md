@@ -19,7 +19,8 @@ In this learning hour, we'll explore how to apply the Fixture Object pattern to 
 
 ## Learning Objective
 
-Use the Fixture Object pattern to reduce coupling between test code and production code, especially for tests that use test doubles.
+* Use the Fixture Object pattern to reduce coupling between test code and production code.
+* List benefits of the Fixture Object pattern, especially for tests that use test doubles.
 
 ## Session Outline
 

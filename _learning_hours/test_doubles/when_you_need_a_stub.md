@@ -14,6 +14,11 @@ In this exercise you need to use a stub to test the code.
 
 There is a video and other materials available for this learning hour as part of a [Technical Coaching Programme]({% link training/full_package.md %})
 
+## Learning Goals
+
+* Identify situations when you need to use a Stub.
+* Use a Stub to replace a collaborator in a test
+
 ## Session Outline
 
 * 10 min connect: How can you test this bug?

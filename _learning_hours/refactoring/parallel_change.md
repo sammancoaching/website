@@ -13,6 +13,11 @@ tags:  refactoring small_steps
 
 This is a general refactoring strategy for completing a larger change in small steps.
 
+## Learning Goals
+
+* Explain when to use the 'parallel change' refactoring strategy
+* Use the 'parallel change' strategy to improve some code with Data Clump and Primitive Obsession code smells.
+
 ### Connect
 [Mark the true statements]({% link _activities/connect/pick_the_correct_items_on_the_list.md %}) and not the other ones:
 1. If you encounter ugly code that you don’t need to change to get your task done, then you don’t need to refactor it.

@@ -11,6 +11,13 @@ via: emilybache
 
 This is one of the "Patterns of Legacy Displacement" from [this article](https://martinfowler.com/articles/patterns-legacy-displacement/)
 
+## Learning Goals
+
+* Explain one cause of the Critical Aggregator pattern
+* Use a systematic approach to design suitable SQL queries to solve a data analysis problem
+
+## Session Outline
+
 * 5 min connect: How could you break this Query?
 * 10 min concept: Invasive critical aggregator
 * 30 min concrete: SQL murder mystery

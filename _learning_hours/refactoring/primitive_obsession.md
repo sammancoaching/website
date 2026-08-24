@@ -15,6 +15,11 @@ tags:  refactoring
 It's useful to have a shared knowledge of different Code Smells and how to handle them. [Primitive Obsession]({% link _code_smells/primitive_obsession.md %}) is a very common smell which occurs in projects.
 In this learning hour we will talk about what it is and how you are able to refactor it. 
 
+## Learning Goals
+
+* Explain the code smell "Primitive Obsession"
+* Do the refactoring 'Replace primitive with object' in small, safe steps
+
 ## Session Outline
  
 * 3  min connect: What is a code smell? 

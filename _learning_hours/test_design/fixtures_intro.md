@@ -19,6 +19,7 @@ In this learning hour we write a test fixture and reduce duplication.
 ## Learning Objective
 
 - Use a Test Fixture to reduce duplication in test code
+- Explain the syntax and purpose of a Test Fixture
 
 ## Session Outline
 
