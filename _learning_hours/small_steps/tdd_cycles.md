@@ -12,6 +12,11 @@ tags:  small_steps
 
 When you're working in TDD you'd like your cycles to be short and fairly regular. Let's look at that today.
 
+## Learning Goals
+
+* Explain that a good TDD cycle is short and focussed on making a single example work
+* On a simple coding problem, use TDD with good cycles
+
 ## Session Outline
  
 * 5 min connect: 3 things about TDD plus one

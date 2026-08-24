@@ -13,6 +13,11 @@ When you’re doing double loop TDD, you go around the inner loop on the timesca
 
 Many organizations have automated tests that are not unit tests, but what they call them varies enormously. The first part of this session we want to discover what this organization calls them, and work out if they would be suitable to use in Double-loop TDD.
 
+## Learning Goals
+
+* Describe the purpose of a Guiding test and their role in double-loop TDD
+* Create a guiding test outline from a problem description
+
 ## Session Outline
  
 * 5 min connect: Names of kinds of tests
@@ -48,7 +53,7 @@ Sketch a guiding test for a kata. For example [Monty Hall]({% link _kata_descrip
 
 Divide into pairs and have people sketch on a piece of paper. After about 5-10 minutes have them present to the rest of the group. Give them some feedback. Let them spend another 5 minutes or so to refine their sketches. Share them again and identify desirable traits. Ideally get the group to agree on one that would be usable in a future session as a Guiding Test.
 
-Repeat with another Kata if their is time.
+Repeat with another Kata if there is time.
 
 ### Reflect: 
 Compare and contrast the knowledge and assumptions you had about Guiding Tests (or whatever you call them in your organization) before this session and what you know now. Write a paragraph summarizing your comparisons.

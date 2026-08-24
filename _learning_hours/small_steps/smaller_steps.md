@@ -14,6 +14,12 @@ Inspired by Mike Hill's "Many more, much smaller steps".
 
 There is a video and other materials available for this learning hour as part of a [Technical Coaching Programme]({% link training/full_package.md %})
 
+## Learning Goals
+
+* Describe strategies you can use to shorten your step length during coding
+* Describe the difference between a step and an action 
+* Recognize and use both steps and actions in TDD
+
 ## Session Outline
  
 * 5 min connect: advantages of incremental releases

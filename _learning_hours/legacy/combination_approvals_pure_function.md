@@ -15,6 +15,11 @@ For combination approvals to work, you first have to come up with a a way to acc
 
 Before doing this session, they should have already done an exercise with ordinary approval testing. It would also help if you had demonstrated the technique previously so they've seen it before. For example on the Gilded Rose Refactoring Kata.
 
+## Learning Goals
+
+* list pros and cons of combination approval tests compared with normal approval tests 
+* Given a pure function set up to call some business logic, use it to create a combination approval test with full coverage
+
 ## Session Outline
 
 * 5 min connect: pure functions identification  

@@ -13,6 +13,11 @@ Test Order with Yatzy
 
 This kata is a couple of steps up in difficulty from Leap Years. You are designing one main function with several helper functions. You test drive the implementation one helper function at a time. The group learns about this strategy for breaking down a problem into pieces suitable for TDD.
 
+## Learning Goals
+
+* Describe a strategy for breaking down a coding problem using an ordered list of test cases
+* Implement some functionality one piece at a time using a test list
+
 ## Session Outline
 
 * 2 min connect: pairs discuss when to write tests or not  

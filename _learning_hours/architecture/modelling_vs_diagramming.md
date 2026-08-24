@@ -12,6 +12,11 @@ tags: architecture
 
 Before we get into designing container diagrams we should talk about the difference between a model and a diagram.
 
+## Learning Goals
+
+* describe differences between modelling and diagramming 
+* starting from a diagram, use a tool to create a model of a system you understand
+
 ## Session outline
 
 * 5 min connect: tools you know

@@ -15,6 +15,11 @@ Practice this refactoring.
 
 There is a video on Emily Bache's YouTube channel for this learning hour ["Prepare a Code Paragraph for Extraction with Split Variable"](https://youtu.be/wPmJz2ynb3k)
 
+## Learning Goals
+
+* Describe situations that would lead you to try the refactoring 'split variable'
+* Apply the 'split variable' refactoring in small safe steps
+
 ## Session Outline
 
 * 5 min connect: Identify Paragraphs

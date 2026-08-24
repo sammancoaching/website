@@ -11,6 +11,11 @@ affiliation: ProAgile
 
 This is almost the same as Approval testing. This session introduces texttest on some fun programs.
 
+## Learning Goals
+
+* Use TextTest to create a text-based test for a command-line program
+* Explain why text-based testing is a good fit for a lot of command-line programs, and when it is less so.
+
 ## Session outline
 
 * 2 min connect: characteristics of Approval testing

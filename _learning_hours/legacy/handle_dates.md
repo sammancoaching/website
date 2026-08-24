@@ -11,6 +11,14 @@ affiliation: ProAgile
 
 Extra challenge with dates, process ids, things in random order.
 
+## Learning Goals
+
+* Explain when it's a good idea to change production code to enhance testability
+* Explain some strategies to deal with the current time in approved scenarios
+* Implement a 'scrubber' strategy to remove the current time in an approved scenario
+
+## Session Outline
+
 * 2 min connect: is testability an architectural concern?
 * 10 min concrete: analyse the problem
 * 10 min concrete: Demo pre-comparison processing

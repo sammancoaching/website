@@ -11,6 +11,12 @@ affiliation: ProAgile
 
 Work in small steps.
 
+## Learning Goals
+
+* Look at the differences between an approved scenario and current behaviour and judge whether to approve the changes or not. 
+* Explain that when we update an approved scenario we don't want to approve defects, only desirable changes. 
+* Explain how working in small steps, running tests often will reduce the overall test maintenance burden
+
 ## Session Outline
 
 * 5 min connect: Does fixing the tests take longer than fixing the code?

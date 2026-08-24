@@ -12,6 +12,11 @@ tags: approvals bdd
 
 Approval testing can be used for getting legacy code under control. That's how we use it in the Gilded Rose Refactoring kata for example. You can also do new development with this approach. You use a form of Double-Loop TDD. You start with a sketch, and use that as the expected value in the outer loop test. This test fails as long as the program output is different from the sketch. When you've done some development work and the sketch matches the actual output, you approve that and the test passes. Then you can start on the next iteration loop with a new sketch of a different scenario.
 
+## Learning Goals
+
+* Starting from a sketch, implement a feature that has an approved scenario
+* Explain that you want an approved scenario to look like something a business domain expert would understand
+
 ## Session Outline
  
 * 2 min connect: Approval testing kata bingo  

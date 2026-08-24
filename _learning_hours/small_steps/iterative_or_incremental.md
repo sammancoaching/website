@@ -12,6 +12,12 @@ tags:  small_steps
 
 TDD is both, but it can be a useful thinking tool to identify when you are working in each style. It's also useful to realize that iterative and incremental works on many timescales, and TDD is iterative and incremental on a minutes-to-hours timescale. 
 
+## Learning Goals
+
+* Describe some advantages and disadvantages of iterative and incremental development
+* Recognize that although there is not a hard boundary between them, sometimes we work more incrementally and sometimes more iteratively
+* Use an incremental and iterative approach to solving a small coding problem
+
 ## Session Outline
  
 * 5 min connect: Partial deliveries

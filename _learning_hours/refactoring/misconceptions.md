@@ -14,6 +14,11 @@ In this session we talk about what refactoring is and why we do it. We work on i
 
 There is a video on Emily Bache's YouTube channel which shows a variant on this learning hour: ["Refactoring, what you need to know"](https://youtu.be/K7xSsNpeM8I)
 
+## Learning Goals
+
+* Explain that poor names and difficult to read code are reasons to refactor
+* Use the 'rename' refactoring to improve some code with poor names
+
 ## Session Outline
 
 * 15 min connect: refactoring warm-up questions   
@@ -23,7 +28,7 @@ There is a video on Emily Bache's YouTube channel which shows a variant on this 
 
 
 ### Discuss Misconceptions
-Create a handout with a number of statements about refactoring, which are controvertial, wrong, or only partially true. Ask people to discuss them in small groups and decide whether each statement is true or false. [Here]({% link exercises/warm_up_questions/refactoring_warm_up_questions.md %}) is a sample page of questions you could use.
+Create a handout with a number of statements about refactoring, which are controversial, wrong, or only partially true. Ask people to discuss them in small groups and decide whether each statement is true or false. [Here]({% link exercises/warm_up_questions/refactoring_warm_up_questions.md %}) is a sample page of questions you could use.
 
 This is a [True or False Mythbusting]({% link _activities/connect/true_or_false_mythbusting.md %}) connect.
 

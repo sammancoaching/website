@@ -12,6 +12,12 @@ tags:  refactoring legacy
 
 Lean on the good tests. Improve the code in ShoppingCart.
 
+## Learning Goals
+
+* Use safe refactoring steps in code that's difficult to understand
+* Use the refactorings 'slide statement' and 'extract method' appropriately
+* Describe situations when you would use 'split loop', 'slide statement' and 'extract method' 
+
 ## Session Outline
 
 * 5 min connect: What is the goal of refactoring? 

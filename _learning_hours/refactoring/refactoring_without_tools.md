@@ -11,6 +11,11 @@ tags:  refactoring c
 
 You don't always have the tools you'd like to have, and they don't always work totally reliably. How do you handle that?
 
+## Learning Goals
+
+* Describe a list of small, safe steps for the 'extract method' refactoring
+* Do an 'extract method' refactoring safely without tools, using a checklist
+
 ## Session Outline
  
 * 5 min connect: what can go wrong?   
