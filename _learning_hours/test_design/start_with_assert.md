@@ -11,6 +11,11 @@ tags: test_design
 
 Tests usually have the structure Arrange - Act - Assert. If you write the test case in reverse order, starting from the assertion, it can help you to design it better. For example, you avoid overdesigning the setup, only create the things you need. Hopefully during this session the participants will discover some other advantages too.
 
+## Learning Goals
+
+* Write test cases starting from the assertion and working back from there
+* Explain how writing test assertions first helps you to achieve good test design.
+
 ## Session Outline
  
 * 10 min connect: sticky notes of key concepts the group should know already  

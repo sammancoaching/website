@@ -16,6 +16,11 @@ In this learning hour we learn about Kent Beck's rules of simple design. There i
 
 There is a video and other materials available for this learning hour as part of a [Technical Coaching Programme]({% link training/full_package.md %})
 
+## Learning Goals
+
+* Describe Beck's 4 rules of software design 
+* Explain where you personally have different priorities when you do software design
+
 ## Session Outline
 
 * 5 min connect: vote for favourite design guidelines
@@ -49,6 +54,8 @@ If no-one does TDD and they all end up with rather simple but less testable code
 
 ### Concept - TDD changes your design
 Print out and pin up the code samples from ["FizzbuzzKata-Samples"](https://github.com/emilybache/FizzBuzzKata-Samples) around the walls of the room, in order. Only include the implementations, not the tests. Have people walk around in their pairs and study the code together. Get them to put a marker by the code sample they think is most similar to their own. If you did a TDD demo, ask them to mark the code sample most like the design you came up with as well. 
+
+Alternative - break into pairs and give everyone 10-15 minutes to implement FizzBuzz any way they like, with or without TDD. Use that as a basis for the discussion instead of the samples.
 
 When everyone's done that, take a whole group discussion. Did those who wrote unit tests end up with a different design than those who didn't? Hopefully there will be examples of both and you can lead them to the insight that doing TDD (or at least writing unit tests) changes your design.
 

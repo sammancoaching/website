@@ -13,6 +13,11 @@ In this exercise you need to use a mock or spy to test the code.
 
 There is a video and other materials available for this learning hour as part of a [Technical Coaching Programme]({% link training/full_package.md %})
 
+## Learning Goals
+
+* Design an interface between two classes by using a mock
+* Describe how mocks or spies can help you to design an interface between two classes
+
 ## Session Outline
 
 * 10 min connect: How can you test this?
@@ -41,4 +46,4 @@ When you have fixed the bugs, add support for the additional message outlined in
 
 ### Conclusions: Do you like your design?
 
-Compare the designs you have come up with for the AuctionEventListener interface. Why did we use a test double to develop this code? Ask [When should you use this]({% link _activities/conclusions/when_to_use_this.md %})?
+Compare the designs you have come up with for the AuctionEventListener interface. Do you like these designs? Why did we use a test double to develop this code? What are alternative ways to design an interface between two classes? Ask [When should you use this]({% link _activities/conclusions/when_to_use_this.md %})?

@@ -12,6 +12,11 @@ tags: test_design
 
 In his book "Unit Testing Principles, Practices and Patterns", Vladimir Khorikov outlines four pillars of unit test design. This learning hour introduces them.
 
+## Learning Goals
+
+* Describe Khorikov's four pillars of test design with reference to tests that you have written previously
+* Write some test cases for exiting functionality that comply with the pillar "Resistance to refactoring".
+
 ## Summary
 
 * 5 min connect: test design principles

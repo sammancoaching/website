@@ -12,6 +12,11 @@ tags: test_design c
 
 This learning hour is for C++ and would need adapting if you are using a different programming language. We will look at two ways to write a test fixture - using GoogleTest and Catch2. We assume the participants already know GoogleTest and would like to learn about Catch2.
 
+## Learning Goals
+
+* Describe how different kinds of test fixture lead to tests that are more or less readable and maintainable
+* Use Catch2 to implement a test case that you already have implemented using Googletest
+
 ## Session Outline
 
 * 1 min connect: What is a test fixture for
