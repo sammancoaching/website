@@ -60,6 +60,6 @@ If you didn’t choose option B in the warmup:
 If you did choose B in the warmup:
 * Is this the kind of test list you would have normally written before beginning coding? Will you change anything about the way you write your test lists now?
 
-Discuss in pairs.
+Discuss in pairs [how you could apply this]({% link _activities/conclusions/how_to_apply_here.md %}).
 
 

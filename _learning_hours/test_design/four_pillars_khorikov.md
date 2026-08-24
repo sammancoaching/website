@@ -54,4 +54,4 @@ One of the pillars is "Resistance to refactoring". That means the design of the 
 Evaluate your tests against all the four pillars. In particular, "Resistance to refactoring". What is it about this code that makes it easy to score well on that pillar?
 
 ### Conclusions - how about your test code?
-In your team, which of these test design pillars do you have the most trouble with? Discuss in pairs. Look for examples in your sourcecode that are particularly bad.
+In your team, which of these test design pillars do you have the most trouble with? Discuss in pairs. [Look for examples in your sourcecode]({% link _activities/conclusions/how_to_apply_here.md %}) that are particularly bad.

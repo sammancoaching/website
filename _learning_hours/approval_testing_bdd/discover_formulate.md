@@ -44,7 +44,7 @@ I think this exercise is particularly suitable for formulating scenarios as sket
 In small groups or pairs, get people to come up with more examples and formulate them as scenarios that could be automated. 
 
 ### Reflect
-Get small groups to present their examples and formulations to one another. 
+Get small groups to [present their examples and formulations]({% link _activities/conclusions/showcase.md %}) to one another. 
 
 ### Conclusions
-Each person should note down in their own words the most important thing they have learnt today.
+Each person should [note down in their own words]({% link _activities/conclusions/write_important_takeaway.md %}) the most important thing they have learnt today.

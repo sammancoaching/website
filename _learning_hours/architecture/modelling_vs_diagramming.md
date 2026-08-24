@@ -46,9 +46,9 @@ Ask them to create a model that will produce the Context diagram which they came
 If they have time, they could go on to model a Container diagram too.
 
 ### Conclusions
-Compare the diagrams produced by the different groups. If you like, show them a sample solution from the [Instavoiced materials repo](https://github.com/emilybache/Instavoiced-Architecture-Kata)
+[Compare the diagrams produced by the different groups]({% link _activities/conclusions/showcase.md %}). If you like, show them a sample solution from the [Instavoiced materials repo](https://github.com/emilybache/Instavoiced-Architecture-Kata)
 
-Have them note down any facts they want to remember about architecture modelling.
+Have them [note down any facts]({% link _activities/conclusions/write_important_takeaway.md %}) they want to remember about architecture modelling.
 
 
 

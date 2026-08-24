@@ -49,4 +49,4 @@ Switch over to test one of the other implementations. How many bugs do you find?
 
 ## Conclusions: note down learnings
 
-Is text-based testing a good way to test yatzy? What about other applications?
+Is text-based testing a good way to test yatzy? [What about other applications?]({% link _activities/conclusions/when_to_use_this.md %})

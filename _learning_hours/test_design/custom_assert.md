@@ -34,6 +34,6 @@ If you've used a custom assertion in a previous exercise, review that code now. 
 Roadload has a starting position with one test case with several assertions. Extract it to a custom assert in a test fixture. Write some more tests using the same custom assert.
 
 ### Conclusions
-When should you write a custom assertion? What kinds of code smells would indicate it is a good idea?
+[When should you write]({% link _activities/conclusions/when_to_use_this.md %}) a custom assertion? What kinds of code smells would indicate it is a good idea?
 
 Compare your answers with the list in [XUnit patterns](http://xunitpatterns.com/Custom%20Assertion.html)

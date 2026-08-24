@@ -46,5 +46,5 @@ The function you're trying to test has a line that is difficult to test in the m
 One way to solve [TirePressure](https://github.com/emilybache/custom-start-points/tree/master/start-points/TirePressure) is using Slice. You can also do it on 'getScoreboard' in [IceCreamScores](https://github.com/emilybache/custom-start-points/tree/master/start-points/IceCreamScores/)
 
 ### Reflect - when to Peel, when to Slice
-What is important to remember when you add tests to code containing a call to a difficult-to-test function?
+[What is important to remember]({% link _activities/conclusions/write_important_takeaway.md %}) when you add tests to code containing a call to a difficult-to-test function?
 

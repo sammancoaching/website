@@ -31,4 +31,4 @@ Have them change the test in [SingleSignOn](https://github.com/emilybache/Single
 
 
 ### Conclusions
-In your own words, summarize the most important things you want to remember about test doubles. Explain to one another in pairs or write a note to yourself.
+In your own words, summarize the most important things you want to remember about test doubles. [Explain to one another in pairs]({% link _activities/conclusions/explain_main_idea.md %}) or [write a note to yourself]({% link _activities/conclusions/write_important_takeaway.md %}).

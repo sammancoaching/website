@@ -46,5 +46,5 @@ The exercise is [Supermarket-TestDesign-Kata](https://github.com/sammancoaching/
 If you've worked on the exercise in pairs, take a few minutes at the end to [showcase]({% link _activities/conclusions/showcase.md %}) the various solutions. The git branch "sample_solution" contains one possible solution for the exercise if you want to compare it against yours.
 
 ## Conclusions
-Note down in your own words what a test fixture is and how you can use it to remove duplication.
+[Note down in your own words]({% link _activities/conclusions/explain_main_idea.md %}) what a test fixture is and how you can use it to remove duplication.
 

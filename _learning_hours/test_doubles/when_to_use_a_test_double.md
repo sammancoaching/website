@@ -38,4 +38,4 @@ Perhaps note there are two main schools of TDD - this advice is from the 'classi
 [DeliveryController](https://github.com/emilybache/DeliveryController-Refactoring-Kata) - there are two collaborators - EmailGateway and MapService. Should you replace both with test doubles? What kind of test doubles? Discuss this question first, and agree a strategy. Split into pairs to work on implementing tests.
 
 ### Conclusions
-In what situations should you use a mock? When would you be better off with an instance of the real object? Note down some answers and share them with the group.
+[In what situations should you use]({% link _activities/conclusions/when_to_use_this.md %}) a mock? When would you be better off with an instance of the real object? Note down some answers and share them with the group.

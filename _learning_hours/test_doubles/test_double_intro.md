@@ -44,4 +44,4 @@ Note that we don't want the object being tested to know that it got a test doubl
 If they finish this task quickly, ask them to work on [Turn Ticket](https://github.com/emilybache/TurnTicket-Kata).
 
 ### Conclusions
-In what situations should you use a stub? Note down some answers and share them with the group.
+[In what situations should you use]({% link _activities/conclusions/when_to_use_this.md %}) a stub? Note down some answers and share them with the group.

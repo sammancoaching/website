@@ -108,4 +108,4 @@ Ask people to do the same exercise you just demoed, and use the keyboard shortcu
 Show the complex conditional in Gilded Rose and how you can use this technique to simplify it. If you are doing the [follow-up learning hour using this technique]({% link _learning_hours/refactoring/lift_up_conditional.md %}), it is the same demo. You might not show the whole demo today, but you can make a start. It helps to see it twice :-)
 
 ### Conclusions: 
-Ask them to write a sticky note to remind them of something they learnt today. A technique / approach / tool that you liked in particular?
+Ask them to [write a sticky note]({% link _activities/conclusions/write_important_takeaway.md %}) to remind them of something they learnt today. A technique / approach / tool that you liked in particular?

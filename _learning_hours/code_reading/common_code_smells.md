@@ -37,7 +37,7 @@ You are hoping that they will find smells like these:
 * Gilded Rose: [Long function]({% link _code_smells/long_function.md %}), [Bumpy Road]({% link _code_smells/bumpy_road.md %})
 
 ### Conclusions: What code smells does your production code often suffer from?
-Are any of these smells common in your production code? Or are there other smells? Discuss in pairs and note down names of smells you have noticed in your production code. Collect the names on a shared whiteboard.
+[Are any of these smells common in your production code?]({% link _activities/conclusions/how_to_apply_here.md %}) Or are there other smells? Discuss in pairs and note down names of smells you have noticed in your production code. Collect the names on a shared whiteboard.
 
 In the coming days as you work with your production code, keep a look out for smells and note where you find them. 
 

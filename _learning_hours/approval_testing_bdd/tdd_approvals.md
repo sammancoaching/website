@@ -57,6 +57,6 @@ If you already did a learning hour on discovery and formulation of scenarios for
 Do the lift kata in pairs
 
 ### Reflect
-Pick a couple of pairs and ask them to put their test code up on the screen. Compare the test code to the scenario formulation they started with. Do they look the same?
+Pick a couple of pairs and ask them to [put their test code up on the screen]({% link _activities/conclusions/showcase.md %}). Compare the test code to the scenario formulation they started with. Do they look the same?
 
 

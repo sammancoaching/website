@@ -43,4 +43,4 @@ Another use of refactoring is for code that has technical debt, that is, it is h
 Examine the code in Tennis3 in [The Tennis Refactoring Kata](https://github.com/emilybache/Tennis-Refactoring-Kata). Is there anything wrong with this code? Do you see any technical debt? How could refactoring improve it? Discuss what's needed and address problems one by one.
 
 ### Reflect
-Have people note down an answer to this question: When should you refactor?
+Ask [When should you use this]({% link _activities/conclusions/when_to_use_this.md %})? I.e. when should you refactor? Have people note down their answer.

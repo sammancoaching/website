@@ -79,5 +79,5 @@ The facilitator can choose the approach:
 ### Reflect
 Discuss as a group:
 - What are the advantages of preparatory refactoring?
-- When should you use it?
+- [When should you use it?]({% link _activities/conclusions/when_to_use_this.md %})
 Participants may jot down thoughts before sharing.

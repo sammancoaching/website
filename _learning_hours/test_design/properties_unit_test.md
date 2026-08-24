@@ -61,5 +61,5 @@ Look at the ["RecentlyUsedList" implementation](https://github.com/emilybache/cu
 Re-write it as a unit test. When you've done that, add more tests to improve the coverage.
 
 ## Conclusions: Note something you want to remember about unit test design
-Perhaps something about the test framework or syntax or a characteristic of unit tests you want to remember.
+Perhaps something about the test framework or syntax or a [characteristic of unit tests you want to remember]({% link _activities/conclusions/write_important_takeaway.md %}).
 

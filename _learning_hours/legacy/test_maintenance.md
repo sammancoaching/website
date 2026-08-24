@@ -61,4 +61,4 @@ By the end, your code should look the same as the branch "with_broken_tests". No
 
 ### Conclusions - How can you reduce test maintenance?
 
-Note your ideas on sticky notes. Are any of these strategies only relevant for approval testing? Share with the group.
+[Note your ideas on sticky notes]({% link _activities/conclusions/write_important_takeaway.md %}). Are any of these strategies only relevant for approval testing? Share with the group.

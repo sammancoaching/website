@@ -57,6 +57,6 @@ Ask them to continue to work on the same exercise, but now they are allowed to c
 If that goes quickly, consider doing the TextConverter problem as well in a similar way.
 
 ### Conclusions
-Ask everyone to note down in their own words what the Dependency Inversion Principle is and why it is important for testability.
+Ask everyone to [note down in their own words]({% link _activities/conclusions/explain_main_idea.md %}) what the Dependency Inversion Principle is and why it is important for testability.
 
 

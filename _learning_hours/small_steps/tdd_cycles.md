@@ -39,7 +39,7 @@ Pick an exercise, one that is not too complicated and you can fit several TDD cy
 If you've previously done a ['test list'](test_list.html) learning hour on this kata you could remind them of it and distribute the list you made that time. Otherwise, remind them to make their own test list.
 
 ### Reflect: TDD cycles and test list
-Review the code and TDD cycles. A tool like cyber-dojo makes test cycles visible, but you can also use the local history in your IDE, or git history. 
+This is a [TDD Cycles]({% link _activities/conclusions/tdd_cycles.md %}) conclusion. Review the code and TDD cycles. A tool like cyber-dojo makes test cycles visible, but you can also use the local history in your IDE, or git history. 
 
 - Were the cycles even in length, did you get a good TDD rhythm going?
 - Did you have one TDD cycle per test on your list?

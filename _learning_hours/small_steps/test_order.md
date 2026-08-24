@@ -58,6 +58,6 @@ Hand over the navigator role to someone in the mob, continuing to code from wher
 - How did we break down the problem into pieces for TDD?
 - How much test code do we have compared with production code?
 - Have we over-tested or under-tested or got it right, in your opinion? Compare notes with the person next to you.
-- Take a whole-group temperature about whether there are too many tests, not enough or about right.
+- Take a [whole-group temperature]({% link _activities/conclusions/group_temperature.md %}) about whether there are too many tests, not enough or about right.
 
 

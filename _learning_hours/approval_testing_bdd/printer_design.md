@@ -43,4 +43,4 @@ There is a [starting position](https://github.com/emilybache/VendingMachine-Appr
 
 ### Conclusions - printer design
 
-What have you learnt about printer design? How much detail should you include?
+[What have you learnt about printer design?]({% link _activities/conclusions/write_important_takeaway.md %}) How much detail should you include?

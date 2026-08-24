@@ -68,10 +68,10 @@ Hand over to them to build more tests in catch2.
 # Conclusions: review code and compare with sample solution
 
 * How readable and maintainable are our tests?
-* Compare the googletests and the catch2 tests in the with_tests branch
+* [Compare]({% link _activities/conclusions/code_compare.md %}) the googletests and the catch2 tests in the with_tests branch
 * Have we done something similar to the 'with_tests' branch?
 
 # Conclusions: note most important learning
 
-Note down on a sticky note the most important thing you learnt today
+[Note down]({% link _activities/conclusions/write_important_takeaway.md %}) on a sticky note the most important thing you learnt today
 

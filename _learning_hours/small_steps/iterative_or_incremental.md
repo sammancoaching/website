@@ -57,7 +57,7 @@ If you are half way through a kata from a previous session you could continue wi
 - When did we work incrementally and when did we work iteratively?
 - What are the advantages and disadvantages of each approach?
 
-Discuss in pairs or as a group and each person note down what they learnt.
+Discuss in pairs or as a group and each person [note down what they learnt]({% link _activities/conclusions/write_important_takeaway.md %}).
 
 
 

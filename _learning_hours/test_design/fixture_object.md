@@ -73,5 +73,5 @@ The exercise is the [Expense Sheet Approval](https://git.sr.ht/~janvanryswyck/ex
 
 ## Conclusions
 
-Note down, in your own words, the biggest benefit of using the Fixture Object pattern.
+[Note down, in your own words]({% link _activities/conclusions/write_important_takeaway.md %}), the biggest benefit of using the Fixture Object pattern.
 

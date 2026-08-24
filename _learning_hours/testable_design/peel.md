@@ -49,4 +49,4 @@ The function you're trying to test begins and/or ends with a line that is diffic
 One way to solve [TirePressure](https://github.com/emilybache/custom-start-points/tree/master/start-points/TirePressure) is using Peel. You can also do it on 'getScore' in [IceCreamScores](https://github.com/emilybache/custom-start-points/tree/master/start-points/IceCreamScores/)
 
 ### Reflect - when to Peel
-When should you use the ‘peel’ strategy? Are there any disadvantages to using it?
+[When should you use]({% link _activities/conclusions/when_to_use_this.md %}) the ‘peel’ strategy? Are there any disadvantages to using it?

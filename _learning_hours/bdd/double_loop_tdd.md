@@ -56,6 +56,6 @@ Divide into pairs and have people sketch on a piece of paper. After about 5-10 m
 Repeat with another Kata if there is time.
 
 ### Reflect: 
-Compare and contrast the knowledge and assumptions you had about Guiding Tests (or whatever you call them in your organization) before this session and what you know now. Write a paragraph summarizing your comparisons.
+Compare and contrast the knowledge and assumptions you had about Guiding Tests (or whatever you call them in your organization) before this session and what you know now. [Write a paragraph summarizing your comparisons]({% link _activities/conclusions/write_important_takeaway.md %}).
 
 
