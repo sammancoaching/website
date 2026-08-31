@@ -75,6 +75,40 @@ The problem is broken down into several user stories to help you to focus on doi
    - Characters cannot lose a level they have gained
 
 
+## Updated Requirements
+One interesting thing to do with this exercise is to update the requirements and see whether your code and tests are easy to update. Below is a suggestion of what you could change.
+
+### Damage and Health
+
+No changes
+
+## Levels
+
+1. All characters have a Level, starting at 1
+   - A Level 1 Character starts with health 1000. With every additional level they gain an additional 100 health, so a level 6 Character will have maximum health 1500
+
+1. When dealing damage:
+   - The number of levels between the target and the attacker determines the damage percentage modifier.  
+      - For each level the target is above the attacker, Damage is reduced by 10%, up to a maximum of 50%
+      - For each level the target is below the attacker, Damage is increased by 10%, up to a maximum of 50%
+
+## Factions
+
+No changes
+
+## Magical objects
+
+No changes
+
+## Changing level
+
+The first two points are the same as before. The last point is modified:
+
+1. There is no maximum level for Characters and they can lose levels as follows:
+   - Characters will lose a level if they receive damage of more than 50% of their maximum health in one attack. The damage should all be dealt in one blow.
+   - If a Character receives and survives multiple level-adjusting attacks they may lose multiple levels.
+   - A Character will regain all of these lost levels as soon as they heal back up to their maximum health.
+
 ## Acknowledgements
 
 This Kata was invented by Daniel Ojeda Loisel and this description is adapted from [Steve Smith's version](https://github.com/ardalis/kata-catalog/blob/main/katas/RPG%20Combat.md)
