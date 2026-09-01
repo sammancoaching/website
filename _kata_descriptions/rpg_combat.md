@@ -82,7 +82,7 @@ One interesting thing to do with this exercise is to update the requirements and
 
 No changes
 
-## Levels
+### Levels
 
 1. All characters have a Level, starting at 1
    - A Level 1 Character starts with health 1000. With every additional level they gain an additional 100 health, so a level 6 Character will have maximum health 1500
@@ -92,22 +92,23 @@ No changes
       - For each level the target is above the attacker, Damage is reduced by 10%, up to a maximum of 50%
       - For each level the target is below the attacker, Damage is increased by 10%, up to a maximum of 50%
 
-## Factions
+### Factions
 
 No changes
 
-## Magical objects
+### Magical objects
 
 No changes
 
-## Changing level
+### Changing level
 
 The first two points are the same as before. The last point is modified:
 
 1. There is no maximum level for Characters and they can lose levels as follows:
-   - Characters will lose a level if they receive damage of more than 50% of their maximum health in one attack. The damage should all be dealt in one blow.
-   - If a Character receives and survives multiple level-adjusting attacks they may lose multiple levels.
+   - Characters will lose a level if they receive damage of more than 50% of their maximum health in one attack. The damage should all be dealt in one major blow.
+   - If a Character receives and survives multiple level-adjusting attacks they may lose multiple levels, down to a minimum of 1.
    - A Character will regain all of these lost levels as soon as they heal back up to their maximum health.
+   - A Character cannot gain levels through faction membership or surviving damage while they have lost levels to a major blow. If and when they regain the lost levels they can then also gain additional levels they are entitled to.
 
 ## Acknowledgements
 
