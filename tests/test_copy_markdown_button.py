@@ -51,3 +51,14 @@ def test_page_content_still_renders_once():
     assert html.count('<h2 id="damage-and-health">') == 1
     assert html.count('<h2 id="updated-requirements">') == 1
     assert html.count('<script src="/assets/js/copy_markdown.js"></script>') == 1
+
+
+def test_martian_message_button_copies_the_task_description():
+    html = Path('_site/kata_descriptions/martian_message.html').read_text(encoding='utf-8')
+    blocks = re.findall(r'<script type="text/plain" class="copy-markdown-source">(.*?)</script>', html, flags=re.DOTALL)
+    assert len(blocks) == 1
+    source = Path('_kata_descriptions/martian_message.md').read_text(encoding='utf-8')
+    start = source.index('In the film')
+    end = source.index('{% endcapture %}')
+    assert blocks[0] == '# Martian Message\n\n' + source[start:end].strip()
+    assert 'Quote from the movie' not in blocks[0]

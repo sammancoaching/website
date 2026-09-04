@@ -1,9 +1,11 @@
 ---
 title: Martian Message
 kata_name: martian_message
+description: Write the code NASA would need to control the Pathfinder camera and send a message to the hero of The Martian.
 ---
 
 # Martian Message
+{% capture requirements %}
 In the film "The Martian" the hero who is stuck on Mars needs to communicate with Earth. He has a brilliant idea. He digs up the Pathfinder Rover, a primitive robot previously sent to the planet by NASA. He uses it to hack together a simple but usable communication channel. This kata is to reproduce the code that NASA would have written to send him messages.
 
 The Pathfinder rover has a camera on the top of a long pole that can be rotated 360 degrees to take pictures of the martian terrain around it. It can send these pictures back to Earth. The hero on Mars can see which direction the camera is pointing in. That is the basis of the communication. 
@@ -19,6 +21,10 @@ Your task is to write the code NASA would need to write to control the Pathfinde
 You can assume the Pathfinder rover contains a stepper motor that can move the camera either clockwise or anticlockwise. It begins pointing at 0x0. The camera should pause for 5 seconds pointing at each of the two Hex codes that make up a letter, and pause for 10 seconds between letters. Your solution should send the whole message clearly and without wasting time unnecessarily. 
 
 There is some [sample starting code](https://github.com/sammancoaching/MartianMessage-Kata?tab=readme-ov-file) in various languages showing the interface to the motor and how to use it to control the speed and direction of the camera.
+{% endcapture %}
+{{ requirements }}
+
+{% include copy_markdown_button.html markdown=requirements %}
 
 ## Quote from the movie
 
