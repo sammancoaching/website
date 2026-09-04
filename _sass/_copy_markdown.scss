@@ -1,0 +1,62 @@
+// "Copy as markdown" button, see _includes/copy_markdown_button.html.
+// Rests as an icon only; the label slides out on hover, focus, or after copying.
+
+.copy-markdown {
+  margin: 20px 0 8px;
+}
+
+.copy-markdown-button {
+  display: inline-flex;
+  align-items: center;
+  height: 36px;
+  padding: 0 8px;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 500;
+  color: $dark-blue;
+  background: white;
+  border: 2px solid $light-blue;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+
+  svg {
+    flex: none;
+  }
+
+  &:hover,
+  &:focus-visible,
+  &.copied {
+    background: $light-blue;
+  }
+
+  &:focus-visible {
+    outline: 2px solid $dark-blue;
+    outline-offset: 2px;
+  }
+
+  &:hover .copy-markdown-label,
+  &:focus-visible .copy-markdown-label,
+  &.copied .copy-markdown-label,
+  &.error .copy-markdown-label {
+    max-width: 200px;
+    opacity: 1;
+    padding-left: 8px;
+  }
+
+  &.error {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+  }
+}
+
+.copy-markdown-label {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 0;
+  opacity: 0;
+  padding-left: 0;
+  transition: max-width 0.25s ease, opacity 0.2s ease, padding-left 0.25s ease;
+}

@@ -9,6 +9,7 @@ This Kata that has you building simple combat rules as for a role-playing game (
 
 The problem is broken down into several user stories to help you to focus on doing one thing at a time. Complete one user story before starting on the next one. Be sure to work on the problem in small steps and pay close attention to the design of both the code and the automated tests in every step.
 
+{% capture original_requirements %}
 ## Damage and Health
 
 1. All Characters, when created, have:
@@ -73,8 +74,12 @@ The problem is broken down into several user stories to help you to focus on doi
 
 1. The maximum Level for Characters is 10
    - Characters cannot lose a level they have gained
+{% endcapture %}
+{{ original_requirements }}
 
+{% include copy_markdown_button.html markdown=original_requirements %}
 
+{% capture updated_requirements %}
 ## Updated Requirements
 One interesting thing to do with this exercise is to update the requirements and see whether your code and tests are easy to update. Below is a suggestion of what you could change.
 
@@ -109,6 +114,10 @@ The first two points are the same as before. The last point is modified:
    - If a Character receives and survives multiple level-adjusting attacks they may lose multiple levels, down to a minimum of 1.
    - A Character will regain all of these lost levels as soon as they heal back up to their maximum health.
    - A Character cannot gain levels through faction membership or surviving damage while they have lost levels to a major blow. If and when they regain the lost levels they can then also gain additional levels they are entitled to.
+{% endcapture %}
+{{ updated_requirements }}
+
+{% include copy_markdown_button.html markdown=updated_requirements %}
 
 ## Acknowledgements
 
