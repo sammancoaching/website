@@ -21,10 +21,6 @@ Your task is to write the code NASA would need to write to control the Pathfinde
 You can assume the Pathfinder rover contains a stepper motor that can move the camera either clockwise or anticlockwise. It begins pointing at 0x0. The camera should pause for 5 seconds pointing at each of the two Hex codes that make up a letter, and pause for 10 seconds between letters. Your solution should send the whole message clearly and without wasting time unnecessarily. 
 
 There is some [sample starting code](https://github.com/sammancoaching/MartianMessage-Kata?tab=readme-ov-file) in various languages showing the interface to the motor and how to use it to control the speed and direction of the camera.
-{% endcapture %}
-{{ requirements }}
-
-{% include copy_markdown_button.html markdown=requirements %}
 
 ## Quote from the movie
 
@@ -35,3 +31,8 @@ So I’ll have to use ASCII. That’s how computers manage characters. Each char
 ...
 
 So I’ll make cards for 0 through 9, and A through F. That makes 16 cards to place around the camera, plus the question card. Seventeen cards means over 21 degrees each. Much easier to deal with.
+
+{% endcapture %}
+{{ requirements }}
+
+{% include copy_markdown_button.html markdown=requirements %}
