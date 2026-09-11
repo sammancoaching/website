@@ -1,5 +1,6 @@
 @use "colors" as *;
 @use "variables" as *;
+@use "mixins" as *;
 
 .card-grid{
   display: grid;
@@ -60,20 +61,7 @@
 }
 
 .button {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: 500;
-  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
-  background: white;
-  color: $light-blue;
-  border: 2px solid $light-blue;
-}
-
-.button:hover {
-  background: $light-blue;
-  color: $dark-blue;
+  @include pill-button;
 }
 
 .offer-card-grid {

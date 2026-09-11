@@ -1,5 +1,6 @@
 @use "colors" as *;
 @use "variables" as *;
+@use "mixins" as *;
 
 .events-list {
   max-width: $content-width;
@@ -175,28 +176,13 @@
   flex-wrap: wrap;
 }
 
-.event-links a,
-.add-calendar-btn,
-.details-link {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: 500;
-  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+.event-links a {
+  @include action-link-base;
 }
 
 .add-calendar-btn,
 .details-link {
-  background: white;
-  color: $light-blue;
-  border: 2px solid $light-blue;
-}
-
-.add-calendar-btn:hover,
-.details-link:hover {
-  background: $light-blue;
-  color: $dark-blue;
+  @include pill-button;
 }
 
 /* Mobile responsive */

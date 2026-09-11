@@ -2,6 +2,7 @@
 // Rests as an icon only; the label slides out on hover, focus, or after copying.
 
 @use "colors" as *;
+@use "mixins" as *;
 
 .copy-markdown {
   margin: 20px 0 8px;
@@ -32,10 +33,7 @@
     background: $light-blue;
   }
 
-  &:focus-visible {
-    outline: 2px solid $dark-blue;
-    outline-offset: 2px;
-  }
+  @include focus-ring;
 
   &:hover .copy-markdown-label,
   &:focus-visible .copy-markdown-label,

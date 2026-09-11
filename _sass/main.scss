@@ -2,6 +2,7 @@
 @use "navigation";
 @use "colors" as *;
 @use "variables" as *;
+@use "mixins" as *;
 @use "print";
 @use "events";
 @use "code";
@@ -31,18 +32,8 @@ a.current {
 	color: $light-blue;
 }
 
-a:focus-visible {
-  outline: 2px solid $dark-blue;
-  outline-offset: 2px;
-}
-
-a:focus {
-  outline: 2px solid $dark-blue;
-  outline-offset: 2px;
-}
-
-a:focus:not(:focus-visible) {
-  outline: none;
+a {
+  @include focus-ring-fallback;
 }
 
 img[src*="#book_cover"] {
@@ -146,18 +137,8 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 6px;
 }
 
-.search-box #search-input:focus-visible {
-  outline: 2px solid $dark-blue;
-  outline-offset: 2px;
-}
-
-.search-box #search-input:focus {
-  outline: 2px solid $dark-blue;
-  outline-offset: 2px;
-}
-
-.search-box #search-input:focus:not(:focus-visible) {
-  outline: none;
+.search-box #search-input {
+  @include focus-ring-fallback;
 }
 
 .site-header #search-results {

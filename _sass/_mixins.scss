@@ -1,0 +1,46 @@
+@use "colors" as *;
+
+// Focus outline shared by links, inputs, and buttons across the site.
+@mixin focus-ring {
+  &:focus-visible {
+    outline: 2px solid $dark-blue;
+    outline-offset: 2px;
+  }
+}
+
+// Adds a `:focus` fallback for browsers without `:focus-visible` support.
+@mixin focus-ring-fallback {
+  @include focus-ring;
+
+  &:focus {
+    outline: 2px solid $dark-blue;
+    outline-offset: 2px;
+  }
+
+  &:focus:not(:focus-visible) {
+    outline: none;
+  }
+}
+
+// Shared box model for inline link/button-shaped actions.
+@mixin action-link-base {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+// The "pill" button style used for .button, .member-link, .add-calendar-btn, .details-link.
+@mixin pill-button {
+  @include action-link-base;
+  background: white;
+  color: $light-blue;
+  border: 2px solid $light-blue;
+
+  &:hover {
+    background: $light-blue;
+    color: $dark-blue;
+  }
+}
