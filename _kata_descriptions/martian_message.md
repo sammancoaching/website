@@ -2,6 +2,7 @@
 title: Martian Message
 kata_name: martian_message
 description: Write the code NASA would need to control the Pathfinder camera and send a message to the hero of The Martian.
+excerpt_separator: ""
 ---
 
 # Martian Message
