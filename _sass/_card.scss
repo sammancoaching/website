@@ -1,4 +1,6 @@
-@import "colors";
+@use "colors" as *;
+@use "variables" as *;
+
 .card-grid{
   display: grid;
   gap: 40px;

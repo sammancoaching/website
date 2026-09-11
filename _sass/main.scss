@@ -1,13 +1,13 @@
-@import "fonts";
-@import "navigation";
-@import "colors";
-@import "variables";
-@import "print";
-@import "events";
-@import "code";
-@import "copy_markdown";
-@import "card";
-@import "member";
+@use "fonts";
+@use "navigation";
+@use "colors" as *;
+@use "variables" as *;
+@use "print";
+@use "events";
+@use "code";
+@use "copy_markdown";
+@use "card";
+@use "member";
 
 *,
 *::before,

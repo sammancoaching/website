@@ -1,6 +1,8 @@
 // "Copy as markdown" button, see _includes/copy_markdown_button.html.
 // Rests as an icon only; the label slides out on hover, focus, or after copying.
 
+@use "colors" as *;
+
 .copy-markdown {
   margin: 20px 0 8px;
 }

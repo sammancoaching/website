@@ -1,3 +1,6 @@
+@use "colors" as *;
+@use "variables" as *;
+
 .member-hero {
   display: grid;
   grid-template-columns: 130px 1fr;

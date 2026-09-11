@@ -1,5 +1,5 @@
-@import "colors";
-@import "variables";
+@use "colors" as *;
+@use "variables" as *;
 
 .events-list {
   max-width: $content-width;
