@@ -79,10 +79,10 @@ The problem is broken down into several user stories to help you to focus on doi
 
 {% include copy_markdown_button.html markdown=original_requirements %}
 
-{% capture updated_requirements %}
 ## Updated Requirements
 One interesting thing to do with this exercise is to update the requirements and see whether your code and tests are easy to update. Below is a suggestion of what you could change.
 
+{% capture updated_requirements %}
 ### Damage and Health
 
 No changes
