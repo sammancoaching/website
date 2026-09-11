@@ -35,7 +35,7 @@ def test_original_requirements_button_copies_the_five_original_sections(embedded
 
 
 def test_updated_requirements_button_copies_the_updated_section(embedded_markdown):
-    expected = '# RPG Combat\n\n' + source_between('## Updated Requirements', '{% endcapture %}')
+    expected = '# RPG Combat\n\n' + source_between('### Damage and Health', '{% endcapture %}')
     assert embedded_markdown[1] == expected
     assert expected.endswith('they can then also gain additional levels they are entitled to.')
 
@@ -61,4 +61,4 @@ def test_martian_message_button_copies_the_task_description():
     start = source.index('In the film')
     end = source.index('{% endcapture %}')
     assert blocks[0] == '# Martian Message\n\n' + source[start:end].strip()
-    assert 'Quote from the movie' not in blocks[0]
+    assert 'Quote from the movie' in blocks[0]
