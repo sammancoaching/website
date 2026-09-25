@@ -195,3 +195,12 @@ mostalive:
   url: https://www.qwan.eu/
   affiliation: QWAN
   member: no
+reasun:
+  title: Rea Sutter
+  url: https://www.reasun.at/
+  affiliation: UAS Technikum Wien
+  member: no
+  headline: There's always a reasun to learn
+  photo: assets/images/profiles/reasun.jpg
+  additional_links:
+    - LinkedIn: https://www.linkedin.com/in/reasun/
