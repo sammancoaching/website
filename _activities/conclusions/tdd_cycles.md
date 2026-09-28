@@ -11,7 +11,7 @@ minutes: 5
 If you've used a tool like cyber-dojo that records your test runs and results, each pair can look over the history of their session.
 
 - Can you spot clear TDD cycles?
-- What does it look like when your TDD is going off track? Could you have spotted that sooner and corrected?
+- What does it look like when your TDD is going off track? Could you have spotted that sooner and corrected it?
 
 If you ask the pairs to share their analysis with the group, be sure to ask them what they will look for next time to help them keep on track with TDD. 
 

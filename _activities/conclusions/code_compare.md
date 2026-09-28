@@ -19,6 +19,5 @@ Remind them to be kind and respectful of the authors of the code they are compar
 
 Based on what they learnt in the code comparison, ask them to make a shortlist of things to remember next time they use this technique/tackle this kind of problem.
 
-
 ## Benefits
-They might get an idea of how far they have to go before they master the technique. If they share their things to remember checklist with you, remind them to use it next time you tackle a similar problem. 
+They might get an idea of how far they have to go before they master the technique. If they share their things-to-remember checklist with you, remind them to use it the next time you tackle a similar problem. 

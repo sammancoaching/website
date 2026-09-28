@@ -16,4 +16,4 @@ Discuss in pairs and note down what you would change, if anything.
 The purpose of a connect exercise is often to connect to what the participants know, or think they know, about a topic. If what they knew was incomplete, this is a good chance to build on that and make the learnings stick.
 
 ## Pitfalls
-If on the other hand what they already knew about the topic was in conflict with what they learnt in the session this could have the opposite to the intended. People can feel threatened and might prefer to stick to what they said in the first place and not take on board the new knowledge. As a facilitator, you should try to build on what they know rather than try to knock it down.
+If on the other hand, what they already knew about the topic was in conflict with what they learnt in the session - this could have the opposite to the intended. People can feel threatened and might prefer to stick to what they said in the first place and not take on board the new knowledge. As a facilitator, you should try to build on what they know rather than try to knock it down.
