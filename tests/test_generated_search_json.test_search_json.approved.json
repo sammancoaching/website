@@ -1200,12 +1200,20 @@
         "url": "/refactorings/move_function.html"
     },
     {
+        "title": "Refactoring: Peel",
+        "url": "/refactorings/peel.html"
+    },
+    {
         "title": "Refactoring: Replace Conditional with Polymorphism",
         "url": "/refactorings/replace_conditional_polymorphism.html"
     },
     {
         "title": "Refactoring: Replace Primitive with Object",
         "url": "/refactorings/replace_primitive_with_object.html"
+    },
+    {
+        "title": "Refactoring: Slice",
+        "url": "/refactorings/slice.html"
     },
     {
         "title": "Refactoring: Split Loop",
@@ -1346,6 +1354,10 @@
     {
         "title": "Murat Han Celik",
         "url": "/society/contributors/mhc03.html"
+    },
+    {
+        "title": "Willem van den Ende",
+        "url": "/society/contributors/mostalive.html"
     },
     {
         "title": "Samuel Ytterbrink",
