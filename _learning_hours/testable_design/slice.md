@@ -1,6 +1,7 @@
 ---
 theme: testable_design
 title: Strategy - Slice
+name: slice
 kata: tire_pressure
 difficulty: 3
 author: emilybache
