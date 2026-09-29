@@ -38,10 +38,12 @@ This is a [Pick only the correct items]({% link _activities/connect/pick_the_cor
 
 
 ### Concept: Slice
-This picture visualizes the Slice strategy:
+This picture visualizes the [Slice]({% link _refactorings/slice.md %}) strategy:
 ![Slice](/assets/images/slice.png)
 
-The function you're trying to test has a line that is difficult to test in the middle. You can't easily use Peel to remove it. You need to slice away the depencency and replace the hard to test call with a call to a stub or a fake.
+The function you're trying to test has a line that is difficult to test in the middle. You can't easily use [Peel]({% link _refactorings/peel.md %}) to remove it. You need to slice away the depencency and replace the hard to test call with a call to a stub or a fake.
+
+Demonstrate the steps of [Slice]({% link _refactorings/slice.md %}) on a simple example and explain how this refactoring makes the code easier to test.
 
 ### Concrete: Slice
 One way to solve [TirePressure](https://github.com/emilybache/custom-start-points/tree/master/start-points/TirePressure) is using Slice. You can also do it on 'getScoreboard' in [IceCreamScores](https://github.com/emilybache/custom-start-points/tree/master/start-points/IceCreamScores/)

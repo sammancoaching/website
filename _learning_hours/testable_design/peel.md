@@ -41,10 +41,12 @@ This is a [Sort these items]({% link _activities/connect/sort_these_items.md %})
 
 
 ### Concept: Peel
-This picture visualizes the Peel strategy:
+This picture visualizes the [Peel]({% link _refactorings/peel.md %}) strategy:
 ![Peel](/assets/images/peel.png)
 
-The function you're trying to test begins and/or ends with a line that is difficult to test. You want to peel that part away to get to the testable middle. Use an 'Extract Function' 
+The function you're trying to test begins and/or ends with a line that is difficult to test. You want to peel that part away to get to the testable middle. Use an [Extract Function]({% link _refactorings/extract_function.md %}).
+
+Demonstrate the steps of [Peel]({% link _refactorings/peel.md %}) on a simple example and explain how this refactoring makes the code easier to test.
 
 ### Concrete: Peel
 One way to solve [TirePressure](https://github.com/emilybache/custom-start-points/tree/master/start-points/TirePressure) is using Peel. You can also do it on 'getScore' in [IceCreamScores](https://github.com/emilybache/custom-start-points/tree/master/start-points/IceCreamScores/)
