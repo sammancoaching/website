@@ -7,6 +7,7 @@ layout: society
 {% assign by_via = site.learning_hours | where: 'via', page.author | sort: 'title' %}
 {% assign youtube_url = nil %}
 {% assign linkedin_url = nil %}
+{% assign podcast_url = nil %}
 {% assign contact_url = nil %}
 {% if contributor.additional_links %}
 {% for item in contributor.additional_links %}
@@ -14,6 +15,7 @@ layout: society
         {% assign label = link[0] | downcase %}
         {% if label == 'youtube' %}{% assign youtube_url = link[1] %}{% endif %}
         {% if label == 'linkedin' %}{% assign linkedin_url = link[1] %}{% endif %}
+        {% if label == 'podcast' %}{% assign podcast_url = link[1] %}{% endif %}
         {% if label == 'contact' %}{% assign contact_url = link[1] %}{% endif %}
     {% endfor %}
 {% endfor %}
@@ -40,6 +42,9 @@ layout: society
             {% if linkedin_url %}
             <a class="member-link" href="{{ linkedin_url }}">LinkedIn</a>
             {% endif %}
+            {% if podcast_url %}
+            <a class="member-link" href="{{ podcast_url }}">Podcast</a>
+            {% endif %}
             {% if contact_url %}
             <a class="member-link" href="{{ contact_url }}">Contact</a>
             {% endif %}
@@ -47,7 +52,7 @@ layout: society
             {% for item in contributor.additional_links %}
                 {% for link in item %}
                     {% assign label = link[0] | downcase %}
-                    {% unless label == 'youtube' or label == 'linkedin' or label == 'contact' %}
+                    {% unless label == 'youtube' or label == 'linkedin' or label == 'podcast' or label == 'contact' %}
             <a class="member-link" href="{{ link[1] }}">{{ link[0] }}</a>
                     {% endunless %}
                 {% endfor %}
