@@ -114,8 +114,13 @@ codecop:
   affiliation: Independent
   member: yes
   member_since: 2023-12-05
-  photo: assets/images/profiles/codecop.png
   headline: Code Cop
+  offers: [teams, train_the_trainer, personal]
+  photo: assets/images/profiles/codecop.png
+  additional_links:
+    - LinkedIn: https://www.linkedin.com/in/codecop/
+    - YouTube: https://www.youtube.com/playlist?list=PLYQPkkfIypvApLa4HZXNOdabdoYN-qzcz
+    - Podcast: https://coderetreat-facilitation.code-cop.org/
 balp:
   title: Anders Arnholm
   url: https://www.hiq.se/
