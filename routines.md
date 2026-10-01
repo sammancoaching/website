@@ -19,6 +19,7 @@ After an open space, this is what Emily usually does.
 ## Adding new society members
 * Make sure they have read and understood [Membership](https://sammancoaching.org/society/membership.html) & [Code of conduct](https://sammancoaching.org/society/code_of_conduct.html)
 * Invite them to github organization
+* Invite them to the [codeberg organization](https://codeberg.org/org/sammancoaching/teams) + give 'auditor' role
 * Update their settings in [contributors](_data/contributors.yml)
 * Update their profile page on this site
 * Add them to the membership registry google doc
