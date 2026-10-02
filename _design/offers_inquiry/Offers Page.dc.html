@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="design_doc_mode" content="canvas">
+<style>
+@font-face { font-family: 'Inter'; src: url('assets/fonts/Inter-Variable.ttf') format('truetype'); font-weight: 100 900; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Neulis Sans'; src: url('assets/fonts/NeulisSans-SemiBold.otf') format('opentype'); font-weight: 600; font-style: normal; font-display: swap; }
+body { margin: 0; background: rgb(233,227,216); }
+</style>
+</helmet>
+
+<section style="padding: 48px; display: flex; flex-direction: column; gap: 28px; font-family: 'Inter', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;">
+  <div style="display: flex; align-items: baseline; gap: 14px; color: rgb(23,64,100);">
+    <span style="font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600; font-size: 20px;">Contact flow — central inquiry via the society</span>
+    <span style="font-size: 13px; opacity: 0.7;"><a href="#2a" style="color: rgb(23,64,100);">2a</a> inquiry page (form is interactive) &middot; <a href="#2b" style="color: rgb(23,64,100);">2b</a> offer detail with inquiry CTA &middot; <a href="#2c" style="color: rgb(23,64,100);">2c</a> thank-you page</span>
+  </div>
+
+  <div style="display: flex; gap: 56px; align-items: flex-start; flex-wrap: wrap;">
+
+    <!-- ============ 2a: inquiry page ============ -->
+    <div id="2a" style="display: flex; flex-direction: column; gap: 12px;">
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <span style="font-family: monospace; font-size: 12px; font-weight: 700; background: rgb(23,64,100); color: rgb(243,238,230); padding: 3px 8px; border-radius: 5px;">2a</span>
+        <span style="font-size: 13px; color: rgb(23,64,100);">Inquiry page &mdash; "how it works" steps + one central form (HubSpot-embedded in production)</span>
+      </div>
+      <div style="width: 800px; background: rgb(243,238,230); border-radius: 10px; overflow: hidden; box-shadow: 0 12px 40px rgba(23,64,100,0.18); color: rgb(23,64,100); font-size: 16px; line-height: 1.2;">
+        <header style="background-color: rgb(240,130,113); background-image: url('assets/images/samman_banner.png'); background-repeat: no-repeat; background-position: top center; background-size: contain; padding-top: 110px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;">
+          <nav style="display: flex; justify-content: center; gap: 10px; padding: 4px 0 6px; font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600; font-size: 14px;">
+            <a href="#2a" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Home</a>
+            <a href="#2a" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Book</a>
+            <a href="#2a" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Katas</a>
+            <a href="#2a" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Learning Hours</a>
+            <a href="#2a" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Training</a>
+            <a href="#2a" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Activities</a>
+            <a href="#2a" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Reference</a>
+            <a href="#2a" style="color: rgb(240,130,113); background: rgb(243,238,230); text-decoration: none; padding: 3px 6px; border-top-left-radius: 5px; border-top-right-radius: 5px;">Society</a>
+            <a href="#2a" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Contact</a>
+          </nav>
+        </header>
+        <main style="padding: 8px 30px 40px;">
+          <h1 style="font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600; font-size: 2em;">Hire a Technical Coach</h1>
+          <p style="max-width: 620px;">One inquiry reaches the whole society. Tell us what you need and we connect you with the members who fit &mdash; no obligation.</p>
+
+          <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin: 26px 0 30px;">
+            <div style="display: flex; flex-direction: column; gap: 6px; align-items: center; text-align: center;">
+              <div style="width: 34px; height: 34px; border-radius: 50%; background: rgb(23,64,100); color: rgb(243,238,230); display: flex; align-items: center; justify-content: center; font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600;">1</div>
+              <div style="font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600; font-size: 0.95em;">Tell us what you need</div>
+              <div style="font-size: 0.85em; opacity: 0.75; max-width: 200px;">Fill in the short form below.</div>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 6px; align-items: center; text-align: center;">
+              <div style="width: 34px; height: 34px; border-radius: 50%; background: rgb(23,64,100); color: rgb(243,238,230); display: flex; align-items: center; justify-content: center; font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600;">2</div>
+              <div style="font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600; font-size: 0.95em;">We match you</div>
+              <div style="font-size: 0.85em; opacity: 0.75; max-width: 200px;">The society routes your inquiry to coaches who fit your timezone and needs.</div>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 6px; align-items: center; text-align: center;">
+              <div style="width: 34px; height: 34px; border-radius: 50%; background: rgb(23,64,100); color: rgb(243,238,230); display: flex; align-items: center; justify-content: center; font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600;">3</div>
+              <div style="font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600; font-size: 0.95em;">Free intro call</div>
+              <div style="font-size: 0.85em; opacity: 0.75; max-width: 200px;">A coach gets in touch within a few days to set up a call.</div>
+            </div>
+          </div>
+
+          <div style="border: 2px solid #e8e8e8; border-radius: 10px; background: rgba(255,255,255,0.45); padding: 26px 28px; display: flex; flex-direction: column; gap: 18px; max-width: 620px;">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px;">
+              <label style="display: flex; flex-direction: column; gap: 6px; font-size: 0.85em; font-weight: 500;">Name
+                <input type="text" placeholder="Your name" style="font-family: inherit; font-size: 16px; padding: 10px 12px; border: 2px solid #e8e8e8; border-radius: 6px; background: white; color: rgb(23,64,100); outline: none;" style-focus="border-color: rgb(162,195,221);">
+              </label>
+              <label style="display: flex; flex-direction: column; gap: 6px; font-size: 0.85em; font-weight: 500;">Work email
+                <input type="email" placeholder="you@company.com" style="font-family: inherit; font-size: 16px; padding: 10px 12px; border: 2px solid #e8e8e8; border-radius: 6px; background: white; color: rgb(23,64,100); outline: none;" style-focus="border-color: rgb(162,195,221);">
+              </label>
+            </div>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px;">
+              <label style="display: flex; flex-direction: column; gap: 6px; font-size: 0.85em; font-weight: 500;">Company
+                <input type="text" placeholder="Company name" style="font-family: inherit; font-size: 16px; padding: 10px 12px; border: 2px solid #e8e8e8; border-radius: 6px; background: white; color: rgb(23,64,100); outline: none;" style-focus="border-color: rgb(162,195,221);">
+              </label>
+              <label style="display: flex; flex-direction: column; gap: 6px; font-size: 0.85em; font-weight: 500;">Job title
+                <input type="text" placeholder="e.g. Engineering Manager" style="font-family: inherit; font-size: 16px; padding: 10px 12px; border: 2px solid #e8e8e8; border-radius: 6px; background: white; color: rgb(23,64,100); outline: none;" style-focus="border-color: rgb(162,195,221);">
+              </label>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 8px;">
+              <div style="font-size: 0.85em; font-weight: 500;">What kind of engagement?</div>
+              <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                <sc-for list="{{ offerChoices }}" as="choice" hint-placeholder-count="3">
+                  <button onClick="{{ choice.pick }}" style="font-family: inherit; font-size: 15px; padding: 8px 14px; border-radius: 6px; cursor: pointer; border: 2px solid {{ choice.border }}; background: {{ choice.bg }}; color: {{ choice.color }}; font-weight: 500; transition: border-color 0.2s ease;" style-hover="border-color: rgb(23,64,100);">{{ choice.label }}</button>
+                </sc-for>
+              </div>
+            </div>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px;">
+              <label style="display: flex; flex-direction: column; gap: 6px; font-size: 0.85em; font-weight: 500;">Timezone
+                <select style="font-family: inherit; font-size: 16px; padding: 10px 12px; border: 2px solid #e8e8e8; border-radius: 6px; background: white; color: rgb(23,64,100); outline: none;">
+                  <option>Europe (CET / GMT)</option>
+                  <option>Americas</option>
+                  <option>Asia / Pacific</option>
+                  <option>Other</option>
+                </select>
+              </label>
+              <label style="display: flex; flex-direction: column; gap: 6px; font-size: 0.85em; font-weight: 500;">{{ sizeLabel }}
+                <select style="font-family: inherit; font-size: 16px; padding: 10px 12px; border: 2px solid #e8e8e8; border-radius: 6px; background: white; color: rgb(23,64,100); outline: none;">
+                  <sc-for list="{{ sizeOptions }}" as="opt" hint-placeholder-count="3">
+                    <option>{{ opt }}</option>
+                  </sc-for>
+                </select>
+              </label>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 8px;">
+              <div style="font-size: 0.85em; font-weight: 500;">Coaching format</div>
+              <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                <sc-for list="{{ formatChoices }}" as="choice" hint-placeholder-count="3">
+                  <button onClick="{{ choice.pick }}" style="font-family: inherit; font-size: 15px; padding: 8px 14px; border-radius: 6px; cursor: pointer; border: 2px solid {{ choice.border }}; background: {{ choice.bg }}; color: {{ choice.color }}; font-weight: 500; transition: border-color 0.2s ease;" style-hover="border-color: rgb(23,64,100);">{{ choice.label }}</button>
+                </sc-for>
+              </div>
+              <sc-if value="{{ askLocation }}" hint-placeholder-val="{{ false }}">
+                <label style="display: flex; flex-direction: column; gap: 6px; font-size: 0.85em; font-weight: 500; margin-top: 4px;">Location
+                  <input type="text" placeholder="City, country" style="font-family: inherit; font-size: 16px; padding: 10px 12px; border: 2px solid #e8e8e8; border-radius: 6px; background: white; color: rgb(23,64,100); outline: none;" style-focus="border-color: rgb(162,195,221);">
+                </label>
+              </sc-if>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 8px;">
+              <div style="font-size: 0.85em; font-weight: 500;">Main coaching priority</div>
+              <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                <sc-for list="{{ priorityChoices }}" as="choice" hint-placeholder-count="3">
+                  <button onClick="{{ choice.pick }}" style="font-family: inherit; font-size: 15px; padding: 8px 14px; border-radius: 6px; cursor: pointer; border: 2px solid {{ choice.border }}; background: {{ choice.bg }}; color: {{ choice.color }}; font-weight: 500; transition: border-color 0.2s ease;" style-hover="border-color: rgb(23,64,100);">{{ choice.label }}</button>
+                </sc-for>
+              </div>
+            </div>
+            <label style="display: flex; flex-direction: column; gap: 6px; font-size: 0.85em; font-weight: 500;">Anything else? (optional)
+              <textarea rows="3" placeholder="Context, codebase, timeline&hellip;" style="font-family: inherit; font-size: 16px; padding: 10px 12px; border: 2px solid #e8e8e8; border-radius: 6px; background: white; color: rgb(23,64,100); outline: none; resize: vertical;" style-focus="border-color: rgb(162,195,221);"></textarea>
+            </label>
+            <div style="display: flex; align-items: center; gap: 14px;">
+              <a href="#2c" style="display: inline-block; padding: 0.6rem 1.4rem; text-decoration: none; border-radius: 6px; font-weight: 600; background: rgb(23,64,100); color: rgb(243,238,230); border: 2px solid rgb(23,64,100); transition: background-color 0.2s ease;" style-hover="background: rgb(65,103,136); border-color: rgb(65,103,136);">Send inquiry</a>
+              <span style="font-size: 0.8em; opacity: 0.7;">Goes to the society, not a mailing list. We reply within a few days.</span>
+            </div>
+          </div>
+
+          <p style="margin-top: 26px; font-size: 0.9em;">Prefer to browse first? See <a href="#1a" style="color: rgb(23,64,100);">the three kinds of coaching</a> and <a href="#1c" style="color: rgb(23,64,100);">the coaches who offer them</a>.</p>
+        </main>
+        <footer style="padding: 6px 12px 0;">
+          <hr style="border: none; border-top: 1px solid rgba(23,64,100,0.25);">
+          <div style="font-size: 0.85em; padding: 4px 0 10px;">License: <a href="#2a" style="color: rgb(23,64,100);">CC-BY-SA-4.0</a>. Attribution: <a href="#2a" style="color: rgb(23,64,100);">sammancoaching.org</a></div>
+          <div style="margin: 0 -12px; background-color: rgb(240,130,113); border-top-left-radius: 5px; border-top-right-radius: 5px; text-align: center; padding: 6px 0;">
+            <img src="assets/images/Submark_dark_blue_small.png" alt="Samman Coaching" style="display: inline-block; max-width: 120px; height: auto;">
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <!-- ============ 2b: offer detail with CTA ============ -->
+    <div id="2b" style="display: flex; flex-direction: column; gap: 12px;">
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <span style="font-family: monospace; font-size: 12px; font-weight: 700; background: rgb(23,64,100); color: rgb(243,238,230); padding: 3px 8px; border-radius: 5px;">2b</span>
+        <span style="font-size: 13px; color: rgb(23,64,100);">Offer detail page with inquiry CTA &mdash; primary action is one click from every coach list</span>
+      </div>
+      <div style="width: 800px; background: rgb(243,238,230); border-radius: 10px; overflow: hidden; box-shadow: 0 12px 40px rgba(23,64,100,0.18); color: rgb(23,64,100); font-size: 16px; line-height: 1.2;">
+        <header style="background-color: rgb(240,130,113); background-image: url('assets/images/samman_banner.png'); background-repeat: no-repeat; background-position: top center; background-size: contain; padding-top: 110px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;">
+          <nav style="display: flex; justify-content: center; gap: 10px; padding: 4px 0 6px; font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600; font-size: 14px;">
+            <a href="#2b" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Home</a>
+            <a href="#2b" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Book</a>
+            <a href="#2b" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Katas</a>
+            <a href="#2b" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Learning Hours</a>
+            <a href="#2b" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Training</a>
+            <a href="#2b" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Activities</a>
+            <a href="#2b" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Reference</a>
+            <a href="#2b" style="color: rgb(240,130,113); background: rgb(243,238,230); text-decoration: none; padding: 3px 6px; border-top-left-radius: 5px; border-top-right-radius: 5px;">Society</a>
+            <a href="#2b" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Contact</a>
+          </nav>
+        </header>
+        <main style="padding: 8px 30px 40px;">
+          <p style="margin: 14px 0 0; font-size: 0.9em;"><a href="#1a" style="color: rgb(23,64,100);">&larr; All coaching offers</a></p>
+          <h1 style="font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600; font-size: 2em; margin-top: 12px;">Samman Coaching</h1>
+          <p style="max-width: 620px;">A classic block of 10 Samman sessions for one or more development teams. Each session combines a learning hour with ensemble working in your own codebase.</p>
+
+          <div style="display: flex; align-items: center; gap: 18px; border: 2px solid rgb(162,195,221); border-radius: 10px; background: rgba(162,195,221,0.25); padding: 18px 22px; margin-top: 22px; max-width: 620px;">
+            <div style="flex: 1; display: flex; flex-direction: column; gap: 4px;">
+              <div style="font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600; font-size: 1.05em;">Interested in Samman coaching for your teams?</div>
+              <div style="font-size: 0.85em; opacity: 0.8;">One inquiry reaches all available coaches. Free intro call, no obligation.</div>
+            </div>
+            <a href="#2a" style="flex-shrink: 0; display: inline-block; padding: 0.6rem 1.4rem; text-decoration: none; border-radius: 6px; font-weight: 600; background: rgb(23,64,100); color: rgb(243,238,230); border: 2px solid rgb(23,64,100); transition: background-color 0.2s ease;" style-hover="background: rgb(65,103,136); border-color: rgb(65,103,136);">Start an inquiry</a>
+          </div>
+
+          <h2 style="font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600; font-size: 1.25em; margin-top: 34px;">Coaches who offer this</h2>
+          <div style="display: flex; flex-direction: column; gap: 18px; margin-top: 16px;">
+            <sc-for list="{{ teamsCoachesShort }}" as="coach" hint-placeholder-count="2">
+              <div style="display: grid; grid-template-columns: 64px 1fr auto; gap: 18px; align-items: center; border: 2px solid #e8e8e8; border-radius: 10px; background: rgba(255,255,255,0.45); padding: 16px 20px; transition: border-color 0.3s ease, box-shadow 0.3s ease;" style-hover="border-color: rgb(23,64,100); box-shadow: 0 4px 12px rgba(23,64,100,0.15);">
+                <sc-if value="{{ coach.hasPhoto }}" hint-placeholder-val="{{ false }}">
+                  <img src="{{ coach.photo }}" alt="{{ coach.name }}" style="width: 64px; height: 64px; object-fit: cover; border-radius: 6px; border: 2px solid rgb(23,64,100);">
+                </sc-if>
+                <sc-if value="{{ coach.noPhoto }}" hint-placeholder-val="{{ true }}">
+                  <div style="width: 64px; height: 64px; border-radius: 6px; background: rgb(162,195,221); color: rgb(23,64,100); display: flex; align-items: center; justify-content: center; font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600; font-size: 22px;">{{ coach.initials }}</div>
+                </sc-if>
+                <div style="display: flex; flex-direction: column; gap: 4px;">
+                  <div style="font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600; font-size: 1.15em;">{{ coach.name }}</div>
+                  <div style="font-size: 0.85em; opacity: 0.75;">{{ coach.affiliation }}</div>
+                </div>
+                <div><a href="{{ coach.url }}" style="display: inline-block; padding: 0.5rem 1rem; text-decoration: none; border-radius: 6px; font-weight: 500; background: white; color: rgb(162,195,221); border: 2px solid rgb(162,195,221); transition: background-color 0.2s ease, color 0.2s ease;" style-hover="background: rgb(162,195,221); color: rgb(23,64,100);">Profile</a></div>
+              </div>
+            </sc-for>
+          </div>
+
+          <p style="margin-top: 30px; font-size: 0.9em;">Also on offer: <a href="#1a" style="color: rgb(23,64,100);">Personal Coaching</a> and <a href="#1a" style="color: rgb(23,64,100);">Train the Trainer</a>.</p>
+        </main>
+        <footer style="padding: 6px 12px 0;">
+          <hr style="border: none; border-top: 1px solid rgba(23,64,100,0.25);">
+          <div style="font-size: 0.85em; padding: 4px 0 10px;">License: <a href="#2b" style="color: rgb(23,64,100);">CC-BY-SA-4.0</a>. Attribution: <a href="#2b" style="color: rgb(23,64,100);">sammancoaching.org</a></div>
+          <div style="margin: 0 -12px; background-color: rgb(240,130,113); border-top-left-radius: 5px; border-top-right-radius: 5px; text-align: center; padding: 6px 0;">
+            <img src="assets/images/Submark_dark_blue_small.png" alt="Samman Coaching" style="display: inline-block; max-width: 120px; height: auto;">
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <!-- ============ 2c: thank-you page ============ -->
+    <div id="2c" style="display: flex; flex-direction: column; gap: 12px;">
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <span style="font-family: monospace; font-size: 12px; font-weight: 700; background: rgb(23,64,100); color: rgb(243,238,230); padding: 3px 8px; border-radius: 5px;">2c</span>
+        <span style="font-size: 13px; color: rgb(23,64,100);">Thank-you page &mdash; sets expectations; submission also pings your Discord (backend)</span>
+      </div>
+      <div style="width: 800px; background: rgb(243,238,230); border-radius: 10px; overflow: hidden; box-shadow: 0 12px 40px rgba(23,64,100,0.18); color: rgb(23,64,100); font-size: 16px; line-height: 1.2;">
+        <header style="background-color: rgb(240,130,113); background-image: url('assets/images/samman_banner.png'); background-repeat: no-repeat; background-position: top center; background-size: contain; padding-top: 110px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;">
+          <nav style="display: flex; justify-content: center; gap: 10px; padding: 4px 0 6px; font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600; font-size: 14px;">
+            <a href="#2c" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Home</a>
+            <a href="#2c" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Book</a>
+            <a href="#2c" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Katas</a>
+            <a href="#2c" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Learning Hours</a>
+            <a href="#2c" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Training</a>
+            <a href="#2c" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Activities</a>
+            <a href="#2c" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Reference</a>
+            <a href="#2c" style="color: rgb(240,130,113); background: rgb(243,238,230); text-decoration: none; padding: 3px 6px; border-top-left-radius: 5px; border-top-right-radius: 5px;">Society</a>
+            <a href="#2c" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Contact</a>
+          </nav>
+        </header>
+        <main style="padding: 8px 30px 60px;">
+          <div style="max-width: 560px; margin: 40px auto 0; text-align: center; display: flex; flex-direction: column; gap: 16px; align-items: center;">
+            <div style="width: 64px; height: 64px; border-radius: 50%; background: rgb(162,195,221); display: flex; align-items: center; justify-content: center;">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="rgb(23,64,100)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </div>
+            <h1 style="font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600; font-size: 2em; margin: 0;">Inquiry sent</h1>
+            <p style="margin: 0;">Thanks for getting in touch. Your inquiry has been shared with society members who match your timezone and needs. Expect to hear from a coach <strong>within a few days</strong> to arrange a free intro call.</p>
+            <div style="display: flex; flex-direction: column; gap: 10px; text-align: left; border: 2px solid #e8e8e8; border-radius: 10px; background: rgba(255,255,255,0.45); padding: 18px 22px; width: 100%; box-sizing: border-box; font-size: 0.9em;">
+              <div style="font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600;">While you wait</div>
+              <div>&bull; Read about <a href="#1a" style="color: rgb(23,64,100);">how Samman coaching works</a></div>
+              <div>&bull; Browse <a href="#1c" style="color: rgb(23,64,100);">the coaches</a> and their learning hours</div>
+              <div>&bull; Sign up for the society <a href="#2c" style="color: rgb(23,64,100);">newsletter</a></div>
+            </div>
+          </div>
+        </main>
+        <footer style="padding: 6px 12px 0;">
+          <hr style="border: none; border-top: 1px solid rgba(23,64,100,0.25);">
+          <div style="font-size: 0.85em; padding: 4px 0 10px;">License: <a href="#2c" style="color: rgb(23,64,100);">CC-BY-SA-4.0</a>. Attribution: <a href="#2c" style="color: rgb(23,64,100);">sammancoaching.org</a></div>
+          <div style="margin: 0 -12px; background-color: rgb(240,130,113); border-top-left-radius: 5px; border-top-right-radius: 5px; text-align: center; padding: 6px 0;">
+            <img src="assets/images/Submark_dark_blue_small.png" alt="Samman Coaching" style="display: inline-block; max-width: 120px; height: auto;">
+          </div>
+        </footer>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section style="padding: 48px; display: flex; flex-direction: column; gap: 28px; font-family: 'Inter', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;">
+  <div style="display: flex; align-items: baseline; gap: 14px; color: rgb(23,64,100);">
+    <span style="font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600; font-size: 20px;">Offers page redesign</span>
+    <span style="font-size: 13px; opacity: 0.7;">Three service categories replace individual coach offers &middot; <a href="#1a" style="color: rgb(23,64,100);">1a</a> card grid &middot; <a href="#1b" style="color: rgb(23,64,100);">1b</a> stacked rows &middot; <a href="#1c" style="color: rgb(23,64,100);">1c</a> coach-list detail page (buttons are clickable)</span>
+  </div>
+
+  <div style="display: flex; gap: 56px; align-items: flex-start; flex-wrap: wrap;">
+
+    <!-- ============ 1a: card grid ============ -->
+    <div id="1a" style="display: flex; flex-direction: column; gap: 12px;">
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <span style="font-family: monospace; font-size: 12px; font-weight: 700; background: rgb(23,64,100); color: rgb(243,238,230); padding: 3px 8px; border-radius: 5px;">1a</span>
+        <span style="font-size: 13px; color: rgb(23,64,100);">Card grid &mdash; reuses the existing card style</span>
+      </div>
+      <div style="width: 800px; background: rgb(243,238,230); border-radius: 10px; overflow: hidden; box-shadow: 0 12px 40px rgba(23,64,100,0.18); color: rgb(23,64,100); font-size: 16px; line-height: 1.2;">
+        <header style="background-color: rgb(240,130,113); background-image: url('assets/images/samman_banner.png'); background-repeat: no-repeat; background-position: top center; background-size: contain; padding-top: 110px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;">
+          <nav style="display: flex; justify-content: center; gap: 10px; padding: 4px 0 6px; font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600; font-size: 14px;">
+            <a href="#1a" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Home</a>
+            <a href="#1a" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Book</a>
+            <a href="#1a" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Katas</a>
+            <a href="#1a" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Learning Hours</a>
+            <a href="#1a" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Training</a>
+            <a href="#1a" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Activities</a>
+            <a href="#1a" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Reference</a>
+            <a href="#1a" style="color: rgb(240,130,113); background: rgb(243,238,230); text-decoration: none; padding: 3px 6px; border-top-left-radius: 5px; border-top-right-radius: 5px;">Society</a>
+            <a href="#1a" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Contact</a>
+          </nav>
+        </header>
+        <main style="padding: 8px 30px 40px;">
+          <h1 style="font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600; font-size: 2em;">Hire a Technical Coach</h1>
+          <p style="max-width: 620px;">Technical skills have to be acquired deliberately, and the best effect comes from lifting the entire team at the same time. Members of the Samman Technical Coaching Society offer three kinds of coaching.</p>
+          <div style="display: grid; gap: 34px; grid-template-columns: repeat(3, 1fr); margin-top: 30px;">
+            <div style="position: relative; display: flex; flex-direction: column; gap: 10px; text-align: center; padding: 1.4rem 1rem; border: 2px solid #e8e8e8; border-radius: 10px; background: rgba(255,255,255,0.45); transition: border-color 0.3s ease, box-shadow 0.3s ease;" style-hover="border-color: rgb(23,64,100); box-shadow: 0 4px 12px rgba(23,64,100,0.15);">
+              <h2 style="font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600; font-size: 1.1em; margin: 0;">SAMMAN COACHING FOR TEAMS</h2>
+              <p style="margin: 0; flex: 1;">The classic format: a block of 10 Samman sessions for a dev team that works together, combining learning hours and ensemble working.</p>
+              <sc-if value="{{ showCoachCount }}" hint-placeholder-val="{{ true }}">
+                <p style="margin: 0; font-size: 0.85em; opacity: 0.75;">6 coaches offer this</p>
+              </sc-if>
+              <div><a href="#1c" style="display: inline-block; padding: 0.5rem 1rem; text-decoration: none; border-radius: 6px; font-weight: 500; background: white; color: rgb(162,195,221); border: 2px solid rgb(162,195,221); transition: background-color 0.2s ease, color 0.2s ease;" style-hover="background: rgb(162,195,221); color: rgb(23,64,100);">See the coaches</a></div>
+            </div>
+            <div style="position: relative; display: flex; flex-direction: column; gap: 10px; text-align: center; padding: 1.4rem 1rem; border: 2px solid #e8e8e8; border-radius: 10px; background: rgba(255,255,255,0.45); transition: border-color 0.3s ease, box-shadow 0.3s ease;" style-hover="border-color: rgb(23,64,100); box-shadow: 0 4px 12px rgba(23,64,100,0.15);">
+              <h2 style="font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600; font-size: 1.1em; margin: 0;">1:1 PERSONAL COACHING</h2>
+              <p style="margin: 0; flex: 1;">For tech leads and architects with an ambition to become technical coaches. Regular coach-the-coach sessions alongside our <a href="#1a" style="color: rgb(23,64,100);">training courses</a>.</p>
+              <sc-if value="{{ showCoachCount }}" hint-placeholder-val="{{ true }}">
+                <p style="margin: 0; font-size: 0.85em; opacity: 0.75;">3 coaches offer this</p>
+              </sc-if>
+              <div><a href="#1c" style="display: inline-block; padding: 0.5rem 1rem; text-decoration: none; border-radius: 6px; font-weight: 500; background: white; color: rgb(162,195,221); border: 2px solid rgb(162,195,221); transition: background-color 0.2s ease, color 0.2s ease;" style-hover="background: rgb(162,195,221); color: rgb(23,64,100);">See the coaches</a></div>
+            </div>
+            <div style="position: relative; display: flex; flex-direction: column; gap: 10px; text-align: center; padding: 1.4rem 1rem; border: 2px solid #e8e8e8; border-radius: 10px; background: rgba(255,255,255,0.45); transition: border-color 0.3s ease, box-shadow 0.3s ease;" style-hover="border-color: rgb(23,64,100); box-shadow: 0 4px 12px rgba(23,64,100,0.15);">
+              <h2 style="font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600; font-size: 1.1em; margin: 0;">TRAIN THE TRAINER</h2>
+              <p style="margin: 0; flex: 1;">For organisations that want to roll out technical coaching as a career path across whole departments. A programme that grows coaches in-house.</p>
+              <sc-if value="{{ showCoachCount }}" hint-placeholder-val="{{ true }}">
+                <p style="margin: 0; font-size: 0.85em; opacity: 0.75;">2 coaches offer this</p>
+              </sc-if>
+              <div><a href="#1c" style="display: inline-block; padding: 0.5rem 1rem; text-decoration: none; border-radius: 6px; font-weight: 500; background: white; color: rgb(162,195,221); border: 2px solid rgb(162,195,221); transition: background-color 0.2s ease, color 0.2s ease;" style-hover="background: rgb(162,195,221); color: rgb(23,64,100);">See the coaches</a></div>
+            </div>
+          </div>
+          <p style="margin-top: 34px; font-size: 0.9em;">Not sure which fits? Get in touch via our <a href="#1a" style="color: rgb(23,64,100);">contact page</a>.</p>
+        </main>
+        <footer style="padding: 6px 12px 0;">
+          <hr style="border: none; border-top: 1px solid rgba(23,64,100,0.25);">
+          <div style="font-size: 0.85em; padding: 4px 0 10px;">License: <a href="#1a" style="color: rgb(23,64,100);">CC-BY-SA-4.0</a>. Attribution: <a href="#1a" style="color: rgb(23,64,100);">sammancoaching.org</a></div>
+          <div style="margin: 0 -12px; background-color: rgb(240,130,113); border-top-left-radius: 5px; border-top-right-radius: 5px; text-align: center; padding: 6px 0;">
+            <img src="assets/images/Submark_dark_blue_small.png" alt="Samman Coaching" style="display: inline-block; max-width: 120px; height: auto;">
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <!-- ============ 1b: stacked rows ============ -->
+    <div id="1b" style="display: flex; flex-direction: column; gap: 12px;">
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <span style="font-family: monospace; font-size: 12px; font-weight: 700; background: rgb(23,64,100); color: rgb(243,238,230); padding: 3px 8px; border-radius: 5px;">1b</span>
+        <span style="font-size: 13px; color: rgb(23,64,100);">Stacked rows &mdash; more room for copy, names coaches up front</span>
+      </div>
+      <div style="width: 800px; background: rgb(243,238,230); border-radius: 10px; overflow: hidden; box-shadow: 0 12px 40px rgba(23,64,100,0.18); color: rgb(23,64,100); font-size: 16px; line-height: 1.2;">
+        <header style="background-color: rgb(240,130,113); background-image: url('assets/images/samman_banner.png'); background-repeat: no-repeat; background-position: top center; background-size: contain; padding-top: 110px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;">
+          <nav style="display: flex; justify-content: center; gap: 10px; padding: 4px 0 6px; font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600; font-size: 14px;">
+            <a href="#1b" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Home</a>
+            <a href="#1b" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Book</a>
+            <a href="#1b" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Katas</a>
+            <a href="#1b" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Learning Hours</a>
+            <a href="#1b" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Training</a>
+            <a href="#1b" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Activities</a>
+            <a href="#1b" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Reference</a>
+            <a href="#1b" style="color: rgb(240,130,113); background: rgb(243,238,230); text-decoration: none; padding: 3px 6px; border-top-left-radius: 5px; border-top-right-radius: 5px;">Society</a>
+            <a href="#1b" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Contact</a>
+          </nav>
+        </header>
+        <main style="padding: 8px 30px 40px;">
+          <h1 style="font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600; font-size: 2em;">Hire a Technical Coach</h1>
+          <p style="max-width: 620px;">Technical skills have to be acquired deliberately, and the best effect comes from lifting the entire team at the same time. Members of the Samman Technical Coaching Society offer three kinds of coaching.</p>
+          <div style="display: flex; flex-direction: column; gap: 24px; margin-top: 26px;">
+            <div style="display: flex; gap: 24px; align-items: center; border: 2px solid #e8e8e8; border-radius: 10px; background: rgba(255,255,255,0.45); padding: 22px 26px; transition: border-color 0.3s ease, box-shadow 0.3s ease;" style-hover="border-color: rgb(23,64,100); box-shadow: 0 4px 12px rgba(23,64,100,0.15);">
+              <div style="flex: 1; display: flex; flex-direction: column; gap: 8px;">
+                <h2 style="font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600; font-size: 1.25em; margin: 0;">Samman Coaching for Teams</h2>
+                <p style="margin: 0;">The classic format: a block of 10 Samman sessions for a dev team that works together, combining learning hours and ensemble working in your production codebase.</p>
+                <p style="margin: 0; font-size: 0.85em; opacity: 0.75;">Emily Bache, EsterDaniel Ytterbrink, Ivett &Ouml;rd&ouml;g + 3 more</p>
+              </div>
+              <div style="flex-shrink: 0;"><a href="#1c" style="display: inline-block; padding: 0.5rem 1rem; text-decoration: none; border-radius: 6px; font-weight: 500; background: white; color: rgb(162,195,221); border: 2px solid rgb(162,195,221); transition: background-color 0.2s ease, color 0.2s ease;" style-hover="background: rgb(162,195,221); color: rgb(23,64,100);">See the coaches</a></div>
+            </div>
+            <div style="display: flex; gap: 24px; align-items: center; border: 2px solid #e8e8e8; border-radius: 10px; background: rgba(255,255,255,0.45); padding: 22px 26px; transition: border-color 0.3s ease, box-shadow 0.3s ease;" style-hover="border-color: rgb(23,64,100); box-shadow: 0 4px 12px rgba(23,64,100,0.15);">
+              <div style="flex: 1; display: flex; flex-direction: column; gap: 8px;">
+                <h2 style="font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600; font-size: 1.25em; margin: 0;">1:1 Personal Coaching</h2>
+                <p style="margin: 0;">For tech leads and architects with an ambition to become technical coaches. Regular coach-the-coach sessions, often alongside our <a href="#1b" style="color: rgb(23,64,100);">training courses</a>.</p>
+                <p style="margin: 0; font-size: 0.85em; opacity: 0.75;">Emily Bache, Ivett &Ouml;rd&ouml;g, Lars Eckart</p>
+              </div>
+              <div style="flex-shrink: 0;"><a href="#1c" style="display: inline-block; padding: 0.5rem 1rem; text-decoration: none; border-radius: 6px; font-weight: 500; background: white; color: rgb(162,195,221); border: 2px solid rgb(162,195,221); transition: background-color 0.2s ease, color 0.2s ease;" style-hover="background: rgb(162,195,221); color: rgb(23,64,100);">See the coaches</a></div>
+            </div>
+            <div style="display: flex; gap: 24px; align-items: center; border: 2px solid #e8e8e8; border-radius: 10px; background: rgba(255,255,255,0.45); padding: 22px 26px; transition: border-color 0.3s ease, box-shadow 0.3s ease;" style-hover="border-color: rgb(23,64,100); box-shadow: 0 4px 12px rgba(23,64,100,0.15);">
+              <div style="flex: 1; display: flex; flex-direction: column; gap: 8px;">
+                <h2 style="font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600; font-size: 1.25em; margin: 0;">Train the Trainer</h2>
+                <p style="margin: 0;">For organisations that want to roll out technical coaching as a career path across whole departments. A programme that grows Samman coaches in-house.</p>
+                <p style="margin: 0; font-size: 0.85em; opacity: 0.75;">Emily Bache, Clare Sudbery</p>
+              </div>
+              <div style="flex-shrink: 0;"><a href="#1c" style="display: inline-block; padding: 0.5rem 1rem; text-decoration: none; border-radius: 6px; font-weight: 500; background: white; color: rgb(162,195,221); border: 2px solid rgb(162,195,221); transition: background-color 0.2s ease, color 0.2s ease;" style-hover="background: rgb(162,195,221); color: rgb(23,64,100);">See the coaches</a></div>
+            </div>
+          </div>
+          <p style="margin-top: 30px; font-size: 0.9em;">Not sure which fits? Get in touch via our <a href="#1b" style="color: rgb(23,64,100);">contact page</a>.</p>
+        </main>
+        <footer style="padding: 6px 12px 0;">
+          <hr style="border: none; border-top: 1px solid rgba(23,64,100,0.25);">
+          <div style="font-size: 0.85em; padding: 4px 0 10px;">License: <a href="#1b" style="color: rgb(23,64,100);">CC-BY-SA-4.0</a>. Attribution: <a href="#1b" style="color: rgb(23,64,100);">sammancoaching.org</a></div>
+          <div style="margin: 0 -12px; background-color: rgb(240,130,113); border-top-left-radius: 5px; border-top-right-radius: 5px; text-align: center; padding: 6px 0;">
+            <img src="assets/images/Submark_dark_blue_small.png" alt="Samman Coaching" style="display: inline-block; max-width: 120px; height: auto;">
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <!-- ============ 1c: detail page ============ -->
+    <div id="1c" style="display: flex; flex-direction: column; gap: 12px;">
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <span style="font-family: monospace; font-size: 12px; font-weight: 700; background: rgb(23,64,100); color: rgb(243,238,230); padding: 3px 8px; border-radius: 5px;">1c</span>
+        <span style="font-size: 13px; color: rgb(23,64,100);">Detail page &mdash; coaches offering "Samman Coaching for Teams" (placeholder tagging)</span>
+      </div>
+      <div style="width: 800px; background: rgb(243,238,230); border-radius: 10px; overflow: hidden; box-shadow: 0 12px 40px rgba(23,64,100,0.18); color: rgb(23,64,100); font-size: 16px; line-height: 1.2;">
+        <header style="background-color: rgb(240,130,113); background-image: url('assets/images/samman_banner.png'); background-repeat: no-repeat; background-position: top center; background-size: contain; padding-top: 110px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;">
+          <nav style="display: flex; justify-content: center; gap: 10px; padding: 4px 0 6px; font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600; font-size: 14px;">
+            <a href="#1c" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Home</a>
+            <a href="#1c" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Book</a>
+            <a href="#1c" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Katas</a>
+            <a href="#1c" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Learning Hours</a>
+            <a href="#1c" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Training</a>
+            <a href="#1c" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Activities</a>
+            <a href="#1c" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Reference</a>
+            <a href="#1c" style="color: rgb(240,130,113); background: rgb(243,238,230); text-decoration: none; padding: 3px 6px; border-top-left-radius: 5px; border-top-right-radius: 5px;">Society</a>
+            <a href="#1c" style="color: rgb(243,238,230); text-decoration: none; padding: 3px 6px;">Contact</a>
+          </nav>
+        </header>
+        <main style="padding: 8px 30px 40px;">
+          <p style="margin: 14px 0 0; font-size: 0.9em;"><a href="#1a" style="color: rgb(23,64,100);">&larr; All coaching offers</a></p>
+          <h1 style="font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600; font-size: 2em; margin-top: 12px;">Samman Coaching for Teams</h1>
+          <p style="max-width: 620px;">A classic block of 10 Samman sessions for a dev team that works together. Each session combines a learning hour with ensemble working in your own codebase. These society members offer team coaching:</p>
+          <div style="display: flex; flex-direction: column; gap: 18px; margin-top: 26px;">
+            <sc-for list="{{ teamsCoaches }}" as="coach" hint-placeholder-count="6">
+              <div style="display: grid; grid-template-columns: 64px 1fr auto; gap: 18px; align-items: center; border: 2px solid #e8e8e8; border-radius: 10px; background: rgba(255,255,255,0.45); padding: 16px 20px; transition: border-color 0.3s ease, box-shadow 0.3s ease;" style-hover="border-color: rgb(23,64,100); box-shadow: 0 4px 12px rgba(23,64,100,0.15);">
+                <sc-if value="{{ coach.hasPhoto }}" hint-placeholder-val="{{ false }}">
+                  <img src="{{ coach.photo }}" alt="{{ coach.name }}" style="width: 64px; height: 64px; object-fit: cover; border-radius: 6px; border: 2px solid rgb(23,64,100);">
+                </sc-if>
+                <sc-if value="{{ coach.noPhoto }}" hint-placeholder-val="{{ true }}">
+                  <div style="width: 64px; height: 64px; border-radius: 6px; background: rgb(162,195,221); color: rgb(23,64,100); display: flex; align-items: center; justify-content: center; font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600; font-size: 22px;">{{ coach.initials }}</div>
+                </sc-if>
+                <div style="display: flex; flex-direction: column; gap: 4px;">
+                  <div style="font-family: 'Neulis Sans', Helvetica, sans-serif; font-weight: 600; font-size: 1.15em;">{{ coach.name }}</div>
+                  <div style="font-size: 0.85em; opacity: 0.75;">{{ coach.affiliation }}</div>
+                  <sc-if value="{{ coach.hasHeadline }}" hint-placeholder-val="{{ false }}">
+                    <div style="font-size: 0.95em;">{{ coach.headline }}</div>
+                  </sc-if>
+                </div>
+                <div><a href="{{ coach.url }}" style="display: inline-block; padding: 0.5rem 1rem; text-decoration: none; border-radius: 6px; font-weight: 500; background: white; color: rgb(162,195,221); border: 2px solid rgb(162,195,221); transition: background-color 0.2s ease, color 0.2s ease;" style-hover="background: rgb(162,195,221); color: rgb(23,64,100);">Website</a></div>
+              </div>
+            </sc-for>
+          </div>
+          <p style="margin-top: 30px; font-size: 0.9em;">Also on offer: <a href="#1a" style="color: rgb(23,64,100);">1:1 Personal Coaching</a> and <a href="#1a" style="color: rgb(23,64,100);">Train the Trainer</a>.</p>
+        </main>
+        <footer style="padding: 6px 12px 0;">
+          <hr style="border: none; border-top: 1px solid rgba(23,64,100,0.25);">
+          <div style="font-size: 0.85em; padding: 4px 0 10px;">License: <a href="#1c" style="color: rgb(23,64,100);">CC-BY-SA-4.0</a>. Attribution: <a href="#1c" style="color: rgb(23,64,100);">sammancoaching.org</a></div>
+          <div style="margin: 0 -12px; background-color: rgb(240,130,113); border-top-left-radius: 5px; border-top-right-radius: 5px; text-align: center; padding: 6px 0;">
+            <img src="assets/images/Submark_dark_blue_small.png" alt="Samman Coaching" style="display: inline-block; max-width: 120px; height: auto;">
+          </div>
+        </footer>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{
+  &quot;showCoachCount&quot;: { &quot;editor&quot;: &quot;boolean&quot;, &quot;default&quot;: true, &quot;tsType&quot;: &quot;boolean&quot;, &quot;section&quot;: &quot;Offers page&quot; },
+  &quot;showHeadlines&quot;: { &quot;editor&quot;: &quot;boolean&quot;, &quot;default&quot;: true, &quot;tsType&quot;: &quot;boolean&quot;, &quot;section&quot;: &quot;Coach list&quot; }
+}">
+class Component extends DCLogic {
+  state = { offer: "Samman Coaching", priority: "Legacy code", format: "Remote" };
+  renderVals() {
+    const chip = (label, selected, pick) => ({
+      label,
+      pick,
+      border: selected ? "rgb(23,64,100)" : "#e8e8e8",
+      bg: selected ? "rgb(162,195,221)" : "white",
+      color: "rgb(23,64,100)"
+    });
+    const offerChoices = ["Samman Coaching", "Personal Coaching", "Train the Trainer"].map((label) =>
+      chip(label, this.state.offer === label, () => this.setState({ offer: label }))
+    );
+    const priorityChoices = ["Legacy code", "AI adoption", "Other"].map((label) =>
+      chip(label, this.state.priority === label, () => this.setState({ priority: label }))
+    );
+    const formatChoices = ["Remote", "In-person", "Hybrid"].map((label) =>
+      chip(label, this.state.format === label, () => this.setState({ format: label }))
+    );
+    const isPersonal = this.state.offer === "Personal Coaching";
+    const sizeLabel = isPersonal ? "Number of people to coach" : "Number of teams";
+    const sizeOptions = isPersonal
+      ? ["1 person", "2\u20135 people", "6+ people"]
+      : ["1 team", "2\u20135 teams", "6+ teams / department"];
+    const askLocation = this.state.format !== "Remote";
+    const coaches = [
+      { name: "Emily Bache", affiliation: "Bache Consulting", headline: "Technical coaching for teams and mentoring for other coaches", url: "http://bacheconsulting.com", photo: "" },
+      { name: "Ivett \u00d6rd\u00f6g", affiliation: "Independent", headline: "I help software teams deliver faster without wasting tokens", url: "https://www.ivettordog.com/", photo: "assets/images/profiles/ivett.jpg" },
+      { name: "EsterDaniel Ytterbrink", affiliation: "Chocolate Driven Development AB", headline: "", url: "https://www.chocolatedrivendevelopment.com", photo: "" },
+      { name: "Clare Sudbery", affiliation: "Sudbery Software Engineering Ltd", headline: "", url: "https://tinyurl.com/SSE-Ltd", photo: "" },
+      { name: "Gregor Riegler", affiliation: "Tricentis", headline: "", url: "https://gregorriegler.com", photo: "" },
+      { name: "Nitsan Avni", affiliation: "Independent", headline: "", url: "https://nitsanavni.github.io/", photo: "" }
+    ];
+    const showHeadlines = this.props.showHeadlines ?? true;
+    const teamsCoaches = coaches.map((c) => ({
+      ...c,
+      initials: c.name.split(" ").map((w) => w[0]).join("").slice(0, 2),
+      hasPhoto: c.photo !== "",
+      noPhoto: c.photo === "",
+      hasHeadline: showHeadlines && c.headline !== ""
+    }));
+    return {
+      offerChoices,
+      priorityChoices,
+      formatChoices,
+      sizeLabel,
+      sizeOptions,
+      askLocation,
+      teamsCoachesShort: teamsCoaches.slice(0, 2),
+      teamsCoaches,
+      showCoachCount: this.props.showCoachCount ?? true
+    };
+  }
+}
+
+</script>
+</body>
+</html>
