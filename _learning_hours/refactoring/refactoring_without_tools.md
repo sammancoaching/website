@@ -7,9 +7,13 @@ author: emilybache
 tags:  refactoring c
 ---
 
-# Refactoring without tools
+# Refactoring without tools aka Extract Method without tools
 
 You don't always have the tools you'd like to have, and they don't always work totally reliably. How do you handle that?
+
+## Prerequisite
+
+[Identify Paragraphs]({% link _learning_hours/refactoring/identify_paragraphs.md %})
 
 ## Learning Goals
 
