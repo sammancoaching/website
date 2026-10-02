@@ -844,6 +844,10 @@
         "url": "/learning_hours/refactoring/primitive_obsession.html"
     },
     {
+        "title": "Learning Hour: Refactoring with and without tools",
+        "url": "/learning_hours/refactoring/refactoring_with_and_without_tools.html"
+    },
+    {
         "title": "Learning Hour: Refactoring Without Tools",
         "url": "/learning_hours/refactoring/refactoring_without_tools.html"
     },
@@ -1390,6 +1394,10 @@
     {
         "title": "Pierrick Blons",
         "url": "/society/contributors/pierrickblons.html"
+    },
+    {
+        "title": "Rea Sutter",
+        "url": "/society/contributors/reasun.html"
     },
     {
         "title": "Ron Heywood",
