@@ -10,10 +10,12 @@ learning_hours: slice
 Emily Bache first learned this refactoring from Llewellyn Falco. This description was written in collaboration with [Willem van den Ende]({% link society/contributors/mostalive.md %})
 
 ## Examine
-Look for a long function that you want to get under test, where there is a statement somewhere in the middle that makes it hard to test. Usually it refers to a dependency you don't want to include in your unit test. This becomes a candidate for 'slice' if you cannot easily slide this function to the start or the end of the function in order to use [Peel]({% link _refactorings/peel.md %}).
+Look for a long function that you want to get under test, where there is a statement somewhere in the middle that makes it hard to test. Usually it refers to a dependency you don't want to include in your unit test. 
+
+When you cannot easily slide this function to the start or the end of the function in order to use [Peel]({% link _refactorings/peel.md %}), then this becomes a candidate for _Slice_. Usually this happens because the function depends on other values in the context.
 
 ## Prepare
-Isolate the smallest possible part that you want to be able to slice out of this function. This will be the part that will be replaced by a mock in a test, so you want to make it as little logic as possible. You might want to extract a variable for the part you will slice so it's separated from the surrounding code.
+Isolate the smallest possible part that you want to be able to slice out of this function. This will be the part that will be replaced by a test double in a test, so you want to make it as little logic as possible. You might want to extract a variable for the part you will slice so it is separated from the surrounding code.
 
 ## Implement
 
