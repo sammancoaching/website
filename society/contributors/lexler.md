@@ -6,4 +6,4 @@ role: Technical Coach
 ---
 
 {% assign author = site.data.contributors[page.author] %}
-{{author.title}} is a {{page.role}} at [{{author.affiliation}}]({{author.url}}) 
+{{author.title}} is a {{page.role}} at [{{author.affiliation}}]({{author.url}}) and a member of the Samman Technical Coaching Society.
