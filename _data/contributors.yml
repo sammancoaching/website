@@ -187,9 +187,15 @@ janvanryswyck:
   member: no
 lexler:
   title: Lada Kesseler
-  url: https://github.com/lexler
+  url: https://ai-coding-patterns.dev/
   affiliation: Independent
   member: yes
+  member_since: 2026-09-30
+  headline: Helping developers build reliable software with unreliable AI
+  photo: assets/images/profiles/lexler.jpg
+  additional_links:
+    - LinkedIn: https://www.linkedin.com/in/lada-kesseler
+    - GitHub: https://github.com/lexler
 mostalive:
   title: Willem van den Ende
   url: https://www.qwan.eu/
