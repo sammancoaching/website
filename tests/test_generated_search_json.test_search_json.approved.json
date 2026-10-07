@@ -728,10 +728,6 @@
         "url": "/learning_hours/legacy/preparatory_refactoring.html"
     },
     {
-        "title": "Learning Hour: Strangler Fig Pattern",
-        "url": "/learning_hours/legacy/strangler_fig.html"
-    },
-    {
         "title": "Learning Hour: Test maintenance",
         "url": "/learning_hours/legacy/test_maintenance.html"
     },
