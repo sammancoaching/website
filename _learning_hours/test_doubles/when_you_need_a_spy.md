@@ -23,7 +23,8 @@ There is a video and other materials available for this learning hour as part of
 
 * 10 min connect: How can you test this?
 * 5 min concept: Explanation of test doubles
-* 30 mins concrete: Write a test using a test double
+* 5 min demo: Use a Spy to expose a bug
+* 25 mins concrete: Write a test using a test double
 * 5 min conclusion: How do you know when you need a spy?
 
 ### Connect: How can you test this?
@@ -32,11 +33,15 @@ This is a [Code Review]({% link _activities/connect/code_review.md %}) connect. 
 
 ### Concept: Test Doubles
 
-Explain what a test double is and how we could use one in this problem. You could explain that for this particular case we might need a spy or mock and how that is different from a stub.
+Explain what a test double is and how we could use one in this problem.
+
+### Demo: Use a Spy
+
+Show how to use a Spy to expose the first bug. Make it clear how the Spy works, and show that if you fix the first bug, the test passes. Leave the second bug for the exercise.
 
 ### Concrete: Write a test using a test double
 
-Ask people to write tests for each of the bugs using test doubles. Each test should fail because of a bug, and pass if you change the code to fix the bug. Do not change the DiscountApplier class otherwise.
+Ask people to write tests for both of the bugs using test doubles. Each test should fail because of a bug, and pass if you change the code to fix the bug. Do not change the DiscountApplier class otherwise.
 
 ### Conclusions: How do you know when you need a test double?
 
