@@ -10,7 +10,7 @@ tags: agentic feedback prompting
 
 # {{ page.title}}
 
-There is a famous quote from Linus Torvalds from some time ago - "Talk is cheap. Show me the code". With agentic engineering actually code has become rather cheap, but the agent doesn't always understand what code you want - so it can still be a better idea to "Show me the code". In this learning hour we go through a pattern for this kind of agentic prompting - "Show, Don't tell". This pattern is fairly similar to the [Show the agent, let it repeat](https://ai-coding-patterns.dev/patterns/show-the-agent-let-it-repeat-automate/) augmented coding pattern, except we prefer to use the code commit history as a reference rather than a markdown file.
+[As Linus Torvalds once put it](https://lkml.org/lkml/2000/8/25/132):  "Talk is cheap. Show me the code". With agentic engineering creating code has become rather cheap, but the agent doesn't always understand what code you want - so it can still be a better idea to "Show me the code". In this learning hour we go through a pattern for this kind of agentic prompting - "Show, Don't tell". This pattern is fairly similar to the [Show the agent, let it repeat](https://ai-coding-patterns.dev/patterns/show-the-agent-let-it-repeat-automate/) augmented coding pattern, except we use the commit history as a reference instead of markdown.
 
 ## Learning Goals
 
@@ -43,6 +43,8 @@ Ideally tell a story from your experience about a time when you used this prompt
 * Ask it to look at the example and find other, similar places in the code
 * Ask it to apply this change in only those other places
 
+You can let your coding agent dig through its' history to find examples where you applied this, and help you make a couple of slides illustrating the steps.
+
 If you don't have a concrete code example you can talk about, explain the pattern in general terms.
 
 ### Demo
@@ -66,8 +68,8 @@ The second exercise uses the OrderBookLifeCycleTest. The first test has some cod
 Exercise instructions:
 * Improve the design of the first test case by splitting it into two test cases
 * Commit with a good message
-* Ask the AI tool to look at the previous commit and identify other places you could do the same design improvement.
-* Ask the AI tool to update the other appropriate test cases.
+* Ask the coding agent to look at the previous commit and identify other places you could do the same design improvement.
+* Ask the coding agent to update the other appropriate test cases.
 
 The outcome you are hoping for is that the ai tool will update all the tests in that file with the same pattern, and not the others.
 
