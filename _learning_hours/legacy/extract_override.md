@@ -45,11 +45,18 @@ Use the chapter from Feathers' book as a basis for presenting what this is.
 You could mention that there are 24 such techniques listed and today we will look at one of the simplest ones - Extract and Override.
 
 ### Concept - Demo
-Show the [Trip Service Kata]({% link _kata_descriptions/trip_service.md %}) and how to use 'Extract and Override' to make the code testable.
+In the [Trip Service Kata]({% link _kata_descriptions/trip_service.md %}), show how to use 'Extract and Override' to make the code testable. It is hard to test the `getTripsByUser` method, because it uses a Singleton `UserSession` and a database call `TripDAO.findTripsByUser`. We cannot easily inject those dependencies without changing the external interface of `TripService`. 
 
-It is hard to test the `getTripsByUser` method, because it uses a Singleton `UserSession` and a database call `TripDAO.findTripsByUser`. We cannot easily inject those dependencies without changing the external interface of `TripService`. 
+* Write a unit test for `getTripsByUser` when the logged user is null. 
+* The new test should assert an exception is thrown.
+* Show that this test fails because of the exception thrown by `UserSession` - it can't be used in a unit test.
+* Explain that we can use the 'Extract and Override Call' pattern to overcome this problem.
+* Extract a method `getLoggedUser`, make it `protected` in `TripService`.
+* Create a `TestableTripService` subclass that overrides `getLoggedUser` to return null.
+* Use `TestableTripService` instead of `TripService` in the unit test.
+* Show that the test now passes.
 
-Demonstrate the 'Extract and Override Call' pattern on the first awkward dependency, UserSession. Write a passing unit test that checks that if the logged user is null, the `getTripsByUser` method throws an exception. Note - this demo is shown  between timestamps 1:43 - 5:21 of the [video](https://www.youtube.com/watch?v=hwr9bVyXkTY).
+Note - this demo is shown  between timestamps 1:43 - 5:21 of the [video](https://www.youtube.com/watch?v=hwr9bVyXkTY).
 
 ### Concrete Practice - Trip Service Kata
 Give them the goal to repeat what you showed in the demo, and continue to use the 'Extract and Override' technique to handle the `TripDAO.findTripsByUser` dependency. They should write unit tests for these three scenarios:
