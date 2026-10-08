@@ -4,7 +4,7 @@ Checklists for various routine tasks.
 
 ## Next open space
 
-After an open space, this is what Emily usually does.
+After an open space, this is what Emily usually does. 
 
 1. Clean up the miro board (remove empty frames, organize frames) & export to pdf
 2. Choose date for next open space & create calendar invite for Samman Society members
