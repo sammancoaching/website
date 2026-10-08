@@ -1080,6 +1080,10 @@
         "url": "/learning_hours/test_doubles/test_double_intro.html"
     },
     {
+        "title": "Learning Hour: Using a spy",
+        "url": "/learning_hours/test_doubles/using_a_spy.html"
+    },
+    {
         "title": "Learning Hour: When to use a Test Double",
         "url": "/learning_hours/test_doubles/when_to_use_a_test_double.html"
     },
@@ -1090,10 +1094,6 @@
     {
         "title": "Learning Hour: When you need a mock",
         "url": "/learning_hours/test_doubles/when_you_need_a_mock.html"
-    },
-    {
-        "title": "Learning Hour: Using a spy",
-        "url": "/learning_hours/test_doubles/when_you_need_a_spy.html"
     },
     {
         "title": "Learning Hour: When you need a stub",
