@@ -16,6 +16,7 @@ objarni:
   affiliation: ProAgile
   member: no
   member_since: 2022-03-21
+  member_until: 2024-08-31
 neppord:
   title: Samuel Ytterbrink
   url: http://proagile.eu
@@ -50,8 +51,9 @@ agmsytim:
   title: Tim Müller
   url: http://it-agile.de/
   affiliation: it-agile
-  member: yes
+  member: no
   member_since: 2023-12-15
+  member_until: 2026-10-07
 edytterbrink:
   title: EsterDaniel Ytterbrink
   url: https://www.chocolatedrivendevelopment.com
@@ -67,8 +69,9 @@ nitsanavni:
   title: Nitsan Avni
   url: https://nitsanavni.github.io/
   affiliation: Independent
-  member: yes
+  member: no
   member_since: 2023-03-27
+  member_until: 2026-09-16
 peitor:
   title: Peter Gfader
   url: https://beyond-agility.com/

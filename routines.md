@@ -28,3 +28,13 @@ After an open space, this is what Emily usually does.
 * Update their groups on Discord
 * Send welcome mail saying you've done those things & asking for membership fee.
 * Announce them on Discord & elsewhere
+
+## Removing society members
+* Move from 'current' to 'former' in membership registry doc
+* Remove from groups on Discord
+* Remove from calendar invites
+* Remove from google drive
+* Update profile page on this site
+* Update their settings in [contributors](_data/contributors.yml)
+* Remove from Codeberg
+* Remove from Github
