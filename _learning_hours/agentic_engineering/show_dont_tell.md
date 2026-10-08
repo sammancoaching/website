@@ -48,7 +48,12 @@ You can let your coding agent dig through its' history to find examples where yo
 If you don't have a concrete code example you can talk about, explain the pattern in general terms.
 
 ### Demo
-The exercise repo [Show Don't tell](https://github.com/sammancoaching/show-dont-tell) contains two exercises and a suitable demo. For the demo, use `OrderCompletionTests`. The assertions in this class treat the Order as a kind of data record where you check the values of individual fields. Modify the **first** test to replace the existing assertions with a check that `order.IsFullyPaid` is True. This moves it towards treating the Order like a domain object, which makes the assertion easier to understand. Commit that change, then show how to prompt the agent using the "show don't tell" pattern, so it updates the other tests that have the same design problem. 
+The exercise repo [Show Don't tell](https://github.com/sammancoaching/show-dont-tell) contains two exercises and a suitable demo. For the demo, use `OrderCompletionTests`. The assertions in this class treat the Order as a kind of data record where you check the values of individual fields. This makes the tests hard to read and understand. You want to be able to treat the Order like a domain object, asserting things like 'IsFullyPaid'.
+
+
+* In the first test, replace the existing assertions with a check that `order.IsFullyPaid` is True. 
+* Commit that change. 
+* Prompt the agent using the "show don't tell" pattern to update the other tests in this class.
 
 ### Concrete Practice 1 - Use an existing example
 The first exercise is to improve the test cases in "OrderTotalTest". The first test is already improved, and you need to use the "show don't tell" pattern to update the rest.
