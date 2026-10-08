@@ -48,10 +48,10 @@ You can let your coding agent dig through its' history to find examples where yo
 If you don't have a concrete code example you can talk about, explain the pattern in general terms.
 
 ### Demo
-Show how this works on a straightforward code example. For example, a series of test cases with poor assertions. Fix the first one by hand, commit, then prompt the agent to do it to all the other tests. Don't use the same code as the upcoming exercise, but something similar.
+The exercise repo [Show Don't tell](https://gitea.apps.sustainabledelivery.com/learning-hours/show-dont-tell.git) contains two exercises and a suitable demo. For the demo, use 'OrderCompletionTests'. The assertions in this class treat the Order as a kind of data record where you check the values of individual fields. Modify the **first** test to instead check 'order.IsFullyPaid' is true. This moves it towards treating the Order like a domain object, which makes the assertion easier to understand. Commit that change, then show how to prompt the agent using the "show don't tell" pattern, so it updates the other tests. 
 
 ### Concrete Practice 1 - Use an existing example
-The exercise repo [Show Don't tell](https://gitea.apps.sustainabledelivery.com/learning-hours/show-dont-tell.git) contains both exercises. The first one is more straightforward, look at the "OrderTotalTest".
+The first exercise is to improve the test cases in "OrderTotalTest". The first test is already improved, and you need to use the "show don't tell" pattern to update the rest.
 
 Sample prompt:
 
@@ -60,10 +60,10 @@ Sample prompt:
 
 That prompt might need adjusting for the specific test name in the language you are using.
 
-The outcome you are hoping for is that the ai tool will update all the tests in that file with the same pattern.
+The outcome you are hoping for is that the AI tool will update all the tests in that file with the same pattern.
 
 ### Concrete Practice 2 - Create an example, apply it appropriately
-The second exercise uses the OrderBookLifeCycleTest. The first test has some code smells. First ask people to name the smells, then split into pairs to fix the problem, then use the prompting pattern to fix the other relevant tests.
+The second exercise is to improve the tests cases in "OrderBookLifeCycleTest". Identify and name the design problems in the first test, fix them, then use the "show don't tell" pattern to update other similar test design problems in this class.
 
 Exercise instructions:
 * Improve the design of the first test case by splitting it into two test cases
@@ -71,7 +71,7 @@ Exercise instructions:
 * Ask the coding agent to look at the previous commit and identify other places you could do the same design improvement.
 * Ask the coding agent to update the other appropriate test cases.
 
-The outcome you are hoping for is that the ai tool will update all the tests in that file with the same pattern, and not the others.
+The outcome you are hoping for is that the AI tool will update all the tests in that file that have the same design problem, and not the others.
 
 ### Conclusions
 Ask "When should you use this - and when would this approach fail?" Hopefully people will explain that it works best when  agents would otherwise misinterpret an instruction given in words. This approach can still fail if the agent identifies the wrong places to apply the example pattern.
