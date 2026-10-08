@@ -45,27 +45,25 @@ Use the chapter from Feathers' book as a basis for presenting what this is.
 You could mention that there are 24 such techniques listed and today we will look at one of the simplest ones - Extract and Override.
 
 ### Concept - Demo
-Show the [Trip Service Kata]({% link _kata_descriptions/trip_service.md %}) and how to use 'Extract and Override' to make the code testable. Do a more or less detailed demo depending on how much your audience needs to see before trying it themselves.
+Show the [Trip Service Kata]({% link _kata_descriptions/trip_service.md %}) and how to use 'Extract and Override' to make the code testable.
 
-More details: Show the `TripService` class and explain that it is hard to test the `getTripsByUser` method, because it uses a Singleton and a static method call, which ultimately may represent an infrastructure call. We would normally mock these kind of dependencies to have a quicker and more focused test without relying on real databases or APIs. We cannot inject those dependencies and do not want to change the external interface of `TripService`, neither the constructor nor the method signature, to safely get our class under test. Then show how to get this class under test by demonstrating the 'Extract and Override Call' pattern.
+It is hard to test the `getTripsByUser` method, because it uses a Singleton `UserSession` and a database call `TripDAO.findTripsByUser`. We cannot easily inject those dependencies without changing the external interface of `TripService`. 
+
+Demonstrate the 'Extract and Override Call' pattern on the first awkward dependency, UserSession. Write a passing unit test that checks that if the logged user is null, the `getTripsByUser` method throws an exception. Note - this demo is shown  between timestamps 1:43 - 5:21 of the [video](https://www.youtube.com/watch?v=hwr9bVyXkTY).
 
 ### Concrete Practice - Trip Service Kata
-Give them the goal to test three scenarios for this method:
+Give them the goal to repeat what you showed in the demo, and continue to use the 'Extract and Override' technique to handle the `TripDAO.findTripsByUser` dependency. They should write unit tests for these three scenarios:
+
 - Logged user is null
 - Logged user and given user are not friends
 - Logged user and given user are friends
 
-Ask them to use the 'Extract and Override' technique to achieve that.
+Encourage them to do the first one by hand, and after that they can use an AI tool if they want to. 
 
-Caveats: When creating the testable subclass of `TripService`, there may come a moment, where someone suggests to inject mocked dependencies to the `TestableTripService` class, instead of injecting the user, which should be returned. In this case, you can either let them experiment and choose, which way they prefer or, depending on the time, tell them the way you would approach this.
-Generally, you would inject the return values instead of injecting mocks.
-
-### Conclusions - When should you use this
-Get people to discuss [when to use]({% link _activities/conclusions/when_to_use_this.md %}) dependency breaking techniques. You could also ask about any drawbacks they see with this particular dependency breaking technique "Extract and Override".
-
-## Possible other Exercises to use
-
-These are some katas which could be used as well:
+If they complete these three tests quickly, ask them to use the same approach to solve another, similar exercise, for example:
 
 - [Attack Calculator Kata](https://github.com/xrecoba/attack-calculator-kata) by Xavi Ametller.
 - [Dependency Breaking Katas Excercise C](https://github.com/codecop/dependency-breaking-katas) by Peter Kofler.
+
+### Conclusions - When should you use this
+Get people to discuss [when to use]({% link _activities/conclusions/when_to_use_this.md %}) dependency breaking techniques. You could also ask about any drawbacks they see with the "Extract and Override" dependency breaking technique.
