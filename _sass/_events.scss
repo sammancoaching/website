@@ -65,7 +65,7 @@
 
 .home-community__newsletter:hover {
   border-color: $dark-blue;
-  box-shadow: 0 4px 12px rgba(23,64,100, 0.15);
+  box-shadow: 0 4px 12px rgba($dark-blue, 0.15);
 }
 
 .home-community__newsletter h3 {
@@ -99,7 +99,7 @@
 
 .event-card:hover {
   border-color: $dark-blue;
-  box-shadow: 0 4px 12px rgba(23,64,100, 0.15);
+  box-shadow: 0 4px 12px rgba($dark-blue, 0.15);
 }
 
 .event-date-block {
