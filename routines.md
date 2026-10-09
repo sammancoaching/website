@@ -4,7 +4,7 @@ Checklists for various routine tasks.
 
 ## Next open space
 
-After an open space, this is what Emily usually does.
+After an open space, this is what Emily usually does. 
 
 1. Clean up the miro board (remove empty frames, organize frames) & export to pdf
 2. Choose date for next open space & create calendar invite for Samman Society members
@@ -19,6 +19,7 @@ After an open space, this is what Emily usually does.
 ## Adding new society members
 * Make sure they have read and understood [Membership](https://sammancoaching.org/society/membership.html) & [Code of conduct](https://sammancoaching.org/society/code_of_conduct.html)
 * Invite them to github organization
+* Invite them to the [codeberg organization](https://codeberg.org/org/sammancoaching/teams) + give 'auditor' role
 * Update their settings in [contributors](_data/contributors.yml)
 * Update their profile page on this site
 * Add them to the membership registry google doc
@@ -27,3 +28,13 @@ After an open space, this is what Emily usually does.
 * Update their groups on Discord
 * Send welcome mail saying you've done those things & asking for membership fee.
 * Announce them on Discord & elsewhere
+
+## Removing society members
+* Move from 'current' to 'former' in membership registry doc
+* Remove from groups on Discord
+* Remove from calendar invites
+* Remove from google drive
+* Update profile page on this site
+* Update their settings in [contributors](_data/contributors.yml)
+* Remove from Codeberg
+* Remove from Github

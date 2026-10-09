@@ -24,7 +24,8 @@ There is a video on Emily Bache's YouTube channel which shows a version of this 
 
 * 15 min connect: test design tips
 * 5 min concept: Arrange - Act - Assert
-* 30 min do: Encoding Refactoring Kata
+* 5 min demo: Refactoring to AAA pattern
+* 25 min do: Encoding Refactoring Kata
 * 5 min reflect: code review
 
 ### Connect - Test Design Tips
@@ -37,9 +38,12 @@ Note - this is a [Web Hunt]({% link _activities/connect/webhunt.md %}).
 ### Concept - Arrange - Act - Assert
 Explain the AAA structure, why it increases readability, and why that's important. If anything they found in the 'connect' activity references it, draw attention to that.
 
-### Exercise
-Show the test code for the [Encode Refactoring Kata](https://github.com/emilybache/Encode-Refactoring-Kata). Note that it does not follow the Arrange-Act-Assert structure. Introduce a bug in XyzTimer (change temp |= 0x1F to temp |= 0x1E for example) and show the test failure. The failure is ok, but doesn't pinpoint very well what's wrong. Revert the code so the test is passing again.
+### Demo
+Show the test code for the [Encode Refactoring Kata](https://github.com/emilybache/Encode-Refactoring-Kata). Explain that it does not follow the Arrange-Act-Assert structure. Introduce a bug in XyzTimer (change temp |= 0x1F to temp |= 0x1E for example) and show the test failure. The failure is ok, but doesn't pinpoint very well what's wrong. Revert the code so the test is passing again.
 
+Show how to refactor the code into several tests, each with an AAA structure. Make the refactoring steps clear.
+
+### Exercise
 Ask them to refactor the code to use the AAA structure. When their refactoring is complete, they should be able to re-introduce the bug and see only one of three tests failing.
 
 ### Conclusions

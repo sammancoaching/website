@@ -17,4 +17,6 @@ Give everyone a pen and sticky note (or a link to a shared document or online wh
 Encourage them to take the note with them and stick it on their desk, (or take a screenshot of the document and keep it on their computer desktop) for a week.
 
 ## Benefits
-The idea is to help them remember the most important things they learnt. The learning is reinforced by putting it into their own words, and placing it somewhere they will read it again during the week. 
+The idea is to help them remember the most important things they learnt. The learning is reinforced by putting it into their own words, and placing it somewhere they will read it again during the week.
+
+This is similar to ["Explain the main idea"]({% link _activities/conclusions/explain_main_idea.md %}) except there is more emphasis on what they plan to do about it after the session.

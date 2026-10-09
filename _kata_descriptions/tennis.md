@@ -5,7 +5,7 @@ kata_name: tennis
 
 # Tennis
 
-Tennis has a rather quirky scoring system, and to newcomers it can be a little difficult to keep track of. The tennis society has contracted you to build a scoreboard to display the current score during tennis games. 
+Tennis has a rather quirky scoring system, and to newcomers it can be a little difficult to keep track of. The tennis society has contracted you to build a scoreboard to display the current score during tennis games.
 
 You can read more about Tennis scores [on wikipedia](http://en.wikipedia.org/wiki/Tennis#Scoring) which is summarized below:
 
@@ -16,5 +16,10 @@ You can read more about Tennis scores [on wikipedia](http://en.wikipedia.org/wik
 
 You need only report the score for the current game. Sets and Matches are out of scope.
 
+## Refactoring Kata
+
+[Tennis Refactoring Kata](https://github.com/emilybache/Tennis-Refactoring-Kata) contains different implementations of the scoring algorithm showing different code smells.
+
 ## Acknowledgements
+
 This kata is described on [cyber-dojo](https://cyber-dojo.org/)

@@ -14,19 +14,26 @@ Lean on the good tests. Improve the code in ShoppingCart.
 
 ## Learning Goals
 
+Generic
+
+* Know different options to simplify conditionals
+* Simplify conditionals safely
+
+Specific for 'split loop', 'slide statement' and 'extract method'
+
+* Describe situations when you would use 'split loop', 'slide statement' and 'extract method'
 * Use safe refactoring steps in code that's difficult to understand
 * Use the refactorings 'slide statement' and 'extract method' appropriately
-* Describe situations when you would use 'split loop', 'slide statement' and 'extract method' 
 
 ## Session Outline
 
-* 5 min connect: What is the goal of refactoring? 
+* 5 min connect: What is the goal of refactoring?
 * 5 min concept: Refactoring conditionals
 * 5 min demo: show the patterns and the shape of the refactoring
 * 35 min concrete: refactor into simpler conditional structure
 * 5 min conclusions: note down learnings
 
-## Connect: What is the goal of refactoring? 
+## Connect: What is the goal of refactoring?
 
 What are you hoping to achieve, when you sit down to refactor some code? What is your motivation?
 
@@ -34,7 +41,7 @@ This is an [Open Question]({% link _activities/connect/open_question.md %}) conn
 
 ## Concept: Refactoring conditionals
 
-Examples of behaviour-preserving transformations for conditionals. I started a [repo](https://github.com/emilybache/Refactor-Conditionals) for some of these. 
+Examples of behaviour-preserving transformations for conditionals. I started a [repo](https://github.com/emilybache/Refactor-Conditionals) for some of these.
 
 * De Morgan's law
 * Split & join if statements
@@ -48,11 +55,16 @@ Working on [SupermarketReceipt](https://github.com/emilybache/SupermarketReceipt
 
 Explain this plan and note it on the whiteboard.
 
+## Concrete (optional): Assign smells to code samples 
+
+Similar to [sorting items]({% link _activities/connect/sort_these_items.md %}), show some slides with code smells from Concept part, and let participants assign stickies with names of respective conditional code smells.
+
 ## Concrete: refactor into simpler conditional structure
 
 Set the group loose on the refactoring. Remind them of the plan, and remind them to use their tools.
 
 ## Conclusions: note down learnings
 
-How would you spot other situations where you can use 'split loop', 'slide statement' and 'extract method'?
+Generic: What have you learned today?
 
+Specific for the three techniques: How would you spot other situations where you can use 'split loop', 'slide statement' and 'extract method'?

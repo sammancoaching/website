@@ -16,6 +16,7 @@ objarni:
   affiliation: ProAgile
   member: no
   member_since: 2022-03-21
+  member_until: 2024-08-31
 neppord:
   title: Samuel Ytterbrink
   url: http://proagile.eu
@@ -50,8 +51,9 @@ agmsytim:
   title: Tim Müller
   url: http://it-agile.de/
   affiliation: it-agile
-  member: yes
+  member: no
   member_since: 2023-12-15
+  member_until: 2026-10-07
 edytterbrink:
   title: EsterDaniel Ytterbrink
   url: https://www.chocolatedrivendevelopment.com
@@ -67,8 +69,9 @@ nitsanavni:
   title: Nitsan Avni
   url: https://nitsanavni.github.io/
   affiliation: Independent
-  member: yes
+  member: no
   member_since: 2023-03-27
+  member_until: 2026-09-16
 peitor:
   title: Peter Gfader
   url: https://beyond-agility.com/
@@ -114,8 +117,13 @@ codecop:
   affiliation: Independent
   member: yes
   member_since: 2023-12-05
-  photo: assets/images/profiles/codecop.png
   headline: Code Cop
+  offers: [teams, train_the_trainer, personal]
+  photo: assets/images/profiles/codecop.png
+  additional_links:
+    - LinkedIn: https://www.linkedin.com/in/codecop/
+    - YouTube: https://www.youtube.com/playlist?list=PLYQPkkfIypvApLa4HZXNOdabdoYN-qzcz
+    - Podcast: https://coderetreat-facilitation.code-cop.org/
 balp:
   title: Anders Arnholm
   url: https://www.hiq.se/
@@ -182,6 +190,26 @@ janvanryswyck:
   member: no
 lexler:
   title: Lada Kesseler
-  url: https://github.com/lexler
+  url: https://ai-coding-patterns.dev/
   affiliation: Independent
+  member: yes
+  member_since: 2026-09-30
+  headline: Helping developers build reliable software with unreliable AI
+  photo: assets/images/profiles/lexler.jpg
+  additional_links:
+    - LinkedIn: https://www.linkedin.com/in/lada-kesseler
+    - GitHub: https://github.com/lexler
+mostalive:
+  title: Willem van den Ende
+  url: https://www.qwan.eu/
+  affiliation: QWAN
   member: no
+reasun:
+  title: Rea Sutter
+  url: https://www.reasun.at/
+  affiliation: UAS Technikum Wien
+  member: no
+  headline: There's always a reasun to learn
+  photo: assets/images/profiles/reasun.jpg
+  additional_links:
+    - LinkedIn: https://www.linkedin.com/in/reasun/

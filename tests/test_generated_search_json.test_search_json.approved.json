@@ -520,6 +520,10 @@
         "url": "/learning_hours/agentic_engineering/rose_feedback.html"
     },
     {
+        "title": "Learning Hour: Show, Don&#39;t Tell",
+        "url": "/learning_hours/agentic_engineering/show_dont_tell.html"
+    },
+    {
         "title": "Learning Hours on Approval Testing in new development",
         "url": "/learning_hours/approval_testing_bdd.html"
     },
@@ -724,10 +728,6 @@
         "url": "/learning_hours/legacy/preparatory_refactoring.html"
     },
     {
-        "title": "Learning Hour: Strangler Fig Pattern",
-        "url": "/learning_hours/legacy/strangler_fig.html"
-    },
-    {
         "title": "Learning Hour: Test maintenance",
         "url": "/learning_hours/legacy/test_maintenance.html"
     },
@@ -842,6 +842,10 @@
     {
         "title": "Learning Hour: Primitive Obsession",
         "url": "/learning_hours/refactoring/primitive_obsession.html"
+    },
+    {
+        "title": "Learning Hour: Refactoring with and without tools",
+        "url": "/learning_hours/refactoring/refactoring_with_and_without_tools.html"
     },
     {
         "title": "Learning Hour: Refactoring Without Tools",
@@ -1076,6 +1080,10 @@
         "url": "/learning_hours/test_doubles/test_double_intro.html"
     },
     {
+        "title": "Learning Hour: Using a spy",
+        "url": "/learning_hours/test_doubles/using_a_spy.html"
+    },
+    {
         "title": "Learning Hour: When to use a Test Double",
         "url": "/learning_hours/test_doubles/when_to_use_a_test_double.html"
     },
@@ -1086,10 +1094,6 @@
     {
         "title": "Learning Hour: When you need a mock",
         "url": "/learning_hours/test_doubles/when_you_need_a_mock.html"
-    },
-    {
-        "title": "Learning Hour: When you need a spy",
-        "url": "/learning_hours/test_doubles/when_you_need_a_spy.html"
     },
     {
         "title": "Learning Hour: When you need a stub",
@@ -1200,12 +1204,20 @@
         "url": "/refactorings/move_function.html"
     },
     {
+        "title": "Refactoring: Peel",
+        "url": "/refactorings/peel.html"
+    },
+    {
         "title": "Refactoring: Replace Conditional with Polymorphism",
         "url": "/refactorings/replace_conditional_polymorphism.html"
     },
     {
         "title": "Refactoring: Replace Primitive with Object",
         "url": "/refactorings/replace_primitive_with_object.html"
+    },
+    {
+        "title": "Refactoring: Slice",
+        "url": "/refactorings/slice.html"
     },
     {
         "title": "Refactoring: Split Loop",
@@ -1348,6 +1360,10 @@
         "url": "/society/contributors/mhc03.html"
     },
     {
+        "title": "Willem van den Ende",
+        "url": "/society/contributors/mostalive.html"
+    },
+    {
         "title": "Samuel Ytterbrink",
         "url": "/society/contributors/neppord.html"
     },
@@ -1378,6 +1394,10 @@
     {
         "title": "Pierrick Blons",
         "url": "/society/contributors/pierrickblons.html"
+    },
+    {
+        "title": "Rea Sutter",
+        "url": "/society/contributors/reasun.html"
     },
     {
         "title": "Ron Heywood",
