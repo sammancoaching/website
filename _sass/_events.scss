@@ -76,27 +76,6 @@
   margin-bottom: 0;
 }
 
-.newsletter-cta--hero {
-  background: linear-gradient(135deg, #e8f3ff, #f9fcff);
-  border: 1px solid #cfe2f5;
-  border-radius: 12px;
-  padding: 1.5rem;
-  margin: 1rem 0 2rem;
-}
-
-.newsletter-cta--hero h3 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-}
-
-.newsletter-cta__eyebrow {
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-size: 0.8rem;
-  color: $dark-blue;
-  margin-bottom: 0.4rem;
-}
-
 .event-card:hover {
   border-color: $dark-blue;
   box-shadow: 0 4px 12px rgba($dark-blue, 0.15);
