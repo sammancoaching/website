@@ -1,0 +1,1726 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Samman Design System</title>
+<!--
+  Samman Coaching design system: the single reference for the semantic CSS
+  tokens and component classes the site should use.
+
+  How this file is organised:
+    1. TOKENS      CSS custom properties. Brand palette first, then semantic
+                   tokens (light + dark). Components only ever use semantic tokens.
+    2. BASE        Element defaults (body, headings, links, code, blockquote).
+    3. LAYOUT      Page container and layout primitives.
+    4. COMPONENTS  Semantic component classes (BEM naming, `is-*` for states).
+    5. DOC PAGE    Styles for this documentation page only, prefixed `ds-`.
+                   These are NOT part of the design system.
+
+  Sections 1 to 4 are the specification to port into _sass/ during the refactor.
+  Open this file directly in a browser; it loads fonts and images from ../assets.
+-->
+<style>
+/* ==========================================================================
+   1. TOKENS
+   ========================================================================== */
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../assets/fonts/Inter-Variable.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neulis Sans';
+  src: url('../assets/fonts/NeulisSans-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* Brand palette (from _sass/_colors.scss). Never use these directly in components. */
+  --brand-coral: rgb(240, 130, 113);
+  --brand-dark-blue: rgb(23, 64, 100);
+  --brand-off-white: rgb(243, 238, 230);
+  --brand-light-blue: rgb(162, 195, 221);
+  --brand-light-brown: rgb(222, 198, 162);
+  --brand-navy-900: rgb(15, 37, 55);   /* dark mode page, derived from dark blue */
+  --brand-navy-800: rgb(22, 51, 77);   /* dark mode surfaces */
+  --brand-navy-950: rgb(10, 27, 42);   /* dark mode code and inputs */
+
+  /* Typography */
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  --font-heading: 'Neulis Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --text-base: 16px;
+  --text-xs: 0.75em;
+  --text-sm: 0.85em;
+  --text-md: 0.95em;
+  --text-lg: 1.15em;
+  --text-lead: 1.5rem;
+  --leading-tight: 1.2;
+  --leading-code: 1.45;
+
+  /* Spacing scale */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+
+  /* Shape */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+  --border-width: 2px;
+
+  /* Layout */
+  --content-width: 750px;
+  --bp-medium: 600px;   /* for reference: custom properties cannot be used in media queries */
+  --bp-small: 768px;
+
+  /* Motion */
+  --transition-fast: 0.2s ease;
+  --transition-base: 0.3s ease;
+
+  /* ---- Semantic tokens: LIGHT (default) ---- */
+  color-scheme: light;
+
+  --color-page: var(--brand-off-white);
+  --color-surface: rgba(255, 255, 255, 0.45);
+  --color-surface-solid: #fff;
+  --color-text: var(--brand-dark-blue);
+  --color-text-muted: rgba(23, 64, 100, 0.75);
+  --color-border: #e8e8e8;
+  --color-border-strong: var(--brand-dark-blue);
+  --shadow-raised: 0 4px 12px rgba(23, 64, 100, 0.15);
+
+  --color-link: var(--brand-dark-blue);
+  --color-link-hover: var(--brand-coral);
+  --color-link-active: var(--brand-light-blue);
+  --color-focus: var(--brand-dark-blue);
+
+  --color-brand: var(--brand-coral);               /* header, nav, footer bar */
+  --color-on-brand: var(--brand-off-white);
+  --color-on-brand-hover-bg: var(--brand-dark-blue);
+
+  --color-highlight: var(--brand-light-blue);      /* button hover fill */
+  --color-on-highlight: var(--brand-dark-blue);
+  --color-highlight-subtle: var(--brand-light-blue); /* date badge, initials, ribbon */
+  --color-on-highlight-subtle: var(--brand-dark-blue);
+
+  --color-action-bg: #fff;
+  --color-action-text: var(--brand-light-blue);    /* see "Open decisions": fails contrast */
+  --color-action-border: var(--brand-light-blue);
+
+  --color-input-bg: #fff;
+  --color-input-border: var(--brand-dark-blue);
+
+  --color-code-bg: #f6f8fa;
+  --color-quote-border: var(--brand-light-blue);
+
+  --color-success-bg: #d1f7d1;
+  --color-success-border: #a8dba8;
+  --color-success-text: #155724;
+  --color-danger-bg: #f8d7da;
+  --color-danger-border: #f5c6cb;
+  --color-danger-text: #721c24;
+}
+
+/* ---- Semantic tokens: DARK ----
+   Dark mode follows the OS preference unless the page sets data-theme="light".
+   data-theme="dark" forces it. Keep both blocks identical. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+
+    --color-page: var(--brand-navy-900);
+    --color-surface: var(--brand-navy-800);
+    --color-surface-solid: var(--brand-navy-800);
+    --color-text: var(--brand-off-white);
+    --color-text-muted: rgba(243, 238, 230, 0.72);
+    --color-border: rgba(162, 195, 221, 0.2);
+    --color-border-strong: var(--brand-light-blue);
+    --shadow-raised: 0 4px 12px rgba(0, 0, 0, 0.4);
+
+    --color-link: var(--brand-light-blue);
+    --color-link-hover: var(--brand-coral);
+    --color-link-active: var(--brand-off-white);
+    --color-focus: var(--brand-light-blue);
+
+    --color-brand: var(--brand-coral);
+    --color-on-brand: var(--brand-off-white);
+    --color-on-brand-hover-bg: var(--brand-dark-blue);
+
+    --color-highlight: var(--brand-light-blue);
+    --color-on-highlight: var(--brand-dark-blue);
+    --color-highlight-subtle: rgba(162, 195, 221, 0.16);
+    --color-on-highlight-subtle: var(--brand-light-blue);
+
+    --color-action-bg: transparent;
+    --color-action-text: var(--brand-light-blue);
+    --color-action-border: var(--brand-light-blue);
+
+    --color-input-bg: var(--brand-navy-950);
+    --color-input-border: rgba(162, 195, 221, 0.5);
+
+    --color-code-bg: var(--brand-navy-950);
+    --color-quote-border: var(--brand-light-blue);
+
+    --color-success-bg: #173d2a;
+    --color-success-border: #2f6b48;
+    --color-success-text: #a8dba8;
+    --color-danger-bg: #4a1c22;
+    --color-danger-border: #7a2e38;
+    --color-danger-text: #f5c6cb;
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  --color-page: var(--brand-navy-900);
+  --color-surface: var(--brand-navy-800);
+  --color-surface-solid: var(--brand-navy-800);
+  --color-text: var(--brand-off-white);
+  --color-text-muted: rgba(243, 238, 230, 0.72);
+  --color-border: rgba(162, 195, 221, 0.2);
+  --color-border-strong: var(--brand-light-blue);
+  --shadow-raised: 0 4px 12px rgba(0, 0, 0, 0.4);
+
+  --color-link: var(--brand-light-blue);
+  --color-link-hover: var(--brand-coral);
+  --color-link-active: var(--brand-off-white);
+  --color-focus: var(--brand-light-blue);
+
+  --color-brand: var(--brand-coral);
+  --color-on-brand: var(--brand-off-white);
+  --color-on-brand-hover-bg: var(--brand-dark-blue);
+
+  --color-highlight: var(--brand-light-blue);
+  --color-on-highlight: var(--brand-dark-blue);
+  --color-highlight-subtle: rgba(162, 195, 221, 0.16);
+  --color-on-highlight-subtle: var(--brand-light-blue);
+
+  --color-action-bg: transparent;
+  --color-action-text: var(--brand-light-blue);
+  --color-action-border: var(--brand-light-blue);
+
+  --color-input-bg: var(--brand-navy-950);
+  --color-input-border: rgba(162, 195, 221, 0.5);
+
+  --color-code-bg: var(--brand-navy-950);
+  --color-quote-border: var(--brand-light-blue);
+
+  --color-success-bg: #173d2a;
+  --color-success-border: #2f6b48;
+  --color-success-text: #a8dba8;
+  --color-danger-bg: #4a1c22;
+  --color-danger-border: #7a2e38;
+  --color-danger-text: #f5c6cb;
+}
+
+/* ==========================================================================
+   2. BASE
+   ========================================================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: var(--text-base);
+  line-height: var(--leading-tight);
+  color: var(--color-text);
+  background: var(--color-page);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  line-height: var(--leading-tight);
+}
+
+li {
+  padding: 0 12px;
+}
+
+a:link,
+a:visited {
+  color: var(--color-link);
+}
+
+a:hover {
+  color: var(--color-link-hover);
+}
+
+a:active,
+a.is-current {
+  color: var(--color-link-active);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+pre,
+blockquote {
+  position: relative;
+  background-color: var(--color-code-bg);
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: var(--leading-code);
+  border-radius: var(--radius-md);
+}
+
+code {
+  font-family: var(--font-mono);
+}
+
+blockquote {
+  border-left: 0.25em solid var(--color-quote-border);
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 24px;
+  color: var(--color-text-muted);
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--color-border);
+}
+
+img {
+  max-width: 100%;
+}
+
+/* ==========================================================================
+   3. LAYOUT
+   ========================================================================== */
+
+/* Page container. Replaces the max-width currently set on <body>. */
+.site {
+  max-width: var(--content-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper {
+  max-width: calc(var(--content-width) - 30px);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 800px) {
+  .wrapper {
+    max-width: calc(var(--content-width) - 60px);
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+/* Vertical rhythm: children separated by a gap. */
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+/* Horizontal group that wraps, e.g. a row of buttons. */
+.cluster {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  align-items: center;
+}
+
+/* Main column plus sidebar; collapses to one column on small screens. */
+.split {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: var(--space-4);
+  align-items: start;
+}
+
+@media (max-width: 768px) {
+  .split {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Grid of fixed-width cards. */
+.grid-cards {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fit, 250px);
+  grid-auto-rows: minmax(350px, auto);
+}
+
+.grid-cards__intro {
+  max-width: 80em;
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+
+/* Three equal columns of text cards (offers). */
+.grid-cards--3 {
+  grid-auto-rows: auto;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 34px;
+}
+
+@media (max-width: 768px) {
+  .grid-cards--3 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ==========================================================================
+   4. COMPONENTS
+   ========================================================================== */
+
+/* ---- Text helpers ---- */
+
+.text-muted {
+  color: var(--color-text-muted);
+}
+
+.text-small {
+  font-size: var(--text-sm);
+}
+
+.lead {
+  font-size: var(--text-lead);
+  margin: 0 0 14px;
+}
+
+/* ---- Button ----
+   One button style for every link or button that is an action. */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-4);
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: var(--leading-tight);
+  text-decoration: none;
+  color: var(--color-action-text);
+  background: var(--color-action-bg);
+  border: var(--border-width) solid var(--color-action-border);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: background-color var(--transition-fast), color var(--transition-fast), border-color var(--transition-fast);
+}
+
+.btn:link,
+.btn:visited {
+  color: var(--color-action-text);
+}
+
+.btn:hover,
+.btn:focus-visible {
+  background: var(--color-highlight);
+  color: var(--color-on-highlight);
+}
+
+.btn--sm {
+  padding: 0.4rem 0.85rem;
+}
+
+/* Icon-only button whose label slides out on hover, focus or state change. */
+.btn--icon {
+  gap: 0;
+  height: 36px;
+  padding: 0 8px;
+  font-size: 15px;
+}
+
+.btn__label {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 0;
+  opacity: 0;
+  padding-left: 0;
+  transition: max-width 0.25s ease, opacity var(--transition-fast), padding-left 0.25s ease;
+}
+
+.btn--icon:hover .btn__label,
+.btn--icon:focus-visible .btn__label,
+.btn--icon.is-success .btn__label,
+.btn--icon.is-error .btn__label {
+  max-width: 200px;
+  opacity: 1;
+  padding-left: 8px;
+}
+
+/* Small square button overlaid on the corner of a code block. */
+.btn--overlay {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 28px;
+  height: 28px;
+  padding: 4px;
+  justify-content: center;
+  border-width: 1px;
+  border-radius: var(--radius-sm);
+  color: var(--color-text);
+  background: var(--color-page);
+  opacity: 0;
+  z-index: 10;
+}
+
+pre:hover .btn--overlay,
+.highlight:hover .btn--overlay {
+  opacity: 0.6;
+}
+
+.btn--overlay:hover,
+.btn--overlay:focus-visible,
+.btn--overlay.is-success,
+.btn--overlay.is-error {
+  opacity: 1;
+}
+
+.btn.is-success {
+  background: var(--color-success-bg);
+  border-color: var(--color-success-border);
+  color: var(--color-success-text);
+}
+
+.btn.is-error {
+  background: var(--color-danger-bg);
+  border-color: var(--color-danger-border);
+  color: var(--color-danger-text);
+}
+
+/* ---- Panel ----
+   The bordered, rounded box behind cards, event cards, person rows and asides. */
+
+.panel {
+  padding: var(--space-4);
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--radius-lg);
+  transition: border-color var(--transition-base), box-shadow var(--transition-base);
+}
+
+.panel--interactive:hover {
+  border-color: var(--color-border-strong);
+  box-shadow: var(--shadow-raised);
+}
+
+.panel--sticky {
+  position: sticky;
+  top: var(--space-4);
+}
+
+@media (max-width: 768px) {
+  .panel--sticky {
+    position: static;
+  }
+}
+
+.panel > :first-child {
+  margin-top: 0;
+}
+
+.panel > :last-child {
+  margin-bottom: 0;
+}
+
+/* ---- Card ----
+   A panel laid out as a centred, fixed-width tile. Use with .panel. */
+
+.card {
+  position: relative;
+  display: grid;
+  grid-auto-rows: minmax(70px, auto);
+  gap: 10px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.card__image {
+  overflow: hidden;
+  max-height: 150px;
+}
+
+.card__image img {
+  padding: 10px;
+}
+
+.card__title {
+  margin-top: 30px;
+}
+
+/* Text-only card: title, body that grows, then footer rows. */
+.card--text {
+  padding: 1.4rem var(--space-4);
+  grid-template-rows: auto 1fr auto auto;
+}
+
+/* Diagonal label across the top-left corner of a card. */
+.ribbon {
+  position: absolute;
+  top: 15px;
+  left: -35px;
+  width: 120px;
+  padding: 4px 0;
+  background-color: var(--color-highlight-subtle);
+  color: var(--color-on-highlight-subtle);
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  transform: rotate(-45deg);
+  z-index: 1;
+}
+
+/* ---- Date badge ---- */
+
+.date-badge {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--space-4);
+  background: var(--color-highlight-subtle);
+  color: var(--color-on-highlight-subtle);
+  border-radius: var(--radius-lg);
+  text-align: center;
+}
+
+.date-badge__weekday {
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: var(--space-1);
+}
+
+.date-badge__day {
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 0.2rem;
+}
+
+.date-badge__month {
+  font-size: var(--text-sm);
+}
+
+.date-badge__time {
+  font-size: var(--text-xs);
+  margin-top: var(--space-2);
+  padding-top: var(--space-2);
+  border-top: 1px solid color-mix(in srgb, currentColor 30%, transparent);
+}
+
+/* ---- Event card ----
+   A panel with a date badge beside the event details. Use with .panel. */
+
+.event-list {
+  max-width: var(--content-width);
+  margin: 0 auto;
+}
+
+.event-card {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: var(--space-4);
+  margin-bottom: var(--space-4);
+}
+
+.event-card__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.event-card__title {
+  margin-top: 0;
+  margin-bottom: var(--space-2);
+}
+
+.event-card__body p {
+  margin-top: 0;
+  margin-bottom: var(--space-3);
+}
+
+.event-card--compact {
+  grid-template-columns: 110px 1fr;
+  gap: var(--space-3);
+  padding: var(--space-3);
+}
+
+.event-card--compact .date-badge {
+  padding: var(--space-3);
+}
+
+.event-card--compact .date-badge__day {
+  font-size: 1.5em;
+}
+
+.event-card--compact .event-card__title {
+  margin-bottom: var(--space-1);
+  font-size: 1.15rem;
+}
+
+.event-card--compact .event-card__body p {
+  margin-bottom: var(--space-2);
+  font-size: var(--text-md);
+}
+
+@media (max-width: 768px) {
+  .event-card,
+  .event-card--compact {
+    grid-template-columns: 1fr;
+    gap: var(--space-5);
+    padding: 1.25rem;
+  }
+
+  .event-card .date-badge__day {
+    font-size: 2.5rem;
+  }
+
+  .event-card__title {
+    font-size: 1.25rem;
+  }
+}
+
+/* Inline metadata line, e.g. duration or location. */
+.meta {
+  display: flex;
+  gap: var(--space-4);
+  margin-bottom: var(--space-2);
+  color: var(--color-text-muted);
+}
+
+.meta > * {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+/* ---- Avatar ---- */
+
+.avatar {
+  display: block;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  border: var(--border-width) solid var(--color-border-strong);
+}
+
+.avatar--sm {
+  width: 64px;
+  height: 64px;
+}
+
+.avatar--lg {
+  width: 130px;
+  height: 130px;
+}
+
+/* Fallback when there is no photo: the person's initials. */
+.avatar--initials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: var(--color-highlight-subtle);
+  color: var(--color-on-highlight-subtle);
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 22px;
+}
+
+/* ---- Person row ----
+   A panel listing one coach: avatar, details, action. Use with .panel. */
+
+.person-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 26px;
+  max-width: 620px;
+}
+
+.person-row {
+  display: grid;
+  grid-template-columns: 64px 1fr auto;
+  gap: 18px;
+  align-items: center;
+  padding: 16px 20px;
+}
+
+.person-row__body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.person-row__name {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: var(--text-lg);
+}
+
+.person-row__headline {
+  font-size: var(--text-md);
+}
+
+/* ---- Profile hero ---- */
+
+.profile-hero {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 20px;
+  align-items: center;
+  margin: 18px 0 24px;
+}
+
+.profile-hero--no-photo {
+  grid-template-columns: 1fr;
+}
+
+.profile-hero__title {
+  margin: 0 0 6px;
+}
+
+@media screen and (max-width: 600px) {
+  .profile-hero {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+}
+
+/* ---- Images ---- */
+
+.centered-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+  height: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .centered-image {
+    max-width: 90%;
+  }
+}
+
+/* Replaces the img[src*="#book_cover"] selector; add with kramdown {: .book-cover} */
+.book-cover {
+  display: block;
+  width: 250px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: 0;
+  border: 5px solid var(--color-border-strong);
+}
+
+@media screen and (max-width: 600px) {
+  .book-cover {
+    margin-right: auto;
+  }
+}
+
+/* ---- Site header ---- */
+
+.site-header {
+  padding-top: 110px;
+  background-color: var(--color-brand);
+  background-image: url("../assets/images/samman_banner.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  border-bottom-left-radius: var(--radius-md);
+  border-bottom-right-radius: var(--radius-md);
+}
+
+@media screen and (max-width: 600px) {
+  .site-header {
+    background-image: url("../assets/images/samman_logo_right.png");
+    background-size: auto 110px;
+    padding-bottom: 20px;
+  }
+}
+
+/* ---- Site navigation ----
+   Desktop layout shown here. The mobile hamburger behaviour from
+   _sass/_navigation.scss carries over unchanged, with colours from tokens. */
+
+.site-nav {
+  font-family: var(--font-heading);
+  text-align: justify;
+  text-align-last: center;
+  background-color: var(--color-brand);
+}
+
+.site-nav__item {
+  display: inline-block;
+  line-height: 20px;
+}
+
+.site-nav__link {
+  display: inline-block;
+  padding: 3px 6px;
+  font-weight: bold;
+  text-decoration: none;
+  border-top-left-radius: var(--radius-md);
+  border-top-right-radius: var(--radius-md);
+}
+
+.site-nav__link:link,
+.site-nav__link:visited {
+  color: var(--color-on-brand);
+  background: var(--color-brand);
+}
+
+.site-nav__link:hover {
+  color: var(--color-on-brand);
+  background: var(--color-on-brand-hover-bg);
+}
+
+.site-nav__link.is-current,
+.site-nav__link:active {
+  color: var(--color-brand);
+  background: var(--color-page);
+}
+
+.site-nav__link.is-current:hover {
+  color: var(--color-text);
+  background: var(--color-page);
+}
+
+/* ---- Search ---- */
+
+.search {
+  position: relative;
+  float: right;
+  margin: -13px 18px 5px 0;
+}
+
+.search__input {
+  padding: 2px 6px;
+  font: inherit;
+  color: var(--color-text);
+  background: var(--color-input-bg);
+  border: 1px solid var(--color-input-border);
+  border-radius: var(--radius-md);
+}
+
+.search__results {
+  display: none;
+  position: absolute;
+  right: 0;
+  z-index: 1000;
+  width: 20em;
+  max-width: calc(100vw - 36px);
+  margin: 4px 0 0;
+  padding: 8px 8px 8px 0;
+  list-style: none;
+  text-align: left;
+  background: var(--color-surface-solid);
+  border: 1px solid var(--color-input-border);
+  border-radius: var(--radius-md);
+}
+
+.search__results.is-active {
+  display: block;
+}
+
+.search__results li {
+  padding: 3px 12px;
+}
+
+/* ---- Site footer ---- */
+
+.site-footer {
+  padding: 6px 12px;
+}
+
+.site-footer__bar {
+  margin: 12px -12px 0;
+  padding: 6px 0;
+  text-align: center;
+  background-color: var(--color-brand);
+  border-top-left-radius: var(--radius-md);
+  border-top-right-radius: var(--radius-md);
+}
+
+.site-footer__bar img {
+  display: inline-block;
+  max-width: 120px;
+  height: auto;
+}
+
+/* Licence box shown only when printing. */
+.licence-box {
+  padding: 10px;
+  border: 1px solid var(--color-border-strong);
+}
+
+/* ==========================================================================
+   5. DOC PAGE (not part of the design system)
+   ========================================================================== */
+
+.ds-layout {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: var(--space-6);
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: var(--space-6) 16px;
+}
+
+.ds-sidebar {
+  position: sticky;
+  top: var(--space-6);
+  align-self: start;
+}
+
+.ds-sidebar ul {
+  list-style: none;
+  margin: 0 0 var(--space-5);
+  padding: 0;
+}
+
+.ds-sidebar li {
+  padding: 0;
+  margin-bottom: var(--space-2);
+}
+
+.ds-sidebar a {
+  text-decoration: none;
+}
+
+.ds-main {
+  max-width: var(--content-width);
+}
+
+.ds-main > section {
+  margin-bottom: 64px;
+}
+
+.ds-main h2 {
+  font-size: 1.6rem;
+  padding-bottom: var(--space-2);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.ds-main h3.ds-heading {
+  margin-top: var(--space-6);
+}
+
+.ds-classes {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
+
+.ds-example {
+  padding: var(--space-5);
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  background: var(--color-page);
+}
+
+.ds-code {
+  margin: 0 0 var(--space-5);
+}
+
+.ds-code summary {
+  cursor: pointer;
+  padding: var(--space-2) var(--space-3);
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  border: 1px dashed var(--color-border);
+  border-top: 0;
+  border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+}
+
+.ds-code[open] summary {
+  border-radius: 0;
+}
+
+.ds-code pre {
+  margin: 0;
+  border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+}
+
+.ds-theme-switch {
+  display: flex;
+  gap: var(--space-1);
+  padding: 3px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+.ds-theme-switch button {
+  flex: 1;
+  padding: var(--space-1) var(--space-2);
+  font: inherit;
+  font-size: var(--text-sm);
+  color: var(--color-text);
+  background: transparent;
+  border: 0;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+}
+
+.ds-theme-switch button[aria-pressed="true"] {
+  background: var(--color-highlight);
+  color: var(--color-on-highlight);
+}
+
+.ds-swatches {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: var(--space-3);
+}
+
+.ds-swatch {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  font-size: var(--text-sm);
+}
+
+.ds-swatch__chip {
+  height: 56px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.ds-swatch__text {
+  padding: var(--space-2);
+  overflow-wrap: anywhere;
+}
+
+.ds-swatch__text code {
+  display: block;
+  font-size: 0.9em;
+  color: var(--color-text-muted);
+}
+
+.ds-table-wrap {
+  overflow-x: auto;
+}
+
+.ds-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--text-sm);
+}
+
+.ds-table th,
+.ds-table td {
+  text-align: left;
+  vertical-align: top;
+  padding: var(--space-2);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.ds-table code {
+  white-space: nowrap;
+}
+
+.ds-scale {
+  display: flex;
+  align-items: flex-end;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+}
+
+.ds-scale__item {
+  text-align: center;
+  font-size: var(--text-sm);
+}
+
+.ds-scale__bar {
+  width: 40px;
+  background: var(--color-highlight-subtle);
+  border: 1px solid var(--color-border-strong);
+  margin: 0 auto var(--space-1);
+}
+
+.ds-radius {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto var(--space-1);
+  border: var(--border-width) solid var(--color-border-strong);
+  background: var(--color-surface);
+}
+
+@media (max-width: 900px) {
+  .ds-layout {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+
+  .ds-sidebar {
+    position: static;
+  }
+
+  .ds-sidebar ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2) var(--space-4);
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="ds-layout">
+
+<aside class="ds-sidebar">
+  <p><strong>Samman design system</strong></p>
+  <div class="ds-theme-switch" role="group" aria-label="Colour theme">
+    <button type="button" data-theme-choice="auto" aria-pressed="true">Auto</button>
+    <button type="button" data-theme-choice="light" aria-pressed="false">Light</button>
+    <button type="button" data-theme-choice="dark" aria-pressed="false">Dark</button>
+  </div>
+  <p></p>
+  <ul>
+    <li><a href="#principles">Principles</a></li>
+    <li><a href="#colour">Colour tokens</a></li>
+    <li><a href="#type">Typography</a></li>
+    <li><a href="#spacing">Spacing &amp; shape</a></li>
+    <li><a href="#prose">Prose elements</a></li>
+    <li><a href="#buttons">Buttons</a></li>
+    <li><a href="#panels">Panels &amp; cards</a></li>
+    <li><a href="#events">Events</a></li>
+    <li><a href="#people">People</a></li>
+    <li><a href="#layout">Layout</a></li>
+    <li><a href="#chrome">Site chrome</a></li>
+    <li><a href="#migration">Migration map</a></li>
+    <li><a href="#decisions">Open decisions</a></li>
+  </ul>
+</aside>
+
+<main class="ds-main">
+
+<section id="principles">
+  <h1>Samman design system</h1>
+  <p>This page defines the semantic CSS tokens and component classes for sammancoaching.org. Every component on it is built only from these tokens, so switching the theme above shows how each one looks in dark mode.</p>
+  <ol>
+    <li><strong>Components use semantic tokens, never brand colours.</strong> Write <code>var(--color-text)</code>, not <code>$dark-blue</code>. The brand palette appears in exactly one place, the token definitions, which is what makes dark mode a token swap.</li>
+    <li><strong>One class per concept.</strong> There is one button (<code>.btn</code>), one bordered box (<code>.panel</code>), one avatar (<code>.avatar</code>). Variants are modifiers (<code>.btn--sm</code>), not new components.</li>
+    <li><strong>BEM naming.</strong> <code>.block</code>, <code>.block__element</code>, <code>.block--modifier</code>, matching what the site already does for <code>coach-row</code> and <code>member-hero</code>.</li>
+    <li><strong>States are <code>is-*</code> classes.</strong> <code>.is-current</code>, <code>.is-active</code>, <code>.is-success</code>, <code>.is-error</code>. JavaScript toggles these and nothing else.</li>
+    <li><strong>No colour or spacing literals in components.</strong> If a value is missing, add a token here first.</li>
+  </ol>
+  <p>Dark mode follows the visitor's OS setting. Setting <code>data-theme="light"</code> or <code>data-theme="dark"</code> on <code>&lt;html&gt;</code> overrides it, which leaves room for a site-wide toggle later.</p>
+</section>
+
+<section id="colour">
+  <h2>Colour tokens</h2>
+  <p>Chips show the live value for the current theme. The text underneath lists the light and dark values.</p>
+
+  <h3 class="ds-heading">Brand palette</h3>
+  <p class="text-muted text-small">Only used inside token definitions.</p>
+  <div class="ds-swatches" data-swatches="brand"></div>
+
+  <h3 class="ds-heading">Semantic tokens</h3>
+  <div class="ds-swatches" data-swatches="semantic"></div>
+</section>
+
+<section id="type">
+  <h2>Typography</h2>
+  <p class="ds-classes">--font-heading · --font-body · --font-mono</p>
+  <div class="ds-example">
+    <h1>Heading 1, Neulis Sans</h1>
+    <h2>Heading 2, Neulis Sans</h2>
+    <h3>Heading 3, Neulis Sans</h3>
+    <h4>Heading 4, Neulis Sans</h4>
+    <p class="lead">Lead paragraph for a profile headline.</p>
+    <p>Body text is Inter at 16px. Technical coaches work with software development teams to help them adopt better coding practices.</p>
+    <p class="text-muted">Muted text, for secondary information like affiliations and counts.</p>
+    <p class="text-small">Small text, for notes and back links.</p>
+  </div>
+  <details class="ds-code"><summary>HTML</summary></details>
+</section>
+
+<section id="spacing">
+  <h2>Spacing &amp; shape</h2>
+  <h3 class="ds-heading">Spacing scale</h3>
+  <div class="ds-scale">
+    <div class="ds-scale__item"><div class="ds-scale__bar" style="height: var(--space-1)"></div>--space-1<br>0.25rem</div>
+    <div class="ds-scale__item"><div class="ds-scale__bar" style="height: var(--space-2)"></div>--space-2<br>0.5rem</div>
+    <div class="ds-scale__item"><div class="ds-scale__bar" style="height: var(--space-3)"></div>--space-3<br>0.75rem</div>
+    <div class="ds-scale__item"><div class="ds-scale__bar" style="height: var(--space-4)"></div>--space-4<br>1rem</div>
+    <div class="ds-scale__item"><div class="ds-scale__bar" style="height: var(--space-5)"></div>--space-5<br>1.5rem</div>
+    <div class="ds-scale__item"><div class="ds-scale__bar" style="height: var(--space-6)"></div>--space-6<br>2rem</div>
+  </div>
+  <h3 class="ds-heading">Radius</h3>
+  <div class="ds-scale">
+    <div class="ds-scale__item"><div class="ds-radius" style="border-radius: var(--radius-sm)"></div>--radius-sm 4px<br>code copy button</div>
+    <div class="ds-scale__item"><div class="ds-radius" style="border-radius: var(--radius-md)"></div>--radius-md 6px<br>buttons, inputs, avatars</div>
+    <div class="ds-scale__item"><div class="ds-radius" style="border-radius: var(--radius-lg)"></div>--radius-lg 10px<br>panels, badges</div>
+  </div>
+  <h3 class="ds-heading">Elevation</h3>
+  <p><code>--shadow-raised</code> is the only shadow. It appears together with <code>--color-border-strong</code> when an interactive panel is hovered.</p>
+</section>
+
+<section id="prose">
+  <h2>Prose elements</h2>
+  <p>Markdown output is styled at element level, so content pages need no classes.</p>
+  <div class="ds-example">
+    <p>A paragraph with <a href="#prose">a link</a> and <code>inline code</code>.</p>
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+    </ul>
+    <blockquote>A blockquote, used for quotes and callouts in kata descriptions.</blockquote>
+    <pre><code>def test_gilded_rose():
+    assert update_quality(items) == expected</code></pre>
+    <hr>
+  </div>
+  <details class="ds-code"><summary>HTML</summary></details>
+</section>
+
+<section id="buttons">
+  <h2>Buttons</h2>
+  <p class="ds-classes">.btn · .btn--sm · .btn--icon + .btn__label · .btn--overlay · .is-success · .is-error</p>
+  <p>Every action link and button uses <code>.btn</code>. It replaces <code>.button</code>, <code>.member-link</code>, <code>.add-calendar-btn</code> and <code>.details-link</code>, which were already the same style.</p>
+
+  <h3 class="ds-heading">Default and small</h3>
+  <div class="ds-example">
+    <div class="cluster">
+      <a class="btn" href="#buttons">View details</a>
+      <a class="btn" href="#buttons">Add to calendar</a>
+      <button type="button" class="btn">Button element</button>
+      <a class="btn btn--sm" href="#buttons">Small</a>
+    </div>
+  </div>
+  <details class="ds-code"><summary>HTML</summary></details>
+
+  <h3 class="ds-heading">Icon button with sliding label</h3>
+  <p>Hover or focus to reveal the label. It stays visible in the success and error states.</p>
+  <div class="ds-example">
+    <div class="cluster">
+      <button type="button" class="btn btn--icon" aria-label="Copy as markdown"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg><span class="btn__label">Copy as markdown</span></button>
+      <button type="button" class="btn btn--icon is-success" aria-label="Copied"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg><span class="btn__label">Copied</span></button>
+      <button type="button" class="btn btn--icon is-error" aria-label="Copy failed"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg><span class="btn__label">Copy failed</span></button>
+    </div>
+  </div>
+  <details class="ds-code"><summary>HTML</summary></details>
+
+  <h3 class="ds-heading">Overlay button on code blocks</h3>
+  <p>Added by <code>copy_code.js</code>. Hover the code block to show it. The SVG icons in that script should use <code>stroke="currentColor"</code> so they follow the state colours.</p>
+  <div class="ds-example">
+    <pre><code>git clone https://github.com/emilybache/GildedRose-Refactoring-Kata</code><button type="button" class="btn btn--icon btn--overlay" aria-label="Copy code"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg></button></pre>
+  </div>
+  <details class="ds-code"><summary>HTML</summary></details>
+</section>
+
+<section id="panels">
+  <h2>Panels &amp; cards</h2>
+  <p class="ds-classes">.panel · .panel--interactive · .panel--sticky · .card · .card--text · .card__image · .card__title · .ribbon</p>
+  <p><code>.panel</code> is the one bordered box. It replaces the border, radius and hover rules repeated in <code>.card</code>, <code>.event-card</code>, <code>.coach-row</code> and <code>.home-community__newsletter</code>.</p>
+
+  <h3 class="ds-heading">Panel</h3>
+  <div class="ds-example">
+    <div class="stack">
+      <div class="panel">
+        <h3>Static panel</h3>
+        <p>For grouped content that is not clickable.</p>
+      </div>
+      <aside class="panel panel--interactive">
+        <h3>Stay connected</h3>
+        <p>Interactive panels get a strong border and shadow on hover.</p>
+        <p><a class="btn" href="#panels">Join the newsletter</a></p>
+      </aside>
+    </div>
+  </div>
+  <details class="ds-code"><summary>HTML</summary></details>
+
+  <h3 class="ds-heading">Text cards in a three-column grid</h3>
+  <div class="ds-example">
+    <div class="grid-cards grid-cards--3">
+      <div class="panel panel--interactive card card--text">
+        <h3 class="card__title">Technical coaching</h3>
+        <p>Coaching a team in TDD and refactoring through ensemble sessions and learning hours.</p>
+        <p class="text-muted text-small">12 coaches</p>
+        <p><a class="btn" href="#panels">See coaches</a></p>
+      </div>
+      <div class="panel panel--interactive card card--text">
+        <h3 class="card__title">Training</h3>
+        <p>Courses for coaches who want to learn the Samman method.</p>
+        <p class="text-muted text-small">5 coaches</p>
+        <p><a class="btn" href="#panels">See coaches</a></p>
+      </div>
+      <div class="panel panel--interactive card card--text">
+        <div class="ribbon">New</div>
+        <h3 class="card__title">Mentoring</h3>
+        <p>One to one support for new technical coaches.</p>
+        <p class="text-muted text-small">3 coaches</p>
+        <p><a class="btn" href="#panels">See coaches</a></p>
+      </div>
+    </div>
+  </div>
+  <details class="ds-code"><summary>HTML</summary></details>
+</section>
+
+<section id="events">
+  <h2>Events</h2>
+  <p class="ds-classes">.event-list · .event-card · .event-card--compact · .event-card__body · .event-card__title · .date-badge · .meta</p>
+
+  <h3 class="ds-heading">Event card</h3>
+  <div class="ds-example">
+    <div class="event-list">
+      <div class="panel panel--interactive event-card">
+        <div class="date-badge">
+          <div class="date-badge__weekday">Thu</div>
+          <div class="date-badge__day">16</div>
+          <div class="date-badge__month">Oct 2026</div>
+          <div class="date-badge__time">17:00 CEST</div>
+        </div>
+        <div class="event-card__body">
+          <h3 class="event-card__title">Samman Society Open Space</h3>
+          <div class="meta"><span>90 minutes</span><span>Online</span></div>
+          <p>An open space for technical coaches to share experiences and ideas.</p>
+          <div class="cluster">
+            <a class="btn" href="#events">Add to calendar</a>
+            <a class="btn" href="#events">View details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <details class="ds-code"><summary>HTML</summary></details>
+
+  <h3 class="ds-heading">Compact event card</h3>
+  <p>Used on the homepage. The modifier no longer depends on a parent <code>.home-events-list</code>.</p>
+  <div class="ds-example">
+    <div class="event-list">
+      <div class="panel panel--interactive event-card event-card--compact">
+        <div class="date-badge">
+          <div class="date-badge__weekday">Tue</div>
+          <div class="date-badge__day">4</div>
+          <div class="date-badge__month">Nov 2026</div>
+          <div class="date-badge__time">09:00 CET</div>
+        </div>
+        <div class="event-card__body">
+          <h3 class="event-card__title">Ensemble Programming</h3>
+          <div class="meta"><span>2 hours</span></div>
+          <p>Practise TDD together on a code kata.</p>
+          <div class="cluster">
+            <a class="btn btn--sm" href="#events">View details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <details class="ds-code"><summary>HTML</summary></details>
+</section>
+
+<section id="people">
+  <h2>People</h2>
+  <p class="ds-classes">.avatar · .avatar--sm · .avatar--lg · .avatar--initials · .person-list · .person-row · .profile-hero</p>
+
+  <h3 class="ds-heading">Person row</h3>
+  <div class="ds-example">
+    <div class="person-list">
+      <div class="panel panel--interactive person-row">
+        <div class="avatar avatar--sm avatar--initials" aria-hidden="true">AC</div>
+        <div class="person-row__body">
+          <div class="person-row__name">Alex Coach</div>
+          <div class="text-muted text-small">Example Consulting</div>
+          <div class="person-row__headline">Helps teams adopt TDD and refactoring.</div>
+        </div>
+        <a class="btn" href="#people">Profile</a>
+      </div>
+      <div class="panel panel--interactive person-row">
+        <div class="avatar avatar--sm avatar--initials" aria-hidden="true">SM</div>
+        <div class="person-row__body">
+          <div class="person-row__name">Sam Mentor</div>
+          <div class="text-muted text-small">Independent</div>
+          <div class="person-row__headline">Technical coach and trainer.</div>
+        </div>
+        <a class="btn" href="#people">Profile</a>
+      </div>
+    </div>
+  </div>
+  <details class="ds-code"><summary>HTML</summary></details>
+  <p class="text-small text-muted">With a photo, use <code>&lt;img class="avatar avatar--sm" src="…" alt=""&gt;</code> in place of the initials.</p>
+
+  <h3 class="ds-heading">Profile hero</h3>
+  <div class="ds-example">
+    <div class="profile-hero profile-hero--no-photo">
+      <div>
+        <h1 class="profile-hero__title">Alex Coach</h1>
+        <p class="lead">Technical coach helping teams write better code</p>
+        <div class="cluster">
+          <a class="btn" href="#people">Website</a>
+          <a class="btn" href="#people">LinkedIn</a>
+          <a class="btn" href="#people">Mastodon</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <details class="ds-code"><summary>HTML</summary></details>
+</section>
+
+<section id="layout">
+  <h2>Layout</h2>
+  <p class="ds-classes">.site · .wrapper · .stack · .cluster · .split · .grid-cards · .grid-cards--3 · .grid-cards__intro</p>
+  <p><code>.split</code> is the homepage's events plus newsletter layout. It collapses to one column at 768px.</p>
+  <div class="ds-example">
+    <div class="split">
+      <div class="stack">
+        <div class="panel">Main column (2fr)</div>
+        <div class="panel">Stacked with <code>.stack</code></div>
+      </div>
+      <aside class="panel panel--interactive panel--sticky">Sidebar (1fr), sticky</aside>
+    </div>
+  </div>
+  <details class="ds-code"><summary>HTML</summary></details>
+</section>
+
+<section id="chrome">
+  <h2>Site chrome</h2>
+  <p class="ds-classes">.site-header · .site-nav · .site-nav__item · .site-nav__link · .is-current · .search · .search__input · .search__results · .site-footer · .site-footer__bar · .licence-box</p>
+  <p>Keep the <code>search-input</code> and <code>search-results</code> ids; the search script and <code>tests/test_search_bar.py</code> use them.</p>
+
+  <h3 class="ds-heading">Header with navigation and search</h3>
+  <div class="ds-example">
+    <div class="site">
+      <header class="site-header">
+        <div class="search">
+          <input class="search__input" type="text" placeholder="Search..." aria-label="Search">
+          <ul class="search__results is-active">
+            <li><a href="#chrome">Gilded Rose</a></li>
+            <li><a href="#chrome">Golden Master</a></li>
+          </ul>
+        </div>
+        <nav class="site-nav">
+          <div class="site-nav__item"><a class="site-nav__link is-current" href="#chrome">Home</a></div>
+          <div class="site-nav__item"><a class="site-nav__link" href="#chrome">Katas</a></div>
+          <div class="site-nav__item"><a class="site-nav__link" href="#chrome">Learning Hours</a></div>
+          <div class="site-nav__item"><a class="site-nav__link" href="#chrome">Reference</a></div>
+          <div class="site-nav__item"><a class="site-nav__link" href="#chrome">Society</a></div>
+        </nav>
+      </header>
+    </div>
+  </div>
+  <details class="ds-code"><summary>HTML</summary></details>
+
+  <h3 class="ds-heading">Footer</h3>
+  <div class="ds-example">
+    <div class="site">
+      <footer class="site-footer">
+        <hr>
+        License: <a href="#chrome">CC-BY-SA-4.0</a>. Attribution: <a href="#chrome">Emily Bache</a> - <a href="#chrome">sammancoaching.org</a>
+        <div class="site-footer__bar">
+          <img src="../assets/images/Submark_dark_blue_small.png" alt="Samman Coaching">
+        </div>
+      </footer>
+    </div>
+  </div>
+  <details class="ds-code"><summary>HTML</summary></details>
+</section>
+
+<section id="migration">
+  <h2>Migration map</h2>
+  <p>Current selectors and the classes that replace them.</p>
+  <div class="ds-table-wrap">
+  <table class="ds-table">
+    <thead><tr><th>Current</th><th>New</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td><code>$coral</code>, <code>$dark-blue</code>, … in components</td><td><code>var(--color-*)</code></td><td>Sass brand variables stay only in the token file.</td></tr>
+      <tr><td><code>body { max-width }</code></td><td><code>.site</code></td><td>Lets the page background fill the viewport.</td></tr>
+      <tr><td><code>.button</code>, <code>.member-link</code>, <code>.add-calendar-btn</code>, <code>.details-link</code>, <code>.event-links a</code></td><td><code>.btn</code></td><td>Same style today, so these merge.</td></tr>
+      <tr><td><code>.home-events-list .event-card--mini .event-links a</code></td><td><code>.btn--sm</code></td><td></td></tr>
+      <tr><td><code>.copy-markdown-button</code>, <code>.copy-markdown-label</code></td><td><code>.btn .btn--icon</code>, <code>.btn__label</code></td><td><code>.copy-markdown</code> wrapper keeps its margin. <code>test_copy_markdown_button.py</code> matches the exact <code>class="copy-markdown-button"</code> markup with a regex.</td></tr>
+      <tr><td><code>.copy-code-button</code></td><td><code>.btn .btn--icon .btn--overlay</code></td><td>Class set in <code>copy_code.js</code>.</td></tr>
+      <tr><td><code>.copied</code>, <code>.error</code></td><td><code>.is-success</code>, <code>.is-error</code></td><td>Toggled in <code>copy_code.js</code> and <code>copy_markdown.js</code>.</td></tr>
+      <tr><td><code>a.current</code></td><td><code>.is-current</code></td><td>Set in <code>_includes/navigation.html</code>.</td></tr>
+      <tr><td><code>#search-results.active</code></td><td><code>.search__results.is-active</code></td><td>Toggled in <code>_includes/search.html</code>.</td></tr>
+      <tr><td><code>.card</code></td><td><code>.panel .panel--interactive .card</code></td><td></td></tr>
+      <tr><td><code>.offer-card</code></td><td><code>.card--text</code></td><td></td></tr>
+      <tr><td><code>.card-grid</code>, <code>.offer-card-grid</code>, <code>.card-grid-description</code></td><td><code>.grid-cards</code>, <code>.grid-cards--3</code>, <code>.grid-cards__intro</code></td><td></td></tr>
+      <tr><td><code>.card-title</code>, <code>.card-image</code></td><td><code>.card__title</code>, <code>.card__image</code></td><td></td></tr>
+      <tr><td><code>.events-list</code>, <code>.home-events-list</code></td><td><code>.event-list</code></td><td></td></tr>
+      <tr><td><code>.event-card</code></td><td><code>.panel .panel--interactive .event-card</code></td><td></td></tr>
+      <tr><td><code>.event-card--mini</code></td><td><code>.event-card--compact</code></td><td>No parent selector needed.</td></tr>
+      <tr><td><code>.event-date-block</code> + <code>.weekday</code> <code>.day</code> <code>.month-year</code> <code>.time</code></td><td><code>.date-badge</code> + <code>__weekday</code> <code>__day</code> <code>__month</code> <code>__time</code></td><td>Check <code>test_upcoming_events.py</code> selectors.</td></tr>
+      <tr><td><code>.event-details</code>, <code>.event-details h3</code></td><td><code>.event-card__body</code>, <code>.event-card__title</code></td><td></td></tr>
+      <tr><td><code>.event-meta</code></td><td><code>.meta</code></td><td>Colour token replaces <code>opacity: 0.7</code>.</td></tr>
+      <tr><td><code>.event-links</code>, <code>.member-hero__links</code></td><td><code>.cluster</code></td><td></td></tr>
+      <tr><td><code>.home-community</code></td><td><code>.split</code></td><td></td></tr>
+      <tr><td><code>.home-community__newsletter</code></td><td><code>.panel .panel--interactive .panel--sticky</code></td><td></td></tr>
+      <tr><td><code>.coach-list</code>, <code>.coach-row</code></td><td><code>.person-list</code>, <code>.panel .panel--interactive .person-row</code></td><td>Check <code>test_offers.py</code> selectors.</td></tr>
+      <tr><td><code>.coach-row__photo</code>, <code>.coach-row__initials</code></td><td><code>.avatar .avatar--sm</code>, <code>+ .avatar--initials</code></td><td></td></tr>
+      <tr><td><code>.coach-row__details</code>, <code>__name</code>, <code>__headline</code></td><td><code>.person-row__body</code>, <code>__name</code>, <code>__headline</code></td><td></td></tr>
+      <tr><td><code>.coach-row__affiliation</code>, <code>.offer-coach-count</code></td><td><code>.text-muted .text-small</code></td><td>Colour token replaces <code>opacity: 0.75</code>.</td></tr>
+      <tr><td><code>.offer-back-link</code>, <code>.offer-contact-note</code>, <code>.offer-cross-links</code></td><td><code>.text-small</code></td><td></td></tr>
+      <tr><td><code>.member-hero</code>, <code>--no-photo</code>, <code>__photo</code>, <code>__headline</code></td><td><code>.profile-hero</code>, <code>--no-photo</code>, <code>.avatar .avatar--lg</code>, <code>.lead</code></td><td></td></tr>
+      <tr><td><code>img[src*="#book_cover"]</code></td><td><code>.book-cover</code></td><td>Add with kramdown <code>{: .book-cover}</code>. Also fixes the mobile overlap in NextSteps.md.</td></tr>
+      <tr><td><code>.site-nav a</code>, <code>.page-link</code></td><td><code>.site-nav__link</code>, <code>.site-nav__item</code></td><td></td></tr>
+      <tr><td><code>.search-box</code>, <code>#search-input</code>, <code>#search-results</code></td><td><code>.search</code>, <code>.search__input</code>, <code>.search__results</code></td><td>Keep the ids for JS and tests.</td></tr>
+      <tr><td><code>footer</code>, <code>.footer-logo-bar</code></td><td><code>.site-footer</code>, <code>.site-footer__bar</code></td><td></td></tr>
+      <tr><td><code>.print-licence</code> border</td><td><code>.licence-box</code></td><td><code>.print-licence</code> and <code>.web-licence</code> keep their print show and hide rules.</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h3 class="ds-heading">Deliberate visual changes</h3>
+  <ul>
+    <li>Blockquote text uses <code>--color-text-muted</code> instead of the grey <code>#6a737d</code>.</li>
+    <li>Muted text uses a colour token instead of <code>opacity</code>, so links inside it keep their colour.</li>
+    <li>Radii are rounded to three values: the header and nav go from 5px to 6px and the date badge from 8px to 10px.</li>
+    <li>The code copy button's success and error icons use <code>currentColor</code> instead of hardcoded colours.</li>
+  </ul>
+</section>
+
+<section id="decisions">
+  <h2>Open decisions</h2>
+  <p>These colour pairs fail WCAG AA contrast (4.5:1 for body text) today. Each one is a single token, so fixing it is a one-line change.</p>
+  <div class="ds-table-wrap">
+  <table class="ds-table">
+    <thead><tr><th>Pair</th><th>Where</th><th>Contrast</th><th>Suggestion</th></tr></thead>
+    <tbody>
+      <tr><td>Light blue on white</td><td><code>--color-action-text</code>: every <code>.btn</code> label (light mode)</td><td>1.8:1</td><td>Use dark blue (10.7:1) and keep the light blue border.</td></tr>
+      <tr><td>Off-white on coral</td><td><code>--color-on-brand</code>: navigation links</td><td>2.2:1</td><td>Use dark blue (4.2:1). Bold text at 18.7px or larger would then pass.</td></tr>
+      <tr><td>Coral on off-white</td><td><code>--color-link-hover</code> (light mode)</td><td>2.2:1</td><td>Hover state only, so lower priority. An underline on hover would help.</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p>In dark mode, light blue on navy is 7:1 and coral on navy is 5:1, so these pairs pass there.</p>
+</section>
+
+</main>
+</div>
+
+<script>
+(function () {
+  // Swatch definitions: [token, light value, dark value, purpose]
+  var swatches = {
+    brand: [
+      ['--brand-coral', 'rgb(240, 130, 113)', '', 'Header, nav, footer bar'],
+      ['--brand-dark-blue', 'rgb(23, 64, 100)', '', 'Text and borders in light mode'],
+      ['--brand-off-white', 'rgb(243, 238, 230)', '', 'Page in light mode, text in dark mode'],
+      ['--brand-light-blue', 'rgb(162, 195, 221)', '', 'Highlights and actions'],
+      ['--brand-light-brown', 'rgb(222, 198, 162)', '', 'Unused so far'],
+      ['--brand-navy-900', 'rgb(15, 37, 55)', '', 'Dark mode page'],
+      ['--brand-navy-800', 'rgb(22, 51, 77)', '', 'Dark mode surfaces'],
+      ['--brand-navy-950', 'rgb(10, 27, 42)', '', 'Dark mode code and inputs']
+    ],
+    semantic: [
+      ['--color-page', 'off-white', 'navy-900', 'Page background'],
+      ['--color-surface', 'white 45%', 'navy-800', 'Panel background'],
+      ['--color-surface-solid', '#fff', 'navy-800', 'Dropdowns'],
+      ['--color-text', 'dark-blue', 'off-white', 'Body text and headings'],
+      ['--color-text-muted', 'dark-blue 75%', 'off-white 72%', 'Secondary text'],
+      ['--color-border', '#e8e8e8', 'light-blue 20%', 'Panel borders, rules'],
+      ['--color-border-strong', 'dark-blue', 'light-blue', 'Hover borders, avatars'],
+      ['--color-link', 'dark-blue', 'light-blue', 'Links'],
+      ['--color-link-hover', 'coral', 'coral', 'Link hover'],
+      ['--color-link-active', 'light-blue', 'off-white', 'Active and current links'],
+      ['--color-focus', 'dark-blue', 'light-blue', 'Focus outline'],
+      ['--color-brand', 'coral', 'coral', 'Header, nav, footer bar'],
+      ['--color-on-brand', 'off-white', 'off-white', 'Text on brand colour'],
+      ['--color-highlight', 'light-blue', 'light-blue', 'Button hover fill'],
+      ['--color-on-highlight', 'dark-blue', 'dark-blue', 'Text on highlight'],
+      ['--color-highlight-subtle', 'light-blue', 'light-blue 16%', 'Date badge, initials, ribbon'],
+      ['--color-on-highlight-subtle', 'dark-blue', 'light-blue', 'Text on subtle highlight'],
+      ['--color-action-bg', '#fff', 'transparent', 'Button background'],
+      ['--color-action-text', 'light-blue', 'light-blue', 'Button label'],
+      ['--color-action-border', 'light-blue', 'light-blue', 'Button border'],
+      ['--color-input-bg', '#fff', 'navy-950', 'Text inputs'],
+      ['--color-input-border', 'dark-blue', 'light-blue 50%', 'Input and dropdown border'],
+      ['--color-code-bg', '#f6f8fa', 'navy-950', 'Code and blockquote'],
+      ['--color-success-bg', '#d1f7d1', '#173d2a', 'Success state'],
+      ['--color-success-text', '#155724', '#a8dba8', 'Success text'],
+      ['--color-danger-bg', '#f8d7da', '#4a1c22', 'Error state'],
+      ['--color-danger-text', '#721c24', '#f5c6cb', 'Error text']
+    ]
+  };
+
+  document.querySelectorAll('[data-swatches]').forEach(function (container) {
+    swatches[container.dataset.swatches].forEach(function (s) {
+      var el = document.createElement('div');
+      el.className = 'ds-swatch';
+      var values = s[2] ? 'light: ' + s[1] + '<br>dark: ' + s[2] : s[1];
+      el.innerHTML =
+        '<div class="ds-swatch__chip" style="background: var(' + s[0] + ')"></div>' +
+        '<div class="ds-swatch__text"><strong>' + s[3] + '</strong>' +
+        '<code>' + s[0] + '</code><code>' + values + '</code></div>';
+      container.appendChild(el);
+    });
+  });
+
+  // Fill each "HTML" disclosure with the markup of the example before it.
+  function escapeHtml(text) {
+    return text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+
+  function dedent(text) {
+    var lines = text.replace(/^\n+|\s+$/g, '').split('\n');
+    var indents = lines.filter(function (l) { return l.trim(); })
+      .map(function (l) { return l.match(/^ */)[0].length; });
+    var min = Math.min.apply(null, indents);
+    return lines.map(function (l) { return l.slice(min); }).join('\n');
+  }
+
+  document.querySelectorAll('.ds-code').forEach(function (details) {
+    var example = details.previousElementSibling;
+    if (!example || !example.classList.contains('ds-example')) return;
+    var pre = document.createElement('pre');
+    var code = document.createElement('code');
+    code.innerHTML = escapeHtml(dedent(example.innerHTML));
+    pre.appendChild(code);
+    details.appendChild(pre);
+  });
+
+  // Theme switch: auto (follow OS), light or dark.
+  var root = document.documentElement;
+  var buttons = document.querySelectorAll('[data-theme-choice]');
+
+  function applyTheme(choice) {
+    if (choice === 'auto') {
+      root.removeAttribute('data-theme');
+    } else {
+      root.setAttribute('data-theme', choice);
+    }
+    buttons.forEach(function (b) {
+      b.setAttribute('aria-pressed', String(b.dataset.themeChoice === choice));
+    });
+  }
+
+  var saved = 'auto';
+  try { saved = localStorage.getItem('ds-theme') || 'auto'; } catch (e) {}
+  applyTheme(saved);
+
+  buttons.forEach(function (b) {
+    b.addEventListener('click', function () {
+      applyTheme(b.dataset.themeChoice);
+      try { localStorage.setItem('ds-theme', b.dataset.themeChoice); } catch (e) {}
+    });
+  });
+})();
+</script>
+</body>
+</html>
