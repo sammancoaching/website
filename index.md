@@ -7,6 +7,9 @@ title: Samman Technical Coaching
 
 [Technical coaches]({% link reference/technical_coach_definition.md %}) work with software development teams to help them adopt better coding practices. The Samman method is a concrete approach that many technical coaches use. This website is designed to help people who do technical coaching and is maintained by the [Samman Technical Coaching Society]({% link society/index.md %}). This site shares materials you can use for [Code Katas]({% link kata_descriptions/index.md %}) and [Learning Hours]({% link learning_hours/index.md %}), as well as many supporting materials. We also have official [Training courses]({% link training/index.md %}).
 
+## News
+Read the Samman Society [official position on Agentic AI]({% link society/agentic_ai.md %})
+
 ## Upcoming events
 
 <section class="home-community">
