@@ -3,12 +3,12 @@ layout: society
 title: Samman Society Values and Principles
 ---
 # Values and Principles of Samman Coaching
-* Samman coaches recognize the need for human engineering expertise in order to achieve high quality software.
-* Samman coaches work with whole software development teams rather than individuals.
-* Samman coaches adapt to what the team needs to achieve an outcome rather than follow a pre-determined syllabus.
-* Samman coaches aim for outcomes that will continue to happen long after they have left the team, through the technical practices the team continues to use.
-* Samman coaches teach both theory through exercises and by teaching/mentoring in the production code - the combination is important to achieve lasting outcomes.
-* Samman coaches communicate actively with sponsors and other stakeholders during the coaching and explain how their work supports the desired outcomes.
+* Samman coaches recognize the need for __human engineering expertise__ in order to achieve high quality software.
+* Samman coaches work with __whole software development teams__ rather than individuals.
+* Samman coaches __adapt__ to what the team needs to achieve an outcome rather than follow a pre-determined syllabus.
+* Samman coaches aim for __outcomes__ that will continue to happen long after they have left the team, through the __technical practices__ the team continues to use.
+* Samman coaches teach both __theory__ through exercises and by teaching/mentoring in the __production code__ - the combination is important to achieve lasting outcomes.
+* Samman coaches __communicate__ actively with sponsors and other stakeholders __during the coaching__ and explain how their work supports the desired outcomes.
 
 ## We coach and teach Technical practices
 * Describing the specific challenges the coaching will address belongs to the team and the Samman coach's sponsors (sponsors pay for the coaching), while deciding which specific technical practices to teach belongs to the coach.
