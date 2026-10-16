@@ -65,18 +65,26 @@
   --leading-tight: 1.2;
   --leading-code: 1.45;
 
-  /* Spacing scale */
-  --space-1: 0.25rem;
-  --space-2: 0.5rem;
-  --space-3: 0.75rem;
-  --space-4: 1rem;
-  --space-5: 1.5rem;
-  --space-6: 2rem;
+  /* Spacing: named by where it is used */
+  --space-text-gap: 0.25rem;               /* between closely related lines, e.g. name and affiliation */
+  --space-heading-gap: 0.5rem;             /* below a heading or meta line inside a component */
+  --space-icon-gap: 0.5rem;                /* between an icon and its label */
+  --space-paragraph-gap: 0.75rem;          /* below paragraphs inside a component */
+  --space-paragraph-gap-compact: 0.5rem;   /* same, in compact components */
+  --space-control-y: 0.5rem;               /* vertical padding inside buttons */
+  --space-control-x: 1rem;                 /* horizontal padding inside buttons */
+  --space-inline-gap: 0.75rem;             /* between items in a row, e.g. buttons or meta */
+  --space-panel-padding: 1rem;             /* inside panels and badges */
+  --space-panel-padding-compact: 0.75rem;  /* inside compact panels and badges */
+  --space-block-gap: 1rem;                 /* between stacked panels and layout columns */
+  --space-section-gap: 2rem;               /* between page sections */
 
-  /* Shape */
-  --radius-sm: 4px;
-  --radius-md: 6px;
-  --radius-lg: 10px;
+  /* Shape: named by where it is used */
+  --radius-control: 6px;                   /* buttons, inputs, dropdowns */
+  --radius-control-compact: 4px;           /* small buttons placed on other elements */
+  --radius-content: 6px;                   /* code blocks, quotes, photos */
+  --radius-container: 10px;                /* panels and badges */
+  --radius-bar: 6px;                       /* header, nav tabs, footer bar */
   --border-width: 2px;
 
   /* Layout */
@@ -115,7 +123,7 @@
   --color-on-highlight-subtle: var(--brand-dark-blue);
 
   --color-action-bg: #fff;
-  --color-action-text: var(--brand-light-blue);    /* see "Open decisions": fails contrast */
+  --color-action-text: var(--brand-dark-blue);
   --color-action-border: var(--brand-light-blue);
 
   --color-input-bg: #fff;
@@ -284,7 +292,7 @@ blockquote {
   overflow: auto;
   font-size: 85%;
   line-height: var(--leading-code);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-content);
 }
 
 code {
@@ -339,14 +347,14 @@ img {
 .stack {
   display: flex;
   flex-direction: column;
-  gap: var(--space-4);
+  gap: var(--space-block-gap);
 }
 
 /* Horizontal group that wraps, e.g. a row of buttons. */
 .cluster {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-3);
+  gap: var(--space-inline-gap);
   align-items: center;
 }
 
@@ -354,7 +362,7 @@ img {
 .split {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: var(--space-4);
+  gap: var(--space-block-gap);
   align-items: start;
 }
 
@@ -416,8 +424,8 @@ img {
 .btn {
   display: inline-flex;
   align-items: center;
-  gap: var(--space-2);
-  padding: var(--space-2) var(--space-4);
+  gap: var(--space-icon-gap);
+  padding: var(--space-control-y) var(--space-control-x);
   font-family: inherit;
   font-size: inherit;
   font-weight: 500;
@@ -426,7 +434,7 @@ img {
   color: var(--color-action-text);
   background: var(--color-action-bg);
   border: var(--border-width) solid var(--color-action-border);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-control);
   cursor: pointer;
   transition: background-color var(--transition-fast), color var(--transition-fast), border-color var(--transition-fast);
 }
@@ -483,7 +491,7 @@ img {
   padding: 4px;
   justify-content: center;
   border-width: 1px;
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius-control-compact);
   color: var(--color-text);
   background: var(--color-page);
   opacity: 0;
@@ -518,10 +526,10 @@ pre:hover .btn--overlay,
    The bordered, rounded box behind cards, event cards, person rows and asides. */
 
 .panel {
-  padding: var(--space-4);
+  padding: var(--space-panel-padding);
   background: var(--color-surface);
   border: var(--border-width) solid var(--color-border);
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-container);
   transition: border-color var(--transition-base), box-shadow var(--transition-base);
 }
 
@@ -532,7 +540,7 @@ pre:hover .btn--overlay,
 
 .panel--sticky {
   position: sticky;
-  top: var(--space-4);
+  top: var(--space-block-gap);
 }
 
 @media (max-width: 768px) {
@@ -576,7 +584,7 @@ pre:hover .btn--overlay,
 
 /* Text-only card: title, body that grows, then footer rows. */
 .card--text {
-  padding: 1.4rem var(--space-4);
+  padding: 1.4rem var(--space-panel-padding);
   grid-template-rows: auto 1fr auto auto;
 }
 
@@ -603,10 +611,10 @@ pre:hover .btn--overlay,
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: var(--space-4);
+  padding: var(--space-panel-padding);
   background: var(--color-highlight-subtle);
   color: var(--color-on-highlight-subtle);
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-container);
   text-align: center;
 }
 
@@ -614,7 +622,7 @@ pre:hover .btn--overlay,
   font-size: var(--text-xs);
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-bottom: var(--space-1);
+  margin-bottom: var(--space-text-gap);
 }
 
 .date-badge__day {
@@ -630,8 +638,8 @@ pre:hover .btn--overlay,
 
 .date-badge__time {
   font-size: var(--text-xs);
-  margin-top: var(--space-2);
-  padding-top: var(--space-2);
+  margin-top: var(--space-heading-gap);
+  padding-top: var(--space-heading-gap);
   border-top: 1px solid color-mix(in srgb, currentColor 30%, transparent);
 }
 
@@ -646,8 +654,8 @@ pre:hover .btn--overlay,
 .event-card {
   display: grid;
   grid-template-columns: 150px 1fr;
-  gap: var(--space-4);
-  margin-bottom: var(--space-4);
+  gap: var(--space-block-gap);
+  margin-bottom: var(--space-block-gap);
 }
 
 .event-card__body {
@@ -658,22 +666,22 @@ pre:hover .btn--overlay,
 
 .event-card__title {
   margin-top: 0;
-  margin-bottom: var(--space-2);
+  margin-bottom: var(--space-heading-gap);
 }
 
 .event-card__body p {
   margin-top: 0;
-  margin-bottom: var(--space-3);
+  margin-bottom: var(--space-paragraph-gap);
 }
 
 .event-card--compact {
   grid-template-columns: 110px 1fr;
-  gap: var(--space-3);
-  padding: var(--space-3);
+  gap: var(--space-inline-gap);
+  padding: var(--space-panel-padding-compact);
 }
 
 .event-card--compact .date-badge {
-  padding: var(--space-3);
+  padding: var(--space-panel-padding-compact);
 }
 
 .event-card--compact .date-badge__day {
@@ -681,12 +689,12 @@ pre:hover .btn--overlay,
 }
 
 .event-card--compact .event-card__title {
-  margin-bottom: var(--space-1);
+  margin-bottom: var(--space-text-gap);
   font-size: 1.15rem;
 }
 
 .event-card--compact .event-card__body p {
-  margin-bottom: var(--space-2);
+  margin-bottom: var(--space-paragraph-gap-compact);
   font-size: var(--text-md);
 }
 
@@ -694,7 +702,7 @@ pre:hover .btn--overlay,
   .event-card,
   .event-card--compact {
     grid-template-columns: 1fr;
-    gap: var(--space-5);
+    gap: var(--space-block-gap);
     padding: 1.25rem;
   }
 
@@ -710,8 +718,8 @@ pre:hover .btn--overlay,
 /* Inline metadata line, e.g. duration or location. */
 .meta {
   display: flex;
-  gap: var(--space-4);
-  margin-bottom: var(--space-2);
+  gap: var(--space-inline-gap);
+  margin-bottom: var(--space-heading-gap);
   color: var(--color-text-muted);
 }
 
@@ -726,7 +734,7 @@ pre:hover .btn--overlay,
 .avatar {
   display: block;
   object-fit: cover;
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-content);
   border: var(--border-width) solid var(--color-border-strong);
 }
 
@@ -775,7 +783,7 @@ pre:hover .btn--overlay,
 .person-row__body {
   display: flex;
   flex-direction: column;
-  gap: var(--space-1);
+  gap: var(--space-text-gap);
 }
 
 .person-row__name {
@@ -854,8 +862,8 @@ pre:hover .btn--overlay,
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;
-  border-bottom-left-radius: var(--radius-md);
-  border-bottom-right-radius: var(--radius-md);
+  border-bottom-left-radius: var(--radius-bar);
+  border-bottom-right-radius: var(--radius-bar);
 }
 
 @media screen and (max-width: 600px) {
@@ -887,8 +895,8 @@ pre:hover .btn--overlay,
   padding: 3px 6px;
   font-weight: bold;
   text-decoration: none;
-  border-top-left-radius: var(--radius-md);
-  border-top-right-radius: var(--radius-md);
+  border-top-left-radius: var(--radius-bar);
+  border-top-right-radius: var(--radius-bar);
 }
 
 .site-nav__link:link,
@@ -927,7 +935,7 @@ pre:hover .btn--overlay,
   color: var(--color-text);
   background: var(--color-input-bg);
   border: 1px solid var(--color-input-border);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-control);
 }
 
 .search__results {
@@ -943,7 +951,7 @@ pre:hover .btn--overlay,
   text-align: left;
   background: var(--color-surface-solid);
   border: 1px solid var(--color-input-border);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-control);
 }
 
 .search__results.is-active {
@@ -965,8 +973,8 @@ pre:hover .btn--overlay,
   padding: 6px 0;
   text-align: center;
   background-color: var(--color-brand);
-  border-top-left-radius: var(--radius-md);
-  border-top-right-radius: var(--radius-md);
+  border-top-left-radius: var(--radius-bar);
+  border-top-right-radius: var(--radius-bar);
 }
 
 .site-footer__bar img {
@@ -988,27 +996,27 @@ pre:hover .btn--overlay,
 .ds-layout {
   display: grid;
   grid-template-columns: 220px minmax(0, 1fr);
-  gap: var(--space-6);
+  gap: 2rem;
   max-width: 1100px;
   margin: 0 auto;
-  padding: var(--space-6) 16px;
+  padding: 2rem 16px;
 }
 
 .ds-sidebar {
   position: sticky;
-  top: var(--space-6);
+  top: 2rem;
   align-self: start;
 }
 
 .ds-sidebar ul {
   list-style: none;
-  margin: 0 0 var(--space-5);
+  margin: 0 0 1.5rem;
   padding: 0;
 }
 
 .ds-sidebar li {
   padding: 0;
-  margin-bottom: var(--space-2);
+  margin-bottom: 0.5rem;
 }
 
 .ds-sidebar a {
@@ -1025,12 +1033,12 @@ pre:hover .btn--overlay,
 
 .ds-main h2 {
   font-size: 1.6rem;
-  padding-bottom: var(--space-2);
+  padding-bottom: 0.5rem;
   border-bottom: 1px solid var(--color-border);
 }
 
 .ds-main h3.ds-heading {
-  margin-top: var(--space-6);
+  margin-top: 2rem;
 }
 
 .ds-classes {
@@ -1040,24 +1048,24 @@ pre:hover .btn--overlay,
 }
 
 .ds-example {
-  padding: var(--space-5);
+  padding: 1.5rem;
   border: 1px dashed var(--color-border);
-  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  border-radius: 10px 10px 0 0;
   background: var(--color-page);
 }
 
 .ds-code {
-  margin: 0 0 var(--space-5);
+  margin: 0 0 1.5rem;
 }
 
 .ds-code summary {
   cursor: pointer;
-  padding: var(--space-2) var(--space-3);
+  padding: 0.5rem 0.75rem;
   font-size: var(--text-sm);
   color: var(--color-text-muted);
   border: 1px dashed var(--color-border);
   border-top: 0;
-  border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+  border-radius: 0 0 10px 10px;
 }
 
 .ds-code[open] summary {
@@ -1066,26 +1074,26 @@ pre:hover .btn--overlay,
 
 .ds-code pre {
   margin: 0;
-  border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+  border-radius: 0 0 10px 10px;
 }
 
 .ds-theme-switch {
   display: flex;
-  gap: var(--space-1);
+  gap: 0.25rem;
   padding: 3px;
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
+  border-radius: 6px;
 }
 
 .ds-theme-switch button {
   flex: 1;
-  padding: var(--space-1) var(--space-2);
+  padding: 0.25rem 0.5rem;
   font: inherit;
   font-size: var(--text-sm);
   color: var(--color-text);
   background: transparent;
   border: 0;
-  border-radius: var(--radius-sm);
+  border-radius: 4px;
   cursor: pointer;
 }
 
@@ -1097,12 +1105,12 @@ pre:hover .btn--overlay,
 .ds-swatches {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  gap: var(--space-3);
+  gap: 0.75rem;
 }
 
 .ds-swatch {
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
+  border-radius: 6px;
   overflow: hidden;
   font-size: var(--text-sm);
 }
@@ -1113,7 +1121,7 @@ pre:hover .btn--overlay,
 }
 
 .ds-swatch__text {
-  padding: var(--space-2);
+  padding: 0.5rem;
   overflow-wrap: anywhere;
 }
 
@@ -1137,7 +1145,7 @@ pre:hover .btn--overlay,
 .ds-table td {
   text-align: left;
   vertical-align: top;
-  padding: var(--space-2);
+  padding: 0.5rem;
   border-bottom: 1px solid var(--color-border);
 }
 
@@ -1148,7 +1156,7 @@ pre:hover .btn--overlay,
 .ds-scale {
   display: flex;
   align-items: flex-end;
-  gap: var(--space-4);
+  gap: 1rem;
   flex-wrap: wrap;
 }
 
@@ -1157,17 +1165,39 @@ pre:hover .btn--overlay,
   font-size: var(--text-sm);
 }
 
-.ds-scale__bar {
-  width: 40px;
+.ds-space-bar {
+  height: 14px;
   background: var(--color-highlight-subtle);
   border: 1px solid var(--color-border-strong);
-  margin: 0 auto var(--space-1);
+}
+
+.ds-pair {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.ds-pair__chip {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  border: 1px solid var(--color-text-muted);
+}
+
+.ds-pair__sample {
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-family: var(--font-heading);
+  font-weight: bold;
+  white-space: nowrap;
 }
 
 .ds-radius {
   width: 64px;
   height: 64px;
-  margin: 0 auto var(--space-1);
+  margin: 0 auto 0.25rem;
   border: var(--border-width) solid var(--color-border-strong);
   background: var(--color-surface);
 }
@@ -1175,7 +1205,7 @@ pre:hover .btn--overlay,
 @media (max-width: 900px) {
   .ds-layout {
     grid-template-columns: 1fr;
-    gap: var(--space-4);
+    gap: 1rem;
   }
 
   .ds-sidebar {
@@ -1185,7 +1215,7 @@ pre:hover .btn--overlay,
   .ds-sidebar ul {
     display: flex;
     flex-wrap: wrap;
-    gap: var(--space-2) var(--space-4);
+    gap: 0.5rem 1rem;
   }
 }
 </style>
@@ -1264,20 +1294,34 @@ pre:hover .btn--overlay,
 
 <section id="spacing">
   <h2>Spacing &amp; shape</h2>
-  <h3 class="ds-heading">Spacing scale</h3>
-  <div class="ds-scale">
-    <div class="ds-scale__item"><div class="ds-scale__bar" style="height: var(--space-1)"></div>--space-1<br>0.25rem</div>
-    <div class="ds-scale__item"><div class="ds-scale__bar" style="height: var(--space-2)"></div>--space-2<br>0.5rem</div>
-    <div class="ds-scale__item"><div class="ds-scale__bar" style="height: var(--space-3)"></div>--space-3<br>0.75rem</div>
-    <div class="ds-scale__item"><div class="ds-scale__bar" style="height: var(--space-4)"></div>--space-4<br>1rem</div>
-    <div class="ds-scale__item"><div class="ds-scale__bar" style="height: var(--space-5)"></div>--space-5<br>1.5rem</div>
-    <div class="ds-scale__item"><div class="ds-scale__bar" style="height: var(--space-6)"></div>--space-6<br>2rem</div>
+  <p>Spacing and radius tokens are named after where they are used, not their size. Pick the token for the job. If two jobs share a value today, they still get separate tokens so either can change on its own.</p>
+  <h3 class="ds-heading">Spacing</h3>
+  <div class="ds-table-wrap">
+  <table class="ds-table">
+    <thead><tr><th>Token</th><th>Value</th><th style="width: 30%">Size (shown 4×)</th><th>Use for</th></tr></thead>
+    <tbody>
+      <tr><td><code>--space-text-gap</code></td><td>0.25rem</td><td><div class="ds-space-bar" style="width: calc(var(--space-text-gap) * 4)"></div></td><td>Between closely related lines: name and affiliation, weekday and day</td></tr>
+      <tr><td><code>--space-heading-gap</code></td><td>0.5rem</td><td><div class="ds-space-bar" style="width: calc(var(--space-heading-gap) * 4)"></div></td><td>Below a heading or meta line inside a component</td></tr>
+      <tr><td><code>--space-icon-gap</code></td><td>0.5rem</td><td><div class="ds-space-bar" style="width: calc(var(--space-icon-gap) * 4)"></div></td><td>Between an icon and its label</td></tr>
+      <tr><td><code>--space-paragraph-gap</code></td><td>0.75rem</td><td><div class="ds-space-bar" style="width: calc(var(--space-paragraph-gap) * 4)"></div></td><td>Below paragraphs inside a component</td></tr>
+      <tr><td><code>--space-paragraph-gap-compact</code></td><td>0.5rem</td><td><div class="ds-space-bar" style="width: calc(var(--space-paragraph-gap-compact) * 4)"></div></td><td>The same, in compact components</td></tr>
+      <tr><td><code>--space-control-y</code></td><td>0.5rem</td><td><div class="ds-space-bar" style="width: calc(var(--space-control-y) * 4)"></div></td><td>Vertical padding inside buttons</td></tr>
+      <tr><td><code>--space-control-x</code></td><td>1rem</td><td><div class="ds-space-bar" style="width: calc(var(--space-control-x) * 4)"></div></td><td>Horizontal padding inside buttons</td></tr>
+      <tr><td><code>--space-inline-gap</code></td><td>0.75rem</td><td><div class="ds-space-bar" style="width: calc(var(--space-inline-gap) * 4)"></div></td><td>Between items in a row: buttons, meta items</td></tr>
+      <tr><td><code>--space-panel-padding</code></td><td>1rem</td><td><div class="ds-space-bar" style="width: calc(var(--space-panel-padding) * 4)"></div></td><td>Inside panels and badges</td></tr>
+      <tr><td><code>--space-panel-padding-compact</code></td><td>0.75rem</td><td><div class="ds-space-bar" style="width: calc(var(--space-panel-padding-compact) * 4)"></div></td><td>Inside compact panels and badges</td></tr>
+      <tr><td><code>--space-block-gap</code></td><td>1rem</td><td><div class="ds-space-bar" style="width: calc(var(--space-block-gap) * 4)"></div></td><td>Between stacked panels and layout columns</td></tr>
+      <tr><td><code>--space-section-gap</code></td><td>2rem</td><td><div class="ds-space-bar" style="width: calc(var(--space-section-gap) * 4)"></div></td><td>Between page sections</td></tr>
+    </tbody>
+  </table>
   </div>
   <h3 class="ds-heading">Radius</h3>
   <div class="ds-scale">
-    <div class="ds-scale__item"><div class="ds-radius" style="border-radius: var(--radius-sm)"></div>--radius-sm 4px<br>code copy button</div>
-    <div class="ds-scale__item"><div class="ds-radius" style="border-radius: var(--radius-md)"></div>--radius-md 6px<br>buttons, inputs, avatars</div>
-    <div class="ds-scale__item"><div class="ds-radius" style="border-radius: var(--radius-lg)"></div>--radius-lg 10px<br>panels, badges</div>
+    <div class="ds-scale__item"><div class="ds-radius" style="border-radius: var(--radius-control)"></div><code>--radius-control</code><br>6px · buttons, inputs, dropdowns</div>
+    <div class="ds-scale__item"><div class="ds-radius" style="border-radius: var(--radius-control-compact)"></div><code>--radius-control-compact</code><br>4px · small buttons on other elements</div>
+    <div class="ds-scale__item"><div class="ds-radius" style="border-radius: var(--radius-content)"></div><code>--radius-content</code><br>6px · code blocks, quotes, photos</div>
+    <div class="ds-scale__item"><div class="ds-radius" style="border-radius: var(--radius-container)"></div><code>--radius-container</code><br>10px · panels and badges</div>
+    <div class="ds-scale__item"><div class="ds-radius" style="border-radius: var(--radius-bar) var(--radius-bar) 0 0"></div><code>--radius-bar</code><br>6px · header, nav tabs, footer bar</div>
   </div>
   <h3 class="ds-heading">Elevation</h3>
   <p><code>--shadow-raised</code> is the only shadow. It appears together with <code>--color-border-strong</code> when an interactive panel is hovered.</p>
@@ -1590,23 +1634,61 @@ pre:hover .btn--overlay,
   <ul>
     <li>Blockquote text uses <code>--color-text-muted</code> instead of the grey <code>#6a737d</code>.</li>
     <li>Muted text uses a colour token instead of <code>opacity</code>, so links inside it keep their colour.</li>
-    <li>Radii are rounded to three values: the header and nav go from 5px to 6px and the date badge from 8px to 10px.</li>
+    <li>Radii are reduced to three values: the header and nav go from 5px to 6px and the date badge from 8px to 10px.</li>
+    <li>Gaps between items in a row all use <code>--space-inline-gap</code> (0.75rem). Today they are 10px on profile links and 1rem on event links and meta.</li>
+    <li>On mobile, the gap inside event cards goes from 1.5rem to <code>--space-block-gap</code> (1rem).</li>
+    <li>Button labels in light mode use dark blue instead of light blue, which raises contrast from 1.8:1 to 10.7:1. The light blue border stays.</li>
     <li>The code copy button's success and error icons use <code>currentColor</code> instead of hardcoded colours.</li>
   </ul>
 </section>
 
 <section id="decisions">
   <h2>Open decisions</h2>
-  <p>These colour pairs fail WCAG AA contrast (4.5:1 for body text) today. Each one is a single token, so fixing it is a one-line change.</p>
+  <p>These light mode colour pairs fail WCAG AA contrast (4.5:1 for body text). Each one is a single token, so fixing it is a one-line change. The swatches show text colour then background colour, with a sample. They show light mode whichever theme is selected.</p>
   <div class="ds-table-wrap">
   <table class="ds-table">
-    <thead><tr><th>Pair</th><th>Where</th><th>Contrast</th><th>Suggestion</th></tr></thead>
+    <thead><tr><th>Where</th><th>Current</th><th>Suggested</th><th>Notes</th></tr></thead>
     <tbody>
-      <tr><td>Light blue on white</td><td><code>--color-action-text</code>: every <code>.btn</code> label (light mode)</td><td>1.8:1</td><td>Use dark blue (10.7:1) and keep the light blue border.</td></tr>
-      <tr><td>Off-white on coral</td><td><code>--color-on-brand</code>: navigation links</td><td>2.2:1</td><td>Use dark blue (4.2:1). Bold text at 18.7px or larger would then pass.</td></tr>
-      <tr><td>Coral on off-white</td><td><code>--color-link-hover</code> (light mode)</td><td>2.2:1</td><td>Hover state only, so lower priority. An underline on hover would help.</td></tr>
+      <tr>
+        <td><code>--color-on-brand</code><br>Navigation links</td>
+        <td><div class="ds-pair">
+          <span class="ds-pair__chip" style="background: var(--brand-off-white)" title="off-white"></span>
+          <span class="ds-pair__chip" style="background: var(--brand-coral)" title="coral"></span>
+          <span class="ds-pair__sample" style="color: var(--brand-off-white); background: var(--brand-coral)">Learning Hours</span>
+        </div>2.2:1</td>
+        <td><div class="ds-pair">
+          <span class="ds-pair__chip" style="background: var(--brand-dark-blue)" title="dark blue"></span>
+          <span class="ds-pair__chip" style="background: var(--brand-coral)" title="coral"></span>
+          <span class="ds-pair__sample" style="color: var(--brand-dark-blue); background: var(--brand-coral)">Learning Hours</span>
+        </div>4.2:1</td>
+        <td>Still just below 4.5:1, but passes the 3:1 large text level if nav links grow to 18.7px bold.</td>
+      </tr>
+      <tr>
+        <td><code>--color-link-hover</code><br>Links on hover</td>
+        <td><div class="ds-pair">
+          <span class="ds-pair__chip" style="background: var(--brand-coral)" title="coral"></span>
+          <span class="ds-pair__chip" style="background: var(--brand-off-white)" title="off-white"></span>
+          <span class="ds-pair__sample" style="color: var(--brand-coral); background: var(--brand-off-white); font-family: var(--font-body); font-weight: 400">a hovered link</span>
+        </div>2.2:1</td>
+        <td><div class="ds-pair">
+          <span class="ds-pair__chip" style="background: var(--brand-coral)" title="coral"></span>
+          <span class="ds-pair__chip" style="background: var(--brand-off-white)" title="off-white"></span>
+          <span class="ds-pair__sample" style="color: var(--brand-coral); background: var(--brand-off-white); font-family: var(--font-body); font-weight: 400; text-decoration: underline 2px">a hovered link</span>
+        </div>2.2:1 + underline</td>
+        <td>Hover only, so lower priority. Keeping coral with a thicker underline makes the state visible without relying on colour alone.</td>
+      </tr>
     </tbody>
   </table>
+  </div>
+  <p><strong>Resolved:</strong> button labels in light mode now use dark blue.</p>
+  <div class="ds-pair">
+    <span class="ds-pair__chip" style="background: var(--brand-light-blue)" title="light blue"></span>
+    <span class="ds-pair__chip" style="background: #fff" title="white"></span>
+    <span class="ds-pair__sample" style="color: var(--brand-light-blue); background: #fff; border: 2px solid var(--brand-light-blue)">Before 1.8:1</span>
+    <span aria-hidden="true">→</span>
+    <span class="ds-pair__chip" style="background: var(--brand-dark-blue)" title="dark blue"></span>
+    <span class="ds-pair__chip" style="background: #fff" title="white"></span>
+    <span class="ds-pair__sample" style="color: var(--brand-dark-blue); background: #fff; border: 2px solid var(--brand-light-blue)">After 10.7:1</span>
   </div>
   <p>In dark mode, light blue on navy is 7:1 and coral on navy is 5:1, so these pairs pass there.</p>
 </section>
@@ -1647,7 +1729,7 @@ pre:hover .btn--overlay,
       ['--color-highlight-subtle', 'light-blue', 'light-blue 16%', 'Date badge, initials, ribbon'],
       ['--color-on-highlight-subtle', 'dark-blue', 'light-blue', 'Text on subtle highlight'],
       ['--color-action-bg', '#fff', 'transparent', 'Button background'],
-      ['--color-action-text', 'light-blue', 'light-blue', 'Button label'],
+      ['--color-action-text', 'dark-blue', 'light-blue', 'Button label'],
       ['--color-action-border', 'light-blue', 'light-blue', 'Button border'],
       ['--color-input-bg', '#fff', 'navy-950', 'Text inputs'],
       ['--color-input-border', 'dark-blue', 'light-blue 50%', 'Input and dropdown border'],
