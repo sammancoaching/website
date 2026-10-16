@@ -1,25 +1,9 @@
 @use "colors" as *;
 
-div.highlighter-rouge, figure.highlight, pre, blockquote {
+// Containers the copy button is positioned in. pre and blockquote are in _base.scss.
+div.highlighter-rouge, figure.highlight {
   position: relative;
   border-radius: 4px;
-}
-
-pre, blockquote {
-  background-color: #f6f8fa;
-  padding: 16px;
-  overflow: auto;
-  font-size: 85%;
-  line-height: 1.45;
-  border-radius: 6px;
-}
-
-blockquote {
-  border-left: 0.25em solid $light-blue;
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 24px;
-  color: #6a737d;
 }
 
 .copy-code-button {

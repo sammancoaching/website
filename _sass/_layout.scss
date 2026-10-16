@@ -1,0 +1,75 @@
+// Page container and layout primitives. See _docs/design_system.html.
+@use "variables" as *;
+
+// Page container. Holds the max-width so the page background can fill the viewport.
+.site {
+  max-width: var(--content-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper {
+  max-width: calc(var(--content-width) - 30px);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @media screen and (min-width: $on-large) {
+    max-width: calc(var(--content-width) - 60px);
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+// Vertical rhythm: children separated by a gap.
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-block-gap);
+}
+
+// Horizontal group that wraps, e.g. a row of buttons.
+.cluster {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-inline-gap);
+  align-items: center;
+}
+
+// Main column plus sidebar; collapses to one column on small screens.
+.split {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: var(--space-block-gap);
+  align-items: start;
+
+  @media (max-width: $on-small) {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Grid of fixed-width cards.
+.grid-cards {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fit, 250px);
+  grid-auto-rows: minmax(350px, auto);
+}
+
+.grid-cards__intro {
+  max-width: 80em;
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+
+// Three equal columns of text cards (offers).
+.grid-cards--3 {
+  grid-auto-rows: auto;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 34px;
+
+  @media (max-width: $on-small) {
+    grid-template-columns: 1fr;
+  }
+}

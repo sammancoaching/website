@@ -1,3 +1,4 @@
+@use "tokens";
 @use "fonts";
 @use "navigation";
 @use "colors" as *;
@@ -9,32 +10,10 @@
 @use "copy_markdown";
 @use "card";
 @use "member";
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-a:link {
-    color: $dark-blue;
-}
-a:visited {
-    color: $dark-blue;
-}
-a:active {
-    color: $light-blue;
-}
-a:hover {
-    color: $coral;
-}
-a.current {
-	color: $light-blue;
-}
-
-a {
-  @include focus-ring-fallback;
-}
+// Base comes after the components for now: `.event-links a` relies on losing
+// to `a:link` for its text colour. It moves to the top once buttons are `.btn`.
+@use "base";
+@use "layout";
 
 img[src*="#book_cover"] {
 	border: 5px solid $dark-blue;
@@ -61,28 +40,6 @@ img[src*="#book_cover"] {
       width: 750px;
     }
   }
-}
-
-body {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: $content-width;
-  font-family: $font-stack-body;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.2;
-  color: $dark-blue;
-  background: $off-white;
-  li {
-    padding: 0px 12px;
-    text-decoration: none;
-  }
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: $font-stack-headers;
-  font-weight: 600;
-  line-height: 1.2;
 }
 
 .centered-image {
@@ -137,10 +94,6 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 6px;
 }
 
-.search-box #search-input {
-  @include focus-ring-fallback;
-}
-
 .site-header #search-results {
   display: none;
   position: absolute;
@@ -179,19 +132,3 @@ footer {
 	  }
 	}
 }
-
-.wrapper {
-  max-width: calc(#{$content-width} - (#{$spacing-unit}));
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: $spacing-unit * .5;
-  padding-left: $spacing-unit * .5;
-
-  @media screen and (min-width: $on-large) {
-    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-  }
-}
-
-

@@ -1,0 +1,166 @@
+// Design tokens, as CSS custom properties. See _docs/design_system.html.
+//
+// The brand palette appears only in this file. Everything else uses the
+// semantic tokens (--color-*), which is what makes dark mode a token swap.
+
+// Dark mode is not live yet: it can be forced with data-theme="dark" on
+// <html>, but the OS preference is ignored until this is true.
+$dark-mode-follows-os: false;
+
+:root {
+  // Brand palette. Never use these directly in components.
+  --brand-coral: rgb(240, 130, 113);
+  --brand-dark-blue: rgb(23, 64, 100);
+  --brand-off-white: rgb(243, 238, 230);
+  --brand-light-blue: rgb(162, 195, 221);
+  --brand-light-brown: rgb(222, 198, 162);
+  --brand-navy-900: rgb(15, 37, 55);   // dark mode page, derived from dark blue
+  --brand-navy-800: rgb(22, 51, 77);   // dark mode surfaces
+  --brand-navy-950: rgb(10, 27, 42);   // dark mode code and inputs
+
+  // Typography
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  --font-heading: 'Neulis Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --text-base: 16px;
+  --text-xs: 0.75em;
+  --text-sm: 0.85em;
+  --text-md: 0.95em;
+  --text-lg: 1.15em;
+  --text-lead: 1.5rem;
+  --leading-tight: 1.2;
+  --leading-code: 1.45;
+
+  // Spacing: named by where it is used
+  --space-text-gap: 0.25rem;               // between closely related lines, e.g. name and affiliation
+  --space-heading-gap: 0.5rem;             // below a heading or meta line inside a component
+  --space-icon-gap: 0.5rem;                // between an icon and its label
+  --space-paragraph-gap: 0.75rem;          // below paragraphs inside a component
+  --space-paragraph-gap-compact: 0.5rem;   // same, in compact components
+  --space-control-y: 0.5rem;               // vertical padding inside buttons
+  --space-control-x: 1rem;                 // horizontal padding inside buttons
+  --space-inline-gap: 0.75rem;             // between items in a row, e.g. buttons or meta
+  --space-panel-padding: 1rem;             // inside panels and badges
+  --space-panel-padding-compact: 0.75rem;  // inside compact panels and badges
+  --space-block-gap: 1rem;                 // between stacked panels and layout columns
+  --space-section-gap: 2rem;               // between page sections
+
+  // Shape: named by where it is used
+  --radius-control: 6px;                   // buttons, inputs, dropdowns
+  --radius-control-compact: 4px;           // small buttons placed on other elements
+  --radius-content: 6px;                   // code blocks, quotes, photos
+  --radius-container: 10px;                // panels and badges
+  --radius-bar: 6px;                       // header, nav tabs, footer bar
+  --border-width: 2px;
+
+  // Layout. Custom properties can't be used in media queries, so the
+  // breakpoints themselves live in _variables.scss.
+  --content-width: 750px;
+
+  // Motion
+  --transition-fast: 0.2s ease;
+  --transition-base: 0.3s ease;
+
+  // Semantic tokens: light (the default)
+  color-scheme: light;
+
+  --color-page: var(--brand-off-white);
+  --color-surface: rgba(255, 255, 255, 0.45);
+  --color-surface-solid: #fff;
+  --color-text: var(--brand-dark-blue);
+  --color-text-muted: rgba(23, 64, 100, 0.75);
+  --color-border: #e8e8e8;
+  --color-border-strong: var(--brand-dark-blue);
+  --shadow-raised: 0 4px 12px rgba(23, 64, 100, 0.15);
+
+  --color-link: var(--brand-dark-blue);
+  --color-link-hover: var(--brand-coral);
+  --color-link-active: var(--brand-light-blue);
+  --color-focus: var(--brand-dark-blue);
+
+  --color-brand: var(--brand-coral);               // header, nav, footer bar
+  --color-on-brand: var(--brand-off-white);
+  --color-on-brand-hover-bg: var(--brand-dark-blue);
+
+  --color-highlight: var(--brand-light-blue);      // button hover fill
+  --color-on-highlight: var(--brand-dark-blue);
+  --color-highlight-subtle: var(--brand-light-blue); // date badge, initials, ribbon
+  --color-on-highlight-subtle: var(--brand-dark-blue);
+
+  --color-action-bg: #fff;
+  --color-action-text: var(--brand-dark-blue);
+  --color-action-border: var(--brand-light-blue);
+
+  --color-input-bg: #fff;
+  --color-input-border: var(--brand-dark-blue);
+
+  --color-code-bg: #f6f8fa;
+  --color-quote-border: var(--brand-light-blue);
+
+  --color-success-bg: #d1f7d1;
+  --color-success-border: #a8dba8;
+  --color-success-text: #155724;
+  --color-danger-bg: #f8d7da;
+  --color-danger-border: #f5c6cb;
+  --color-danger-text: #721c24;
+}
+
+// Semantic tokens: dark. Defined once and included under both selectors
+// below, so the OS-preference and forced-dark blocks can't drift apart.
+@mixin dark-tokens {
+  color-scheme: dark;
+
+  --color-page: var(--brand-navy-900);
+  --color-surface: var(--brand-navy-800);
+  --color-surface-solid: var(--brand-navy-800);
+  --color-text: var(--brand-off-white);
+  --color-text-muted: rgba(243, 238, 230, 0.72);
+  --color-border: rgba(162, 195, 221, 0.2);
+  --color-border-strong: var(--brand-light-blue);
+  --shadow-raised: 0 4px 12px rgba(0, 0, 0, 0.4);
+
+  --color-link: var(--brand-light-blue);
+  --color-link-hover: var(--brand-coral);
+  --color-link-active: var(--brand-off-white);
+  --color-focus: var(--brand-light-blue);
+
+  --color-brand: var(--brand-coral);
+  --color-on-brand: var(--brand-off-white);
+  --color-on-brand-hover-bg: var(--brand-dark-blue);
+
+  --color-highlight: var(--brand-light-blue);
+  --color-on-highlight: var(--brand-dark-blue);
+  --color-highlight-subtle: rgba(162, 195, 221, 0.16);
+  --color-on-highlight-subtle: var(--brand-light-blue);
+
+  --color-action-bg: transparent;
+  --color-action-text: var(--brand-light-blue);
+  --color-action-border: var(--brand-light-blue);
+
+  --color-input-bg: var(--brand-navy-950);
+  --color-input-border: rgba(162, 195, 221, 0.5);
+
+  --color-code-bg: var(--brand-navy-950);
+  --color-quote-border: var(--brand-light-blue);
+
+  --color-success-bg: #173d2a;
+  --color-success-border: #2f6b48;
+  --color-success-text: #a8dba8;
+  --color-danger-bg: #4a1c22;
+  --color-danger-border: #7a2e38;
+  --color-danger-text: #f5c6cb;
+}
+
+// Dark mode follows the OS preference unless the page sets data-theme="light".
+@if $dark-mode-follows-os {
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      @include dark-tokens;
+    }
+  }
+}
+
+// data-theme="dark" forces it.
+:root[data-theme="dark"] {
+  @include dark-tokens;
+}

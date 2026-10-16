@@ -1,0 +1,73 @@
+// Element defaults. Uses semantic tokens only; see _tokens.scss.
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  // Vertical margin stays the browser default for now; the page container is .site.
+  margin-left: 0;
+  margin-right: 0;
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: var(--text-base);
+  line-height: var(--leading-tight);
+  color: var(--color-text);
+  background: var(--color-page);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  line-height: var(--leading-tight);
+}
+
+li {
+  padding: 0 12px;
+}
+
+a:link,
+a:visited {
+  color: var(--color-link);
+}
+
+a:hover {
+  color: var(--color-link-hover);
+}
+
+a:active,
+a.current {
+  color: var(--color-link-active);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+pre,
+blockquote {
+  position: relative;
+  background-color: var(--color-code-bg);
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: var(--leading-code);
+  border-radius: var(--radius-content);
+}
+
+blockquote {
+  border-left: 0.25em solid var(--color-quote-border);
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 24px;
+  color: #6a737d; // becomes var(--color-text-muted) in Phase 2, a deliberate visual change
+}
+
+img {
+  max-width: 100%;
+}

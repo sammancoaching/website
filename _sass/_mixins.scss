@@ -3,22 +3,8 @@
 // Focus outline shared by links, inputs, and buttons across the site.
 @mixin focus-ring {
   &:focus-visible {
-    outline: 2px solid $dark-blue;
+    outline: 2px solid var(--color-focus);
     outline-offset: 2px;
-  }
-}
-
-// Adds a `:focus` fallback for browsers without `:focus-visible` support.
-@mixin focus-ring-fallback {
-  @include focus-ring;
-
-  &:focus {
-    outline: 2px solid $dark-blue;
-    outline-offset: 2px;
-  }
-
-  &:focus:not(:focus-visible) {
-    outline: none;
   }
 }
 
