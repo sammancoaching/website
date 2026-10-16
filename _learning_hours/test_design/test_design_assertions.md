@@ -34,6 +34,9 @@ A unit test should fail if the thing you are testing has a bug in it. We are try
 
 Make sure they have access to the documentation for their test framework. Point out the documentation for how to assert for equality and assert that an exception is thrown.
 
+### Demo - writing a unit test
+If the participants have never written a unit test before, briefly show them how to create one, including any necessary syntax for their test framework. Include an assertion and show how to run the test and see it pass or fail.
+
 ### Concrete - without AI tooling
 
 Write some test cases for some existing code that has well-marked bugs in it. For example, [CalcStats](https://github.com/emilybache/CalcStats-TestDesign-Kata). Make sure to explain what the code is supposed to do as well as that it also contains bugs that are not marked. 
