@@ -10,6 +10,10 @@ When adding or removing pages, changing javascript or other larger changes, buil
 
 The search bar tests need a Chrome/Chromium browser. In environments without a standard Chrome install, set CHROME_BIN to the browser binary (e.g. CHROME_BIN=/opt/pw-browsers/chromium in Claude Code remote containers). If an incompatible chromedriver is on PATH, remove its directory from PATH so Selenium can download a matching driver.
 
+To check styling consistency across page types (colours, fonts, radii, low-contrast text), start the site and run:
+
+    python _tools/style_audit/style_audit.py [--dark]
+
 ## Git commits
 * Never run `git commit` (or otherwise create commits) in this repository unless the user asks you to explicitly.
 * This repository has an ambition to use [Risk-Aware commit notation](https://github.com/RefactoringCombos/ArlosCommitNotation).
