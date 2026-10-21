@@ -5,7 +5,7 @@ kata: parrot
 difficulty: 3
 author: emilybache
 affiliation: Praqma
-tags:  refactoring
+tags:  refactoring oop
 name: replace_conditional_with_polymorphism
 ---
 
