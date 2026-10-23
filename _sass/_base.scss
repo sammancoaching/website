@@ -42,6 +42,14 @@ a.is-current {
   color: var(--color-link-active);
 }
 
+// Form controls don't inherit the page font by default.
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
 a:focus-visible,
 button:focus-visible,
 input:focus-visible {
@@ -66,6 +74,11 @@ blockquote {
   margin-right: 0;
   padding-left: 24px;
   color: #6a737d; // becomes var(--color-text-muted) in Phase 2, a deliberate visual change
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--color-border);
 }
 
 img {
