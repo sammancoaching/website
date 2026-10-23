@@ -9,22 +9,22 @@ layout: default
     {{ content | markdownify }}
 </div>
 
-<div class="coach-list">
+<div class="person-list">
     {% for contributor_entry in site.data.contributors %}
     {% assign contributor = contributor_entry[1] %}
     {% if contributor.member and contributor.offers contains page.offer_key %}
-    <div class="coach-row">
+    <div class="panel panel--interactive person-row">
         {% if contributor.photo %}
-        <img class="coach-row__photo" src="{{ site.baseurl }}/{{ contributor.photo }}" alt="{{ contributor.title }}">
+        <img class="avatar avatar--sm" src="{{ site.baseurl }}/{{ contributor.photo }}" alt="{{ contributor.title }}">
         {% else %}
         {% assign name_parts = contributor.title | split: ' ' %}
-        <div class="coach-row__initials">{% for part in name_parts limit: 2 %}{{ part | slice: 0 }}{% endfor %}</div>
+        <div class="avatar avatar--sm avatar--initials">{% for part in name_parts limit: 2 %}{{ part | slice: 0 }}{% endfor %}</div>
         {% endif %}
-        <div class="coach-row__details">
-            <div class="coach-row__name">{{ contributor.title }}</div>
-            <div class="coach-row__affiliation">{{ contributor.affiliation }}</div>
+        <div class="person-row__body">
+            <div class="person-row__name">{{ contributor.title }}</div>
+            <div class="text-muted text-small">{{ contributor.affiliation }}</div>
             {% if contributor.headline %}
-            <div class="coach-row__headline">{{ contributor.headline }}</div>
+            <div class="person-row__headline">{{ contributor.headline }}</div>
             {% endif %}
         </div>
         <div>

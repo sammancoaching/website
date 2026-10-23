@@ -55,8 +55,8 @@ def test_detail_pages_list_tagged_member_coaches():
             if key in coaches_for(offer_key):
                 assert name in html, f"{name} should be listed on the {offer_key} page."
             else:
-                # match the coach-row name element to avoid false positives from page prose
-                assert f'coach-row__name">{name}<' not in html, \
+                # match the person-row name element to avoid false positives from page prose
+                assert f'person-row__name">{name}<' not in html, \
                     f"{name} should NOT be listed as a coach on the {offer_key} page."
 
 

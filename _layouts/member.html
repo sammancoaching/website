@@ -21,18 +21,18 @@ layout: society
 {% endfor %}
 {% endif %}
 
-<section class="member-hero{% unless contributor.photo %} member-hero--no-photo{% endunless %}">
+<section class="profile-hero{% unless contributor.photo %} profile-hero--no-photo{% endunless %}">
     {% if contributor.photo %}
-    <div class="member-hero__media">
-        <img src="/{{ contributor.photo }}" alt="{{ contributor.title }}" class="member-hero__photo">
+    <div>
+        <img src="/{{ contributor.photo }}" alt="{{ contributor.title }}" class="avatar avatar--lg">
     </div>
     {% endif %}
-    <div class="member-hero__content">
-        <h1>{{ page.title }}</h1>
+    <div>
+        <h1 class="profile-hero__title">{{ page.title }}</h1>
         {% if contributor.headline %}
-        <p class="member-hero__headline">{{ contributor.headline }}</p>
+        <p class="lead">{{ contributor.headline }}</p>
         {% endif %}
-        <div class="member-hero__links">
+        <div class="cluster">
             {% if contributor.url %}
             <a class="btn" href="{{ contributor.url }}">Website</a>
             {% endif %}
