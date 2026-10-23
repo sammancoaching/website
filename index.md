@@ -12,9 +12,9 @@ Read the Samman Society [official position on Agentic AI]({% link society/agenti
 
 ## Upcoming events
 
-<section class="home-community">
-  <div class="home-community__events">
-    <div class="events-list home-events-list">
+<section class="split">
+  <div>
+    <div class="event-list">
     {% assign event_entries = "" | split: "," %}
     {% for event_item in site.upcoming_events %}
       {% if event_item.show_on_homepage %}
@@ -23,21 +23,21 @@ Read the Samman Society [official position on Agentic AI]({% link society/agenti
         {% ical url: ical_url only_future: true limit: 1 %}
           {% assign start_timestamp = event.start_time | date: "%Y%m%d%H%M" %}
           {% capture event_html %}
-          <div class="event-card event-card--mini">
+          <div class="panel panel--interactive event-card event-card--compact">
             {% assign local_time = event.start_time | to_local_time %}
-            <div class="event-date-block">
-              <div class="weekday">{{ local_time | date: "%a" }}</div>
-              <div class="day">{{ local_time | date: "%-d" }}</div>
-              <div class="month-year">{{ local_time | date: "%b %Y" }}</div>
-              <div class="time">{{ local_time | date: "%H:%M %Z" }}</div>
+            <div class="date-badge">
+              <div class="date-badge__weekday">{{ local_time | date: "%a" }}</div>
+              <div class="date-badge__day">{{ local_time | date: "%-d" }}</div>
+              <div class="date-badge__month">{{ local_time | date: "%b %Y" }}</div>
+              <div class="date-badge__time">{{ local_time | date: "%H:%M %Z" }}</div>
             </div>
-            <div class="event-details">
-              <h3>{{ event_item.title }}</h3>
-              <div class="event-meta">
+            <div class="event-card__body">
+              <h3 class="event-card__title">{{ event_item.title }}</h3>
+              <div class="meta">
                 <span>{{ event_item.duration }}</span>
               </div>
               <p>{{ event_item.description }}</p>
-              <div class="event-links">
+              <div class="cluster">
                 <a href="{% link {{ event_item.details_link }} %}" class="btn btn--sm">View Details</a>
               </div>
             </div>
@@ -59,7 +59,7 @@ Read the Samman Society [official position on Agentic AI]({% link society/agenti
     <p><a href="{% link society/events/index.md %}">See all events</a></p>
   </div>
 
-  <aside class="home-community__newsletter">
+  <aside class="panel panel--interactive panel--sticky">
     <h3>Stay connected</h3>
     <p>Community updates and coaching resources in one monthly email.</p>
     <p><strong>Includes free TDD Heuristics guide.</strong></p>

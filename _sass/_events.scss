@@ -1,188 +1,128 @@
-@use "colors" as *;
+// Date badge and event cards. See _docs/design_system.html.
 @use "variables" as *;
 
-.events-list {
-  max-width: $content-width;
-  margin: 0 auto;
-}
+// ---- Date badge ----
 
-.event-card {
-  display: grid;
-  grid-template-columns: 150px 1fr;
-  gap: 1rem;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  border: 2px solid #e8e8e8;
-  border-radius: 10px;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.home-events-list .event-card--mini {
-  grid-template-columns: 110px 1fr;
-  gap: 0.75rem;
-  padding: 0.75rem;
-}
-
-.home-events-list .event-card--mini .event-date-block {
-  padding: 0.75rem;
-}
-
-.home-events-list .event-card--mini .event-date-block .day {
-  font-size: 1.5em;
-}
-
-.home-events-list .event-card--mini .event-details h3 {
-  margin-bottom: 0.25rem;
-  font-size: 1.15rem;
-}
-
-.home-events-list .event-card--mini .event-details p {
-  margin-bottom: 0.5rem;
-  font-size: 0.95rem;
-}
-
-.home-events-list .event-card--mini .event-links a {
-  padding: 0.4rem 0.85rem;
-}
-
-.home-community {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 1rem;
-  align-items: start;
-}
-
-.home-community__newsletter {
-  background: transparent;
-  border: 2px solid #e8e8e8;
-  border-radius: 10px;
-  padding: 1rem;
-  position: sticky;
-  top: 1rem;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.home-community__newsletter:hover {
-  border-color: $dark-blue;
-  box-shadow: 0 4px 12px rgba($dark-blue, 0.15);
-}
-
-.home-community__newsletter h3 {
-  margin-top: 0;
-}
-
-.home-community__newsletter p:last-child {
-  margin-bottom: 0;
-}
-
-.event-card:hover {
-  border-color: $dark-blue;
-  box-shadow: 0 4px 12px rgba($dark-blue, 0.15);
-}
-
-.event-date-block {
-  background: $light-blue;
-  color: $dark-blue;
-  padding: 1rem;
-  border-radius: 8px;
-  text-align: center;
+.date-badge {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: var(--space-panel-padding);
+  background: var(--color-highlight-subtle);
+  color: var(--color-on-highlight-subtle);
+  border-radius: var(--radius-container);
+  text-align: center;
 }
 
-.event-date-block .weekday {
-  font-size: 0.75em;
+.date-badge__weekday {
+  font-size: var(--text-xs);
   text-transform: uppercase;
   letter-spacing: 1px;
-  opacity: 0.9;
-  margin-bottom: 0.25rem;
+  margin-bottom: var(--space-text-gap);
 }
 
-.event-date-block .day {
+.date-badge__day {
   font-size: 2em;
   font-weight: bold;
   line-height: 1;
   margin-bottom: 0.2rem;
 }
 
-.event-date-block .month-year {
-  font-size: 0.85em;
-  opacity: 0.95;
+.date-badge__month {
+  font-size: var(--text-sm);
 }
 
-.event-date-block .time {
-  font-size: 0.75em;
-  margin-top: 0.5rem;
-  padding-top: 0.5rem;
-  border-top: 1px solid rgba(255,255,255,0.3);
+.date-badge__time {
+  font-size: var(--text-xs);
+  margin-top: var(--space-heading-gap);
+  padding-top: var(--space-heading-gap);
+  border-top: 1px solid color-mix(in srgb, currentColor 30%, transparent);
 }
 
-.event-details {
+// ---- Event card ----
+// A panel with a date badge beside the event details. Use with .panel.
+
+.event-list {
+  max-width: var(--content-width);
+  margin: 0 auto;
+}
+
+.event-card {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: var(--space-block-gap);
+  margin-bottom: var(--space-block-gap);
+
+  @media (max-width: $on-small) {
+    grid-template-columns: 1fr;
+    padding: 1.25rem;
+
+    .date-badge__day {
+      font-size: 2.5rem;
+    }
+  }
+}
+
+.event-card__body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  p {
+    margin-bottom: var(--space-paragraph-gap);
+  }
 }
 
-.event-details h3 {
+.event-card__title {
   margin-top: 0;
-  margin-bottom: 0.5rem;
-}
+  margin-bottom: var(--space-heading-gap);
 
-.event-meta {
-  display: flex;
-  gap: 1rem;
-  margin-bottom: 0.5rem;
-  color: $dark-blue;
-  opacity: 0.7;
-}
-
-.event-meta span {
-  display: flex;
-  align-items: center;
-  gap: 0.3rem;
-}
-
-.event-details p {
-  margin-bottom: 0.75rem;
-}
-
-.event-links {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-/* Mobile responsive */
-@media (max-width: $on-small) {
-  .home-community {
-    grid-template-columns: 1fr;
-  }
-
-  .home-community__newsletter {
-    position: static;
-  }
-
-  .event-card {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-    padding: 1.25rem;
-  }
-  
-  .event-date-block {
-    padding: 1rem;
-  }
-  
-  .event-date-block .day {
-    font-size: 2.5rem;
-  }
-  
-  .event-details h3 {
+  @media (max-width: $on-small) {
     font-size: 1.25rem;
   }
+}
 
-  .home-events-list .event-card--mini {
-    padding: 1rem;
+// Compact cards keep the badge beside the details, and their sizes, on small screens.
+.event-card--compact {
+  grid-template-columns: 110px 1fr;
+  gap: var(--space-inline-gap);
+  padding: var(--space-panel-padding-compact);
+
+  @media (max-width: $on-small) {
+    grid-template-columns: 110px 1fr;
+    padding: var(--space-panel-padding);
+  }
+
+  .date-badge {
+    padding: var(--space-panel-padding-compact);
+  }
+
+  .date-badge__day {
+    font-size: 1.5em;
+  }
+
+  .event-card__title {
+    margin-bottom: var(--space-text-gap);
+    font-size: 1.15rem;
+  }
+
+  .event-card__body p {
+    margin-bottom: var(--space-paragraph-gap-compact);
+    font-size: var(--text-md);
+  }
+}
+
+// Inline metadata line, e.g. duration or location.
+.meta {
+  display: flex;
+  gap: var(--space-inline-gap);
+  margin-bottom: var(--space-heading-gap);
+  color: var(--color-text-muted);
+
+  > * {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
   }
 }

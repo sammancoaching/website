@@ -24,14 +24,14 @@ def test_upcoming_events():
         assert indicator not in html_content, f"Found error indicator '{indicator}' on the upcoming events page."
 
     # 2. All events are in the future
-    # Using regex to extract date components from event-date-block
+    # Using regex to extract date components from the date badge
     # Example:
-    # <div class="day">21</div>
-    # <div class="month-year">April 2026</div>
+    # <div class="date-badge__day">21</div>
+    # <div class="date-badge__month">April 2026</div>
     
     # Combined regex to find day and month-year
     # We'll search for pairs of day and month-year
-    date_pattern = re.compile(r'<div class="day">(\d+)</div>\s*<div class="month-year">([^<]+)</div>', re.DOTALL)
+    date_pattern = re.compile(r'<div class="date-badge__day">(\d+)</div>\s*<div class="date-badge__month">([^<]+)</div>', re.DOTALL)
     matches = date_pattern.findall(html_content)
     
     assert len(matches) > 0, "No upcoming events found on the page. Check if the generation is working correctly."

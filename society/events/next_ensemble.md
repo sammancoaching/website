@@ -12,7 +12,7 @@ _Support the Society and Collaborate with Other Coaches._
 {% ical url: ical_url only_future: true limit: 1 %}
 **Next event: {{ event.start_time | date: "%A %-d %B %Y" }}**
 
-<div class="event-links">
+<div class="cluster">
   <a href="{{ calendar_link }}" class="btn">Add to Calendar</a>
 </div>
 {% endical %}

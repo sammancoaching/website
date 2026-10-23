@@ -13,7 +13,7 @@ title: Samman Coaching Society Online Open Space Event
 
 _Bring your questions and exchange experiences with other technical coaches._
 
-<div class="event-links">
+<div class="cluster">
   <a href="{{ calendar_link }}" class="btn">Add to Calendar</a>
 </div>
 
