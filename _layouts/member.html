@@ -34,26 +34,26 @@ layout: society
         {% endif %}
         <div class="member-hero__links">
             {% if contributor.url %}
-            <a class="member-link" href="{{ contributor.url }}">Website</a>
+            <a class="btn" href="{{ contributor.url }}">Website</a>
             {% endif %}
             {% if youtube_url %}
-            <a class="member-link" href="{{ youtube_url }}">YouTube</a>
+            <a class="btn" href="{{ youtube_url }}">YouTube</a>
             {% endif %}
             {% if linkedin_url %}
-            <a class="member-link" href="{{ linkedin_url }}">LinkedIn</a>
+            <a class="btn" href="{{ linkedin_url }}">LinkedIn</a>
             {% endif %}
             {% if podcast_url %}
-            <a class="member-link" href="{{ podcast_url }}">Podcast</a>
+            <a class="btn" href="{{ podcast_url }}">Podcast</a>
             {% endif %}
             {% if contact_url %}
-            <a class="member-link" href="{{ contact_url }}">Contact</a>
+            <a class="btn" href="{{ contact_url }}">Contact</a>
             {% endif %}
             {% if contributor.additional_links %}
             {% for item in contributor.additional_links %}
                 {% for link in item %}
                     {% assign label = link[0] | downcase %}
                     {% unless label == 'youtube' or label == 'linkedin' or label == 'podcast' or label == 'contact' %}
-            <a class="member-link" href="{{ link[1] }}">{{ link[0] }}</a>
+            <a class="btn" href="{{ link[1] }}">{{ link[0] }}</a>
                     {% endunless %}
                 {% endfor %}
             {% endfor %}

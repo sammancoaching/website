@@ -38,7 +38,7 @@ Read the Samman Society [official position on Agentic AI]({% link society/agenti
               </div>
               <p>{{ event_item.description }}</p>
               <div class="event-links">
-                <a href="{% link {{ event_item.details_link }} %}" class="details-link">View Details</a>
+                <a href="{% link {{ event_item.details_link }} %}" class="btn btn--sm">View Details</a>
               </div>
             </div>
           </div>
@@ -63,7 +63,7 @@ Read the Samman Society [official position on Agentic AI]({% link society/agenti
     <h3>Stay connected</h3>
     <p>Community updates and coaching resources in one monthly email.</p>
     <p><strong>Includes free TDD Heuristics guide.</strong></p>
-    <a class="details-link" href="{% link newsletter.md %}">Newsletter</a>
+    <a class="btn" href="{% link newsletter.md %}">Newsletter</a>
     <p>Unsubscribe anytime.</p>
   </aside>
 </section>

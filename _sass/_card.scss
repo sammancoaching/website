@@ -1,6 +1,5 @@
 @use "colors" as *;
 @use "variables" as *;
-@use "mixins" as *;
 
 .card-grid{
   display: grid;
@@ -58,10 +57,6 @@
   padding: 4px 0;
   transform: rotate(-45deg);
   z-index: 1;
-}
-
-.button {
-  @include pill-button;
 }
 
 .offer-card-grid {

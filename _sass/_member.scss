@@ -1,6 +1,5 @@
 @use "colors" as *;
 @use "variables" as *;
-@use "mixins" as *;
 
 .member-hero {
   display: grid;
@@ -36,10 +35,6 @@
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-}
-
-.member-link {
-  @include pill-button;
 }
 
 @media screen and (max-width: $on-medium) {

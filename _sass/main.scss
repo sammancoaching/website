@@ -1,19 +1,17 @@
 @use "tokens";
 @use "fonts";
+@use "base";
+@use "layout";
+@use "button";
 @use "navigation";
 @use "colors" as *;
 @use "variables" as *;
-@use "mixins" as *;
 @use "print";
 @use "events";
 @use "code";
 @use "copy_markdown";
 @use "card";
 @use "member";
-// Base comes after the components for now: `.event-links a` relies on losing
-// to `a:link` for its text colour. It moves to the top once buttons are `.btn`.
-@use "base";
-@use "layout";
 
 img[src*="#book_cover"] {
 	border: 5px solid $dark-blue;

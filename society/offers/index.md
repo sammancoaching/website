@@ -27,7 +27,7 @@ title: Offers
         <p>{{ offer.description }}</p>
         <p class="offer-coach-count">{{ coach_count }} {% if coach_count == 1 %}coach offers{% else %}coaches offer{% endif %} this</p>
         <div>
-            <a class="button" href="{{ site.baseurl }}/society/offers/{{ offer.slug }}.html">See the coaches</a>
+            <a class="btn" href="{{ site.baseurl }}/society/offers/{{ offer.slug }}.html">See the coaches</a>
         </div>
     </div>
     {% endfor %}

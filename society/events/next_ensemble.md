@@ -13,7 +13,7 @@ _Support the Society and Collaborate with Other Coaches._
 **Next event: {{ event.start_time | date: "%A %-d %B %Y" }}**
 
 <div class="event-links">
-  <a href="{{ calendar_link }}" class="add-calendar-btn">Add to Calendar</a>
+  <a href="{{ calendar_link }}" class="btn">Add to Calendar</a>
 </div>
 {% endical %}
 

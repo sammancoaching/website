@@ -29,8 +29,8 @@ title: Upcoming Samman Coaching Society Events
         </div>
         <p>{{ event_item.description }}</p>
         <div class="event-links">
-          <a href="{{ event_data.calendar_link }}" class="add-calendar-btn">Add to Calendar</a>
-          <a href="{% link {{ event_item.details_link }} %}" class="details-link">View Details</a>
+          <a href="{{ event_data.calendar_link }}" class="btn">Add to Calendar</a>
+          <a href="{% link {{ event_item.details_link }} %}" class="btn">View Details</a>
         </div>
       </div>
     </div>

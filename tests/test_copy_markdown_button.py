@@ -14,7 +14,7 @@ def embedded_markdown():
     html = BUILT_PAGE.read_text(encoding='utf-8')
     blocks = re.findall(
         r'<div class="copy-markdown">.*?'
-        r'<button type="button" class="copy-markdown-button" aria-label="Copy as markdown">.*?</button>.*?'
+        r'<button type="button" class="btn btn--icon" aria-label="Copy as markdown">.*?</button>.*?'
         r'<script type="text/plain" class="copy-markdown-source">(.*?)</script>',
         html, flags=re.DOTALL)
     assert len(blocks) == 2, "expected one button for the original and one for the updated requirements"

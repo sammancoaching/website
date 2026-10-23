@@ -1,6 +1,5 @@
 @use "colors" as *;
 @use "variables" as *;
-@use "mixins" as *;
 
 .events-list {
   max-width: $content-width;
@@ -153,15 +152,6 @@
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
-}
-
-.event-links a {
-  @include action-link-base;
-}
-
-.add-calendar-btn,
-.details-link {
-  @include pill-button;
 }
 
 /* Mobile responsive */

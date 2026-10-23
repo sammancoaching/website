@@ -1,0 +1,113 @@
+// One button style for every link or button that is an action.
+// See _docs/design_system.html.
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-icon-gap);
+  padding: var(--space-control-y) var(--space-control-x);
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: var(--leading-tight);
+  text-decoration: none;
+  color: var(--color-action-text);
+  background: var(--color-action-bg);
+  border: var(--border-width) solid var(--color-action-border);
+  border-radius: var(--radius-control);
+  cursor: pointer;
+  transition: background-color var(--transition-fast), color var(--transition-fast), border-color var(--transition-fast);
+
+  &:link,
+  &:visited {
+    color: var(--color-action-text);
+  }
+
+  &:hover,
+  &:focus-visible {
+    background: var(--color-highlight);
+    color: var(--color-on-highlight);
+  }
+
+  svg {
+    flex: none;
+  }
+}
+
+.btn--sm {
+  padding: 0.4rem 0.85rem;
+}
+
+// Icon-only button whose label slides out on hover, focus or state change.
+.btn--icon {
+  gap: 0;
+  height: 36px;
+  padding: 0 8px;
+  font-size: 15px;
+}
+
+.btn__label {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 0;
+  opacity: 0;
+  padding-left: 0;
+  transition: max-width 0.25s ease, opacity var(--transition-fast), padding-left 0.25s ease;
+}
+
+.btn--icon:hover .btn__label,
+.btn--icon:focus-visible .btn__label,
+.btn--icon.is-success .btn__label,
+.btn--icon.is-error .btn__label {
+  max-width: 200px;
+  opacity: 1;
+  padding-left: 8px;
+}
+
+// Small square button overlaid on the corner of a code block or quote.
+// copy_code.js adds it to each block.
+.btn--overlay {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 28px;
+  height: 28px;
+  padding: 4px;
+  justify-content: center;
+  border-width: 1px;
+  border-radius: var(--radius-control-compact);
+  color: var(--color-text);
+  background: var(--color-page);
+  opacity: 0;
+  z-index: 10;
+  transition: opacity var(--transition-fast), background-color var(--transition-fast), transform 0.1s ease;
+
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+// :where keeps this at the same specificity as the state rules below, so they win.
+:where(div.highlighter-rouge, figure.highlight, pre, blockquote):hover .btn--overlay {
+  opacity: 0.6;
+}
+
+.btn--overlay:hover,
+.btn--overlay:focus-visible,
+.btn--overlay.is-success,
+.btn--overlay.is-error {
+  opacity: 1;
+}
+
+.btn.is-success {
+  background: var(--color-success-bg);
+  border-color: var(--color-success-border);
+  color: var(--color-success-text);
+}
+
+.btn.is-error {
+  background: var(--color-danger-bg);
+  border-color: var(--color-danger-border);
+  color: var(--color-danger-text);
+}
