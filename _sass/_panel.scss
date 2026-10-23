@@ -1,0 +1,33 @@
+// The bordered, rounded box behind cards, event cards, person rows and asides.
+// See _docs/design_system.html.
+@use "variables" as *;
+
+.panel {
+  padding: var(--space-panel-padding);
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--radius-container);
+  transition: border-color var(--transition-base), box-shadow var(--transition-base);
+}
+
+.panel--interactive:hover {
+  border-color: var(--color-border-strong);
+  box-shadow: var(--shadow-raised);
+}
+
+.panel--sticky {
+  position: sticky;
+  top: var(--space-block-gap);
+
+  @media (max-width: $on-small) {
+    position: static;
+  }
+}
+
+.panel > :first-child {
+  margin-top: 0;
+}
+
+.panel > :last-child {
+  margin-bottom: 0;
+}

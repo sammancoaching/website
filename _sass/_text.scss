@@ -1,0 +1,14 @@
+// Text helpers. See _docs/design_system.html.
+
+.text-muted {
+  color: var(--color-text-muted);
+}
+
+.text-small {
+  font-size: var(--text-sm);
+}
+
+.lead {
+  font-size: var(--text-lead);
+  margin: 0 0 14px;
+}
