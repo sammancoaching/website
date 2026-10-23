@@ -116,6 +116,7 @@
   --color-brand: var(--brand-coral);               /* header, nav, footer bar */
   --color-on-brand: var(--brand-off-white);
   --color-on-brand-hover-bg: var(--brand-dark-blue);
+  --color-brand-accent: var(--brand-dark-blue);    /* menu icon and mobile menu border */
 
   --color-highlight: var(--brand-light-blue);      /* button hover fill */
   --color-on-highlight: var(--brand-dark-blue);
@@ -164,6 +165,7 @@
     --color-brand: var(--brand-coral);
     --color-on-brand: var(--brand-off-white);
     --color-on-brand-hover-bg: var(--brand-dark-blue);
+    --color-brand-accent: var(--brand-dark-blue);
 
     --color-highlight: var(--brand-light-blue);
     --color-on-highlight: var(--brand-dark-blue);
@@ -209,6 +211,7 @@
   --color-brand: var(--brand-coral);
   --color-on-brand: var(--brand-off-white);
   --color-on-brand-hover-bg: var(--brand-dark-blue);
+  --color-brand-accent: var(--brand-dark-blue);
 
   --color-highlight: var(--brand-light-blue);
   --color-on-highlight: var(--brand-dark-blue);
@@ -275,6 +278,14 @@ a:hover {
 a:active,
 a.is-current {
   color: var(--color-link-active);
+}
+
+/* Form controls don't inherit the page font by default. */
+button,
+input,
+select,
+textarea {
+  font: inherit;
 }
 
 a:focus-visible,
@@ -496,10 +507,16 @@ img {
   background: var(--color-page);
   opacity: 0;
   z-index: 10;
+  transition: opacity var(--transition-fast), background-color var(--transition-fast), transform 0.1s ease;
 }
 
-pre:hover .btn--overlay,
-.highlight:hover .btn--overlay {
+.btn--overlay:active {
+  transform: scale(0.95);
+}
+
+/* copy_code.js puts the button in the Rouge wrapper div, not inside pre.
+   :where keeps this at the same specificity as the state rules below, so they win. */
+:where(div.highlighter-rouge, figure.highlight, pre, blockquote):hover .btn--overlay {
   opacity: 0.6;
 }
 
@@ -670,7 +687,6 @@ pre:hover .btn--overlay,
 }
 
 .event-card__body p {
-  margin-top: 0;
   margin-bottom: var(--space-paragraph-gap);
 }
 
@@ -699,10 +715,8 @@ pre:hover .btn--overlay,
 }
 
 @media (max-width: 768px) {
-  .event-card,
-  .event-card--compact {
+  .event-card {
     grid-template-columns: 1fr;
-    gap: var(--space-block-gap);
     padding: 1.25rem;
   }
 
@@ -712,6 +726,20 @@ pre:hover .btn--overlay,
 
   .event-card__title {
     font-size: 1.25rem;
+  }
+
+  /* Compact cards keep the badge beside the details, and their sizes. */
+  .event-card--compact {
+    grid-template-columns: 110px 1fr;
+    padding: var(--space-panel-padding);
+  }
+
+  .event-card--compact .date-badge__day {
+    font-size: 1.5em;
+  }
+
+  .event-card--compact .event-card__title {
+    font-size: 1.15rem;
   }
 }
 
@@ -843,14 +871,8 @@ pre:hover .btn--overlay,
   width: 250px;
   max-width: 100%;
   margin-left: auto;
-  margin-right: 0;
+  margin-right: auto;
   border: 5px solid var(--color-border-strong);
-}
-
-@media screen and (max-width: 600px) {
-  .book-cover {
-    margin-right: auto;
-  }
 }
 
 /* ---- Site header ---- */
@@ -1639,6 +1661,13 @@ pre:hover .btn--overlay,
     <li>On mobile, the gap inside event cards goes from 1.5rem to <code>--space-block-gap</code> (1rem).</li>
     <li>Button labels in light mode use dark blue instead of light blue, which raises contrast from 1.8:1 to 10.7:1. The light blue border stays.</li>
     <li>The code copy button's success and error icons use <code>currentColor</code> instead of hardcoded colours.</li>
+    <li>The "Copy as markdown" button turns green when it has copied, like the code copy button, instead of light blue.</li>
+    <li>Event cards and the newsletter box get the panel surface, which is slightly lighter than the page.</li>
+    <li>The first heading in a panel loses its top margin, so offer card titles move up.</li>
+    <li>Small text on the offer pages goes from 0.9em to <code>--text-sm</code> (0.85em).</li>
+    <li>The search input uses the page font (16px Inter) instead of the browser default (13px Arial), and its results open under the input instead of at the right edge of the window.</li>
+    <li>Horizontal rules, including the footer divider, are a 1px <code>--color-border</code> line instead of the browser's grey inset rule.</li>
+    <li>The book cover on Emily's profile is centred.</li>
   </ul>
 </section>
 
@@ -1724,6 +1753,7 @@ pre:hover .btn--overlay,
       ['--color-focus', 'dark-blue', 'light-blue', 'Focus outline'],
       ['--color-brand', 'coral', 'coral', 'Header, nav, footer bar'],
       ['--color-on-brand', 'off-white', 'off-white', 'Text on brand colour'],
+      ['--color-brand-accent', 'dark-blue', 'dark-blue', 'Menu icon and mobile menu border'],
       ['--color-highlight', 'light-blue', 'light-blue', 'Button hover fill'],
       ['--color-on-highlight', 'dark-blue', 'dark-blue', 'Text on highlight'],
       ['--color-highlight-subtle', 'light-blue', 'light-blue 16%', 'Date badge, initials, ribbon'],
