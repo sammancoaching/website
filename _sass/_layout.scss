@@ -73,3 +73,17 @@
     grid-template-columns: 1fr;
   }
 }
+
+// The 404 page.
+.not-found {
+  margin: 10px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.not-found__code {
+  margin: 30px 0;
+  font-size: 4em;
+  line-height: 1;
+  letter-spacing: -1px;
+}
