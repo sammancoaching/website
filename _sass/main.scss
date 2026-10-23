@@ -5,6 +5,7 @@
 @use "text";
 @use "button";
 @use "panel";
+@use "chrome";
 @use "navigation";
 @use "colors" as *;
 @use "variables" as *;
@@ -54,81 +55,11 @@ img[src*="#book_cover"] {
   }
 }
 
-.site-header {
-  background-image: url("/assets/images/samman_banner.png");
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: contain;
-  background-color: $coral;
-  padding-top: 110px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-
-}
 @media screen and (max-width: $on-medium) {
-
-  .banner{
+  .banner {
     padding-right: 70px;
-    img{
-
+    img {
       width: 100%;
     }
   }
-  .site-header {
-    background-image: url("/assets/images/samman_logo_right.png");
-    background-size: auto 110px; // keep logo height consistent on small screens
-    padding-bottom: 20px; // extend coral further down
-  }
-  .site-header .search-box {
-    margin: -8px 18px 12px 0;
-  }
-}
-
-.search-box {
-  float:right;
-  margin: -13px 18px 5px 0;
-}
-
-.search-box #search-input {
-  border: 1px solid $dark-blue;
-  border-radius: 6px;
-}
-
-.site-header #search-results {
-  display: none;
-  position: absolute;
-  background: #fff;
-  border: 1px solid $dark-blue;
-  border-radius: 6px;
-  z-index: 1000;
-  list-style: none;
-  margin: 0;
-  padding: 8px 8px 8px 0;
-  text-align: left;
-  width: 20em;
-  right: 18px;
-  max-width: calc(100vw - 36px);
-}
-
-.site-header #search-results.active {
-  display: block;
-}
-
-footer {
-	padding: 6px 12px;
-
-	.footer-logo-bar {
-	  margin: 12px -12px 0; // full-width bar inside padded footer
-	  background-color: $coral;
-	  border-top-left-radius: 5px;
-	  border-top-right-radius: 5px;
-	  text-align: center;
-	  padding: 6px 0;
-
-	  img {
-	    display: inline-block;
-	    max-width: 120px;
-	    height: auto;
-	  }
-	}
 }

@@ -20,9 +20,9 @@
             setTimeout(function () {
                 var hasResults = searchResults.querySelectorAll('li').length > 0 && val.length > 0;
                 if (hasResults) {
-                    searchResults.classList.add('active');
+                    searchResults.classList.add('is-active');
                 } else {
-                    searchResults.classList.remove('active');
+                    searchResults.classList.remove('is-active');
                 }
             }, 100);
         });
@@ -30,7 +30,7 @@
         // Hide results if input loses focus (optional)
         searchInput.addEventListener('blur', function () {
             setTimeout(function () {
-                searchResults.classList.remove('active');
+                searchResults.classList.remove('is-active');
             }, 300);
         });
 
@@ -40,19 +40,14 @@
             setTimeout(function () {
                 var hasResults = searchResults.querySelectorAll('li').length > 0 && val.length > 0;
                 if (hasResults) {
-                    searchResults.classList.add('active');
+                    searchResults.classList.add('is-active');
                 }
             }, 100);
         });
     });
 </script>
-<div class="page-link search-box" id="search-container">
-    <input type="text" id="search-input" placeholder="Search...">
-    <ul id="search-results"></ul>
-    <!--
-      Note: To show the results, add the 'active' class to #search-results via JavaScript when there are results.
-      Example:
-        document.getElementById('search-results').classList.add('active');
-        document.getElementById('search-results').classList.remove('active');
-    -->
+<div class="search" id="search-container">
+    <input type="text" id="search-input" class="search__input" placeholder="Search..." aria-label="Search">
+    <ul id="search-results" class="search__results"></ul>
+    <!-- The script above toggles .is-active on the results to show and hide them. -->
 </div>

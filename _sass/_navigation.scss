@@ -1,41 +1,16 @@
-@use "colors" as *;
+// Site navigation: tabs on the brand bar, a hamburger menu on small screens.
+// See _docs/design_system.html.
 @use "variables" as *;
 
 .site-nav {
   position: absolute;
   top: 20px;
   left: $spacing-unit * .5;
-  background-color: $coral;
-  border: 1px solid $dark-blue;
-  border-radius: 5px;
+  background-color: var(--color-brand);
+  border: 1px solid var(--color-brand-accent);
+  border-radius: var(--radius-bar);
   text-align: left;
-  font-family: $font-stack-headers;
-
-  a {
-    font-weight: bold;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    text-decoration: none;
-    display: inline-block;
-    padding: 3px 6px;
-    margin: 0px;
-  }
-  a:link, a:visited {
-      color: $off-white;
-      background: $coral;
-  }
-  a:active,  a.current {
-      color: $coral;
-      background: $off-white;
-  }
-  a:hover {
-      background: $dark-blue;
-  }
-  a:hover.current {
-      color: $dark-blue;
-      background: $off-white;
-  }
-
+  font-family: var(--font-heading);
 
   .nav-trigger {
     display: none;
@@ -50,7 +25,7 @@
     text-align: center;
 
     > svg path {
-      fill: $dark-blue;
+      fill: var(--color-brand-accent);
     }
   }
 
@@ -73,25 +48,12 @@
     padding-bottom: 5px;
   }
 
-  .page-link {
-    color: $primary-color;
-    line-height: $base-line-height;
-    display: block;
-    padding: 5px 10px;
-
-    // Gaps between nav items, but not on the last one
-    &:not(:last-child) {
-      margin-right: 0;
-    }
-    margin-left: 5px;
-  }
-
   @media screen and (min-width: $on-medium) {
     position: static;
     float: none;
     border: none;
     text-align: justify;
-    text-align-last:center;
+    text-align-last: center;
 
     label[for="nav-trigger"] {
       display: none;
@@ -104,11 +66,49 @@
     input ~ .trigger {
       display: block;
     }
+  }
+}
 
-    .page-link {
-      display: inline-block;
-      padding: 0px;
-      margin:0px;
-    }
+.site-nav__item {
+  display: block;
+  margin-left: 5px;
+  padding: 5px 10px;
+  line-height: 20px;
+
+  @media screen and (min-width: $on-medium) {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.site-nav__link {
+  display: inline-block;
+  padding: 3px 6px;
+  font-weight: bold;
+  text-decoration: none;
+  border-top-left-radius: var(--radius-bar);
+  border-top-right-radius: var(--radius-bar);
+
+  &:link,
+  &:visited {
+    color: var(--color-on-brand);
+    background: var(--color-brand);
+  }
+
+  &:hover {
+    color: var(--color-on-brand);
+    background: var(--color-on-brand-hover-bg);
+  }
+
+  &.is-current,
+  &:active {
+    color: var(--color-brand);
+    background: var(--color-page);
+  }
+
+  &.is-current:hover {
+    color: var(--color-text);
+    background: var(--color-page);
   }
 }

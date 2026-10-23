@@ -1,0 +1,96 @@
+// Site header, search, footer and licence box. Navigation is in _navigation.scss.
+// See _docs/design_system.html.
+@use "variables" as *;
+
+// ---- Site header ----
+
+.site-header {
+  padding-top: 110px;
+  background-color: var(--color-brand);
+  background-image: url("/assets/images/samman_banner.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  border-bottom-left-radius: var(--radius-bar);
+  border-bottom-right-radius: var(--radius-bar);
+
+  @media screen and (max-width: $on-medium) {
+    background-image: url("/assets/images/samman_logo_right.png");
+    background-size: auto 110px; // keep logo height consistent on small screens
+    padding-bottom: 20px; // extend the brand colour further down
+  }
+}
+
+// ---- Search ----
+// Keep the search-input and search-results ids: _includes/search.html and
+// tests/test_search_bar.py use them.
+
+.search {
+  position: relative;
+  float: right;
+  margin: -13px 18px 5px 0;
+
+  @media screen and (max-width: $on-medium) {
+    margin: -8px 18px 12px 0;
+  }
+}
+
+.search__input {
+  padding: 2px 6px;
+  font: inherit;
+  color: var(--color-text);
+  background: var(--color-input-bg);
+  border: 1px solid var(--color-input-border);
+  border-radius: var(--radius-control);
+}
+
+.search__results {
+  display: none;
+  position: absolute;
+  right: 0;
+  z-index: 1000;
+  width: 20em;
+  max-width: calc(100vw - 36px);
+  margin: 4px 0 0;
+  padding: 8px 8px 8px 0;
+  list-style: none;
+  text-align: left;
+  background: var(--color-surface-solid);
+  border: 1px solid var(--color-input-border);
+  border-radius: var(--radius-control);
+
+  &.is-active {
+    display: block;
+  }
+
+  li {
+    padding: 3px 12px;
+  }
+}
+
+// ---- Site footer ----
+
+.site-footer {
+  padding: 6px 12px;
+}
+
+.site-footer__bar {
+  margin: 12px -12px 0; // full-width bar inside the padded footer
+  padding: 6px 0;
+  text-align: center;
+  background-color: var(--color-brand);
+  border-top-left-radius: var(--radius-bar);
+  border-top-right-radius: var(--radius-bar);
+
+  img {
+    display: inline-block;
+    max-width: 120px;
+    height: auto;
+  }
+}
+
+// Licence box, shown only when printing (see _print.scss).
+.licence-box {
+  padding: 10px;
+  border: 1px solid var(--color-border-strong);
+}

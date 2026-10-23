@@ -30,9 +30,9 @@
       {% endif %}
     {% endif %}
 
-    <div class="page-link">
+    <div class="site-nav__item">
       <a href="{{ item.link }}"
-         {% if is_current %}class="current"{% endif %}>
+         class="site-nav__link{% if is_current %} is-current{% endif %}">
         {{ item.name }}
       </a>
     </div>

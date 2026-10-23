@@ -81,6 +81,7 @@ $dark-mode-follows-os: false;
   --color-brand: var(--brand-coral);               // header, nav, footer bar
   --color-on-brand: var(--brand-off-white);
   --color-on-brand-hover-bg: var(--brand-dark-blue);
+  --color-brand-accent: var(--brand-dark-blue);     // menu icon and mobile menu border on the brand colour
 
   --color-highlight: var(--brand-light-blue);      // button hover fill
   --color-on-highlight: var(--brand-dark-blue);
@@ -127,6 +128,7 @@ $dark-mode-follows-os: false;
   --color-brand: var(--brand-coral);
   --color-on-brand: var(--brand-off-white);
   --color-on-brand-hover-bg: var(--brand-dark-blue);
+  --color-brand-accent: var(--brand-dark-blue);
 
   --color-highlight: var(--brand-light-blue);
   --color-on-highlight: var(--brand-dark-blue);
