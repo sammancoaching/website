@@ -73,7 +73,7 @@ blockquote {
   margin-left: 0;
   margin-right: 0;
   padding-left: 24px;
-  color: #6a737d; // becomes var(--color-text-muted) in Phase 2, a deliberate visual change
+  color: var(--color-text-muted);
 }
 
 hr {
