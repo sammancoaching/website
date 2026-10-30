@@ -2,6 +2,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }}</title>
+    <script>
+        // Apply the theme chosen with the header switch before the page draws, so it doesn't flash.
+        // See assets/js/theme_toggle.js.
+        try {
+            var savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'light' || savedTheme === 'dark') {
+                document.documentElement.setAttribute('data-theme', savedTheme);
+            }
+        } catch (e) {}
+    </script>
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
