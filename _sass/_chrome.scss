@@ -68,44 +68,6 @@
   }
 }
 
-// ---- Theme toggle ----
-// Sits to the left of the search box and matches its height and look.
-
-.theme-toggle {
-  float: right;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 25px;
-  height: 25px;
-  margin: -13px 6px 5px 0;
-  padding: 0;
-  color: var(--color-text);
-  background: var(--color-input-bg);
-  border: 1px solid var(--color-input-border);
-  border-radius: var(--radius-control);
-  cursor: pointer;
-
-  &:hover {
-    background: var(--color-highlight);
-    color: var(--color-on-highlight);
-  }
-
-  @media screen and (max-width: $on-medium) {
-    margin: -8px 6px 12px 0;
-  }
-}
-
-// The moon offers dark mode; once dark mode is on, the sun offers light.
-.theme-toggle__sun,
-.theme-toggle[aria-pressed="true"] .theme-toggle__moon {
-  display: none;
-}
-
-.theme-toggle[aria-pressed="true"] .theme-toggle__sun {
-  display: block;
-}
-
 // ---- Site footer ----
 
 .site-footer {

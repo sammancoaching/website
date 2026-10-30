@@ -112,3 +112,32 @@
     background: var(--color-page);
   }
 }
+
+// Light/dark switch, the last item in the nav. Styled like a tab so it
+// stays quiet; see assets/js/theme_toggle.js.
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  padding: 5px 6px;
+  color: var(--color-on-brand);
+  background: transparent;
+  border: 0;
+  border-top-left-radius: var(--radius-bar);
+  border-top-right-radius: var(--radius-bar);
+  cursor: pointer;
+
+  &:hover {
+    background: var(--color-on-brand-hover-bg);
+  }
+}
+
+// The moon offers dark mode; once dark mode is on, the sun offers light.
+.theme-toggle__sun,
+.theme-toggle[aria-pressed="true"] .theme-toggle__moon {
+  display: none;
+}
+
+.theme-toggle[aria-pressed="true"] .theme-toggle__sun {
+  display: block;
+}
