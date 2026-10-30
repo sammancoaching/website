@@ -70,6 +70,7 @@ $dark-mode-follows-os: false;
   --color-text: var(--brand-dark-blue);
   --color-text-muted: rgba(23, 64, 100, 0.75);
   --color-border: #e8e8e8;
+  --color-rule: rgba(23, 64, 100, 0.35);           // horizontal rules, e.g. the footer divider
   --color-border-strong: var(--brand-dark-blue);
   --shadow-raised: 0 4px 12px rgba(23, 64, 100, 0.15);
 
@@ -117,6 +118,7 @@ $dark-mode-follows-os: false;
   --color-text: var(--brand-off-white);
   --color-text-muted: rgba(243, 238, 230, 0.72);
   --color-border: rgba(162, 195, 221, 0.2);
+  --color-rule: rgba(162, 195, 221, 0.35);
   --color-border-strong: var(--brand-light-blue);
   --shadow-raised: 0 4px 12px rgba(0, 0, 0, 0.4);
 

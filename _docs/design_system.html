@@ -105,6 +105,7 @@
   --color-text: var(--brand-dark-blue);
   --color-text-muted: rgba(23, 64, 100, 0.75);
   --color-border: #e8e8e8;
+  --color-rule: rgba(23, 64, 100, 0.35);           /* horizontal rules, e.g. the footer divider */
   --color-border-strong: var(--brand-dark-blue);
   --shadow-raised: 0 4px 12px rgba(23, 64, 100, 0.15);
 
@@ -154,6 +155,7 @@
     --color-text: var(--brand-off-white);
     --color-text-muted: rgba(243, 238, 230, 0.72);
     --color-border: rgba(162, 195, 221, 0.2);
+    --color-rule: rgba(162, 195, 221, 0.35);
     --color-border-strong: var(--brand-light-blue);
     --shadow-raised: 0 4px 12px rgba(0, 0, 0, 0.4);
 
@@ -200,6 +202,7 @@
   --color-text: var(--brand-off-white);
   --color-text-muted: rgba(243, 238, 230, 0.72);
   --color-border: rgba(162, 195, 221, 0.2);
+  --color-rule: rgba(162, 195, 221, 0.35);
   --color-border-strong: var(--brand-light-blue);
   --shadow-raised: 0 4px 12px rgba(0, 0, 0, 0.4);
 
@@ -320,7 +323,7 @@ blockquote {
 
 hr {
   border: 0;
-  border-top: 1px solid var(--color-border);
+  border-top: 1px solid var(--color-rule);
 }
 
 img {
@@ -1666,7 +1669,7 @@ img {
     <li>The first heading in a panel loses its top margin, so offer card titles move up.</li>
     <li>Small text on the offer pages goes from 0.9em to <code>--text-sm</code> (0.85em).</li>
     <li>The search input uses the page font (16px Inter) instead of the browser default (13px Arial), and its results open under the input instead of at the right edge of the window.</li>
-    <li>Horizontal rules, including the footer divider, are a 1px <code>--color-border</code> line instead of the browser's grey inset rule.</li>
+    <li>Horizontal rules, including the footer divider, are a 1px <code>--color-rule</code> line instead of the browser's grey inset rule.</li>
     <li>The book cover on Emily's profile is centred.</li>
   </ul>
 </section>
@@ -1745,7 +1748,8 @@ img {
       ['--color-surface-solid', '#fff', 'navy-800', 'Dropdowns'],
       ['--color-text', 'dark-blue', 'off-white', 'Body text and headings'],
       ['--color-text-muted', 'dark-blue 75%', 'off-white 72%', 'Secondary text'],
-      ['--color-border', '#e8e8e8', 'light-blue 20%', 'Panel borders, rules'],
+      ['--color-border', '#e8e8e8', 'light-blue 20%', 'Panel borders'],
+      ['--color-rule', 'dark-blue 35%', 'light-blue 35%', 'Horizontal rules'],
       ['--color-border-strong', 'dark-blue', 'light-blue', 'Hover borders, avatars'],
       ['--color-link', 'dark-blue', 'light-blue', 'Links'],
       ['--color-link-hover', 'coral', 'coral', 'Link hover'],
