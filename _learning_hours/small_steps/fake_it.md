@@ -184,4 +184,4 @@ Ask participants to write cards in response to a guiding question (e.g. "How has
 * [Triangulation Learning Hour]({% link _learning_hours/small_steps/triangulation.md %})
 
 # Acknowlegements
-This learning hour was first published elsewhere: [Fake It Til You Make It](https://github.com/atruvia/samman-coaching-website/blob/lh-additions/_learning_hours/fake_it.md)
+This learning hour was first published elsewhere: [Fake It Til You Make It](https://github.com/atruvia/samman-coaching-website/blob/lh-additions/_learning_hours/small_steps/fake_it.md)
