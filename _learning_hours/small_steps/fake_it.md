@@ -47,11 +47,11 @@ When your test is red and you need to get to green, there are three main approac
 
 These approaches can be mixed and swapped during development, even within the same TDD cycle.
 
-Then introduce the rules of the kata and do a short live demo. While demonstrating, use as many automated IDE refactorings as possible.
 
 ### Concrete: Demo
 
 The “Binary Diagnostic Kata” provides a solid foundation for how to replace fakes step by step, illustrating the process at each stage. 
+Introduce the rules of the kata and do a short live demo. While demonstrating, use as many automated IDE refactorings as possible.
 
 Suggested implementation steps:
 
