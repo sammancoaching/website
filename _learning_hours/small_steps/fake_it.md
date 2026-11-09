@@ -51,14 +51,14 @@ These approaches can be mixed and swapped during development, even within the sa
 ### Concrete: Demo
 
 The “Binary Diagnostic Kata” provides a solid foundation for how to replace fakes step by step, illustrating the process at each stage. 
-Introduce the rules of the kata and do a short live demo. While demonstrating, use as many automated IDE refactorings as possible.
+Introduce the rules of the kata and do a short live demo. While demonstrating, use as many automated IDE refactorings as possible. Run the test(s) after each step. In the small steps, you can also include an error here and there to show how it affects the development process (we don't have to think or search for long to figure out what's wrong).
 
 Suggested implementation steps:
 
 1. Write a test, for example: `assertThat(calcDiagnose(diagnose)).isEqualTo(198)`. Start with a fixed solution.
 2. Replace `198` with `22 * 9`.
 3. Replace `22` and `9` with function calls (Extract Method), pass in diagnose, and adjust the target methods.
-4. Express `22` as `Integer.valueOf("10110", 2)` and do the same for `9`.
+4. Express `22` as `Integer.valueOf("10110", 2)` and do the same for `9`. This is a good place to try to trigger an error, for example, by using an incorrect `Integer.valueOf("10110")`.
 5. In the `gamma()` function, replace the first bit with a method such as `mostCommonBit(String[] diagnose, int column)`. Split out the string, extract a method, and adjust the signature:
 
         private int gamma(String[] diagnose) {
