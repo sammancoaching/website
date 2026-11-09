@@ -10,7 +10,7 @@ tags:  small_steps tdd
 
 # Fake It Til You Make It
 
-This session covers three approaches to getting to green in TDD: Fake It ('Til You Make It), Obvious Implementation and Triangulation.
+This session covers three strategies to getting to green faster when doing TDD: Fake It ('Til You Make It), Obvious Implementation and Triangulation. The learning hour is particularly suitable for people who are already familiar with TDD but have trouble understanding the terminology. There is also often a misunderstanding about how to deal with a fake
 
 ## Learning Goals
 
