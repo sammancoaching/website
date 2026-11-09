@@ -49,19 +49,9 @@ These approaches can be mixed and swapped during development, even within the sa
 
 Then introduce the rules of the kata and do a short live demo. While demonstrating, use as many automated IDE refactorings as possible.
 
-**Binary Diagnostic** - You are given a diagnostic report:
-
-    00100
-    11110
-    10110
-    10111
-    10101
-    01111
-    00110
-
-Your task is to calculate the power consumption, which is: gamma rate x epsilon rate. Both are derived from the report. To calculate gamma, look at the report one column at a time and determine which bit is more common. For example, the first column has 0,1,1,1,1,0,0 - 1 appears more often (4 times) than 0 (3 times), so the first bit of gamma is 1. Across all five columns the most common bits are 1,0,1,1,0, so gamma is 10110 (binary) = 22 (decimal). Epsilon is calculated the same way, choosing the less common bit in each column: 01001 (binary) = 9 (decimal). Therefore power consumption = 22 x 9 = 198. (This is [Advent of Code 2021 Day 3](https://adventofcode.com/2021/day/3).)
-
 ### Concrete: Demo
+
+The “Binary Diagnostic Kata” provides a solid foundation for how to replace fakes step by step, illustrating the process at each stage. 
 
 Suggested implementation steps:
 
