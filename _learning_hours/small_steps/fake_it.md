@@ -14,8 +14,8 @@ This session covers three approaches to getting to green in TDD: Fake It ('Til Y
 
 ## Learning Goals
 
-* Describe three approaches to passing a failing test in TDD: Fake It, Obvious Implementation and Triangulation with focus on the first one.
-* Use Fake It during development
+* Describe three approaches to passing a failing test in TDD: Fake It ('Til You Make It), Obvious Implementation and Triangulation with focus on the first one.
+* Use Fake It ('Til You Make It) during development
 
 ## Session Outline
 
