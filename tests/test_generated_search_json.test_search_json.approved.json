@@ -356,6 +356,10 @@
         "url": "/kata_descriptions/bank_account.html"
     },
     {
+        "title": "Kata: Binary Diagnostic",
+        "url": "/kata_descriptions/binary_diagnostic.html"
+    },
+    {
         "title": "Kata: Bingo Refactoring Kata",
         "url": "/kata_descriptions/bingo.html"
     },
@@ -914,6 +918,10 @@
     {
         "title": "Learning Hour: Example-guided design",
         "url": "/learning_hours/small_steps/example_guided_design.html"
+    },
+    {
+        "title": "Learning Hour: Fake It Til You Make It",
+        "url": "/learning_hours/small_steps/fake_it.html"
     },
     {
         "title": "Learning Hour: Golden Rule of TDD",
