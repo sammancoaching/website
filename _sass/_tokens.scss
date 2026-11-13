@@ -105,6 +105,7 @@ $dark-mode-follows-os: false;
   --color-danger-bg: #f8d7da;
   --color-danger-border: #f5c6cb;
   --color-danger-text: #721c24;
+  --color-error: #c0392b;                 // error text on the page, e.g. form validation
 }
 
 // Semantic tokens: dark. Defined once and included under both selectors
@@ -153,6 +154,7 @@ $dark-mode-follows-os: false;
   --color-danger-bg: #4a1c22;
   --color-danger-border: #7a2e38;
   --color-danger-text: #f5c6cb;
+  --color-error: #ff7b7b;
 }
 
 // Dark mode follows the OS preference unless the page sets data-theme="light".
