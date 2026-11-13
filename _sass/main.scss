@@ -8,29 +8,9 @@
 @use "chrome";
 @use "images";
 @use "navigation";
-@use "variables" as *;
 @use "print";
 @use "events";
 @use "code";
 @use "copy_markdown";
 @use "card";
 @use "member";
-
-
-@media screen and (min-width: $on-medium) {
-
-  .banner {
-    img{
-      width: 750px;
-    }
-  }
-}
-
-@media screen and (max-width: $on-medium) {
-  .banner {
-    padding-right: 70px;
-    img {
-      width: 100%;
-    }
-  }
-}
