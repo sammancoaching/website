@@ -93,8 +93,9 @@ claresudbery:
   title: Clare Sudbery
   url: https://tinyurl.com/SSE-Ltd
   affiliation: Sudbery Software Engineering Ltd
-  member: yes
+  member: no
   member_since: 2023-05-23
+  member_until: 2026-10-31
 xrecoba:
   title: Xavi Ametller
   url: https://www.myowncommonsense.com/
@@ -138,8 +139,9 @@ ronheywood:
   title: Ron Heywood
   url: https://github.com/ronheywood
   affiliation: Spektrix
-  member: yes
+  member: no
   member_since: 2025-05-21
+  member_until: 2026-10-31
 philou:
   title: Philippe Bourgau
   url: https://philippe.bourgau.net/
@@ -208,7 +210,8 @@ reasun:
   title: Rea Sutter
   url: https://www.reasun.at/
   affiliation: UAS Technikum Wien
-  member: no
+  member: yes
+  member_since: 2026-10-22
   headline: There's always a reasun to learn
   photo: assets/images/profiles/reasun.jpg
   additional_links:

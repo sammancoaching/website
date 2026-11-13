@@ -6,5 +6,5 @@ role: Technical Coach
 ---
 
 {% assign author = site.data.contributors[page.author] %}
-{{author.title}} is a {{page.role}} at Spektrix and a member of the Samman Technical Coaching Society.
+{{author.title}} is a {{page.role}} at Spektrix and a former member of the Samman Technical Coaching Society.
  
