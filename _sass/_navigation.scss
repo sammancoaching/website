@@ -75,10 +75,14 @@
   padding: 5px 10px;
   line-height: 20px;
 
+  // Top-aligned so the tabs and the theme toggle share one whole-pixel row:
+  // a fractional bar height shows a seam of the bar under the hovered or
+  // current tab.
   @media screen and (min-width: $on-medium) {
     display: inline-block;
     margin: 0;
     padding: 0;
+    vertical-align: top;
   }
 }
 

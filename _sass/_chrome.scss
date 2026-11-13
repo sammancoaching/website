@@ -35,7 +35,11 @@
   }
 }
 
+// A whole-pixel height: the nav clears this float, so a fractional height
+// here would leave the nav bar ending part-way through a pixel.
 .search__input {
+  box-sizing: border-box;
+  height: 25px;
   padding: 2px 6px;
   font: inherit;
   color: var(--color-text);
