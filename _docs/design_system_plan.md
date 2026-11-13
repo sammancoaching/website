@@ -2,6 +2,28 @@
 
 How to bring [design_system.html](design_system.html) into the site, ending with light and dark mode.
 
+## Status (13 November 2026)
+
+| Phase | Status |
+|---|---|
+| 1. Tokens and base styles | Done |
+| 2. Migrate the components | Done |
+| 3. Enforce the rules and clean up | Done |
+| 4. Turn on dark mode | Started |
+| 5. Keep the design system doc honest | Not started |
+
+Done for Phase 3: `_colors.scss`, `$primary-color`, the `.banner` rules and `_sass/_site/` are gone. `tests/test_no_hard_coded_colours.py` fails on any hex, `rgb()`/`hsl()` or named colour, or old `$brand` variable, in `_sass` outside `_tokens.scss`.
+
+Already in place for Phase 4: the light/dark switch in the nav (`assets/js/theme_toggle.js`), and the HubSpot forms follow the theme (`assets/js/hubspot_form_theme.js`, checked by `tests/test_hubspot_form_theme.py`). Still to do:
+
+1. Set `$dark-mode-follows-os: true` in `_tokens.scss`. It is `false`, so only the switch turns dark mode on.
+2. Add the `color-scheme` meta and per-scheme `theme-color` metas to `head.html`. `theme-color` is still a single `#ffffff`.
+3. Check content images on navy, click through the key page types in both themes, and run `style_audit.py --dark` (see Phase 4 below).
+
+Answered open questions: 2 (there is a visible switch) and 6 (dark-mode links use light blue).
+
+Not in the phases yet: the Home tab sits against the left edge of the nav bar, because the nav is `text-align: justify` with no side padding. About 10px of side padding on the desktop nav would fix it.
+
 ## What I found
 
 - **There is one base layout.** Every layout chains to `_layouts/default.html`, so the `.site` wrapper, the theme hook on `<html>` and the dark-mode meta tags each go in one place.
