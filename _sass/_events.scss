@@ -126,3 +126,16 @@
     gap: 0.3rem;
   }
 }
+
+// ---- Calendar buttons ----
+// Add-to-calendar buttons on an event page, in an even grid.
+
+.calendar-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+  gap: var(--space-inline-gap);
+
+  .btn {
+    justify-content: center;
+  }
+}

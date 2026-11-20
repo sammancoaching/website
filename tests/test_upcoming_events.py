@@ -36,7 +36,7 @@ def test_upcoming_events():
     
     assert len(matches) > 0, "No upcoming events found on the page. Check if the generation is working correctly."
     
-    current_date = datetime(2026, 4, 17) # Specified in issue description: 2026-04-17 14:45
+    current_date = datetime.combine(datetime.now().date(), datetime.min.time())
     
     for day_str, month_year_str in matches:
         # month_year_str looks like "April 2026"

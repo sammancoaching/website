@@ -1,7 +1,13 @@
 ---
-layout: default
+layout: calendar_event
 title: Online Open Space Event
 event_key: open_space
+calendar_title: Samman Society Open Space
+start: "2026-12-09 16:00"
+duration_minutes: 60
+timezone: Europe/Berlin
+location: Online (Zoom link emailed to sign-ups)
+calendar_description: Sign up on the event page to get the Zoom link by email.
 duration: 60 minutes
 audience: Open to All
 show_on_homepage: true

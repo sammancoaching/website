@@ -19,33 +19,20 @@ Read the Samman Society [official position on Agentic AI]({% link society/agenti
     {% for event_item in site.upcoming_events %}
       {% if event_item.show_on_homepage %}
         {% assign event_data = site.data.events[event_item.event_key] %}
-        {% assign ical_url = event_data.ical_url %}
-        {% ical url: ical_url only_future: true limit: 1 %}
-          {% assign start_timestamp = event.start_time | date: "%Y%m%d%H%M" %}
-          {% capture event_html %}
-          <div class="panel panel--interactive event-card event-card--compact">
-            {% assign local_time = event.start_time | to_local_time %}
-            <div class="date-badge">
-              <div class="date-badge__weekday">{{ local_time | date: "%a" }}</div>
-              <div class="date-badge__day">{{ local_time | date: "%-d" }}</div>
-              <div class="date-badge__month">{{ local_time | date: "%b %Y" }}</div>
-              <div class="date-badge__time">{{ local_time | date: "%H:%M %Z" }}</div>
-            </div>
-            <div class="event-card__body">
-              <h3 class="event-card__title">{{ event_item.title }}</h3>
-              <div class="meta">
-                <span>{{ event_item.duration }}</span>
-              </div>
-              <p>{{ event_item.description }}</p>
-              <div class="cluster">
-                <a href="{% link {{ event_item.details_link }} %}" class="btn btn--sm">View Details</a>
-              </div>
-            </div>
-          </div>
-          {% endcapture %}
-          {% assign entry = start_timestamp | append: "|||" | append: event_html %}
-          {% assign event_entries = event_entries | push: entry %}
-        {% endical %}
+        {% if event_item.start %}
+          {% if event_item.has_upcoming_date %}
+            {% assign start_time = event_item.next_start_utc %}
+            {% assign calendar_link = event_item.url | relative_url %}
+            {% include homepage_event_card.html %}
+          {% endif %}
+        {% else %}
+          {% assign ical_url = event_data.ical_url %}
+          {% ical url: ical_url only_future: true limit: 1 %}
+            {% assign start_time = event.start_time %}
+            {% assign calendar_link = event_data.calendar_link %}
+            {% include homepage_event_card.html %}
+          {% endical %}
+        {% endif %}
       {% endif %}
     {% endfor %}
 
