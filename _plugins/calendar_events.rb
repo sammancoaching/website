@@ -36,6 +36,9 @@ module Jekyll
       @rrule = doc.data['rrule']
       @wall_start = parse_wall_clock(doc.data['start'])
       @next_wall_start = next_wall_start(Time.now.utc)
+      # A repeating event is exported as the whole series, from its first
+      # date, so that COUNT in the repeat rule keeps meaning the same thing.
+      @export_wall_start = @rrule ? @wall_start : @next_wall_start
     end
 
     def liquid_data
@@ -54,7 +57,7 @@ module Jekyll
         'next_end' => @tz.to_local(end_utc),
         'next_start_utc' => start_utc,
         'next_end_utc' => end_utc,
-        'calendar_links' => calendar_links(start_utc, end_utc)
+        'calendar_links' => calendar_links(to_utc(@export_wall_start), to_utc(@export_wall_start + @duration))
       )
     end
 
@@ -162,15 +165,15 @@ module Jekyll
       # No upcoming date: an empty calendar, so subscribers' feeds stay valid.
       return cal unless @next_wall_start
 
-      start_utc = to_utc(@next_wall_start)
+      start_utc = to_utc(@export_wall_start)
       cal.add_timezone(@tz.ical_timezone(start_utc))
       tzid = @tz.identifier
       cal.event do |e|
         e.uid = "#{@key}@#{site_host}"
         e.dtstamp = Icalendar::Values::DateTime.new(Time.now.utc, 'tzid' => 'UTC')
         e.sequence = start_utc.to_i
-        e.dtstart = Icalendar::Values::DateTime.new(@next_wall_start, 'tzid' => tzid)
-        e.dtend = Icalendar::Values::DateTime.new(@next_wall_start + @duration, 'tzid' => tzid)
+        e.dtstart = Icalendar::Values::DateTime.new(@export_wall_start, 'tzid' => tzid)
+        e.dtend = Icalendar::Values::DateTime.new(@export_wall_start + @duration, 'tzid' => tzid)
         e.summary = title
         e.description = description
         e.location = location unless location.empty?

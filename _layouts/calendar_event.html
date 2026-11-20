@@ -27,6 +27,6 @@ layout: society
   {% endif %}
 
   {% if ev.details_link %}
-  <p><a href="{% link {{ ev.details_link }} %}">Event details and sign-up for this event</a></p>
+  <p><a href="{% link {{ ev.details_link }} %}">{{ ev.details_link_text | default: "Event details" }}</a></p>
   {% endif %}
 </article>

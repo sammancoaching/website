@@ -7,15 +7,14 @@ title: Samman Coaching Society Ensemble Events
 
 _Support the Society and Collaborate with Other Coaches._
 
-{% assign ical_url = site.data.events.ensemble.ical_url %}
-{% assign calendar_link = site.data.events.ensemble.calendar_link %}
-{% ical url: ical_url only_future: true limit: 1 %}
-**Next event: {{ event.start_time | date: "%A %-d %B %Y" }}**
+{% assign ensemble = site.upcoming_events | where: "event_key", "ensemble" | first %}
+{% if ensemble.has_upcoming_date %}
+**Next event: {{ ensemble.next_start | date: "%A %-d %B %Y" }}**
 
 <div class="cluster">
-  <a href="{{ calendar_link }}" class="btn">Add to Calendar</a>
+  <a href="{{ ensemble.url | relative_url }}" class="btn">Add to Calendar</a>
 </div>
-{% endical %}
+{% endif %}
 
 This is a weekly, 1 hour ensemble, usually held on Fridays at 16:00 Stockholm/Paris/Berlin. We use this time to collaborate with our friends in the industry, where a diverse range of skills are brought to the room and we have fun writing code using ensemble techniques.  Hosted by [Emily Bache]({% link society/contributors/emilybache.md %}).
 
