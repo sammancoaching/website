@@ -25,20 +25,15 @@ This online training is highly interactive and participatory, and is normally le
 
 This course is two half-days held about two weeks apart.
 
-{% assign event_data = site.data.events.learning_hours_masterclass_training %}
-{% assign ical_url = event_data.ical_url %}
-{% assign has_upcoming_dates = false %}
-{% if ical_url %}
-{% ical url: ical_url only_future: true limit: 1 %}
-{% assign has_upcoming_dates = true %}
-{% assign local_time = event.start_time | to_local_time %}
-{% assign first_day_unix = local_time | date: "%s" %}
+{% assign course = site.upcoming_events | where: "event_key", "learning_hours_masterclass_training" | first %}
+{% if course.has_upcoming_date %}
+{% assign first_day_unix = course.next_start | date: "%s" %}
 {% assign second_day_unix = first_day_unix | plus: 1209600 %}
-* {{ local_time | date: "%-d %B %Y" }} & {{ second_day_unix | date: "%-d %B %Y" }} Online with [Emily Bache]({% link society/contributors/emilybache.md %}) and [Peter Kofler]({% link society/contributors/codecop.md %}) - More information and signup via [Bache Consulting](https://bacheconsulting.com/_events/next_learning_hours_masterclass.html)
-{% endical %}
-{% endif %}
-{% unless has_upcoming_dates %}
+* {{ course.next_start | date: "%-d %B %Y" }} & {{ second_day_unix | date: "%-d %B %Y" }} Online with [Emily Bache]({% link society/contributors/emilybache.md %}) and [Peter Kofler]({% link society/contributors/codecop.md %}) - More information and signup via [Bache Consulting](https://bacheconsulting.com/_events/next_learning_hours_masterclass.html)
+
+{% include add_to_calendar.html event=course %}
+{% else %}
 There are no training dates scheduled at present.
-{% endunless %}
+{% endif %}
 
 For more information please [Contact us]({% link contact.md %}). You could also sign up for our [Newsletter]({% link newsletter.md %}) to hear about upcoming trainings and other useful information.

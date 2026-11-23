@@ -10,7 +10,22 @@ Stop depending on [addcal](https://addcal.co) for getting Samman Society events 
 
 We start with the Open Space event, then migrate the other events.
 
-## Current situation
+## Status (23 November 2026)
+
+| Event | Status |
+|---|---|
+| Open Space | Done (Phase 1, `377c0f9`) |
+| Ensemble | Done (Phase 2, `ccc4dff`) |
+| Learning Hour | Done (`87d5fc6`) |
+| AI Coding Dojo | Done (23 Nov 2026), with its last addcal date 10 Sep 2026, so it shows "to be announced". |
+| Deliver Learning Hours | Done (23 Nov 2026), with its last addcal date 15 Sep 2026. |
+| Learning Hours Masterclass | Done (23 Nov 2026), with its last addcal date 10 Nov 2026. Modelled as one entry for the first session (see Phase 4). |
+
+Because all the remaining addcal dates are in the past, migrating them does not need a date copied across: each shows "to be announced" until a new `start:` is set.
+
+The design changed during Phase 1–2 review (20 November 2026). Where the sections below differ from what was built, the "As built" notes describe the real code.
+
+## Situation before the migration
 
 * `_data/events.yml` holds, for each event, an addcal `ical_url` (`.ics` feed) and a `calendar_link` (the addcal event page).
 * At build time the `jekyll-ical-tag` plugin downloads each addcal `.ics` feed. The events list (`society/events/index.md`), the home page (`index.md`), `society/events/next_open_space.md`, `next_ensemble.md`, `next_learning_hour.md`, `ai_coding_dojo.md`, `training/deliver_learning_hours.md` and `training/learning_hours_masterclass.md` all get their dates this way using `{% ical %}`.
@@ -26,6 +41,7 @@ The next open space is currently in addcal as **Wednesday 9 December 2026, 16:00
 2. **Subscribe button:** yes. Each event's `.ics` file always contains the next date under a fixed address, so people can subscribe to it with `webcal://` and their calendar follows date changes automatically.
 3. **When the date has passed:** the event page shows "Next date to be announced" and hides the calendar buttons. The subscribe button stays visible.
 4. **Scope:** start with the Open Space only. Each of the other events is migrated in a later phase (see below).
+5. **No separate event pages (20 November 2026):** the add-to-calendar buttons live on each event's details page (e.g. `next_open_space.md`) instead of a separate `calendar_event` page, so people find sign-up and calendar in one place. This replaces decisions 2 and 3 as far as the page goes: there is currently no visible subscribe button, and when the date has passed the buttons are simply hidden. The `.ics` file still has a fixed address, so subscribing by URL still works.
 
 ## Design
 
@@ -58,6 +74,8 @@ details_link: society/events/next_open_space.md
 * `start` is a local time in `timezone`, so daylight saving is handled by the plugin, not by whoever edits the date.
 * Note `_config.yml` sets the site `timezone: Europe/Stockholm`. Front matter dates must be read as wall-clock times in the event's `timezone`, not converted by Jekyll. The plugin should parse `start` as a string to avoid YAML/Jekyll turning it into a `Time` in the site timezone. Quote it if needed: `start: "2026-12-09 16:00"`.
 * The collection already outputs pages at `/society/events/:name`, so the open space event page becomes `/society/events/open_space.html`.
+
+**As built:** events keep `layout: default` (there is no `calendar_event` layout). The fields actually used are `calendar_title`, `start`, `duration_minutes`, `timezone`, optional `rrule`, `location` and `calendar_description`, alongside the existing `title`, `duration`, `audience`, `show_on_homepage`, `description` and `details_link`. See `_upcoming_events/learning_hour.md` for a minimal example.
 
 To move an event to a new date: change `start:` and push to `main`. The deploy GitHub Action rebuilds the site on every push.
 
@@ -92,6 +110,13 @@ Check that the deploy workflow (`jekyll/builder` container running `bundle exec 
 
 Consider also making `--future` irrelevant: the plugin computes upcoming dates itself, so it doesn't rely on Jekyll's future-post handling.
 
+**As built:**
+
+* The `.ics` file is named like the event page, which Jekyll slugifies: `/society/events/open-space.ics`, `ensemble.ics`, `learning-hour.ics` (underscores become hyphens).
+* No `webcal_url` is exposed. `calendar_links` and `ics_url` are always present; `next_start`, `next_end`, `next_start_utc` and `next_end_utc` only when `has_upcoming_date` is true.
+* The `.ics` `URL` points at the event's details page, which holds the sign-up form.
+* For repeating events, the exported series starts at the original `start`, not the next date, so `COUNT` in the repeat rule keeps its meaning.
+
 ### 3. Layout: `_layouts/calendar_event.html`
 
 Modelled on the addcal event page:
@@ -108,9 +133,19 @@ Modelled on the addcal event page:
 
 Styling goes in `_sass`, reusing the existing `.add-calendar-btn` / `.event-links` styles where possible.
 
+**As built:** this layout was built in Phase 1 and then removed (decision 5). Instead, `_includes/add_to_calendar.html` renders an "Add to calendar" heading (`#add-to-calendar`) and small buttons (Google, Apple, Outlook, Outlook.com, Office 365, Yahoo, Other (.ics)) when `has_upcoming_date` is true, and nothing otherwise. Usage on a details page:
+
+```liquid
+{% include add_to_calendar.html event=learning_hour %}
+```
+
+The home page and events list link their "Add to Calendar" button to `<details page>#add-to-calendar`.
+
 ### 4. Shared include for pages that show the next date
 
 Add an include, e.g. `_includes/next_event_date.html`, that takes an event key and renders the next date (or "to be announced"). Pages use this instead of `{% ical %}`, which keeps the date formatting consistent.
+
+**As built:** not created. Each details page looks up its event and formats `next_start` itself, e.g. `society/events/next_learning_hour.md`. Worth revisiting if the remaining pages end up repeating the same code.
 
 ## Implementation steps
 
@@ -131,7 +166,7 @@ Add an include, e.g. `_includes/next_event_date.html`, that takes an event key a
    * A test fixture event in the past renders "Next date to be announced" and no add-to-calendar buttons.
    * Update `tests/test_upcoming_events.py`, which currently compares dates against a fixed `2026-04-17`; use today's date instead.
 7. Manually check the generated `.ics` and buttons in Google Calendar, Apple Calendar and Outlook, and subscribe to the feed in at least one of them, then move the date in front matter and confirm the subscribed calendar updates.
-8. Update `routines.md`:
+8. Update `routines.md` (done 23 November 2026):
    * Step 4 becomes: "Update `start:` in `_upcoming_events/open_space.md` with the next date and push to `main`".
    * Step 5 (trigger the GitHub action) is no longer needed, since pushing to `main` deploys.
 9. Update the open space event in addcal (or its description) to point people to the new event page, so old links still lead somewhere useful.
@@ -146,11 +181,15 @@ Add an include, e.g. `_includes/next_event_date.html`, that takes an event key a
 
 ### Phase 3: Learning Hour and AI Coding Dojo
 
-1. Add calendar fields to `_upcoming_events/learning_hour.md` and `_upcoming_events/ai_coding_dojo.md` (copy the current dates from addcal).
+Done: Learning Hour (`87d5fc6`) and AI Coding Dojo (23 November 2026).
+
+1. Add calendar fields to `_upcoming_events/learning_hour.md` and `_upcoming_events/ai_coding_dojo.md` (copy the current dates from addcal; for the dojo the last date has passed, so use that past date, `start: "2026-09-10 14:00"`, `duration_minutes: 90`; the plugin then treats it as "to be announced" until a new date is set).
 2. Update `society/events/next_learning_hour.md` and `society/events/ai_coding_dojo.md`.
 3. Remove both from `_data/events.yml`; extend tests.
 
 ### Phase 4: Training courses
+
+Done (23 November 2026). The Masterclass is modelled as a single entry for the first session, as it was in addcal; the page shows the second date as the first + 14 days, and only the first session goes into people's calendars. Giving each session its own `VEVENT` (a list of `dates:`) is a possible later improvement. `_data/events.yml` is now empty, so the build no longer fetches anything from addcal.
 
 1. Add calendar fields to `_upcoming_events/deliver_learning_hours.md` and `_upcoming_events/learning_hours_masterclass_training.md`.
    * The masterclass runs over two half-days. Decide whether to model it as two dates (e.g. a list of `dates:` in front matter, generating one `VEVENT` each) or as a single entry for the first session.

@@ -21,19 +21,14 @@ This online training is highly interactive and participatory, and is normally le
 
 ## Course Dates
 
-{% assign event_data = site.data.events.deliver_learning_hours %}
-{% assign ical_url = event_data.ical_url %}
-{% assign has_upcoming_dates = false %}
-{% if ical_url %}
-{% ical url: ical_url only_future: true limit: 1 %}
-{% assign has_upcoming_dates = true %}
-{% assign local_time = event.start_time | to_local_time %}
-* {{ local_time | date: "%-d %B %Y" }}, {{ local_time | date: "%H:%M %Z" }} with [Emily Bache]({% link society/contributors/emilybache.md  %}) and [Peter Kofler]({% link society/contributors/codecop.md %}). More information and signup via [Bache Consulting](https://bacheconsulting.com/_events/next_deliver_learning_hours.html)
-{% endical %}
-{% endif %}
-{% unless has_upcoming_dates %}
+{% assign course = site.upcoming_events | where: "event_key", "deliver_learning_hours" | first %}
+{% if course.has_upcoming_date %}
+* {{ course.next_start | date: "%-d %B %Y" }}, {{ course.next_start | date: "%H:%M %Z" }} with [Emily Bache]({% link society/contributors/emilybache.md  %}) and [Peter Kofler]({% link society/contributors/codecop.md %}). More information and signup via [Bache Consulting](https://bacheconsulting.com/_events/next_deliver_learning_hours.html)
+
+{% include add_to_calendar.html event=course %}
+{% else %}
 There are no training dates scheduled at present.
-{% endunless %}
+{% endif %}
 
 If you have questions or would like to show interest in this course, please [Contact us]({% link contact.md %}). You could also sign up for our [Newsletter]({% link newsletter.md %}) to hear about new training dates and other useful information.
 

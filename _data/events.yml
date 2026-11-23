@@ -1,11 +1,2 @@
-ai_coding_dojo:
-  ical_url: https://addcal.io/e/lecxetoqzijj/ics
-  calendar_link: https://addcal.io/e/lecxetoqzijj
-
-deliver_learning_hours:
-  ical_url: https://addcal.io/e/yernozc9lt12/ics
-  calendar_link: https://addcal.io/e/yernozc9lt12
-
-learning_hours_masterclass_training:
-  ical_url: https://addcal.io/e/k9qny3o56p8i/ics
-  calendar_link: https://addcal.io/e/k9qny3o56p8i
+# Every event now takes its date from _upcoming_events front matter.
+# This file is deleted in Phase 5 of _docs/calendar_events_plan.md.

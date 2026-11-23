@@ -2,6 +2,11 @@
 layout: default
 title: Deliver Learning Hours Training
 event_key: deliver_learning_hours
+calendar_title: Deliver Learning Hours - Samman Training
+start: "2026-09-15 14:00"
+duration_minutes: 210
+timezone: Europe/Berlin
+location: Online
 duration: 3.5 hours
 audience: Open to All
 show_on_homepage: true
