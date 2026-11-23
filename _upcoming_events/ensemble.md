@@ -1,5 +1,5 @@
 ---
-layout: calendar_event
+layout: default
 title: Samman Ensemble
 event_key: ensemble
 calendar_title: Samman Society Ensemble

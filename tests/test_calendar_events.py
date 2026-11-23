@@ -4,7 +4,7 @@ from pathlib import Path
 
 SITE = Path("_site")
 ICS = SITE / "society/events/open-space.ics"
-EVENT_PAGE = SITE / "society/events/open-space.html"
+EVENT_PAGE = SITE / "society/events/next_open_space.html"
 
 
 def read(path):
@@ -28,13 +28,12 @@ def test_open_space_ics_has_berlin_times_and_stable_uid():
     assert "TRIGGER:-PT30M" in ics
 
 
-def test_open_space_event_page_has_calendar_buttons_and_details_link():
+def test_open_space_event_page_has_calendar_buttons():
     html = read(EVENT_PAGE)
 
     for label in ["Google", "Apple", "Outlook", "Outlook.com", "Office 365", "Yahoo", "Other (.ics)"]:
         assert re.search(rf"</svg>{re.escape(label)}</a>", html), f"Missing '{label}' button on {EVENT_PAGE}"
     assert 'href="/society/events/open-space.ics"' in html
-    assert 'href="/society/events/next_open_space.html"' in html
 
 
 def test_google_link_converts_berlin_time_to_utc():
@@ -53,7 +52,7 @@ def test_ensemble_ics_repeats_weekly_from_the_series_start():
 
 
 def test_ensemble_google_link_carries_the_repeat_rule():
-    html = read(SITE / "society/events/ensemble.html")
+    html = read(SITE / "society/events/next_ensemble.html")
 
     google = re.search(r'href="(https://calendar\.google\.com/[^"]+)"', html)
     assert google, "No Google Calendar link on the ensemble page"

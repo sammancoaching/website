@@ -1,7 +1,5 @@
----
-layout: society
----
-{%- assign ev = page -%}
+{%- comment -%} Add-to-calendar buttons for an upcoming event: include add_to_calendar.html event=<upcoming_events doc> {%- endcomment -%}
+{%- assign ev = include.event -%}
 {%- comment -%} Brand icons from Simple Icons (CC0) {%- endcomment -%}
 {%- capture google_icon -%}<svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12.48 10.92v3.28h7.84c-.24 1.840-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.720c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.840-5.213 2.840-7.667 0-.76-.053-1.467-.173-2.053H12.48z"/></svg>{%- endcapture -%}
 {%- capture apple_icon -%}<svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.830-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></svg>{%- endcapture -%}
@@ -9,24 +7,15 @@ layout: society
 {%- capture microsoft_icon -%}<svg viewBox="0 0 448 512" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M0 32h214.6v214.6H0V32zm233.4 0H448v214.6H233.4V32zM0 265.4h214.6V480H0V265.4zm233.4 0H448V480H233.4V265.4z"/></svg>{%- endcapture -%}
 {%- capture yahoo_icon -%}<svg viewBox="0 0 512 512" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M223.69,141.06,167,284.23,111,141.06H14.93L120.76,390.19,82.19,480h94.17L317.27,141.06Zm105.4,135.79a58.22,58.22,0,1,0,58.22,58.22A58.22,58.22,0,0,0,329.09,276.85ZM394.65,32l-93,223.47H406.44L499.07,32Z"/></svg>{%- endcapture -%}
 {%- capture download_icon -%}<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>{%- endcapture -%}
-<article class="event-list">
-  {% if ev.has_upcoming_date %}
-  <h1>Add next {{ ev.calendar_title | default: ev.title }} event to calendar</h1>
-  <div class="calendar-buttons">
-    <a class="btn" href="{{ ev.calendar_links.google }}" rel="noopener">{{ google_icon }}Google</a>
-    <a class="btn" href="{{ ev.ics_url }}" download>{{ apple_icon }}Apple</a>
-    <a class="btn" href="{{ ev.ics_url }}" download>{{ microsoft_icon }}Outlook</a>
-    <a class="btn" href="{{ ev.calendar_links.outlook_com }}" rel="noopener">{{ microsoft_icon }}Outlook.com</a>
-    <a class="btn" href="{{ ev.calendar_links.office365 }}" rel="noopener">{{ microsoft_icon }}Office 365</a>
-    <a class="btn" href="{{ ev.calendar_links.yahoo }}" rel="noopener">{{ yahoo_icon }}Yahoo</a>
-    <a class="btn" href="{{ ev.ics_url }}" download>{{ download_icon }}Other (.ics)</a>
-  </div>
-  {% else %}
-  <h1>{{ ev.calendar_title | default: ev.title }}</h1>
-  <p><strong>Next date to be announced</strong></p>
-  {% endif %}
-
-  {% if ev.details_link %}
-  <p><a href="{% link {{ ev.details_link }} %}">{{ ev.details_link_text | default: "Event details" }}</a></p>
-  {% endif %}
-</article>
+{%- if ev.has_upcoming_date -%}
+<h2 id="add-to-calendar">Add to calendar</h2>
+<div class="calendar-buttons">
+  <a class="btn btn--sm" href="{{ ev.calendar_links.google }}" rel="noopener">{{ google_icon }}Google</a>
+  <a class="btn btn--sm" href="{{ ev.ics_url }}" download>{{ apple_icon }}Apple</a>
+  <a class="btn btn--sm" href="{{ ev.ics_url }}" download>{{ microsoft_icon }}Outlook</a>
+  <a class="btn btn--sm" href="{{ ev.calendar_links.outlook_com }}" rel="noopener">{{ microsoft_icon }}Outlook.com</a>
+  <a class="btn btn--sm" href="{{ ev.calendar_links.office365 }}" rel="noopener">{{ microsoft_icon }}Office 365</a>
+  <a class="btn btn--sm" href="{{ ev.calendar_links.yahoo }}" rel="noopener">{{ yahoo_icon }}Yahoo</a>
+  <a class="btn btn--sm" href="{{ ev.ics_url }}" download>{{ download_icon }}Other (.ics)</a>
+</div>
+{%- endif -%}

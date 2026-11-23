@@ -12,7 +12,7 @@ title: Upcoming Samman Coaching Society Events
   {% if event_item.start %}
     {% if event_item.has_upcoming_date %}
       {% assign start_time = event_item.next_start_utc %}
-      {% assign calendar_link = event_item.url | relative_url %}
+      {% capture calendar_link %}{% link {{ event_item.details_link }} %}#add-to-calendar{% endcapture %}
       {% include events_list_card.html %}
     {% endif %}
   {% else %}

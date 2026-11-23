@@ -14,15 +14,13 @@ title: Samman Coaching Society Online Open Space Event
 
 _Bring your questions and exchange experiences with other technical coaches._
 
-<div class="cluster">
-  {% if open_space.has_upcoming_date %}<a href="{{ open_space.url | relative_url }}" class="btn">Add to Calendar</a>{% endif %}
-</div>
-
 This is a one hour online open space hosted by [Emily Bache]({% link society/contributors/emilybache.md %}). Fill in the form lower down on this page to sign up and receive meeting links by email.
 
 We will use the online whiteboard Miro to set up an open space agenda together, then hold two timeboxed discussions in breakout rooms. Everyone will be encouraged to contribute topics for the agenda, and to actively take part in discussions.
 
 This event is free to attend.
+
+{% include add_to_calendar.html event=open_space %}
 
 ## Agenda
 Note: times are Stockholm/Berlin/Paris

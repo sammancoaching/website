@@ -1,5 +1,5 @@
 ---
-layout: calendar_event
+layout: default
 title: Online Open Space Event
 event_key: open_space
 calendar_title: Samman Society Open Space
@@ -13,5 +13,4 @@ audience: Open to All
 show_on_homepage: true
 description: Bring your questions and exchange experiences with other technical coaches. We'll collaboratively create an agenda and hold discussions in breakout rooms.
 details_link: society/events/next_open_space.md
-details_link_text: Event details and sign-up for this event
 ---
