@@ -23,6 +23,8 @@ We start with the Open Space event, then migrate the other events.
 
 Because all the remaining addcal dates are in the past, migrating them does not need a date copied across: each shows "to be announced" until a new `start:` is set.
 
+All events are migrated and the addcal clean-up in this repository is done; only closing the addcal events themselves is left (Phase 5 step 5).
+
 The design changed during Phase 1–2 review (20 November 2026). Where the sections below differ from what was built, the "As built" notes describe the real code.
 
 ## Situation before the migration
@@ -197,6 +199,8 @@ Done (23 November 2026). The Masterclass is modelled as a single entry for the f
 3. Remove both from `_data/events.yml`; extend tests.
 
 ### Phase 5: Clean up
+
+Steps 1–4 done (23 November 2026). `Gemfile.lock` is not tracked in git, so only the `Gemfile` changed. The `to_local_time` filter (`_plugins/timezone_filter.rb`) stays: the event cards still use it. Step 5 is still to do: it happens in addcal, not in this repository.
 
 1. Delete `_data/events.yml`.
 2. Remove the `{% ical %}` fallback code from `society/events/index.md` and `index.md`.

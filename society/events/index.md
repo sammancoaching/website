@@ -8,20 +8,10 @@ title: Upcoming Samman Coaching Society Events
 <div class="event-list">
 {% assign event_entries = "" | split: "," %}
 {% for event_item in site.upcoming_events %}
-  {% assign event_data = site.data.events[event_item.event_key] %}
-  {% if event_item.start %}
-    {% if event_item.has_upcoming_date %}
-      {% assign start_time = event_item.next_start_utc %}
-      {% capture calendar_link %}{% link {{ event_item.details_link }} %}#add-to-calendar{% endcapture %}
-      {% include events_list_card.html %}
-    {% endif %}
-  {% else %}
-    {% assign ical_url = event_data.ical_url %}
-    {% ical url: ical_url only_future: true limit: 1 %}
-      {% assign start_time = event.start_time %}
-      {% assign calendar_link = event_data.calendar_link %}
-      {% include events_list_card.html %}
-    {% endical %}
+  {% if event_item.has_upcoming_date %}
+    {% assign start_time = event_item.next_start_utc %}
+    {% capture calendar_link %}{% link {{ event_item.details_link }} %}#add-to-calendar{% endcapture %}
+    {% include events_list_card.html %}
   {% endif %}
 {% endfor %}
 

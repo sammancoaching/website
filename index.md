@@ -18,20 +18,10 @@ Read the Samman Society [official position on Agentic AI]({% link society/agenti
     {% assign event_entries = "" | split: "," %}
     {% for event_item in site.upcoming_events %}
       {% if event_item.show_on_homepage %}
-        {% assign event_data = site.data.events[event_item.event_key] %}
-        {% if event_item.start %}
-          {% if event_item.has_upcoming_date %}
-            {% assign start_time = event_item.next_start_utc %}
-            {% capture calendar_link %}{% link {{ event_item.details_link }} %}#add-to-calendar{% endcapture %}
-            {% include homepage_event_card.html %}
-          {% endif %}
-        {% else %}
-          {% assign ical_url = event_data.ical_url %}
-          {% ical url: ical_url only_future: true limit: 1 %}
-            {% assign start_time = event.start_time %}
-            {% assign calendar_link = event_data.calendar_link %}
-            {% include homepage_event_card.html %}
-          {% endical %}
+        {% if event_item.has_upcoming_date %}
+          {% assign start_time = event_item.next_start_utc %}
+          {% capture calendar_link %}{% link {{ event_item.details_link }} %}#add-to-calendar{% endcapture %}
+          {% include homepage_event_card.html %}
         {% endif %}
       {% endif %}
     {% endfor %}

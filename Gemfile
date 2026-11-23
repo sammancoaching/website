@@ -23,8 +23,12 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-seo-tag"
-  gem "jekyll-ical-tag"
 end
+
+# Calendar files and repeat rules for _plugins/calendar_events.rb
+gem "icalendar"
+gem "ice_cube"
+gem "tzinfo"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
