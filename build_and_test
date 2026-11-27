@@ -7,6 +7,7 @@ export PATH="$(ruby -e 'print Gem.bindir'):$PATH"
 
 bundle install
 bundle exec jekyll build
+ruby tests/ruby/calendar_events_test.rb
 python -m pip install -r requirements.txt --quiet
 mkdir -p junit-reports
 python -m pytest tests/ --junit-xml=junit-reports/results.xml
