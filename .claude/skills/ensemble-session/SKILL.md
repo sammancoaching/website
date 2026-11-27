@@ -38,4 +38,4 @@ Do not wait to be asked. Create these right after joining:
 
 ## 5. End of session
 
-When the team moves to retro: put a summary of what is uncommitted, committed and still open on the main page, and fill the `retro` sub-page with the timeline, what went well, what didn't and what to try next time.
+When the team moves to retro: put a summary of what is uncommitted, committed and still open on the main page, and fill the `retro` sub-page with the timeline, what went well, what didn't and what to try next time. Add a tokens-per-step table (duration, calls, output, input, cache read), summed from the session log and its sub-agent logs, and compare it with the previous retro. Save the retro as `_docs/ensemble_retro_<date>.md` for the next session.
