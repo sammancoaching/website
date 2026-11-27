@@ -3,7 +3,8 @@ layout: default
 title: Learning Hours Masterclass Training
 event_key: learning_hours_masterclass_training
 calendar_title: Learning Hours Masterclass - Samman Training
-start: "2026-11-10 14:00"
+dates:
+  - "2026-11-10 14:00"
 duration_minutes: 210
 timezone: Europe/Berlin
 location: Online

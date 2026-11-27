@@ -3,7 +3,8 @@ layout: default
 title: AI Coding Dojo
 event_key: ai_coding_dojo
 calendar_title: Samman AI Coding Dojo
-start: "2026-09-10 14:00"
+dates:
+  - "2026-09-10 14:00"
 duration_minutes: 90
 timezone: Europe/Berlin
 location: Online (joining details on our Discord)

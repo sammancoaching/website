@@ -130,6 +130,15 @@
 // ---- Calendar buttons ----
 // Add-to-calendar buttons on an event page, in an even grid.
 
+// One date with its own calendar buttons, boxed so they read as a group.
+.calendar-date-group {
+  margin-bottom: var(--space-inline-gap);
+
+  p {
+    margin-top: 0;
+  }
+}
+
 .calendar-buttons {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));

@@ -118,6 +118,9 @@ Consider also making `--future` irrelevant: the plugin computes upcoming dates i
 * No `webcal_url` is exposed. `calendar_links` and `ics_url` are always present; `next_start`, `next_end`, `next_start_utc` and `next_end_utc` only when `has_upcoming_date` is true.
 * The `.ics` `URL` points at the event's details page, which holds the sign-up form.
 * For repeating events, the exported series starts at the original `start`, not the next date, so `COUNT` in the repeat rule keeps its meaning.
+* An event scheduled more than once without a regular repeat can list `dates:` (wall-clock strings in the event timezone) instead of `start:`. Having both, or `dates` with `rrule`, stops the build with an error. `next_start` etc. and `calendar_links` refer to the first date that hasn't ended yet, and the `.ics` has one `VEVENT` per upcoming date with UID `<key>-YYYYMMDD@sammancoaching.org` (single-`start` events keep `<key>@sammancoaching.org`). See `_upcoming_events/learning_hour.md`.
+* `upcoming_dates` lists every one-off date that hasn't ended yet, sorted, each with `start`, `end`, `start_utc` and `end_utc`. It is set for `start` events too (one item, or empty), but not for repeating events.
+* `CalendarEvent.new(site, doc, now: Time.now.utc)` takes the current time as an optional argument, which picks the upcoming dates and the `.ics` `DTSTAMP`. Unit tests in `tests/ruby/calendar_events_test.rb` use it with a fixed `now`, a fake site/doc and each event's front matter as an inline YAML heredoc next to its tests, so they don't depend on the real events or today's date. Run them with `ruby tests/ruby/calendar_events_test.rb` (also part of `./build_and_test`).
 
 ### 3. Layout: `_layouts/calendar_event.html`
 

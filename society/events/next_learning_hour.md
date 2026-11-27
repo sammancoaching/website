@@ -10,6 +10,10 @@ _Preview new learning hours designed by society members and supporters._
 {% assign learning_hour = site.upcoming_events | where: "event_key", "learning_hour" | first %}
 {% if learning_hour.has_upcoming_date %}
 **Next event: {{ learning_hour.next_start | date: "%A %-d %B %Y" }}**
+{% if learning_hour.upcoming_dates.size > 1 %}
+
+Following events: {% for d in learning_hour.upcoming_dates offset: 1 %}{{ d.start | date: "%A %-d %B %Y" }}{% unless forloop.last %}; {% endunless %}{% endfor %}
+{% endif %}
 {% endif %}
 
 This is a monthly, 90-minute meeting usually held on a Wednesday starting at 17:00 Stockholm/Paris/Berlin. We use this time to try out a new learning hour before it is published on the website. The presenter gets qualified feedback from other coaches.  Hosted by [Emily Bache]({% link society/contributors/emilybache.md %}).
