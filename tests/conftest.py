@@ -101,20 +101,22 @@ def selenium_driver():
     print(f"\nCleaning up: Stopping Jekyll server on port {port}")
     driver.quit()
     
-    # Terminate the server process gracefully first
-    server_process.terminate()
-    try:
-        server_process.wait(timeout=5)
-        print("Jekyll server terminated gracefully")
-    except subprocess.TimeoutExpired:
-        print("Jekyll server did not terminate gracefully, forcing kill")
-        server_process.kill()
-        server_process.wait(timeout=5)
-    
-    # On Windows, ensure all Ruby processes are killed to avoid port conflicts
     if sys.platform.startswith('win'):
-        print("Cleaning up any remaining Ruby processes on Windows")
-        subprocess.call("taskkill.exe /F /im ruby.exe", shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        # With shell=True our process is cmd.exe; terminating it leaves the
+        # Ruby server running. Kill its whole process tree, and nothing else,
+        # so a dev server started separately keeps running.
+        subprocess.call(f"taskkill.exe /F /T /PID {server_process.pid}", shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        server_process.wait(timeout=5)
+    else:
+        # Terminate the server process gracefully first
+        server_process.terminate()
+        try:
+            server_process.wait(timeout=5)
+            print("Jekyll server terminated gracefully")
+        except subprocess.TimeoutExpired:
+            print("Jekyll server did not terminate gracefully, forcing kill")
+            server_process.kill()
+            server_process.wait(timeout=5)
     
     # Give a small delay to ensure port is released
     time.sleep(1)
